@@ -5,12 +5,14 @@ For each point: assets/web/<point>/<n>.jpg (1200 px on the long side) and <n>-s.
 0 is the main photo. No metadata is kept. Writes data/photos.json (photos per point, main first) and
 assets/web/credits.json, which build_credits.py adds to data/credits.json.
 python pipeline/make_web_photos.py               saved (reviewed) points only
+python pipeline/make_web_photos.py --suggested   also unreviewed points, using the suggested photos
 python pipeline/make_web_photos.py --chapter 1   one chapter
 """
 import json, os, io, sys, time, hashlib, glob, urllib.parse
 from PIL import Image, ImageOps
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_slides import http, log
+from review_photos import suggested
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)          # repository root: data/, docs/, assets/
@@ -24,6 +26,9 @@ cands = load(os.path.join(HERE, "cache", "slides", "candidates.json"), {})
 picks = load(os.path.join(ROOT, "data", "photo_picks.json"), {})
 photos = load(os.path.join(ROOT, "data", "photos.json"), {})
 credits = load(os.path.join(WEB, "credits.json"), {})
+photos_made = {}                                            # point -> files used, from the credits
+for k, c in sorted(credits.items(), key=lambda kv: (kv[0].split("/")[2], int(kv[0].split("/")[3][:-4]))):
+    photos_made.setdefault(k.split("/")[2], []).append(c["file"])
 
 def source_url(c):
     """A 1280 px copy from Wikimedia (a standard thumbnail size), else the original."""
@@ -34,15 +39,19 @@ def source_url(c):
     return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/1280px-{q}"
 
 def save(im, path, size):
-    im = im.copy(); im.thumbnail((size, size), Image.LANCZOS)
+    im = im.copy(); im.thumbnail((size, size), Image.LANCZOS); im.info.clear()     # no comment or other metadata
     im.save(path, "JPEG", quality=80 if size > SMALL else 75, optimize=True, progressive=True)
 
 ch = int(sys.argv[sys.argv.index("--chapter") + 1]) if "--chapter" in sys.argv else None
 for p in trip["points"]:
     pick = picks.get(p["id"])
-    if ch not in (None, p["chapter"]) or not pick or not pick.get("reviewed"): continue
-    items = {c["file"]: c for c in cands.get(p["id"], {}).get("items", [])}
+    if not (pick and pick.get("reviewed")):
+        pick = suggested(cands[p["id"]]) if "--suggested" in sys.argv and cands.get(p["id"], {}).get("items") else None
+    if ch not in (None, p["chapter"]) or not pick or not pick["picks"]: continue
     order = [pick["main"]] + [f for f in pick["picks"] if f != pick["main"]] if pick.get("main") else pick["picks"]
+    if photos_made.get(p["id"]) == order and len(photos.get(p["id"], [])) == len(order):
+        continue                                                # already made from the same choice
+    items = {c["file"]: c for c in cands.get(p["id"], {}).get("items", [])}
     d = os.path.join(WEB, p["id"]); os.makedirs(d, exist_ok=True)
     for f in glob.glob(os.path.join(d, "*.jpg")): os.remove(f)          # choices may have changed
     for k in [k for k in credits if k.startswith(f"assets/web/{p['id']}/")]: del credits[k]

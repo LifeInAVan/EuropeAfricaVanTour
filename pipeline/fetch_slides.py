@@ -25,7 +25,7 @@ SKIP = re.compile(r"\b(map|karte|mapa|carte|plan|plano|diagram|logo|coat.of.arms
                   r"food|dish|menu|tram|bus|cars?|vehicle|portrait|conference|meeting|speech|protest|"
                   r"demonstration|press|politician|minister|president|medal|coin|award|concert|performance|"
                   r"actor|actress|singer|mineral|crystal|specimen|museum.exhibit|fish|snake|lizard|frog|toad|"
-                  r"birds?|mushroom|fungus|beetle|spider|moth|caterpillar|dragonfly|perch|natrix)\b", re.I)
+                  r"location.of|birds?|mushroom|fungus|beetle|spider|moth|caterpillar|dragonfly|perch|natrix)\b", re.I)
 QUALITY = {"Featured pictures on Wikimedia Commons": 5, "Quality images": 3, "Valued images sorted by promotion date": 2}
 
 trip = json.load(open(os.path.join(ROOT, "data", "trip.json"), encoding="utf-8"))
@@ -52,7 +52,8 @@ def api(base, **p):
         time.sleep(0.5); r = http(base + urllib.parse.urlencode(p))
         err = r.get("error", {}).get("code")
         if not err: return r
-        if err not in ("maxlag", "ratelimited", "internal_api_error_DBQueryTimeoutError"): raise RuntimeError(err)
+        if err not in ("maxlag", "ratelimited", "internal_api_error_DBQueryTimeoutError",
+                       "cirrussearch-too-busy-error"): raise RuntimeError(err)
         time.sleep(10 * (k + 1))
     raise RuntimeError("servers busy")
 
@@ -82,9 +83,12 @@ def allowed(lic):
     if not l or "ND" in l.split() or "NC" in l or "FAIR" in l: return False
     return l.startswith(("CC", "PUBLIC DOMAIN", "PD")) or "FAL" in l or l == "ATTRIBUTION"
 
+SPECIES = re.compile(r"^[A-Z][a-z]+ [a-z]+(?: [a-z]+)? \d{2}\.jpe?g$|^[A-Z][a-z]+ [a-z]{4,} [A-Z(]|\([A-Z][a-z]+ [a-z]+\)")   # "Theba pisana 01.jpg", "Haliaeetus albicilla (Svolvær)": wildlife, not the place
+
 def usable(c):
+    f = c["file"].replace("_", " ")
     return (c["mime"] == "image/jpeg" and c["w"] >= MIN_W and allowed(c["license"])
-            and not SKIP.search(c["file"].replace("_", " ")) and not SKIP.search(c["desc"]))
+            and not SKIP.search(f) and not SKIP.search(c["desc"]) and not SPECIES.search(f.replace(".JPG", ".jpg")))
 
 def km(a, b):
     la1, lo1, la2, lo2 = map(math.radians, (*a, *b))
@@ -133,9 +137,9 @@ ov_calls = 0
 def candidates(p):
     global ov_calls
     found, seen = [], set()
-    def take(lst, source, bonus=0):
+    def take(lst, source, bonus=0, located=False):
         for rank, c in enumerate(lst):                          # search results come best match first
-            if c["file"] in seen or not usable(c) or not near(c, p): continue
+            if c["file"] in seen or not usable(c) or not near(c, p) or (located and not c.get("at")): continue
             seen.add(c["file"]); c.setdefault("source", source); c["bonus"] = bonus - rank / 25; found.append(c)
     film = info.get(p.get("title", ""), {}).get("file")
     article = p.get("wikipedia") or p.get("title") or p["name"]     # unchecked names are tried too; photos are reviewed
@@ -144,7 +148,7 @@ def candidates(p):
     if first: take(files_info(titles="|".join("File:" + f for f in first)), "Wikipedia", bonus=3)
     name = re.sub(r"\s*\(.*\)", "", article).replace(",", " ")      # rated photos that name the place
     take(files_info(generator="search", gsrsearch=f'{name} incategory:"Quality_images" filetype:bitmap',
-                    gsrnamespace=6, gsrlimit=50), "Commons quality")
+                    gsrnamespace=6, gsrlimit=50), "Commons quality", located=True)   # names clash: must be taken nearby
     if cat:                                                     # the category and its subcategories
         for q in (f'incategory:"{cat}" filetype:bitmap', f'deepcat:"{cat}" filetype:bitmap'):
             n = len(found)                                      # the place's own category first
