@@ -1,0 +1,117 @@
+{
+ "note": "Day numbers count from departure (day 0). Dates are worked out from the start date in data/trip.json.",
+ "chapters": [
+  {
+   "id": 1,
+   "part": "One: south (2027)",
+   "name": "Baltic departure",
+   "start_day": 0,
+   "end_day": 6
+  },
+  {
+   "id": 2,
+   "part": "One: south (2027)",
+   "name": "Heart of Europe",
+   "start_day": 7,
+   "end_day": 19
+  },
+  {
+   "id": 3,
+   "part": "One: south (2027)",
+   "name": "Dinaric wilds",
+   "start_day": 20,
+   "end_day": 35
+  },
+  {
+   "id": 4,
+   "part": "One: south (2027)",
+   "name": "Adriatic and Ionian",
+   "start_day": 36,
+   "end_day": 56
+  },
+  {
+   "id": 5,
+   "part": "One: south (2027)",
+   "name": "Puglia to Rome",
+   "start_day": 57,
+   "end_day": 63
+  },
+  {
+   "id": 6,
+   "part": "One: south (2027)",
+   "name": "Pyrenees, the Vuelta and Green Spain",
+   "start_day": 64,
+   "end_day": 90
+  },
+  {
+   "id": 7,
+   "part": "One: south (2027)",
+   "name": "Portugal",
+   "start_day": 91,
+   "end_day": 127
+  },
+  {
+   "id": 8,
+   "part": "One: south (2027)",
+   "name": "Morocco: Atlas, Sahara, winter and Toubkal",
+   "start_day": 128,
+   "end_day": 208
+  },
+  {
+   "id": 9,
+   "part": "Two: home the long way (2028)",
+   "name": "Al-Andalus and the Mediterranean",
+   "start_day": 209,
+   "end_day": 250
+  },
+  {
+   "id": 10,
+   "part": "Two: home the long way (2028)",
+   "name": "Provence",
+   "start_day": 251,
+   "end_day": 265
+  },
+  {
+   "id": 11,
+   "part": "Two: home the long way (2028)",
+   "name": "The Alps",
+   "start_day": 266,
+   "end_day": 274
+  },
+  {
+   "id": 12,
+   "part": "Two: home the long way (2028)",
+   "name": "Rhine to the Oder",
+   "start_day": 275,
+   "end_day": 296
+  },
+  {
+   "id": 13,
+   "part": "Two: home the long way (2028)",
+   "name": "Poland's coast and lakes",
+   "start_day": 297,
+   "end_day": 314
+  },
+  {
+   "id": 14,
+   "part": "Two: home the long way (2028)",
+   "name": "Baltic states and Laulupidu",
+   "start_day": 315,
+   "end_day": 358
+  },
+  {
+   "id": 15,
+   "part": "Two: home the long way (2028)",
+   "name": "Lapland and Arctic Norway",
+   "start_day": 359,
+   "end_day": 376
+  },
+  {
+   "id": 16,
+   "part": "Two: home the long way (2028)",
+   "name": "Fjords and home",
+   "start_day": 377,
+   "end_day": 400
+  }
+ ]
+}
