@@ -20,6 +20,8 @@ Films and `music.wav` are not committed.
 - `build_festivals.py` – `data/festivals.json` and `docs/festivals.md`
 - `osrm_dist.py` – true road distances and driving times -> `cache/osrm_dist.json`
 - `fetch_all.py`, `fetch_hl_images.py`, `add_new.py` – fetch highlight and stop photos and their credits
+- `strip_metadata.py` – removes GPS, camera and other metadata from every photo in `assets/`, without
+  re-compressing; `--check` lists any photo that still has some. Run it before committing photos.
 
 ## Data
 - `../data/route.json` – legs (colours), stops (id, lat/lon, date, caption), `ferries` keyed `fromId>toId`
