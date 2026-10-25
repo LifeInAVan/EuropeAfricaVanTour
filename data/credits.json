@@ -1,4 +1,9 @@
 {
+ "assets/_end/dianne.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
  "assets/_hl/003ddd548f4b.jpg": {
   "place": "Örebro Castle",
   "artist": "sk12",
@@ -2919,5 +2924,160 @@
   "license": "CC BY-SA 3.0",
   "source": "Wikimedia Commons",
   "file": "Vikos_Gorge_from_Beloe.jpg"
+ },
+ "assets/_title/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
+ "assets/alsace/IMG_5276.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "alsace"
+ },
+ "assets/balaton/lakeside.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "balaton"
+ },
+ "assets/barbagia/IMG_5258.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "barbagia"
+ },
+ "assets/berlin/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "berlin"
+ },
+ "assets/camargue/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "camargue"
+ },
+ "assets/douro/IMG_4482.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "douro"
+ },
+ "assets/golega/IMG_1536.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "golega"
+ },
+ "assets/home1/tallinn.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "home1"
+ },
+ "assets/home2/IMG_9984.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "home2"
+ },
+ "assets/igoumenitsa/IMG_5978.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "igoumenitsa"
+ },
+ "assets/kotor/IMG_0730.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "kotor"
+ },
+ "assets/krakow/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "krakow"
+ },
+ "assets/lofoten/IMG_8495.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "lofoten"
+ },
+ "assets/logrono/tandem.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "logrono"
+ },
+ "assets/nida/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "nida"
+ },
+ "assets/nordkapp/IMG_6221.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "nordkapp"
+ },
+ "assets/parnu/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "parnu"
+ },
+ "assets/picos/cycling.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "picos"
+ },
+ "assets/riviera/IMG_5284.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "riviera"
+ },
+ "assets/sarajevo/IMG_0827.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "sarajevo"
+ },
+ "assets/stockholm/van.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "stockholm"
+ },
+ "assets/tiznit/IMG_1259.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "tiznit"
+ },
+ "assets/toubkal/hike.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "toubkal"
+ },
+ "assets/trencin/IMG_6412.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "trencin"
+ },
+ "assets/zagori/IMG_8743.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo",
+  "stop": "zagori"
  }
 }
