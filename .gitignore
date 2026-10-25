@@ -16,3 +16,6 @@ desktop.ini
 
 # Contact sheets for checking photos by eye
 review/
+
+# Photo candidates and previews (downloaded, not committed)
+pipeline/cache/slides/

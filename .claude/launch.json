@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "photo-review",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["pipeline/review_photos.py"],
+      "port": 8765
+    }
+  ]
+}

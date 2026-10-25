@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """data/credits.json: one entry per photo under assets/, keyed by its path.
-Place photos take their credit from assets/_hl/credits.json and assets/_sights/credits.json;
+Place photos take their credit from assets/_hl/credits.json, assets/_sights/credits.json and
+assets/web/credits.json (slideshows);
 photos in the stop folders, _title and _end are our own."""
 import json, os, glob, hashlib
 
@@ -26,6 +27,8 @@ for p in sorted(glob.glob(os.path.join(A, "*", "*.jpg"))):
         if rel not in out: missing.append(rel)
         continue
     out[rel] = dict(OWN, stop=None if folder.startswith("_") else folder)
+web = os.path.join(A, "web", "credits.json")                 # slideshow photos, from make_web_photos.py
+if os.path.exists(web): out.update(json.load(open(web, encoding="utf-8")))
 out = {k: {f: v for f, v in e.items() if v is not None} for k, e in sorted(out.items())}
 json.dump(out, open(os.path.join(ROOT, "data", "credits.json"), "w", encoding="utf-8", newline="\n"),
           ensure_ascii=False, indent=1)
