@@ -22,6 +22,7 @@ Films and `music.wav` are not committed.
 - `fetch_all.py`, `fetch_hl_images.py`, `add_new.py` – fetch highlight and stop photos and their credits
 - `strip_metadata.py` – removes GPS, camera and other metadata from every photo in `assets/`, without
   re-compressing; `--check` lists any photo that still has some. Run it before committing photos.
+- `build_credits.py` – `data/credits.json`: artist, licence and source for every photo, keyed by path
 
 ## Data
 - `../data/route.json` – legs (colours), stops (id, lat/lon, date, caption), `ferries` keyed `fromId>toId`

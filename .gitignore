@@ -13,3 +13,6 @@ desktop.ini
 .DS_Store
 *.tmp
 ~$*
+
+# Contact sheets for checking photos by eye
+review/

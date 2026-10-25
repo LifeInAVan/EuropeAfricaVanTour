@@ -1,0 +1,221 @@
+{
+ "home1": {
+  "title": "Tallinn",
+  "file": "Raekoja_plats_at_night.jpg",
+  "artist": "Jorge Franganillo",
+  "license": "CC BY 2.0"
+ },
+ "parnu": {
+  "title": "Pärnu",
+  "file": "Pärnu_kesklinn_-_Aerial_photo_of_Pärnu_in_Estonia_(2).jpg",
+  "artist": "Kristian Pikner",
+  "license": "CC BY-SA 4.0"
+ },
+ "nida": {
+  "title": "Curonian Spit",
+  "file": "Mirties_slėnis_nuo_Parnidžio_kopos.JPG",
+  "artist": "Hugo.arg (talk)",
+  "license": "Public domain"
+ },
+ "krakow": {
+  "title": "Main Square, Kraków",
+  "file": "Sukiennice_and_Main_Market_Square_Krakow_Poland.JPG",
+  "artist": "Jorge Lascar",
+  "license": "CC BY 2.0"
+ },
+ "tatras": {
+  "title": "Morskie Oko",
+  "file": "Morskie_Oko_08_VIII_2004-0015.jpg",
+  "artist": "Dixi",
+  "license": "CC BY-SA 3.0"
+ },
+ "trencin": {
+  "title": "Trenčín Castle",
+  "file": "Trencin_Castle_030.jpg",
+  "artist": "Ingo Mehling",
+  "license": "CC BY-SA 4.0"
+ },
+ "balaton": {
+  "title": "Lake Balaton",
+  "file": "Balaton_Hungary_Landscape.jpg",
+  "artist": "txd",
+  "license": "CC BY 2.0"
+ },
+ "plitvice": {
+  "title": "Plitvice Lakes National Park",
+  "file": "View_in_Plitvice_Lakes_National_Park.jpg",
+  "artist": "Zysko serhii",
+  "license": "CC BY-SA 4.0"
+ },
+ "sarajevo": {
+  "title": "Baščaršija",
+  "file": "Sarajevo_Bascarsija_from_Trebevic.JPG",
+  "artist": "Julian Nyča",
+  "license": "CC BY-SA 3.0"
+ },
+ "sutjeska": {
+  "title": "Sutjeska National Park",
+  "file": "NP001_nacionalni_park_sutjeska_perucica.jpg",
+  "artist": "Budzak2",
+  "license": "CC BY-SA 4.0"
+ },
+ "durmitor": {
+  "title": "Durmitor",
+  "file": "Durmitor.jpg",
+  "artist": "Andrea Polereczky",
+  "license": "CC BY-SA 3.0"
+ },
+ "kotor": {
+  "title": "Bay of Kotor",
+  "file": "Kotor_aerial_1.jpg",
+  "artist": "kallerna",
+  "license": "CC BY-SA 4.0"
+ },
+ "shkodra": {
+  "title": "Lake Skadar",
+  "file": "Skadarsko_Jezero.jpg",
+  "artist": "kallerna",
+  "license": "CC BY-SA 4.0"
+ },
+ "zagori": {
+  "title": "Vikos Gorge",
+  "file": "Vikos_Gorge_from_Beloe.jpg",
+  "artist": "Skamnelis",
+  "license": "CC BY-SA 3.0"
+ },
+ "meteora": {
+  "title": "Meteora",
+  "file": "Meteora's_monastery_2.jpg",
+  "artist": "Stathis floros",
+  "license": "CC BY-SA 4.0"
+ },
+ "igoumenitsa": {
+  "title": "Igoumenitsa",
+  "file": "Igoumenitsa_city.jpg",
+  "artist": "Evmeos",
+  "license": "CC BY-SA 3.0"
+ },
+ "matera": {
+  "title": "Sassi di Matera",
+  "file": "Matera_boenisch_nov_2005.jpg",
+  "artist": "Bönisch",
+  "license": "CC BY-SA 2.0 de"
+ },
+ "barbagia": {
+  "title": "Gennargentu",
+  "file": "Gusana.jpg",
+  "artist": "Gianfranco",
+  "license": "CC BY-SA 4.0"
+ },
+ "portotorres": {
+  "title": "Porto Torres",
+  "file": "Porto_Torres_-_Municipio_(01).jpg",
+  "artist": "Gianni Careddu",
+  "license": "CC BY-SA 3.0"
+ },
+ "logrono": {
+  "title": "Logroño",
+  "file": "Old_Town_Plaza_-_Logrono_-_La_Rioja_-_Spain_(14576256386)_edited.jpg",
+  "artist": "Adam Jones from Kelowna, BC, Canada",
+  "license": "CC BY-SA 2.0"
+ },
+ "picos": {
+  "title": "Picos de Europa",
+  "file": "Picu_Urriellu.jpg",
+  "artist": "Evölah",
+  "license": "CC BY-SA 3.0"
+ },
+ "douro": {
+  "title": "Douro",
+  "file": "Rio_Douro_-_Portugal_(32615481975)_(cropped).jpg",
+  "artist": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+  "license": "CC BY-SA 2.0"
+ },
+ "golega": {
+  "title": "Golegã",
+  "file": "Golegã_Nossa_Senhora_da_Conceição_694.jpg",
+  "artist": "GFreihalter",
+  "license": "CC BY-SA 3.0"
+ },
+ "algeciras": {
+  "title": "Strait of Gibraltar",
+  "file": "STS059-238-074_Strait_of_Gibraltar.jpg",
+  "artist": "NASA",
+  "license": "Public domain"
+ },
+ "toubkal": {
+  "artist": "Boris Macek",
+  "license": "CC BY-SA 3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Djemaa_el_Fna.jpg/960px-Djemaa_el_Fna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "title": "Marrakech"
+ },
+ "merzouga": {
+  "title": "Erg Chebbi",
+  "file": "Merzouga_Dunes_2011.jpg",
+  "artist": "Bjørn Christian Tørrissen",
+  "license": "CC BY-SA 3.0"
+ },
+ "tiznit": {
+  "title": "Tiznit",
+  "file": "Palace_de_source_bleue.jpg",
+  "artist": "Rachidourkia",
+  "license": "CC0"
+ },
+ "camargue": {
+  "title": "Camargue",
+  "file": "Camargue 2017.jpg",
+  "artist": "Wolfgang Moroder",
+  "license": "CC BY-SA 3.0"
+ },
+ "alsace": {
+  "title": "Riquewihr",
+  "file": "0_Riquewihr_(1).jpg",
+  "artist": "Jean-Pol GRANDMONT",
+  "license": "CC BY 4.0"
+ },
+ "berlin": {
+  "title": "Brandenburg Gate",
+  "file": "Brandenburger_Tor_abends.jpg",
+  "artist": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0"
+ },
+ "nordkapp": {
+  "title": "North Cape (Norway)",
+  "file": "Norway,_North_Cape.jpg",
+  "artist": "European Union, Copernicus Sentinel-2 imagery",
+  "license": "Attribution"
+ },
+ "geiranger": {
+  "title": "Geirangerfjord",
+  "file": "Geirangerfjord_.jpg",
+  "artist": "Andreas Trepte",
+  "license": "CC BY-SA 2.5"
+ },
+ "stockholm": {
+  "title": "Gamla Stan",
+  "file": "Gamla_stan_September_2014_01.jpg",
+  "artist": "Arild Vågen",
+  "license": "CC BY-SA 4.0"
+ },
+ "home2": {
+  "title": "Pärnu",
+  "file": "Pärnu_kesklinn_-_Aerial_photo_of_Pärnu_in_Estonia_(2).jpg",
+  "artist": "Kristian Pikner",
+  "license": "CC BY-SA 4.0"
+ },
+ "lofoten": {
+  "title": "Reine, Norway",
+  "file": "Reine_at_Reinefjorden,_2010_September.jpg",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 3.0"
+ },
+ "soca": {
+  "artist": "artnbarb",
+  "license": "CC BY-NC-SA 2.0",
+  "source": "flickr via Openverse",
+  "url": "https://www.flickr.com/photos/77742578@N00/14890865645",
+  "title": "Soča river valley",
+  "file": "ov:d93629ab-a755-4ce6-812d-89040c53e8ae"
+ }
+}
