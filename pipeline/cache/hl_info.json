@@ -1,0 +1,4389 @@
+{
+ "Kravica Waterfall": {
+  "resolved": "Kravica (waterfall)",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   17.603672,
+   43.154121
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Waterfalls_Kravica_5%2C_Bosnia_and_Herzegovina.jpg/960px-Waterfalls_Kravica_5%2C_Bosnia_and_Herzegovina.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Waterfalls_Kravica_5,_Bosnia_and_Herzegovina.jpg",
+  "desc": "Waterfall in Bosnia and Herzegovina"
+ },
+ "Banská Štiavnica": {
+  "resolved": "Banská Štiavnica",
+  "missing": false,
+  "coords": [
+   18.89638889,
+   48.45805556
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/SK_BS_Trinity_Square.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "SK_BS_Trinity_Square.PNG",
+  "desc": "City in Slovakia"
+ },
+ "Berat": {
+  "resolved": "Berat",
+  "missing": false,
+  "coords": [
+   19.95833333,
+   40.70222222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Berat_57.jpg/960px-Berat_57.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Berat_57.jpg",
+  "desc": "Ninth largest city of Albania"
+ },
+ "Butrint": {
+  "resolved": "Butrint",
+  "missing": false,
+  "coords": [
+   20.02055556,
+   39.74555556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Amphitheatre_of_Butrint_2009.jpg/960px-Amphitheatre_of_Butrint_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Amphitheatre_of_Butrint_2009.jpg",
+  "desc": "World Heritage Site in Albania"
+ },
+ "Dodona": {
+  "resolved": "Dodona",
+  "missing": false,
+  "coords": [
+   20.78777778,
+   39.54638889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dodona-Greece-April-2008-107.JPG/960px-Dodona-Greece-April-2008-107.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Dodona-Greece-April-2008-107.JPG",
+  "desc": "Hellenic oracle"
+ },
+ "Esztergom Basilica": {
+  "resolved": "Esztergom Basilica",
+  "missing": false,
+  "coords": [
+   18.73638889,
+   47.79888889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Basilica_in_Esztergom%2C_Hungary_01.jpg/960px-Basilica_in_Esztergom%2C_Hungary_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Basilica_in_Esztergom,_Hungary_01.jpg",
+  "desc": "Ecclesiastic basilica in Esztergom, Hungary"
+ },
+ "Gjirokastër": {
+  "resolved": "Gjirokastër",
+  "missing": false,
+  "coords": [
+   20.13333333,
+   40.06666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gjirokaster_2016-2017.jpg/960px-Gjirokaster_2016-2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Gjirokaster_2016-2017.jpg",
+  "desc": "City in Albania"
+ },
+ "Ioannina": {
+  "resolved": "Ioannina",
+  "missing": false,
+  "coords": [
+   20.85222222,
+   39.66361111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Ioannina_Montage_L.png/960px-Ioannina_Montage_L.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ioannina_Montage_L.png",
+  "desc": "Capital and largest city of Epirus, Greece"
+ },
+ "Jasna Góra Monastery": {
+  "resolved": "Jasna Góra Monastery",
+  "missing": false,
+  "coords": [
+   19.09722222,
+   50.8125
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Cz%C4%99stochowa_klasztor_Jasna_G%C3%B3ra-2162.jpg/960px-Cz%C4%99stochowa_klasztor_Jasna_G%C3%B3ra-2162.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Częstochowa_klasztor_Jasna_Góra-2162.jpg",
+  "desc": "Historic Catholic shrine and pilgrimage site in Częstochowa, Poland"
+ },
+ "Jūrmala": {
+  "resolved": "Jūrmala",
+  "missing": false,
+  "coords": [
+   23.77027778,
+   56.96805556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Jomas_Street%2C_Jurmala%2C_Latvia.png/960px-Jomas_Street%2C_Jurmala%2C_Latvia.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Jomas_Street,_Jurmala,_Latvia.png",
+  "desc": "State city in Vidzeme, Latvia"
+ },
+ "Krka National Park": {
+  "resolved": "Krka National Park",
+  "missing": false,
+  "coords": [
+   15.97277778,
+   43.80194444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Krkawatervallen.jpg/960px-Krkawatervallen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Krkawatervallen.jpg",
+  "desc": "Park in Šibenik-Knin County, Croatia"
+ },
+ "Ksamil": {
+  "resolved": "Ksamil",
+  "missing": false,
+  "coords": [
+   20,
+   39.76666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ksamill-1.jpg/960px-Ksamill-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ksamill-1.jpg",
+  "desc": "Administrative unit in Vlorë, Albania"
+ },
+ "Lake Bled": {
+  "resolved": "Lake Bled",
+  "missing": false,
+  "coords": [
+   14.09472222,
+   46.36444444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_Bled_from_the_Mountain.jpg/960px-Lake_Bled_from_the_Mountain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lake_Bled_from_the_Mountain.jpg",
+  "desc": "Lake in northwestern Slovenia"
+ },
+ "Lake Bohinj": {
+  "resolved": "Lake Bohinj",
+  "missing": false,
+  "coords": [
+   13.85822222,
+   46.28230833
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aerial_image_of_Lake_Bohinj_(view_from_the_south).jpg",
+  "desc": "Glacial lake in Municipality of Bohinj, Triglav National Park"
+ },
+ "Lake Hévíz": {
+  "resolved": "Lake Hévíz",
+  "missing": false,
+  "coords": [
+   17.19305556,
+   46.78722222
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/H%C3%A9v%C3%ADz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Hévíz.jpg",
+  "desc": "Lake in Hévíz, Zala County, Hungary"
+ },
+ "Lukomir": {
+  "resolved": "Lukomir",
+  "missing": false,
+  "coords": [
+   18.18333333,
+   43.63333333
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lukomir%2C_celkovy_pohled_na_nejvyse_polozenou_ves_BaH_%281460_m%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Lukomir,_celkovy_pohled_na_nejvyse_polozenou_ves_BaH_(1460_m).jpg",
+  "desc": "Village in Bosnia and Herzegovina"
+ },
+ "Mehmed Paša Sokolović Bridge": {
+  "resolved": "Mehmed Paša Sokolović Bridge",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   19.2875448,
+   43.7826316
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Bridge_on_the_Drina%2C_januar_2018.jpg/960px-Bridge_on_the_Drina%2C_januar_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bridge_on_the_Drina,_januar_2018.jpg",
+  "desc": "Historic bridge in Višegrad, Bosnia and Herzegovina",
+  "coord_source": "OpenStreetMap"
+ },
+ "Metsovo": {
+  "resolved": "Metsovo",
+  "missing": false,
+  "coords": [
+   21.18388889,
+   39.77027778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Metsovo_overview_bgiu.jpg/960px-Metsovo_overview_bgiu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Metsovo_overview_bgiu.jpg",
+  "desc": "Town in Epirus, Greece"
+ },
+ "Motovun": {
+  "resolved": "Motovun",
+  "missing": false,
+  "coords": [
+   13.83333333,
+   45.33333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aerial_view_to_Motovun.jpg/960px-Aerial_view_to_Motovun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aerial_view_to_Motovun.jpg",
+  "desc": "Municipality in Istria County, Croatia"
+ },
+ "Opatija": {
+  "resolved": "Opatija",
+  "missing": false,
+  "coords": [
+   14.3,
+   45.33333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Opatija_Statue.jpg/960px-Opatija_Statue.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Opatija_Statue.jpg",
+  "desc": "Town in Kvarner, Croatia"
+ },
+ "Orava Castle": {
+  "resolved": "Orava Castle",
+  "missing": false,
+  "coords": [
+   19.35805556,
+   49.26166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Oravsk%C3%BD_hrad_%28celkov%C3%BD_pohled%29.jpg/960px-Oravsk%C3%BD_hrad_%28celkov%C3%BD_pohled%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Oravský_hrad_(celkový_pohled).jpg",
+  "desc": "Castle in Slovakia"
+ },
+ "Ostrog Monastery": {
+  "resolved": "Ostrog Monastery",
+  "missing": false,
+  "coords": [
+   19.02916667,
+   42.675
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_14.JPG/960px-Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_14.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Monasterio_de_Ostrog,_Montenegro,_2014-04-14,_DD_14.JPG",
+  "desc": "Serbian Orthodox monastery near Danilovgrad, Montenegro"
+ },
+ "Pannonhalma Archabbey": {
+  "resolved": "Pannonhalma Archabbey",
+  "missing": false,
+  "coords": [
+   17.76111111,
+   47.55277778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pannonhalma_-_Benc%C3%A9s_ap%C3%A1ts%C3%A1g.jpg/960px-Pannonhalma_-_Benc%C3%A9s_ap%C3%A1ts%C3%A1g.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pannonhalma_-_Bencés_apátság.jpg",
+  "desc": "Benedictine abbey in Hungary"
+ },
+ "Papingo": {
+  "resolved": "Papingo",
+  "missing": false,
+  "coords": [
+   20.73333333,
+   39.96666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Papigko%2CZagorochoria.jpg/960px-Papigko%2CZagorochoria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Papigko,Zagorochoria.jpg",
+  "desc": "Municipal unit in Greece"
+ },
+ "Parga": {
+  "resolved": "Parga",
+  "missing": false,
+  "coords": [
+   20.4,
+   39.28333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pargapanorama.jpg/960px-Pargapanorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pargapanorama.jpg",
+  "desc": "Municipality in Greece"
+ },
+ "Pažaislis Monastery": {
+  "resolved": "Pažaislis Monastery",
+  "missing": false,
+  "coords": [
+   24.022,
+   54.876
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pazaislis_by_Augustas_Didzgalvis.jpg/960px-Pazaislis_by_Augustas_Didzgalvis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pazaislis_by_Augustas_Didzgalvis.jpg",
+  "desc": "Monastery complex in Lithuania"
+ },
+ "Perast": {
+  "resolved": "Perast",
+  "missing": false,
+  "coords": [
+   18.69916667,
+   42.48694444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Perast_100.jpg/960px-Perast_100.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Perast_100.jpg",
+  "desc": "Town in Kotor Municipality, Montenegro"
+ },
+ "Perućica": {
+  "resolved": "Perućica",
+  "missing": false,
+  "coords": [
+   18.69677749,
+   43.31401862
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Np_sutjeska_prasuma_perucica_vodopad_skakavac.JPG/960px-Np_sutjeska_prasuma_perucica_vodopad_skakavac.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Np_sutjeska_prasuma_perucica_vodopad_skakavac.JPG",
+  "desc": "Primeval forest in Bosnia and Herzegovina"
+ },
+ "Pieniny National Park (Poland)": {
+  "resolved": "Pieniny National Park (Poland)",
+  "missing": false,
+  "coords": [
+   20.36666667,
+   49.41666667
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pieniny_Trzy_Korony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Pieniny_Trzy_Korony.jpg",
+  "desc": "National park of Poland"
+ },
+ "Piran": {
+  "resolved": "Piran",
+  "missing": false,
+  "coords": [
+   13.56833333,
+   45.52833333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Piran%2C_Slovenia%2C_Viewpoint.jpg/960px-Piran%2C_Slovenia%2C_Viewpoint.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Piran,_Slovenia,_Viewpoint.jpg",
+  "desc": "Town in Slovenian Littoral, Slovenia"
+ },
+ "Rovinj": {
+  "resolved": "Rovinj",
+  "missing": false,
+  "coords": [
+   13.63333333,
+   45.08333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Rovinj%2C_Croatia.jpg/960px-Rovinj%2C_Croatia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rovinj,_Croatia.jpg",
+  "desc": "Town in Istria, Croatia"
+ },
+ "Stari Bar": {
+  "resolved": "Stari Bar",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   19.1338353,
+   42.093943
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/The_wall_of_Stari_Bar.jpg/960px-The_wall_of_Stari_Bar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "The_wall_of_Stari_Bar.jpg",
+  "desc": "Town in Bar, Montenegro",
+  "coord_source": "OpenStreetMap"
+ },
+ "Stari Most": {
+  "resolved": "Stari Most",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   17.8150367,
+   43.3372636
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mostar_Old_Town_Panorama_2007.jpg/960px-Mostar_Old_Town_Panorama_2007.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mostar_Old_Town_Panorama_2007.jpg",
+  "desc": "Bridge in Mostar, Bosnia and Herzegovina",
+  "coord_source": "OpenStreetMap"
+ },
+ "Sveti Stefan": {
+  "resolved": "Sveti Stefan",
+  "missing": false,
+  "coords": [
+   18.89111111,
+   42.25583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Sveti_Stefan_%2806%29.jpg/960px-Sveti_Stefan_%2806%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sveti_Stefan_(06).jpg",
+  "desc": "Town in Coastal, Montenegro"
+ },
+ "Theth": {
+  "resolved": "Theth",
+  "missing": false,
+  "coords": [
+   19.76666667,
+   42.4
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Theth_Church_Albania.jpg/960px-Theth_Church_Albania.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Theth_Church_Albania.jpg",
+  "desc": "Village in Shkodër, Albania"
+ },
+ "Tihany Abbey": {
+  "resolved": "Tihany Abbey",
+  "missing": false,
+  "coords": [
+   17.88944444,
+   46.91388889
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tihanycivertanlegi1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Tihanycivertanlegi1.jpg",
+  "desc": "Benedictine monastery in Hungary"
+ },
+ "Vlkolínec": {
+  "resolved": "Vlkolínec",
+  "missing": false,
+  "coords": [
+   19.275,
+   49.04166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Vlkolinecslovakia001.jpg/960px-Vlkolinecslovakia001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Vlkolinecslovakia001.jpg",
+  "desc": "Village in Slovakia"
+ },
+ "Wieliczka Salt Mine": {
+  "resolved": "Wieliczka Salt Mine",
+  "missing": false,
+  "coords": [
+   20.06388889,
+   49.97916667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg/960px-%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Αλατωρυχεία_Βιελίτσκα_5021.jpg",
+  "desc": "Polish salt mine operated for 700 years"
+ },
+ "Wigry National Park": {
+  "resolved": "Wigry National Park",
+  "missing": false,
+  "coords": [
+   23.05,
+   54
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Poland_Wigry_Lake.jpg/960px-Poland_Wigry_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Poland_Wigry_Lake.jpg",
+  "desc": "National park in Poland"
+ },
+ "Đurđevića Tara Bridge": {
+  "resolved": "Đurđevića Tara Bridge",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   19.2944699,
+   43.1497109
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/%D0%9C%D0%BE%D1%81%D1%82_%D0%94%D0%B6%D1%83%D1%80%D0%B4%D0%B6%D0%B5%D0%B2%D0%B8%D1%87%D0%B0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Мост_Джурджевича.jpg",
+  "desc": "Bridge in close to Žabljak, Montenegro",
+  "coord_source": "OpenStreetMap"
+ },
+ "Škocjan Caves": {
+  "resolved": "Škocjan Caves",
+  "missing": false,
+  "coords": [
+   14,
+   45.66666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/SkocjanskeJame_2013jpg.jpg/960px-SkocjanskeJame_2013jpg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "SkocjanskeJame_2013jpg.jpg",
+  "desc": "Cave system in Slovenia"
+ },
+ "Krujë Castle": {
+  "resolved": "Fortress of Krujë",
+  "missing": false,
+  "coords": [
+   19.79388889,
+   41.50694444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kalaja_e_Krujes_8.jpg/960px-Kalaja_e_Krujes_8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kalaja_e_Krujes_8.jpg",
+  "desc": "Fortress in Krujë, Albania"
+ },
+ "Piva Lake": {
+  "resolved": "Lake Piva",
+  "missing": false,
+  "coords": [
+   18.862,
+   43.164
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Pluzine.jpg/960px-Pluzine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pluzine.jpg",
+  "desc": "Lake in Montenegro"
+ },
+ "Warsaw Old Town": {
+  "resolved": "Old Town, Warsaw",
+  "missing": false,
+  "coords": [
+   21.0122,
+   52.2497
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/PL_Warsaw_stare_miasto_location.svg/960px-PL_Warsaw_stare_miasto_location.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "PL_Warsaw_stare_miasto_location.svg",
+  "desc": "Neighbourhood and City Information System area in Poland"
+ },
+ "Ventas Rumba": {
+  "resolved": "Venta Rapid",
+  "missing": false,
+  "coords": [
+   21.97897222,
+   56.96797222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Ventas_rumba%2C_13.05.2012.jpg/960px-Ventas_rumba%2C_13.05.2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ventas_rumba,_13.05.2012.jpg",
+  "desc": "Waterfall in Latvia"
+ },
+ "Combarro": {
+  "resolved": "Poio",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   -8.7056,
+   42.4318
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mosteiro_de_San_Xo%C3%A1n_de_Poio.jpg/960px-Mosteiro_de_San_Xo%C3%A1n_de_Poio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mosteiro_de_San_Xoán_de_Poio.jpg",
+  "desc": "Municipality in Galicia, Spain"
+ },
+ "Piódão": {
+  "resolved": "Piódão",
+  "missing": false,
+  "coords": [
+   -7.824757,
+   40.2295511
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Costa Nova do Prado": {
+  "resolved": "Costa Nova do Prado",
+  "missing": false,
+  "coords": [
+   -8.7495432,
+   40.6125817
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Alberobello": {
+  "resolved": "Alberobello",
+  "missing": false,
+  "coords": [
+   17.2377031,
+   40.7841242
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Alberobello_con_il_drone.jpg/960px-Alberobello_con_il_drone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Alberobello_con_il_drone.jpg",
+  "desc": "Town in Apulia, Italy",
+  "coord_source": "OpenStreetMap"
+ },
+ "Alghero": {
+  "resolved": "Alghero",
+  "missing": false,
+  "coords": [
+   8.315,
+   40.56
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "City in Sardinia, Italy"
+ },
+ "Amalfi Coast": {
+  "resolved": "Amalfi Coast",
+  "missing": false,
+  "coords": [
+   14.6,
+   40.65
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Amalfi_Coast_%28Italy%2C_October_2020%29_-_75_%2850558355441%29.jpg/960px-Amalfi_Coast_%28Italy%2C_October_2020%29_-_75_%2850558355441%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg",
+  "desc": "Coastal area in the Campania region, Italy"
+ },
+ "Amarante, Portugal": {
+  "resolved": "Amarante, Portugal",
+  "missing": false,
+  "coords": [
+   -8.08083333,
+   41.27027778
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Amarante_bank.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Amarante_bank.jpg",
+  "desc": "Municipality in Norte, Portugal"
+ },
+ "As Catedrais beach": {
+  "resolved": "As Catedrais beach",
+  "missing": false,
+  "coords": [
+   -7.15722222,
+   43.55388889
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Playa_de_las_catedrales_%28Lugo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Playa_de_las_catedrales_(Lugo).jpg",
+  "desc": "Beach in Aguas Santas, Galicia, Spain"
+ },
+ "Aveiro, Portugal": {
+  "resolved": "Aveiro, Portugal",
+  "missing": false,
+  "coords": [
+   -8.65,
+   40.63333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Canal_Central_de_Aveiro_em_Setembro_2025_-_Foto_07.jpg/960px-Canal_Central_de_Aveiro_em_Setembro_2025_-_Foto_07.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Canal_Central_de_Aveiro_em_Setembro_2025_-_Foto_07.jpg",
+  "desc": "Municipality in Centro, Portugal"
+ },
+ "Bosa": {
+  "resolved": "Bosa",
+  "missing": false,
+  "coords": [
+   8.4986123,
+   40.2970061
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bosa-2298388_960_720.jpg/960px-Bosa-2298388_960_720.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bosa-2298388_960_720.jpg",
+  "desc": "Comune in Sardinia, Italy",
+  "coord_source": "OpenStreetMap"
+ },
+ "Burgos Cathedral": {
+  "resolved": "Burgos Cathedral",
+  "missing": false,
+  "coords": [
+   -3.70447222,
+   42.34080556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Escaleras_a_la_Catedral_--_2023_--_Burgos%2C_Castilla_y_Le%C3%B3n%2C_Espa%C3%B1a.jpg/960px-Escaleras_a_la_Catedral_--_2023_--_Burgos%2C_Castilla_y_Le%C3%B3n%2C_Espa%C3%B1a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Escaleras_a_la_Catedral_--_2023_--_Burgos,_Castilla_y_León,_España.jpg",
+  "desc": "Catholic cathedral in Burgos, Spain"
+ },
+ "Buçaco Palace": {
+  "resolved": "Buçaco Palace",
+  "missing": false,
+  "coords": [
+   -8.36545,
+   40.37603889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Palace_Hotel_do_Bussaco.JPG/960px-Palace_Hotel_do_Bussaco.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Palace_Hotel_do_Bussaco.JPG",
+  "desc": "Palace in Mealhada, Portugal"
+ },
+ "Cala Goloritzé": {
+  "resolved": "Cala Goloritzé",
+  "missing": false,
+  "coords": [
+   9.6889,
+   40.1086
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cala_Coloritze_vom_Land.JPG/960px-Cala_Coloritze_vom_Land.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cala_Coloritze_vom_Land.JPG",
+  "desc": "Beach in Italy"
+ },
+ "Cape Finisterre": {
+  "resolved": "Cape Finisterre",
+  "missing": false,
+  "coords": [
+   -9.27222222,
+   42.8825
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Finisterre.JPG/960px-Finisterre.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Finisterre.JPG",
+  "desc": "Peninsula on the west coast of Galicia, Spain"
+ },
+ "Castro of Santa Trega": {
+  "resolved": "Castro of Santa Trega",
+  "missing": false,
+  "coords": [
+   -8.8698,
+   41.8927
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2014_Castro_de_Santa_Trega._Galiza.jpg/960px-2014_Castro_de_Santa_Trega._Galiza.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "2014_Castro_de_Santa_Trega._Galiza.jpg",
+  "desc": "Archaeological site in Spain"
+ },
+ "Civita di Bagnoregio": {
+  "resolved": "Civita di Bagnoregio",
+  "missing": false,
+  "coords": [
+   12.11388889,
+   42.62777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Civita_%28Bagnoregio%29_-_Panorama.jpg/960px-Civita_%28Bagnoregio%29_-_Panorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Civita_(Bagnoregio)_-_Panorama.jpg",
+  "desc": "Town in the province of Viterbo, Italy"
+ },
+ "Cudillero": {
+  "resolved": "Cudillero",
+  "missing": false,
+  "coords": [
+   -6.15,
+   43.56
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Cudillero_Asturias.jpg/960px-Cudillero_Asturias.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cudillero_Asturias.jpg",
+  "desc": "Municipality in Asturias, Spain"
+ },
+ "Dom Luís I Bridge": {
+  "resolved": "Dom Luís I Bridge",
+  "missing": false,
+  "coords": [
+   -8.609336,
+   41.139863
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Dom_Lu%C3%ADs_I_Bridge_%2836961760686%29.jpg/960px-Dom_Lu%C3%ADs_I_Bridge_%2836961760686%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Dom_Luís_I_Bridge_(36961760686).jpg",
+  "desc": "Bridge in Porto, Portugal"
+ },
+ "Guggenheim Museum Bilbao": {
+  "resolved": "Guggenheim Museum Bilbao",
+  "missing": false,
+  "coords": [
+   -2.93388889,
+   43.26861111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/960px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Museo_Guggenheim,_Bilbao_(31273245344).jpg",
+  "desc": "Modern and contemporary art museum in Bilbao, Spain"
+ },
+ "Lakes of Covadonga": {
+  "resolved": "Lakes of Covadonga",
+  "missing": false,
+  "coords": [
+   -4.98527778,
+   43.27527778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Lago_Ercina_2015.jpg/960px-Lago_Ercina_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lago_Ercina_2015.jpg",
+  "desc": "Lake Enol and Lake Ercina in Spain"
+ },
+ "Lamego": {
+  "resolved": "Lamego",
+  "missing": false,
+  "coords": [
+   -7.81,
+   41.10083333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamego_-_S%C3%A9_de_Lamego.jpg/960px-Lamego_-_S%C3%A9_de_Lamego.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lamego_-_Sé_de_Lamego.jpg",
+  "desc": "Municipality in Norte, Portugal"
+ },
+ "Mateus Palace": {
+  "resolved": "Mateus Palace",
+  "missing": false,
+  "coords": [
+   -7.7125,
+   41.29694444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/MateusPalace1.jpg/960px-MateusPalace1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "MateusPalace1.jpg",
+  "desc": "House in Vila Real, Portugal"
+ },
+ "Montserrat (mountain)": {
+  "resolved": "Montserrat (mountain)",
+  "missing": false,
+  "coords": [
+   1.83777778,
+   41.59166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Montserrat_des_de_Manresa.JPG/960px-Montserrat_des_de_Manresa.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Montserrat_des_de_Manresa.JPG",
+  "desc": "Mountain range in Catalonia, Spain"
+ },
+ "Neptune's Grotto": {
+  "resolved": "Neptune's Grotto",
+  "missing": false,
+  "coords": [
+   8.1601399,
+   40.5648486
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Grotta_di_nettuno_sardinien.jpg/960px-Grotta_di_nettuno_sardinien.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Grotta_di_nettuno_sardinien.jpg",
+  "desc": "Cave near Alghero on the island of Sardinia, Italy"
+ },
+ "Peneda-Gerês National Park": {
+  "resolved": "Peneda-Gerês National Park",
+  "missing": false,
+  "coords": [
+   -8.16277778,
+   41.72472222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Serra_Amarela_%283998067385%29_%282%29.jpg/960px-Serra_Amarela_%283998067385%29_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Serra_Amarela_(3998067385)_(2).jpg",
+  "desc": "National park in Portugal"
+ },
+ "Pinhão": {
+  "resolved": "Pinhão",
+  "missing": false,
+  "coords": [
+   -7.5459983,
+   41.19105
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "Topics referred to by the same term",
+  "coord_source": "OpenStreetMap"
+ },
+ "Pompeii": {
+  "resolved": "Pompeii",
+  "missing": false,
+  "coords": [
+   14.48611111,
+   40.75
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg/960px-Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg",
+  "desc": "Ancient city near modern Naples, Italy"
+ },
+ "Roman walls of Lugo": {
+  "resolved": "Roman walls of Lugo",
+  "missing": false,
+  "coords": [
+   -7.5533,
+   43.0111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Muralla_de_Lugo_-_03.jpg/960px-Muralla_de_Lugo_-_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Muralla_de_Lugo_-_03.jpg",
+  "desc": "Defensive fortification in Lugo, Spain"
+ },
+ "Sagrada Família": {
+  "resolved": "Sagrada Família",
+  "missing": false,
+  "coords": [
+   2.17433,
+   41.40369
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/SF_maig_2_cropped.jpg/960px-SF_maig_2_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "SF_maig_2_cropped.jpg",
+  "desc": "Basilica under construction since 1882 in Barcelona, Spain"
+ },
+ "San Millán de la Cogolla": {
+  "resolved": "San Millán de la Cogolla",
+  "missing": false,
+  "coords": [
+   -2.8656733,
+   42.3258783
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Valle-de-San-Mill%C3%A1n.jpg/960px-Valle-de-San-Mill%C3%A1n.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Valle-de-San-Millán.jpg",
+  "desc": "Municipality in Spain",
+  "coord_source": "OpenStreetMap"
+ },
+ "Santiago de Compostela Cathedral": {
+  "resolved": "Santiago de Compostela Cathedral",
+  "missing": false,
+  "coords": [
+   -8.54444444,
+   42.88055556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Santiago_cathedral_2021.jpg/960px-Santiago_cathedral_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Santiago_cathedral_2021.jpg",
+  "desc": "Catholic cathedral in Galicia, Spain"
+ },
+ "Santillana del Mar": {
+  "resolved": "Santillana del Mar",
+  "missing": false,
+  "coords": [
+   -4.10472222,
+   43.39333333
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a9/ColegiataSantillana-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "ColegiataSantillana-1.jpg",
+  "desc": "Municipality in Cantabria, Spain"
+ },
+ "Serra da Estrela": {
+  "resolved": "Serra da Estrela",
+  "missing": false,
+  "coords": [
+   -7.61296667,
+   40.32186667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Serra_da_Estrela%2C_Portugal.jpg/960px-Serra_da_Estrela%2C_Portugal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Serra_da_Estrela,_Portugal.jpg",
+  "desc": "Mountain range in north-central Portugal"
+ },
+ "Stintino": {
+  "resolved": "Stintino",
+  "missing": false,
+  "coords": [
+   8.225503,
+   40.939162
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Stintino_-_Panorama_%2803%29.jpg/960px-Stintino_-_Panorama_%2803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Stintino_-_Panorama_(03).jpg",
+  "desc": "Comune in Sardinia, Italy",
+  "coord_source": "OpenStreetMap"
+ },
+ "Syvota": {
+  "resolved": "Syvota",
+  "missing": false,
+  "coords": [
+   20.25,
+   39.4
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Grand_Harbour_of_Syvota.JPG/960px-Grand_Harbour_of_Syvota.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Grand_Harbour_of_Syvota.JPG",
+  "desc": "Village in Thesprotia, Greece"
+ },
+ "Tharros": {
+  "resolved": "Tharros",
+  "missing": false,
+  "coords": [
+   8.43972,
+   39.8733
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/At_Sardinia_2024_045.jpg/960px-At_Sardinia_2024_045.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "At_Sardinia_2024_045.jpg",
+  "desc": "Ancient city in Sardinia, Italy"
+ },
+ "University of Coimbra": {
+  "resolved": "University of Coimbra",
+  "missing": false,
+  "coords": [
+   -8.4265,
+   40.2074
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Seal_of_the_University_of_Coimbra.svg/960px-Seal_of_the_University_of_Coimbra.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Seal_of_the_University_of_Coimbra.svg",
+  "desc": "Public university in Coimbra, Portugal"
+ },
+ "Vila Nova de Foz Côa": {
+  "resolved": "Vila Nova de Foz Côa",
+  "missing": false,
+  "coords": [
+   -7.14,
+   41.08
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Muxagata%2C_do_cabeceiro_%284497945868%29_%282%29.jpg/960px-Muxagata%2C_do_cabeceiro_%284497945868%29_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Muxagata,_do_cabeceiro_(4497945868)_(2).jpg",
+  "desc": "Municipality in Norte, Portugal"
+ },
+ "Fuente Dé": {
+  "resolved": "Camaleño",
+  "missing": false,
+  "coords": [
+   -4.8102,
+   43.1456
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Camale%C3%B1o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Camaleño.jpg",
+  "desc": "Municipality in Cantabria, Spain"
+ },
+ "Guimarães Castle": {
+  "resolved": "Castle of Guimarães",
+  "missing": false,
+  "coords": [
+   -8.29035833,
+   41.44790833
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Castelo_de_Guimar%C3%A3es1.jpg/960px-Castelo_de_Guimar%C3%A3es1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Castelo_de_Guimarães1.jpg",
+  "desc": "Medieval castle in Guimarães, Portugal"
+ },
+ "San Juan de Gaztelugatxe": {
+  "resolved": "Gaztelugatxe",
+  "missing": false,
+  "coords": [
+   -2.785,
+   43.447
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gaztelugatxe_en_espagne.jpg/960px-Gaztelugatxe_en_espagne.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Gaztelugatxe_en_espagne.jpg",
+  "desc": "Islet on the coast of Biscay belonging to the municipality of Bermeo, Basque Country"
+ },
+ "Laguardia": {
+  "resolved": "La Guardia",
+  "missing": false,
+  "coords": [
+   -2.5805373,
+   42.5429844
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "Topics referred to by the same term",
+  "coord_source": "OpenStreetMap"
+ },
+ "Ribeira Sacra": {
+  "resolved": "Ribeira Sacra (DO)",
+  "missing": false,
+  "coords": [
+   -7.51611111,
+   42.51638889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/DO_Ribeira_Sacra_location.svg/960px-DO_Ribeira_Sacra_location.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "DO_Ribeira_Sacra_location.svg",
+  "desc": "Denomination of Spanish wine"
+ },
+ "Bom Jesus do Monte": {
+  "resolved": "Sanctuary of Bom Jesus do Monte",
+  "missing": false,
+  "coords": [
+   -8.37702778,
+   41.55494444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Treppenaufgang_Bom_Jesus_do_Monte.jpg/960px-Treppenaufgang_Bom_Jesus_do_Monte.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Treppenaufgang_Bom_Jesus_do_Monte.jpg",
+  "desc": "Church building in Braga, Portugal"
+ },
+ "Su Nuraxi di Barumini": {
+  "resolved": "Su Nuraxi (Barumini)",
+  "missing": false,
+  "coords": [
+   8.99055556,
+   39.70583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nuraghe_Su_Nuraxi_-_Barumini_-_Sardinia_-_Italy_-_30.jpg/960px-Nuraghe_Su_Nuraxi_-_Barumini_-_Sardinia_-_Italy_-_30.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Nuraghe_Su_Nuraxi_-_Barumini_-_Sardinia_-_Italy_-_30.jpg",
+  "desc": "Archaeological site in Sardinia, Italy"
+ },
+ "Benagil Cave": {
+  "resolved": "Benagil Cave",
+  "missing": false,
+  "coords": [
+   -8.4237179,
+   37.087203
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Agdz": {
+  "resolved": "Agdz",
+  "missing": false,
+  "coords": [
+   -6.44972222,
+   30.69777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Agdz_main_street.jpg/960px-Agdz_main_street.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Agdz_main_street.jpg",
+  "desc": "City in Drâa-Tafilalet, Morocco"
+ },
+ "Alcobaça Monastery": {
+  "resolved": "Alcobaça Monastery",
+  "missing": false,
+  "coords": [
+   -8.98,
+   39.54833333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Alcoba%C3%A7a_October_2021-1.jpg/960px-Alcoba%C3%A7a_October_2021-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Alcobaça_October_2021-1.jpg",
+  "desc": "Historic site in Alcobaça, Portugal"
+ },
+ "Alfama": {
+  "resolved": "Alfama",
+  "missing": false,
+  "coords": [
+   -9.13,
+   38.71222222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Lisbon_alfalma.jpg/960px-Lisbon_alfalma.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lisbon_alfalma.jpg",
+  "desc": "Neighborhood in Lisbon"
+ },
+ "Arrábida Natural Park": {
+  "resolved": "Arrábida Natural Park",
+  "missing": false,
+  "coords": [
+   -8.98916667,
+   38.48138889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Parque_Natural_da_Arr%C3%A1bia.jpg/960px-Parque_Natural_da_Arr%C3%A1bia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Parque_Natural_da_Arrábia.jpg",
+  "desc": "Protected area in Portugal"
+ },
+ "Aït Benhaddou": {
+  "resolved": "Aït Benhaddou",
+  "missing": false,
+  "coords": [
+   -7.12888889,
+   31.04722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg/960px-Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ksar_Aït_Benhaddou,_Marocco_(أيت_بن_حدو،_المغرب,_ⴰⵢⵜ_ⵃⴰⴷⴷⵓ).jpg",
+  "desc": "Historical village in southeastern Morocco"
+ },
+ "Batalha Monastery": {
+  "resolved": "Batalha Monastery",
+  "missing": false,
+  "coords": [
+   -8.82611111,
+   39.65916667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Batalha_September_2021-2.jpg/960px-Batalha_September_2021-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Batalha_September_2021-2.jpg",
+  "desc": "Historic site in Batalha, Portugal"
+ },
+ "Belém Tower": {
+  "resolved": "Belém Tower",
+  "missing": false,
+  "coords": [
+   -9.21611111,
+   38.69166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Torre_Bel%C3%A9m_April_2009-4a.jpg/960px-Torre_Bel%C3%A9m_April_2009-4a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Torre_Belém_April_2009-4a.jpg",
+  "desc": "Fortified tower in Lisbon, Portugal"
+ },
+ "Cabo da Roca": {
+  "resolved": "Cabo da Roca",
+  "missing": false,
+  "coords": [
+   -9.50055556,
+   38.78083333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cabo_da_Roca_on_sunset.jpg/960px-Cabo_da_Roca_on_sunset.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cabo_da_Roca_on_sunset.jpg",
+  "desc": "Cape of the Sintra Mountain Range, Portugal"
+ },
+ "Castelo de Vide": {
+  "resolved": "Castelo de Vide",
+  "missing": false,
+  "coords": [
+   -7.51666667,
+   39.33333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Castelo_de_Vide_-_Vila_e_Igreja_Matriz.jpg/960px-Castelo_de_Vide_-_Vila_e_Igreja_Matriz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Castelo_de_Vide_-_Vila_e_Igreja_Matriz.jpg",
+  "desc": "Municipality in Alentejo, Portugal"
+ },
+ "Chefchaouen": {
+  "resolved": "Chefchaouen",
+  "missing": false,
+  "coords": [
+   -5.26972222,
+   35.17138889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chefchaouen-the-blue-city-of-morocco-with-palm-trees-and-the-mountain-view-in-the-backrgound.jpg/960px-Chefchaouen-the-blue-city-of-morocco-with-palm-trees-and-the-mountain-view-in-the-backrgound.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Chefchaouen-the-blue-city-of-morocco-with-palm-trees-and-the-mountain-view-in-the-backrgound.jpg",
+  "desc": "City in Tangier-Tetouan-Al Hoceima, Morocco"
+ },
+ "Comporta": {
+  "resolved": "Comporta",
+  "missing": false,
+  "coords": [
+   -8.7859968,
+   38.3803765
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Quinta_da_Comporta_%28cropped%29.jpg/960px-Quinta_da_Comporta_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Quinta_da_Comporta_(cropped).jpg",
+  "desc": "Region of the Alentejo Coast in Setúbal District, Portugal",
+  "coord_source": "OpenStreetMap"
+ },
+ "Convent of Christ (Tomar)": {
+  "resolved": "Convent of Christ (Tomar)",
+  "missing": false,
+  "coords": [
+   -8.4175,
+   39.60472222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Casa_do_Cap%C3%ADtulo%2C_Convento_de_Cristo_81.jpg/960px-Casa_do_Cap%C3%ADtulo%2C_Convento_de_Cristo_81.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Casa_do_Capítulo,_Convento_de_Cristo_81.jpg",
+  "desc": "Former Catholic convent in Tomar, Portugal"
+ },
+ "Conímbriga": {
+  "resolved": "Conímbriga",
+  "missing": false,
+  "coords": [
+   -8.49055556,
+   40.09944444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Conimbriga_%2813249222603%29.jpg/960px-Conimbriga_%2813249222603%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Conimbriga_(13249222603).jpg",
+  "desc": "Former Roman settlement in Portugal"
+ },
+ "Dadès Gorges": {
+  "resolved": "Dadès Gorges",
+  "missing": false,
+  "coords": [
+   -5.956,
+   31.482
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/%22Spektakul%C3%A4re_Haarnadelkurven%22._04.jpg/960px-%22Spektakul%C3%A4re_Haarnadelkurven%22._04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "\"Spektakuläre_Haarnadelkurven\"._04.jpg",
+  "desc": "Series of wadi gorges in Morocco"
+ },
+ "Ericeira": {
+  "resolved": "Ericeira",
+  "missing": false,
+  "coords": [
+   -9.418,
+   38.962
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Vista_da_Ericeira.jpg/960px-Vista_da_Ericeira.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Vista_da_Ericeira.jpg",
+  "desc": "Civil parish in Lisbon, Portugal"
+ },
+ "Fes el Bali": {
+  "resolved": "Fes el Bali",
+  "missing": false,
+  "coords": [
+   -4.9725,
+   34.0625
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Fes_Bab_Bou_Jeloud_2011.jpg/960px-Fes_Bab_Bou_Jeloud_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Fes_Bab_Bou_Jeloud_2011.jpg",
+  "desc": "UNESCO World Heritage Site in Fez, Morocco"
+ },
+ "Ifrane National Park": {
+  "resolved": "Ifrane National Park",
+  "missing": false,
+  "coords": [
+   -5.13016111,
+   33.43175556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ifrane_National_Park_From_Above.jpg/960px-Ifrane_National_Park_From_Above.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ifrane_National_Park_From_Above.jpg",
+  "desc": "National park in the Moyen Atlas mountains, Morocco"
+ },
+ "Jemaa el-Fnaa": {
+  "resolved": "Jemaa el-Fnaa",
+  "missing": false,
+  "coords": [
+   -7.98944444,
+   31.62583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Djemaa_el_Fna.jpg/960px-Djemaa_el_Fna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Djemaa_el_Fna.jpg",
+  "desc": "Moroccan cultural heritage site"
+ },
+ "Kalaat M'Gouna": {
+  "resolved": "Kalaat M'Gouna",
+  "missing": false,
+  "coords": [
+   -6.12833333,
+   31.24138889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Modern_Pachalik_Building_Facade_in_Kelaa_M%27Gouna.jpg/960px-Modern_Pachalik_Building_Facade_in_Kelaa_M%27Gouna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Modern_Pachalik_Building_Facade_in_Kelaa_M'Gouna.jpg",
+  "desc": "Town in Drâa-Tafilalet, Morocco"
+ },
+ "Majorelle Garden": {
+  "resolved": "Majorelle Garden",
+  "missing": false,
+  "coords": [
+   -8.00305556,
+   31.64277778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Le_jardin_des_majorelle_40.JPG/960px-Le_jardin_des_majorelle_40.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Le_jardin_des_majorelle_40.JPG",
+  "desc": "Art museum, garden in Marrakesh, Morocco"
+ },
+ "Marvão": {
+  "resolved": "Marvão",
+  "missing": false,
+  "coords": [
+   -7.37666667,
+   39.39416667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Marv%C3%A3o_27.jpg/960px-Marv%C3%A3o_27.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Marvão_27.jpg",
+  "desc": "Municipality in Alentejo, Portugal"
+ },
+ "Monsaraz": {
+  "resolved": "Monsaraz",
+  "missing": false,
+  "coords": [
+   -7.381,
+   38.444
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Monsaraz_and_the_Alqueva_Reservoir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Monsaraz_and_the_Alqueva_Reservoir.jpg",
+  "desc": "Civil parish in Alentejo, Portugal"
+ },
+ "N'Kob": {
+  "resolved": "N'Kob",
+  "missing": false,
+  "coords": [
+   -5.8625,
+   30.87055556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nkob_village_d%E2%80%99accueil.jpg/960px-Nkob_village_d%E2%80%99accueil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Nkob_village_d’accueil.jpg",
+  "desc": "Town in Drâa-Tafilalet, Morocco"
+ },
+ "Nazaré, Portugal": {
+  "resolved": "Nazaré, Portugal",
+  "missing": false,
+  "coords": [
+   -9.07055556,
+   39.60111111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/La_grande_plage_de_Nazar%C3%A9_-_panoramio_%2820%29.jpg/960px-La_grande_plage_de_Nazar%C3%A9_-_panoramio_%2820%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "La_grande_plage_de_Nazaré_-_panoramio_(20).jpg",
+  "desc": "Municipality in Oeste e Vale do Tejo, Portugal"
+ },
+ "Ouzoud Falls": {
+  "resolved": "Ouzoud Falls",
+  "missing": false,
+  "coords": [
+   -6.7189,
+   32.0152
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Ouzoud_waterfalls_from_below.jpeg/960px-Ouzoud_waterfalls_from_below.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ouzoud_waterfalls_from_below.jpeg",
+  "desc": "Waterfalls in Morocco"
+ },
+ "Pena Palace": {
+  "resolved": "Pena Palace",
+  "missing": false,
+  "coords": [
+   -9.39055556,
+   38.78777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg/960px-Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+  "desc": "Castle in Sintra, Portugal"
+ },
+ "Peniche, Portugal": {
+  "resolved": "Peniche, Portugal",
+  "missing": false,
+  "coords": [
+   -9.36666667,
+   39.35
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Baleal%2C_Peniche_%2837361738426%29.jpg/960px-Baleal%2C_Peniche_%2837361738426%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Baleal,_Peniche_(37361738426).jpg",
+  "desc": "Municipality in Oeste e Vale do Tejo, Portugal"
+ },
+ "Ponta da Piedade": {
+  "resolved": "Ponta da Piedade",
+  "missing": false,
+  "coords": [
+   -8.67,
+   37.081
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ponta_da_Piedade_aerial_view.jpg/960px-Ponta_da_Piedade_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ponta_da_Piedade_aerial_view.jpg",
+  "desc": "Portuguese rock formation"
+ },
+ "Rissani": {
+  "resolved": "Rissani",
+  "missing": false,
+  "coords": [
+   -4.275093,
+   31.285948
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/MAUSOL%C3%89E_MOULAY_ALI_CHERIF_-rissani_-maroc.jpg/960px-MAUSOL%C3%89E_MOULAY_ALI_CHERIF_-rissani_-maroc.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "MAUSOLÉE_MOULAY_ALI_CHERIF_-rissani_-maroc.jpg",
+  "desc": "Town in Drâa-Tafilalet, Morocco"
+ },
+ "Roman Temple of Évora": {
+  "resolved": "Roman Temple of Évora",
+  "missing": false,
+  "coords": [
+   -7.90778472,
+   38.57306
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/Evora_roman-temple_panoramic-view_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Evora_roman-temple_panoramic-view_cropped.jpg",
+  "desc": "Temple in Évora, Portugal"
+ },
+ "Skoura": {
+  "resolved": "Skoura",
+  "missing": false,
+  "coords": [
+   -6.55555556,
+   31.06055556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Skoura%2C_Marocco.jpg/960px-Skoura%2C_Marocco.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Skoura,_Marocco.jpg",
+  "desc": "Town in Drâa-Tafilalet, Morocco"
+ },
+ "Souss-Massa National Park": {
+  "resolved": "Souss-Massa National Park",
+  "missing": false,
+  "coords": [
+   -9.67,
+   30.075
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Museum_Souss_Massa_Park_Sidi_Binzarn_Oct25_A7CR_08117.jpg/960px-Museum_Souss_Massa_Park_Sidi_Binzarn_Oct25_A7CR_08117.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Museum_Souss_Massa_Park_Sidi_Binzarn_Oct25_A7CR_08117.jpg",
+  "desc": "National park in Morocco"
+ },
+ "Taghazout": {
+  "resolved": "Taghazout",
+  "missing": false,
+  "coords": [
+   -9.6784988,
+   30.5846695
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Taghazout_street_-_2026-02-02.jpg/960px-Taghazout_street_-_2026-02-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Taghazout_street_-_2026-02-02.jpg",
+  "desc": "Village in Souss-Massa, Morocco",
+  "coord_source": "OpenStreetMap"
+ },
+ "Taliouine": {
+  "resolved": "Taliouine",
+  "missing": false,
+  "coords": [
+   -7.92555556,
+   30.53277778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taliouine_Kasbah.jpg/960px-Taliouine_Kasbah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Taliouine_Kasbah.jpg",
+  "desc": "Town in Souss-Massa, Morocco"
+ },
+ "Tamegroute": {
+  "resolved": "Tamegroute",
+  "missing": false,
+  "coords": [
+   -5.66666667,
+   30.26666667
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Traditional_Earthen_Buildings_of_Tamegroute%2C_Morocco_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Traditional_Earthen_Buildings_of_Tamegroute,_Morocco_(2025).jpg",
+  "desc": "Place in Drâa-Tafilalet, Morocco"
+ },
+ "Taroudant": {
+  "resolved": "Taroudant",
+  "missing": false,
+  "coords": [
+   -8.8806,
+   30.47099722
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Taroudannt_main_gate.jpg/960px-Taroudannt_main_gate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Taroudannt_main_gate.jpg",
+  "desc": "City in Souss-Massa, Morocco"
+ },
+ "Telouet Kasbah": {
+  "resolved": "Telouet Kasbah",
+  "missing": false,
+  "coords": [
+   -7.24111111,
+   31.28833333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kasbah_de_Telouet_2.jpg/960px-Kasbah_de_Telouet_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kasbah_de_Telouet_2.jpg",
+  "desc": "Moroccan cultural heritage site"
+ },
+ "Todgha Gorge": {
+  "resolved": "Todgha Gorge",
+  "missing": false,
+  "coords": [
+   -5.59,
+   31.59
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%22Ein_beeindruckendes_Naturwunder%22%2C_17.jpg/960px-%22Ein_beeindruckendes_Naturwunder%22%2C_17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "\"Ein_beeindruckendes_Naturwunder\",_17.jpg",
+  "desc": "Canyon in Morocco"
+ },
+ "Vejer de la Frontera": {
+  "resolved": "Vejer de la Frontera",
+  "missing": false,
+  "coords": [
+   -5.96666667,
+   36.25
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/56/Map_of_Vejer_de_la_Frontera_%28C%C3%A1diz%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Map_of_Vejer_de_la_Frontera_(Cádiz).png",
+  "desc": "Town and municipality in Cádiz"
+ },
+ "Volubilis": {
+  "resolved": "Volubilis",
+  "missing": false,
+  "coords": [
+   -5.55361111,
+   34.07111111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Volubilis_Longshot_II.jpg/960px-Volubilis_Longshot_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Volubilis_Longshot_II.jpg",
+  "desc": "Partly excavated Berber city in Morocco"
+ },
+ "Óbidos, Portugal": {
+  "resolved": "Óbidos, Portugal",
+  "missing": false,
+  "coords": [
+   -9.15777778,
+   39.35805556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%C3%93bidos_view592.jpg/960px-%C3%93bidos_view592.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Óbidos_view592.jpg",
+  "desc": "Municipality in Oeste e Vale do Tejo, Portugal"
+ },
+ "Agadir Oufella": {
+  "resolved": "Agadir Oufla",
+  "missing": false,
+  "coords": [
+   -9.62472222,
+   30.43027778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/AGADIR_OFELLA.jpg/960px-AGADIR_OFELLA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "AGADIR_OFELLA.jpg",
+  "desc": "Moroccan cultural heritage site"
+ },
+ "Almourol Castle": {
+  "resolved": "Castle of Almourol",
+  "missing": false,
+  "coords": [
+   -8.38383056,
+   39.46194444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Almourol_034.jpg/960px-Almourol_034.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Almourol_034.jpg",
+  "desc": "Medieval castle in Praia do Ribatejo, Portugal"
+ },
+ "Taourirt Kasbah": {
+  "resolved": "Kasbah Taourirt",
+  "missing": false,
+  "coords": [
+   -6.89933333,
+   30.92
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ksar_of_Taourirt%2C_Ouarzazate%2C_Morocco_%28%D9%82%D8%B5%D8%A8%D8%A9_%D8%AA%D8%A7%D9%88%D8%B1%D9%8A%D8%B1%D8%AA%2C_%E2%B5%9C%E2%B4%B0%E2%B5%A1%E2%B5%94%E2%B5%89%E2%B5%94%E2%B5%9C%29.jpg/960px-Ksar_of_Taourirt%2C_Ouarzazate%2C_Morocco_%28%D9%82%D8%B5%D8%A8%D8%A9_%D8%AA%D8%A7%D9%88%D8%B1%D9%8A%D8%B1%D8%AA%2C_%E2%B5%9C%E2%B4%B0%E2%B5%A1%E2%B5%94%E2%B5%89%E2%B5%94%E2%B5%9C%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ksar_of_Taourirt,_Ouarzazate,_Morocco_(قصبة_تاوريرت,_ⵜⴰⵡⵔⵉⵔⵜ).jpg",
+  "desc": "Historical site in Morocco"
+ },
+ "Legzira": {
+  "resolved": "Legzira",
+  "missing": false,
+  "coords": [
+   -10.1156151,
+   29.4464595
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Portuguese City of Mazagan": {
+  "resolved": "Portuguese City of Mazagan",
+  "missing": false,
+  "coords": [
+   -8.5023323,
+   33.2567967
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Amphitheatre of Tarragona": {
+  "resolved": "Amphitheatre of Tarragona",
+  "missing": false,
+  "coords": [
+   1.2588068,
+   41.1144377
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Château de Grignan": {
+  "resolved": "Château de Grignan",
+  "missing": false,
+  "coords": [
+   4.9089196,
+   44.4187586
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Aigues-Mortes": {
+  "resolved": "Aigues-Mortes",
+  "missing": false,
+  "coords": [
+   4.1933,
+   43.5675
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Aigues-Mortes_Walls_01.jpg/960px-Aigues-Mortes_Walls_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aigues-Mortes_Walls_01.jpg",
+  "desc": "Commune in Occitanie, France"
+ },
+ "Akka": {
+  "resolved": "Akka",
+  "missing": false,
+  "coords": [
+   -8.256762,
+   29.391861
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "Topics referred to by the same term",
+  "coord_source": "OpenStreetMap"
+ },
+ "Alhambra": {
+  "resolved": "Alhambra",
+  "missing": false,
+  "coords": [
+   -3.59,
+   37.1775
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/960px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+  "desc": "Palace and fortress complex in Granada, Spain"
+ },
+ "Amtoudi": {
+  "resolved": "Amtoudi",
+  "missing": false,
+  "coords": [
+   -9.18666667,
+   29.24277778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/20130319_Marokko_048_Amtoudi.jpg/960px-20130319_Marokko_048_Amtoudi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "20130319_Marokko_048_Amtoudi.jpg",
+  "desc": ""
+ },
+ "Arles Amphitheatre": {
+  "resolved": "Arles Amphitheatre",
+  "missing": false,
+  "coords": [
+   4.63111111,
+   43.67777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/FranceArlesArenes_07-2010.jpg/960px-FranceArlesArenes_07-2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "FranceArlesArenes_07-2010.jpg",
+  "desc": "Ancient Roman amphitheater in Arles, France"
+ },
+ "Asilah": {
+  "resolved": "Asilah",
+  "missing": false,
+  "coords": [
+   -6.03333333,
+   35.46666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Asilah_seafront.jpg/960px-Asilah_seafront.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Asilah_seafront.jpg",
+  "desc": "Town in Tanger-Tetouan-Al Hoceima, Morocco"
+ },
+ "Cabo de Gata-Níjar Natural Park": {
+  "resolved": "Cabo de Gata-Níjar Natural Park",
+  "missing": false,
+  "coords": [
+   -2.1,
+   36.78333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Arrecife_de_las_Sirenas.jpg/960px-Arrecife_de_las_Sirenas.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Arrecife_de_las_Sirenas.jpg",
+  "desc": "Nature park in Almería Province, Spain"
+ },
+ "Cadaqués": {
+  "resolved": "Cadaqués",
+  "missing": false,
+  "coords": [
+   3.2752159,
+   42.2893484
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cadaques_Pueblo_Marinero.JPG/960px-Cadaques_Pueblo_Marinero.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cadaques_Pueblo_Marinero.JPG",
+  "desc": "Municipality in Catalonia",
+  "coord_source": "OpenStreetMap"
+ },
+ "Calanques National Park": {
+  "resolved": "Calanques National Park",
+  "missing": false,
+  "coords": [
+   5.46666667,
+   43.21666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/En-Vau_calanque_4.jpg/960px-En-Vau_calanque_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "En-Vau_calanque_4.jpg",
+  "desc": "French national park in Bouches-du-Rhône"
+ },
+ "Cassis": {
+  "resolved": "Cassis",
+  "missing": false,
+  "coords": [
+   5.5389,
+   43.2167
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Cassis_%28cropped%29.jpg/960px-Cassis_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cassis_(cropped).jpg",
+  "desc": "Administrative division in Provence-Alpes-Côte d'Azur, France"
+ },
+ "City of Arts and Sciences": {
+  "resolved": "City of Arts and Sciences",
+  "missing": false,
+  "coords": [
+   -0.35,
+   39.45416667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_Ciudad_de_las_Artes_y_de_las_Ciencias.svg/960px-Logo_Ciudad_de_las_Artes_y_de_las_Ciencias.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Logo_Ciudad_de_las_Artes_y_de_las_Ciencias.svg",
+  "desc": "Cultural complex in Valencia, Spain"
+ },
+ "Cité de Carcassonne": {
+  "resolved": "Cité de Carcassonne",
+  "missing": false,
+  "coords": [
+   2.36398,
+   43.20662
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/1_carcassonne_aerial_2016.jpg/960px-1_carcassonne_aerial_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "1_carcassonne_aerial_2016.jpg",
+  "desc": "Medieval citadel of Carcassonne, France"
+ },
+ "Collioure": {
+  "resolved": "Collioure",
+  "missing": false,
+  "coords": [
+   3.0814,
+   42.5267
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Collioure_002.jpg/960px-Collioure_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Collioure_002.jpg",
+  "desc": "Commune in Occitania, France"
+ },
+ "Ebro Delta": {
+  "resolved": "Ebro Delta",
+  "missing": false,
+  "coords": [
+   0.6430156,
+   40.5722171
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ebro_Delta_from_Landsat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Ebro_Delta_from_Landsat.jpg",
+  "desc": "River delta in Catalonia",
+  "coord_source": "OpenStreetMap"
+ },
+ "Essaouira": {
+  "resolved": "Essaouira",
+  "missing": false,
+  "coords": [
+   -9.76972222,
+   31.51305556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%22Ein_bemerkenswertes_historisches_Denkmal%22._16.jpg/960px-%22Ein_bemerkenswertes_historisches_Denkmal%22._16.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "\"Ein_bemerkenswertes_historisches_Denkmal\"._16.jpg",
+  "desc": "City in Marrakesh-Safi, Morocco"
+ },
+ "Gordes": {
+  "resolved": "Gordes",
+  "missing": false,
+  "coords": [
+   5.2008,
+   43.9119
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/1_gordes_pano_2016.jpg/960px-1_gordes_pano_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "1_gordes_pano_2016.jpg",
+  "desc": "Commune in Provence-Alpes-Côte d'Azur, France"
+ },
+ "Guelmim": {
+  "resolved": "Guelmim",
+  "missing": false,
+  "coords": [
+   -10.06666667,
+   28.98333333
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bab.Guelmim.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Bab.Guelmim.jpg",
+  "desc": "City in Guelmim-Oued Noun, Morocco"
+ },
+ "Hassan II Mosque": {
+  "resolved": "Hassan II Mosque",
+  "missing": false,
+  "coords": [
+   -7.6327,
+   33.6085
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/ce/Hassan_II_mosque%2C_Casablanca_2.jpg/960px-Hassan_II_mosque%2C_Casablanca_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Hassan_II_mosque,_Casablanca_2.jpg",
+  "desc": "Mosque in Casablanca, Morocco"
+ },
+ "Imsouane": {
+  "resolved": "Imsouane",
+  "missing": false,
+  "coords": [
+   -9.81861111,
+   30.84333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plage_Sud_Imsouane_-_2023.jpg/960px-Plage_Sud_Imsouane_-_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Plage_Sud_Imsouane_-_2023.jpg",
+  "desc": "Rural commune and town in Souss-Massa, Morocco"
+ },
+ "Kasbah of the Udayas": {
+  "resolved": "Kasbah of the Udayas",
+  "missing": false,
+  "coords": [
+   -6.83555556,
+   34.03055556
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kasbah_Oudayas_exterior.jpg/960px-Kasbah_Oudayas_exterior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kasbah_Oudayas_exterior.jpg",
+  "desc": "Historical neighborhood in Rabat, Morocco"
+ },
+ "Khenifiss National Park": {
+  "resolved": "Khenifiss National Park",
+  "missing": false,
+  "coords": [
+   -12.33333333,
+   27.93333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Khenfiss_dunes.jpg/960px-Khenfiss_dunes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Khenfiss_dunes.jpg",
+  "desc": "National park in Morocco"
+ },
+ "Les Baux-de-Provence": {
+  "resolved": "Les Baux-de-Provence",
+  "missing": false,
+  "coords": [
+   4.7953,
+   43.7439
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Baux_de_Provence.jpg/960px-Baux_de_Provence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Baux_de_Provence.jpg",
+  "desc": "Commune in Provence-Alpes-Côte d'Azur, France"
+ },
+ "Mirleft": {
+  "resolved": "Mirleft",
+  "missing": false,
+  "coords": [
+   -9.9698,
+   29.6081
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mirleft_Center.jpg/960px-Mirleft_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mirleft_Center.jpg",
+  "desc": "Rural commune and town in Guelmim-Oued Noun, Morocco"
+ },
+ "Mont Ventoux": {
+  "resolved": "Mont Ventoux",
+  "missing": false,
+  "coords": [
+   5.27888889,
+   44.17444444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Mont_Ventoux_090927.jpg/960px-Mont_Ventoux_090927.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mont_Ventoux_090927.jpg",
+  "desc": "Mountain in France"
+ },
+ "Moustiers-Sainte-Marie": {
+  "resolved": "Moustiers-Sainte-Marie",
+  "missing": false,
+  "coords": [
+   6.2219,
+   43.8483
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Moustiers_Sainte_Marie_1.jpg/960px-Moustiers_Sainte_Marie_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Moustiers_Sainte_Marie_1.jpg",
+  "desc": "Commune in Provence-Alpes-Côte d'Azur, France"
+ },
+ "Oualidia": {
+  "resolved": "Oualidia",
+  "missing": false,
+  "coords": [
+   -9.01666667,
+   32.73333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Parkeerplaats_Oualidia_%286153240484%29.jpg/960px-Parkeerplaats_Oualidia_%286153240484%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Parkeerplaats_Oualidia_(6153240484).jpg",
+  "desc": "Place in Casablanca-Settat, Morocco"
+ },
+ "Palais des Papes": {
+  "resolved": "Palais des Papes",
+  "missing": false,
+  "coords": [
+   4.8075,
+   43.9508
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Avignon_Palais_des_Papes_2013.jpg/960px-Avignon_Palais_des_Papes_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Avignon_Palais_des_Papes_2013.jpg",
+  "desc": "Palace and museum in Avignon, France"
+ },
+ "Pont d'Arc": {
+  "resolved": "Pont d'Arc",
+  "missing": false,
+  "coords": [
+   4.41666667,
+   44.38194444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pont_d%27Arc_arch.JPG/960px-Pont_d%27Arc_arch.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pont_d'Arc_arch.JPG",
+  "desc": "Geological formation in France"
+ },
+ "Pont du Gard": {
+  "resolved": "Pont du Gard",
+  "missing": false,
+  "coords": [
+   4.53555556,
+   43.94722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pont_du_Gard_BLS.jpg/960px-Pont_du_Gard_BLS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pont_du_Gard_BLS.jpg",
+  "desc": "Ancient Roman aqueduct bridge"
+ },
+ "Rock of Gibraltar": {
+  "resolved": "Rock of Gibraltar",
+  "missing": false,
+  "coords": [
+   -5.34311111,
+   36.12447222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Gibraltar_map-en-edit2.svg/960px-Gibraltar_map-en-edit2.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Gibraltar_map-en-edit2.svg",
+  "desc": "Monolithic limestone promontory located in the British overseas territory of Gibraltar"
+ },
+ "Ronda": {
+  "resolved": "Ronda",
+  "missing": false,
+  "coords": [
+   -5.16472222,
+   36.73722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/960px-Ronda_aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Ronda_aerial.jpg",
+  "desc": "Municipality in Andalusia, Spain"
+ },
+ "Roussillon, Vaucluse": {
+  "resolved": "Roussillon, Vaucluse",
+  "missing": false,
+  "coords": [
+   5.2936,
+   43.9031
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Roussillon_%28Vaucluse%29.JPG/960px-Roussillon_%28Vaucluse%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Roussillon_(Vaucluse).JPG",
+  "desc": "Commune in Provence-Alpes-Côte d'Azur, France"
+ },
+ "Sidi Ifni": {
+  "resolved": "Sidi Ifni",
+  "missing": false,
+  "coords": [
+   -10.16666667,
+   29.38333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Die_wei%C3%9F-blauen_H%C3%A4user_von_Sidi_Ifni.jpg/960px-Die_wei%C3%9F-blauen_H%C3%A4user_von_Sidi_Ifni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Die_weiß-blauen_Häuser_von_Sidi_Ifni.jpg",
+  "desc": "City in Guelmim-Oued Noun, Morocco"
+ },
+ "Sénanque Abbey": {
+  "resolved": "Sénanque Abbey",
+  "missing": false,
+  "coords": [
+   5.18694444,
+   43.92833333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Abbaye_Notre-Dame_de_S%C3%A9nanque%2C_2022.jpg/960px-Abbaye_Notre-Dame_de_S%C3%A9nanque%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Abbaye_Notre-Dame_de_Sénanque,_2022.jpg",
+  "desc": "Abbey in Vaucluse, France"
+ },
+ "Tan-Tan": {
+  "resolved": "Tan-Tan",
+  "missing": false,
+  "coords": [
+   -11.1,
+   28.43333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tan_tan.jpg/960px-Tan_tan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tan_tan.jpg",
+  "desc": "Town in Guelmim-Oued Noun, Morocco"
+ },
+ "Tarfaya": {
+  "resolved": "Tarfaya",
+  "missing": false,
+  "coords": [
+   -12.92611111,
+   27.93944444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Tarfaya_city.jpg/960px-Tarfaya_city.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tarfaya_city.jpg",
+  "desc": "Place in Laâyoune-Sakia El Hamra, Morocco"
+ },
+ "Tata, Morocco": {
+  "resolved": "Tata, Morocco",
+  "missing": false,
+  "coords": [
+   -7.9725,
+   29.74277778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Tata_%28centre_ville%29.jpg/960px-Tata_%28centre_ville%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tata_(centre_ville).jpg",
+  "desc": "Place in Souss-Massa, Morocco"
+ },
+ "Peñíscola": {
+  "resolved": "Peniscola",
+  "missing": false,
+  "coords": [
+   0.4075,
+   40.35916667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Peniscola_from_the_beach._Year_1985.jpg/960px-Peniscola_from_the_beach._Year_1985.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Peniscola_from_the_beach._Year_1985.jpg",
+  "desc": "Municipality in Valencian Community, Spain"
+ },
+ "Tafraoute": {
+  "resolved": "Tafraout",
+  "missing": false,
+  "coords": [
+   -8.96666667,
+   29.71666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Tafraoute.jpg/960px-Tafraoute.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tafraoute.jpg",
+  "desc": "Town in Souss-Massa, Morocco"
+ },
+ "Aglou": {
+  "resolved": "Tnine Aglou",
+  "missing": false,
+  "coords": [
+   -9.81261,
+   29.788888
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Aglou_2023_06.jpg/960px-Aglou_2023_06.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aglou_2023_06.jpg",
+  "desc": "Rural commune and town in Souss-Massa-Drâa, Morocco"
+ },
+ "Gorges du Verdon": {
+  "resolved": "Verdon Gorge",
+  "missing": false,
+  "coords": [
+   6.36388889,
+   43.73777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Verdon_Gorge_1.jpg/960px-Verdon_Gorge_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Verdon_Gorge_1.jpg",
+  "desc": "Canyon in Southeastern France"
+ },
+ "Haut-Kœnigsbourg Castle": {
+  "resolved": "Haut-Kœnigsbourg Castle",
+  "missing": false,
+  "coords": [
+   7.3439412,
+   48.249382
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Reichsburg Cochem": {
+  "resolved": "Reichsburg Cochem",
+  "missing": false,
+  "coords": [
+   7.167087,
+   50.1422279
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Moritzburg Castle (Saxony)": {
+  "resolved": "Moritzburg Castle (Saxony)",
+  "missing": false,
+  "coords": [
+   13.679487,
+   51.1675579
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Aiguille du Midi": {
+  "resolved": "Aiguille du Midi",
+  "missing": false,
+  "coords": [
+   6.88722222,
+   45.87861111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Aiguille-du-Midi-sundown.JPG/960px-Aiguille-du-Midi-sundown.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aiguille-du-Midi-sundown.JPG",
+  "desc": "Mountain in the French Alps"
+ },
+ "Bamberg": {
+  "resolved": "Bamberg",
+  "missing": false,
+  "coords": [
+   10.88694444,
+   49.89138889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kloster_Michaelsberg_Parkseite.jpg/960px-Kloster_Michaelsberg_Parkseite.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kloster_Michaelsberg_Parkseite.jpg",
+  "desc": "Town in Upper Franconia, Bavaria, Germany"
+ },
+ "Basel Minster": {
+  "resolved": "Basel Minster",
+  "missing": false,
+  "coords": [
+   7.59222222,
+   47.55666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Basler_-_Basler_M%C3%BCnster_Westfassade.jpg/960px-Basler_-_Basler_M%C3%BCnster_Westfassade.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Basler_-_Basler_Münster_Westfassade.jpg",
+  "desc": "Church"
+ },
+ "Bastei": {
+  "resolved": "Bastei",
+  "missing": false,
+  "coords": [
+   14.07138889,
+   50.96222222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg/960px-Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg",
+  "desc": "Rock formation in Germany"
+ },
+ "Chillon Castle": {
+  "resolved": "Chillon Castle",
+  "missing": false,
+  "coords": [
+   6.9275,
+   46.41416667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg/960px-001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
+  "desc": "Castle in Veytaux, Switzerland"
+ },
+ "Chorin Abbey": {
+  "resolved": "Chorin Abbey",
+  "missing": false,
+  "coords": [
+   13.8836,
+   52.8928
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/2009-09-08-chorin-04.jpg/960px-2009-09-08-chorin-04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "2009-09-08-chorin-04.jpg",
+  "desc": "Former abbey in Brandenburg, Germany"
+ },
+ "Colmar": {
+  "resolved": "Colmar",
+  "missing": false,
+  "coords": [
+   7.3556,
+   48.0817
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/View_of_%C3%89glise_Saint-Martin_%2843833049001%29.jpg/960px-View_of_%C3%89glise_Saint-Martin_%2843833049001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "View_of_Église_Saint-Martin_(43833049001).jpg",
+  "desc": "City in Alsace, France"
+ },
+ "Eguisheim": {
+  "resolved": "Eguisheim",
+  "missing": false,
+  "coords": [
+   7.3067,
+   48.0436
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Street-in-Eguisheim.jpg/960px-Street-in-Eguisheim.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Street-in-Eguisheim.jpg",
+  "desc": "Commune in Grand Est, France"
+ },
+ "Elbląg Canal": {
+  "resolved": "Elbląg Canal",
+  "missing": false,
+  "coords": [
+   19.59777778,
+   54.02444444
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/Elbl%C4%85g-Ostr%C3%B3da-kanaal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Elbląg-Ostróda-kanaal.jpg",
+  "desc": "Canal in Poland"
+ },
+ "Frauenkirche, Dresden": {
+  "resolved": "Frauenkirche, Dresden",
+  "missing": false,
+  "coords": [
+   13.74166667,
+   51.05194444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/100130_150006_Dresden_Frauenkirche_winter_blue_sky-2.jpg/960px-100130_150006_Dresden_Frauenkirche_winter_blue_sky-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "100130_150006_Dresden_Frauenkirche_winter_blue_sky-2.jpg",
+  "desc": "Lutheran church in Dresden, Germany"
+ },
+ "Frombork": {
+  "resolved": "Frombork",
+  "missing": false,
+  "coords": [
+   19.68333333,
+   54.35
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Frombok_Katedra.jpg/960px-Frombok_Katedra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Frombok_Katedra.jpg",
+  "desc": "Town in Warmian-Masurian Voivodeship, Poland"
+ },
+ "Gruyères": {
+  "resolved": "Gruyères",
+  "missing": false,
+  "coords": [
+   7.08333333,
+   46.58333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Gruy%C3%A8res_et_sa_cit%C3%A9_m%C3%A9di%C3%A9vale.jpg/960px-Gruy%C3%A8res_et_sa_cit%C3%A9_m%C3%A9di%C3%A9vale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Gruyères_et_sa_cité_médiévale.jpg",
+  "desc": "Municipality in Fribourg, Switzerland"
+ },
+ "Heidelberg Castle": {
+  "resolved": "Heidelberg Castle",
+  "missing": false,
+  "coords": [
+   8.7151965,
+   49.4104729
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Heidelberg-2726936.jpg/960px-Heidelberg-2726936.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Heidelberg-2726936.jpg",
+  "desc": "Ruin in Heidelberg, Baden-Württemberg, Germany",
+  "coord_source": "OpenStreetMap"
+ },
+ "Hel Peninsula": {
+  "resolved": "Hel Peninsula",
+  "missing": false,
+  "coords": [
+   18.78138889,
+   54.64166667
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hel_peninsula_landsat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Hel_peninsula_landsat.jpg",
+  "desc": "Sand bar peninsula in northern Poland"
+ },
+ "Kaysersberg": {
+  "resolved": "Kaysersberg",
+  "missing": false,
+  "coords": [
+   7.26,
+   48.14
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kaysersberg.jpg/960px-Kaysersberg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kaysersberg.jpg",
+  "desc": "Commune in Alsace, France"
+ },
+ "Königstein Fortress": {
+  "resolved": "Königstein Fortress",
+  "missing": false,
+  "coords": [
+   14.05666667,
+   50.91888889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Aerial_photo_of_Festung_K%C3%B6nigstein%2C_October_2008.jpg/960px-Aerial_photo_of_Festung_K%C3%B6nigstein%2C_October_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aerial_photo_of_Festung_Königstein,_October_2008.jpg",
+  "desc": "Hilltop fortification and former state prison in Saxony, Germany"
+ },
+ "Lake Annecy": {
+  "resolved": "Lake Annecy",
+  "missing": false,
+  "coords": [
+   6.16666667,
+   45.85
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Aerial_image_of_Lake_Annecy_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Lake_Annecy_%28view_from_the_south%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Aerial_image_of_Lake_Annecy_(view_from_the_south).jpg",
+  "desc": "Alpine lake in Haute-Savoie, France"
+ },
+ "Lauterbrunnen": {
+  "resolved": "Lauterbrunnen",
+  "missing": false,
+  "coords": [
+   7.90745,
+   46.595
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/1_lauterbrunnen_valley_wengen_2022.jpg/960px-1_lauterbrunnen_valley_wengen_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "1_lauterbrunnen_valley_wengen_2022.jpg",
+  "desc": "Village and municipality in Switzerland"
+ },
+ "Lavaux": {
+  "resolved": "Lavaux",
+  "missing": false,
+  "coords": [
+   6.74611111,
+   46.49194444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Lavaux_Switzerland.jpg/960px-Lavaux_Switzerland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lavaux_Switzerland.jpg",
+  "desc": "UNESCO World Heritage Site in Canton of Vaud, Switzerland"
+ },
+ "Malbork Castle": {
+  "resolved": "Malbork Castle",
+  "missing": false,
+  "coords": [
+   19.02777778,
+   54.03972222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg/960px-Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Zespół_Zamku_Krzyżackiego_MALBORK_01.jpg",
+  "desc": "Teutonic castle in Poland"
+ },
+ "Muskau Park": {
+  "resolved": "Muskau Park",
+  "missing": false,
+  "coords": [
+   14.72666667,
+   51.55027778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/1024_2012-1-sept-5088.jpg/960px-1024_2012-1-sept-5088.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "1024_2012-1-sept-5088.jpg",
+  "desc": "Riverside park on the German-Polish border"
+ },
+ "Old City (Bern)": {
+  "resolved": "Old City (Bern)",
+  "missing": false,
+  "coords": [
+   7.45027778,
+   46.94805556
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bern_luftaufnahme.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Bern_luftaufnahme.png",
+  "desc": "Medieval city center of Bern"
+ },
+ "Porta Nigra": {
+  "resolved": "Porta Nigra",
+  "missing": false,
+  "coords": [
+   6.64388889,
+   49.75972222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Porta_Nigra_morgens_%28100MP%29.jpg/960px-Porta_Nigra_morgens_%28100MP%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Porta_Nigra_morgens_(100MP).jpg",
+  "desc": "Roman city gate in Trier, Germany"
+ },
+ "Pérouges": {
+  "resolved": "Pérouges",
+  "missing": false,
+  "coords": [
+   5.172731,
+   45.907347
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Cit%C3%A9_m%C3%A9di%C3%A9vale_de_P%C3%A9rouges_-_Marilou_Perino.jpg/960px-Cit%C3%A9_m%C3%A9di%C3%A9vale_de_P%C3%A9rouges_-_Marilou_Perino.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Cité_médiévale_de_Pérouges_-_Marilou_Perino.jpg",
+  "desc": "Commune in Auvergne-Rhône-Alpes, France"
+ },
+ "Rhine Falls": {
+  "resolved": "Rhine Falls",
+  "missing": false,
+  "coords": [
+   8.61583333,
+   47.67722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/SBB_RABe_514_DTZ_Rheinfall.jpg/960px-SBB_RABe_514_DTZ_Rheinfall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "SBB_RABe_514_DTZ_Rheinfall.jpg",
+  "desc": "Largest waterfall of Europe located in Switzerland"
+ },
+ "Rothenburg ob der Tauber": {
+  "resolved": "Rothenburg ob der Tauber",
+  "missing": false,
+  "coords": [
+   10.18333333,
+   49.38333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Rothenburg_BW_4.JPG/960px-Rothenburg_BW_4.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rothenburg_BW_4.JPG",
+  "desc": "Town in Bavaria, Germany"
+ },
+ "Rüdesheim am Rhein": {
+  "resolved": "Rüdesheim am Rhein",
+  "missing": false,
+  "coords": [
+   7.93055556,
+   49.98333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Panoramic_View_of_R%C3%BCdesheim_am_Rhein_20140928_1.jpg/960px-Panoramic_View_of_R%C3%BCdesheim_am_Rhein_20140928_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Panoramic_View_of_Rüdesheim_am_Rhein_20140928_1.jpg",
+  "desc": "Town in Hesse, Germany"
+ },
+ "Sanssouci": {
+  "resolved": "Sanssouci",
+  "missing": false,
+  "coords": [
+   13.03863,
+   52.40326
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Schloss_Sanssouci_2014.jpg/960px-Schloss_Sanssouci_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Schloss_Sanssouci_2014.jpg",
+  "desc": "Historical building in Potsdam, Germany"
+ },
+ "St. Mary's Church, Gdańsk": {
+  "resolved": "St. Mary's Church, Gdańsk",
+  "missing": false,
+  "coords": [
+   18.65369444,
+   54.34975
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Bazylika_Mariacka_DSC01870.jpg/960px-Bazylika_Mariacka_DSC01870.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bazylika_Mariacka_DSC01870.jpg",
+  "desc": "Church in Gdańsk, Poland"
+ },
+ "Strasbourg Cathedral": {
+  "resolved": "Strasbourg Cathedral",
+  "missing": false,
+  "coords": [
+   7.75083333,
+   48.58166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/960px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+  "desc": "Cathedral located in Strasbourg, Alsace, France"
+ },
+ "Vercors Massif": {
+  "resolved": "Vercors Massif",
+  "missing": false,
+  "coords": [
+   5.41666667,
+   44.96666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vercors_001.jpg/960px-Vercors_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Vercors_001.jpg",
+  "desc": "Mountain range in southeastern France"
+ },
+ "Vieux Lyon": {
+  "resolved": "Vieux Lyon",
+  "missing": false,
+  "coords": [
+   4.82666667,
+   45.76222222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Vieuxlyon_saintjean_toits.jpg/960px-Vieuxlyon_saintjean_toits.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Vieuxlyon_saintjean_toits.jpg",
+  "desc": "UNESCO World Heritage Site in Auvergne-Rhône-Alpes, France"
+ },
+ "Wartburg": {
+  "resolved": "Wartburg",
+  "missing": false,
+  "coords": [
+   10.30638889,
+   50.96611111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg/960px-Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg",
+  "desc": "Castle in Eisenach, Germany"
+ },
+ "Weimar": {
+  "resolved": "Weimar",
+  "missing": false,
+  "coords": [
+   11.32944444,
+   50.98111111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Weimar_stadtschloss_front_2025.jpg/960px-Weimar_stadtschloss_front_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Weimar_stadtschloss_front_2025.jpg",
+  "desc": "Town in Thuringia, Germany"
+ },
+ "Westerplatte": {
+  "resolved": "Westerplatte",
+  "missing": false,
+  "coords": [
+   18.67138889,
+   54.4075
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/00565_Westerplatte_Monument_von_SE.jpg/960px-00565_Westerplatte_Monument_von_SE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "00565_Westerplatte_Monument_von_SE.jpg",
+  "desc": "Peninsula in the harbour channel of Gdańsk, Poland"
+ },
+ "Wolin National Park": {
+  "resolved": "Wolin National Park",
+  "missing": false,
+  "coords": [
+   14.45,
+   53.93333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Jezioro_Turkusowe%2C_Wapnica_-_lipiec_2014_%287%29.jpg/960px-Jezioro_Turkusowe%2C_Wapnica_-_lipiec_2014_%287%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Jezioro_Turkusowe,_Wapnica_-_lipiec_2014_(7).jpg",
+  "desc": "National park in Poland"
+ },
+ "Würzburg Residence": {
+  "resolved": "Würzburg Residence",
+  "missing": false,
+  "coords": [
+   9.93861111,
+   49.79277778
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/da/2004-06-27-Germany-Wuerzburg-Lutz_Marten-Residenz_side_view_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "2004-06-27-Germany-Wuerzburg-Lutz_Marten-Residenz_side_view_1.jpg",
+  "desc": "Palace in Würzburg, Germany"
+ },
+ "Święta Lipka": {
+  "resolved": "Święta Lipka",
+  "missing": false,
+  "coords": [
+   21.21666667,
+   54.03333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/%C5%9Awi%C4%99ta_Lipka%2C_Bazylika_Nawiedzenia_NMP.jpg/960px-%C5%9Awi%C4%99ta_Lipka%2C_Bazylika_Nawiedzenia_NMP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Święta_Lipka,_Bazylika_Nawiedzenia_NMP.jpg",
+  "desc": "Village in Warmian-Masurian Voivodeship, Poland"
+ },
+ "Burg Eltz": {
+  "resolved": "Eltz Castle",
+  "missing": false,
+  "coords": [
+   7.3365971,
+   50.2050554
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Le_ch%C3%A2teau_d%27Eltz_%28Burg_Eltz%29_en_allemagne_%28cropped%29.jpg/960px-Le_ch%C3%A2teau_d%27Eltz_%28Burg_Eltz%29_en_allemagne_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Le_château_d'Eltz_(Burg_Eltz)_en_allemagne_(cropped).jpg",
+  "desc": "Castle in Germany"
+ },
+ "Loreley": {
+  "resolved": "Lorelei",
+  "missing": false,
+  "coords": [
+   7.72888889,
+   50.13944444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Loreley%2C_Rhine%2C_Castle_Katz.jpg/960px-Loreley%2C_Rhine%2C_Castle_Katz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Loreley,_Rhine,_Castle_Katz.jpg",
+  "desc": "Rock formation in Germany"
+ },
+ "Słowiński National Park": {
+  "resolved": "Slovincian National Park",
+  "missing": false,
+  "coords": [
+   17.30694444,
+   54.70333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/SlowinskiNationalParkPL.jpg/960px-SlowinskiNationalParkPL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "SlowinskiNationalParkPL.jpg",
+  "desc": "National park in Poland"
+ },
+ "Spreewald": {
+  "resolved": "Spree Forest",
+  "missing": false,
+  "coords": [
+   13.92638889,
+   51.91388889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Im_Spreewald_03.jpg/960px-Im_Spreewald_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Im_Spreewald_03.jpg",
+  "desc": "Region in Brandenburg, Germany"
+ },
+ "Āraiši Lake Fortress": {
+  "resolved": "Āraiši Lake Fortress",
+  "missing": false,
+  "coords": [
+   25.2826875,
+   57.2518976
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap"
+ },
+ "Arctic Cathedral": {
+  "resolved": "Arctic Cathedral",
+  "missing": false,
+  "coords": [
+   18.9871,
+   69.6482
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Arctic_Cathedral_in_Tromsoe.jpg/960px-Arctic_Cathedral_in_Tromsoe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Arctic_Cathedral_in_Tromsoe.jpg",
+  "desc": "Church in Troms, Norway"
+ },
+ "Bauska Castle": {
+  "resolved": "Bauska Castle",
+  "missing": false,
+  "coords": [
+   24.17361111,
+   56.40361111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bauskas_pils_foto_Sandris_Kuzmickis.jpg/960px-Bauskas_pils_foto_Sandris_Kuzmickis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bauskas_pils_foto_Sandris_Kuzmickis.jpg",
+  "desc": "Castle in Latvia"
+ },
+ "Białowieża Forest": {
+  "resolved": "Białowieża Forest",
+  "missing": false,
+  "coords": [
+   23.8436,
+   52.7009
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Bialowieza_National_Park_in_Poland0029.JPG/960px-Bialowieza_National_Park_in_Poland0029.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bialowieza_National_Park_in_Poland0029.JPG",
+  "desc": "Forest in Poland and Belarus",
+  "coord_source": "manual"
+ },
+ "Cape Kolka": {
+  "resolved": "Cape Kolka",
+  "missing": false,
+  "coords": [
+   22.60475,
+   57.75894444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kolkas_rags.jpg/960px-Kolkas_rags.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kolkas_rags.jpg",
+  "desc": "Cape in Latvia"
+ },
+ "Cēsis Castle": {
+  "resolved": "Cēsis Castle",
+  "missing": false,
+  "coords": [
+   25.27,
+   57.31333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/CesuPils_2017-09-10.jpg/960px-CesuPils_2017-09-10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "CesuPils_2017-09-10.jpg",
+  "desc": "Castle in Latvia"
+ },
+ "Druskininkai": {
+  "resolved": "Druskininkai",
+  "missing": false,
+  "coords": [
+   23.96666667,
+   54.01666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Druskininkai%2C_Lithuania.jpg/960px-Druskininkai%2C_Lithuania.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Druskininkai,_Lithuania.jpg",
+  "desc": "City in Dzūkija, Lithuania"
+ },
+ "Gauja National Park": {
+  "resolved": "Gauja National Park",
+  "missing": false,
+  "coords": [
+   25.41666667,
+   57.41666667
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ergeljuklintis424aug037qg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Ergeljuklintis424aug037qg.jpg",
+  "desc": "National park in Latvia"
+ },
+ "Grūtas Park": {
+  "resolved": "Grūtas Park",
+  "missing": false,
+  "coords": [
+   24.079,
+   54.022
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gr%C5%ABto_parko_logo.svg/960px-Gr%C5%ABto_parko_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Grūto_parko_logo.svg",
+  "desc": "Sculpture garden in Lithuania"
+ },
+ "Haapsalu Castle": {
+  "resolved": "Haapsalu Castle",
+  "missing": false,
+  "coords": [
+   23.53861111,
+   58.94722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Haapsalu_linnuse_varemed2.jpg/960px-Haapsalu_linnuse_varemed2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Haapsalu_linnuse_varemed2.jpg",
+  "desc": "Castle with cathedral in Haapsalu, Estonia"
+ },
+ "Helsinki Cathedral": {
+  "resolved": "Helsinki Cathedral",
+  "missing": false,
+  "coords": [
+   24.95222222,
+   60.17027778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Kirkko3.png/960px-Kirkko3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kirkko3.png",
+  "desc": "Church in Helsinki, Finland"
+ },
+ "Hill of Crosses": {
+  "resolved": "Hill of Crosses",
+  "missing": false,
+  "coords": [
+   23.41666667,
+   56.01527778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG/960px-Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kryžių_kalnas_(Góra_Krzyży).JPG",
+  "desc": "Pilgrimage site in northern Lithuania"
+ },
+ "Häme Castle": {
+  "resolved": "Häme Castle",
+  "missing": false,
+  "coords": [
+   24.45805556,
+   61.00388889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hame_Castle_2019-08.jpg/960px-Hame_Castle_2019-08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Hame_Castle_2019-08.jpg",
+  "desc": "Castle in Kanta-Häme, Finland"
+ },
+ "Kaunas Castle": {
+  "resolved": "Kaunas Castle",
+  "missing": false,
+  "coords": [
+   23.885,
+   54.89888889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kaunas_castle_20160603.jpg/960px-Kaunas_castle_20160603.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kaunas_castle_20160603.jpg",
+  "desc": "Medieval Gothic castle in Kaunas, Lithuania"
+ },
+ "Keila Falls": {
+  "resolved": "Keila Falls",
+  "missing": false,
+  "coords": [
+   24.294725,
+   59.396004
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Keila_juga_%28suvi_2011%29.jpg/960px-Keila_juga_%28suvi_2011%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Keila_juga_(suvi_2011).jpg",
+  "desc": "Waterfall in Estonia"
+ },
+ "Kernavė": {
+  "resolved": "Kernavė",
+  "missing": false,
+  "coords": [
+   24.85,
+   54.88333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Kernave_mounds_20200926.jpg/960px-Kernave_mounds_20200926.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kernave_mounds_20200926.jpg",
+  "desc": "UNESCO World Heritage Site in Lithuania"
+ },
+ "Kevo Strict Nature Reserve": {
+  "resolved": "Kevo Strict Nature Reserve",
+  "missing": false,
+  "coords": [
+   26.71555556,
+   69.58083333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Location_of_Kevo.jpg/960px-Location_of_Kevo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Location_of_Kevo.jpg",
+  "desc": "Strict nature reserve in Utsjoki, Finland"
+ },
+ "Lahemaa National Park": {
+  "resolved": "Lahemaa National Park",
+  "missing": false,
+  "coords": [
+   25.80027778,
+   59.57111111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Viru_Bog_at_winter.jpg/960px-Viru_Bog_at_winter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Viru_Bog_at_winter.jpg",
+  "desc": "National park located in northern Estonia"
+ },
+ "Lake Inari": {
+  "resolved": "Lake Inari",
+  "missing": false,
+  "coords": [
+   28,
+   69
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Inari_lake.jpg/960px-Inari_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Inari_lake.jpg",
+  "desc": "Lake in Finland"
+ },
+ "Lake Peipus": {
+  "resolved": "Lake Peipus",
+  "missing": false,
+  "coords": [
+   27.045,
+   58.735
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lake_Peipus%2C_LandSat-8%2C_2016-10-20.jpg/960px-Lake_Peipus%2C_LandSat-8%2C_2016-10-20.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lake_Peipus,_LandSat-8,_2016-10-20.jpg",
+  "desc": "Lake on the Estonia-Russia border",
+  "coord_source": "manual"
+ },
+ "Lyngen Alps": {
+  "resolved": "Lyngen Alps",
+  "missing": false,
+  "coords": [
+   20.1695,
+   69.7903
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lyngen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Lyngen.jpg",
+  "desc": "Mountain range in Norway"
+ },
+ "Matsalu National Park": {
+  "resolved": "Matsalu National Park",
+  "missing": false,
+  "coords": [
+   23.59694444,
+   58.76
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "National park in Estonia"
+ },
+ "Mikołajki": {
+  "resolved": "Mikołajki",
+  "missing": false,
+  "coords": [
+   21.58333333,
+   53.8
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Miko%C5%82ajki_miasto.jpg/960px-Miko%C5%82ajki_miasto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mikołajki_miasto.jpg",
+  "desc": "Town in Warmian-Masurian Voivodeship, Poland"
+ },
+ "Pyhä-Luosto National Park": {
+  "resolved": "Pyhä-Luosto National Park",
+  "missing": false,
+  "coords": [
+   26.97361111,
+   67.06638889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Isokuru.JPG/960px-Isokuru.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Isokuru.JPG",
+  "desc": "National park in Lapland region, Finland"
+ },
+ "Pühtitsa Convent": {
+  "resolved": "Pühtitsa Convent",
+  "missing": false,
+  "coords": [
+   27.53638889,
+   59.2025
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Kurem%C3%A4e_kloostri_hooned_%C3%B5hust_l%C3%A4%C3%A4ne_k%C3%BClg.JPG/960px-Kurem%C3%A4e_kloostri_hooned_%C3%B5hust_l%C3%A4%C3%A4ne_k%C3%BClg.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kuremäe_kloostri_hooned_õhust_lääne_külg.JPG",
+  "desc": "Monastery in Estonia"
+ },
+ "Rundāle Palace": {
+  "resolved": "Rundāle Palace",
+  "missing": false,
+  "coords": [
+   24.0248,
+   56.4138
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Rundale_Palace_%286483271573%29.jpg/960px-Rundale_Palace_%286483271573%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rundale_Palace_(6483271573).jpg",
+  "desc": "Building in Bauska Municipality, Latvia"
+ },
+ "Rõuge": {
+  "resolved": "Rõuge",
+  "missing": false,
+  "coords": [
+   26.90972222,
+   57.72777778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/R%C3%B5uge_2023c.jpg/960px-R%C3%B5uge_2023c.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rõuge_2023c.jpg",
+  "desc": "Borough in Estonia"
+ },
+ "Siida": {
+  "resolved": "Siida",
+  "missing": false,
+  "coords": [
+   27.0133963,
+   68.9108769
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/S%C3%A1mi_local_community_Siida.jpg/960px-S%C3%A1mi_local_community_Siida.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sámi_local_community_Siida.jpg",
+  "desc": "Saami social structure",
+  "coord_source": "OpenStreetMap"
+ },
+ "Soomaa National Park": {
+  "resolved": "Soomaa National Park",
+  "missing": false,
+  "coords": [
+   25.10555556,
+   58.44083333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Raudna_j%C3%B5gi-masterplaan-2008.jpg/960px-Raudna_j%C3%B5gi-masterplaan-2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Raudna_jõgi-masterplaan-2008.jpg",
+  "desc": "Protected area in Estonia"
+ },
+ "Suur Munamägi": {
+  "resolved": "Suur Munamägi",
+  "missing": false,
+  "coords": [
+   27.05916667,
+   57.71444444
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Suur_Munam%C3%A4gi_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Suur_Munamägi_2014.jpg",
+  "desc": "Highest mountain in Estonia"
+ },
+ "Tartu": {
+  "resolved": "Tartu",
+  "missing": false,
+  "coords": [
+   26.7225,
+   58.38
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Tartu_%282019%29.jpg/960px-Tartu_%282019%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tartu_(2019).jpg",
+  "desc": "Second most populous city in Estonia"
+ },
+ "Trakai Island Castle": {
+  "resolved": "Trakai Island Castle",
+  "missing": false,
+  "coords": [
+   24.93305556,
+   54.6525
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Traku_pilis_by_Augustas_Didzgalvis.jpg/960px-Traku_pilis_by_Augustas_Didzgalvis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Traku_pilis_by_Augustas_Didzgalvis.jpg",
+  "desc": "Island castle in Trakai, Lithuania"
+ },
+ "Turaida Castle": {
+  "resolved": "Turaida Castle",
+  "missing": false,
+  "coords": [
+   24.85027778,
+   57.18222222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Turaida_Castle.JPG/960px-Turaida_Castle.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Turaida_Castle.JPG",
+  "desc": "Building"
+ },
+ "Urho Kekkonen National Park": {
+  "resolved": "Urho Kekkonen National Park",
+  "missing": false,
+  "coords": [
+   28,
+   68.33333333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Paratiisikuru_waterfall.JPG/960px-Paratiisikuru_waterfall.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Paratiisikuru_waterfall.JPG",
+  "desc": "National park in Lapland, Finland"
+ },
+ "Viljandi Castle": {
+  "resolved": "Viljandi Castle",
+  "missing": false,
+  "coords": [
+   25.595,
+   58.35916667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Viljandi_Castle.svg/960px-Viljandi_Castle.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Viljandi_Castle.svg",
+  "desc": "Castle in Estonia"
+ },
+ "Vilnius Old Town": {
+  "resolved": "Vilnius Old Town",
+  "missing": false,
+  "coords": [
+   25.29305556,
+   54.68666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Vilnius_old_town_by_Augustas_Didzgalvis.jpg/960px-Vilnius_old_town_by_Augustas_Didzgalvis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Vilnius_old_town_by_Augustas_Didzgalvis.jpg",
+  "desc": "UNESCO World Heritage Site in Vilnius, Lithuania"
+ },
+ "Wolf's Lair": {
+  "resolved": "Wolf's Lair",
+  "missing": false,
+  "coords": [
+   21.4941,
+   54.0804
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Adolf_Hitler%27s_Bunker_in_Wolfsschanze_b.jpg/960px-Adolf_Hitler%27s_Bunker_in_Wolfsschanze_b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Adolf_Hitler's_Bunker_in_Wolfsschanze_b.jpg",
+  "desc": "Adolf Hitler's Eastern Front military headquarters during World War II"
+ },
+ "Ķemeri National Park": {
+  "resolved": "Ķemeri National Park",
+  "missing": false,
+  "coords": [
+   23.5125,
+   56.95166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Liela_Kemeru_taka_5jul03.JPG/960px-Liela_Kemeru_taka_5jul03.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Liela_Kemeru_taka_5jul03.JPG",
+  "desc": "National park near Jūrmala, Latvia"
+ },
+ "Narva Castle": {
+  "resolved": "Hermann Castle",
+  "missing": false,
+  "coords": [
+   28.20138889,
+   59.37583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Narva_asv2022-04_img09_Castle.jpg/960px-Narva_asv2022-04_img09_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Narva_asv2022-04_img09_Castle.jpg",
+  "desc": "Castle in Narva, Estonia"
+ },
+ "Jägala waterfall": {
+  "resolved": "Jägala Waterfall",
+  "missing": false,
+  "coords": [
+   25.1785457,
+   59.449816
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/J%C3%A4gala_river.jpg/960px-J%C3%A4gala_river.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Jägala_river.jpg",
+  "desc": "Waterfall in Estonia"
+ },
+ "Palmse Manor": {
+  "resolved": "Palmse",
+  "missing": false,
+  "coords": [
+   25.95,
+   59.51666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Palmse_manor_house_at_summer.jpg/960px-Palmse_manor_house_at_summer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Palmse_manor_house_at_summer.jpg",
+  "desc": "Village in Estonia"
+ },
+ "Piusa Caves": {
+  "resolved": "Piusa Caves Nature Reserve",
+  "missing": false,
+  "coords": [
+   27.46666667,
+   57.84166667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/PiusaKoopad.jpg/960px-PiusaKoopad.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "PiusaKoopad.jpg",
+  "desc": "Protected area in Estonia"
+ },
+ "Valaste waterfall": {
+  "resolved": "Valaste Falls",
+  "missing": false,
+  "coords": [
+   27.3351002,
+   59.4438394
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "Waterfall in Estonia",
+  "coord_source": "OpenStreetMap"
+ },
+ "Old Riga": {
+  "resolved": "Vecrīga",
+  "missing": false,
+  "coords": [
+   24.1079726,
+   56.9479326
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Views_from_St._Peter%27s_Church_Spire%2C_Riga_20180808-2.jpg/960px-Views_from_St._Peter%27s_Church_Spire%2C_Riga_20180808-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Views_from_St._Peter's_Church_Spire,_Riga_20180808-2.jpg",
+  "desc": "Historical center of Riga, Latvia",
+  "coord_source": "OpenStreetMap"
+ },
+ "Alta Museum": {
+  "resolved": "World Heritage Rock Art Centre - Alta Museum",
+  "missing": false,
+  "coords": [
+   23.18655556,
+   69.94747222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Alta_Museum_-_panoramio_%289%29.jpg/960px-Alta_Museum_-_panoramio_%289%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Alta_Museum_-_panoramio_(9).jpg",
+  "desc": "Art museum in Finnmark, Norway"
+ },
+ "Andenes": {
+  "resolved": "Andenes",
+  "missing": false,
+  "coords": [
+   16.1194,
+   69.3144
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Andenes%2C_Norway_2006.jpg/960px-Andenes%2C_Norway_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Andenes,_Norway_2006.jpg",
+  "desc": "Village in Andøy Municipality, Norway"
+ },
+ "Atlantic Ocean Road": {
+  "resolved": "Atlantic Ocean Road",
+  "missing": false,
+  "coords": [
+   7.3545,
+   63.0167
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Atlantic_Ocean_Road_map.svg/960px-Atlantic_Ocean_Road_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Atlantic_Ocean_Road_map.svg",
+  "desc": "Road in Møre og Romsdal, Norway"
+ },
+ "Borgund Stave Church": {
+  "resolved": "Borgund Stave Church",
+  "missing": false,
+  "coords": [
+   7.8122,
+   61.0472
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Borgund_Stave_Church_in_L%C3%A6rdalen%2C_2013_June.jpg/960px-Borgund_Stave_Church_in_L%C3%A6rdalen%2C_2013_June.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Borgund_Stave_Church_in_Lærdalen,_2013_June.jpg",
+  "desc": "Church in Vestland, Norway"
+ },
+ "Briksdalsbreen": {
+  "resolved": "Briksdalsbreen",
+  "missing": false,
+  "coords": [
+   6.89,
+   61.66583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Briksdalsbreen_in_September_2026_%2801%29.jpg/960px-Briksdalsbreen_in_September_2026_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Briksdalsbreen_in_September_2026_(01).jpg",
+  "desc": "Glacier in Vestland, Norway"
+ },
+ "Bryggen": {
+  "resolved": "Bryggen",
+  "missing": false,
+  "coords": [
+   5.32305556,
+   60.39722222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bryggen%2C_Bergen%2C_Noruega%2C_2019-09-08%2C_DD_115-117_PAN.jpg/960px-Bryggen%2C_Bergen%2C_Noruega%2C_2019-09-08%2C_DD_115-117_PAN.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bryggen,_Bergen,_Noruega,_2019-09-08,_DD_115-117_PAN.jpg",
+  "desc": "UNESCO World Heritage Site in Bergen, Norway"
+ },
+ "Heddal Stave Church": {
+  "resolved": "Heddal Stave Church",
+  "missing": false,
+  "coords": [
+   9.1762321,
+   59.579568
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Stavechurch-heddal.jpg/960px-Stavechurch-heddal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Stavechurch-heddal.jpg",
+  "desc": "Church in Telemark, Norway"
+ },
+ "Henningsvær": {
+  "resolved": "Henningsvær",
+  "missing": false,
+  "coords": [
+   14.2008,
+   68.1529
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Henningsv%C3%A6r_marina_buildings.jpg/960px-Henningsv%C3%A6r_marina_buildings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Henningsvær_marina_buildings.jpg",
+  "desc": "Village in Vågan Municipality, Norway"
+ },
+ "Kadriorg Palace": {
+  "resolved": "Kadriorg Palace",
+  "missing": false,
+  "coords": [
+   24.79084,
+   59.43851
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg/960px-Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg",
+  "desc": "Palace in Tallinn"
+ },
+ "Kjerringøy": {
+  "resolved": "Kjerringøy",
+  "missing": false,
+  "coords": [
+   14.7643,
+   67.5195
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Kjerring%C3%B8y_Handelssted.jpg/960px-Kjerring%C3%B8y_Handelssted.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Kjerringøy_Handelssted.jpg",
+  "desc": "Village in Bodø Municipality, Norway"
+ },
+ "Lofotr Viking Museum": {
+  "resolved": "Lofotr Viking Museum",
+  "missing": false,
+  "coords": [
+   13.7531,
+   68.24
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lofotr_01.jpg/960px-Lofotr_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Lofotr_01.jpg",
+  "desc": "Viking age museum at Lofoten, Norway"
+ },
+ "Nidaros Cathedral": {
+  "resolved": "Nidaros Cathedral",
+  "missing": false,
+  "coords": [
+   10.3962,
+   63.4267
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nidaros_Cathedral%2C_Trondheim%2C_West_view_20150605_1.jpg/960px-Nidaros_Cathedral%2C_Trondheim%2C_West_view_20150605_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Nidaros_Cathedral,_Trondheim,_West_view_20150605_1.jpg",
+  "desc": "Cathedral in Trøndelag, Norway"
+ },
+ "Nusfjord": {
+  "resolved": "Nusfjord",
+  "missing": false,
+  "coords": [
+   13.3478,
+   68.0353
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nusfjord.jpg/960px-Nusfjord.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Nusfjord.jpg",
+  "desc": "Village in Flakstad Municipality, Norway"
+ },
+ "Nærøyfjord": {
+  "resolved": "Nærøyfjord",
+  "missing": false,
+  "coords": [
+   6.93138889,
+   60.94361111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Naer%C3%B8yfjorden.jpg/960px-Naer%C3%B8yfjorden.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Naerøyfjorden.jpg",
+  "desc": "UNESCO World Heritage Site in Norway"
+ },
+ "Oslo Opera House": {
+  "resolved": "Oslo Opera House",
+  "missing": false,
+  "coords": [
+   10.75361111,
+   59.90694444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Oslo_Opera_House_-_2025.jpg/960px-Oslo_Opera_House_-_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Oslo_Opera_House_-_2025.jpg",
+  "desc": "National opera theatre in Norway"
+ },
+ "Padise Abbey": {
+  "resolved": "Padise Abbey",
+  "missing": false,
+  "coords": [
+   24.14485,
+   59.22416944
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Padise_Klooster.jpg/960px-Padise_Klooster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Padise_Klooster.jpg",
+  "desc": "Monastery in Estonia"
+ },
+ "Rummu": {
+  "resolved": "Rummu",
+  "missing": false,
+  "coords": [
+   24.20972222,
+   59.23083333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rummu_karj%C3%A4%C3%A4r.JPG/960px-Rummu_karj%C3%A4%C3%A4r.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Rummu_karjäär.JPG",
+  "desc": "Borough in Estonia"
+ },
+ "Saltfjellet–Svartisen National Park": {
+  "resolved": "Saltfjellet–Svartisen National Park",
+  "missing": false,
+  "coords": [
+   14.18333333,
+   66.6
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Bjell%C3%A5vasstua.jpg/960px-Bjell%C3%A5vasstua.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Bjellåvasstua.jpg",
+  "desc": "National park in Nordland, Norway"
+ },
+ "Saltstraumen": {
+  "resolved": "Saltstraumen",
+  "missing": false,
+  "coords": [
+   14.61635,
+   67.22805
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Saltstraumen.jpg/960px-Saltstraumen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Saltstraumen.jpg",
+  "desc": "Norwegian sea strait with one of the strongest tidal currents in the world"
+ },
+ "Senja": {
+  "resolved": "Senja",
+  "missing": false,
+  "coords": [
+   16.8031,
+   69.0806
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/S%C3%B6rreisa_Lenvik_IMG_4917_senja_solbergfjorden_reisfjorden.JPG/960px-S%C3%B6rreisa_Lenvik_IMG_4917_senja_solbergfjorden_reisfjorden.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sörreisa_Lenvik_IMG_4917_senja_solbergfjorden_reisfjorden.JPG",
+  "desc": "Second-largest island in Norway"
+ },
+ "Torghatten": {
+  "resolved": "Torghatten",
+  "missing": false,
+  "coords": [
+   12.08972222,
+   65.39833333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Torghatten_1.jpg/960px-Torghatten_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Torghatten_1.jpg",
+  "desc": "Granite dome in Brønnøy, Nordland, Norway"
+ },
+ "Trollstigen": {
+  "resolved": "Trollstigen",
+  "missing": false,
+  "coords": [
+   7.66666667,
+   62.46666667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/DSC07845-Panorama.jpg/960px-DSC07845-Panorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "DSC07845-Panorama.jpg",
+  "desc": "Mountain pass in Norway"
+ },
+ "Urnes Stave Church": {
+  "resolved": "Urnes Stave Church",
+  "missing": false,
+  "coords": [
+   7.32259181,
+   61.29811144
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Urnes_Stave_Church_1.jpg/960px-Urnes_Stave_Church_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Urnes_Stave_Church_1.jpg",
+  "desc": "Church in Vestland, Norway"
+ },
+ "Vøringsfossen": {
+  "resolved": "Vøringsfossen",
+  "missing": false,
+  "coords": [
+   7.25113889,
+   60.42688889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Voringsfossen_waterfall_at_Eidfjord%2C_Norway.jpg/960px-Voringsfossen_waterfall_at_Eidfjord%2C_Norway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Voringsfossen_waterfall_at_Eidfjord,_Norway.jpg",
+  "desc": "Waterfall in Vestland, Norway"
+ },
+ "Ålesund": {
+  "resolved": "Ålesund",
+  "missing": false,
+  "coords": [
+   6.1549,
+   62.47226
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/View_on_%C3%85lesund.jpg/960px-View_on_%C3%85lesund.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "View_on_Ålesund.jpg",
+  "desc": "Town/City in Western Norway, Norway"
+ },
+ "Örebro Castle": {
+  "resolved": "Örebro Castle",
+  "missing": false,
+  "coords": [
+   15.21527778,
+   59.27388889
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%96rebro_slott.jpg/960px-%C3%96rebro_slott.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Örebro_slott.jpg",
+  "desc": "Castle in Örebro, Sweden"
+ },
+ "Trollveggen": {
+  "resolved": "Troll Wall",
+  "missing": false,
+  "coords": [
+   7.7288,
+   62.4824
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Romsdalen_and_Trolltindene_with_some_clouds%2C_M%C3%B8re_og_Romsdal%2C_Norway_in_2013_June.jpg/960px-Romsdalen_and_Trolltindene_with_some_clouds%2C_M%C3%B8re_og_Romsdal%2C_Norway_in_2013_June.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Romsdalen_and_Trolltindene_with_some_clouds,_Møre_og_Romsdal,_Norway_in_2013_June.jpg",
+  "desc": "North-facing rock face in Norway"
+ },
+ "Baelo Claudia": {
+  "resolved": "Baelo Claudia",
+  "missing": false,
+  "coords": [
+   -5.77472222,
+   36.08972222
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bas%C3%ADlica_Baelo_001.jpg/960px-Bas%C3%ADlica_Baelo_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Basílica_Baelo_001.jpg",
+  "desc": "Ancient Roman town in Hispania",
+  "checked": true
+ },
+ "Cádiz": {
+  "resolved": "Cádiz",
+  "missing": false,
+  "coords": [
+   -6.2975,
+   36.535
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Cadiz_aerea.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Cadiz_aerea.jpg",
+  "desc": "Municipality in Andalusia, Spain",
+  "checked": true
+ },
+ "Doñana National Park": {
+  "resolved": "Doñana National Park",
+  "missing": false,
+  "coords": [
+   -6.5,
+   37
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Wetlands_in_Donana.jpg/960px-Wetlands_in_Donana.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Wetlands_in_Donana.jpg",
+  "desc": "National park in Andalucía, southern Spain",
+  "checked": true
+ },
+ "Alcázar of Seville": {
+  "resolved": "Alcázar of Seville",
+  "missing": false,
+  "coords": [
+   -5.9901835,
+   37.3832105
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sevilla-2-2_%2848040287512%29-edit.jpg/960px-Sevilla-2-2_%2848040287512%29-edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sevilla-2-2_(48040287512)-edit.jpg",
+  "desc": "Royal palace in Seville, Spain",
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "wikipedia_unchecked": false
+ },
+ "Mosque–Cathedral of Córdoba": {
+  "resolved": "Mosque–Cathedral of Córdoba",
+  "missing": false,
+  "coords": [
+   -4.77972222,
+   37.87916667
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg/960px-Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Mezquita_de_Córdoba_desde_el_aire_(Córdoba,_España).jpg",
+  "desc": "Cathedral and former mosque in Córdoba, Spain",
+  "checked": true
+ },
+ "Setenil de las Bodegas": {
+  "resolved": "Setenil de las Bodegas",
+  "missing": false,
+  "coords": [
+   -5.18138889,
+   36.8625
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Setenil_de_las_Bodegas_-_Wallpaper.jpg/960px-Setenil_de_las_Bodegas_-_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Setenil_de_las_Bodegas_-_Wallpaper.jpg",
+  "desc": "Municipality in Andalusia, Spain",
+  "checked": true
+ },
+ "Caminito del Rey": {
+  "resolved": "Caminito del Rey",
+  "missing": false,
+  "coords": [
+   -4.77277778,
+   36.91583333
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Caminito_del_Rey_3.jpg/960px-Caminito_del_Rey_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Caminito_del_Rey_3.jpg",
+  "desc": "High, narrow walkway in Málaga, Spain",
+  "checked": true
+ },
+ "Cave of Nerja": {
+  "resolved": "Cave of Nerja",
+  "missing": false,
+  "coords": [
+   -3.8448432,
+   36.7617499
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "wikipedia_unchecked": true
+ },
+ "Guadix": {
+  "resolved": "Guadix",
+  "missing": false,
+  "coords": [
+   -3.135,
+   37.3006
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Moorish_Castle_-_Cathedral_-_in_Guadix_Spain_-_panoramio.jpg/960px-Moorish_Castle_-_Cathedral_-_in_Guadix_Spain_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Moorish_Castle_-_Cathedral_-_in_Guadix_Spain_-_panoramio.jpg",
+  "desc": "Municipality in Granada, Spain",
+  "checked": true
+ },
+ "Mojácar": {
+  "resolved": "Mojácar",
+  "missing": false,
+  "coords": [
+   -1.85138889,
+   37.14027778
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/El_pueblo_de_Moj%C3%A1car_-_compacto_-_panoramio.jpg/960px-El_pueblo_de_Moj%C3%A1car_-_compacto_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "El_pueblo_de_Mojácar_-_compacto_-_panoramio.jpg",
+  "desc": "Municipality in Andalusia, Spain",
+  "checked": true
+ },
+ "Roman Theatre of Cartagena": {
+  "resolved": "Roman Theatre (Cartagena)",
+  "missing": false,
+  "coords": [
+   -0.9841,
+   37.5995
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Teatro_romano_de_Cartagena%2C_Espa%C3%B1a%2C_2022-07-16%2C_DD_07.jpg/960px-Teatro_romano_de_Cartagena%2C_Espa%C3%B1a%2C_2022-07-16%2C_DD_07.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Teatro_romano_de_Cartagena,_España,_2022-07-16,_DD_07.jpg",
+  "desc": "Ancient Roman theater in Cartagena, Spain",
+  "checked": true
+ },
+ "Guadalest": {
+  "resolved": "El Castell de Guadalest",
+  "missing": false,
+  "coords": [
+   -0.19777778,
+   38.67694444
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Campanario%2C_Guadalest%2C_Alicante%2C_Espa%C3%B1a%2C_2023-01-21%2C_DD_21.jpg/960px-Campanario%2C_Guadalest%2C_Alicante%2C_Espa%C3%B1a%2C_2023-01-21%2C_DD_21.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Campanario,_Guadalest,_Alicante,_España,_2023-01-21,_DD_21.jpg",
+  "desc": "Valencian town and municipality",
+  "checked": true
+ },
+ "Albufera (Valencia)": {
+  "resolved": "Albufera (Valencia)",
+  "missing": false,
+  "coords": [
+   -0.3581495,
+   39.3344485
+  ],
+  "thumb": null,
+  "file": null,
+  "desc": "",
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "wikipedia_unchecked": true
+ },
+ "Morella, Castellón": {
+  "resolved": "Morella, Spain",
+  "missing": false,
+  "coords": [
+   -0.10172222,
+   40.61961111
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Morella_Panorama.jpg/960px-Morella_Panorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Morella_Panorama.jpg",
+  "desc": "Municipality in Valencian Community, Spain",
+  "checked": true
+ },
+ "Sitges": {
+  "resolved": "Sitges",
+  "missing": false,
+  "coords": [
+   1.823,
+   41.237
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Sitges_-_Ansicht_4.jpg/960px-Sitges_-_Ansicht_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Sitges_-_Ansicht_4.jpg",
+  "desc": "Municipality in Catalonia, Spain",
+  "checked": true
+ },
+ "Girona Cathedral": {
+  "resolved": "Girona Cathedral",
+  "missing": false,
+  "coords": [
+   2.82638889,
+   41.9875
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Girona_Cathedral_2020.jpg/960px-Girona_Cathedral_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Girona_Cathedral_2020.jpg",
+  "desc": "Roman Catholic church in Girona, Catalonia, Spain",
+  "checked": true
+ },
+ "Besalú": {
+  "resolved": "Besalú",
+  "missing": false,
+  "coords": [
+   2.6959559,
+   42.1986443
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pont_Besal%C3%BA_1.jpg/960px-Pont_Besal%C3%BA_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "file": "Pont_Besalú_1.jpg",
+  "desc": "Municipality in Catalonia, Spain",
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "wikipedia_unchecked": false
+ },
+ "Cap de Creus": {
+  "resolved": "Cap de Creus",
+  "missing": false,
+  "coords": [
+   3.32194444,
+   42.31916667
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Localitzaci%C3%B3_Cap_de_creus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "file": "Localització_Cap_de_creus.png",
+  "desc": "Peninsula and headland in Catalonia, Spain",
+  "checked": true
+ },
+ "Łazienki Park": {
+  "resolved": "Łazienki Park",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   21.0339496,
+   52.2126209
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Ojców National Park": {
+  "resolved": "Ojców National Park",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   19.8085675,
+   50.2107146
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Chochołów": {
+  "resolved": "Chochołów",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   19.8163026,
+   49.3717987
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Maison Carrée": {
+  "resolved": "Maison Carrée",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   4.3553335,
+   43.8384744
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Glanum": {
+  "resolved": "Glanum",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.0829006,
+   43.6411386
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Cours Mirabeau": {
+  "resolved": "Cours Mirabeau",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.4502554,
+   43.5269404
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Montagne Sainte-Victoire": {
+  "resolved": "Montagne Sainte-Victoire",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.6360074,
+   43.5368498
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Lac de Sainte-Croix": {
+  "resolved": "Lac de Sainte-Croix",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.183931,
+   43.7673241
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Plateau de Valensole": {
+  "resolved": "Plateau de Valensole",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.9839867,
+   43.8379283
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Fontaine-de-Vaucluse": {
+  "resolved": "Fontaine-de-Vaucluse",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.1272914,
+   43.9221229
+  ],
+  "wikipedia_unchecked": true
+ },
+ "L'Isle-sur-la-Sorgue": {
+  "resolved": "L'Isle-sur-la-Sorgue",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.0515385,
+   43.9185354
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Roman Theatre of Orange": {
+  "resolved": "Roman Theatre of Orange",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   4.8092415,
+   44.1357744
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Vaison-la-Romaine": {
+  "resolved": "Vaison-la-Romaine",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.075737,
+   44.2407641
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Dentelles de Montmirail": {
+  "resolved": "Dentelles de Montmirail",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.023763,
+   44.1554146
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Bastille (Grenoble)": {
+  "resolved": "Bastille (Grenoble)",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.7252736,
+   45.1989532
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Grande Chartreuse": {
+  "resolved": "Grande Chartreuse",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   5.7933027,
+   45.3633932
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Palais de l'Isle": {
+  "resolved": "Palais de l'Isle",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.1270556,
+   45.8985664
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Mer de Glace": {
+  "resolved": "Mer de Glace",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.9386736,
+   45.9136531
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Yvoire": {
+  "resolved": "Yvoire",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.3254513,
+   46.3693298
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Oeschinen Lake": {
+  "resolved": "Oeschinen Lake",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.7268429,
+   46.4984951
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Chapel Bridge": {
+  "resolved": "Chapel Bridge",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   8.307713,
+   47.0518334
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Saarschleife": {
+  "resolved": "Saarschleife",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.5454511,
+   49.5013947
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Bernkastel-Kues": {
+  "resolved": "Bernkastel-Kues",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.0708181,
+   49.9157398
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Marksburg": {
+  "resolved": "Marksburg",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.6491644,
+   50.2719467
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Bacharach": {
+  "resolved": "Bacharach",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.7683997,
+   50.0597943
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Speyer Cathedral": {
+  "resolved": "Speyer Cathedral",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   8.442403,
+   49.3171893
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Dinkelsbühl": {
+  "resolved": "Dinkelsbühl",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   10.3194022,
+   49.0691672
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Veste Coburg": {
+  "resolved": "Veste Coburg",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   10.9810592,
+   50.2637944
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Erfurt Cathedral": {
+  "resolved": "Erfurt Cathedral",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   11.0229055,
+   50.975711
+  ],
+  "wikipedia_unchecked": true
+ },
+ "St. Thomas Church, Leipzig": {
+  "resolved": "St. Thomas Church, Leipzig",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.3725965,
+   51.3393315
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Zwinger": {
+  "resolved": "Zwinger",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   13.7349775,
+   51.0530296
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Görlitz": {
+  "resolved": "Görlitz",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   14.991018,
+   51.1563185
+  ],
+  "wikipedia_unchecked": true
+ },
+ "All Saints' Church, Wittenberg": {
+  "resolved": "All Saints' Church, Wittenberg",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.638026,
+   51.8663804
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Pomeranian Dukes' Castle": {
+  "resolved": "Pomeranian Dukes' Castle",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   14.5610259,
+   53.4261942
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Trzęsacz": {
+  "resolved": "Trzęsacz",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   14.9927621,
+   54.0757405
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Sopot": {
+  "resolved": "Sopot",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   18.5613095,
+   54.4430399
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Oliwa Cathedral": {
+  "resolved": "Oliwa Cathedral",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   18.5570013,
+   54.410761
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Lidzbark Warmiński Castle": {
+  "resolved": "Lidzbark Warmiński Castle",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   20.5830568,
+   54.1257075
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Krutynia": {
+  "resolved": "Krutynia",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   21.4302199,
+   53.68715
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Tykocin": {
+  "resolved": "Tykocin",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   22.7730188,
+   53.207646
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Santa Claus Village": {
+  "resolved": "Santa Claus Village",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   25.8458339,
+   66.5432629
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Sodankylä Old Church": {
+  "resolved": "Sodankylä Old Church",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   26.5968501,
+   67.4146176
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Tankavaara": {
+  "resolved": "Tankavaara",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   27.0984597,
+   68.1810406
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Sajos": {
+  "resolved": "Sajos",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   27.0127508,
+   68.9077265
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Tana (river)": {
+  "resolved": "Tana (river)",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   28.1986759,
+   70.1982702
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Alta Canyon": {
+  "resolved": "Alta Canyon",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   23.5574202,
+   69.7798732
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Fjellheisen": {
+  "resolved": "Fjellheisen",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   18.990838,
+   69.6385231
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Segla": {
+  "resolved": "Segla",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   17.5957204,
+   69.5073661
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Bleik": {
+  "resolved": "Bleik",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   15.958459,
+   69.2718776
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Svolvær": {
+  "resolved": "Svolvær",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   14.5646019,
+   68.2321709
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Vågan Church": {
+  "resolved": "Vågan Church",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   14.4837328,
+   68.2156494
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Haukland Beach": {
+  "resolved": "Haukland Beach",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   13.529191,
+   68.1979894
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Hamnøy": {
+  "resolved": "Hamnøy",
+  "missing": false,
+  "checked": true,
+  "coord_source": "manual",
+  "coords": [
+   13.1194,
+   67.9469
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Petter Dass Museum": {
+  "resolved": "Petter Dass Museum",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.3968211,
+   65.8942505
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Munkholmen": {
+  "resolved": "Munkholmen",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   10.3837812,
+   63.4523067
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Rampestreken": {
+  "resolved": "Rampestreken",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.7125988,
+   62.5607687
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Dalsnibba": {
+  "resolved": "Dalsnibba",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.271308,
+   62.0478519
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Loen Skylift": {
+  "resolved": "Loen Skylift",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   6.8366239,
+   61.8801507
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Stegastein": {
+  "resolved": "Stegastein",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.2117732,
+   60.9086345
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Flåm Line": {
+  "resolved": "Flåm Line",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.1131783,
+   60.8629525
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Hardangervidda": {
+  "resolved": "Hardangervidda",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   7.5311028,
+   60.1330539
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Vemork": {
+  "resolved": "Vemork",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   8.4937199,
+   59.8710318
+  ],
+  "wikipedia_unchecked": true
+ },
+ "Niedzica Castle": {
+  "resolved": "Niedzica Castle",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   20.3196,
+   49.4234
+  ],
+  "coord_source": "manual",
+  "wikipedia_unchecked": true
+ },
+ "Seven Sisters (mountains)": {
+  "resolved": "Seven Sisters (mountains)",
+  "missing": false,
+  "checked": true,
+  "coords": [
+   12.655,
+   65.97
+  ],
+  "coord_source": "manual",
+  "wikipedia_unchecked": true
+ },
+ "Východná": {
+  "resolved": "Východná",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   19.8946117,
+   49.0612289
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Melpignano": {
+  "resolved": "Melpignano",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   18.2930785,
+   40.1570806
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Aigüestortes i Estany de Sant Maurici National Park": {
+  "resolved": "Aigüestortes i Estany de Sant Maurici National Park",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   1.0884847,
+   42.5762878
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Ordesa y Monte Perdido National Park": {
+  "resolved": "Ordesa y Monte Perdido National Park",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -0.0597318,
+   42.6492328
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Castle of Loarre": {
+  "resolved": "Castle of Loarre",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -0.6127069,
+   42.3254468
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Bardenas Reales": {
+  "resolved": "Bardenas Reales",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -1.4662507,
+   42.1611684
+  ],
+  "wikipedia_unchecked": false
+ },
+ "San Sebastián": {
+  "resolved": "San Sebastián",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -1.9838889,
+   43.3224219
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Sanctuary of Fátima": {
+  "resolved": "Sanctuary of Fátima",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -8.6746971,
+   39.6300079
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Toubkal": {
+  "resolved": "Toubkal",
+  "missing": false,
+  "checked": true,
+  "coord_source": "manual",
+  "coords": [
+   -7.919,
+   31.137
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Colosseum": {
+  "resolved": "Colosseum",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.491903,
+   41.8909421
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Pantheon, Rome": {
+  "resolved": "Pantheon, Rome",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.4768334,
+   41.898616
+  ],
+  "wikipedia_unchecked": false
+ },
+ "St. Peter's Basilica": {
+  "resolved": "St. Peter's Basilica",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   12.4537105,
+   41.9021569
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Dubrovnik": {
+  "resolved": "Dubrovnik",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   18.1068385,
+   42.6417295
+  ],
+  "wikipedia_unchecked": false
+ },
+ "Villaviciosa": {
+  "resolved": "Villaviciosa",
+  "missing": false,
+  "checked": true,
+  "coord_source": "OpenStreetMap",
+  "coords": [
+   -5.4344978,
+   43.4813776
+  ],
+  "wikipedia_unchecked": false
+ }
+}

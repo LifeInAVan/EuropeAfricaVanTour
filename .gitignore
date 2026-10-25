@@ -1,0 +1,15 @@
+# Rendered films and generated music
+*.mp4
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors, OS and OneDrive
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*

@@ -1,0 +1,504 @@
+{
+ "title": "Pärnu → Sahara → Nordkapp",
+ "subtitle": "Peter · Dianne · the LT31 · 2027–2028",
+ "legs": [
+  {
+   "id": "baltics",
+   "name": "Baltics & Poland",
+   "color": "#2F6B57"
+  },
+  {
+   "id": "central",
+   "name": "Central Europe & Julian Alps",
+   "color": "#46748F"
+  },
+  {
+   "id": "dinaric",
+   "name": "Croatia & Bosnia",
+   "color": "#7C5E3F"
+  },
+  {
+   "id": "aegean",
+   "name": "Montenegro, Albania & Greece",
+   "color": "#23918F"
+  },
+  {
+   "id": "italy",
+   "name": "Italy & Sardinia",
+   "color": "#5B7A34"
+  },
+  {
+   "id": "spain",
+   "name": "Spain — the Vuelta",
+   "color": "#A5502F"
+  },
+  {
+   "id": "portugal",
+   "name": "Portugal",
+   "color": "#3E6D8E"
+  },
+  {
+   "id": "morocco",
+   "name": "Morocco",
+   "color": "#C0862F"
+  },
+  {
+   "id": "return",
+   "name": "Home via the Med & France",
+   "color": "#5E5A8F"
+  },
+  {
+   "id": "arctic",
+   "name": "Arctic loop",
+   "color": "#33566B"
+  }
+ ],
+ "stops": [
+  {
+   "id": "parnu",
+   "leg": "baltics",
+   "lat": 58.386,
+   "lon": 24.497,
+   "name": "Pärnu",
+   "caption": "Start — Jaanipäev, June 2027",
+   "date": "2027-07-19"
+  },
+  {
+   "id": "krakow",
+   "leg": "baltics",
+   "lat": 50.065,
+   "lon": 19.945,
+   "name": "Kraków",
+   "caption": "Stary Kleparz market",
+   "date": "2027-07-23"
+  },
+  {
+   "id": "tatras",
+   "leg": "baltics",
+   "lat": 49.299,
+   "lon": 19.95,
+   "name": "Tatras",
+   "caption": "First mountains",
+   "date": "2027-07-26"
+  },
+  {
+   "id": "trencin",
+   "leg": "central",
+   "lat": 48.894,
+   "lon": 18.044,
+   "name": "Trenčín",
+   "caption": "Pohoda festival",
+   "date": "2027-07-30"
+  },
+  {
+   "id": "balaton",
+   "leg": "central",
+   "lat": 46.958,
+   "lon": 17.889,
+   "name": "Lake Balaton",
+   "caption": "Vineyard swims",
+   "date": "2027-08-04"
+  },
+  {
+   "id": "soca",
+   "leg": "central",
+   "lat": 46.248,
+   "lon": 13.578,
+   "name": "Soča Valley",
+   "caption": "Julian Alps, Kamp Koren",
+   "date": "2027-08-08"
+  },
+  {
+   "id": "plitvice",
+   "leg": "dinaric",
+   "lat": 44.865,
+   "lon": 15.582,
+   "name": "Plitvice",
+   "caption": "Lakes at dawn",
+   "date": "2027-08-13"
+  },
+  {
+   "id": "sarajevo",
+   "leg": "dinaric",
+   "lat": 43.856,
+   "lon": 18.413,
+   "name": "Sarajevo",
+   "caption": "Film Festival, mid-Aug",
+   "date": "2027-08-17"
+  },
+  {
+   "id": "sutjeska",
+   "leg": "dinaric",
+   "lat": 43.343,
+   "lon": 18.688,
+   "name": "Sutjeska",
+   "caption": "Primeval forest",
+   "date": "2027-08-21"
+  },
+  {
+   "id": "durmitor",
+   "leg": "aegean",
+   "lat": 43.154,
+   "lon": 19.123,
+   "name": "Durmitor",
+   "caption": "Bobotov Kuk",
+   "date": "2027-08-24"
+  },
+  {
+   "id": "kotor",
+   "leg": "aegean",
+   "lat": 42.425,
+   "lon": 18.771,
+   "name": "Kotor",
+   "caption": "The bay",
+   "date": "2027-08-26"
+  },
+  {
+   "id": "shkodra",
+   "leg": "aegean",
+   "lat": 42.05,
+   "lon": 19.5,
+   "name": "Lake Shkodra",
+   "caption": "Albania begins",
+   "date": "2027-08-29"
+  },
+  {
+   "id": "riviera",
+   "leg": "aegean",
+   "lat": 40.101,
+   "lon": 19.744,
+   "name": "Albanian Riviera",
+   "caption": "Llogara Pass, wild camps",
+   "date": "2027-09-02"
+  },
+  {
+   "id": "zagori",
+   "leg": "aegean",
+   "lat": 39.877,
+   "lon": 20.744,
+   "name": "Zagori",
+   "caption": "15 August panigiria",
+   "date": "2027-09-05"
+  },
+  {
+   "id": "meteora",
+   "leg": "aegean",
+   "lat": 39.708,
+   "lon": 21.63,
+   "name": "Meteora",
+   "caption": "The pinnacles",
+   "date": "2027-09-10"
+  },
+  {
+   "id": "igoumenitsa",
+   "leg": "italy",
+   "lat": 39.503,
+   "lon": 20.266,
+   "name": "Igoumenitsa",
+   "caption": "Ferry — camping on board",
+   "date": "2027-09-13"
+  },
+  {
+   "id": "matera",
+   "leg": "italy",
+   "lat": 40.666,
+   "lon": 16.61,
+   "name": "Matera",
+   "caption": "The Sassi",
+   "date": "2027-09-15"
+  },
+  {
+   "id": "logrono",
+   "leg": "spain",
+   "lat": 42.466,
+   "lon": -2.449,
+   "name": "Logroño",
+   "caption": "San Mateo harvest · the Vuelta",
+   "date": "2027-09-29"
+  },
+  {
+   "id": "picos",
+   "leg": "spain",
+   "lat": 43.193,
+   "lon": -4.851,
+   "name": "Picos de Europa",
+   "caption": "Hermida gorge road",
+   "date": "2027-10-06"
+  },
+  {
+   "id": "douro",
+   "leg": "portugal",
+   "lat": 41.16,
+   "lon": -7.79,
+   "name": "Douro",
+   "caption": "N222 at harvest",
+   "date": "2027-10-18"
+  },
+  {
+   "id": "golega",
+   "leg": "portugal",
+   "lat": 39.404,
+   "lon": -8.486,
+   "name": "Golegã",
+   "caption": "The Horse Fair",
+   "date": "2027-11-10"
+  },
+  {
+   "id": "algeciras",
+   "leg": "portugal",
+   "lat": 36.127,
+   "lon": -5.454,
+   "name": "Algeciras",
+   "caption": "Crossing to Africa",
+   "date": "2027-11-24"
+  },
+  {
+   "id": "merzouga",
+   "leg": "morocco",
+   "lat": 31.08,
+   "lon": -4.011,
+   "name": "Merzouga",
+   "caption": "Erg Chebbi dunes",
+   "date": "2027-12-08"
+  },
+  {
+   "id": "tiznit",
+   "leg": "morocco",
+   "lat": 29.697,
+   "lon": -9.732,
+   "name": "Tiznit",
+   "caption": "Winter under the sun",
+   "date": "2027-12-19"
+  },
+  {
+   "id": "camargue",
+   "leg": "return",
+   "lat": 43.45,
+   "lon": 4.43,
+   "name": "Camargue",
+   "caption": "Spring 2028 — flamingos north",
+   "date": "2028-03-26"
+  },
+  {
+   "id": "alsace",
+   "leg": "return",
+   "lat": 48.08,
+   "lon": 7.36,
+   "name": "Alsace",
+   "caption": "Route des Vins",
+   "date": "2028-04-19"
+  },
+  {
+   "id": "berlin",
+   "leg": "return",
+   "lat": 52.52,
+   "lon": 13.4,
+   "name": "Berlin",
+   "caption": "Family stop",
+   "date": "2028-05-10"
+  },
+  {
+   "id": "home1",
+   "leg": "return",
+   "lat": 58.386,
+   "lon": 24.497,
+   "name": "Pärnu",
+   "caption": "Laulupidu, 1–9 July 2028",
+   "date": "2028-06-25"
+  },
+  {
+   "id": "rovaniemi",
+   "leg": "arctic",
+   "lat": 66.5,
+   "lon": 25.73,
+   "name": "Rovaniemi",
+   "caption": "Across the Arctic Circle",
+   "date": "2028-07-14"
+  },
+  {
+   "id": "nordkapp",
+   "leg": "arctic",
+   "lat": 71.17,
+   "lon": 25.78,
+   "name": "Nordkapp",
+   "caption": "Midnight sun",
+   "date": "2028-07-20"
+  },
+  {
+   "id": "lofoten",
+   "leg": "arctic",
+   "lat": 67.93,
+   "lon": 13.09,
+   "name": "Lofoten",
+   "caption": "Reine",
+   "date": "2028-07-28"
+  },
+  {
+   "id": "geiranger",
+   "leg": "arctic",
+   "lat": 62.1,
+   "lon": 7.2,
+   "name": "Geiranger",
+   "caption": "The fjords",
+   "date": "2028-08-08"
+  },
+  {
+   "id": "stockholm",
+   "leg": "arctic",
+   "lat": 59.33,
+   "lon": 18.07,
+   "name": "Stockholm",
+   "caption": "Ferry home",
+   "date": "2028-08-18"
+  },
+  {
+   "id": "home2",
+   "leg": "arctic",
+   "lat": 58.386,
+   "lon": 24.497,
+   "name": "Pärnu",
+   "caption": "Home — 14 months, 21,000 km",
+   "date": "2028-08-22"
+  }
+ ],
+ "ferries": {
+  "igoumenitsa>matera": {
+   "name": "Igoumenitsa → Bari",
+   "from": [
+    20.266,
+    39.503
+   ],
+   "to": [
+    16.871,
+    41.13
+   ],
+   "via": [
+    [
+     19.9,
+     39.65
+    ],
+    [
+     19.2,
+     40.35
+    ],
+    [
+     17.6,
+     41.0
+    ]
+   ]
+  },
+  "tiznit>camargue": {
+   "name": "Tanger Med → Algeciras",
+   "from": [
+    -5.5,
+    35.89
+   ],
+   "to": [
+    -5.44,
+    36.13
+   ],
+   "via": [
+    [
+     -5.4,
+     36.02
+    ]
+   ]
+  },
+  "home1>rovaniemi": {
+   "name": "Tallinn → Helsinki",
+   "from": [
+    24.76,
+    59.45
+   ],
+   "to": [
+    24.95,
+    60.16
+   ],
+   "via": [
+    [
+     24.85,
+     59.8
+    ]
+   ]
+  },
+  "stockholm>home2": {
+   "name": "Stockholm → Tallinn",
+   "from": [
+    18.1,
+    59.33
+   ],
+   "to": [
+    24.76,
+    59.45
+   ],
+   "via": [
+    [
+     19.4,
+     59.42
+    ],
+    [
+     21.5,
+     59.45
+    ],
+    [
+     23.6,
+     59.58
+    ]
+   ]
+  },
+  "matera>logrono": {
+   "name": "Civitavecchia → Barcelona",
+   "from": [
+    11.796,
+    42.094
+   ],
+   "to": [
+    2.17,
+    41.36
+   ],
+   "via": [
+    [
+     11.3,
+     41.9
+    ],
+    [
+     10.3,
+     41.4
+    ],
+    [
+     9.25,
+     41.3
+    ],
+    [
+     8.0,
+     41.2
+    ],
+    [
+     5.5,
+     41.25
+    ],
+    [
+     3.2,
+     41.25
+    ]
+   ]
+  },
+  "algeciras>merzouga": {
+   "name": "Algeciras → Tanger Med",
+   "from": [
+    -5.44,
+    36.13
+   ],
+   "to": [
+    -5.5,
+    35.89
+   ],
+   "via": [
+    [
+     -5.4,
+     36.02
+    ]
+   ]
+  }
+ }
+}
