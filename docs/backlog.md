@@ -60,7 +60,17 @@ to be checked at the time; CLAUDE.md asks before any paid service or key):
   short note that comments are public, and loading the comments only when someone opens them, so the
   pages stay fast. Decide first: must friends be able to comment without signing up?
 
+**F. A van section: details of the van and Peter's modifications.** (Peter, 27 Oct 2026.) Today the
+front page has one van photo and four lines of specifications ("The van": model, length, height,
+drive). A fuller section, or its own page linked from "The van" in the nav, with:
+- The van: VW LT31 Westfalia Florida, year, engine, gearbox, weights, fuel use, what the Westfalia
+  conversion includes.
+- The modifications, one card each: what was done, why, a photo, and anything learned.
+- A few photos (plates blurred, no metadata), and the van's name if it has one.
+- Needs from Peter: the list of details and modifications, and the photos.
+- The words would go in `data/site.json` (or a `data/van.json`), not in the page code.
+
 ## Not chosen for now
 - The van as the site's logo and browser-tab icon.
 - "Play the trip": the van driving the route on the whole-trip map, like the film.
-- A short "The van" page.
+- A short "The van" page. (Now wanted: see F.)
