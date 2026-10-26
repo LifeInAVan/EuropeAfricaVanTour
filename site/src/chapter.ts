@@ -41,7 +41,7 @@ export function chapterBar(trip: Trip, site: Site, current: number, vanDay: numb
       <div class="segs" style="grid-template-columns:${cs.map((c) => `${c.end_day - c.start_day + 1}fr`).join(" ")}">
         ${cs.map((c) => `<a href="#c=${c.id}" class="seg${c.id === current ? " on" : ""}${c.id <= 8 ? " one" : " two"}" title="Chapter ${c.id}: ${esc(c.name)}" aria-label="Chapter ${c.id}: ${esc(c.name)}"${c.id === current ? ' aria-current="page"' : ""}></a>`).join("")}
       </div>
-      <div class="seg-labels">${labels.join("")}</div>
+      <div class="seg-labels">${labels.join("")}<span class="drag-hint">Drag the van to move through the trip</span></div>
       <div class="van-handle" role="slider" tabindex="0" aria-label="Day of the trip: drag the van, or use the arrow keys"
         aria-valuemin="1" aria-valuemax="${trip.days + 1}" aria-valuenow="${vanDay + 1}" aria-valuetext="${dayLabel(trip, vanDay)}"
         style="left:${barShare(trip, vanDay)}%"><img src="./van.png" alt="" draggable="false"><span class="van-tip">${dayLabel(trip, vanDay)}</span></div>

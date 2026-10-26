@@ -436,7 +436,6 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
   body[data-view="chapter"] .day-h { margin: 12px 16px 2px; }
   body[data-view="chapter"] #subnav { padding: 6px 12px 4px; min-height: 0; }
   .chbar-track { min-width: 0; }
-  .seg-labels { display: none; }
 
   /* place page: photo first, back over it; previous/next at the foot */
   body.panel-open .top { display: none; }
@@ -489,12 +488,17 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
 
 /* ---------- the van: timeline handle on the chapter bar, and map marker ---------- */
 .chbar-track { position: relative; }
-.van-handle { position: absolute; top: -14px; transform: translateX(-50%); width: 46px; cursor: grab; touch-action: none; z-index: 2; outline-offset: 4px; }
+.van-handle { position: absolute; top: -14px; transform: translateX(-50%); width: 46px; cursor: grab; touch-action: none; z-index: 2; outline-offset: 4px;
+  padding: 10px 4px; margin-top: -10px; box-sizing: content-box; } /* at least 44 px to touch */
 .van-handle img { width: 46px; height: auto; display: block; filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .35)); pointer-events: none; }
 .van-handle.dragging { cursor: grabbing; }
 .van-tip { position: absolute; top: -26px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; font-weight: 600;
   background: var(--ink); color: #fff; padding: 2px 8px; border-radius: 10px; opacity: 0; transition: opacity .15s; pointer-events: none; }
-.van-handle:hover .van-tip, .van-handle:focus-visible .van-tip, .van-handle.dragging .van-tip { opacity: 1; }
+.van-handle:focus-visible .van-tip, .van-handle.dragging .van-tip { opacity: 1; }
+@media (hover: hover) { .van-handle:hover .van-tip { opacity: 1; } } /* touch screens keep "hover" after a tap */
+.van-tip { top: -16px; }
+.drag-hint { display: none; }
+.day { scroll-margin-top: 8px; }
 .segs { margin-top: 10px; }
 .van-marker { width: 64px; pointer-events: none; }
 .van-marker img { width: 100%; height: auto; display: block; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4)); }
@@ -502,4 +506,10 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
 .day.at > .day-h { color: var(--ink); }
 .day.at > .day-h::before { content: ""; display: inline-block; width: 22px; height: 13px; margin-right: 6px; vertical-align: -1px;
   background: url("/van.png") center / contain no-repeat; }
-@media (max-width: 760px) { .van-handle { top: -12px; width: 40px; } .van-handle img { width: 40px; } }
+@media (max-width: 760px) {
+  .van-handle { top: -12px; width: 44px; } .van-handle img { width: 44px; }
+  .seg-labels { display: block; height: auto; margin-top: 2px; }
+  .seg-labels span:not(.drag-hint) { display: none; }
+  .seg-labels .drag-hint { display: block; position: static; text-align: center; font-size: 12px; color: var(--muted); }
+  body[data-view="chapter"] .day { scroll-margin-top: 34px; } /* below the sheet's handle */
+}
