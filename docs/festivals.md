@@ -1,12 +1,12 @@
 # Festivals on or near the route
 
-132 events, grouped by the 16 recommended chapters, checked against the itinerary leaving Pärnu on 19 Jul 2027: **50 on route**, 34 near misses (within 10 days), 48 missed. Most 2027–28 dates are not announced yet: "by rule" or "by pattern" means worked out from previous years.
+132 events, grouped by the 16 recommended chapters, checked against the itinerary leaving Pärnu on 19 Jul 2027: **49 on route**, 34 near misses (within 10 days), 49 missed. Most 2027–28 dates are not announced yet: "by rule" or "by pattern" means worked out from previous years.
 
 ## 1. Baltic departure (19 – 25 Jul 2027)
 
 | Event | Place | Usual timing | Dates | Our pass | Source |
 |---|---|---|---|---|---|
-| Jaanipäev and Victory Day | Pärnu, all Estonia | Fixed: 23–24 Jun | 23–24 Jun | **On route**: At home, before departure | [Visit Estonia](https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev) |
+| Jaanipäev and Victory Day | Pärnu, all Estonia | Fixed: 23–24 Jun | 23–24 Jun | Missed: About 4 weeks before we leave (19 Jul) | [Visit Estonia](https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev) |
 | Līgo / Jāņi (midsummer) | Jūrmala, all Latvia | Fixed: night of 23–24 Jun | 23–24 Jun | Missed: About 4 weeks before we pass | [Live Riga](https://www.liveriga.com/en/2711-ligo-and-summer-solstice-festival) |
 | Jewish Culture Festival | Kraków | Late Jun / early Jul, 5 days | Not announced (2026: 1–5 Jul) | Missed: Kraków 23 Jul, about 3 weeks late | [jewishfestival.pl](https://jewishfestival.pl/en/dates-of-the-35th-jcf-in-the-year-2026/) |
 | Summer Jazz Festival | Kraków | Late Jun – end Aug, about 150 concerts | Not announced (2026: 27 Jun – 31 Aug) | **On route**: Kraków 23 Jul | [Visit Kraków](https://visitkrakow.com/summer-jazz-festival-krakow-guide/) |

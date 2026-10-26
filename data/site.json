@@ -1,5 +1,5 @@
 {
- "note": "Words and photos for the front page. Places and dates are not written here: they come from trip.json.",
+ "note": "Words and photos for the front page. Places and dates are not written here: they come from trip.json. bar_labels: extra labels under the chapter bar, placed at that chapter.",
  "hero": {
   "image": "assets/site/hero-merzouga.jpg",
   "kicker": "Peter, Dianne and Kalev · 2027–28",
@@ -86,5 +86,15 @@
  "footer": [
   "Photos of places are from Wikimedia Commons and Openverse and credited on each place. Our own photos are ours; please ask before reusing them.",
   "Weather is typical for the date, from {years} records, not a forecast. Maps © OpenStreetMap contributors, tiles by OpenFreeMap."
+ ],
+ "bar_labels": [
+  {
+   "chapter": 8,
+   "text": "Morocco winter"
+  },
+  {
+   "chapter": 14,
+   "text": "Laulupidu"
+  }
  ]
 }

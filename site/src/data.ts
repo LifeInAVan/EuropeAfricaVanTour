@@ -9,8 +9,9 @@ export interface Point {
 /** A drive (or ferry) between consecutive places; from/to are missing at a ferry port. */
 export interface Drive { mode: "road" | "sea"; from?: string; to?: string; km?: number; min?: number; day: number; chapter: number; ferry?: string }
 export interface Ferry { name: string }
+export interface Festival { chapter: number; event: string; place: string; timing: string; dates: string; status: "on" | "near" | "missed"; our_pass: string; source: string; url: string }
 export interface Trip {
-  festivals?: unknown[];
+  festivals?: Festival[];
   title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
   drives: Drive[]; ferries: Record<string, Ferry>;
 }
@@ -24,6 +25,7 @@ export interface Site {
   crew: { name: string; text: string; image: string; alt: string }[];
   views: { name: string; view: string; text: string }[];
   footer: string[];
+  bar_labels?: { chapter: number; text: string }[];
 }
 
 async function json<T>(path: string): Promise<T> {

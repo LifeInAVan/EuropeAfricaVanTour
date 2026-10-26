@@ -12,7 +12,7 @@ CH = ["Baltic departure (19 – 25 Jul 2027)", "Heart of Europe (26 Jul – 7 Au
       "Baltic states and Laulupidu (29 May – 11 Jul 2028)", "Lapland and Arctic Norway (12 – 29 Jul 2028)", "Fjords and home (30 Jul – 22 Aug 2028)"]
 # (chapter, event, place, usual timing, dates, status, pass, source name, url)
 F = [
-(1,"Jaanipäev and Victory Day","Pärnu, all Estonia","Fixed: 23–24 Jun","23–24 Jun","on","At home, before departure","Visit Estonia","https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev"),
+(1,"Jaanipäev and Victory Day","Pärnu, all Estonia","Fixed: 23–24 Jun","23–24 Jun","missed","About 4 weeks before we leave (19 Jul)","Visit Estonia","https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev"),
 (1,"Līgo / Jāņi (midsummer)","Jūrmala, all Latvia","Fixed: night of 23–24 Jun","23–24 Jun","missed","About 4 weeks before we pass","Live Riga","https://www.liveriga.com/en/2711-ligo-and-summer-solstice-festival"),
 (1,"Jewish Culture Festival","Kraków","Late Jun / early Jul, 5 days","Not announced (2026: 1–5 Jul)","missed","Kraków 23 Jul, about 3 weeks late","jewishfestival.pl","https://jewishfestival.pl/en/dates-of-the-35th-jcf-in-the-year-2026/"),
 (2,"Východná folklore festival","Východná, Liptov, SK","First weekend of July","About 1–4 Jul (by rule)","missed","Východná 26 Jul, about 3 weeks late","Visit Liptov","https://www.visitliptov.sk/en/event/folklore-festival-vychodna-2026/"),
