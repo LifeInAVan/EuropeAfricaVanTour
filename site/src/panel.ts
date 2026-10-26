@@ -67,7 +67,10 @@ export class Panel {
         </div>
       </div>
       <div class="place-main">
-        <div class="place-media"><div class="slides"></div></div>
+        <div class="place-media">
+          <button type="button" class="back-over" data-act="close" aria-label="Back to ${esc(this.o.backLabel())}">${chevL}</button>
+          <div class="slides"></div>
+        </div>
         <div class="place-info">
           <p class="tags"><span class="tag type">${esc(this.o.typeLabel(p))}</span>${p.country ? `<span class="tag">${esc(p.country)}</span>` : ""}</p>
           <h1>${esc(p.name)}</h1>
@@ -88,6 +91,10 @@ export class Panel {
               <span class="same-img" style="${t ? `background-image:url('${t}')` : ""}"></span>
               <span class="same-txt"><strong>${esc(q.name)}</strong><span>${esc(q.caption)}</span></span></button>`;
           }).join("")}</div>` : ""}
+          <div class="place-foot">
+            ${prev ? `<button type="button" data-act="prev"><span>‹ Previous</span><strong>${esc(prev.name)}</strong></button>` : "<span></span>"}
+            ${next ? `<button type="button" data-act="next" class="nx"><span>Next ›</span><strong>${esc(next.name)}</strong></button>` : ""}
+          </div>
         </div>
       </div>`;
     this.el.scrollTop = 0; window.scrollTo(0, 0);

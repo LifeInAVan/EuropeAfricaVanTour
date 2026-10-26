@@ -83,6 +83,7 @@ export function chapterPanel(a: PanelArgs) {
             <span class="cap">${esc(p.caption)}</span></span></li>`;
       }).join("")}</ol></li>`).join("");
   return `
+    <button type="button" class="sheet-handle" aria-label="Show more or less of the list"><span></span></button>
     <div class="ch-cover" style="${cover ? `background-image:url('${cover}')` : ""}"></div>
     <div class="ch-head">
       <p class="kicker">Chapter ${c.id} · ${esc(partName(c.part).replace(/ \(\d{4}\)$/, ""))}</p>

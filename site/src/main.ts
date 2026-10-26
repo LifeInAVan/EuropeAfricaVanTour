@@ -373,7 +373,47 @@ function updateMap(animate = true) {
   if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
   const sel = trip.points.find((x) => x.id === selected), pts = shown();
   if (sel) map.easeTo({ center: [sel.lon, sel.lat], duration: animate ? 600 : 0 });
-  else if (pts.length) map.fitBounds(boundsOf(pts), { padding: state.view === "chapter" ? 70 : 50, maxZoom: 11, duration: animate ? 800 : 0 });
+  else if (pts.length) map.fitBounds(boundsOf(pts), { padding: mapPadding(), maxZoom: 11, duration: animate ? 800 : 0 });
+}
+
+/** On a phone the chapter list is a sheet over the bottom of the map: keep the places above it. */
+function mapPadding() {
+  const sheet = phone() && state.view === "chapter" ? $("#list").getBoundingClientRect().height : 0;
+  const base = state.view === "chapter" ? 70 : 50;
+  return sheet ? { top: 60, left: 40, right: 40, bottom: Math.min(sheet + 30, innerHeight * .7) } : base;
+}
+const phone = () => matchMedia("(max-width: 760px)").matches;
+
+// ---------- phone: the chapter list as a bottom sheet (drag the handle or tap it) ----------
+const SHEET = [0.2, 0.5, 0.86]; // share of the space below the header
+function setupSheet() {
+  const list = $("#list");
+  let start: { y: number; h: number } | null = null;
+  const room = () => list.parentElement!.getBoundingClientRect().height;
+  const snap = (h: number) => {
+    const r = room(), target = SHEET.reduce((a, b) => (Math.abs(b * r - h) < Math.abs(a * r - h) ? b : a));
+    list.style.height = `${Math.round(target * 100)}%`;
+    list.dataset.size = String(target);
+  };
+  list.addEventListener("pointerdown", (e) => {
+    if (!phone() || !(e.target as HTMLElement).closest(".sheet-handle")) return;
+    start = { y: e.clientY, h: list.getBoundingClientRect().height };
+    list.setPointerCapture(e.pointerId); list.classList.add("dragging");
+  });
+  list.addEventListener("pointermove", (e) => {
+    if (!start) return;
+    list.style.height = `${Math.max(90, Math.min(room() * .92, start.h + start.y - e.clientY))}px`;
+  });
+  list.addEventListener("pointerup", (e) => {
+    if (!start) return;
+    const moved = Math.abs(e.clientY - start.y) > 6, h = list.getBoundingClientRect().height;
+    list.classList.remove("dragging"); start = null;
+    if (moved) snap(h);
+    else { // a tap: next size up, from the largest back to the smallest
+      const i = SHEET.indexOf(Number(list.dataset.size ?? 0.5));
+      snap(SHEET[(i + 1) % SHEET.length] * room());
+    }
+  });
 }
 
 // ---------- hover: list row <-> map marker ----------
@@ -435,6 +475,8 @@ function render() {
   setHover(null, "list");
   const home = state.view === "home";
   document.body.classList.toggle("home", home);
+  document.body.dataset.view = state.view;
+  document.body.classList.remove("menu-open"); $("#menu-btn").setAttribute("aria-expanded", "false");
   $("#home").hidden = !home;
   renderHeader();
   if (home) {
@@ -477,6 +519,11 @@ async function start() {
   if (state.view === "temp" || state.view === "chapter") void needWeather();
   if (first) openPoint(first);
 
+  $("#menu-btn").addEventListener("click", () => {
+    const open = document.body.classList.toggle("menu-open");
+    $("#menu-btn").setAttribute("aria-expanded", String(open));
+  });
+  setupSheet();
   $("#subnav").addEventListener("change", (e) => {
     const t = e.target as HTMLSelectElement;
     if (t.id === "chapter-select") change({ chapter: Number(t.value) });

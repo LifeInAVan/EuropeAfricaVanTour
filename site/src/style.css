@@ -398,3 +398,77 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
   .place-main { padding: 0 12px 40px; }
   .place-media .thumbs { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
 }
+
+/* ---------- phone layouts (design handoff, 390 px) ---------- */
+.menu-btn, .sheet-handle, .back-over, .place-foot { display: none; }
+@media (max-width: 760px) {
+  /* header: logo, name, menu button; the nav opens as a list */
+  .bar { flex-wrap: nowrap; padding: 6px 12px; gap: 10px; }
+  .brand { flex: 1; min-width: 0; }
+  .brand-name { font-size: 21px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .start-date { display: none; }
+  .menu-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 22px;
+    border: 1px solid #CFC8B8; background: var(--white); color: var(--ink); cursor: pointer; flex: none; }
+  #views { display: none; }
+  body.menu-open #views { display: flex; flex-direction: column; position: absolute; left: 0; right: 0; top: 57px; z-index: 30; gap: 0;
+    background: var(--white); border-bottom: 1px solid var(--line); box-shadow: 0 8px 20px rgba(27, 36, 48, .12); padding: 4px 16px 10px; }
+  body.menu-open #views .nav-link { border-bottom: 1px solid var(--line); padding: 12px 0; font-size: 17px; }
+  body.menu-open #views .nav-link[aria-current="page"] { border-bottom-color: var(--ochre); }
+  .top { position: relative; }
+
+  /* chapter page: the map fills the screen, the list is a sheet over its lower part */
+  body[data-view="chapter"]:not(.panel-open) { height: 100dvh; overflow: hidden; }
+  body[data-view="chapter"] .layout { position: relative; flex: 1; display: block; min-height: 0; }
+  body[data-view="chapter"] #map { position: absolute; inset: 0; height: auto; border: 0; }
+  body[data-view="chapter"] #list { position: absolute; left: 0; right: 0; bottom: 0; height: 50%; z-index: 5; overflow-y: auto;
+    background: var(--white); border-radius: 18px 18px 0 0; box-shadow: 0 -4px 18px rgba(27, 36, 48, .16); transition: height .2s ease; overscroll-behavior: contain; }
+  body[data-view="chapter"] #list.dragging { transition: none; }
+  body[data-view="chapter"] .sheet-handle { display: flex; justify-content: center; align-items: center; position: sticky; top: 0; z-index: 2;
+    width: 100%; height: 28px; border: 0; background: var(--white); cursor: grab; touch-action: none; }
+  .sheet-handle span { width: 44px; height: 5px; border-radius: 3px; background: #CFC8B8; }
+  body[data-view="chapter"] .ch-cover { display: none; }
+  body[data-view="chapter"] .ch-head { padding: 4px 16px 10px; }
+  body[data-view="chapter"] .ch-head .kicker { display: none; }
+  body[data-view="chapter"] .ch-head h1 { font-size: 28px; margin-bottom: 4px; }
+  body[data-view="chapter"] .pills { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
+  body[data-view="chapter"] .pill { flex: none; }
+  body[data-view="chapter"] .days .pt { padding: 8px 16px; }
+  body[data-view="chapter"] .day-h { margin: 12px 16px 2px; }
+  body[data-view="chapter"] #subnav { padding: 6px 12px 4px; min-height: 0; }
+  .chbar-track { min-width: 0; }
+  .seg-labels { display: none; }
+
+  /* place page: photo first, back over it; previous/next at the foot */
+  body.panel-open .top { display: none; }
+  .place-bar { display: none; }
+  .place-main { padding: 0 0 32px; gap: 0; }
+  .place-media { position: relative; }
+  .place-media .frame { border-radius: 0; aspect-ratio: 4 / 3; }
+  .place-media .arrow, .place-media .thumbs { display: none; }
+  .place-media .count::after { content: " · swipe for more"; }
+  .place-media .credit { padding: 0 16px; }
+  .back-over { display: inline-flex; position: absolute; z-index: 3; top: 12px; left: 12px; width: 44px; height: 44px; border-radius: 22px; border: 0;
+    background: rgba(255, 255, 255, .92); color: var(--ink); align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 1px 6px rgba(0, 0, 0, .2); }
+  .place-info { padding: 16px 16px 0; gap: 14px; }
+  .place-info h1 { font-size: 40px; }
+  .wx-grid b { font-size: 28px; }
+  .place-foot { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
+  .place-foot button { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-height: 64px; padding: 10px 14px; text-align: left;
+    background: var(--white); border: 1px solid var(--line); border-radius: 14px; font: inherit; color: var(--ink); cursor: pointer; }
+  .place-foot button.nx { align-items: flex-end; text-align: right; grid-column: 2; }
+  .place-foot span { font-size: 13px; color: var(--muted); }
+  .place-foot strong { font-size: 15px; }
+
+  /* front page: chapter cards as compact rows */
+  .cards { grid-template-columns: 1fr; gap: 10px; }
+  .card { flex-direction: row; align-items: stretch; }
+  .card-img { width: 96px; height: auto; min-height: 88px; flex: none; }
+  .badge { left: 8px; top: 8px; width: 30px; height: 30px; font-size: 16px; }
+  .card-body { padding: 10px 14px; gap: 3px; }
+  .card-name { font-size: 20px; }
+  .card-meta:last-child { display: none; }
+  #home-map { height: 420px; min-height: 0; }
+  .plan { gap: 24px; padding-top: 56px; }
+  .van-in { padding-top: 56px; padding-bottom: 40px; gap: 24px; }
+  #views-cards { padding-top: 56px; padding-bottom: 56px; }
+}
