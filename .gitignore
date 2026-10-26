@@ -29,3 +29,6 @@ site/dist/
 
 # Raw road routes (not committed)
 pipeline/cache/roads/
+
+# Raw Wikipedia summaries (not committed)
+pipeline/cache/descriptions/

@@ -47,11 +47,15 @@ export async function loadAll() {
 export interface Credit { place?: string; artist?: string; license?: string; license_url?: string; source?: string; url?: string }
 export interface Weather { source: string; years: string; points: Record<string, { elev: number; grid_elev: number; hi: number[]; lo: number[]; rain: number[] }> }
 
-let extras: Promise<{ credits: Record<string, Credit>; weather: Weather }> | null = null;
-/** Photo credits and weather (2 MB together): loaded the first time a place is opened. */
+export interface Description { text: string; title: string; url: string }
+let extras: Promise<{ credits: Record<string, Credit>; weather: Weather; descriptions: Record<string, Description> }> | null = null;
+/** Photo credits, weather and descriptions (about 2 MB together): loaded the first time they are needed. */
 export function loadExtras() {
-  extras ??= Promise.all([json<Record<string, Credit>>("data/credits.json"), json<Weather>("data/weather.json")])
-    .then(([credits, weather]) => ({ credits, weather }));
+  extras ??= Promise.all([
+    json<Record<string, Credit>>("data/credits.json"),
+    json<Weather>("data/weather.json"),
+    json<{ places: Record<string, Description> }>("data/descriptions.json").catch(() => ({ places: {} })),
+  ]).then(([credits, weather, d]) => ({ credits, weather, descriptions: d.places }));
   return extras;
 }
 

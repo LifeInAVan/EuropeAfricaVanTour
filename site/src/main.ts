@@ -424,7 +424,7 @@ function closePoint() {
 }
 
 function backLabel() {
-  if (state.view === "chapter") return trip.chapters.find((c) => c.id === state.chapter)!.name;
+  if (state.view === "chapter") { const c = trip.chapters.find((x) => x.id === state.chapter)!; return `Chapter ${c.id} · ${c.name}`; }
   if (state.view === "calendar") return state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month);
   if (state.view === "country") return state.country;
   return `${state.lo}–${state.hi}°C`;

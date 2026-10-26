@@ -30,7 +30,7 @@ export async function siteStyle(local = false): Promise<StyleSpecification> {
         paint["text-color"] = id.startsWith("water_name") ? "#4E6E82" : MAP.label;
         paint["text-halo-color"] = MAP.land;
       }
-      if (/^label_(city|city_capital|country_\d|state)$|^water_name/.test(id)) layout["text-field"] = ENGLISH;
+      if (/^label_|^water_name/.test(id)) layout["text-field"] = ENGLISH;
     }
   }
   return style;

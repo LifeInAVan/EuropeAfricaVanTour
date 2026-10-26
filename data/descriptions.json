@@ -1,0 +1,1860 @@
+{
+ "note": "Opening sentences of each place's English Wikipedia article (CC BY-SA 4.0); shown with a link.",
+ "places": {
+  "parnu": {
+   "text": "Pärnu is a city in southwest Estonia. Pärnu is located 128 kilometres (80 mi) south of the Estonian capital, Tallinn, and 176 kilometres (109 mi) west of Estonia's second-largest city, Tartu.",
+   "title": "Pärnu",
+   "url": "https://en.wikipedia.org/wiki/P%C3%A4rnu"
+  },
+  "warsaw-old-town": {
+   "text": "Warsaw Old Town, also known as Old Town, and historically known as Old Warsaw, is a neighbourhood, and an area of the City Information System, in the city of Warsaw, Poland, located within the district of Śródmieście.",
+   "title": "Old Town, Warsaw",
+   "url": "https://en.wikipedia.org/wiki/Old_Town%2C_Warsaw"
+  },
+  "lazienki-park": {
+   "text": "Łazienki Park, or the Royal Baths Park, is the largest park in Warsaw, Poland, occupying 76 hectares of the city center. The park-and-palace complex lies in the Downtown district, on Ujazdów Avenue, which is part of the Royal Route linking the Royal Castle with Wilanów Palace to the south.",
+   "title": "Łazienki Park",
+   "url": "https://en.wikipedia.org/wiki/%C5%81azienki_Park"
+  },
+  "jasna-gora-monastery": {
+   "text": "The Jasna Góra Monastery in Częstochowa, Poland, is a shrine dedicated to the Virgin Mary and one of the country's places of pilgrimage.",
+   "title": "Jasna Góra Monastery",
+   "url": "https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery"
+  },
+  "ojcow-national-park": {
+   "text": "Ojców National Park is a national park in Kraków County, Lesser Poland Voivodeship in southern Poland, established in 1956. It takes its name from the village of Ojców, where it also has its headquarters.",
+   "title": "Ojców National Park",
+   "url": "https://en.wikipedia.org/wiki/Ojc%C3%B3w_National_Park"
+  },
+  "wieliczka-salt-mine": {
+   "text": "The Wieliczka Salt Mine is a salt mine in the town of Wieliczka, near Kraków in southern Poland.",
+   "title": "Wieliczka Salt Mine",
+   "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+  },
+  "niedzica-castle": {
+   "text": "Niedzica Castle, also known as Dunajec Castle, is located in the southernmost part of Poland in Niedzica. It was erected between the years 1320 and 1326 by Kokos of Brezovica on the site of an ancient stronghold surrounded by earthen walls in the Pieniny mountains.",
+   "title": "Niedzica Castle",
+   "url": "https://en.wikipedia.org/wiki/Niedzica_Castle"
+  },
+  "pieniny-national-park": {
+   "text": "Pieniny National Park is a protected area located in the heart of the Pieniny Mountains in the southernmost part of Poland. It is the oldest national park in Poland.",
+   "title": "Pieniny National Park (Poland)",
+   "url": "https://en.wikipedia.org/wiki/Pieniny_National_Park_(Poland)"
+  },
+  "tatras": {
+   "text": "The Tatra Mountains or Tatras are a series of mountains within the Western Carpathians that form a natural border between Slovakia and Poland. They are the highest mountains in the Carpathians.",
+   "title": "Tatra Mountains",
+   "url": "https://en.wikipedia.org/wiki/Tatra_Mountains"
+  },
+  "vychodna": {
+   "text": "Východná is a village and municipality in Liptovský Mikuláš District in the Žilina Region of northern Slovakia.",
+   "title": "Východná",
+   "url": "https://en.wikipedia.org/wiki/V%C3%BDchodn%C3%A1"
+  },
+  "vlkolinec": {
+   "text": "Vlkolínec is a village under the administration of the town of Ružomberok in Slovakia. Historically, however, it was a separate village.",
+   "title": "Vlkolínec",
+   "url": "https://en.wikipedia.org/wiki/Vlkol%C3%ADnec"
+  },
+  "orava-castle": {
+   "text": "Orava Castle is a castle situated on a high rock above Orava river in the village of Oravský Podzámok, Slovakia. The castle was built in the Kingdom of Hungary, with the oldest parts being built in the thirteenth century and the most recent parts in the early seventeenth century.",
+   "title": "Orava Castle",
+   "url": "https://en.wikipedia.org/wiki/Orava_Castle"
+  },
+  "trencin": {
+   "text": "Trenčín is a city in western Slovakia of the central Váh River valley near the Czech border, around 95 km (59 mi) from Bratislava. It has a population of more than 55,000, which makes it the eighth largest municipality of the country and is the seat of the Trenčín Region and the Trenčín District.",
+   "title": "Trenčín",
+   "url": "https://en.wikipedia.org/wiki/Tren%C4%8D%C3%ADn"
+  },
+  "banska-stiavnica": {
+   "text": "Banská Štiavnica is a town in central Slovakia, in the middle of an immense caldera created by the collapse of an ancient volcano. For its size, the caldera is known as the Štiavnica Mountains.",
+   "title": "Banská Štiavnica",
+   "url": "https://en.wikipedia.org/wiki/Bansk%C3%A1_%C5%A0tiavnica"
+  },
+  "esztergom-basilica": {
+   "text": "The Primatial Basilica of the Assumption of the Blessed Virgin Mary and St Adalbert, also known as the Basilica of Esztergom, is an ecclesiastic basilica in Esztergom, Hungary, the mother church of the Archdiocese of Esztergom-Budapest, and the seat of the Catholic Church in Hungary.",
+   "title": "Esztergom Basilica",
+   "url": "https://en.wikipedia.org/wiki/Esztergom_Basilica"
+  },
+  "pannonhalma-archabbey": {
+   "text": "The Benedictine Pannonhalma Archabbey or Territorial Abbey of Saint Martin on Mount Pannonhalma is a medieval building in Pannonhalma and one of the oldest historical monuments in Hungary. Founded in 996, it is located near the town, on top of a hill.",
+   "title": "Pannonhalma Archabbey",
+   "url": "https://en.wikipedia.org/wiki/Pannonhalma_Archabbey"
+  },
+  "balaton": {
+   "text": "Lake Balaton is a freshwater rift lake in the Transdanubian region of Hungary. It is the largest lake in Central Europe, and one of the region's foremost tourist destinations.",
+   "title": "Lake Balaton",
+   "url": "https://en.wikipedia.org/wiki/Lake_Balaton"
+  },
+  "tihany-abbey": {
+   "text": "The Tihany Abbey is a Benedictine monastery established in Tihany in the Kingdom of Hungary in 1055. Its patrons are the Virgin Mary and Saint Aignan of Orleans.",
+   "title": "Tihany Abbey",
+   "url": "https://en.wikipedia.org/wiki/Tihany_Abbey"
+  },
+  "lake-heviz": {
+   "text": "Lake Hévíz is located in Hévíz, Hungary, near the western end of Lake Balaton, 8 kilometres (5 mi) from Keszthely. Hévíz means 'hot water'.",
+   "title": "Lake Hévíz",
+   "url": "https://en.wikipedia.org/wiki/Lake_H%C3%A9v%C3%ADz"
+  },
+  "lake-bled": {
+   "text": "Lake Bled is a lake in the Julian Alps of the Upper Carniolan region of northwestern Slovenia, where it adjoins the town of Bled. The area is a tourist destination.",
+   "title": "Lake Bled",
+   "url": "https://en.wikipedia.org/wiki/Lake_Bled"
+  },
+  "lake-bohinj": {
+   "text": "Lake Bohinj, covering 318 hectares, is the largest permanent lake in Slovenia. It is located within the Bohinj Valley of the Julian Alps, in the northwestern Upper Carniola region, and part of Triglav National Park.",
+   "title": "Lake Bohinj",
+   "url": "https://en.wikipedia.org/wiki/Lake_Bohinj"
+  },
+  "skocjan-caves": {
+   "text": "Škocjan Caves is a cave system located in Slovenia. Škocjan Caves was included on UNESCO’s list of natural and cultural World Heritage Sites in 1986. Škocjan Caves is a significant underground phenomenon on the Karst Plateau and in Slovenia.",
+   "title": "Škocjan Caves",
+   "url": "https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves"
+  },
+  "piran": {
+   "text": "Piran is a resort town in southwestern Slovenia on the Gulf of Piran on the Adriatic Sea. It is one of the three major towns of Slovenian Istria.",
+   "title": "Piran",
+   "url": "https://en.wikipedia.org/wiki/Piran"
+  },
+  "motovun": {
+   "text": "Motovun is a village and a municipality in central Istria, west Croatia. In ancient times, both Celts and Illyrians built their fortresses at the location of present-day Motovun.",
+   "title": "Motovun",
+   "url": "https://en.wikipedia.org/wiki/Motovun"
+  },
+  "rovinj": {
+   "text": "Rovinj is a town in west Croatia situated on the north Adriatic Sea with a population of 12,968 (2021). Located on the western coast of the Istrian peninsula, it is a popular tourist resort and beach destination, in addition to being an active fishing port.",
+   "title": "Rovinj",
+   "url": "https://en.wikipedia.org/wiki/Rovinj"
+  },
+  "opatija": {
+   "text": "Opatija is a town and a municipality in Primorje-Gorski Kotar County in west Croatia. The traditional seaside resort on the Kvarner Gulf is known for its Mediterranean climate and its historic buildings reminiscent of the Austrian Riviera.",
+   "title": "Opatija",
+   "url": "https://en.wikipedia.org/wiki/Opatija"
+  },
+  "krka-national-park": {
+   "text": "Krka National Park is one of the Croatian national parks, named after the river Krka that it encloses. It is located along the middle-lower course of the Krka River in central Dalmatia, in Šibenik-Knin county, downstream Miljevci area, and just a few kilometers northeast of the city of Šibenik.",
+   "title": "Krka National Park",
+   "url": "https://en.wikipedia.org/wiki/Krka_National_Park"
+  },
+  "stari-most": {
+   "text": "The Old Bridge, also known as the Mostar Bridge, is a rebuilt 16th-century Ottoman bridge in the city of Mostar in Bosnia and Herzegovina. It crosses the river Neretva and connects the two parts of the city, which is named after the bridge keepers who guarded the Old Bridge during the Ottoman era.",
+   "title": "Stari Most",
+   "url": "https://en.wikipedia.org/wiki/Stari_Most"
+  },
+  "sarajevo": {
+   "text": "Sarajevo is the capital and largest city of Bosnia and Herzegovina, with a population of 275,524 in its administrative limits. The Sarajevo Canton, containing the city of Sarajevo and nearby municipalities, is home to 413,593 inhabitants.",
+   "title": "Sarajevo",
+   "url": "https://en.wikipedia.org/wiki/Sarajevo"
+  },
+  "lukomir": {
+   "text": "Lukomir is a village in the municipality of Konjic, in Bosnia and Herzegovina. It consists of two settlements, Donji (Lower) and Gornji (Upper) Lukomir.",
+   "title": "Lukomir",
+   "url": "https://en.wikipedia.org/wiki/Lukomir"
+  },
+  "mehmed-pasa-sokolovic-bridge": {
+   "text": "The Mehmed Paša Sokolović Bridge is a historic bridge over the Drina River in Višegrad, in the Republika Srpska region of Bosnia and Herzegovina. It was completed in 1577 by the Ottoman court architect Mimar Sinan on the order of the Grand Vizier Mehmed Paša Sokolović.",
+   "title": "Mehmed Paša Sokolović Bridge",
+   "url": "https://en.wikipedia.org/wiki/Mehmed_Pa%C5%A1a_Sokolovi%C4%87_Bridge"
+  },
+  "perucica": {
+   "text": "Perućica is one of the last remaining primeval forests in Europe. It is located in Bosnia and Herzegovina, near the border with Montenegro.",
+   "title": "Perućica",
+   "url": "https://en.wikipedia.org/wiki/Peru%C4%87ica"
+  },
+  "piva-lake": {
+   "text": "Lake Piva is a reservoir in Montenegro. It is the largest lake entirely within the country, located in the northwest, in Plužine Municipality.",
+   "title": "Lake Piva",
+   "url": "https://en.wikipedia.org/wiki/Lake_Piva"
+  },
+  "durdevica-tara-bridge": {
+   "text": "The Đurđevića Tara Bridge is a concrete arch bridge over the Tara River in northern Montenegro.",
+   "title": "Đurđevića Tara Bridge",
+   "url": "https://en.wikipedia.org/wiki/%C4%90ur%C4%91evi%C4%87a_Tara_Bridge"
+  },
+  "durmitor": {
+   "text": "Durmitor is a massif located in northwestern Montenegro. It is part of the Dinaric Alps.",
+   "title": "Durmitor",
+   "url": "https://en.wikipedia.org/wiki/Durmitor"
+  },
+  "dubrovnik": {
+   "text": "Dubrovnik, historically also known as Ragusa, is a city in southern Dalmatia, Croatia, by the Adriatic Sea. It is one of the most prominent tourist destinations in the Mediterranean, a seaport and the centre of the Dubrovnik-Neretva County.",
+   "title": "Dubrovnik",
+   "url": "https://en.wikipedia.org/wiki/Dubrovnik"
+  },
+  "perast": {
+   "text": "Perast is a town in the coastal region of Montenegro. It is situated a few kilometres northwest of Kotor and is noted for its proximity to the islets of St.",
+   "title": "Perast",
+   "url": "https://en.wikipedia.org/wiki/Perast"
+  },
+  "kotor": {
+   "text": "Kotor, historically known as Cattaro, is a town in Coastal region of Montenegro. It is located in a secluded part of the Bay of Kotor.",
+   "title": "Kotor",
+   "url": "https://en.wikipedia.org/wiki/Kotor"
+  },
+  "sveti-stefan": {
+   "text": "Sveti Stefan is a town in Budva Municipality, on the Adriatic coast of Montenegro, approximately 6 kilometres (3.7 mi) southeast of Budva. The town is known for the Aman Sveti Stefan resort, a 5-star franchise of the international group of Aman Resorts.",
+   "title": "Sveti Stefan",
+   "url": "https://en.wikipedia.org/wiki/Sveti_Stefan"
+  },
+  "stari-bar": {
+   "text": "Stari Bar is a small town in Montenegro. It is located inland, three kilometers from the new city of Bar.",
+   "title": "Stari Bar",
+   "url": "https://en.wikipedia.org/wiki/Stari_Bar"
+  },
+  "ostrog-monastery": {
+   "text": "The Ostrog Monastery is a Serbian Orthodox monastery near Danilovgrad, Montenegro. Situated against an almost vertical background, high up in the large rock of Ostroška Greda, it is dedicated to Saint Basil of Ostrog, who was buried here.",
+   "title": "Ostrog Monastery",
+   "url": "https://en.wikipedia.org/wiki/Ostrog_Monastery"
+  },
+  "shkodra": {
+   "text": "Lake Skadar or Lake Scutari – also called Lake Shkodra and Lake Shkodër – lies on the border of Albania and Montenegro, and is the largest lake in Southern Europe. A karst lake, it is named after the Albanian city of Shkodër which lies at its southeastern coast.",
+   "title": "Lake Skadar",
+   "url": "https://en.wikipedia.org/wiki/Lake_Skadar"
+  },
+  "theth": {
+   "text": "Theth is a small village in Shkodër County, Albania. Following the 2015 local government reform, it became part of the municipality Shkodër, and has been declared a Protected Historic Center and a National Park by the Albanian Government.",
+   "title": "Theth",
+   "url": "https://en.wikipedia.org/wiki/Theth"
+  },
+  "kruje-castle": {
+   "text": "The Fortress of Krujë is a fortress in the city of Krujë, Albania and the center of Skanderbeg's rebellion against the Ottoman Empire.",
+   "title": "Fortress of Krujë",
+   "url": "https://en.wikipedia.org/wiki/Fortress_of_Kruj%C3%AB"
+  },
+  "berat": {
+   "text": "Berat is the ninth most populous city of Albania and the seat of Berat County and Berat Municipality. By air, it is 71 kilometres north of Gjirokastër, 70 kilometres west of Korçë, 70 kilometres south of Tirana, and 33 kilometres east of Fier.",
+   "title": "Berat",
+   "url": "https://en.wikipedia.org/wiki/Berat"
+  },
+  "ksamil": {
+   "text": "Ksamil is a village and a former municipality in the riviera of Southern Albania, and part of Butrint National Park. At the 2015 local government reform it became a subdivision of the municipality of Sarandë.",
+   "title": "Ksamil",
+   "url": "https://en.wikipedia.org/wiki/Ksamil"
+  },
+  "butrint": {
+   "text": "Butrint was an ancient Greek polis and later Roman city and the seat of an early Christian bishopric in Epirus.",
+   "title": "Butrint",
+   "url": "https://en.wikipedia.org/wiki/Butrint"
+  },
+  "gjirokaster": {
+   "text": "Gjirokastër is a city in southern Albania and the seat of Gjirokastër County and Gjirokastër Municipality. It is located in a valley between the Gjerë mountains and the Drino, at 300 metres above sea level.",
+   "title": "Gjirokastër",
+   "url": "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr"
+  },
+  "zagori": {
+   "text": "Zagori is a region, a municipality, and a designated UNESCO World Heritage Site, in the Pindus mountains in Epirus, in northwestern Greece. The seat of the municipality is the village Asprangeloi.",
+   "title": "Zagori",
+   "url": "https://en.wikipedia.org/wiki/Zagori"
+  },
+  "papingo": {
+   "text": "Papingo is a municipal unit in the Ioannina regional unit, Epirus, Greece. It is part of the municipality of Zagori.",
+   "title": "Papingo",
+   "url": "https://en.wikipedia.org/wiki/Papingo"
+  },
+  "ioannina": {
+   "text": "Ioannina, often called Yanina, is the capital and largest city of the Ioannina regional unit and of Epirus, an administrative region in northwestern Greece.",
+   "title": "Ioannina",
+   "url": "https://en.wikipedia.org/wiki/Ioannina"
+  },
+  "metsovo": {
+   "text": "Metsovo is a town in Epirus, in the mountains of Pindus in northern Greece, between Ioannina to the west and Meteora to the east.",
+   "title": "Metsovo",
+   "url": "https://en.wikipedia.org/wiki/Metsovo"
+  },
+  "meteora": {
+   "text": "Meteora is a rock formation in the regional unit of Trikala, in Thessaly, in northwestern Greece, hosting one of the most prominent complexes of Eastern Orthodox monasteries, viewed locally as second in importance only to Mount Athos. Their height is more than 20 metres (66 ft).",
+   "title": "Meteora",
+   "url": "https://en.wikipedia.org/wiki/Meteora"
+  },
+  "dodona": {
+   "text": "Dodona in Epirus in northwestern Greece was the oldest Hellenic oracle, possibly dating to the 2nd millennium BCE according to Herodotus. The earliest accounts in Homer describe Dodona as an oracle of Zeus.",
+   "title": "Dodona",
+   "url": "https://en.wikipedia.org/wiki/Dodona"
+  },
+  "parga": {
+   "text": "Parga is a town and municipality located in the northwestern part of the regional unit of Preveza in Epirus, northwestern Greece. The seat of the municipality is the village Kanallaki.",
+   "title": "Parga",
+   "url": "https://en.wikipedia.org/wiki/Parga"
+  },
+  "syvota": {
+   "text": "Syvota is a village and a former municipality in Thesprotia, Epirus, Greece. Since the 2011 local government reform it is part of the municipality Igoumenitsa, of which it is a municipal unit.",
+   "title": "Syvota",
+   "url": "https://en.wikipedia.org/wiki/Syvota"
+  },
+  "igoumenitsa": {
+   "text": "Igoumenitsa is a coastal city in northwestern Greece. It is the capital of the regional unit of Thesprotia.",
+   "title": "Igoumenitsa",
+   "url": "https://en.wikipedia.org/wiki/Igoumenitsa"
+  },
+  "alberobello": {
+   "text": "Alberobello is a small town and comune of the Metropolitan City of Bari, Apulia, southern Italy. It has 10,237 inhabitants (2022) and is famous for its unique trullo buildings.",
+   "title": "Alberobello",
+   "url": "https://en.wikipedia.org/wiki/Alberobello"
+  },
+  "amalfi-coast": {
+   "text": "The Amalfi Coast is a stretch of coastline overlooking the Tyrrhenian Sea and the Gulf of Salerno. It is located in the Province of Salerno, in the Campania region of southern Italy, south of the Sorrentine Peninsula and north of the Cilentan Coast.",
+   "title": "Amalfi Coast",
+   "url": "https://en.wikipedia.org/wiki/Amalfi_Coast"
+  },
+  "pompeii": {
+   "text": "Pompeii was a city in what is now the municipality of Pompei, near Naples, in the Campania region of Italy. Along with Herculaneum, Stabiae, and many surrounding villas, it was buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD.",
+   "title": "Pompeii",
+   "url": "https://en.wikipedia.org/wiki/Pompeii"
+  },
+  "colosseum": {
+   "text": "The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world.",
+   "title": "Colosseum",
+   "url": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  "pantheon-rome": {
+   "text": "The Pantheon is an ancient Polytheist temple in Rome, Italy, originally built under Roman emperor Augustus and reconstructed under Hadrian (117–138).",
+   "title": "Pantheon, Rome",
+   "url": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+  },
+  "st-peter-s-basilica": {
+   "text": "The Papal Basilica of Saint Peter in the Vatican, or simply St. Peter's Basilica, is a church of the Italian Renaissance located in Vatican City, an independent microstate enclaved within the city of Rome, Italy.",
+   "title": "St. Peter's Basilica",
+   "url": "https://en.wikipedia.org/wiki/St._Peter's_Basilica"
+  },
+  "civita-di-bagnoregio": {
+   "text": "Civita di Bagnoregio is an outlying village of the comune (municipality) of Bagnoregio in the Province of Viterbo in central Italy. It lies 1 kilometre (0.6 mi) east of the town of Bagnoregio and about 120 kilometres (75 mi) north of Rome.",
+   "title": "Civita di Bagnoregio",
+   "url": "https://en.wikipedia.org/wiki/Civita_di_Bagnoregio"
+  },
+  "montserrat": {
+   "text": "Montserrat is a multi-peaked mountain range near Barcelona, in Catalonia, Spain. It is part of the Catalan Pre-Coastal Range.",
+   "title": "Montserrat (mountain)",
+   "url": "https://en.wikipedia.org/wiki/Montserrat_(mountain)"
+  },
+  "aiguestortes-i-estany-de-sant-maurici-national-park": {
+   "text": "Aigüestortes i Estany de Sant Maurici National Park, is one of the fifteen Spanish national parks, and the only one located in Catalonia.",
+   "title": "Aigüestortes i Estany de Sant Maurici National Park",
+   "url": "https://en.wikipedia.org/wiki/Aig%C3%BCestortes_i_Estany_de_Sant_Maurici_National_Park"
+  },
+  "ordesa-y-monte-perdido-national-park": {
+   "text": "Ordesa y Monte Perdido National Park is an IUCN Category II National Park situated in the Pyrenees. There has been a National Park in the Ordesa Valley since 1918.",
+   "title": "Ordesa y Monte Perdido National Park",
+   "url": "https://en.wikipedia.org/wiki/Ordesa_y_Monte_Perdido_National_Park"
+  },
+  "castle-of-loarre": {
+   "text": "The Castle of Loarre is a Romanesque Castle and Abbey located near the town of the same name, Huesca Province in the Aragon autonomous region of Spain. It is one of the oldest castles in Spain.",
+   "title": "Castle of Loarre",
+   "url": "https://en.wikipedia.org/wiki/Castle_of_Loarre"
+  },
+  "bardenas-reales": {
+   "text": "The Bardenas Reales is a semi-desert natural region, or badlands, of some 42,000 hectares in southeast Navarre (Spain).",
+   "title": "Bardenas Reales",
+   "url": "https://en.wikipedia.org/wiki/Bardenas_Reales"
+  },
+  "san-sebastian": {
+   "text": "San Sebastián or Donostia, officially known by the bilingual name Donostia / San Sebastián, is a city and municipality located in the Basque Autonomous Community in Spain. It lies on the coast of the Bay of Biscay, 20 km from the Spain–France border.",
+   "title": "San Sebastián",
+   "url": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n"
+  },
+  "logrono": {
+   "text": "Logroño is the capital of the autonomous community of La Rioja, Spain. Located in the north of the Iberian Peninsula, primarily on the right (south) bank of the Ebro River, Logroño has historically been a place of passage, such as for the Camino de Santiago.",
+   "title": "Logroño",
+   "url": "https://en.wikipedia.org/wiki/Logro%C3%B1o"
+  },
+  "san-millan-de-la-cogolla": {
+   "text": "San Millán de la Cogolla is a sparsely populated municipality in La Rioja (Spain). The village is famous for its twin monasteries, Yuso and Suso, which were declared a World Heritage Site in 1997.",
+   "title": "San Millán de la Cogolla",
+   "url": "https://en.wikipedia.org/wiki/San_Mill%C3%A1n_de_la_Cogolla"
+  },
+  "burgos-cathedral": {
+   "text": "The Metropolitan Cathedral Basilica Cathedral of Saint Mary is a Catholic church dedicated to the Virgin Mary located in the historical center of the Spanish city of Burgos.",
+   "title": "Burgos Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Burgos_Cathedral"
+  },
+  "guggenheim-museum-bilbao": {
+   "text": "The Guggenheim Museum Bilbao is a museum of modern and contemporary art in Bilbao, Biscay, Spain. It is one of several museums affiliated to the Solomon R.",
+   "title": "Guggenheim Museum Bilbao",
+   "url": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+  },
+  "san-juan-de-gaztelugatxe": {
+   "text": "Gaztelugatxe is an islet on the coast of the Bay of Biscay belonging to the Biscayan municipality of Bermeo, in the Basque Autonomous Community. It is connected to the mainland by a footbridge.",
+   "title": "Gaztelugatxe",
+   "url": "https://en.wikipedia.org/wiki/Gaztelugatxe"
+  },
+  "santillana-del-mar": {
+   "text": "Santillana del Mar is a historic town situated in Cantabria, Spain. Its many historic buildings attract thousands of visitors every year.",
+   "title": "Santillana del Mar",
+   "url": "https://en.wikipedia.org/wiki/Santillana_del_Mar"
+  },
+  "fuente-de": {
+   "text": "Camaleño is a municipality located in the autonomous community of Cantabria, Spain. According to the 2007 census, the city had 1,096 inhabitants.",
+   "title": "Camaleño",
+   "url": "https://en.wikipedia.org/wiki/Camale%C3%B1o"
+  },
+  "picos": {
+   "text": "The Picos de Europa are a mountain range extending for about 20 km (12 mi), forming part of the Cantabrian Mountains in northern Spain. The range is situated in the Autonomous Communities of Asturias, Cantabria and Castile and León.",
+   "title": "Picos de Europa",
+   "url": "https://en.wikipedia.org/wiki/Picos_de_Europa"
+  },
+  "lakes-of-covadonga": {
+   "text": "The Lakes of Covadonga (el. 1134 m.) are two glacial lakes located on the region of Asturias, Spain.",
+   "title": "Lakes of Covadonga",
+   "url": "https://en.wikipedia.org/wiki/Lakes_of_Covadonga"
+  },
+  "cudillero": {
+   "text": "Cudillero is a municipality in the Principality of Asturias, Spain. Nowadays, Cudillero's main economic activities are related to tourism, but it is also known for its fishing industry.",
+   "title": "Cudillero",
+   "url": "https://en.wikipedia.org/wiki/Cudillero"
+  },
+  "as-catedrais-beach": {
+   "text": "Praia das Catedrais is on the northwest coast of Spain. It is the name given by the tourism industry to Praia de Augas Santas.",
+   "title": "As Catedrais beach",
+   "url": "https://en.wikipedia.org/wiki/As_Catedrais_beach"
+  },
+  "roman-walls-of-lugo": {
+   "text": "The Roman walls of Lugo are the ancient Roman defensive walls of the Roman colonia of Lucus Augusti –present-day Lugo, Spain–, in the Roman province of Hispania Tarraconensis. Stretching 2,120 metres (6,960 ft), they were built in the third century AD to defend the ancient Roman town.",
+   "title": "Roman walls of Lugo",
+   "url": "https://en.wikipedia.org/wiki/Roman_walls_of_Lugo"
+  },
+  "ribeira-sacra": {
+   "text": "Ribeira Sacra is a Spanish Denominación de Origen Protegida (DOP) for wines located in the south of the province of Lugo and in the north of the province of Ourense, in Galicia, Spain.",
+   "title": "Ribeira Sacra (DO)",
+   "url": "https://en.wikipedia.org/wiki/Ribeira_Sacra_(DO)"
+  },
+  "santiago-de-compostela-cathedral": {
+   "text": "The Santiago de Compostela Archcathedral Basilica is part of the Metropolitan Archdiocese of Santiago de Compostela and is an integral component of the Santiago de Compostela World Heritage Site in Galicia, Spain.",
+   "title": "Santiago de Compostela Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral"
+  },
+  "cape-finisterre": {
+   "text": "Cape Finisterre is a rock-bound peninsula on the west coast of Galicia, Spain.",
+   "title": "Cape Finisterre",
+   "url": "https://en.wikipedia.org/wiki/Cape_Finisterre"
+  },
+  "castro-of-santa-trega": {
+   "text": "The Castro of Santa Trega is an archaeological site on the hillsides of Mount Santa Trega, in the southwestern Galician municipality of A Guarda, Spain. The site is strategically located overlooking the mouth of the river Miño, at 341 meters above sea level.",
+   "title": "Castro of Santa Trega",
+   "url": "https://en.wikipedia.org/wiki/Castro_of_Santa_Trega"
+  },
+  "peneda-geres-national-park": {
+   "text": "Peneda-Gerês National Park, also known simply as Gerês, is a national park in Norte Region, Portugal. Created in May 1971, it is the oldest protected area and the only national park in Portugal.",
+   "title": "Peneda-Gerês National Park",
+   "url": "https://en.wikipedia.org/wiki/Peneda-Ger%C3%AAs_National_Park"
+  },
+  "bom-jesus-do-monte": {
+   "text": "The Sanctuary of Bom Jesus do Monte is a Portuguese Catholic shrine in Tenões, outside the city of Braga, in northern Portugal. Its name means Good Jesus of the Mount.",
+   "title": "Sanctuary of Bom Jesus do Monte",
+   "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Monte"
+  },
+  "guimaraes-castle": {
+   "text": "The Castle of Guimarães is the principal medieval castle in the municipality Guimarães, in the northern region of Portugal. It was built under the orders of Mumadona Dias in the 10th century to defend the monastery from attacks by Moors and Norsemen.",
+   "title": "Castle of Guimarães",
+   "url": "https://en.wikipedia.org/wiki/Castle_of_Guimar%C3%A3es"
+  },
+  "dom-luis-i-bridge": {
+   "text": "The Luiz I Bridge, commonly known as Dom Luís I Bridge, is a double-deck metal arch bridge that spans the river Douro between the cities of Porto and Vila Nova de Gaia in Portugal. At its construction, its 172 metres (564 ft) span was the longest of its type in the world.",
+   "title": "Dom Luís I Bridge",
+   "url": "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+  },
+  "amarante-portugal": {
+   "text": "Amarante is a city and a municipality in the Tâmega e Sousa subregion in northern Portugal. The population in 2021 was 52,116, in an area of 301.33 square kilometres (116.34 mi2).",
+   "title": "Amarante, Portugal",
+   "url": "https://en.wikipedia.org/wiki/Amarante%2C_Portugal"
+  },
+  "mateus-palace": {
+   "text": "The Mateus Palace is a palace located in the civil parish of Mateus, municipality of Vila Real, Portugal. The three primary buildings are the manor, the winery and the chapel.",
+   "title": "Mateus Palace",
+   "url": "https://en.wikipedia.org/wiki/Mateus_Palace"
+  },
+  "vila-nova-de-foz-coa": {
+   "text": "Vila Nova de Foz Côa is a city and a municipality at the confluence of the rivers Douro and Côa in the district of Guarda, Portugal.",
+   "title": "Vila Nova de Foz Côa",
+   "url": "https://en.wikipedia.org/wiki/Vila_Nova_de_Foz_C%C3%B4a"
+  },
+  "lamego": {
+   "text": "Lamego is a city and municipality in the Viseu District, in the Norte Region of the Douro in northern Portugal. Located on the shores of the Balsemão River, the municipality has a population of 26,691, in an area of 165.42 km2.",
+   "title": "Lamego",
+   "url": "https://en.wikipedia.org/wiki/Lamego"
+  },
+  "serra-da-estrela": {
+   "text": "Serra da Estrela is the highest mountain range in Continental Portugal. Together with the Serra da Lousã it is the westernmost constituent range of the Sistema Central and also one of the highest in the system.",
+   "title": "Serra da Estrela",
+   "url": "https://en.wikipedia.org/wiki/Serra_da_Estrela"
+  },
+  "bucaco-palace": {
+   "text": "The Buçaco Palace is a former convent that today houses a luxury hotel located in the Buçaco mountain range, in the municipality of Mealhada, in central Portugal. It is a national monument.",
+   "title": "Buçaco Palace",
+   "url": "https://en.wikipedia.org/wiki/Bu%C3%A7aco_Palace"
+  },
+  "sanctuary-of-fatima": {
+   "text": "The Sanctuary of Fátima, or Shrine of Fátima, also known as Sanctuary of Our Lady of Fátima, is a group of Catholic Church religious buildings and structures located in Cova da Iria, in the civil parish and city of Fátima, in the municipality of Ourém, in Portugal.",
+   "title": "Sanctuary of Fátima",
+   "url": "https://en.wikipedia.org/wiki/Sanctuary_of_F%C3%A1tima"
+  },
+  "university-of-coimbra": {
+   "text": "The University of Coimbra (UC) is a public research university in Coimbra, Portugal.",
+   "title": "University of Coimbra",
+   "url": "https://en.wikipedia.org/wiki/University_of_Coimbra"
+  },
+  "aveiro-portugal": {
+   "text": "Aveiro is a city and a municipality in Portugal. In 2021, the population was 80,880, in an area of 197.58 square kilometres (76.29 mi2): it is the second most populous city in the Centro Region of Portugal.",
+   "title": "Aveiro, Portugal",
+   "url": "https://en.wikipedia.org/wiki/Aveiro%2C_Portugal"
+  },
+  "conimbriga": {
+   "text": "Conímbriga is one of the largest Roman settlements excavated in Portugal, and was classified as a National Monument in 1910.",
+   "title": "Conímbriga",
+   "url": "https://en.wikipedia.org/wiki/Con%C3%ADmbriga"
+  },
+  "batalha-monastery": {
+   "text": "The Monastery of Batalha is a Dominican convent in the municipality of Batalha, historical Beira Litoral province, in the Centro of Portugal.",
+   "title": "Batalha Monastery",
+   "url": "https://en.wikipedia.org/wiki/Batalha_Monastery"
+  },
+  "nazare-portugal": {
+   "text": "Nazaré is a Portuguese resort town and municipality located in the Oeste region, in the historical province of Estremadura, and in the Leiria District. The municipality has a population of 14,889 in an area of 82.43 km2, while the town itself has around 10,000 inhabitants.",
+   "title": "Nazaré, Portugal",
+   "url": "https://en.wikipedia.org/wiki/Nazar%C3%A9%2C_Portugal"
+  },
+  "obidos-portugal": {
+   "text": "Óbidos is a town and a municipality in the Oeste region, historical province of Estremadura and the Leiria district. The town proper has approximately 3,100 inhabitants.",
+   "title": "Óbidos, Portugal",
+   "url": "https://en.wikipedia.org/wiki/%C3%93bidos%2C_Portugal"
+  },
+  "peniche-portugal": {
+   "text": "Peniche, officially the City of Peniche, is a seaside municipality and a city in the Oeste region, in the historical province of Estremadura, and in the Leiria District. It has 26,431 inhabitants, in an area of 77.55 km2.",
+   "title": "Peniche, Portugal",
+   "url": "https://en.wikipedia.org/wiki/Peniche%2C_Portugal"
+  },
+  "ericeira": {
+   "text": "Ericeira is a civil parish and seaside community on the western coast of Portugal considered the surfing capital of Europe. It is also one of only two European spots among the World Surfing Reserves because of its exceptional coastline conditions.",
+   "title": "Ericeira",
+   "url": "https://en.wikipedia.org/wiki/Ericeira"
+  },
+  "pena-palace": {
+   "text": "The Pena Palace is a Romanticist palace in São Pedro de Penaferrim, in the municipality of Sintra, on the Portuguese Riviera.",
+   "title": "Pena Palace",
+   "url": "https://en.wikipedia.org/wiki/Pena_Palace"
+  },
+  "cabo-da-roca": {
+   "text": "Cabo da Roca or Cape Roca is a cape which forms the westernmost point of the Sintra Mountain Range, of mainland Portugal, of continental Europe, and of the Eurasian landmass. It is located in the municipality of Sintra, near Azóia, to the west of Lisbon.",
+   "title": "Cabo da Roca",
+   "url": "https://en.wikipedia.org/wiki/Cabo_da_Roca"
+  },
+  "belem-tower": {
+   "text": "Belém Tower, officially the Tower of Saint Vincent, is a 16th-century fortification located in Lisbon, Portugal, which served as a point of embarkation and disembarkation for Portuguese explorers and as a ceremonial gateway to Lisbon.",
+   "title": "Belém Tower",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+  },
+  "alfama": {
+   "text": "The Alfama is the oldest neighborhood of Lisbon, spreading on the slope between the São Jorge Castle and the Tagus river.",
+   "title": "Alfama",
+   "url": "https://en.wikipedia.org/wiki/Alfama"
+  },
+  "arrabida-natural-park": {
+   "text": "Arrábida Natural Park is a protected area in Portugal. Founded in 1976, the park occupies an area of 176.41 km2 (68.11 sq mi), (123.30 km2 on land and 53.11 km2 at sea, covering the southernmost margin of the Setúbal Peninsula.",
+   "title": "Arrábida Natural Park",
+   "url": "https://en.wikipedia.org/wiki/Arr%C3%A1bida_Natural_Park"
+  },
+  "comporta": {
+   "text": "Comporta, also known as the Comporta Coast, is a region in the northwestern coast of the Alentejo, in Portugal, south of the Lisbon metropolitan area. Comporta is one of the most exclusive summer destinations in Europe, which has earned the region the nickname as \"the Hamptons of Europe\".",
+   "title": "Comporta",
+   "url": "https://en.wikipedia.org/wiki/Comporta"
+  },
+  "roman-temple-of-evora": {
+   "text": "The Roman Temple of Évora, also referred to as the Templo de Diana is an ancient temple in the Portuguese city of Évora. The temple is part of the historical centre of the city, which was included in the classification by UNESCO as a World Heritage Site.",
+   "title": "Roman Temple of Évora",
+   "url": "https://en.wikipedia.org/wiki/Roman_Temple_of_%C3%89vora"
+  },
+  "monsaraz": {
+   "text": "Monsaraz is a civil parish (freguesia) of the municipality of Reguengos de Monsaraz, on the right margin of the Guadiana River in the Portuguese Alentejo region, near its border with Spain. The population in 2011 was 782, in an area of 88.29 km2.",
+   "title": "Monsaraz",
+   "url": "https://en.wikipedia.org/wiki/Monsaraz"
+  },
+  "convent-of-christ": {
+   "text": "The Convent of Christ of Tomar, also called Convent of Christ or Monastery of Christ, is a former Catholic convent in Tomar, Portugal.",
+   "title": "Convent of Christ (Tomar)",
+   "url": "https://en.wikipedia.org/wiki/Convent_of_Christ_(Tomar)"
+  },
+  "almourol-castle": {
+   "text": "The Castle of Almourol is a medieval castle atop the islet of Almourol in the middle of the Tagus River, located in the civil parish of Praia do Ribatejo, 4 kilometres (2.5 mi) from the municipal seat of Vila Nova da Barquinha, in Portugal's Oeste e Vale do Tejo region.",
+   "title": "Castle of Almourol",
+   "url": "https://en.wikipedia.org/wiki/Castle_of_Almourol"
+  },
+  "golega": {
+   "text": "Golegã is a town and municipality in Santarém District, Portugal. The population of the municipality in 2011 was 5,913, in an area of 84.32 km².",
+   "title": "Golegã",
+   "url": "https://en.wikipedia.org/wiki/Goleg%C3%A3"
+  },
+  "marvao": {
+   "text": "Marvão, officially the Very Noble and Ever Loyal Town of Marvão, is a municipality in Portalegre District in Portugal. The population in 2020 was 2,972, in an area of 154.90 km2.",
+   "title": "Marvão",
+   "url": "https://en.wikipedia.org/wiki/Marv%C3%A3o"
+  },
+  "castelo-de-vide": {
+   "text": "Castelo de Vide, officially the Notable Town of Castelo de Vide, is a municipality in Portugal, with a population of 3,407 inhabitants in 2011, in an area of 264.91 square kilometres (102.28 mi2).",
+   "title": "Castelo de Vide",
+   "url": "https://en.wikipedia.org/wiki/Castelo_de_Vide"
+  },
+  "alcobaca-monastery": {
+   "text": "The Alcobaça Monastery or Alcobasa Monastery is a Catholic monastic complex located in the town of Alcobaça, Oeste region of Portugal, 120 km (75 mi) north of Lisbon and 110 km (68 mi) south of Coimbra.",
+   "title": "Alcobaça Monastery",
+   "url": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery"
+  },
+  "ponta-da-piedade": {
+   "text": "Ponta da Piedade is a headland with a group of rock formations along the coastline of the town of Lagos, in the Portuguese region of the Algarve. Consisting of yellow-golden cliff-like rocks up to 20 meters high, they are one of the most famous tourist attractions of Portugal.",
+   "title": "Ponta da Piedade",
+   "url": "https://en.wikipedia.org/wiki/Ponta_da_Piedade"
+  },
+  "vejer-de-la-frontera": {
+   "text": "Vejer de la Frontera is a Spanish hilltop town and municipality in the province of Cádiz, Andalusia, on the right bank of the river Barbate. The town of Vejer de la Frontera occupies a low hill overlooking the Straits of Gibraltar and surrounded by orchards and orange groves.",
+   "title": "Vejer de la Frontera",
+   "url": "https://en.wikipedia.org/wiki/Vejer_de_la_Frontera"
+  },
+  "algeciras": {
+   "text": "Algeciras is a city and a municipality of Spain belonging to the province of Cádiz, Andalusia. With a registered population as of 2020 of 123,078, it is the most populated municipality of the Campo de Gibraltar.",
+   "title": "Algeciras",
+   "url": "https://en.wikipedia.org/wiki/Algeciras"
+  },
+  "chefchaouen": {
+   "text": "Chefchaouen is a city in northwest Morocco. It is the chief town of the province of the same name and is noted for its buildings in shades of blue, for which it is nicknamed the \"Blue City\".",
+   "title": "Chefchaouen",
+   "url": "https://en.wikipedia.org/wiki/Chefchaouen"
+  },
+  "volubilis": {
+   "text": "Volubilis is a partly excavated Berber-Roman city in Morocco, situated near the city of Meknes, that may have been the capital of the Kingdom of Mauretania, at least from the time of King Juba II. Before Volubilis, the capital of the kingdom may have been at Gilda.",
+   "title": "Volubilis",
+   "url": "https://en.wikipedia.org/wiki/Volubilis"
+  },
+  "fes-el-bali": {
+   "text": "Fes el Bali is the oldest part of Fez, Morocco. It is one of the three main districts of Fez, along with Fes Jdid and the French-created Ville Nouvelle.",
+   "title": "Fes el Bali",
+   "url": "https://en.wikipedia.org/wiki/Fes_el_Bali"
+  },
+  "ifrane-national-park": {
+   "text": "Ifrane National Park is a national park located in the Middle Atlas mountain range of Morocco. Its territory extends over the western part of the mountains and areas within the provinces of Ifrane and Boulmane.",
+   "title": "Ifrane National Park",
+   "url": "https://en.wikipedia.org/wiki/Ifrane_National_Park"
+  },
+  "ouzoud-falls": {
+   "text": "Ouzoud Falls is the collective name for several waterfalls in Azilal Province, Morocco. The waterfalls empty into the El-Abid River's gorge.",
+   "title": "Ouzoud Falls",
+   "url": "https://en.wikipedia.org/wiki/Ouzoud_Falls"
+  },
+  "telouet-kasbah": {
+   "text": "Telouet Kasbah is a kasbah in the north of Ouarzazate Province in Morocco. It is located along the former route of the caravans from the Sahara over the Atlas Mountains to Marrakesh.",
+   "title": "Telouet Kasbah",
+   "url": "https://en.wikipedia.org/wiki/Telouet_Kasbah"
+  },
+  "ait-benhaddou": {
+   "text": "Aït Benhaddou is a historic ighrem or ksar along the former caravan route between the Sahara and Marrakesh in Morocco. It is considered a great example of Moroccan earthen clay architecture and has been a UNESCO World Heritage Site since 1987.",
+   "title": "Aït Benhaddou",
+   "url": "https://en.wikipedia.org/wiki/A%C3%AFt_Benhaddou"
+  },
+  "taourirt-kasbah": {
+   "text": "Kasbah Taourirt is a historic fortified residence complex or kasbah in Ouarzazate, Morocco.",
+   "title": "Kasbah Taourirt",
+   "url": "https://en.wikipedia.org/wiki/Kasbah_Taourirt"
+  },
+  "agdz": {
+   "text": "Agdz, also spelled Agdez is a Moroccan town in Zagora Province with a population of about 10,000. Agdz lies at the feet of Djebel Kissane and along the shores of the Draa River.",
+   "title": "Agdz",
+   "url": "https://en.wikipedia.org/wiki/Agdz"
+  },
+  "tamegroute": {
+   "text": "Tamegroute is a village near Zagora in the Draa River valley in the foothills of the Moroccan pre-Sahara. In Tamazigh languages, the name literally translates to \"Final Place Before the Desert.\"",
+   "title": "Tamegroute",
+   "url": "https://en.wikipedia.org/wiki/Tamegroute"
+  },
+  "n-kob": {
+   "text": "N'Kob is a rural municipality in the Zagora province, in the Atlas Mountains. It is located near the Jbel Saghro and 24 kilometers from Tamsahelte.",
+   "title": "N'Kob",
+   "url": "https://en.wikipedia.org/wiki/N'Kob"
+  },
+  "rissani": {
+   "text": "Rissani is a town in Errachidia Province in eastern Morocco, located near Erfoud. It is the closest town of significant size to the Erg Chebbi, the largest sand desert in Morocco.",
+   "title": "Rissani",
+   "url": "https://en.wikipedia.org/wiki/Rissani"
+  },
+  "merzouga": {
+   "text": "Merzouga is a village in Errachidia Province, Drâa-Tafilalet, Morocco. The nearby Erg Chebbi dunes are among the tallest in the Sahara desert and a major tourist destination in the region.",
+   "title": "Merzouga",
+   "url": "https://en.wikipedia.org/wiki/Merzouga"
+  },
+  "todgha-gorge": {
+   "text": "The Todgha Gorges are a series of limestone river canyons, or wadi, in the eastern part of the High Atlas Mountains in Morocco, near the town of Tinghir.",
+   "title": "Todgha Gorge",
+   "url": "https://en.wikipedia.org/wiki/Todgha_Gorge"
+  },
+  "dades-gorges": {
+   "text": "The Dadès Gorges, also referred to as Dades Valley, are a series of rugged wadi gorges carved out by the Dadès River in Morocco.",
+   "title": "Dadès Gorges",
+   "url": "https://en.wikipedia.org/wiki/Dad%C3%A8s_Gorges"
+  },
+  "kalaat-m-gouna": {
+   "text": "Kelâat M'Gouna or Tighremt NImgunen is a city in Tinghir Province, Drâa-Tafilalet, Morocco. According to the 2024 Moroccan census it has a population of 17,737.",
+   "title": "Kalaat M'Gouna",
+   "url": "https://en.wikipedia.org/wiki/Kalaat_M'Gouna"
+  },
+  "skoura": {
+   "text": "Skoura is a town in Ouarzazate Province, Drâa-Tafilalet, Morocco. It consists of a modern town as well as a historical oasis and palmeraie with traditional rammed-earth architecture.",
+   "title": "Skoura",
+   "url": "https://en.wikipedia.org/wiki/Skoura"
+  },
+  "taliouine": {
+   "text": "Taliouine is a town in Taroudant Province, Souss-Massa, Morocco. According to the 2004 census it has a population of 5,844.",
+   "title": "Taliouine",
+   "url": "https://en.wikipedia.org/wiki/Taliouine"
+  },
+  "taroudant": {
+   "text": "Taroudant is a city in the Sous in southwestern Morocco. It is situated east of Agadir on the road to Ouarzazate and south of Marrakesh.",
+   "title": "Taroudant",
+   "url": "https://en.wikipedia.org/wiki/Taroudant"
+  },
+  "taghazout": {
+   "text": "Taghazout is a small Berber fishing village 19 km (12 mi) north of the city of Agadir in southwestern Morocco. The inhabitants are mostly of Berber origin.",
+   "title": "Taghazout",
+   "url": "https://en.wikipedia.org/wiki/Taghazout"
+  },
+  "agadir-oufella": {
+   "text": "The Kasbah of Agadir Oufla is a historical landmark in Agadir, Morocco, that housed the old city of Agadir, much of which was affected by the earthquake that struck the city in 1960.",
+   "title": "Agadir Oufla",
+   "url": "https://en.wikipedia.org/wiki/Agadir_Oufla"
+  },
+  "souss-massa-national-park": {
+   "text": "The Souss-Massa National Park is a 33,800 hectare national park on the Atlantic coast of Morocco which was created in 1991. It lies between Agadir to the north and Sidi Ifni to the south.",
+   "title": "Souss-Massa National Park",
+   "url": "https://en.wikipedia.org/wiki/Souss-Massa_National_Park"
+  },
+  "aglou": {
+   "text": "Tnine Aglou is a small town and rural commune in Tiznit Province of the Souss-Massa-Drâa region of Morocco. At the time of the 2004 census, the commune had a total population of 14,632 people living in 3,128 households.",
+   "title": "Tnine Aglou",
+   "url": "https://en.wikipedia.org/wiki/Tnine_Aglou"
+  },
+  "tiznit": {
+   "text": "Tiznit or Tiznet is a town in the Moroccan region of Souss-Massa, founded in 1881 by Alawi Sultan Hassan I. It is the capital of Tiznit Province and recorded a population of 74,699 in the 2014 Moroccan census.",
+   "title": "Tiznit",
+   "url": "https://en.wikipedia.org/wiki/Tiznit"
+  },
+  "mirleft": {
+   "text": "Mirleft is a small coastal town and rural commune in Sidi Ifni Province of the Guelmim-Oued Noun region of Morocco. At the 2004 census, the commune had a total population of 7026 people living in 1303 households.",
+   "title": "Mirleft",
+   "url": "https://en.wikipedia.org/wiki/Mirleft"
+  },
+  "sidi-ifni": {
+   "text": "Sidi Ifni is a city located on the west coast of Morocco, on the shores of the Atlantic Ocean, with a population of 20,051 people. The economic base of the city is fishing.",
+   "title": "Sidi Ifni",
+   "url": "https://en.wikipedia.org/wiki/Sidi_Ifni"
+  },
+  "guelmim": {
+   "text": "Guelmim is a city in southern Morocco, often called the Gateway to the Desert. It is the capital of the Guelmim-Oued Noun region which includes southern Morocco and the northeastern corner of Western Sahara.",
+   "title": "Guelmim",
+   "url": "https://en.wikipedia.org/wiki/Guelmim"
+  },
+  "tan-tan": {
+   "text": "Tan-Tan is a city in Tan-Tan Province in the region of Guelmim-Oued Noun in southwestern Morocco. It is a desert town with a population of 73,209.",
+   "title": "Tan-Tan",
+   "url": "https://en.wikipedia.org/wiki/Tan-Tan"
+  },
+  "khenifiss-national-park": {
+   "text": "Khenifiss National Park is a national park in the south-west of Morocco, located near Akhfenir on the Atlantic coast in the region of Laâyoune-Sakia El Hamra. Established in 2006, the park was created to protect desert, wetland and coastal dune landscapes.",
+   "title": "Khenifiss National Park",
+   "url": "https://en.wikipedia.org/wiki/Khenifiss_National_Park"
+  },
+  "tarfaya": {
+   "text": "Tarfaya is a coastal Moroccan town, located at the level of Cape Juby, in western Morocco, on the Atlantic coast. It is located about 890 km southwest of the capital Rabat, and around 100 km from both Laayoune and Lanzarote, in the far east of the Canary Islands.",
+   "title": "Tarfaya",
+   "url": "https://en.wikipedia.org/wiki/Tarfaya"
+  },
+  "amtoudi": {
+   "text": "Amtoudi is a Berber village of 1,000 people in the Anti-Atlas region of Morocco. Amtoudi is 235 km southeast of the city of Agadir.",
+   "title": "Amtoudi",
+   "url": "https://en.wikipedia.org/wiki/Amtoudi"
+  },
+  "tata-morocco": {
+   "text": "Tata is a city in central Morocco with a population of 18,611 according to the country's 2014 census. It is the largest city in Tata Province.",
+   "title": "Tata, Morocco",
+   "url": "https://en.wikipedia.org/wiki/Tata%2C_Morocco"
+  },
+  "tafraoute": {
+   "text": "Tafraout, also Tafraoute is a town in Tiznit Province, Souss-Massa region, Morocco. Situated in the central part of the Anti-Atlas mountains, a mountain range in Morocco which is part of the Atlas Mountains in the northwest of Africa, the town has a population of 6,124 at the 2024 census.",
+   "title": "Tafraout",
+   "url": "https://en.wikipedia.org/wiki/Tafraout"
+  },
+  "imsouane": {
+   "text": "Imsouane is a small coastal town and rural commune in Agadir-Ida Ou Tanane Prefecture, Souss-Massa, Morocco. It lies on Morocco's Atlantic coast between Agadir and Essaouira.",
+   "title": "Imsouane",
+   "url": "https://en.wikipedia.org/wiki/Imsouane"
+  },
+  "toubkal": {
+   "text": "Toubkal, also Jbel Toubkal or Jebel Toubkal, is a mountain in central Morocco, located in the Toubkal National Park. At 4,167 m (13,671 ft), it is the highest peak in Morocco, the Atlas Mountains, North Africa and the Arab world.",
+   "title": "Toubkal",
+   "url": "https://en.wikipedia.org/wiki/Toubkal"
+  },
+  "essaouira": {
+   "text": "Essaouira, known until the 1960s as Mogador, is a port city on the Atlantic coast in western Morocco. It has 82,962 inhabitants as of 2024.",
+   "title": "Essaouira",
+   "url": "https://en.wikipedia.org/wiki/Essaouira"
+  },
+  "oualidia": {
+   "text": "Oualidia or Loualidia is a village in Morocco's Atlantic coast in the Casablanca-Settat region and at the border of Merrakch-Asfi.",
+   "title": "Oualidia",
+   "url": "https://en.wikipedia.org/wiki/Oualidia"
+  },
+  "hassan-ii-mosque": {
+   "text": "The Hassan II Mosque is a mosque in Casablanca, Morocco. It is the second largest mosque in Africa and one of the largest mosques in the world.",
+   "title": "Hassan II Mosque",
+   "url": "https://en.wikipedia.org/wiki/Hassan_II_Mosque"
+  },
+  "kasbah-of-the-udayas": {
+   "text": "The Kasbah of the Udayas, also spelled Kasbah of the Oudaias or of the Oudayas, is a kasbah (citadel) in Rabat, Morocco. It is located on a hill at the mouth of the Bou Regreg opposite Salé, and adjacent to the Medina quarter of Rabat.",
+   "title": "Kasbah of the Udayas",
+   "url": "https://en.wikipedia.org/wiki/Kasbah_of_the_Udayas"
+  },
+  "asilah": {
+   "text": "Asilah is a fortified town on the northwest tip of the Atlantic coast of Morocco, about 31 km (19 mi) south of Tangier. Its ramparts and gateworks remain fully intact.",
+   "title": "Asilah",
+   "url": "https://en.wikipedia.org/wiki/Asilah"
+  },
+  "rock-of-gibraltar": {
+   "text": "The Rock of Gibraltar is a monolithic limestone mountain 426 m (1,398 ft) high dominating the western entrance to the Mediterranean Sea at the Strait of Gibraltar.",
+   "title": "Rock of Gibraltar",
+   "url": "https://en.wikipedia.org/wiki/Rock_of_Gibraltar"
+  },
+  "baelo-claudia": {
+   "text": "Baelo Claudia was an ancient Roman town in Hispania, located 22 kilometres (14 mi) outside of Tarifa, near the village of Bolonia, in southern Spain.",
+   "title": "Baelo Claudia",
+   "url": "https://en.wikipedia.org/wiki/Baelo_Claudia"
+  },
+  "cadiz": {
+   "text": "Cádiz is a city in Spain and the capital of the province of Cádiz in the autonomous community of Andalusia. It is located in the southwest of the Iberian Peninsula off the Atlantic Ocean separated from neighbouring San Fernando by a narrow isthmus.",
+   "title": "Cádiz",
+   "url": "https://en.wikipedia.org/wiki/C%C3%A1diz"
+  },
+  "donana-national-park": {
+   "text": "Doñana National Park or Parque Nacional y Natural de Doñana is a natural reserve in Andalusia, southern Spain, in the provinces of Huelva, Cádiz and Seville. It covers 543 km2 (209.65 mi2), of which 135 km2 (52.12 mi2) are a protected area.",
+   "title": "Doñana National Park",
+   "url": "https://en.wikipedia.org/wiki/Do%C3%B1ana_National_Park"
+  },
+  "alcazar-of-seville": {
+   "text": "The Alcázar of Seville, officially called Royal Alcázar of Seville, is a historic royal palace in Seville, Spain and one of the official residences of the Spanish royal family.",
+   "title": "Alcázar of Seville",
+   "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville"
+  },
+  "mosquecathedral-of-cordoba": {
+   "text": "The Mosque–Cathedral of Córdoba is the cathedral of the Roman Catholic Diocese of Córdoba in the Spanish region of Andalusia. Officially called the Cathedral of Our Lady of the Assumption, it is dedicated to the Assumption of Mary.",
+   "title": "Mosque–Cathedral of Córdoba",
+   "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+  },
+  "setenil-de-las-bodegas": {
+   "text": "Setenil de las Bodegas is a pueblo (town) and municipality in the province of Cádiz, Spain, famous for its dwellings built into a rock formation above the Río Guadalporcún river. According to the 2023 census, the town has a population of 2,638 inhabitants.",
+   "title": "Setenil de las Bodegas",
+   "url": "https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas"
+  },
+  "ronda": {
+   "text": "Ronda is a municipality of Spain belonging to the province of Málaga, within the autonomous community of Andalusia.",
+   "title": "Ronda",
+   "url": "https://en.wikipedia.org/wiki/Ronda"
+  },
+  "caminito-del-rey": {
+   "text": "Caminito del Rey is a walkway pinned along the steep walls of a narrow gorge in El Chorro, near Ardales in the province of Málaga, Spain. Its name derives from the original name of Camino del Rey, abbreviated locally to el caminito.",
+   "title": "Caminito del Rey",
+   "url": "https://en.wikipedia.org/wiki/Caminito_del_Rey"
+  },
+  "alhambra": {
+   "text": "The Alhambra is a palace and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved palace from the medieval Islamic world.",
+   "title": "Alhambra",
+   "url": "https://en.wikipedia.org/wiki/Alhambra"
+  },
+  "guadix": {
+   "text": "Guadix is a city and municipality in southern Spain, in the province of Granada.",
+   "title": "Guadix",
+   "url": "https://en.wikipedia.org/wiki/Guadix"
+  },
+  "cabo-de-gata-nijar-natural-park": {
+   "text": "The Cabo de Gata-Níjar Natural Park is a natural park located in Almería, Spain. It is the largest protected coastal area in Andalusia, featuring a rugged landscape.",
+   "title": "Cabo de Gata-Níjar Natural Park",
+   "url": "https://en.wikipedia.org/wiki/Cabo_de_Gata-N%C3%ADjar_Natural_Park"
+  },
+  "mojacar": {
+   "text": "Mojácar is a municipality situated in the southeast of the Province of Almería (Andalucia) in southern Spain, bordering the Mediterranean Sea. It is 90 km from the capital of the province, Almería.",
+   "title": "Mojácar",
+   "url": "https://en.wikipedia.org/wiki/Moj%C3%A1car"
+  },
+  "roman-theatre-of-cartagena": {
+   "text": "The Roman Theatre of Cartagena is a Roman theatre in the Roman colonia of Carthago Nova—present-day Cartagena, Spain. Built between the years 5 and 1 BCE, it had a capacity of some 6,000 spectators and was used for Roman theatrical performances.",
+   "title": "Roman Theatre (Cartagena)",
+   "url": "https://en.wikipedia.org/wiki/Roman_Theatre_(Cartagena)"
+  },
+  "guadalest": {
+   "text": "El Castell de Guadalest or simply Guadalest, is a Valencian town and municipality located in a mountainous area of the comarca of Marina Baixa, in the province of Alicante, Spain. Guadalest has an area of 16 km² and, according to the 2002 census, a total population of 189 inhabitants.",
+   "title": "El Castell de Guadalest",
+   "url": "https://en.wikipedia.org/wiki/El_Castell_de_Guadalest"
+  },
+  "city-of-arts-and-sciences": {
+   "text": "The City of Arts and Sciences is a cultural and architectural complex in the city of Valencia, Spain. It is the most important modern tourist destination in the city of Valencia and one of the 12 Treasures of Spain.",
+   "title": "City of Arts and Sciences",
+   "url": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences"
+  },
+  "peniscola": {
+   "text": "Peníscola or Peñíscola and officially Peníscola/Peñíscola, anglicised as Peniscola, is a municipality in the Province of Castellón, Valencian Community, Spain. The town is located on the Costa del Azahar, north of the Serra d'Irta along the Mediterranean coast.",
+   "title": "Peniscola",
+   "url": "https://en.wikipedia.org/wiki/Peniscola"
+  },
+  "morella-castellon": {
+   "text": "Morella is an ancient walled city located on a hill-top in the province of Castellón, Valencian Community, Spain. The town is the capital and administrative centre of the comarca of Els Ports, in the historic Maestrat (Maestrazgo) region.",
+   "title": "Morella, Spain",
+   "url": "https://en.wikipedia.org/wiki/Morella%2C_Spain"
+  },
+  "ebro-delta": {
+   "text": "The Ebro Delta is the delta region of the Ebro River in the southwest of the Province of Tarragona in the region of Catalonia in Spain. It is located on the Mediterranean Sea, and is the northernmost point, by some designations, of the Gulf of Valencia.",
+   "title": "Ebro Delta",
+   "url": "https://en.wikipedia.org/wiki/Ebro_Delta"
+  },
+  "sitges": {
+   "text": "Sitges is a town about 35 kilometres southwest of Barcelona, in Catalonia, Spain, renowned worldwide for its film festival, Carnival, and Catalan culture. Located between the Garraf Massif and the Mediterranean Sea, it is known for its beaches, nightspots, LGBTQ+ tourism, and historical sites.",
+   "title": "Sitges",
+   "url": "https://en.wikipedia.org/wiki/Sitges"
+  },
+  "girona-cathedral": {
+   "text": "The Cathedral of Saint Mary is a Roman Catholic cathedral located in Girona, Catalonia, Spain. It is the seat of the Roman Catholic Diocese of Girona.",
+   "title": "Girona Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Girona_Cathedral"
+  },
+  "besalu": {
+   "text": "Besalú is a town in the comarca of Garrotxa, in Girona, Catalonia, Spain.",
+   "title": "Besalú",
+   "url": "https://en.wikipedia.org/wiki/Besal%C3%BA"
+  },
+  "cadaques": {
+   "text": "Cadaqués is a town in the Alt Empordà comarca, in the province of Girona, Catalonia, Spain. It is on a bay in the middle of the Cap de Creus peninsula, near Cap de Creus cape, on the Costa Brava of the Mediterranean.",
+   "title": "Cadaqués",
+   "url": "https://en.wikipedia.org/wiki/Cadaqu%C3%A9s"
+  },
+  "cap-de-creus": {
+   "text": "The Cap de Creus is a peninsula and a headland located at the far northeast of Catalonia, some 25 kilometres (16 mi) south from the French border.",
+   "title": "Cap de Creus",
+   "url": "https://en.wikipedia.org/wiki/Cap_de_Creus"
+  },
+  "collioure": {
+   "text": "Collioure is a commune in the southern French department of Pyrénées-Orientales.",
+   "title": "Collioure",
+   "url": "https://en.wikipedia.org/wiki/Collioure"
+  },
+  "cite-de-carcassonne": {
+   "text": "The Cité de Carcassonne is a medieval citadel located in the French city of Carcassonne, in the Aude department, Occitania region. It is situated on a hill on the right bank of the river Aude, in the south-eastern part of the city proper.",
+   "title": "Cité de Carcassonne",
+   "url": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne"
+  },
+  "aigues-mortes": {
+   "text": "Aigues-Mortes is a commune in the Gard department in the Occitania region of southern France. The medieval city walls surrounding the city are well preserved.",
+   "title": "Aigues-Mortes",
+   "url": "https://en.wikipedia.org/wiki/Aigues-Mortes"
+  },
+  "camargue": {
+   "text": "The Camargue is a coastal region in southern France located south of the city of Arles, between the Mediterranean Sea and the two arms of the Rhône river delta. The eastern arm is called the Grand Rhône; the western is the Petit Rhône.",
+   "title": "Camargue",
+   "url": "https://en.wikipedia.org/wiki/Camargue"
+  },
+  "maison-carree": {
+   "text": "The Maison carrée is an ancient Roman temple in Nîmes, southern France; it is one of the best-preserved Roman temples to survive in the territory of the former Roman Empire. It is a mid-sized Augustan provincial temple of the Imperial cult, a caesareum.",
+   "title": "Maison carrée",
+   "url": "https://en.wikipedia.org/wiki/Maison_carr%C3%A9e"
+  },
+  "arles-amphitheatre": {
+   "text": "The Arles Amphitheatre is a Roman amphitheatre in Arles, southern France. Two-tiered, it is likely the most prominent tourist attraction in the city which thrived in ancient Rome.",
+   "title": "Arles Amphitheatre",
+   "url": "https://en.wikipedia.org/wiki/Arles_Amphitheatre"
+  },
+  "glanum": {
+   "text": "Glanum was an ancient and wealthy city which still enjoys a magnificent setting below a gorge on the flanks of the Alpilles mountains. It is located about one kilometre south of the town of Saint-Rémy-de-Provence.",
+   "title": "Glanum",
+   "url": "https://en.wikipedia.org/wiki/Glanum"
+  },
+  "les-baux-de-provence": {
+   "text": "Les Baux-de-Provence, commonly referred to simply as Les Baux, is a rural commune in the Bouches-du-Rhône department in the Provence-Alpes-Côte d'Azur region in Southern France.",
+   "title": "Les Baux-de-Provence",
+   "url": "https://en.wikipedia.org/wiki/Les_Baux-de-Provence"
+  },
+  "cours-mirabeau": {
+   "text": "The Cours Mirabeau is an avenue which is the main boulevard of Aix-en-Provence, France. The street is now closed to through traffic, improving pedestrian access to the space.",
+   "title": "Cours Mirabeau",
+   "url": "https://en.wikipedia.org/wiki/Cours_Mirabeau"
+  },
+  "montagne-sainte-victoire": {
+   "text": "Montagne Sainte-Victoire is a limestone mountain ridge in the south of France which extends over 18 km (11 mi) between the départements of Bouches-du-Rhône and Var.",
+   "title": "Montagne Sainte-Victoire",
+   "url": "https://en.wikipedia.org/wiki/Montagne_Sainte-Victoire"
+  },
+  "calanques-national-park": {
+   "text": "Calanques National Park is a French national park located on the Mediterranean coast in Bouches-du-Rhône, Southern France, slightly west of the French Riviera.",
+   "title": "Calanques National Park",
+   "url": "https://en.wikipedia.org/wiki/Calanques_National_Park"
+  },
+  "cassis": {
+   "text": "Cassis is a commune situated east of Marseille in the department of Bouches-du-Rhône in the Provence-Alpes-Côte d'Azur region, whose coastline is known in English as the French Riviera, in Southern France.",
+   "title": "Cassis",
+   "url": "https://en.wikipedia.org/wiki/Cassis"
+  },
+  "lac-de-sainte-croix": {
+   "text": "The Lake of Sainte-Croix is a reservoir in Southern France that was formed by the construction, between 1971 and 1974, of a reinforced-concrete arch dam, the Sainte-Croix Dam. It marks the departmental border between Var to the southeast and Alpes-de-Haute-Provence to the northwest.",
+   "title": "Lake of Sainte-Croix",
+   "url": "https://en.wikipedia.org/wiki/Lake_of_Sainte-Croix"
+  },
+  "gorges-du-verdon": {
+   "text": "The Verdon Gorge is a river canyon located in the Provence-Alpes-Côte d'Azur region of Southeastern France. It is about 25 km (15.5 mi) long and up to 700 metres (0.4 mi) deep.",
+   "title": "Verdon Gorge",
+   "url": "https://en.wikipedia.org/wiki/Verdon_Gorge"
+  },
+  "moustiers-sainte-marie": {
+   "text": "Moustiers-Sainte-Marie, or simply Moustiers, is a commune in the Alpes-de-Haute-Provence department in the Provence-Alpes-Côte d'Azur region of Southeastern France. It is a member of Les Plus Beaux Villages de France Association.",
+   "title": "Moustiers-Sainte-Marie",
+   "url": "https://en.wikipedia.org/wiki/Moustiers-Sainte-Marie"
+  },
+  "gordes": {
+   "text": "Gordes is a commune in the Vaucluse department in the Provence-Alpes-Côte d'Azur region in southeastern France. The residents are known as Gordiens.",
+   "title": "Gordes",
+   "url": "https://en.wikipedia.org/wiki/Gordes"
+  },
+  "senanque-abbey": {
+   "text": "Sénanque Abbey is a Cistercian abbey near the village of Gordes in the département of the Vaucluse in Provence, France.",
+   "title": "Sénanque Abbey",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A9nanque_Abbey"
+  },
+  "roussillon-vaucluse": {
+   "text": "Roussillon is a commune in the Vaucluse department of the Provence-Alpes-Côte d'Azur region in Southeastern France. It is a member of Les Plus Beaux Villages de France Association.",
+   "title": "Roussillon, Vaucluse",
+   "url": "https://en.wikipedia.org/wiki/Roussillon%2C_Vaucluse"
+  },
+  "fontaine-de-vaucluse": {
+   "text": "Fontaine-de-Vaucluse is a commune in the southeastern French department of Vaucluse. Its name comes from the spring of the same name; the name Vaucluse itself comes from the Latin phrase vallis clausa or \"closed valley\".",
+   "title": "Fontaine-de-Vaucluse",
+   "url": "https://en.wikipedia.org/wiki/Fontaine-de-Vaucluse"
+  },
+  "l-isle-sur-la-sorgue": {
+   "text": "L'Isle-sur-la-Sorgue is a town and commune on the Sorgue river in Southeastern France. Politically, the commune is in the arrondissement of Avignon within the department of Vaucluse, in the région of Provence-Alpes-Côte d'Azur.",
+   "title": "L'Isle-sur-la-Sorgue",
+   "url": "https://en.wikipedia.org/wiki/L'Isle-sur-la-Sorgue"
+  },
+  "palais-des-papes": {
+   "text": "The Palais des Papes in Avignon, Southern France, is one of the largest and most important medieval Gothic buildings in Europe. Once a fortress and palace, the papal residence was a seat of Western Christianity during the 14th century.",
+   "title": "Palais des Papes",
+   "url": "https://en.wikipedia.org/wiki/Palais_des_Papes"
+  },
+  "pont-du-gard": {
+   "text": "The Pont du Gard is an ancient Roman aqueduct bridge built in the first century AD to carry water over 50 km (31 mi) to the Roman colony of Nemausus (Nîmes). It crosses the river Gardon near the town of Vers-Pont-du-Gard in southern France.",
+   "title": "Pont du Gard",
+   "url": "https://en.wikipedia.org/wiki/Pont_du_Gard"
+  },
+  "roman-theatre-of-orange": {
+   "text": "The Roman Theatre of Orange is a Roman theatre in Orange, Vaucluse, France. It was built early in the 1st century AD.",
+   "title": "Roman Theatre of Orange",
+   "url": "https://en.wikipedia.org/wiki/Roman_Theatre_of_Orange"
+  },
+  "vaison-la-romaine": {
+   "text": "Vaison-la-Romaine is a commune in the Vaucluse department in the Provence-Alpes-Côte d'Azur region in southeastern France.",
+   "title": "Vaison-la-Romaine",
+   "url": "https://en.wikipedia.org/wiki/Vaison-la-Romaine"
+  },
+  "dentelles-de-montmirail": {
+   "text": "The Dentelles de Montmirail are a small chain of mountains in Provence in France, in the département of Vaucluse, located just to the south of the village of Vaison-la-Romaine.",
+   "title": "Dentelles de Montmirail",
+   "url": "https://en.wikipedia.org/wiki/Dentelles_de_Montmirail"
+  },
+  "mont-ventoux": {
+   "text": "Mont Ventoux is a mountain in the Provence region of southern France, located some 20 km northeast of Carpentras, Vaucluse. On the north side, the mountain borders the department of Drôme.",
+   "title": "Mont Ventoux",
+   "url": "https://en.wikipedia.org/wiki/Mont_Ventoux"
+  },
+  "pont-d-arc": {
+   "text": "The Pont d'Arc is a large natural bridge, located in the Ardèche département in the south of France, 5 km from the town of Vallon-Pont-d'Arc. This site is a popular destination in the Gorges de l'Ardèche Natural Reserve, and has been classified as a protected natural site since January 24th 1931.",
+   "title": "Pont d'Arc",
+   "url": "https://en.wikipedia.org/wiki/Pont_d'Arc"
+  },
+  "vercors-massif": {
+   "text": "The Vercors Massif is a mountain range in eastern France consisting of rugged plateaus and mountains straddling the départements of Isère and Drôme in the French Prealps. It lies west of the Dauphiné Alps, from which it is separated by the rivers Drac and Isère.",
+   "title": "Vercors Massif",
+   "url": "https://en.wikipedia.org/wiki/Vercors_Massif"
+  },
+  "bastille": {
+   "text": "The Bastille is a fortress culminating at 476 m (1,561ft) above sea level, located at the south end of the Chartreuse mountain range and overlooking the city of Grenoble, France.",
+   "title": "Bastille (Grenoble)",
+   "url": "https://en.wikipedia.org/wiki/Bastille_(Grenoble)"
+  },
+  "grande-chartreuse": {
+   "text": "Grande Chartreuse is the head monastery of the Carthusian religious order. It is located in the Chartreuse Mountains, north of the city of Grenoble, in the commune of Saint-Pierre-de-Chartreuse (Isère), France.",
+   "title": "Grande Chartreuse",
+   "url": "https://en.wikipedia.org/wiki/Grande_Chartreuse"
+  },
+  "vieux-lyon": {
+   "text": "Vieux Lyon is the largest Renaissance district of Lyon. In 1964, Vieux-Lyon, the city's oldest district, became the first site in France to be protected under the Malraux law to protect France's cultural sites.",
+   "title": "Vieux Lyon",
+   "url": "https://en.wikipedia.org/wiki/Vieux_Lyon"
+  },
+  "perouges": {
+   "text": "Pérouges is a commune in the Ain department in the Auvergne-Rhône-Alpes region in Eastern France. A medieval walled town perched on a small hill that overlooks the plain of the river Ain, it is located 30 km (19 mi) northeast of Lyon, historically in the neighbouring Rhône department.",
+   "title": "Pérouges",
+   "url": "https://en.wikipedia.org/wiki/P%C3%A9rouges"
+  },
+  "lake-annecy": {
+   "text": "Lake Annecy is a perialpine lake in Haute-Savoie in France. It is named after the city of Annecy, which marks the start of the Thiou, Lake Annecy's outflow river.",
+   "title": "Lake Annecy",
+   "url": "https://en.wikipedia.org/wiki/Lake_Annecy"
+  },
+  "palais-de-l-isle": {
+   "text": "Annecy is the prefecture and largest city of the Haute-Savoie department in the Auvergne-Rhône-Alpes region of Southeastern France. It lies on the northern tip of Lake Annecy, 35 kilometres (22 mi) south of Geneva, Switzerland.",
+   "title": "Annecy",
+   "url": "https://en.wikipedia.org/wiki/Annecy"
+  },
+  "mer-de-glace": {
+   "text": "The Mer de Glace is a valley glacier located on the northern slopes of the Mont Blanc massif, in the French Alps.",
+   "title": "Mer de Glace",
+   "url": "https://en.wikipedia.org/wiki/Mer_de_Glace"
+  },
+  "aiguille-du-midi": {
+   "text": "The Aiguille du Midi is a 3,842-metre-tall (12,605 ft) mountain in the Mont Blanc massif within the French Alps. It is a popular tourist destination and can be directly accessed by cable car from Chamonix that takes visitors close to Mont Blanc.",
+   "title": "Aiguille du Midi",
+   "url": "https://en.wikipedia.org/wiki/Aiguille_du_Midi"
+  },
+  "yvoire": {
+   "text": "Yvoire is a medieval town in France, in the department of Haute-Savoie, within the region of Auvergne-Rhône-Alpes. On the French side of Lake Geneva, it is roughly 26 kilometres northeast, by road, of Geneva, Switzerland.",
+   "title": "Yvoire",
+   "url": "https://en.wikipedia.org/wiki/Yvoire"
+  },
+  "lavaux": {
+   "text": "Lavaux is a region in the canton of Vaud in Switzerland, in the district of Lavaux-Oron. Lavaux consists of 830 hectares of terraced vineyards that stretch for about 30 kilometres (19 mi) along the south-facing northern shores of Lake Geneva.",
+   "title": "Lavaux",
+   "url": "https://en.wikipedia.org/wiki/Lavaux"
+  },
+  "chillon-castle": {
+   "text": "Chillon Castle is a medieval island castle located on Lake Geneva, south of Veytaux in the Swiss canton of Vaud. It is situated at the eastern end of the lake, on the narrow shore between Montreux and Villeneuve, which gives access to the Alpine valley of the Rhône.",
+   "title": "Chillon Castle",
+   "url": "https://en.wikipedia.org/wiki/Chillon_Castle"
+  },
+  "gruyeres": {
+   "text": "Gruyères is a town in the district of Gruyère in the canton of Fribourg, Switzerland.",
+   "title": "Gruyères",
+   "url": "https://en.wikipedia.org/wiki/Gruy%C3%A8res"
+  },
+  "old-city": {
+   "text": "The Old City is the medieval city center of Bern, Switzerland. Built on a narrow hill bordered on three sides by the river Aare, its compact layout has remained essentially unchanged since its construction during the twelfth to the fifteenth century.",
+   "title": "Old City (Bern)",
+   "url": "https://en.wikipedia.org/wiki/Old_City_(Bern)"
+  },
+  "oeschinen-lake": {
+   "text": "Oeschinen Lake is a mountain lake in the Bernese Oberland, Switzerland, located above the village of Kandersteg. It lies at an elevation of 1,578 metres, covers 1.115 km², and reaches a maximum depth of 56 metres.",
+   "title": "Oeschinen Lake",
+   "url": "https://en.wikipedia.org/wiki/Oeschinen_Lake"
+  },
+  "lauterbrunnen": {
+   "text": "Lauterbrunnen is a village and municipality in the Interlaken-Oberhasli administrative district in the canton of Bern in Switzerland. The municipality comprises the other villages of Wengen, Mürren, Gimmelwald, Stechelberg, and Isenfluh, as well as several other hamlets.",
+   "title": "Lauterbrunnen",
+   "url": "https://en.wikipedia.org/wiki/Lauterbrunnen"
+  },
+  "chapel-bridge": {
+   "text": "The Kapellbrücke is a covered wooden footbridge spanning the river Reuss diagonally in the city of Lucerne in central Switzerland. Named after the nearby St.",
+   "title": "Kapellbrücke",
+   "url": "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke"
+  },
+  "rhine-falls": {
+   "text": "The Rhine Falls is a waterfall on the High Rhine in Switzerland. It is the most powerful waterfall in Europe and a popular tourist attraction.",
+   "title": "Rhine Falls",
+   "url": "https://en.wikipedia.org/wiki/Rhine_Falls"
+  },
+  "basel-minster": {
+   "text": "Basel Minster is a religious building in the Swiss city of Basel, originally a Roman Catholic cathedral and today a Reformed Protestant church.",
+   "title": "Basel Minster",
+   "url": "https://en.wikipedia.org/wiki/Basel_Minster"
+  },
+  "colmar": {
+   "text": "Colmar is a city and commune in the Haut-Rhin department and Alsace region of north-eastern France. The third-largest commune in Alsace, it is the seat of the prefecture of the Haut-Rhin department and of the subprefecture of the Colmar-Ribeauvillé arrondissement.",
+   "title": "Colmar",
+   "url": "https://en.wikipedia.org/wiki/Colmar"
+  },
+  "eguisheim": {
+   "text": "Eguisheim is a commune in the Haut-Rhin department in Grand Est in north-eastern France. It lies in the historical region of Alsace.",
+   "title": "Eguisheim",
+   "url": "https://en.wikipedia.org/wiki/Eguisheim"
+  },
+  "kaysersberg": {
+   "text": "Kaysersberg is a historical town and former commune in Alsace in northeastern France. The name is German for Emperor's Mountain.",
+   "title": "Kaysersberg",
+   "url": "https://en.wikipedia.org/wiki/Kaysersberg"
+  },
+  "strasbourg-cathedral": {
+   "text": "Strasbourg Cathedral or the Cathedral of Our Lady of Strasbourg, also known as Strasbourg Minster, is a Catholic cathedral in Strasbourg, Alsace, France.",
+   "title": "Strasbourg Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+  },
+  "saarschleife": {
+   "text": "The Saarschleife, also known as the Great Bend in the Saar at Mettlach, is a water gap carved by the Saar River through a quartzite layer and today one of the most well-known tourist attractions of the Saarland.",
+   "title": "Saarschleife",
+   "url": "https://en.wikipedia.org/wiki/Saarschleife"
+  },
+  "porta-nigra": {
+   "text": "The Porta Nigra, referred to by locals as the Porta, is a large Roman city gate in Trier, Germany. It is a monumental gateway representative of Hellenistic military architecture of the time.",
+   "title": "Porta Nigra",
+   "url": "https://en.wikipedia.org/wiki/Porta_Nigra"
+  },
+  "bernkastel-kues": {
+   "text": "Bernkastel-Kues is a town on the Middle Mosel in the Bernkastel-Wittlich district in Rhineland-Palatinate, Germany. It is well-known for its winegrowing.",
+   "title": "Bernkastel-Kues",
+   "url": "https://en.wikipedia.org/wiki/Bernkastel-Kues"
+  },
+  "burg-eltz": {
+   "text": "Eltz Castle is a medieval castle nestled in the hills above the Moselle between Koblenz and Trier, Germany. It is still owned by a branch of the House of Eltz who have lived there since the 12th century.",
+   "title": "Eltz Castle",
+   "url": "https://en.wikipedia.org/wiki/Eltz_Castle"
+  },
+  "marksburg": {
+   "text": "The Marksburg is a castle above the town of Braubach in Rhineland-Palatinate, Germany. It is one of the principal sites of the Rhine Gorge UNESCO World Heritage Site.",
+   "title": "Marksburg",
+   "url": "https://en.wikipedia.org/wiki/Marksburg"
+  },
+  "loreley": {
+   "text": "The Lorelei is a 132-metre-high (433 ft), steep slate rock on the right bank of the River Rhine in the Rhine Gorge at Sankt Goarshausen in Germany, part of the Upper Middle Rhine Valley UNESCO World Heritage Site. The 1930s Loreley Amphitheatre is on top of the rock.",
+   "title": "Lorelei",
+   "url": "https://en.wikipedia.org/wiki/Lorelei"
+  },
+  "bacharach": {
+   "text": "Bacharach is a town in the Mainz-Bingen district in Rhineland-Palatinate, Germany. It belongs to the Verbandsgemeinde of Rhein-Nahe, whose seat is in Bingen am Rhein, although that town is not within its bounds.",
+   "title": "Bacharach",
+   "url": "https://en.wikipedia.org/wiki/Bacharach"
+  },
+  "rudesheim-am-rhein": {
+   "text": "Rüdesheim am Rhein is a German winemaking town in the Rhine Gorge, and part of the UNESCO World Heritage Site in this region. It lies in the Rheingau-Taunus-Kreis district in the Regierungsbezirk of Darmstadt, Hessen.",
+   "title": "Rüdesheim am Rhein",
+   "url": "https://en.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein"
+  },
+  "speyer-cathedral": {
+   "text": "Speyer Cathedral, officially the Imperial Cathedral Basilica of the Assumption and St Stephen, in Latin: Domus sanctae Mariae Spirae is a historical religious building in Speyer, Germany.",
+   "title": "Speyer Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Speyer_Cathedral"
+  },
+  "heidelberg-castle": {
+   "text": "Heidelberg Castle is a ruin in Germany and landmark of Heidelberg. The castle ruins are among the most important Renaissance structures north of the Alps.",
+   "title": "Heidelberg Castle",
+   "url": "https://en.wikipedia.org/wiki/Heidelberg_Castle"
+  },
+  "dinkelsbuhl": {
+   "text": "Dinkelsbühl is a historic town in Central Franconia, a region of Germany that is now part of the state of Bavaria, in southern Germany. Dinkelsbühl is a former free imperial city of the Holy Roman Empire.",
+   "title": "Dinkelsbühl",
+   "url": "https://en.wikipedia.org/wiki/Dinkelsb%C3%BChl"
+  },
+  "rothenburg-ob-der-tauber": {
+   "text": "Rothenburg ob der Tauber is a town in the district of Ansbach of Mittelfranken, in the Franconia region of Bavaria, Germany. It is best known for its well-preserved medieval old town, a destination for tourists from around the world.",
+   "title": "Rothenburg ob der Tauber",
+   "url": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber"
+  },
+  "wurzburg-residence": {
+   "text": "The Würzburg Residence is a palace in Würzburg, Germany. Johann Lukas von Hildebrandt and Maximilian von Welsch, representatives of the Austrian/Southern German Baroque style, were involved in the construction, as well as Robert de Cotte and Germain Boffrand, who were followers of the French style.",
+   "title": "Würzburg Residence",
+   "url": "https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence"
+  },
+  "bamberg": {
+   "text": "Bamberg is a town in Upper Franconia, Bavaria, Germany, on the river Regnitz close to its confluence with the river Main. Bamberg had 79,000 inhabitants in 2022.",
+   "title": "Bamberg",
+   "url": "https://en.wikipedia.org/wiki/Bamberg"
+  },
+  "veste-coburg": {
+   "text": "The Veste Coburg is one of the best-preserved medieval fortresses of Germany. It is situated on a hill above the town of Coburg, in the Upper Franconia region of Bavaria.",
+   "title": "Veste Coburg",
+   "url": "https://en.wikipedia.org/wiki/Veste_Coburg"
+  },
+  "wartburg": {
+   "text": "The Wartburg is a castle originally built in the Middle Ages. At an elevation of 410 metres (1,350 ft) in the state of Thuringia, Germany, it is situated on a southwest-facing precipice and overlooks the town of Eisenach to the north.",
+   "title": "Wartburg",
+   "url": "https://en.wikipedia.org/wiki/Wartburg"
+  },
+  "erfurt-cathedral": {
+   "text": "Erfurt Cathedral, also known as St Mary's Cathedral, is the largest and oldest church building in the Thuringian city of Erfurt, central Germany. It is the episcopal seat of the Roman Catholic Diocese of Erfurt.",
+   "title": "Erfurt Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Erfurt_Cathedral"
+  },
+  "weimar": {
+   "text": "Weimar is a city in the German state of Thuringia, in Central Germany between Erfurt to the west and Jena to the east, 80 km (50 mi) southwest of Leipzig, 170 km (106 mi) north of Nuremberg and 170 km (106 mi) west of Dresden.",
+   "title": "Weimar",
+   "url": "https://en.wikipedia.org/wiki/Weimar"
+  },
+  "st-thomas-church-leipzig": {
+   "text": "The St. Thomas Church is a Lutheran church in Leipzig, Germany, located at the western part of the inner city ring road in Leipzig's central district.",
+   "title": "St. Thomas Church, Leipzig",
+   "url": "https://en.wikipedia.org/wiki/St._Thomas_Church%2C_Leipzig"
+  },
+  "konigstein-fortress": {
+   "text": "Königstein Fortress, the \"Saxon Bastille\", is a hilltop fortress near Dresden, in Saxon Switzerland, Germany, above the town of Königstein on the left bank of the River Elbe. It is one of the largest hilltop fortifications in Europe and sits atop the table hill of the same name.",
+   "title": "Königstein Fortress",
+   "url": "https://en.wikipedia.org/wiki/K%C3%B6nigstein_Fortress"
+  },
+  "bastei": {
+   "text": "The Bastei is a rock formation rising 194 metres (636 ft) above the Elbe River in the Elbe Sandstone Mountains of Germany. Reaching a height of 305 metres (1,001 ft) above sea level, the jagged rocks of the Bastei were formed by water erosion over one million years ago.",
+   "title": "Bastei",
+   "url": "https://en.wikipedia.org/wiki/Bastei"
+  },
+  "frauenkirche-dresden": {
+   "text": "The Frauenkirche is a Lutheran church in Dresden, the capital of the German state of Saxony. Destroyed during the Allied firebombing of Dresden towards the end of World War II, the church was reconstructed between 1994 and 2005.",
+   "title": "Frauenkirche, Dresden",
+   "url": "https://en.wikipedia.org/wiki/Frauenkirche%2C_Dresden"
+  },
+  "gorlitz": {
+   "text": "Görlitz is a town in Saxony, Germany. It is on the river Lusatian Neisse and is the largest town in Upper Lusatia, the second-largest town in the region of Lusatia after Cottbus, and the largest town in the German part of the region of Silesia.",
+   "title": "Görlitz",
+   "url": "https://en.wikipedia.org/wiki/G%C3%B6rlitz"
+  },
+  "muskau-park": {
+   "text": "Muskau Park is a landscape park in the Upper Lusatia region of Germany and Poland. It is the largest and one of the most famous English gardens in Central Europe, stretching along both sides of the German–Polish border on the Lusatian Neisse.",
+   "title": "Muskau Park",
+   "url": "https://en.wikipedia.org/wiki/Muskau_Park"
+  },
+  "spreewald": {
+   "text": "The Spree Forest or Spreewald is a large inland delta of the river Spree, and a historical cultural landscape located in the region of (Lower) Lusatia, in the state of Brandenburg, Germany, approximately 100 km southeast of Berlin and close to the city of Cottbus.",
+   "title": "Spree Forest",
+   "url": "https://en.wikipedia.org/wiki/Spree_Forest"
+  },
+  "all-saints-church-wittenberg": {
+   "text": "All Saints' Church, commonly referred to as Schlosskirche to distinguish it from the Stadtkirche of St. Mary's, sometimes known as the Reformation Memorial Church, is a Lutheran church in Wittenberg, Saxony-Anhalt, Germany.",
+   "title": "All Saints' Church, Wittenberg",
+   "url": "https://en.wikipedia.org/wiki/All_Saints'_Church%2C_Wittenberg"
+  },
+  "sanssouci": {
+   "text": "Schloss Sanssouci is a historical building in Potsdam, near Berlin. Built by Prussian King Frederick the Great as his summer palace, it is often counted among the German rivals of Versailles.",
+   "title": "Sanssouci",
+   "url": "https://en.wikipedia.org/wiki/Sanssouci"
+  },
+  "berlin": {
+   "text": "Berlin is the capital and largest city of Germany. With 3.7 million inhabitants, it has the highest population within its city limits of any city in the European Union (EU).",
+   "title": "Berlin",
+   "url": "https://en.wikipedia.org/wiki/Berlin"
+  },
+  "chorin-abbey": {
+   "text": "Chorin Abbey is a former Cistercian abbey near the village of Chorin in Brandenburg, Germany. It was founded by the Ascanian margraves in 1258 and had far-reaching influence on the northern edge of the Ascanians' sphere of influence, where it bordered with the Slavs.",
+   "title": "Chorin Abbey",
+   "url": "https://en.wikipedia.org/wiki/Chorin_Abbey"
+  },
+  "wolin-national-park": {
+   "text": "Wolin National Park is one of 23 national parks in Poland, situated on the island of Wolin in the far north-west of the country, in West Pomeranian Voivodeship. An IUCN category II protected area, it was established on 3 March 1960 and covers an area of 109.37 square kilometres (42.23 sq mi).",
+   "title": "Wolin National Park",
+   "url": "https://en.wikipedia.org/wiki/Wolin_National_Park"
+  },
+  "slowinski-national-park": {
+   "text": "The Slovincian National Park, also known as Słowiński National Park, is a national park in Pomeranian Voivodeship, northern Poland. It is situated on the Baltic coast, between Łeba and Rowy.",
+   "title": "Slovincian National Park",
+   "url": "https://en.wikipedia.org/wiki/Slovincian_National_Park"
+  },
+  "hel-peninsula": {
+   "text": "Hel Peninsula or Hel Spit is a 35-kilometre-long (22 mi) sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea. It is located in Puck County of the Pomeranian Voivodeship.",
+   "title": "Hel Peninsula",
+   "url": "https://en.wikipedia.org/wiki/Hel_Peninsula"
+  },
+  "sopot": {
+   "text": "Sopot is a seaside resort city in the Pomeranian Voivodeship on the southern coast of the Baltic Sea in northern Poland, with a population of around 30,000. It has the status of county – the smallest city in Poland to have that status.",
+   "title": "Sopot",
+   "url": "https://en.wikipedia.org/wiki/Sopot"
+  },
+  "oliwa-cathedral": {
+   "text": "Oliwa Cathedral, formally known as the Archcathedral Basilica of the Holy Trinity, is a Roman Catholic church in the district of Oliwa, in Gdańsk, Poland. Completed in the late 14th century in a Brick Gothic style, the present church comprises Mannerist-Baroque architectural elements.",
+   "title": "Oliwa Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Oliwa_Cathedral"
+  },
+  "st-mary-s-church-gdansk": {
+   "text": "St. Mary's Church is a Roman Catholic church and co-cathedral located in central Gdańsk, Poland.",
+   "title": "St. Mary's Church, Gdańsk",
+   "url": "https://en.wikipedia.org/wiki/St._Mary's_Church%2C_Gda%C5%84sk"
+  },
+  "westerplatte": {
+   "text": "Westerplatte is a peninsula in Gdańsk, Poland, located on the Baltic Sea coast mouth of the Dead Vistula, in the Gdańsk harbour channel. From 1926 to 1939, it was the location of a Polish Military Transit Depot (WST), sanctioned within the territory of the Free City of Danzig.",
+   "title": "Westerplatte",
+   "url": "https://en.wikipedia.org/wiki/Westerplatte"
+  },
+  "malbork-castle": {
+   "text": "The Castle of the Teutonic Order in Malbork, commonly known as Malbork Castle, is a Brick Gothic castle complex located in the town of Malbork, Poland, built in the 13th and significantly expanded in the 14th century.",
+   "title": "Malbork Castle",
+   "url": "https://en.wikipedia.org/wiki/Malbork_Castle"
+  },
+  "elblag-canal": {
+   "text": "Elbląg Canal is a canal in Poland, in Warmian-Masurian Voivodeship, 80.5 kilometres (50.0 mi) in length, which runs southward from Lake Drużno, to the river Drwęca and lake Jeziorak. It can accommodate small vessels up to 50 tonnes displacement.",
+   "title": "Elbląg Canal",
+   "url": "https://en.wikipedia.org/wiki/Elbl%C4%85g_Canal"
+  },
+  "frombork": {
+   "text": "Frombork is a town in northern Poland, situated on the Vistula Lagoon in Braniewo County, within Warmian–Masurian Voivodeship. As of December 2021, it has a population of 2,260.",
+   "title": "Frombork",
+   "url": "https://en.wikipedia.org/wiki/Frombork"
+  },
+  "lidzbark-warminski-castle": {
+   "text": "The Lidzbark Castle, officially known as Lidzbark Bishops' Castle, is a fortified castle and palace from the 14th century located in the town of Lidzbark Warmiński, Warmian-Masurian Voivodeship, in northern Poland.",
+   "title": "Lidzbark Castle",
+   "url": "https://en.wikipedia.org/wiki/Lidzbark_Castle"
+  },
+  "swieta-lipka": {
+   "text": "Święta Lipka is a small village in the administrative district of Gmina Reszel, within Kętrzyn County, Warmian-Masurian Voivodeship, in northeastern Poland.",
+   "title": "Święta Lipka",
+   "url": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Lipka"
+  },
+  "wolf-s-lair": {
+   "text": "The Wolf's Lair was Adolf Hitler's first Eastern Front military headquarters in World War II. Currently, it is a museum open to the public, as well as a hotel, conference room and restaurant.",
+   "title": "Wolf's Lair",
+   "url": "https://en.wikipedia.org/wiki/Wolf's_Lair"
+  },
+  "krutynia": {
+   "text": "Krutynia is a river of Masurian Lake District in Poland. It discharges into the lake Bełdany, which is connected with Lake Roś through several canals and lakes.",
+   "title": "Krutynia",
+   "url": "https://en.wikipedia.org/wiki/Krutynia"
+  },
+  "mikolajki": {
+   "text": "Mikołajki is a resort town in Mrągowo County, Warmian-Masurian Voivodeship in north-eastern Poland, with 3,338 inhabitants as of 2025. The town is located near the Śniardwy, the largest lake of both the Masurian Lake District and Poland.",
+   "title": "Mikołajki",
+   "url": "https://en.wikipedia.org/wiki/Miko%C5%82ajki"
+  },
+  "tykocin": {
+   "text": "Tykocin is a small town in north-eastern Poland, located on the Narew river in Białystok County, Podlaskie Voivodeship. It is the seat of Gmina Tykocin.",
+   "title": "Tykocin",
+   "url": "https://en.wikipedia.org/wiki/Tykocin"
+  },
+  "bialowieza-forest": {
+   "text": "Białowieża Forest is a large forest complex and World Heritage Area straddling the border between Poland and Belarus. It is one of the last and the largest remaining parts of the immense primeval forest that once stretched across the European Plain.",
+   "title": "Białowieża Forest",
+   "url": "https://en.wikipedia.org/wiki/Bia%C5%82owie%C5%BCa_Forest"
+  },
+  "druskininkai": {
+   "text": "Druskininkai is a spa city on the Nemunas River in southern Lithuania, close to the borders of Belarus and Poland. The city of Druskininkai is known for being a spa resort since the 19th century.",
+   "title": "Druskininkai",
+   "url": "https://en.wikipedia.org/wiki/Druskininkai"
+  },
+  "grutas-park": {
+   "text": "Grūtas Park is a socialist realism museum with a sculpture garden of Soviet-era statues and other Soviet ideological relics from the times of the Soviet occupation.",
+   "title": "Grūtas Park",
+   "url": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+  },
+  "trakai-island-castle": {
+   "text": "Trakai Island Castle is an island castle located in Trakai, Lithuania, on an island in Lake Galvė. The construction of the stone castle was begun in the 14th century by Kęstutis, and around 1409 major works were completed by his son Vytautas the Great, who died in this castle in 1430.",
+   "title": "Trakai Island Castle",
+   "url": "https://en.wikipedia.org/wiki/Trakai_Island_Castle"
+  },
+  "vilnius-old-town": {
+   "text": "The Old Town of Vilnius, one of the largest surviving medieval old towns in Northern Europe, as inscribed within UNESCO World Heritage Sites, has an area of 3.59 square kilometres.",
+   "title": "Vilnius Old Town",
+   "url": "https://en.wikipedia.org/wiki/Vilnius_Old_Town"
+  },
+  "kernave": {
+   "text": "Kernavė was a medieval capital of the Grand Duchy of Lithuania and today is a tourist attraction and an archeological site. It is located in the Širvintos district municipality located in southeast Lithuania.",
+   "title": "Kernavė",
+   "url": "https://en.wikipedia.org/wiki/Kernav%C4%97"
+  },
+  "kaunas-castle": {
+   "text": "Kaunas Castle is a medieval castle in Kaunas, the second-largest city in Lithuania. Archeological evidence suggests that it was built during the mid-14th century in the Gothic style.",
+   "title": "Kaunas Castle",
+   "url": "https://en.wikipedia.org/wiki/Kaunas_Castle"
+  },
+  "hill-of-crosses": {
+   "text": "Hill of Crosses is a site of pilgrimage about 12 km (7.5 mi) north of the city of Šiauliai, in northern Lithuania.",
+   "title": "Hill of Crosses",
+   "url": "https://en.wikipedia.org/wiki/Hill_of_Crosses"
+  },
+  "rundale-palace": {
+   "text": "Rundāle Palace is one of the two major baroque palaces built for the Dukes of Courland in what is now Latvia, the other being Jelgava Palace. The palace was built in two periods, from 1736 until 1740 and from 1764 until 1768.",
+   "title": "Rundāle Palace",
+   "url": "https://en.wikipedia.org/wiki/Rund%C4%81le_Palace"
+  },
+  "bauska-castle": {
+   "text": "Bauska Castle is a Livonian order castle consisting of the ruins of an earlier castle and a later palace on the outskirts of the Latvian city of Bauska.",
+   "title": "Bauska Castle",
+   "url": "https://en.wikipedia.org/wiki/Bauska_Castle"
+  },
+  "old-riga": {
+   "text": "Vecrīga is the historical center and a neighbourhood of Riga, Latvia, located in the Central District on the east side of Daugava River. Vecrīga is famous for its old churches and cathedrals, such as Riga Cathedral, St.",
+   "title": "Vecrīga",
+   "url": "https://en.wikipedia.org/wiki/Vecr%C4%ABga"
+  },
+  "kemeri-national-park": {
+   "text": "Ķemeri National Park is a national park located west of the city of Jūrmala, Latvia. Established in 1997, Ķemeri is the third largest national park in the country by area, covering an area of 381.65 km2.",
+   "title": "Ķemeri National Park",
+   "url": "https://en.wikipedia.org/wiki/%C4%B6emeri_National_Park"
+  },
+  "cape-kolka": {
+   "text": "Cape Kolka is a cape on the Baltic Sea, near the entry to Gulf of Riga, on the Livonian coast, in the Courland Peninsula of Latvia. The cape is surrounded by the Irbe Strait which serves as the natural border with Estonia.",
+   "title": "Cape Kolka",
+   "url": "https://en.wikipedia.org/wiki/Cape_Kolka"
+  },
+  "turaida-castle": {
+   "text": "Turaida Castle is a recently reconstructed medieval castle in Turaida, in the Vidzeme region of Latvia, on the opposite bank of the Gauja River from Sigulda.",
+   "title": "Turaida Castle",
+   "url": "https://en.wikipedia.org/wiki/Turaida_Castle"
+  },
+  "gauja-national-park": {
+   "text": "Gauja National Park in Vidzeme is the largest national park in Latvia, with an area of 917.86 km2 running from north-east of Sigulda to south-west of Cēsis along the valley of the Gauja River, from which the park takes its name.",
+   "title": "Gauja National Park",
+   "url": "https://en.wikipedia.org/wiki/Gauja_National_Park"
+  },
+  "cesis-castle": {
+   "text": "Cēsis Castle is one of the most iconic and best preserved medieval castles in Latvia. The foundations of the castle were laid 800 years ago by the Livonian Brothers of the Sword.",
+   "title": "Cēsis Castle",
+   "url": "https://en.wikipedia.org/wiki/C%C4%93sis_Castle"
+  },
+  "rouge": {
+   "text": "Rõuge is a small borough in Võru County in southeastern Estonia. It is the administrative centre of Rõuge Parish.",
+   "title": "Rõuge",
+   "url": "https://en.wikipedia.org/wiki/R%C3%B5uge"
+  },
+  "suur-munamagi": {
+   "text": "Suur Munamägi is the highest peak in Estonia, reaching 318 metres (1,043 ft) above sea level. It is located near the village of Haanja, in Võru County in the southeastern corner of Estonia, close to the borders of both Latvia and Russia.",
+   "title": "Suur Munamägi",
+   "url": "https://en.wikipedia.org/wiki/Suur_Munam%C3%A4gi"
+  },
+  "piusa-caves": {
+   "text": "Piusa Caves Nature Reserve is a nature reserve in Piusa, Võru County, Estonia. Its area is 48 ha.",
+   "title": "Piusa Caves Nature Reserve",
+   "url": "https://en.wikipedia.org/wiki/Piusa_Caves_Nature_Reserve"
+  },
+  "tartu": {
+   "text": "Tartu is the second-largest city in Estonia, after the capital, Tallinn. Tartu has a population of 97,304, and is the seventh most-populous city in the Baltics.",
+   "title": "Tartu",
+   "url": "https://en.wikipedia.org/wiki/Tartu"
+  },
+  "lake-peipus": {
+   "text": "Lake Peipus is the largest trans-boundary lake in Europe, lying on the international border between Estonia and Russia.",
+   "title": "Lake Peipus",
+   "url": "https://en.wikipedia.org/wiki/Lake_Peipus"
+  },
+  "puhtitsa-convent": {
+   "text": "Pühtitsa Convent is a Russian Orthodox convent in Eastern Estonia between Lake Peipus and the Gulf of Finland. A small Orthodox Christian church was built in Pühtitsa in the 16th century.",
+   "title": "Pühtitsa Convent",
+   "url": "https://en.wikipedia.org/wiki/P%C3%BChtitsa_Convent"
+  },
+  "narva-castle": {
+   "text": "Hermann Castle, also known as the Narva castle or Narva fortress, is a medieval castle in the city of Narva, in northeastern Estonia. The castle was established around 1256, when the area was part of the Danish Realm.",
+   "title": "Hermann Castle",
+   "url": "https://en.wikipedia.org/wiki/Hermann_Castle"
+  },
+  "valaste-waterfall": {
+   "text": "Valaste Falls is the highest waterfall in Estonia and neighboring regions. It is located between Ontika and Valaste in Jõhvi Parish of Ida-Viru County and is formed by Valaste Creek as it flows over the Baltic Klint not far from the shore of the Gulf of Finland.",
+   "title": "Valaste Falls",
+   "url": "https://en.wikipedia.org/wiki/Valaste_Falls"
+  },
+  "lahemaa-national-park": {
+   "text": "Lahemaa National Park is a park in northern Estonia, 70 kilometers east from the capital Tallinn. The Gulf of Finland is to the north of the park and the Tallinn-Narva highway (E20) to the south.",
+   "title": "Lahemaa National Park",
+   "url": "https://en.wikipedia.org/wiki/Lahemaa_National_Park"
+  },
+  "palmse-manor": {
+   "text": "Palmse is a village in Haljala Parish, Lääne-Viru County, in northern Estonia, on the territory of Lahemaa National Park.",
+   "title": "Palmse",
+   "url": "https://en.wikipedia.org/wiki/Palmse"
+  },
+  "jagala-waterfall": {
+   "text": "Jägala Waterfall is a waterfall in northern Estonia on the Jägala River. It is the largest natural waterfall in Estonia, with a width of about 50 meters (160 ft) and a height of about 8 meters (26 ft).",
+   "title": "Jägala Waterfall",
+   "url": "https://en.wikipedia.org/wiki/J%C3%A4gala_Waterfall"
+  },
+  "keila-falls": {
+   "text": "Keila Falls is a waterfall in northern Estonia on the Keila River. It is the third most powerful waterfall in Estonia after Narva Falls and Jägala Waterfall.",
+   "title": "Keila Falls",
+   "url": "https://en.wikipedia.org/wiki/Keila_Falls"
+  },
+  "haapsalu-castle": {
+   "text": "Haapsalu Castle is a castle with cathedral in Haapsalu, Estonia, founded in the thirteenth century as the seat of the Bishopric of Ösel-Wiek. According to legend, during full moons in August, an image of a maiden, The White Lady, appears on the inner wall of the chapel.",
+   "title": "Haapsalu Castle",
+   "url": "https://en.wikipedia.org/wiki/Haapsalu_Castle"
+  },
+  "matsalu-national-park": {
+   "text": "Matsalu National Park is a nature reserve and national park in the Lääne and Pärnu counties of Estonia. Matsalu National Park spans an area of 486.1 km2 (187.7 sq mi), comprising Matsalu Bay, the Kasari River delta, the village of Matsalu and surrounding areas.",
+   "title": "Matsalu National Park",
+   "url": "https://en.wikipedia.org/wiki/Matsalu_National_Park"
+  },
+  "viljandi-castle": {
+   "text": "Viljandi Castle is 13th Century castle in a Viljandi, Estonia. It was built by the Livonian Order, and construction started in 1224 in place of a former hillfort, which was one of the strongest castles in Livonia.",
+   "title": "Viljandi Castle",
+   "url": "https://en.wikipedia.org/wiki/Viljandi_Castle"
+  },
+  "soomaa-national-park": {
+   "text": "Soomaa National Park is a national park in south-western Estonia. Soomaa protects 390 km2, the park was created in 1993.",
+   "title": "Soomaa National Park",
+   "url": "https://en.wikipedia.org/wiki/Soomaa_National_Park"
+  },
+  "home1": {
+   "text": "Pärnu is a city in southwest Estonia. Pärnu is located 128 kilometres (80 mi) south of the Estonian capital, Tallinn, and 176 kilometres (109 mi) west of Estonia's second-largest city, Tartu.",
+   "title": "Pärnu",
+   "url": "https://en.wikipedia.org/wiki/P%C3%A4rnu"
+  },
+  "helsinki-cathedral": {
+   "text": "Helsinki Cathedral is the Finnish Evangelical Lutheran cathedral of the Diocese of Helsinki, located in the neighborhood of Kruununhaka in the centre of Helsinki, Finland, at the Senate Square.",
+   "title": "Helsinki Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Helsinki_Cathedral"
+  },
+  "hame-castle": {
+   "text": "Häme Castle or Tavastia Castle is a medieval castle in Kanta-Häme, Finland. It is located in Hämeenlinna, the city between Helsinki and Tampere.",
+   "title": "Häme Castle",
+   "url": "https://en.wikipedia.org/wiki/H%C3%A4me_Castle"
+  },
+  "rovaniemi": {
+   "text": "Rovaniemi is a city in Finland and the regional capital of Lapland. It is located near the Arctic Circle in the northern interior of the country.",
+   "title": "Rovaniemi",
+   "url": "https://en.wikipedia.org/wiki/Rovaniemi"
+  },
+  "santa-claus-village": {
+   "text": "Santa Claus Village is an amusement park in Rovaniemi, a city in the Lapland region of Finland. It was opened in 1980.",
+   "title": "Santa Claus Village",
+   "url": "https://en.wikipedia.org/wiki/Santa_Claus_Village"
+  },
+  "sodankyla-old-church": {
+   "text": "Sodankylä Old Church is a 17th-century wooden church located near the Kitinen River in the Sodankylä municipality in Lapland, Finland.",
+   "title": "Sodankylä Old Church",
+   "url": "https://en.wikipedia.org/wiki/Sodankyl%C3%A4_Old_Church"
+  },
+  "pyha-luosto-national-park": {
+   "text": "Pyhä-Luosto National Park is a national park in Lapland, Finland. It was established in 2005 when Finland's oldest national park, Pyhätunturi National Park, was joined to Luosto.",
+   "title": "Pyhä-Luosto National Park",
+   "url": "https://en.wikipedia.org/wiki/Pyh%C3%A4-Luosto_National_Park"
+  },
+  "tankavaara": {
+   "text": "Tankavaara is a village and a tourist attraction in the municipality of Sodankylä in Lapland, Finland. It is located by the E75 highway 90 kilometres (56 mi) north of Sodankylä and 30 kilometres (19 mi) south of the Saariselkä ski resort.",
+   "title": "Tankavaara",
+   "url": "https://en.wikipedia.org/wiki/Tankavaara"
+  },
+  "urho-kekkonen-national-park": {
+   "text": "Urho Kekkonen National Park is a national park in Lapland, Finland, situated in area of municipalities of Savukoski, Sodankylä and Inari. Established in 1983 and covering 2,550 square kilometres (985 sq mi), it is one of Finland's largest protected areas.",
+   "title": "Urho Kekkonen National Park",
+   "url": "https://en.wikipedia.org/wiki/Urho_Kekkonen_National_Park"
+  },
+  "siida": {
+   "text": "A siida is an organisation of humans traditionally present in Sámi societies consisting of several families of reindeer herders whose reindeer graze together.",
+   "title": "Siida",
+   "url": "https://en.wikipedia.org/wiki/Siida"
+  },
+  "sajos": {
+   "text": "Sajos is a Sámi cultural and administrative centre, located on the banks of the Juutuanjoki in Inari, Finland and is the largest convention and event venue in northern Lapland.",
+   "title": "Sajos",
+   "url": "https://en.wikipedia.org/wiki/Sajos"
+  },
+  "lake-inari": {
+   "text": "Lake Inari is the largest lake in Sápmi and the third-largest lake in Finland. It is located in the northern part of Lapland, north of the Arctic Circle.",
+   "title": "Lake Inari",
+   "url": "https://en.wikipedia.org/wiki/Lake_Inari"
+  },
+  "kevo-strict-nature-reserve": {
+   "text": "Kevo Strict Nature Reserve is a strict nature reserve located in Utsjoki, northern Lapland, Finland. It was established in 1956 and covers 712 square kilometres (275 mi2).",
+   "title": "Kevo Strict Nature Reserve",
+   "url": "https://en.wikipedia.org/wiki/Kevo_Strict_Nature_Reserve"
+  },
+  "alta-museum": {
+   "text": "The World Heritage Rock Art Centre - Alta Museum is located in Alta Municipality in Finnmark county, Norway.",
+   "title": "World Heritage Rock Art Centre - Alta Museum",
+   "url": "https://en.wikipedia.org/wiki/World_Heritage_Rock_Art_Centre_-_Alta_Museum"
+  },
+  "alta-canyon": {
+   "text": "Sautso, also referred as Alta Canyon, is a canyon (valley) along the river Altaelva in Finnmark county, Norway. The valley is located in Alta Municipality, just north of the border with Kautokeino Municipality.",
+   "title": "Sautso",
+   "url": "https://en.wikipedia.org/wiki/Sautso"
+  },
+  "lyngen-alps": {
+   "text": "The Lyngen Alps are a mountain range in northeastern Troms county in Norway, east of the city of Tromsø. The mountain range is located on the Lyngen Peninsula and it runs through Lyngen Municipality, Balsfjord Municipality, Storfjord Municipality, and Tromsø Municipality.",
+   "title": "Lyngen Alps",
+   "url": "https://en.wikipedia.org/wiki/Lyngen_Alps"
+  },
+  "fjellheisen": {
+   "text": "Fjellheisen is an aerial tramway in Tromsø, Norway.",
+   "title": "Fjellheisen",
+   "url": "https://en.wikipedia.org/wiki/Fjellheisen"
+  },
+  "arctic-cathedral": {
+   "text": "Tromsdalen Church or the Arctic Cathedral is a parish church of the Church of Norway in Tromsø Municipality in Troms county, Norway. It is located in the Tromsdalen valley on the east side of Tromsø.",
+   "title": "Arctic Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Arctic_Cathedral"
+  },
+  "senja": {
+   "text": "Senja (Norwegian) or Sážžá (Northern Sami) is an island in Senja Municipality in Troms county, Norway in northern Europe. With an area of 1,586.3 square kilometres (612.5 sq mi), it is the second largest island in Norway.",
+   "title": "Senja",
+   "url": "https://en.wikipedia.org/wiki/Senja"
+  },
+  "bleik": {
+   "text": "Bleik is a fishing village in Andøy Municipality in Nordland county, Norway.The village is located on the northwestern part of the island of Andøya, about 10 kilometres (6.2 mi) southwest of the village of Andenes.",
+   "title": "Bleik",
+   "url": "https://en.wikipedia.org/wiki/Bleik"
+  },
+  "andenes": {
+   "text": "(Norwegian) or Ánddanjárga (Northern Sami) is the administrative centre of Andøy Municipality which is located in the Vesterålen district of Nordland county, Norway. The village of Andenes is the northernmost settlement of the island of Andøya.",
+   "title": "Andenes",
+   "url": "https://en.wikipedia.org/wiki/Andenes"
+  },
+  "svolvaer": {
+   "text": "Svolvær, Suolvearra (Northern Sami), or Spålavuolle (Lule Sami) is a town and the administrative centre of Vågan Municipality in Nordland County, Norway. It is located on the island of Austvågøya in the Lofoten archipelago, along the Vestfjorden.",
+   "title": "Svolvær",
+   "url": "https://en.wikipedia.org/wiki/Svolv%C3%A6r"
+  },
+  "vagan-church": {
+   "text": "Vågan Church is a parish church of the Church of Norway in Vågan Municipality in Nordland county, Norway. It is located in the village of Kabelvåg on the island of Austvågøya.",
+   "title": "Vågan Church",
+   "url": "https://en.wikipedia.org/wiki/V%C3%A5gan_Church"
+  },
+  "henningsvaer": {
+   "text": "Henningsvær is a fishing village in Vågan Municipality in Nordland county, Norway. It is located on several small islands off the southern coast of the large island of Austvågøya in the Lofoten archipelago.",
+   "title": "Henningsvær",
+   "url": "https://en.wikipedia.org/wiki/Henningsv%C3%A6r"
+  },
+  "nusfjord": {
+   "text": "Nusfjord is a fishing village in Flakstad Municipality in Lofoten in Nordland county, Norway. The village lies on the southern shore of the island of Flakstadøya, along the Vestfjorden.",
+   "title": "Nusfjord",
+   "url": "https://en.wikipedia.org/wiki/Nusfjord"
+  },
+  "hamnoy": {
+   "text": "Hamnøya is a small fishing village in Moskenes Municipality in Nordland county, Norway. It is located on a small peninsula on the eastern side of the island of Moskenesøya, about 1.5 kilometres (0.93 mi) northeast of the village of Reine, along the Vestfjorden.",
+   "title": "Hamnøya",
+   "url": "https://en.wikipedia.org/wiki/Hamn%C3%B8ya"
+  },
+  "lofotr-viking-museum": {
+   "text": "The Lofotr Viking Museum is a historical museum based on a reconstruction and archaeological excavation of a Viking chieftain's village on the island of Vestvågøya in the Lofoten archipelago in Nordland county, Norway.",
+   "title": "Lofotr Viking Museum",
+   "url": "https://en.wikipedia.org/wiki/Lofotr_Viking_Museum"
+  },
+  "kjerringoy": {
+   "text": "Kjerringøy is a village in Bodø Municipality in Nordland county, Norway. The village is located about 30 kilometres (19 mi) north of the town of Bodø, along the Karlsøyfjorden, just south of the entrance to the Folda fjord.",
+   "title": "Kjerringøy",
+   "url": "https://en.wikipedia.org/wiki/Kjerring%C3%B8y"
+  },
+  "saltstraumen": {
+   "text": "Saltstraumen (Norwegian) or Stuorstrávve (Lule Sami) is a small strait with one of the strongest tidal currents in the world. It is located in Bodø Municipality in Nordland county, Norway.",
+   "title": "Saltstraumen",
+   "url": "https://en.wikipedia.org/wiki/Saltstraumen"
+  },
+  "saltfjelletsvartisen-national-park": {
+   "text": "Saltfjellet–Svartisen National Park is a national park in Nordland county in Norway. It is located within the municipalities of Beiarn, Meløy, Rana, Rødøy, Saltdal, and Bodø.",
+   "title": "Saltfjellet–Svartisen National Park",
+   "url": "https://en.wikipedia.org/wiki/Saltfjellet%E2%80%93Svartisen_National_Park"
+  },
+  "petter-dass-museum": {
+   "text": "The Petter Dass Museum in Alstahaug Municipality, Norway is a museum dedicated to the priest and poet Petter Dass.",
+   "title": "Petter Dass Museum",
+   "url": "https://en.wikipedia.org/wiki/Petter_Dass_Museum"
+  },
+  "torghatten": {
+   "text": "Torghatten is a granite dome on the island of Torget in Brønnøy Municipality in Nordland county, Norway. It is known for its characteristic hole, or natural tunnel, through its centre.",
+   "title": "Torghatten",
+   "url": "https://en.wikipedia.org/wiki/Torghatten"
+  },
+  "nidaros-cathedral": {
+   "text": "Nidaros Cathedral is a Church of Norway cathedral located in the city of Trondheim in Trøndelag county.",
+   "title": "Nidaros Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Nidaros_Cathedral"
+  },
+  "munkholmen": {
+   "text": "Munkholmen is an islet in Trondheim Municipality in Trøndelag county, Norway. The 13,000-square-metre (3.2-acre) island sits in the Trondheimsfjord about 1.3 kilometres (0.81 mi) northwest of the island of Brattøra and the mouth of the river Nidelva in the center of the city of Trondheim.",
+   "title": "Munkholmen",
+   "url": "https://en.wikipedia.org/wiki/Munkholmen"
+  },
+  "atlantic-ocean-road": {
+   "text": "The Atlantic Ocean Road or the Atlantic Road is an 8.3-kilometer (5.2 mi) long section of County Road 64 that runs through an archipelago that crosses Hustadvika Municipality and Averøy Municipality in Møre og Romsdal county, Norway.",
+   "title": "Atlantic Ocean Road",
+   "url": "https://en.wikipedia.org/wiki/Atlantic_Ocean_Road"
+  },
+  "alesund": {
+   "text": "Ålesund is a town in Møre og Romsdal county, Norway. The town is the administrative centre of Ålesund Municipality.",
+   "title": "Ålesund",
+   "url": "https://en.wikipedia.org/wiki/%C3%85lesund"
+  },
+  "trollveggen": {
+   "text": "The Troll Wall is part of the mountain massif Trolltindene in the Romsdalen valley in Rauma Municipality in Møre og Romsdal county, Norway. It is located to the south of the towns of Åndalsnes and Molde inside the Reinheimen National Park.",
+   "title": "Troll Wall",
+   "url": "https://en.wikipedia.org/wiki/Troll_Wall"
+  },
+  "trollstigen": {
+   "text": "Trollstigen is a serpentine mountain road and pass in Rauma Municipality, Møre og Romsdal County, Norway.",
+   "title": "Trollstigen",
+   "url": "https://en.wikipedia.org/wiki/Trollstigen"
+  },
+  "geiranger": {
+   "text": "Geiranger is a small tourist village in Sunnmøre region of Møre og Romsdal county in the western part of Norway. It is located in Stranda Municipality and at the end of the Geirangerfjorden, which is a branch of the large Storfjorden.",
+   "title": "Geiranger",
+   "url": "https://en.wikipedia.org/wiki/Geiranger"
+  },
+  "dalsnibba": {
+   "text": "Dalsnibba is a mountain in Stranda Municipality in Møre og Romsdal county, Norway. It is located at the end of the Geiranger valley, about 7 km (4 mi) south of the village of Geiranger and the Geirangerfjorden.",
+   "title": "Dalsnibba",
+   "url": "https://en.wikipedia.org/wiki/Dalsnibba"
+  },
+  "briksdalsbreen": {
+   "text": "Briksdalsbreen is one of the most accessible and best known arms of the Jostedalsbreen glacier. Briksdalsbreen is located in Stryn Municipality in Vestland county, Norway.",
+   "title": "Briksdalsbreen",
+   "url": "https://en.wikipedia.org/wiki/Briksdalsbreen"
+  },
+  "urnes-stave-church": {
+   "text": "Urnes Stave Church is a 12th-century stave church at Ornes, along the Lustrafjorden, in Luster Municipality in Vestland county, Norway.",
+   "title": "Urnes Stave Church",
+   "url": "https://en.wikipedia.org/wiki/Urnes_Stave_Church"
+  },
+  "borgund-stave-church": {
+   "text": "Borgund Stave Church is a former parish church initially of the Catholic Church and later the Church of Norway in Lærdal Municipality in Vestland county, Norway.",
+   "title": "Borgund Stave Church",
+   "url": "https://en.wikipedia.org/wiki/Borgund_Stave_Church"
+  },
+  "stegastein": {
+   "text": "Stegastein is a scenic overlook on Sogn og Fjordane County Road 243 in Norway. The 30-metre (98 ft) long and 4-metre (13 ft) wide platform of steel and laminated pine overlooks Aurlandsvangen and the Aurlandsfjord.",
+   "title": "Stegastein",
+   "url": "https://en.wikipedia.org/wiki/Stegastein"
+  },
+  "flam-line": {
+   "text": "The Flåm Line is a 20.2-kilometer (12.6 mi) long railway line between Myrdal and Flåm in Aurland Municipality, in Vestland county, Norway. A branch line of the Bergen Line, it runs through the valley of Flåmsdalen and connects the mainline with Sognefjord.",
+   "title": "Flåm Line",
+   "url": "https://en.wikipedia.org/wiki/Fl%C3%A5m_Line"
+  },
+  "naeroyfjord": {
+   "text": "The Nærøyfjord is a fjord in Aurland Municipality in Vestland county, Norway. It is a branch of the Aurlandsfjord, itself a branch of the Sognefjord.",
+   "title": "Nærøyfjord",
+   "url": "https://en.wikipedia.org/wiki/N%C3%A6r%C3%B8yfjord"
+  },
+  "bryggen": {
+   "text": "Bryggen, also known as Tyskebryggen, is a series of Hanseatic heritage commercial buildings lining up the eastern side of the Vågen harbour in the city of Bergen, Norway. Bryggen has been on the UNESCO list for World Cultural Heritage sites since 1979.",
+   "title": "Bryggen",
+   "url": "https://en.wikipedia.org/wiki/Bryggen"
+  },
+  "voringsfossen": {
+   "text": "Vøringsfossen or Vøringen is the 83rd highest waterfall in Norway on the basis of total fall. It lies at the top of the Måbødalen valley in Eidfjord Municipality in Vestland county.",
+   "title": "Vøringsfossen",
+   "url": "https://en.wikipedia.org/wiki/V%C3%B8ringsfossen"
+  },
+  "hardangervidda": {
+   "text": "Hardangervidda is a mountain plateau in central southern Norway, covering parts of Vestland, Telemark, and Buskerud counties. It is the largest plateau of its kind in Europe, with a cold year-round alpine climate, and one of Norway's largest glaciers, Hardangerjøkulen, is situated here.",
+   "title": "Hardangervidda",
+   "url": "https://en.wikipedia.org/wiki/Hardangervidda"
+  },
+  "heddal-stave-church": {
+   "text": "Heddal Stave Church is a parish church of the Church of Norway in Notodden Municipality in Telemark county, Norway. It is located in the village of Heddal.",
+   "title": "Heddal Stave Church",
+   "url": "https://en.wikipedia.org/wiki/Heddal_Stave_Church"
+  },
+  "vemork": {
+   "text": "Vemork is a hydroelectric power plant and a museum outside the town of Rjukan in Tinn Municipality in Telemark county, Norway. The plant was built by Norsk Hydro and opened in 1911, its main purpose being to fix nitrogen for the production of fertilizer.",
+   "title": "Vemork",
+   "url": "https://en.wikipedia.org/wiki/Vemork"
+  },
+  "oslo-opera-house": {
+   "text": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord.",
+   "title": "Oslo Opera House",
+   "url": "https://en.wikipedia.org/wiki/Oslo_Opera_House"
+  },
+  "orebro-castle": {
+   "text": "Örebro Castle is a medieval castle on the Svartån in Örebro, Sweden. The castle was expanded during the rule of the House of Vasa and was extensively rebuilt around 1900.",
+   "title": "Örebro Castle",
+   "url": "https://en.wikipedia.org/wiki/%C3%96rebro_Castle"
+  },
+  "stockholm": {
+   "text": "Stockholm is the capital and most populous city of Sweden, as well as the largest urban area in the Nordic countries. Approximately 1 million people live in the municipality, with 1.6 million in the urban area, and 2.5 million in the metropolitan area.",
+   "title": "Stockholm",
+   "url": "https://en.wikipedia.org/wiki/Stockholm"
+  },
+  "kadriorg-palace": {
+   "text": "Kadriorg Palace is an 18th-century Petrine Baroque palace in Kadriorg, Tallinn, the capital of Estonia. Both the Estonian and the German names for the palace mean \"Catherine's valley\".",
+   "title": "Kadriorg Palace",
+   "url": "https://en.wikipedia.org/wiki/Kadriorg_Palace"
+  },
+  "rummu": {
+   "text": "Rummu is a small borough in Lääne-Harju Parish, Harju County, northern Estonia. As of the 2011 census, the settlement's population was 1,088, of whom 288 (26.5%) were Estonians.",
+   "title": "Rummu",
+   "url": "https://en.wikipedia.org/wiki/Rummu"
+  },
+  "padise-abbey": {
+   "text": "Padise Abbey was a former Cistercian monastery in Padise in Harju County, Estonia, settled in 1310 by the dispossessed monks of Dünamünde Abbey in Latvia. It was converted into a fortress after its dissolution in 1559 and later used as a country house until 1766.",
+   "title": "Padise Abbey",
+   "url": "https://en.wikipedia.org/wiki/Padise_Abbey"
+  },
+  "home2": {
+   "text": "Pärnu is a city in southwest Estonia. Pärnu is located 128 kilometres (80 mi) south of the Estonian capital, Tallinn, and 176 kilometres (109 mi) west of Estonia's second-largest city, Tartu.",
+   "title": "Pärnu",
+   "url": "https://en.wikipedia.org/wiki/P%C3%A4rnu"
+  }
+ }
+}
