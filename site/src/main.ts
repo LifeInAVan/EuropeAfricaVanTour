@@ -232,7 +232,7 @@ function initMap(route: GeoJSON.FeatureCollection) {
     map.addSource("route", { type: "geojson", data: route });
     map.addSource("all", { type: "geojson", data: all });
     map.addSource("points", { type: "geojson", data: shownFeatures(), promoteId: "id" });
-    map.addLayer({ id: "route-all", type: "line", source: "route", paint: { "line-color": "#8a8f93", "line-width": 1.5, "line-opacity": 0.6 },
+    map.addLayer({ id: "route-all", type: "line", source: "route", paint: { "line-color": "#5b6266", "line-width": 2, "line-opacity": 0.75 },
       filter: ["==", ["get", "mode"], "road"] });
     map.addLayer({ id: "route-sea", type: "line", source: "route", paint: { "line-color": "#4b7fa6", "line-width": 1.5, "line-dasharray": [2, 2] },
       filter: ["==", ["get", "mode"], "sea"] });
@@ -241,8 +241,10 @@ function initMap(route: GeoJSON.FeatureCollection) {
     map.addLayer({ id: "points", type: "circle", source: "points",
       layout: { "circle-sort-key": ["get", "n"] }, // same order as the labels, so each label sits on its own circle
       paint: {
-        "circle-radius": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13,
-          ["step", ["zoom"], 5, 4.5, 9]], // small dots without labels when the whole trip is in view
+        // small dots without labels when the whole trip is in view ("zoom" must be the outermost step)
+        "circle-radius": ["step", ["zoom"],
+          ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 9, 5], 4.5,
+          ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13, 9]],
         "circle-color": ["get", "colour"],
         "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], "#ffd34d", ["boolean", ["feature-state", "selected"], false], "#c2412d", "#ffffff"],
         "circle-stroke-width": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 3, 1.5],

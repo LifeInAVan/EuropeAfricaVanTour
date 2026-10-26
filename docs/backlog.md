@@ -31,6 +31,12 @@ Ideas collected during review. Not scheduled yet; each line notes what it would 
    - The van as the site's logo and browser-tab icon.
    - A short "The van" page: the VW LT31 Westfalia Florida, with a few of our photos.
 
+5. **Route for the places shown, in every view.** (Peter, 26 Oct 2026.) The calendar, country and
+   temperature views drew no route or places on the live site: a map-style error, fixed the same
+   day, and the whole route is now darker. Still to do: highlight in red the stretch of road for the
+   month, day or country chosen, as the chapter view does for its chapter (needs the route split by
+   day, which item 1's new road geometry can provide).
+
 ## Earlier notes
 - The Pärnu start caption in `data/route.json` still says "Start — Jaanipäev, June 2027"
   (departure is now 19 July). The film pipeline shares that file, so ask before changing it.
