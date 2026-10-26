@@ -1,16 +1,23 @@
 import { Map as MapLibre, LngLatBounds, NavigationControl, setWorkerUrl, type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"; // MapLibre 6 keeps its worker in a separate file
 import "maplibre-gl/dist/maplibre-gl.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/barlow-condensed/600.css";
+import "@fontsource/barlow-condensed/700.css";
 import "./style.css";
 import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Drive, type Point, type Trip, type Photos, type Weather } from "./data";
 import { Panel } from "./panel";
+import { siteStyle, MAP } from "./mapstyle";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
   stop: "Main stop", beach: "Beach", nature: "Nature", culture: "Culture", history: "History", peaceful: "Peaceful",
 };
 const TYPE_COLOUR: Record<string, string> = {
-  stop: "#1f2a30", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
+  stop: "#1D3B53", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
 };
 type View = "chapter" | "calendar" | "country" | "temp";
 const VIEWS: [View, string][] = [["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"]];
@@ -89,7 +96,7 @@ function writeHash() {
 // ---------- header: views, the row for the current view, type filters ----------
 function renderHeader() {
   $("#views").innerHTML = VIEWS.map(([k, label]) =>
-    `<button class="tab" data-v="${k}" aria-pressed="${state.view === k}">${label}</button>`).join("");
+    `<button class="nav-link" data-v="${k}" ${state.view === k ? 'aria-current="page"' : ""}>${label}</button>`).join("");
   const sub = $("#subnav");
   if (state.view === "chapter") {
     let part = "";
@@ -255,10 +262,10 @@ function shownFeatures(): GeoJSON.FeatureCollection {
   };
 }
 
-function initMap(route: GeoJSON.FeatureCollection) {
+async function initMap(route: GeoJSON.FeatureCollection) {
   setWorkerUrl(workerUrl);
   map = new MapLibre({
-    container: "map", style: "https://tiles.openfreemap.org/styles/positron",
+    container: "map", style: await siteStyle(),
     bounds: boundsOf(shown().length ? shown() : trip.points), fitBoundsOptions: { padding: 40 }, attributionControl: { compact: true },
   });
   map.addControl(new NavigationControl({ showCompass: false }), "top-right");
@@ -268,16 +275,21 @@ function initMap(route: GeoJSON.FeatureCollection) {
     map.addSource("route", { type: "geojson", data: route });
     map.addSource("all", { type: "geojson", data: all });
     map.addSource("points", { type: "geojson", data: shownFeatures(), promoteId: "id" });
-    map.addLayer({ id: "route-all", type: "line", source: "route", paint: { "line-color": "#5b6266", "line-width": 2, "line-opacity": 0.75 },
+    // the whole route faint; the part being looked at in its part colour (ochre 2027, blue 2028) on a white casing
+    map.addLayer({ id: "route-all", type: "line", source: "route", layout: { "line-join": "round", "line-cap": "round" },
+      paint: { "line-color": MAP.faint, "line-width": 2, "line-opacity": 0.7 },
       filter: ["==", ["get", "mode"], "road"] });
-    map.addLayer({ id: "route-sea", type: "line", source: "route", paint: { "line-color": "#4b7fa6", "line-width": 1.5, "line-dasharray": [2, 2] },
+    map.addLayer({ id: "route-sea", type: "line", source: "route", paint: { "line-color": MAP.ferry, "line-width": 2, "line-dasharray": [2, 2] },
       filter: ["==", ["get", "mode"], "sea"] });
-    map.addLayer({ id: "route-chapter", type: "line", source: "route", paint: { "line-color": "#c2412d", "line-width": 3 }, filter: routeFilter() });
+    map.addLayer({ id: "route-casing", type: "line", source: "route", layout: { "line-join": "round", "line-cap": "round" },
+      paint: { "line-color": "#ffffff", "line-width": 7 }, filter: routeFilter() });
+    map.addLayer({ id: "route-chapter", type: "line", source: "route", layout: { "line-join": "round", "line-cap": "round" },
+      paint: { "line-color": ["case", ["<=", ["get", "chapter"], 8], MAP.ochre, MAP.blue], "line-width": 3.6 }, filter: routeFilter() });
     map.addLayer({ id: "route-km", type: "symbol", source: "route", minzoom: 7.5, // distance of each drive, when zoomed in
       filter: ["all", ["==", ["get", "mode"], "road"], [">=", ["coalesce", ["get", "km"], 0], 3]],
       layout: { "symbol-placement": "line-center", "text-field": ["concat", ["to-string", ["round", ["get", "km"]]], " km"],
         "text-font": ["Noto Sans Regular"], "text-size": 11 },
-      paint: { "text-color": "#7a2a1d", "text-halo-color": "#ffffff", "text-halo-width": 1.5 } });
+      paint: { "text-color": "#3A4652", "text-halo-color": MAP.land, "text-halo-width": 1.5 } });
     map.addLayer({ id: "points-all", type: "circle", source: "all", paint: { "circle-radius": 2.5, "circle-color": "#9aa0a4" } });
     map.addLayer({ id: "points", type: "circle", source: "points",
       layout: { "circle-sort-key": ["get", "n"] }, // same order as the labels, so each label sits on its own circle
@@ -287,7 +299,7 @@ function initMap(route: GeoJSON.FeatureCollection) {
           ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 9, 5], 4.5,
           ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13, 9]],
         "circle-color": ["get", "colour"],
-        "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], "#ffd34d", ["boolean", ["feature-state", "selected"], false], "#c2412d", "#ffffff"],
+        "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], MAP.ochre, ["boolean", ["feature-state", "selected"], false], MAP.blue, "#ffffff"],
         "circle-stroke-width": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 3, 1.5],
       } });
     map.addLayer({ id: "points-num", type: "symbol", source: "points",
@@ -321,7 +333,7 @@ function routeFilter(): never {
     const ids = trip.points.filter((p) => p.country === state.country).map((p) => p.id);
     return ["all", road, ["in", ["coalesce", ["get", "from"], ""], ["literal", ids]]] as never;
   }
-  return ["==", ["get", "chapter"], -1] as never; // temperature: places only
+  return road as never; // temperature: the whole route
 }
 
 function boundsOf(pts: Point[]) {
@@ -334,6 +346,7 @@ function updateMap(animate = true) {
   if (!mapReady) return; // the load handler calls this again
   (map.getSource("points") as GeoJSONSource).setData(shownFeatures());
   map.setFilter("route-chapter", routeFilter());
+  map.setFilter("route-casing", routeFilter());
   if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
   const sel = trip.points.find((x) => x.id === selected), pts = shown();
   if (sel) map.easeTo({ center: [sel.lon, sel.lat], duration: animate ? 600 : 0 });
@@ -371,7 +384,7 @@ function openPoint(id: string) {
   document.querySelectorAll(".pt.selected").forEach((r) => r.classList.remove("selected"));
   document.querySelector(`.pt[data-p="${id}"]`)?.classList.add("selected");
   void panel.open(p);
-  map.easeTo({ center: [p.lon, p.lat], duration: 600 });
+  if (mapReady) map.easeTo({ center: [p.lon, p.lat], duration: 600 }); // otherwise the load handler centres it
 }
 
 function closePoint() {
@@ -416,14 +429,14 @@ async function start() {
   ({ trip, photos } = data);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
-  $("#subtitle").textContent = `${fmtYear(dateOf(trip.start_date, 0))} – ${fmtYear(dateOf(trip.start_date, trip.days))} · ${trip.points.length} places in ${trip.chapters.length} chapters${trip.drives.length ? ` · ${totals(trip.drives)}` : ""}`;
+  $("#start-label").textContent = `Start date: ${fmtYear(dateOf(trip.start_date, 0))}`;
   const first = readHash();
   panel = new Panel({
     trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)],
     siblings: () => shown(), backLabel, onClose: closePoint, onMove: openPoint,
   });
   render();
-  initMap(data.route);
+  void initMap(data.route);
   if (state.view === "temp") void needWeather();
   if (first) openPoint(first);
 

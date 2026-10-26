@@ -3,21 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pärnu to Sahara</title>
-    <meta name="description" content="A 400-day camper tour of Europe and North Africa: route, places and festivals by chapter." />
+    <title>Kalev's Grand Tour</title>
+    <meta name="description" content="Kalev's Grand Tour: from Pärnu to the Sahara and home through the Arctic, 400 days in a VW LT31 camper van, 2027–28." />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="theme-color" content="#1D3B53" />
   </head>
   <body>
     <header class="top">
-      <div class="title">
-        <h1 id="title">Pärnu to Sahara</h1>
-        <p id="subtitle"></p>
+      <div class="bar">
+        <a class="brand" href="#c=1" aria-label="Kalev's Grand Tour, start">
+          <img src="./logo-icon.png" alt="" width="44" height="44" />
+          <span class="brand-text">
+            <span class="brand-name">Kalev's Grand Tour</span>
+            <span class="brand-strap">Pärnu · Sahara · Arctic · 2027–28</span>
+          </span>
+        </a>
+        <nav id="views" aria-label="Main"></nav>
+        <button type="button" class="start-date" id="start-date" disabled title="Changing the start date comes later">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+          <span id="start-label">Start date</span>
+        </button>
       </div>
-      <nav id="views" aria-label="Views"></nav>
       <nav id="subnav" aria-label="Choose what to show"></nav>
       <div id="filters" aria-label="Types of place"></div>
     </header>
     <main class="layout">
-      <section id="list" aria-label="Places in this chapter"></section>
+      <section id="list" aria-label="Places"></section>
       <aside id="panel" aria-label="Place" hidden></aside>
       <div id="map" role="region" aria-label="Map"></div>
     </main>

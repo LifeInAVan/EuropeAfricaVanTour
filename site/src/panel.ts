@@ -1,5 +1,6 @@
 // The place panel: photos with credits, date, caption, typical weather, link and a local map.
 import { Map as MapLibre, Marker } from "maplibre-gl";
+import { siteStyle, MAP } from "./mapstyle";
 import { dateOf, fmtYear, loadExtras, weatherIndex, type Credit, type Point, type Trip } from "./data";
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -61,7 +62,7 @@ export class Panel {
       <div class="slides"></div>
       <div class="panel-body">
         <h2>${esc(p.name)}</h2>
-        <p class="meta">Day ${p.day} · ${fmtYear(d)} · ${esc(this.o.typeLabel(p))}</p>
+        <p class="meta">Day ${p.day + 1} · ${fmtYear(d)} · ${esc(this.o.typeLabel(p))}</p>
         <p class="caption">${esc(p.caption)}</p>
         <p class="weather muted">Loading typical weather…</p>
         <p><a class="more" href="${esc(p.link)}" target="_blank" rel="noopener">${p.link.includes("wikipedia.org") ? "More on Wikipedia" : "Show on OpenStreetMap"} ↗</a></p>
@@ -69,7 +70,7 @@ export class Panel {
       </div>`;
     this.el.scrollTop = 0;
     this.renderSlides(null);
-    this.showLocal(p);
+    void this.showLocal(p);
     const { credits, weather } = await loadExtras();
     if (this.point !== p) return; // another place was opened meanwhile
     this.renderSlides(credits);
@@ -138,19 +139,21 @@ export class Panel {
     }
   }
 
-  private showLocal(p: Point) {
-    const box = document.getElementById("local-map")!;
+  private async showLocal(p: Point) {
+    const style = await siteStyle(true);
+    const box = document.getElementById("local-map");
+    if (!box || this.point !== p) return; // another place was opened meanwhile
     // a fresh map each time: the panel's content (and so the container) is rebuilt per place
     this.local?.remove();
     this.local = new MapLibre({
-      container: box, style: "https://tiles.openfreemap.org/styles/liberty",
+      container: box, style,
       center: [p.lon, p.lat], zoom: p.kind === "stop" ? 10 : 12, attributionControl: { compact: true },
       cooperativeGestures: true,
     });
     this.local.on("load", () => {
       this.local?.addSource("route", { type: "geojson", data: this.o.route });
-      this.local?.addLayer({ id: "route", type: "line", source: "route", paint: { "line-color": "#c2412d", "line-width": 3, "line-opacity": 0.8 } });
+      this.local?.addLayer({ id: "route", type: "line", source: "route", paint: { "line-color": ["case", ["<=", ["get", "chapter"], 8], MAP.ochre, MAP.blue], "line-width": 3.6, "line-opacity": 0.9 } });
     });
-    new Marker({ color: "#c2412d" }).setLngLat([p.lon, p.lat]).addTo(this.local);
+    new Marker({ color: MAP.blue }).setLngLat([p.lon, p.lat]).addTo(this.local);
   }
 }
