@@ -1,4 +1,4 @@
-import { Map as MapLibre, LngLatBounds, NavigationControl, setWorkerUrl, type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
+import { Map as MapLibre, LngLatBounds, Marker, NavigationControl, setWorkerUrl, type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"; // MapLibre 6 keeps its worker in a separate file
 import "maplibre-gl/dist/maplibre-gl.css";
 import "@fontsource/inter/400.css";
@@ -12,7 +12,7 @@ import { loadAll, loadExtras, dateOf, fmtDate, weatherIndex, type Drive, type Po
 import { Panel } from "./panel";
 import { siteStyle, MAP } from "./mapstyle";
 import { renderHome } from "./home";
-import { chapterBar, chapterPanel, PhotoMarkers } from "./chapter";
+import { chapterBar, chapterPanel, PhotoMarkers, barShare, dayLabel, vanElement } from "./chapter";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
@@ -35,6 +35,7 @@ let site: Site, route: GeoJSON.FeatureCollection, markers: PhotoMarkers | null =
 const state = {
   view: "chapter" as View,
   chapter: 1,
+  at: 0, // the trip day the van is on (chapter view): set by the timeline or by opening a place
   month: "", // "2027-09"
   day: null as number | null, // a trip day chosen in the calendar
   country: "",
@@ -88,6 +89,8 @@ function readHash(): string | null {
   if (r.length === 2 && r.every(Number.isFinite)) [state.lo, state.hi] = r;
   state.types = new Set((h.get("t") ?? "").split(",").filter((t) => (TYPES as readonly string[]).includes(t)));
   if (p && state.view === "chapter") state.chapter = p.chapter; // a link to a place opens its chapter
+  const ch = trip.chapters.find((x) => x.id === state.chapter)!, at = Number(h.get("at"));
+  state.at = h.has("at") && at >= ch.start_day && at <= ch.end_day ? at : p?.day ?? ch.start_day;
   return p?.id ?? null;
 }
 function writeHash() {
@@ -95,6 +98,7 @@ function writeHash() {
   if (state.view !== "chapter") h.set("v", state.view);
   if (state.view === "home" && section) h.set("s", section);
   if (state.view === "chapter") h.set("c", String(state.chapter));
+  if (state.view === "chapter" && state.at !== trip.chapters.find((x) => x.id === state.chapter)!.start_day && !selected) h.set("at", String(state.at));
   if (state.view === "calendar") { h.set("m", state.month); if (state.day !== null) h.set("d", String(state.day)); }
   if (state.view === "country") h.set("k", state.country);
   if (state.view === "temp") h.set("r", `${state.lo}-${state.hi}`);
@@ -117,7 +121,7 @@ function renderHeader() {
   if (state.view === "home") {
     sub.innerHTML = ""; $("#filters").innerHTML = ""; return;
   } else if (state.view === "chapter") {
-    sub.innerHTML = chapterBar(trip, site, state.chapter);
+    sub.innerHTML = chapterBar(trip, site, state.chapter, state.at);
     $("#filters").innerHTML = ""; // the type pills are in the chapter panel
     return;
   } else if (state.view === "calendar") {
@@ -182,7 +186,7 @@ function renderList() {
   let head = "";
   if (state.view === "chapter") {
     const chapter = trip.chapters.find((x) => x.id === state.chapter)!;
-    $("#list").innerHTML = chapterPanel({ trip, photos, chapter, shown: pts, types: state.types, weather, selected, kindOf, hiOf, driveRow,
+    $("#list").innerHTML = chapterPanel({ trip, photos, chapter, shown: pts, types: state.types, weather, selected, at: state.at, kindOf, hiOf, driveRow,
       drive: totals(trip.drives.filter((d) => d.chapter === chapter.id)) });
     $("#list").scrollTop = 0;
     return;
@@ -383,6 +387,7 @@ function updateMap(animate = true) {
     markers!.show(shown(), new Map(numbered.map((p, i) => [p.id, i + 1])));
     markers!.mark(selected, "sel");
   } else markers?.clear();
+  placeVan();
   map.setFilter("route-chapter", routeFilter());
   map.setFilter("route-casing", routeFilter());
   if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
@@ -431,6 +436,68 @@ function setupSheet() {
   });
 }
 
+// ---------- the van: a timeline on the chapter bar, and on the map at the chosen day ----------
+let vanMarker: Marker | null = null;
+/** The place for a trip day (the last one reached on or before it) and the next place on the route. */
+function placeOnDay(day: number) {
+  const i = trip.points.findLastIndex((p) => p.day <= day);
+  return { here: trip.points[Math.max(i, 0)], next: trip.points[Math.max(i, 0) + 1] };
+}
+function placeVan() {
+  if (!mapReady) return;
+  vanMarker?.remove(); vanMarker = null;
+  if (state.view !== "chapter") return;
+  const { here, next } = placeOnDay(state.at);
+  vanMarker = new Marker({ element: vanElement(!!next && next.lon > here.lon), anchor: "bottom", offset: [0, -26] })
+    .setLngLat([here.lon, here.lat]).addTo(map);
+  vanMarker.getElement().style.zIndex = "4";
+}
+/** Move the van to a day: the bar handle, the map and the list. Changes chapter if the day is in another. */
+function setVanDay(day: number, commit = true) {
+  day = Math.max(0, Math.min(trip.days, day));
+  const handle = document.querySelector<HTMLElement>(".van-handle");
+  if (handle) {
+    handle.style.left = `${barShare(trip, day)}%`;
+    handle.setAttribute("aria-valuenow", String(day + 1));
+    handle.setAttribute("aria-valuetext", dayLabel(trip, day));
+    handle.querySelector(".van-tip")!.textContent = dayLabel(trip, day);
+  }
+  state.at = day;
+  if (!commit) { placeVan(); return; }
+  const ch = trip.chapters.find((c) => day >= c.start_day && day <= c.end_day)!;
+  if (ch.id !== state.chapter) change({ chapter: ch.id, at: day });
+  else { renderList(); placeVan(); writeHash(); }
+  const row = document.querySelector<HTMLElement>(".day.at");
+  row?.scrollIntoView({ block: "start", behavior: "smooth" });
+  if (mapReady) { const { here } = placeOnDay(day); map.easeTo({ center: [here.lon, here.lat], duration: 600 }); }
+}
+function setupTimeline() {
+  const sub = $("#subnav");
+  let dragging = false;
+  const dayAt = (x: number) => {
+    const r = sub.querySelector(".segs")!.getBoundingClientRect();
+    return Math.round(((x - r.left) / r.width) * (trip.days + 1) - 0.5);
+  };
+  sub.addEventListener("pointerdown", (e) => {
+    const h = (e.target as HTMLElement).closest<HTMLElement>(".van-handle");
+    if (!h) return;
+    dragging = true; h.classList.add("dragging"); h.setPointerCapture(e.pointerId); e.preventDefault();
+  });
+  sub.addEventListener("pointermove", (e) => { if (dragging) setVanDay(dayAt(e.clientX), false); });
+  sub.addEventListener("pointerup", (e) => {
+    if (!dragging) return;
+    dragging = false; document.querySelector(".van-handle")?.classList.remove("dragging");
+    setVanDay(dayAt(e.clientX));
+  });
+  sub.addEventListener("keydown", (e) => {
+    if (!(e.target as HTMLElement).closest(".van-handle")) return;
+    const step = { ArrowRight: 1, ArrowLeft: -1, PageDown: 7, PageUp: -7 }[e.key];
+    if (step === undefined) return;
+    e.preventDefault(); setVanDay(state.at + step);
+    document.querySelector<HTMLElement>(".van-handle")?.focus();
+  });
+}
+
 // ---------- hover: list row <-> map marker ----------
 function setHover(id: string | null, from: "map" | "list") {
   if (id === hovered) return;
@@ -460,6 +527,7 @@ function openPoint(id: string) {
   selected = id;
   if (mapReady) map.setFeatureState({ source: "points", id }, { selected: true });
   markers?.mark(id, "sel");
+  if (state.view === "chapter") setVanDay(p.day);
   writeHash();
   document.querySelectorAll(".pt.selected").forEach((r) => r.classList.remove("selected"));
   document.querySelector(`.pt[data-p="${id}"]`)?.classList.add("selected");
@@ -506,6 +574,7 @@ function render() {
 }
 function change(update: Partial<typeof state>) {
   if (selected) closePoint();
+  if (update.chapter !== undefined && update.at === undefined) update.at = trip.chapters.find((c) => c.id === update.chapter)!.start_day;
   Object.assign(state, update);
   render();
   updateMap();
@@ -539,6 +608,7 @@ async function start() {
     $("#menu-btn").setAttribute("aria-expanded", String(open));
   });
   setupSheet();
+  setupTimeline();
   $("#subnav").addEventListener("change", (e) => {
     const t = e.target as HTMLSelectElement;
     if (t.id === "chapter-select") change({ chapter: Number(t.value) });

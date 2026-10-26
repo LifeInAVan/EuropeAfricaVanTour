@@ -29,7 +29,7 @@ a closer zoom.
 
 ## Next
 
-**C. The van (item 4).** Chosen by Peter (to look at again after the redesign):
+**C. The van (item 4).** Done 27 Oct 2026: the van on the chapter bar is a draggable trip timeline (one bar, not a second one), and stands on the map at the chosen day and on each place's local map. As chosen by Peter:
 - The van cut-out (`assets/_van_profile.png`) as the marker for the place that is open, facing the
   direction of travel.
 - A trip timeline under the header (19 Jul 2027 – 22 Aug 2028) with the van at the chosen day;

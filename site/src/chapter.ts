@@ -10,7 +10,11 @@ const thumb = (photos: Photos, id: string) => photos[id]?.[0]?.replace(/\.jpg$/,
 export const chapterDates = (trip: Trip, c: Chapter) => span(trip.start_date, c.start_day, c.end_day);
 
 /** Previous/next, a chapter menu, and a 16-part bar sized by the length of each chapter. */
-export function chapterBar(trip: Trip, site: Site, current: number) {
+/** Where the van handle sits on the bar for a trip day, as a share (0-100) of the bar. */
+export const barShare = (trip: Trip, day: number) => ((day + 0.5) / (trip.days + 1)) * 100;
+export const dayLabel = (trip: Trip, day: number) => `Day ${day + 1} · ${dateOf(trip.start_date, day).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}`;
+
+export function chapterBar(trip: Trip, site: Site, current: number, vanDay: number) {
   const cs = trip.chapters, total = cs.reduce((a, c) => a + c.end_day - c.start_day + 1, 0);
   const prev = cs.find((c) => c.id === current - 1), next = cs.find((c) => c.id === current + 1);
   const start = dateOf(trip.start_date, 0), end = dateOf(trip.start_date, trip.days);
@@ -38,6 +42,9 @@ export function chapterBar(trip: Trip, site: Site, current: number) {
         ${cs.map((c) => `<a href="#c=${c.id}" class="seg${c.id === current ? " on" : ""}${c.id <= 8 ? " one" : " two"}" title="Chapter ${c.id}: ${esc(c.name)}" aria-label="Chapter ${c.id}: ${esc(c.name)}"${c.id === current ? ' aria-current="page"' : ""}></a>`).join("")}
       </div>
       <div class="seg-labels">${labels.join("")}</div>
+      <div class="van-handle" role="slider" tabindex="0" aria-label="Day of the trip: drag the van, or use the arrow keys"
+        aria-valuemin="1" aria-valuemax="${trip.days + 1}" aria-valuenow="${vanDay + 1}" aria-valuetext="${dayLabel(trip, vanDay)}"
+        style="left:${barShare(trip, vanDay)}%"><img src="./van.png" alt="" draggable="false"><span class="van-tip">${dayLabel(trip, vanDay)}</span></div>
     </div>
   </div>`;
 }
@@ -48,6 +55,7 @@ const ONE: Record<string, string> = { stop: "Main stop", history: "History", cul
 
 export interface PanelArgs {
   trip: Trip; photos: Photos; chapter: Chapter; shown: Point[]; types: Set<string>; weather: Weather | null; selected: string | null;
+  at: number; // the day the van is on
   kindOf: (p: Point) => string; hiOf: (p: Point) => number | undefined; driveRow: (a: Point, b: Point) => string;
   drive: string; // "1,776 km · 36 h 50 min driving"
 }
@@ -64,7 +72,8 @@ export function chapterPanel(a: PanelArgs) {
   for (const p of shown) byDay.set(p.day, [...(byDay.get(p.day) ?? []), p]);
   const withDrives = !a.types.size;
   let prev: Point | null = null;
-  const days = [...byDay.entries()].map(([day, pts]) => `<li class="day">
+  const atDay = [...byDay.keys()].filter((d) => d <= a.at).pop() ?? [...byDay.keys()][0]; // the day shown for the van's day
+  const days = [...byDay.entries()].map(([day, pts]) => `<li class="day${day === atDay ? " at" : ""}" data-day="${day}">
       <p class="day-h">Day ${day + 1} · ${fmtDate(dateOf(trip.start_date, day))}</p>
       <ol class="day-items">${pts.map((p) => {
         const n = all.indexOf(p) + 1, drive = withDrives && prev ? a.driveRow(prev, p) : "";
@@ -156,4 +165,12 @@ export class PhotoMarkers {
       this.markers.push(new Marker({ element: wrap }).setLngLat([lng, lat]).addTo(this.map));
     }
   }
+}
+
+/** The van cut-out for a map marker. It faces left, so it is flipped when the next place is further east. */
+export function vanElement(eastward: boolean) {
+  const el = document.createElement("div");
+  el.className = "van-marker" + (eastward ? " east" : "");
+  el.innerHTML = `<img src="./van.png" alt="Our van">`;
+  return el;
 }

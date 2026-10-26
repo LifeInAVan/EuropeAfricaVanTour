@@ -2,6 +2,7 @@
 // description, typical weather, local map with links, other places the same day, previous/next.
 import { Map as MapLibre, Marker } from "maplibre-gl";
 import { siteStyle, MAP } from "./mapstyle";
+import { vanElement } from "./chapter";
 import { dateOf, loadExtras, weatherIndex, type Credit, type Point, type Trip } from "./data";
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -191,6 +192,7 @@ export class Panel {
       this.local?.addSource("route", { type: "geojson", data: this.o.route });
       this.local?.addLayer({ id: "route", type: "line", source: "route", paint: { "line-color": ["case", ["<=", ["get", "chapter"], 8], MAP.ochre, MAP.blue], "line-width": 3.6, "line-opacity": 0.9 } });
     });
-    new Marker({ color: MAP.blue }).setLngLat([p.lon, p.lat]).addTo(this.local);
+    const i = this.o.trip.points.indexOf(p), next = this.o.trip.points[i + 1]; // the van faces the next place
+    new Marker({ element: vanElement(!!next && next.lon > p.lon), anchor: "bottom", offset: [0, 4] }).setLngLat([p.lon, p.lat]).addTo(this.local);
   }
 }

@@ -486,3 +486,20 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
   .hero { height: 600px; }
   .hero-badge { width: 112px; margin-bottom: 10px; }
 }
+
+/* ---------- the van: timeline handle on the chapter bar, and map marker ---------- */
+.chbar-track { position: relative; }
+.van-handle { position: absolute; top: -14px; transform: translateX(-50%); width: 46px; cursor: grab; touch-action: none; z-index: 2; outline-offset: 4px; }
+.van-handle img { width: 46px; height: auto; display: block; filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .35)); pointer-events: none; }
+.van-handle.dragging { cursor: grabbing; }
+.van-tip { position: absolute; top: -26px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; font-weight: 600;
+  background: var(--ink); color: #fff; padding: 2px 8px; border-radius: 10px; opacity: 0; transition: opacity .15s; pointer-events: none; }
+.van-handle:hover .van-tip, .van-handle:focus-visible .van-tip, .van-handle.dragging .van-tip { opacity: 1; }
+.segs { margin-top: 10px; }
+.van-marker { width: 64px; pointer-events: none; }
+.van-marker img { width: 100%; height: auto; display: block; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4)); }
+.van-marker.east img { transform: scaleX(-1); }
+.day.at > .day-h { color: var(--ink); }
+.day.at > .day-h::before { content: ""; display: inline-block; width: 22px; height: 13px; margin-right: 6px; vertical-align: -1px;
+  background: url("/van.png") center / contain no-repeat; }
+@media (max-width: 760px) { .van-handle { top: -12px; width: 40px; } .van-handle img { width: 40px; } }
