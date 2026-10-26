@@ -1,12 +1,12 @@
 {
  "title": "Pärnu → Sahara → Nordkapp",
- "subtitle": "Peter · Dianne · the LT31 · 2027–2028",
+ "subtitle": "Peter · Dianne · Kalev · the LT31",
  "start_date": "2027-07-19",
  "days": 400,
  "chapters": [
   {
    "id": 1,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Baltic departure",
    "start_day": 0,
    "end_day": 6,
@@ -14,7 +14,7 @@
   },
   {
    "id": 2,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Heart of Europe",
    "start_day": 7,
    "end_day": 19,
@@ -22,7 +22,7 @@
   },
   {
    "id": 3,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Dinaric wilds",
    "start_day": 20,
    "end_day": 35,
@@ -30,7 +30,7 @@
   },
   {
    "id": 4,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Adriatic and Ionian",
    "start_day": 36,
    "end_day": 56,
@@ -38,7 +38,7 @@
   },
   {
    "id": 5,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Puglia to Rome",
    "start_day": 57,
    "end_day": 63,
@@ -46,7 +46,7 @@
   },
   {
    "id": 6,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Pyrenees, the Vuelta and Green Spain",
    "start_day": 64,
    "end_day": 90,
@@ -54,7 +54,7 @@
   },
   {
    "id": 7,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Portugal",
    "start_day": 91,
    "end_day": 127,
@@ -62,7 +62,7 @@
   },
   {
    "id": 8,
-   "part": "One: south (2027)",
+   "part": "One: south",
    "name": "Morocco: Atlas, Sahara, winter and Toubkal",
    "start_day": 128,
    "end_day": 208,
@@ -71,7 +71,7 @@
   },
   {
    "id": 9,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Al-Andalus and the Mediterranean",
    "start_day": 209,
    "end_day": 250,
@@ -79,7 +79,7 @@
   },
   {
    "id": 10,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Provence",
    "start_day": 251,
    "end_day": 265,
@@ -87,7 +87,7 @@
   },
   {
    "id": 11,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "The Alps",
    "start_day": 266,
    "end_day": 274,
@@ -95,7 +95,7 @@
   },
   {
    "id": 12,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Rhine to the Oder",
    "start_day": 275,
    "end_day": 296,
@@ -103,7 +103,7 @@
   },
   {
    "id": 13,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Poland's coast and lakes",
    "start_day": 297,
    "end_day": 314,
@@ -111,7 +111,7 @@
   },
   {
    "id": 14,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Baltic states and Laulupidu",
    "start_day": 315,
    "end_day": 358,
@@ -119,7 +119,7 @@
   },
   {
    "id": 15,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Lapland and Arctic Norway",
    "start_day": 359,
    "end_day": 376,
@@ -127,7 +127,7 @@
   },
   {
    "id": 16,
-   "part": "Two: home the long way (2028)",
+   "part": "Two: home the long way",
    "name": "Fjords and home",
    "start_day": 377,
    "end_day": 400,
@@ -191,7 +191,7 @@
    "id": "parnu",
    "kind": "stop",
    "name": "Pärnu",
-   "caption": "Start — departure, 19 July 2027",
+   "caption": "Where we set off",
    "day": 0,
    "chapter": 1,
    "leg": "baltics",
@@ -3480,7 +3480,7 @@
    "id": "camargue",
    "kind": "stop",
    "name": "Camargue",
-   "caption": "Spring 2028 — flamingos north",
+   "caption": "Spring — flamingos north",
    "day": 251,
    "chapter": 10,
    "leg": "return",
@@ -5573,7 +5573,7 @@
    "id": "home1",
    "kind": "stop",
    "name": "Pärnu",
-   "caption": "Laulupidu, 1–9 July 2028",
+   "caption": "Home for the Song Festival (Laulupidu)",
    "day": 342,
    "chapter": 14,
    "leg": "return",
@@ -10785,7 +10785,7 @@
    "timing": "2027 moved to September",
    "dates": "**4–26 Sep (confirmed)**; stage towns due Dec 2026",
    "status": "on",
-   "our_pass": "Last week, 22–26 Sep, including the Madrid finish; stages to follow once the route is out (Dec 2026)",
+   "our_pass": "Last week, 22–26 Sep, including the Madrid finish; stage towns to follow once the route is announced",
    "source": "Cyclingnews",
    "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-espana-grand-depart-returns-to-home-soil-with-start-in-galicia-in-2027/"
   },
@@ -11676,7 +11676,7 @@
    "timing": "Odd years, early October",
    "dates": "About 8–12 Oct (2025: 9–13 Oct)",
    "status": "on",
-   "our_pass": "Villaviciosa 8 Oct, if held in 2027",
+   "our_pass": "Villaviciosa 8 Oct; held in odd years only",
    "source": "Asturias.com",
    "url": "https://asturias.com/festival-de-la-manzana/"
   },

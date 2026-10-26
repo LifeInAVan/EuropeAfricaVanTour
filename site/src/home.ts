@@ -5,17 +5,15 @@ import { siteStyle, MAP } from "./mapstyle";
 import { dateOf, loadExtras, type Chapter, type Photos, type Point, type Site, type Trip } from "./data";
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
-const short = (d: Date, year = false) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", ...(year ? { year: "numeric" } : {}) });
+const short = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }); // no year: not decided
 const partColour = (c: Chapter) => (c.id <= 8 ? MAP.ochre : MAP.blue);
 /** "One: south (2027)" -> "Part one: south (2027)". */
 export const partName = (part: string) => `Part ${part.charAt(0).toLowerCase()}${part.slice(1)}`;
 
-/** "19 – 25 Jul 2027", "24 Nov 2027 – 12 Feb 2028". */
-function span(start: string, a: number, b: number) {
+/** "19 – 25 Jul", "24 Nov – 12 Feb". */
+export function span(start: string, a: number, b: number) {
   const x = dateOf(start, a), y = dateOf(start, b);
-  if (x.getFullYear() !== y.getFullYear()) return `${short(x, true)} – ${short(y, true)}`;
-  if (x.getMonth() === y.getMonth()) return `${x.getDate()} – ${short(y, true)}`;
-  return `${short(x)} – ${short(y, true)}`;
+  return x.getMonth() === y.getMonth() && b - a < 31 ? `${x.getDate()} – ${short(y)}` : `${short(x)} – ${short(y)}`;
 }
 /** Countries in the order reached, each once. */
 export function countriesInOrder(pts: Point[]) {
@@ -36,7 +34,7 @@ export function renderHome(el: HTMLElement, trip: Trip, photos: Photos, site: Si
     [String(countries.length), "countries"],
     [String(trip.points.length), "places to see"],
     [String(trip.chapters.length), "chapters"],
-    [short(start), `leave ${esc(trip.points[0].name)}, ${start.getFullYear()}`],
+    [short(start), `leave ${esc(trip.points[0].name)}`],
   ];
   const parts = [...new Set(trip.chapters.map((c) => c.part))];
   const fill = (t: string) => t.replace("{countries}", String(countries.length))

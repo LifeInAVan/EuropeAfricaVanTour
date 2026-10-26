@@ -71,5 +71,6 @@ export function dateOf(start: string, day: number): Date {
   return d;
 }
 
-export const fmtDay = (d: Date) => d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
-export const fmtYear = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+// Dates are shown without year or weekday: the start year is not decided yet (Peter, 27 Oct 2026).
+export const fmtDate = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+export const fmtLong = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "long" });

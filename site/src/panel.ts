@@ -49,7 +49,7 @@ export class Panel {
     const list = this.o.siblings(p);
     const i = list.indexOf(p), prev = i > 0 ? list[i - 1] : null, next = i >= 0 ? list[i + 1] ?? null : null;
     const d = dateOf(trip.start_date, p.day);
-    const long = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+    const long = d.toLocaleDateString("en-GB", { day: "numeric", month: "long" }); // no weekday or year: not decided
     const sameDay = trip.points.filter((q) => q.day === p.day && q.id !== p.id);
     const chevL = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>';
     const chevR = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';

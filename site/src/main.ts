@@ -8,7 +8,7 @@ import "@fontsource/inter/700.css";
 import "@fontsource/barlow-condensed/600.css";
 import "@fontsource/barlow-condensed/700.css";
 import "./style.css";
-import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Drive, type Point, type Trip, type Photos, type Site, type Weather } from "./data";
+import { loadAll, loadExtras, dateOf, fmtDate, weatherIndex, type Drive, type Point, type Trip, type Photos, type Site, type Weather } from "./data";
 import { Panel } from "./panel";
 import { siteStyle, MAP } from "./mapstyle";
 import { renderHome } from "./home";
@@ -45,7 +45,10 @@ const state = {
 const kindOf = (p: Point) => (p.kind === "stop" ? "stop" : p.type ?? "culture");
 const dateOfPoint = (p: Point) => dateOf(trip.start_date, p.day);
 const monthKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
-const monthName = (m: string) => `${MONTHS[Number(m.slice(5)) - 1]} ${m.slice(0, 4)}`;
+// Months are shown by trip year, not calendar year (the start year is not decided): "Aug", year 1 or 2.
+const monthName = (m: string) => MONTHS[Number(m.slice(5)) - 1];
+const monthLong = (m: string) => new Date(2000, Number(m.slice(5)) - 1, 1).toLocaleDateString("en-GB", { month: "long" });
+const tripYear = (m: string) => Number(m.slice(0, 4)) - Number(trip.start_date.slice(0, 4)) + 1;
 const hiOf = (p: Point) => weather?.points[p.id]?.hi[weatherIndex(dateOfPoint(p))];
 
 /** Trip months, countries in the order first reached. */
@@ -118,7 +121,8 @@ function renderHeader() {
     $("#filters").innerHTML = ""; // the type pills are in the chapter panel
     return;
   } else if (state.view === "calendar") {
-    sub.innerHTML = months.map((m) => `<button class="chip" data-m="${m}" aria-pressed="${m === state.month}">${monthName(m)}</button>`).join("");
+    sub.innerHTML = months.map((m, i) => (i === 0 || tripYear(m) !== tripYear(months[i - 1]) ? `<span class="part">Year ${tripYear(m)}</span>` : "")
+      + `<button class="chip" data-m="${m}" aria-pressed="${m === state.month}">${monthName(m)}</button>`).join("");
   } else if (state.view === "country") {
     sub.innerHTML = countries.map((k) => {
       const n = trip.points.filter((p) => p.country === k).length;
@@ -146,7 +150,7 @@ function rows(pts: Point[]) {
   for (const p of pts) byDay.set(p.day, [...(byDay.get(p.day) ?? []), p]);
   let prev: Point | null = null;
   const days = [...byDay.entries()].map(([day, list]) => `<li class="day">
-    <p class="day-h">Day ${day + 1} · ${fmtDay(dateOf(trip.start_date, day))}</p>
+    <p class="day-h">Day ${day + 1} · ${fmtDate(dateOf(trip.start_date, day))}</p>
     <ol class="day-items">${list.map((p) => {
       const drive = withDrives && prev ? driveRow(prev, p) : "";
       prev = p;
@@ -170,7 +174,7 @@ function spans(days: number[]) {
     const last = out[out.length - 1];
     if (last && d - last[1] <= 14) last[1] = d; else out.push([d, d]); // a new visit after more than two weeks away
   }
-  return out.map(([a, b]) => a === b ? fmtYear(dateOf(trip.start_date, a)) : `${fmtYear(dateOf(trip.start_date, a))} – ${fmtYear(dateOf(trip.start_date, b))}`);
+  return out.map(([a, b]) => a === b ? fmtDate(dateOf(trip.start_date, a)) : `${fmtDate(dateOf(trip.start_date, a))} – ${fmtDate(dateOf(trip.start_date, b))}`);
 }
 
 function renderList() {
@@ -185,7 +189,7 @@ function renderList() {
   }
   if (state.view === "calendar") {
     const t = totals(trip.drives.filter((d) => pts.some((p) => p.id === d.from)));
-    head = `<p class="kicker">Calendar</p><h1>${state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month)}</h1>
+    head = `<p class="kicker">Calendar · year ${tripYear(state.month)} of the trip</p><h1>${state.day !== null ? `Day ${state.day + 1} · ${fmtDate(dateOf(trip.start_date, state.day))}` : monthLong(state.month)}</h1>
       <p class="ch-facts">${count(pts)}${t ? ` · ${t}` : ""}${state.day !== null ? ` · <button class="link" data-act="month">whole month</button>` : ""}</p>
       ${calendarGrid()}${state.day === null ? `<p class="muted">Choose a day to see just that day.</p>` : ""}`;
   } else if (state.view === "country") {
@@ -235,8 +239,7 @@ function driveRow(a: Point, b: Point) {
 
 function calendarGrid() {
   const [y, m] = state.month.split("-").map(Number);
-  const first = new Date(y, m - 1, 1), days = new Date(y, m, 0).getDate();
-  const lead = (first.getDay() + 6) % 7; // Monday first
+  const days = new Date(y, m, 0).getDate();
   const byDay = new Map<number, Point[]>();
   for (const p of trip.points) {
     if (state.types.size && !state.types.has(kindOf(p))) continue;
@@ -244,7 +247,7 @@ function calendarGrid() {
     if (monthKey(d) === state.month) byDay.set(d.getDate(), [...(byDay.get(d.getDate()) ?? []), p]);
   }
   const startMs = new Date(trip.start_date + "T12:00:00").getTime();
-  const cells: string[] = Array.from({ length: lead }, () => `<span class="cell out"></span>`);
+  const cells: string[] = []; // no weekday columns: the weekday of a date depends on the year, not decided yet
   for (let n = 1; n <= days; n++) {
     const tripDay = Math.round((new Date(y, m - 1, n, 12).getTime() - startMs) / 864e5);
     const pts = byDay.get(n) ?? [];
@@ -252,11 +255,11 @@ function calendarGrid() {
     const thumbs = pts.slice(0, 2).map((p) => photos[p.id]?.[0]).filter(Boolean)
       .map((s) => `<img src="${s!.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">`).join("");
     cells.push(`<button class="cell${pts.length ? " has" : ""}${inTrip ? "" : " out"}${state.day === tripDay ? " on" : ""}" data-day="${tripDay}"
-      ${pts.length ? "" : "disabled"} aria-label="${n} ${monthName(state.month)}: ${pts.length} places">
+      ${pts.length ? "" : "disabled"} aria-label="${n} ${monthLong(state.month)}: ${pts.length} places">
       <span class="dn">${n}</span>${thumbs ? `<span class="th">${thumbs}</span>` : ""}${pts.length > 2 ? `<span class="more-n">+${pts.length - 2}</span>` : ""}
       ${pts.length ? `<span class="dots">${pts.map((p) => `<i style="background:${TYPE_COLOUR[kindOf(p)]}"></i>`).join("")}</span>` : ""}</button>`);
   }
-  return `<div class="cal"><div class="wd">${["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => `<span>${d}</span>`).join("")}</div>
+  return `<div class="cal">
     <div class="grid">${cells.join("")}</div></div>`;
 }
 
@@ -477,7 +480,7 @@ function closePoint() {
 
 function backLabel() {
   if (state.view === "chapter") { const c = trip.chapters.find((x) => x.id === state.chapter)!; return `Chapter ${c.id} · ${c.name}`; }
-  if (state.view === "calendar") return state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month);
+  if (state.view === "calendar") return state.day !== null ? fmtDate(dateOf(trip.start_date, state.day)) : monthLong(state.month);
   if (state.view === "country") return state.country;
   return `${state.lo}–${state.hi}°C`;
 }
@@ -520,7 +523,7 @@ async function start() {
   ({ trip, photos, site, route } = data);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
-  $("#start-label").textContent = `Start date: ${fmtYear(dateOf(trip.start_date, 0))}`;
+  $("#start-label").textContent = `Start date: ${fmtDate(dateOf(trip.start_date, 0))}`;
   const first = readHash();
   panel = new Panel({
     trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)],

@@ -2,7 +2,7 @@
  "note": "Words and photos for the front page. Places and dates are not written here: they come from trip.json. bar_labels: extra labels under the chapter bar, placed at that chapter.",
  "hero": {
   "image": "assets/site/hero-merzouga.jpg",
-  "kicker": "Peter, Dianne and Kalev · 2027–28",
+  "kicker": "Peter, Dianne and Kalev",
   "line": "From Pärnu to the Sahara and home through the Arctic: 400 days in our VW LT31 camper van.",
   "caption": "Merzouga, Morocco",
   "credit_of": "assets/web/merzouga/1.jpg"

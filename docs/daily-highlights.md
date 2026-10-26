@@ -12,7 +12,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 
 | Date | Place | Type | Why go |
 |---|---|---|---|
-| **Mon 19 Jul 2027** | **Pärnu** | Main stop | Start — departure, 19 July 2027 |
+| **Mon 19 Jul 2027** | **Pärnu** | Main stop | Where we set off |
 | Tue 20 Jul 2027 | [Warsaw Old Town](https://en.wikipedia.org/wiki/Old_Town%2C_Warsaw) | History | Rebuilt brick by brick after 1944 |
 | Tue 20 Jul 2027 | [Łazienki Park](https://www.openstreetmap.org/?mlat=52.2126209&mlon=21.0339496#map=14/52.2126209/21.0339496) | Peaceful | Palace on the water, Warsaw |
 | Wed 21 Jul 2027 | [Jasna Góra Monastery](https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery) | Culture | Black Madonna of Częstochowa |
@@ -263,7 +263,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 
 | Date | Place | Type | Why go |
 |---|---|---|---|
-| **Sun 26 Mar 2028** | **Camargue** | Main stop | Spring 2028 — flamingos north |
+| **Sun 26 Mar 2028** | **Camargue** | Main stop | Spring — flamingos north |
 | Mon 27 Mar 2028 | [Maison Carrée](https://www.openstreetmap.org/?mlat=43.8384744&mlon=4.3553335#map=14/43.8384744/4.3553335) | History | Roman temple, Nîmes |
 | Mon 27 Mar 2028 | [Arles Amphitheatre](https://en.wikipedia.org/wiki/Arles_Amphitheatre) | History | Roman arena |
 | Mon 27 Mar 2028 | [Glanum](https://www.openstreetmap.org/?mlat=43.6411386&mlon=5.0829006#map=14/43.6411386/5.0829006) | History | Roman town under the Alpilles |
@@ -397,7 +397,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 | Thu 22 Jun 2028 | [Matsalu National Park](https://en.wikipedia.org/wiki/Matsalu_National_Park) | Nature | Bird migration reserve |
 | Fri 23 Jun 2028 | [Viljandi Castle](https://en.wikipedia.org/wiki/Viljandi_Castle) | History | Castle ruins over the lake |
 | Sat 24 Jun 2028 | [Soomaa National Park](https://en.wikipedia.org/wiki/Soomaa_National_Park) | Peaceful | Bog land and canoe trips |
-| **Sun 25 Jun 2028** | **Pärnu** | Main stop | Laulupidu, 1–9 July 2028 |
+| **Sun 25 Jun 2028** | **Pärnu** | Main stop | Home for the Song Festival (Laulupidu) |
 | Wed 12 Jul 2028 | [Helsinki Cathedral](https://en.wikipedia.org/wiki/Helsinki_Cathedral) | Culture | White cathedral on Senate Square |
 | Thu 13 Jul 2028 | [Häme Castle](https://en.wikipedia.org/wiki/H%C3%A4me_Castle) | History | Brick castle by the lake |
 

@@ -1,18 +1,13 @@
 // The chapter page (design handoff): chapter bar, side panel with the places grouped by day, and round
 // photo markers on the map that group when they overlap on screen.
 import { Marker, LngLatBounds, type Map as MapLibre } from "maplibre-gl";
-import { dateOf, fmtDay, type Chapter, type Photos, type Point, type Site, type Trip, type Weather } from "./data";
-import { countriesInOrder, coverOf, partName } from "./home";
+import { dateOf, fmtDate, type Chapter, type Photos, type Point, type Site, type Trip, type Weather } from "./data";
+import { countriesInOrder, coverOf, partName, span } from "./home";
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
-const short = (d: Date, year = false) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", ...(year ? { year: "numeric" } : {}) });
 const thumb = (photos: Photos, id: string) => photos[id]?.[0]?.replace(/\.jpg$/, "-s.jpg");
 
-export function chapterDates(trip: Trip, c: Chapter) {
-  const x = dateOf(trip.start_date, c.start_day), y = dateOf(trip.start_date, c.end_day);
-  if (x.getFullYear() !== y.getFullYear()) return `${short(x, true)} – ${short(y, true)}`;
-  return x.getMonth() === y.getMonth() ? `${x.getDate()} – ${short(y, true)}` : `${short(x)} – ${short(y, true)}`;
-}
+export const chapterDates = (trip: Trip, c: Chapter) => span(trip.start_date, c.start_day, c.end_day);
 
 /** Previous/next, a chapter menu, and a 16-part bar sized by the length of each chapter. */
 export function chapterBar(trip: Trip, site: Site, current: number) {
@@ -23,7 +18,7 @@ export function chapterBar(trip: Trip, site: Site, current: number) {
     const c = cs.find((x) => x.id === id)!;
     return ((c.start_day + (c.end_day - c.start_day + 1) / 2) / total) * 100;
   };
-  const month = (d: Date) => d.toLocaleDateString("en-GB", { month: "short", year: "numeric" });
+  const month = (d: Date) => d.toLocaleDateString("en-GB", { month: "short" });
   const labels = [
     `<span style="left:0">${month(start)} · ${esc(trip.points[0].name)}</span>`,
     ...(site.bar_labels ?? []).map((l) => `<span class="mid" style="left:${at(l.chapter)}%">${esc(l.text)}</span>`),
@@ -70,7 +65,7 @@ export function chapterPanel(a: PanelArgs) {
   const withDrives = !a.types.size;
   let prev: Point | null = null;
   const days = [...byDay.entries()].map(([day, pts]) => `<li class="day">
-      <p class="day-h">Day ${day + 1} · ${fmtDay(dateOf(trip.start_date, day))}</p>
+      <p class="day-h">Day ${day + 1} · ${fmtDate(dateOf(trip.start_date, day))}</p>
       <ol class="day-items">${pts.map((p) => {
         const n = all.indexOf(p) + 1, drive = withDrives && prev ? a.driveRow(prev, p) : "";
         prev = p;

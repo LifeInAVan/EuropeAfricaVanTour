@@ -1,6 +1,6 @@
 {
  "title": "Pärnu → Sahara → Nordkapp",
- "subtitle": "Peter · Dianne · the LT31 · 2027–2028",
+ "subtitle": "Peter · Dianne · Kalev · the LT31",
  "legs": [
   {
    "id": "baltics",
@@ -60,7 +60,7 @@
    "lat": 58.386,
    "lon": 24.497,
    "name": "Pärnu",
-   "caption": "Start — departure, 19 July 2027",
+   "caption": "Where we set off",
    "date": "2027-07-19"
   },
   {
@@ -276,7 +276,7 @@
    "lat": 43.45,
    "lon": 4.43,
    "name": "Camargue",
-   "caption": "Spring 2028 — flamingos north",
+   "caption": "Spring — flamingos north",
    "date": "2028-03-26"
   },
   {
@@ -303,7 +303,7 @@
    "lat": 58.386,
    "lon": 24.497,
    "name": "Pärnu",
-   "caption": "Laulupidu, 1–9 July 2028",
+   "caption": "Home for the Song Festival (Laulupidu)",
    "date": "2028-06-25"
   },
   {
