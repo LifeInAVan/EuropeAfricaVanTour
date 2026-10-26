@@ -26,3 +26,6 @@ pipeline/cache/weather/
 # Website build
 site/node_modules/
 site/dist/
+
+# Raw road routes (not committed)
+pipeline/cache/roads/

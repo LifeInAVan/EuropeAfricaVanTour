@@ -60,7 +60,7 @@
    "lat": 58.386,
    "lon": 24.497,
    "name": "Pärnu",
-   "caption": "Start — Jaanipäev, June 2027",
+   "caption": "Start — departure, 19 July 2027",
    "date": "2027-07-19"
   },
   {
@@ -219,8 +219,8 @@
   {
    "id": "picos",
    "leg": "spain",
-   "lat": 43.193,
-   "lon": -4.851,
+   "lat": 43.145,
+   "lon": -4.812,
    "name": "Picos de Europa",
    "caption": "Hermida gorge road",
    "date": "2027-10-06"

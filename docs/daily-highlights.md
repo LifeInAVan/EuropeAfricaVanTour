@@ -12,7 +12,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 
 | Date | Place | Type | Why go |
 |---|---|---|---|
-| **Mon 19 Jul 2027** | **Pärnu** | Main stop | Start — Jaanipäev, June 2027 |
+| **Mon 19 Jul 2027** | **Pärnu** | Main stop | Start — departure, 19 July 2027 |
 | Tue 20 Jul 2027 | [Warsaw Old Town](https://en.wikipedia.org/wiki/Old_Town%2C_Warsaw) | History | Rebuilt brick by brick after 1944 |
 | Tue 20 Jul 2027 | [Łazienki Park](https://www.openstreetmap.org/?mlat=52.2126209&mlon=21.0339496#map=14/52.2126209/21.0339496) | Peaceful | Palace on the water, Warsaw |
 | Wed 21 Jul 2027 | [Jasna Góra Monastery](https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery) | Culture | Black Madonna of Częstochowa |

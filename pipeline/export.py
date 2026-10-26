@@ -57,33 +57,52 @@ countries = json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {}
 for p in points: p["country"] = countries.get(p["id"]) or None
 points = [{k: v for k, v in p.items() if v is not None} for p in points]
 
-trip = dict(title=route["title"], subtitle=route["subtitle"], start_date=START.isoformat(),
-            days=max(c["end_day"] for c in chapters), chapters=chapters,
-            legs=list(legs.values()), points=points, ferries=route["ferries"], festivals=festivals)
-json.dump(trip, open(os.path.join(ROOT, "data", "trip.json"), "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
-
-# route line for the map: road and sea parts, split where the chapter changes. Each vertex takes the
-# chapter of the nearest place on its leg (the route is drawn through those places in order).
-feats = []
-for seg in plan:
-    a, b = stops[seg["from"]], stops[seg["to"]]
-    marks = [(a["lon"], a["lat"], day(a["date"]))] + [(h["lon"], h["lat"], day(h["date"])) for h in seg["highlights"]] \
-            + [(b["lon"], b["lat"], day(b["date"]) - 1)]
-    near = lambda x, y: chapter(min(marks, key=lambda m: (m[0] - x) ** 2 + (m[1] - y) ** 2)[2])
-    for part in seg["parts"]:
-        run, cur = [], None
-        for x, y in part["geom"]:
-            c = near(x, y)
-            if cur is not None and c != cur:
-                run.append([x, y])
-                feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur, leg=a["leg"]),
+# drives between consecutive places, from fetch_roads.py: distance, driving time, road line.
+# Each drive takes the day and chapter of the place it starts from; a drive from an arrival port takes
+# those of the place it leads to.
+lp = os.path.join(HERE, "cache", "legs.json")
+drives, feats = [], []
+if os.path.exists(lp):
+    by_id = {p["id"]: p for p in points}
+    sea = iter([f"{seg['from']}>{seg['to']}" for seg in plan for part in seg["parts"] if part["mode"] == "sea"])
+    last, prev = None, None
+    for leg in json.load(open(lp, encoding="utf-8")):
+        after_ferry = prev == "sea" and leg["mode"] == "road"                   # starts at the arrival port
+        start = (by_id.get(leg["to"]) if after_ferry else None) or by_id.get(leg["from"]) or last
+        prev = leg["mode"]
+        last = by_id.get(leg["to"]) or start
+        d = dict(mode=leg["mode"], **{"from": leg["from"]}, to=leg["to"], km=leg["km"], min=leg["min"],
+                 day=start["day"], chapter=start["chapter"],
+                 ferry=route["ferries"].get(next(sea), {}).get("name") if leg["mode"] == "sea" else None)
+        d = {k: v for k, v in d.items() if v is not None}
+        drives.append(d)
+        feats.append(dict(type="Feature", properties=d,
+                          geometry=dict(type="LineString", coordinates=leg["geom"])))
+else:   # no road download yet: the film's simplified line, split where the chapter changes
+    for seg in plan:
+        a, b = stops[seg["from"]], stops[seg["to"]]
+        marks = ([(a["lon"], a["lat"], day(a["date"]))] + [(h["lon"], h["lat"], day(h["date"])) for h in seg["highlights"]]
+                 + [(b["lon"], b["lat"], day(b["date"]) - 1)])
+        near = lambda x, y: chapter(min(marks, key=lambda m: (m[0] - x) ** 2 + (m[1] - y) ** 2)[2])
+        for part in seg["parts"]:
+            run, cur = [], None
+            for x, y in part["geom"]:
+                c = near(x, y)
+                if cur is not None and c != cur:
+                    run.append([x, y])
+                    feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur),
+                                      geometry=dict(type="LineString", coordinates=run)))
+                    run = []
+                run.append([x, y]); cur = c
+            if len(run) > 1:
+                feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur),
                                   geometry=dict(type="LineString", coordinates=run)))
-                run = []
-            run.append([x, y]); cur = c
-        if len(run) > 1:
-            feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur, leg=a["leg"]),
-                              geometry=dict(type="LineString", coordinates=run)))
 json.dump(dict(type="FeatureCollection", features=feats),
           open(os.path.join(ROOT, "data", "route-line.json"), "w", encoding="utf-8", newline="\n"), separators=(",", ":"))
+
+trip = dict(title=route["title"], subtitle=route["subtitle"], start_date=START.isoformat(),
+            days=max(c["end_day"] for c in chapters), chapters=chapters,
+            legs=list(legs.values()), points=points, drives=drives, ferries=route["ferries"], festivals=festivals)
+json.dump(trip, open(os.path.join(ROOT, "data", "trip.json"), "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
 count = {c["id"]:sum(1 for p in points if p["chapter"] == c["id"]) for c in chapters}
-print("written data/trip.json:", len(points), "points;", "per chapter:", count)
+print("written data/trip.json:", len(points), "points,", len(drives), "drives; per chapter:", count)

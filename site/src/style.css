@@ -148,3 +148,7 @@ body { margin: 0; height: 100vh; display: flex; flex-direction: column; overflow
   #panel { position: fixed; inset: 0; width: auto; z-index: 20; box-shadow: none; border: 0; }
   body.panel-open { overflow: hidden; }
 }
+
+/* ---------- drive lines between places ---------- */
+.drive { list-style: none; padding: 0 16px 0 28px; font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.drive::before { content: ""; width: 2px; height: 16px; background: #c2412d; opacity: .5; border-radius: 1px; }

@@ -6,7 +6,13 @@ export interface Point {
   type?: "beach" | "nature" | "culture" | "history" | "peaceful";
   day: number; chapter: number; leg: string; lat: number; lon: number; wikipedia?: string; link: string; country?: string;
 }
-export interface Trip { title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[] }
+/** A drive (or ferry) between consecutive places; from/to are missing at a ferry port. */
+export interface Drive { mode: "road" | "sea"; from?: string; to?: string; km?: number; min?: number; day: number; chapter: number; ferry?: string }
+export interface Ferry { name: string }
+export interface Trip {
+  title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
+  drives: Drive[]; ferries: Record<string, Ferry>;
+}
 export type Photos = Record<string, string[]>;
 
 async function json<T>(path: string): Promise<T> {

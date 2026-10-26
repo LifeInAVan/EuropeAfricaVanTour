@@ -2,7 +2,7 @@ import { Map as MapLibre, LngLatBounds, NavigationControl, setWorkerUrl, type Ge
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"; // MapLibre 6 keeps its worker in a separate file
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./style.css";
-import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Point, type Trip, type Photos, type Weather } from "./data";
+import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Drive, type Point, type Trip, type Photos, type Weather } from "./data";
 import { Panel } from "./panel";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
@@ -120,11 +120,14 @@ function renderHeader() {
 
 // ---------- the left-hand list ----------
 function rows(pts: Point[]) {
+  // drive lines between places only where the list follows the route: a chapter or a calendar month or day
+  const withDrives = !state.types.size && (state.view === "chapter" || state.view === "calendar");
   return `<ol class="points">${pts.map((p, i) => {
+    const drive = withDrives && i > 0 ? driveRow(pts[i - 1], p) : "";
     const thumb = photos[p.id]?.[0], k = kindOf(p), t = state.view === "temp" ? hiOf(p) : undefined;
     const mark = t !== undefined ? `${t}°` : String(i + 1);
     const colour = t !== undefined ? tempColour(t) : TYPE_COLOUR[k];
-    return `<li class="pt ${p.kind}${p.id === selected ? " selected" : ""}" data-p="${p.id}" tabindex="0">
+    return `${drive}<li class="pt ${p.kind}${p.id === selected ? " selected" : ""}" data-p="${p.id}" tabindex="0">
       <span class="num${t !== undefined ? " temp" : ""}" style="--c:${colour}">${mark}</span>
       ${thumb ? `<img src="${thumb.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">` : `<span class="noimg"></span>`}
       <span class="txt"><span class="name">${esc(p.name)}</span>
@@ -150,7 +153,7 @@ function renderList() {
   if (state.view === "chapter") {
     const c = trip.chapters.find((x) => x.id === state.chapter)!;
     head = `<p class="eyebrow">Chapter ${c.id} · ${esc(c.part)}</p><h2>${esc(c.name)}</h2>
-      <p class="muted">${fmtYear(dateOf(trip.start_date, c.start_day))} – ${fmtYear(dateOf(trip.start_date, c.end_day))} · ${c.end_day - c.start_day + 1} days · ${count(pts)}</p>`;
+      <p class="muted">${fmtYear(dateOf(trip.start_date, c.start_day))} – ${fmtYear(dateOf(trip.start_date, c.end_day))} · ${c.end_day - c.start_day + 1} days · ${count(pts)}${(() => { const t = totals(trip.drives.filter((d) => d.chapter === c.id)); return t ? ` · ${t}` : ""; })()}</p>`;
   } else if (state.view === "calendar") {
     head = calendarGrid() + `<h2 class="day-h">${state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month)}</h2>
       <p class="muted">${count(pts)}${state.day !== null ? ` · <button class="link" data-act="month">whole month</button>` : " · choose a day to see just that day"}</p>`;
@@ -165,6 +168,39 @@ function renderList() {
   $("#list").scrollTop = 0;
 }
 const count = (pts: Point[]) => `${pts.length} place${pts.length === 1 ? "" : "s"}`;
+
+// ---------- drives between places ----------
+const hm = (min: number) => min < 60 ? `${min} min` : `${Math.floor(min / 60)} h${min % 60 ? ` ${min % 60} min` : ""}`;
+const kmText = (km: number) => `${Math.round(km).toLocaleString("en-GB")} km`;
+function totals(ds: Drive[]) {
+  const road = ds.filter((d) => d.mode === "road");
+  const km = road.reduce((a, d) => a + (d.km ?? 0), 0), min = road.reduce((a, d) => a + (d.min ?? 0), 0);
+  return km ? `${kmText(km)} · ${hm(min)} driving` : "";
+}
+/** The drives (and any ferry) from place a to the next place b, in route order; [] if b does not follow a. */
+function drivesBetween(a: Point, b: Point): Drive[] {
+  const i = trip.drives.findIndex((d) => d.from === a.id);
+  if (i < 0) return [];
+  const out: Drive[] = [];
+  for (let j = i; j < trip.drives.length && j < i + 6; j++) {
+    out.push(trip.drives[j]);
+    if (trip.drives[j].to === b.id) return out;
+    if (trip.drives[j].to) return []; // reached another place first
+  }
+  return [];
+}
+function driveRow(a: Point, b: Point) {
+  const ds = drivesBetween(a, b);
+  if (!ds.length) return "";
+  const parts: string[] = [];
+  const t = totals(ds);
+  if (t) parts.push(t.replace(" driving", ""));
+  const ferry = ds.find((d) => d.mode === "sea");
+  if (ferry) parts.push(`ferry${ferry.ferry ? ` ${esc(ferry.ferry)}` : ""}`);
+  const gap = b.day - a.day;
+  if (gap === 1) parts.push("next day"); else if (gap > 1) parts.push(`${gap} days later`);
+  return `<li class="drive" aria-hidden="true"><span>${parts.join(" · ")}</span></li>`;
+}
 
 function calendarGrid() {
   const [y, m] = state.month.split("-").map(Number);
@@ -237,6 +273,11 @@ function initMap(route: GeoJSON.FeatureCollection) {
     map.addLayer({ id: "route-sea", type: "line", source: "route", paint: { "line-color": "#4b7fa6", "line-width": 1.5, "line-dasharray": [2, 2] },
       filter: ["==", ["get", "mode"], "sea"] });
     map.addLayer({ id: "route-chapter", type: "line", source: "route", paint: { "line-color": "#c2412d", "line-width": 3 }, filter: routeFilter() });
+    map.addLayer({ id: "route-km", type: "symbol", source: "route", minzoom: 7.5, // distance of each drive, when zoomed in
+      filter: ["all", ["==", ["get", "mode"], "road"], [">=", ["coalesce", ["get", "km"], 0], 3]],
+      layout: { "symbol-placement": "line-center", "text-field": ["concat", ["to-string", ["round", ["get", "km"]]], " km"],
+        "text-font": ["Noto Sans Regular"], "text-size": 11 },
+      paint: { "text-color": "#7a2a1d", "text-halo-color": "#ffffff", "text-halo-width": 1.5 } });
     map.addLayer({ id: "points-all", type: "circle", source: "all", paint: { "circle-radius": 2.5, "circle-color": "#9aa0a4" } });
     map.addLayer({ id: "points", type: "circle", source: "points",
       layout: { "circle-sort-key": ["get", "n"] }, // same order as the labels, so each label sits on its own circle
@@ -267,9 +308,21 @@ function initMap(route: GeoJSON.FeatureCollection) {
   });
 }
 
-const routeFilter = () => state.view === "chapter"
-  ? ["all", ["==", ["get", "mode"], "road"], ["==", ["get", "chapter"], state.chapter]] as never
-  : ["==", ["get", "chapter"], -1] as never;
+/** Which stretch of road is red: the chapter, the month or day, or the drives from the country's places. */
+function routeFilter(): never {
+  const road = ["==", ["get", "mode"], "road"];
+  if (state.view === "chapter") return ["all", road, ["==", ["get", "chapter"], state.chapter]] as never;
+  if (state.view === "calendar") {
+    if (state.day !== null) return ["all", road, ["==", ["get", "day"], state.day]] as never;
+    const days = trip.points.filter((p) => monthKey(dateOfPoint(p)) === state.month).map((p) => p.day);
+    return ["all", road, [">=", ["get", "day"], Math.min(...days)], ["<=", ["get", "day"], Math.max(...days)]] as never;
+  }
+  if (state.view === "country") {
+    const ids = trip.points.filter((p) => p.country === state.country).map((p) => p.id);
+    return ["all", road, ["in", ["coalesce", ["get", "from"], ""], ["literal", ids]]] as never;
+  }
+  return ["==", ["get", "chapter"], -1] as never; // temperature: places only
+}
 
 function boundsOf(pts: Point[]) {
   const b = new LngLatBounds();
@@ -363,7 +416,7 @@ async function start() {
   ({ trip, photos } = data);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
-  $("#subtitle").textContent = `${fmtYear(dateOf(trip.start_date, 0))} – ${fmtYear(dateOf(trip.start_date, trip.days))} · ${trip.points.length} places in ${trip.chapters.length} chapters`;
+  $("#subtitle").textContent = `${fmtYear(dateOf(trip.start_date, 0))} – ${fmtYear(dateOf(trip.start_date, trip.days))} · ${trip.points.length} places in ${trip.chapters.length} chapters${trip.drives.length ? ` · ${totals(trip.drives)}` : ""}`;
   const first = readHash();
   panel = new Panel({
     trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)],
