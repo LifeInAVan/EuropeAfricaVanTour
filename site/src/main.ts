@@ -3,6 +3,7 @@ import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"; // M
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./style.css";
 import { loadAll, dateOf, fmtDay, fmtYear, type Point, type Trip, type Photos } from "./data";
+import { Panel } from "./panel";
 
 const TYPE_LABEL: Record<string, string> = {
   stop: "Main stop", beach: "Beach", nature: "Nature", culture: "Culture", history: "History", peaceful: "Peaceful",
@@ -12,17 +13,19 @@ const TYPE_COLOUR: Record<string, string> = {
 };
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
-let trip: Trip, photos: Photos, map: MapLibre;
-let chapter = 1, hovered: string | null = null;
+let trip: Trip, photos: Photos, map: MapLibre, mapReady = false;
+let chapter = 1, hovered: string | null = null, selected: string | null = null, panel: Panel;
 
 // ---------- page address: #c=3&p=point-id ----------
-function readHash() {
+function readHash(): string | null {
   const h = new URLSearchParams(location.hash.slice(1));
+  const p = trip.points.find((x) => x.id === h.get("p"));
   const c = Number(h.get("c"));
-  chapter = trip.chapters.some((x) => x.id === c) ? c : 1;
+  chapter = p?.chapter ?? (trip.chapters.some((x) => x.id === c) ? c : 1);
+  return p?.id ?? null;
 }
 function writeHash() {
-  history.replaceState(null, "", `#c=${chapter}`);
+  history.replaceState(null, "", `#c=${chapter}` + (selected ? `&p=${selected}` : ""));
 }
 
 // ---------- chapters ----------
@@ -107,10 +110,10 @@ function initMap(route: GeoJSON.FeatureCollection) {
     map.addLayer({ id: "points", type: "circle", source: "points", filter: ["==", ["get", "chapter"], chapter],
       layout: { "circle-sort-key": ["get", "n"] }, // same order as the numbers, so each label sits on its own circle
       paint: {
-        "circle-radius": ["case", ["boolean", ["feature-state", "hover"], false], 13, 9],
+        "circle-radius": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13, 9],
         "circle-color": ["get", "colour"],
-        "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], "#ffd34d", "#ffffff"],
-        "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 3, 1.5],
+        "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], "#ffd34d", ["boolean", ["feature-state", "selected"], false], "#c2412d", "#ffffff"],
+        "circle-stroke-width": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 3, 1.5],
       } });
     map.addLayer({ id: "points-num", type: "symbol", source: "points", filter: ["==", ["get", "chapter"], chapter],
       layout: { "text-field": ["to-string", ["get", "n"]], "text-font": ["Noto Sans Bold"], "text-size": 10, "text-allow-overlap": true,
@@ -123,6 +126,13 @@ function initMap(route: GeoJSON.FeatureCollection) {
       map.getCanvas().style.cursor = "pointer";
     });
     map.on("mouseleave", "points", () => { setHover(null, "map"); map.getCanvas().style.cursor = ""; });
+    map.on("click", "points", (e: MapLayerMouseEvent) => {
+      const id = e.features?.[0]?.properties?.id as string | undefined;
+      if (id) openPoint(id);
+    });
+    mapReady = true;
+    showChapterOnMap(false); // the chapter may have changed while the map was loading
+    if (selected) markSelected(selected);
   });
 }
 
@@ -132,33 +142,66 @@ function chapterBounds(): LngLatBounds {
   return b;
 }
 
-function showChapterOnMap() {
-  if (!map.isStyleLoaded()) return;
+function showChapterOnMap(animate = true) {
+  if (!mapReady) return; // the load handler calls this again
   const f = ["==", ["get", "chapter"], chapter] as const;
   map.setFilter("points", f as never);
   map.setFilter("points-num", f as never);
   map.setFilter("points-other", ["!=", ["get", "chapter"], chapter]);
   map.setFilter("route-chapter", ["all", ["==", ["get", "mode"], "road"], ["==", ["get", "chapter"], chapter]]);
-  map.fitBounds(chapterBounds(), { padding: 40, duration: 800 });
+  const sel = trip.points.find((x) => x.id === selected);
+  if (sel) map.jumpTo({ center: [sel.lon, sel.lat] });
+  else map.fitBounds(chapterBounds(), { padding: 40, duration: animate ? 800 : 0 });
 }
 
 // ---------- hover: list row <-> map marker ----------
 function setHover(id: string | null, from: "map" | "list") {
   if (id === hovered) return;
   if (hovered) {
-    map.setFeatureState({ source: "points", id: hovered }, { hover: false });
+    if (mapReady) map.setFeatureState({ source: "points", id: hovered }, { hover: false });
     document.querySelector(`.pt[data-p="${hovered}"]`)?.classList.remove("hover");
   }
   hovered = id;
   if (!id) return;
-  map.setFeatureState({ source: "points", id }, { hover: true });
+  if (mapReady) map.setFeatureState({ source: "points", id }, { hover: true });
   const row = document.querySelector<HTMLElement>(`.pt[data-p="${id}"]`);
   row?.classList.add("hover");
   if (from === "map") row?.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
+// ---------- the place panel ----------
+function markSelected(id: string | null) {
+  if (!mapReady) return;
+  if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: false });
+  if (id) map.setFeatureState({ source: "points", id }, { selected: true });
+}
+
+function openPoint(id: string) {
+  const p = trip.points.find((x) => x.id === id);
+  if (!p) return;
+  if (p.chapter !== chapter) selectChapter(p.chapter);
+  markSelected(id);
+  selected = id;
+  writeHash();
+  document.querySelectorAll(".pt.selected").forEach((r) => r.classList.remove("selected"));
+  document.querySelector(`.pt[data-p="${id}"]`)?.classList.add("selected");
+  void panel.open(p);
+  map.easeTo({ center: [p.lon, p.lat], duration: 600 });
+}
+
+function closePoint() {
+  markSelected(null);
+  const id = selected;
+  selected = null;
+  panel.close();
+  writeHash();
+  document.querySelectorAll(".pt.selected").forEach((r) => r.classList.remove("selected"));
+  document.querySelector<HTMLElement>(`.pt[data-p="${id}"]`)?.focus({ preventScroll: false });
+}
+
 function selectChapter(c: number) {
   if (c === chapter) return;
+  if (selected && trip.points.find((x) => x.id === selected)?.chapter !== c) closePoint();
   setHover(null, "list");
   chapter = c;
   writeHash();
@@ -173,11 +216,15 @@ async function start() {
   const data = await loadAll();
   ({ trip, photos } = data);
   $("#subtitle").textContent = `${fmtYear(dateOf(trip.start_date, 0))} – ${fmtYear(dateOf(trip.start_date, trip.days))} · ${trip.points.length} places in ${trip.chapters.length} chapters`;
-  readHash();
+  const first = readHash();
+  panel = new Panel({
+    trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)], onClose: closePoint, onMove: openPoint,
+  });
   renderChapters();
   document.querySelector(`.chip[data-c="${chapter}"]`)?.scrollIntoView({ block: "nearest", inline: "center" });
   renderList();
   initMap(data.route);
+  if (first) openPoint(first);
 
   $("#chapters").addEventListener("click", (e) => {
     const b = (e.target as HTMLElement).closest<HTMLElement>(".chip");
@@ -190,7 +237,21 @@ async function start() {
   });
   list.addEventListener("mouseleave", () => setHover(null, "list"));
   list.addEventListener("focusin", (e) => setHover((e.target as HTMLElement).closest<HTMLElement>(".pt")?.dataset.p ?? null, "list"));
-  window.addEventListener("hashchange", () => { const c = chapter; readHash(); const n = chapter; chapter = c; selectChapter(n); });
+  list.addEventListener("click", (e) => {
+    const row = (e.target as HTMLElement).closest<HTMLElement>(".pt");
+    if (row?.dataset.p) openPoint(row.dataset.p);
+  });
+  list.addEventListener("keydown", (e) => {
+    const row = (e.target as HTMLElement).closest<HTMLElement>(".pt");
+    if (row?.dataset.p && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openPoint(row.dataset.p); }
+  });
+  window.addEventListener("hashchange", () => {
+    const c = chapter, p = readHash(), n = chapter;
+    chapter = c;
+    selectChapter(n);
+    if (p && p !== selected) openPoint(p);
+    else if (!p && selected) closePoint();
+  });
 }
 
 start().catch((e) => {

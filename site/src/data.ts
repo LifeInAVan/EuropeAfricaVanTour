@@ -24,6 +24,22 @@ export async function loadAll() {
   return { trip, photos, route };
 }
 
+export interface Credit { place?: string; artist?: string; license?: string; license_url?: string; source?: string; url?: string }
+export interface Weather { source: string; years: string; points: Record<string, { elev: number; grid_elev: number; hi: number[]; lo: number[]; rain: number[] }> }
+
+let extras: Promise<{ credits: Record<string, Credit>; weather: Weather }> | null = null;
+/** Photo credits and weather (2 MB together): loaded the first time a place is opened. */
+export function loadExtras() {
+  extras ??= Promise.all([json<Record<string, Credit>>("data/credits.json"), json<Weather>("data/weather.json")])
+    .then(([credits, weather]) => ({ credits, weather }));
+  return extras;
+}
+
+/** Index into the weather arrays: day of the year as in a leap year (0 = 1 Jan, 59 = 29 Feb). */
+export function weatherIndex(d: Date): number {
+  return Math.round((Date.UTC(2028, d.getMonth(), d.getDate()) - Date.UTC(2028, 0, 1)) / 864e5);
+}
+
 /** Date of a trip day, worked out from the start date (never stored). */
 export function dateOf(start: string, day: number): Date {
   const d = new Date(start + "T12:00:00");
