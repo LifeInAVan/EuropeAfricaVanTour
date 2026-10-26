@@ -8,9 +8,10 @@ import "@fontsource/inter/700.css";
 import "@fontsource/barlow-condensed/600.css";
 import "@fontsource/barlow-condensed/700.css";
 import "./style.css";
-import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Drive, type Point, type Trip, type Photos, type Weather } from "./data";
+import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Drive, type Point, type Trip, type Photos, type Site, type Weather } from "./data";
 import { Panel } from "./panel";
 import { siteStyle, MAP } from "./mapstyle";
+import { renderHome } from "./home";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
@@ -19,14 +20,15 @@ const TYPE_LABEL: Record<string, string> = {
 const TYPE_COLOUR: Record<string, string> = {
   stop: "#1D3B53", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
 };
-type View = "chapter" | "calendar" | "country" | "temp";
-const VIEWS: [View, string][] = [["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"]];
+type View = "home" | "chapter" | "calendar" | "country" | "temp";
+const VIEWS: [View, string][] = [["home", "Front page"], ["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"]];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 let trip: Trip, photos: Photos, map: MapLibre, mapReady = false, panel: Panel, weather: Weather | null = null;
-let hovered: string | null = null, selected: string | null = null;
+let hovered: string | null = null, selected: string | null = null, section: string | null = null;
+let site: Site, route: GeoJSON.FeatureCollection;
 
 // Everything shown is worked out from this state, which is also kept in the page address.
 const state = {
@@ -55,6 +57,7 @@ function basePoints(): Point[] {
     case "chapter": return all.filter((p) => p.chapter === state.chapter);
     case "calendar": return all.filter((p) => (state.day !== null ? p.day === state.day : monthKey(dateOfPoint(p)) === state.month));
     case "country": return all.filter((p) => p.country === state.country);
+    case "home": return [];
     case "temp": return weather ? all.filter((p) => { const t = hiOf(p); return t !== undefined && t >= state.lo && t <= state.hi; }) : [];
   }
 }
@@ -68,7 +71,9 @@ function readHash(): string | null {
   const h = new URLSearchParams(location.hash.slice(1));
   const p = trip.points.find((x) => x.id === h.get("p"));
   const v = h.get("v") as View | null;
-  state.view = VIEWS.some(([k]) => k === v) ? v! : "chapter";
+  // an empty address opens the front page; old links with only a chapter or place still open the chapter
+  state.view = VIEWS.some(([k]) => k === v) ? v! : (h.has("c") || h.has("p") ? "chapter" : "home");
+  section = h.get("s");
   const c = Number(h.get("c"));
   state.chapter = trip.chapters.some((x) => x.id === c) ? c : p?.chapter ?? 1;
   state.month = months.includes(h.get("m") ?? "") ? h.get("m")! : months[0];
@@ -84,6 +89,7 @@ function readHash(): string | null {
 function writeHash() {
   const h = new URLSearchParams();
   if (state.view !== "chapter") h.set("v", state.view);
+  if (state.view === "home" && section) h.set("s", section);
   if (state.view === "chapter") h.set("c", String(state.chapter));
   if (state.view === "calendar") { h.set("m", state.month); if (state.day !== null) h.set("d", String(state.day)); }
   if (state.view === "country") h.set("k", state.country);
@@ -95,10 +101,18 @@ function writeHash() {
 
 // ---------- header: views, the row for the current view, type filters ----------
 function renderHeader() {
-  $("#views").innerHTML = VIEWS.map(([k, label]) =>
-    `<button class="nav-link" data-v="${k}" ${state.view === k ? 'aria-current="page"' : ""}>${label}</button>`).join("");
+  const nav: [string, string, boolean][] = [
+    ["#v=home&s=route", "Route", state.view === "home" && section !== "van"],
+    [`#c=${state.chapter}`, "Chapters", state.view === "chapter"],
+    [`#v=calendar&m=${state.month}`, "Calendar", state.view === "calendar"],
+    [`#v=country&k=${encodeURIComponent(state.country)}`, "Countries", state.view === "country"],
+    ["#v=home&s=van", "The van", state.view === "home" && section === "van"],
+  ];
+  $("#views").innerHTML = nav.map(([href, label, on]) => `<a class="nav-link" href="${href}" ${on ? 'aria-current="page"' : ""}>${label}</a>`).join("");
   const sub = $("#subnav");
-  if (state.view === "chapter") {
+  if (state.view === "home") {
+    sub.innerHTML = ""; $("#filters").innerHTML = ""; return;
+  } else if (state.view === "chapter") {
     let part = "";
     sub.innerHTML = trip.chapters.map((c) => {
       const head = c.part !== part ? `<span class="part">${(part = c.part)}</span>` : "";
@@ -407,8 +421,18 @@ function backLabel() {
 // ---------- changing what is shown ----------
 function render() {
   setHover(null, "list");
+  const home = state.view === "home";
+  document.body.classList.toggle("home", home);
+  $("#home").hidden = !home;
   renderHeader();
-  renderList();
+  if (home) {
+    if (!$("#home").childElementCount) renderHome($("#home"), trip, photos, site, route);
+    const target = section ? document.getElementById(section) : null;
+    if (target) target.scrollIntoView({ behavior: "smooth" }); else window.scrollTo(0, 0);
+  } else {
+    renderList();
+    if (mapReady) map.resize(); // the map was hidden behind the front page
+  }
   writeHash();
 }
 function change(update: Partial<typeof state>) {
@@ -426,7 +450,7 @@ async function needWeather() {
 // ---------- start ----------
 async function start() {
   const data = await loadAll();
-  ({ trip, photos } = data);
+  ({ trip, photos, site, route } = data);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
   $("#start-label").textContent = `Start date: ${fmtYear(dateOf(trip.start_date, 0))}`;
@@ -440,10 +464,6 @@ async function start() {
   if (state.view === "temp") void needWeather();
   if (first) openPoint(first);
 
-  $("#views").addEventListener("click", (e) => {
-    const v = (e.target as HTMLElement).closest<HTMLElement>("[data-v]")?.dataset.v as View | undefined;
-    if (v && v !== state.view) { change({ view: v }); if (v === "temp") void needWeather(); }
-  });
   $("#subnav").addEventListener("click", (e) => {
     const b = (e.target as HTMLElement).closest<HTMLElement>(".chip");
     if (b?.dataset.c) change({ chapter: Number(b.dataset.c) });

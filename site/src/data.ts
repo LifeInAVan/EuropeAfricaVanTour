@@ -1,6 +1,6 @@
 // Trip data, loaded at run time from the repository's data/ folder (see vite.config.ts).
 
-export interface Chapter { id: number; part: string; name: string; start_day: number; end_day: number }
+export interface Chapter { id: number; part: string; name: string; start_day: number; end_day: number; cover?: string; cover_photo?: number }
 export interface Point {
   id: string; kind: "stop" | "highlight"; name: string; title?: string; caption: string;
   type?: "beach" | "nature" | "culture" | "history" | "peaceful";
@@ -10,10 +10,21 @@ export interface Point {
 export interface Drive { mode: "road" | "sea"; from?: string; to?: string; km?: number; min?: number; day: number; chapter: number; ferry?: string }
 export interface Ferry { name: string }
 export interface Trip {
+  festivals?: unknown[];
   title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
   drives: Drive[]; ferries: Record<string, Ferry>;
 }
 export type Photos = Record<string, string[]>;
+/** Front-page words and photos (data/site.json). */
+export interface Site {
+  hero: { image: string; kicker: string; line: string; caption: string; credit_of: string };
+  plan: { title: string; paragraphs: string[] };
+  chapters_intro: string;
+  van: { title: string; image: string; alt: string; specs: [string, string][]; text: string };
+  crew: { name: string; text: string; image: string; alt: string }[];
+  views: { name: string; view: string; text: string }[];
+  footer: string[];
+}
 
 async function json<T>(path: string): Promise<T> {
   const r = await fetch(path);
@@ -22,12 +33,13 @@ async function json<T>(path: string): Promise<T> {
 }
 
 export async function loadAll() {
-  const [trip, photos, route] = await Promise.all([
+  const [trip, photos, route, site] = await Promise.all([
     json<Trip>("data/trip.json"),
     json<Photos>("data/photos.json"),
     json<GeoJSON.FeatureCollection>("data/route-line.json"),
+    json<Site>("data/site.json"),
   ]);
-  return { trip, photos, route };
+  return { trip, photos, route, site };
 }
 
 export interface Credit { place?: string; artist?: string; license?: string; license_url?: string; source?: string; url?: string }

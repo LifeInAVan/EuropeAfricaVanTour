@@ -5,7 +5,7 @@ import { extname, join, normalize, resolve } from "node:path";
 // The site reads the repository's data/ and assets/web/ directly: served as they are while
 // developing, copied into the build. There is only ever one copy of the data.
 const ROOT = resolve(import.meta.dirname, "..");
-const SHARED = ["data", "assets/web"];
+const SHARED = ["data", "assets/web", "assets/site"];
 const TYPES: Record<string, string> = { ".json": "application/json", ".jpg": "image/jpeg" };
 
 function sharedFiles(): Plugin {

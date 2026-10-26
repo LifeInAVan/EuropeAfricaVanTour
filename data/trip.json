@@ -9,112 +9,129 @@
    "part": "One: south (2027)",
    "name": "Baltic departure",
    "start_day": 0,
-   "end_day": 6
+   "end_day": 6,
+   "cover": "lazienki-park"
   },
   {
    "id": 2,
    "part": "One: south (2027)",
    "name": "Heart of Europe",
    "start_day": 7,
-   "end_day": 19
+   "end_day": 19,
+   "cover": "tatras"
   },
   {
    "id": 3,
    "part": "One: south (2027)",
    "name": "Dinaric wilds",
    "start_day": 20,
-   "end_day": 35
+   "end_day": 35,
+   "cover": "piran"
   },
   {
    "id": 4,
    "part": "One: south (2027)",
    "name": "Adriatic and Ionian",
    "start_day": 36,
-   "end_day": 56
+   "end_day": 56,
+   "cover": "kotor"
   },
   {
    "id": 5,
    "part": "One: south (2027)",
    "name": "Puglia to Rome",
    "start_day": 57,
-   "end_day": 63
+   "end_day": 63,
+   "cover": "matera"
   },
   {
    "id": 6,
    "part": "One: south (2027)",
    "name": "Pyrenees, the Vuelta and Green Spain",
    "start_day": 64,
-   "end_day": 90
+   "end_day": 90,
+   "cover": "san-sebastian"
   },
   {
    "id": 7,
    "part": "One: south (2027)",
    "name": "Portugal",
    "start_day": 91,
-   "end_day": 127
+   "end_day": 127,
+   "cover": "douro"
   },
   {
    "id": 8,
    "part": "One: south (2027)",
    "name": "Morocco: Atlas, Sahara, winter and Toubkal",
    "start_day": 128,
-   "end_day": 208
+   "end_day": 208,
+   "cover": "merzouga",
+   "cover_photo": 1
   },
   {
    "id": 9,
    "part": "Two: home the long way (2028)",
    "name": "Al-Andalus and the Mediterranean",
    "start_day": 209,
-   "end_day": 250
+   "end_day": 250,
+   "cover": "essaouira"
   },
   {
    "id": 10,
    "part": "Two: home the long way (2028)",
    "name": "Provence",
    "start_day": 251,
-   "end_day": 265
+   "end_day": 265,
+   "cover": "camargue"
   },
   {
    "id": 11,
    "part": "Two: home the long way (2028)",
    "name": "The Alps",
    "start_day": 266,
-   "end_day": 274
+   "end_day": 274,
+   "cover": "aiguille-du-midi"
   },
   {
    "id": 12,
    "part": "Two: home the long way (2028)",
    "name": "Rhine to the Oder",
    "start_day": 275,
-   "end_day": 296
+   "end_day": 296,
+   "cover": "reichsburg-cochem"
   },
   {
    "id": 13,
    "part": "Two: home the long way (2028)",
    "name": "Poland's coast and lakes",
    "start_day": 297,
-   "end_day": 314
+   "end_day": 314,
+   "cover": "trzesacz"
   },
   {
    "id": 14,
    "part": "Two: home the long way (2028)",
    "name": "Baltic states and Laulupidu",
    "start_day": 315,
-   "end_day": 358
+   "end_day": 358,
+   "cover": "trakai-island-castle"
   },
   {
    "id": 15,
    "part": "Two: home the long way (2028)",
    "name": "Lapland and Arctic Norway",
    "start_day": 359,
-   "end_day": 376
+   "end_day": 376,
+   "cover": "nordkapp"
   },
   {
    "id": 16,
    "part": "Two: home the long way (2028)",
    "name": "Fjords and home",
    "start_day": 377,
-   "end_day": 400
+   "end_day": 400,
+   "cover": "geiranger"
   }
  ],
  "legs": [

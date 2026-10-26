@@ -3050,6 +3050,35 @@
   "source": "Own photo",
   "stop": "sarajevo"
  },
+ "assets/site/crew-kalev.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
+ "assets/site/crew-off-the-road.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
+ "assets/site/crew-peter-dianne.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
+ "assets/site/hero-merzouga.jpg": {
+  "place": "Merzouga",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Gro%C3%9Fe_D%C3%BCnen,_kleiner_Ort%22._05.jpg",
+  "file": "\"Große Dünen, kleiner Ort\". 05.jpg"
+ },
+ "assets/site/van-hills.jpg": {
+  "artist": "Peter and Dianne Ferry",
+  "license": "All rights reserved",
+  "source": "Own photo"
+ },
  "assets/stockholm/van.jpg": {
   "artist": "Peter and Dianne Ferry",
   "license": "All rights reserved",

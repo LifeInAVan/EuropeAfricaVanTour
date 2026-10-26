@@ -20,15 +20,17 @@ for sid, c in sights.items():
     out["assets/_sights/%s.jpg" % sid] = dict(
         place=c.get("title"), stop=sid, artist=c.get("artist"), license=c.get("license"),
         source=c.get("source", "Wikimedia Commons"), url=c.get("url"), file=c.get("file"))
+web = os.path.join(A, "web", "credits.json")                 # slideshow photos, from make_web_photos.py
+if os.path.exists(web): out.update(json.load(open(web, encoding="utf-8")))
 for p in sorted(glob.glob(os.path.join(A, "*", "*.jpg"))):
     rel = os.path.relpath(p, ROOT).replace(os.sep, "/")
     folder = rel.split("/")[1]
     if folder in ("_hl", "_sights"):
         if rel not in out: missing.append(rel)
         continue
-    out[rel] = dict(OWN, stop=None if folder.startswith("_") else folder)
-web = os.path.join(A, "web", "credits.json")                 # slideshow photos, from make_web_photos.py
-if os.path.exists(web): out.update(json.load(open(web, encoding="utf-8")))
+    if folder == "site" and rel.endswith("hero-merzouga.jpg"):              # front page: a Commons photo
+        out[rel] = dict(out.get("assets/web/merzouga/1.jpg", {})); continue
+    out[rel] = dict(OWN, stop=None if folder.startswith("_") or folder == "site" else folder)
 out = {k: {f: v for f, v in e.items() if v is not None} for k, e in sorted(out.items())}
 json.dump(out, open(os.path.join(ROOT, "data", "credits.json"), "w", encoding="utf-8", newline="\n"),
           ensure_ascii=False, indent=1)

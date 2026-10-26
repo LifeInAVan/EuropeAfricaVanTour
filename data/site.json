@@ -1,0 +1,90 @@
+{
+ "note": "Words and photos for the front page. Places and dates are not written here: they come from trip.json.",
+ "hero": {
+  "image": "assets/site/hero-merzouga.jpg",
+  "kicker": "Peter, Dianne and Kalev · 2027–28",
+  "line": "From Pärnu to the Sahara and home through the Arctic: 400 days in our VW LT31 camper van.",
+  "caption": "Merzouga, Morocco",
+  "credit_of": "assets/web/merzouga/1.jpg"
+ },
+ "plan": {
+  "title": "A year on the road, out and back from Estonia",
+  "paragraphs": [
+   "This is a lifetime goal: a long, slow camper tour of Europe and North Africa, starting and finishing at our base in Estonia.",
+   "<strong>Part one</strong> heads south through the Baltics, Central Europe and the Balkans, across Italy to Spain for La Vuelta, then Portugal, and on to Morocco for the winter, with a loop to the Sahara and a climb of Toubkal.",
+   "<strong>Part two</strong> comes home the long way through Spain, France, the Alps and Germany, in time for the Song Festival (Laulupidu) in Tallinn, then north into the Arctic and back down the Norwegian fjords.",
+   "This site is our working plan. Change the start date and every date moves with it; festivals are checked again against the new dates."
+  ]
+ },
+ "chapters_intro": "Each chapter runs from one week to three months and ends where the trip changes: a ferry, a border, a season or a stop at home.",
+ "van": {
+  "title": "Home for 400 days",
+  "image": "assets/site/van-hills.jpg",
+  "alt": "The white VW LT31 Westfalia high-top with Martini stripes, parked on a wet road between green hills",
+  "specs": [
+   [
+    "Model",
+    "VW LT31 Westfalia Florida"
+   ],
+   [
+    "Length",
+    "5 m"
+   ],
+   [
+    "Height",
+    "Over 2.5 m (high top)"
+   ],
+   [
+    "Drive",
+    "Rear-wheel"
+   ]
+  ],
+  "text": ""
+ },
+ "crew": [
+  {
+   "name": "Peter and Dianne",
+   "text": "Setting out from our base in Estonia.",
+   "image": "assets/site/crew-peter-dianne.jpg",
+   "alt": "Peter and Dianne on a mountain path"
+  },
+  {
+   "name": "Off the road",
+   "text": "Hiking, cycling and finding the beach at the end of the day.",
+   "image": "assets/site/crew-off-the-road.jpg",
+   "alt": "Dianne and Peter on a beach"
+  },
+  {
+   "name": "Kalev",
+   "text": "Samoyed. Built for the Arctic leg, less so for the Sahara. Travels on his own EU pet passport.",
+   "image": "assets/site/crew-kalev.jpg",
+   "alt": "Kalev, a white Samoyed, in profile with a snow-streaked mountain behind"
+  }
+ ],
+ "views": [
+  {
+   "name": "Calendar",
+   "view": "calendar",
+   "text": "Month by month: where we will be each day."
+  },
+  {
+   "name": "Countries",
+   "view": "country",
+   "text": "All {countries} countries in the order we reach them."
+  },
+  {
+   "name": "Temperature",
+   "view": "temp",
+   "text": "Typical daytime temperature at each place on the day we are there."
+  },
+  {
+   "name": "Festivals",
+   "view": "",
+   "text": "{festivals} festivals near the route, and which ones our dates catch. Coming with the start-date control."
+  }
+ ],
+ "footer": [
+  "Photos of places are from Wikimedia Commons and Openverse and credited on each place. Our own photos are ours; please ask before reusing them.",
+  "Weather is typical for the date, from {years} records, not a forecast. Maps © OpenStreetMap contributors, tiles by OpenFreeMap."
+ ]
+}
