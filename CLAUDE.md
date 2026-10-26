@@ -11,7 +11,7 @@ Public, interactive website for Peter and Dianne Ferry's 400-day, ~38,700 km cam
 - Maps: MapLibre GL JS with free tile sources only, no API key (e.g. OpenFreeMap, based on OpenStreetMap).
 - Hosted on GitHub Pages at the free lifeinavan.github.io address. GitHub Actions builds and publishes the site on every push to `main`.
 - Data preparation (route export, photos, weather) is done by scripts run on Peter's computer; the results are committed as files. The live site has no server and no database.
-- Weather: Open-Meteo historical data for the last 15 years, downloaded once and cached; store typical values by day of year. Label as "typical weather", not a forecast.
+- Weather: NASA POWER daily data (MERRA-2) for 2011–2025, corrected for each point's height, downloaded once and cached; store typical values by day of year. Label as "typical weather", not a forecast. (Open-Meteo's free limit would have taken about two weeks; decided 26 Oct 2026.)
 - No paid services or API keys without asking first.
 - A failed build is fixed before any other work. The live site keeps the previous version until then.
 
