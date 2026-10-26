@@ -1,85 +1,218 @@
-import { Map as MapLibre, LngLatBounds, NavigationControl, setWorkerUrl, type MapLayerMouseEvent } from "maplibre-gl";
+import { Map as MapLibre, LngLatBounds, NavigationControl, setWorkerUrl, type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"; // MapLibre 6 keeps its worker in a separate file
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./style.css";
-import { loadAll, dateOf, fmtDay, fmtYear, type Point, type Trip, type Photos } from "./data";
+import { loadAll, loadExtras, dateOf, fmtDay, fmtYear, weatherIndex, type Point, type Trip, type Photos, type Weather } from "./data";
 import { Panel } from "./panel";
 
+const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
   stop: "Main stop", beach: "Beach", nature: "Nature", culture: "Culture", history: "History", peaceful: "Peaceful",
 };
 const TYPE_COLOUR: Record<string, string> = {
   stop: "#1f2a30", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
 };
+type View = "chapter" | "calendar" | "country" | "temp";
+const VIEWS: [View, string][] = [["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"]];
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
-let trip: Trip, photos: Photos, map: MapLibre, mapReady = false;
-let chapter = 1, hovered: string | null = null, selected: string | null = null, panel: Panel;
+const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+let trip: Trip, photos: Photos, map: MapLibre, mapReady = false, panel: Panel, weather: Weather | null = null;
+let hovered: string | null = null, selected: string | null = null;
 
-// ---------- page address: #c=3&p=point-id ----------
+// Everything shown is worked out from this state, which is also kept in the page address.
+const state = {
+  view: "chapter" as View,
+  chapter: 1,
+  month: "", // "2027-09"
+  day: null as number | null, // a trip day chosen in the calendar
+  country: "",
+  lo: 18, hi: 28, // temperature range, °C
+  types: new Set<string>(), // empty = all types
+};
+
+const kindOf = (p: Point) => (p.kind === "stop" ? "stop" : p.type ?? "culture");
+const dateOfPoint = (p: Point) => dateOf(trip.start_date, p.day);
+const monthKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+const monthName = (m: string) => `${MONTHS[Number(m.slice(5)) - 1]} ${m.slice(0, 4)}`;
+const hiOf = (p: Point) => weather?.points[p.id]?.hi[weatherIndex(dateOfPoint(p))];
+
+/** Trip months, countries in the order first reached. */
+let months: string[] = [], countries: string[] = [];
+
+// ---------- which places are shown ----------
+function basePoints(): Point[] {
+  const all = trip.points;
+  switch (state.view) {
+    case "chapter": return all.filter((p) => p.chapter === state.chapter);
+    case "calendar": return all.filter((p) => (state.day !== null ? p.day === state.day : monthKey(dateOfPoint(p)) === state.month));
+    case "country": return all.filter((p) => p.country === state.country);
+    case "temp": return weather ? all.filter((p) => { const t = hiOf(p); return t !== undefined && t >= state.lo && t <= state.hi; }) : [];
+  }
+}
+function shown(): Point[] {
+  const b = basePoints();
+  return state.types.size ? b.filter((p) => state.types.has(kindOf(p))) : b;
+}
+
+// ---------- page address: #v=calendar&m=2027-09&t=beach,nature&p=point-id ----------
 function readHash(): string | null {
   const h = new URLSearchParams(location.hash.slice(1));
   const p = trip.points.find((x) => x.id === h.get("p"));
+  const v = h.get("v") as View | null;
+  state.view = VIEWS.some(([k]) => k === v) ? v! : "chapter";
   const c = Number(h.get("c"));
-  chapter = p?.chapter ?? (trip.chapters.some((x) => x.id === c) ? c : 1);
+  state.chapter = trip.chapters.some((x) => x.id === c) ? c : p?.chapter ?? 1;
+  state.month = months.includes(h.get("m") ?? "") ? h.get("m")! : months[0];
+  const d = h.get("d");
+  state.day = d !== null && d !== "" && !Number.isNaN(Number(d)) ? Number(d) : null;
+  state.country = countries.includes(h.get("k") ?? "") ? h.get("k")! : countries[0];
+  const r = (h.get("r") ?? "").split("-").map(Number);
+  if (r.length === 2 && r.every(Number.isFinite)) [state.lo, state.hi] = r;
+  state.types = new Set((h.get("t") ?? "").split(",").filter((t) => (TYPES as readonly string[]).includes(t)));
+  if (p && state.view === "chapter") state.chapter = p.chapter; // a link to a place opens its chapter
   return p?.id ?? null;
 }
 function writeHash() {
-  history.replaceState(null, "", `#c=${chapter}` + (selected ? `&p=${selected}` : ""));
+  const h = new URLSearchParams();
+  if (state.view !== "chapter") h.set("v", state.view);
+  if (state.view === "chapter") h.set("c", String(state.chapter));
+  if (state.view === "calendar") { h.set("m", state.month); if (state.day !== null) h.set("d", String(state.day)); }
+  if (state.view === "country") h.set("k", state.country);
+  if (state.view === "temp") h.set("r", `${state.lo}-${state.hi}`);
+  if (state.types.size) h.set("t", [...state.types].join(","));
+  if (selected) h.set("p", selected);
+  history.replaceState(null, "", "#" + h.toString().replace(/%2C/g, ","));
 }
 
-// ---------- chapters ----------
-function renderChapters() {
-  let part = "";
-  $("#chapters").innerHTML = trip.chapters
-    .map((c) => {
+// ---------- header: views, the row for the current view, type filters ----------
+function renderHeader() {
+  $("#views").innerHTML = VIEWS.map(([k, label]) =>
+    `<button class="tab" data-v="${k}" aria-pressed="${state.view === k}">${label}</button>`).join("");
+  const sub = $("#subnav");
+  if (state.view === "chapter") {
+    let part = "";
+    sub.innerHTML = trip.chapters.map((c) => {
       const head = c.part !== part ? `<span class="part">${(part = c.part)}</span>` : "";
       const from = dateOf(trip.start_date, c.start_day), to = dateOf(trip.start_date, c.end_day);
-      return `${head}<button class="chip" data-c="${c.id}" aria-pressed="${c.id === chapter}" title="${fmtYear(from)} – ${fmtYear(to)}">
-        <b>${c.id}</b> ${c.name}</button>`;
-    })
-    .join("");
+      return `${head}<button class="chip" data-c="${c.id}" aria-pressed="${c.id === state.chapter}" title="${fmtYear(from)} – ${fmtYear(to)}">
+        <b>${c.id}</b> ${esc(c.name)}</button>`;
+    }).join("");
+  } else if (state.view === "calendar") {
+    sub.innerHTML = months.map((m) => `<button class="chip" data-m="${m}" aria-pressed="${m === state.month}">${monthName(m)}</button>`).join("");
+  } else if (state.view === "country") {
+    sub.innerHTML = countries.map((k) => {
+      const n = trip.points.filter((p) => p.country === k).length;
+      return `<button class="chip" data-k="${esc(k)}" aria-pressed="${k === state.country}">${esc(k)} <b>${n}</b></button>`;
+    }).join("");
+  } else {
+    sub.innerHTML = `<label class="range">Typical daytime high from
+      <input type="range" id="lo" min="-15" max="40" value="${state.lo}" aria-label="Lowest"> <output id="lo-v">${state.lo}°C</output>
+      to <input type="range" id="hi" min="-15" max="40" value="${state.hi}" aria-label="Highest"> <output id="hi-v">${state.hi}°C</output></label>
+      <span class="legend">${[-5, 5, 12, 18, 24, 30].map((t) => `<i style="background:${tempColour(t)}"></i>${t}°`).join("")}</span>`;
+  }
+  sub.querySelector<HTMLElement>('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("#filters").innerHTML = `<span class="lbl">Show</span>` + TYPES.map((t) =>
+    `<button class="filter" data-t="${t}" aria-pressed="${state.types.has(t)}" style="--c:${TYPE_COLOUR[t]}">${TYPE_LABEL[t]}</button>`).join("")
+    + (state.types.size ? `<button class="filter clear" data-t="">All types</button>` : "");
 }
 
-// ---------- point list ----------
-const pointsOf = (c: number) => trip.points.filter((p) => p.chapter === c);
-const kindOf = (p: Point) => (p.kind === "stop" ? "stop" : p.type ?? "culture");
+// ---------- the left-hand list ----------
+function rows(pts: Point[]) {
+  return `<ol class="points">${pts.map((p, i) => {
+    const thumb = photos[p.id]?.[0], k = kindOf(p), t = state.view === "temp" ? hiOf(p) : undefined;
+    const mark = t !== undefined ? `${t}°` : String(i + 1);
+    const colour = t !== undefined ? tempColour(t) : TYPE_COLOUR[k];
+    return `<li class="pt ${p.kind}${p.id === selected ? " selected" : ""}" data-p="${p.id}" tabindex="0">
+      <span class="num${t !== undefined ? " temp" : ""}" style="--c:${colour}">${mark}</span>
+      ${thumb ? `<img src="${thumb.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">` : `<span class="noimg"></span>`}
+      <span class="txt"><span class="name">${esc(p.name)}</span>
+        <span class="meta">${fmtDay(dateOfPoint(p))} · ${TYPE_LABEL[k]}${state.view !== "country" && p.country ? ` · ${esc(p.country)}` : ""}</span>
+        <span class="cap">${esc(p.caption)}</span></span>
+    </li>`;
+  }).join("")}</ol>` + (pts.length ? "" : `<p class="empty-list">No places match. ${state.types.size ? "Try showing all types." : ""}</p>`);
+}
+
+/** Runs of consecutive trip days, e.g. two separate visits to Spain. */
+function spans(days: number[]) {
+  const out: [number, number][] = [];
+  for (const d of [...new Set(days)].sort((a, b) => a - b)) {
+    const last = out[out.length - 1];
+    if (last && d - last[1] <= 3) last[1] = d; else out.push([d, d]);
+  }
+  return out.map(([a, b]) => a === b ? fmtYear(dateOf(trip.start_date, a)) : `${fmtYear(dateOf(trip.start_date, a))} – ${fmtYear(dateOf(trip.start_date, b))}`);
+}
 
 function renderList() {
-  const c = trip.chapters.find((x) => x.id === chapter)!;
-  const pts = pointsOf(chapter);
-  const from = dateOf(trip.start_date, c.start_day), to = dateOf(trip.start_date, c.end_day);
-  $("#list").innerHTML = `
-    <div class="chapter-head">
-      <p class="eyebrow">Chapter ${c.id} · ${c.part}</p>
-      <h2>${c.name}</h2>
-      <p class="muted">${fmtYear(from)} – ${fmtYear(to)} · ${c.end_day - c.start_day + 1} days · ${pts.length} places</p>
-    </div>
-    <ol class="points">${pts
-      .map((p, i) => {
-        const thumb = photos[p.id]?.[0];
-        const k = kindOf(p);
-        return `<li class="pt ${p.kind}" data-p="${p.id}" tabindex="0">
-          <span class="num" style="--c:${TYPE_COLOUR[k]}">${i + 1}</span>
-          ${thumb ? `<img src="${thumb.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">` : `<span class="noimg"></span>`}
-          <span class="txt"><span class="name">${p.name}</span>
-            <span class="meta">${fmtDay(dateOf(trip.start_date, p.day))} · ${TYPE_LABEL[k]}</span>
-            <span class="cap">${p.caption}</span></span>
-        </li>`;
-      })
-      .join("")}</ol>`;
+  const pts = shown();
+  let head = "";
+  if (state.view === "chapter") {
+    const c = trip.chapters.find((x) => x.id === state.chapter)!;
+    head = `<p class="eyebrow">Chapter ${c.id} · ${esc(c.part)}</p><h2>${esc(c.name)}</h2>
+      <p class="muted">${fmtYear(dateOf(trip.start_date, c.start_day))} – ${fmtYear(dateOf(trip.start_date, c.end_day))} · ${c.end_day - c.start_day + 1} days · ${count(pts)}</p>`;
+  } else if (state.view === "calendar") {
+    head = calendarGrid() + `<h2 class="day-h">${state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month)}</h2>
+      <p class="muted">${count(pts)}${state.day !== null ? ` · <button class="link" data-act="month">whole month</button>` : " · choose a day to see just that day"}</p>`;
+  } else if (state.view === "country") {
+    head = `<p class="eyebrow">Country</p><h2>${esc(state.country)}</h2>
+      <p class="muted">${count(pts)} · ${spans(trip.points.filter((p) => p.country === state.country).map((p) => p.day)).join("; ")}</p>`;
+  } else {
+    head = `<p class="eyebrow">Typical daytime high on the day we are there</p><h2>${state.lo}°C to ${state.hi}°C</h2>
+      <p class="muted">${weather ? `${count(pts)} in this range; the rest are grey on the map` : "Loading typical weather…"}</p>`;
+  }
+  $("#list").innerHTML = `<div class="chapter-head">${head}</div>` + rows(pts);
   $("#list").scrollTop = 0;
+}
+const count = (pts: Point[]) => `${pts.length} place${pts.length === 1 ? "" : "s"}`;
+
+function calendarGrid() {
+  const [y, m] = state.month.split("-").map(Number);
+  const first = new Date(y, m - 1, 1), days = new Date(y, m, 0).getDate();
+  const lead = (first.getDay() + 6) % 7; // Monday first
+  const byDay = new Map<number, Point[]>();
+  for (const p of trip.points) {
+    if (state.types.size && !state.types.has(kindOf(p))) continue;
+    const d = dateOfPoint(p);
+    if (monthKey(d) === state.month) byDay.set(d.getDate(), [...(byDay.get(d.getDate()) ?? []), p]);
+  }
+  const startMs = new Date(trip.start_date + "T12:00:00").getTime();
+  const cells: string[] = Array.from({ length: lead }, () => `<span class="cell out"></span>`);
+  for (let n = 1; n <= days; n++) {
+    const tripDay = Math.round((new Date(y, m - 1, n, 12).getTime() - startMs) / 864e5);
+    const pts = byDay.get(n) ?? [];
+    const inTrip = tripDay >= 0 && tripDay <= trip.days;
+    const thumbs = pts.slice(0, 2).map((p) => photos[p.id]?.[0]).filter(Boolean)
+      .map((s) => `<img src="${s!.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">`).join("");
+    cells.push(`<button class="cell${pts.length ? " has" : ""}${inTrip ? "" : " out"}${state.day === tripDay ? " on" : ""}" data-day="${tripDay}"
+      ${pts.length ? "" : "disabled"} aria-label="${n} ${monthName(state.month)}: ${pts.length} places">
+      <span class="dn">${n}</span>${thumbs ? `<span class="th">${thumbs}</span>` : ""}${pts.length > 2 ? `<span class="more-n">+${pts.length - 2}</span>` : ""}
+      ${pts.length ? `<span class="dots">${pts.map((p) => `<i style="background:${TYPE_COLOUR[kindOf(p)]}"></i>`).join("")}</span>` : ""}</button>`);
+  }
+  return `<div class="cal"><div class="wd">${["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => `<span>${d}</span>`).join("")}</div>
+    <div class="grid">${cells.join("")}</div></div>`;
 }
 
 // ---------- map ----------
-function pointFeatures(): GeoJSON.FeatureCollection {
+function tempColour(t: number) {
+  const stops: [number, number[]][] = [[-5, [44, 123, 182]], [8, [171, 217, 233]], [16, [255, 255, 191]], [24, [253, 174, 97]], [32, [215, 25, 28]]];
+  if (t <= stops[0][0]) return `rgb(${stops[0][1]})`;
+  for (let i = 1; i < stops.length; i++) {
+    const [t1, c1] = stops[i], [t0, c0] = stops[i - 1];
+    if (t <= t1) { const f = (t - t0) / (t1 - t0); return `rgb(${c0.map((v, j) => Math.round(v + f * (c1[j] - v))).join(",")})`; }
+  }
+  return `rgb(${stops[stops.length - 1][1]})`;
+}
+
+function shownFeatures(): GeoJSON.FeatureCollection {
   return {
     type: "FeatureCollection",
-    features: trip.points.map((p) => {
-      const n = pointsOf(p.chapter).indexOf(p) + 1;
+    features: shown().map((p, i) => {
+      const t = state.view === "temp" ? hiOf(p) : undefined;
       return {
         type: "Feature",
-        properties: { id: p.id, chapter: p.chapter, n, kind: kindOf(p), colour: TYPE_COLOUR[kindOf(p)] },
+        properties: { id: p.id, n: i + 1, label: t !== undefined ? `${t}` : `${i + 1}`, colour: t !== undefined ? tempColour(t) : TYPE_COLOUR[kindOf(p)],
+          text: t !== undefined && t < 26 && t > 4 ? "#1c1f21" : "#ffffff" },
         geometry: { type: "Point", coordinates: [p.lon, p.lat] },
       };
     }),
@@ -89,37 +222,34 @@ function pointFeatures(): GeoJSON.FeatureCollection {
 function initMap(route: GeoJSON.FeatureCollection) {
   setWorkerUrl(workerUrl);
   map = new MapLibre({
-    container: "map",
-    style: "https://tiles.openfreemap.org/styles/positron",
-    bounds: chapterBounds(),
-    fitBoundsOptions: { padding: 40 },
-    attributionControl: { compact: true },
+    container: "map", style: "https://tiles.openfreemap.org/styles/positron",
+    bounds: boundsOf(shown().length ? shown() : trip.points), fitBoundsOptions: { padding: 40 }, attributionControl: { compact: true },
   });
   map.addControl(new NavigationControl({ showCompass: false }), "top-right");
   map.on("load", () => {
+    const all: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: trip.points.map((p) => ({
+      type: "Feature", properties: { id: p.id }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } })) };
     map.addSource("route", { type: "geojson", data: route });
-    map.addSource("points", { type: "geojson", data: pointFeatures(), promoteId: "id" });
+    map.addSource("all", { type: "geojson", data: all });
+    map.addSource("points", { type: "geojson", data: shownFeatures(), promoteId: "id" });
     map.addLayer({ id: "route-all", type: "line", source: "route", paint: { "line-color": "#8a8f93", "line-width": 1.5, "line-opacity": 0.6 },
       filter: ["==", ["get", "mode"], "road"] });
     map.addLayer({ id: "route-sea", type: "line", source: "route", paint: { "line-color": "#4b7fa6", "line-width": 1.5, "line-dasharray": [2, 2] },
       filter: ["==", ["get", "mode"], "sea"] });
-    map.addLayer({ id: "route-chapter", type: "line", source: "route", paint: { "line-color": "#c2412d", "line-width": 3 },
-      filter: ["all", ["==", ["get", "mode"], "road"], ["==", ["get", "chapter"], chapter]] });
-    map.addLayer({ id: "points-other", type: "circle", source: "points",
-      paint: { "circle-radius": 2.5, "circle-color": "#8a8f93" }, filter: ["!=", ["get", "chapter"], chapter] });
-    map.addLayer({ id: "points", type: "circle", source: "points", filter: ["==", ["get", "chapter"], chapter],
-      layout: { "circle-sort-key": ["get", "n"] }, // same order as the numbers, so each label sits on its own circle
+    map.addLayer({ id: "route-chapter", type: "line", source: "route", paint: { "line-color": "#c2412d", "line-width": 3 }, filter: routeFilter() });
+    map.addLayer({ id: "points-all", type: "circle", source: "all", paint: { "circle-radius": 2.5, "circle-color": "#9aa0a4" } });
+    map.addLayer({ id: "points", type: "circle", source: "points",
+      layout: { "circle-sort-key": ["get", "n"] }, // same order as the labels, so each label sits on its own circle
       paint: {
-        "circle-radius": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13, 9],
+        "circle-radius": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 13,
+          ["step", ["zoom"], 5, 4.5, 9]], // small dots without labels when the whole trip is in view
         "circle-color": ["get", "colour"],
         "circle-stroke-color": ["case", ["boolean", ["feature-state", "hover"], false], "#ffd34d", ["boolean", ["feature-state", "selected"], false], "#c2412d", "#ffffff"],
         "circle-stroke-width": ["case", ["any", ["boolean", ["feature-state", "hover"], false], ["boolean", ["feature-state", "selected"], false]], 3, 1.5],
       } });
-    map.addLayer({ id: "points-num", type: "symbol", source: "points", filter: ["==", ["get", "chapter"], chapter],
-      layout: { "text-field": ["to-string", ["get", "n"]], "text-font": ["Noto Sans Bold"], "text-size": 10, "text-allow-overlap": true,
-        "symbol-sort-key": ["get", "n"] },
-      paint: { "text-color": "#ffffff" } });
-
+    map.addLayer({ id: "points-num", type: "symbol", source: "points",
+      layout: { "text-field": ["get", "label"], "text-font": ["Noto Sans Bold"], "text-size": 10, "text-allow-overlap": true, "symbol-sort-key": ["get", "n"] },
+      paint: { "text-color": ["get", "text"], "text-opacity": ["step", ["zoom"], 0, 4.5, 1] } });
     map.on("mousemove", "points", (e: MapLayerMouseEvent) => {
       const id = e.features?.[0]?.properties?.id as string | undefined;
       if (id) setHover(id, "map");
@@ -131,27 +261,28 @@ function initMap(route: GeoJSON.FeatureCollection) {
       if (id) openPoint(id);
     });
     mapReady = true;
-    showChapterOnMap(false); // the chapter may have changed while the map was loading
-    if (selected) markSelected(selected);
+    updateMap(false); // the view may have changed while the map was loading
   });
 }
 
-function chapterBounds(): LngLatBounds {
+const routeFilter = () => state.view === "chapter"
+  ? ["all", ["==", ["get", "mode"], "road"], ["==", ["get", "chapter"], state.chapter]] as never
+  : ["==", ["get", "chapter"], -1] as never;
+
+function boundsOf(pts: Point[]) {
   const b = new LngLatBounds();
-  for (const p of pointsOf(chapter)) b.extend([p.lon, p.lat]);
+  for (const p of pts) b.extend([p.lon, p.lat]);
   return b;
 }
 
-function showChapterOnMap(animate = true) {
+function updateMap(animate = true) {
   if (!mapReady) return; // the load handler calls this again
-  const f = ["==", ["get", "chapter"], chapter] as const;
-  map.setFilter("points", f as never);
-  map.setFilter("points-num", f as never);
-  map.setFilter("points-other", ["!=", ["get", "chapter"], chapter]);
-  map.setFilter("route-chapter", ["all", ["==", ["get", "mode"], "road"], ["==", ["get", "chapter"], chapter]]);
-  const sel = trip.points.find((x) => x.id === selected);
-  if (sel) map.jumpTo({ center: [sel.lon, sel.lat] });
-  else map.fitBounds(chapterBounds(), { padding: 40, duration: animate ? 800 : 0 });
+  (map.getSource("points") as GeoJSONSource).setData(shownFeatures());
+  map.setFilter("route-chapter", routeFilter());
+  if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
+  const sel = trip.points.find((x) => x.id === selected), pts = shown();
+  if (sel) map.easeTo({ center: [sel.lon, sel.lat], duration: animate ? 600 : 0 });
+  else if (pts.length) map.fitBounds(boundsOf(pts), { padding: 50, maxZoom: 11, duration: animate ? 800 : 0 });
 }
 
 // ---------- hover: list row <-> map marker ----------
@@ -170,18 +301,17 @@ function setHover(id: string | null, from: "map" | "list") {
 }
 
 // ---------- the place panel ----------
-function markSelected(id: string | null) {
-  if (!mapReady) return;
-  if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: false });
-  if (id) map.setFeatureState({ source: "points", id }, { selected: true });
-}
-
 function openPoint(id: string) {
   const p = trip.points.find((x) => x.id === id);
   if (!p) return;
-  if (p.chapter !== chapter) selectChapter(p.chapter);
-  markSelected(id);
+  if (!shown().includes(p)) { // e.g. a link to a place: show the chapter it belongs to
+    Object.assign(state, { view: "chapter", chapter: p.chapter });
+    render();
+    updateMap(false);
+  }
+  if (mapReady && selected && selected !== id) map.setFeatureState({ source: "points", id: selected }, { selected: false });
   selected = id;
+  if (mapReady) map.setFeatureState({ source: "points", id }, { selected: true });
   writeHash();
   document.querySelectorAll(".pt.selected").forEach((r) => r.classList.remove("selected"));
   document.querySelector(`.pt[data-p="${id}"]`)?.classList.add("selected");
@@ -190,7 +320,7 @@ function openPoint(id: string) {
 }
 
 function closePoint() {
-  markSelected(null);
+  if (mapReady && selected) map.setFeatureState({ source: "points", id: selected }, { selected: false });
   const id = selected;
   selected = null;
   panel.close();
@@ -199,46 +329,86 @@ function closePoint() {
   document.querySelector<HTMLElement>(`.pt[data-p="${id}"]`)?.focus({ preventScroll: false });
 }
 
-function selectChapter(c: number) {
-  if (c === chapter) return;
-  if (selected && trip.points.find((x) => x.id === selected)?.chapter !== c) closePoint();
+function backLabel() {
+  if (state.view === "chapter") return trip.chapters.find((c) => c.id === state.chapter)!.name;
+  if (state.view === "calendar") return state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month);
+  if (state.view === "country") return state.country;
+  return `${state.lo}–${state.hi}°C`;
+}
+
+// ---------- changing what is shown ----------
+function render() {
   setHover(null, "list");
-  chapter = c;
-  writeHash();
-  renderChapters();
+  renderHeader();
   renderList();
-  showChapterOnMap();
-  document.querySelector(`.chip[data-c="${c}"]`)?.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+  writeHash();
+}
+function change(update: Partial<typeof state>) {
+  if (selected) closePoint();
+  Object.assign(state, update);
+  render();
+  updateMap();
+}
+async function needWeather() {
+  if (weather) return;
+  weather = (await loadExtras()).weather;
+  if (state.view === "temp") { renderList(); updateMap(); }
 }
 
 // ---------- start ----------
 async function start() {
   const data = await loadAll();
   ({ trip, photos } = data);
+  months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
+  countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
   $("#subtitle").textContent = `${fmtYear(dateOf(trip.start_date, 0))} – ${fmtYear(dateOf(trip.start_date, trip.days))} · ${trip.points.length} places in ${trip.chapters.length} chapters`;
   const first = readHash();
   panel = new Panel({
-    trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)], onClose: closePoint, onMove: openPoint,
+    trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)],
+    siblings: () => shown(), backLabel, onClose: closePoint, onMove: openPoint,
   });
-  renderChapters();
-  document.querySelector(`.chip[data-c="${chapter}"]`)?.scrollIntoView({ block: "nearest", inline: "center" });
-  renderList();
+  render();
   initMap(data.route);
+  if (state.view === "temp") void needWeather();
   if (first) openPoint(first);
 
-  $("#chapters").addEventListener("click", (e) => {
+  $("#views").addEventListener("click", (e) => {
+    const v = (e.target as HTMLElement).closest<HTMLElement>("[data-v]")?.dataset.v as View | undefined;
+    if (v && v !== state.view) { change({ view: v }); if (v === "temp") void needWeather(); }
+  });
+  $("#subnav").addEventListener("click", (e) => {
     const b = (e.target as HTMLElement).closest<HTMLElement>(".chip");
-    if (b) selectChapter(Number(b.dataset.c));
+    if (b?.dataset.c) change({ chapter: Number(b.dataset.c) });
+    if (b?.dataset.m) change({ month: b.dataset.m, day: null });
+    if (b?.dataset.k) change({ country: b.dataset.k });
+  });
+  $("#subnav").addEventListener("input", (e) => { // temperature sliders: update the labels while dragging
+    const t = e.target as HTMLInputElement;
+    if (t.id === "lo" || t.id === "hi") $(`#${t.id}-v`).textContent = `${t.value}°C`;
+  });
+  $("#subnav").addEventListener("change", (e) => {
+    const t = e.target as HTMLInputElement;
+    if (t.id !== "lo" && t.id !== "hi") return;
+    const lo = Number($<HTMLInputElement>("#lo").value), hi = Number($<HTMLInputElement>("#hi").value);
+    change({ lo: Math.min(lo, hi), hi: Math.max(lo, hi) });
+  });
+  $("#filters").addEventListener("click", (e) => {
+    const t = (e.target as HTMLElement).closest<HTMLElement>(".filter")?.dataset.t;
+    if (t === undefined) return;
+    const types = new Set(state.types);
+    if (t === "") types.clear(); else if (types.has(t)) types.delete(t); else types.add(t);
+    change({ types });
   });
   const list = $("#list");
-  list.addEventListener("mouseover", (e) => {
-    const row = (e.target as HTMLElement).closest<HTMLElement>(".pt");
-    setHover(row?.dataset.p ?? null, "list");
-  });
+  list.addEventListener("mouseover", (e) => setHover((e.target as HTMLElement).closest<HTMLElement>(".pt")?.dataset.p ?? null, "list"));
   list.addEventListener("mouseleave", () => setHover(null, "list"));
   list.addEventListener("focusin", (e) => setHover((e.target as HTMLElement).closest<HTMLElement>(".pt")?.dataset.p ?? null, "list"));
   list.addEventListener("click", (e) => {
-    const row = (e.target as HTMLElement).closest<HTMLElement>(".pt");
+    const el = e.target as HTMLElement;
+    const cell = el.closest<HTMLElement>(".cell.has");
+    if (cell) { const d = Number(cell.dataset.day); change({ day: state.day === d ? null : d }); return; }
+    if (el.closest("[data-act=month]")) { change({ day: null }); return; }
+    const row = el.closest<HTMLElement>(".pt");
     if (row?.dataset.p) openPoint(row.dataset.p);
   });
   list.addEventListener("keydown", (e) => {
@@ -246,14 +416,14 @@ async function start() {
     if (row?.dataset.p && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openPoint(row.dataset.p); }
   });
   window.addEventListener("hashchange", () => {
-    const c = chapter, p = readHash(), n = chapter;
-    chapter = c;
-    selectChapter(n);
+    const p = readHash();
+    if (selected && p !== selected) closePoint();
+    render(); updateMap();
+    if (state.view === "temp") void needWeather();
     if (p && p !== selected) openPoint(p);
-    else if (!p && selected) closePoint();
   });
 }
 
 start().catch((e) => {
-  $("#list").innerHTML = `<p class="error">Could not load the trip data (${String(e)}).</p>`;
+  $("#list").innerHTML = `<p class="error">Could not load the trip data (${esc(String(e))}).</p>`;
 });

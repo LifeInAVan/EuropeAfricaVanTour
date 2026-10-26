@@ -180,7 +180,8 @@
    "leg": "baltics",
    "lat": 58.386,
    "lon": 24.497,
-   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497"
+   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497",
+   "country": "Estonia"
   },
   {
    "id": "warsaw-old-town",
@@ -195,7 +196,8 @@
    "lat": 52.2497,
    "lon": 21.0122,
    "wikipedia": "Old Town, Warsaw",
-   "link": "https://en.wikipedia.org/wiki/Old_Town%2C_Warsaw"
+   "link": "https://en.wikipedia.org/wiki/Old_Town%2C_Warsaw",
+   "country": "Poland"
   },
   {
    "id": "lazienki-park",
@@ -209,7 +211,8 @@
    "leg": "baltics",
    "lat": 52.21262,
    "lon": 21.03395,
-   "link": "https://www.openstreetmap.org/?mlat=52.21262&mlon=21.03395#map=14/52.21262/21.03395"
+   "link": "https://www.openstreetmap.org/?mlat=52.21262&mlon=21.03395#map=14/52.21262/21.03395",
+   "country": "Poland"
   },
   {
    "id": "jasna-gora-monastery",
@@ -224,7 +227,8 @@
    "lat": 50.8125,
    "lon": 19.09722,
    "wikipedia": "Jasna Góra Monastery",
-   "link": "https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery"
+   "link": "https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery",
+   "country": "Poland"
   },
   {
    "id": "ojcow-national-park",
@@ -238,7 +242,8 @@
    "leg": "baltics",
    "lat": 50.21071,
    "lon": 19.80857,
-   "link": "https://www.openstreetmap.org/?mlat=50.21071&mlon=19.80857#map=14/50.21071/19.80857"
+   "link": "https://www.openstreetmap.org/?mlat=50.21071&mlon=19.80857#map=14/50.21071/19.80857",
+   "country": "Poland"
   },
   {
    "id": "krakow",
@@ -250,7 +255,8 @@
    "leg": "baltics",
    "lat": 50.065,
    "lon": 19.945,
-   "link": "https://www.openstreetmap.org/?mlat=50.065&mlon=19.945#map=14/50.065/19.945"
+   "link": "https://www.openstreetmap.org/?mlat=50.065&mlon=19.945#map=14/50.065/19.945",
+   "country": "Poland"
   },
   {
    "id": "wieliczka-salt-mine",
@@ -265,7 +271,8 @@
    "lat": 49.97917,
    "lon": 20.06389,
    "wikipedia": "Wieliczka Salt Mine",
-   "link": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+   "link": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
+   "country": "Poland"
   },
   {
    "id": "niedzica-castle",
@@ -279,7 +286,8 @@
    "leg": "baltics",
    "lat": 49.4234,
    "lon": 20.3196,
-   "link": "https://www.openstreetmap.org/?mlat=49.4234&mlon=20.3196#map=14/49.4234/20.3196"
+   "link": "https://www.openstreetmap.org/?mlat=49.4234&mlon=20.3196#map=14/49.4234/20.3196",
+   "country": "Poland"
   },
   {
    "id": "pieniny-national-park",
@@ -294,7 +302,8 @@
    "lat": 49.41667,
    "lon": 20.36667,
    "wikipedia": "Pieniny National Park (Poland)",
-   "link": "https://en.wikipedia.org/wiki/Pieniny_National_Park_%28Poland%29"
+   "link": "https://en.wikipedia.org/wiki/Pieniny_National_Park_%28Poland%29",
+   "country": "Poland"
   },
   {
    "id": "chocholow",
@@ -308,7 +317,8 @@
    "leg": "baltics",
    "lat": 49.3718,
    "lon": 19.8163,
-   "link": "https://www.openstreetmap.org/?mlat=49.3718&mlon=19.8163#map=14/49.3718/19.8163"
+   "link": "https://www.openstreetmap.org/?mlat=49.3718&mlon=19.8163#map=14/49.3718/19.8163",
+   "country": "Poland"
   },
   {
    "id": "tatras",
@@ -320,7 +330,8 @@
    "leg": "baltics",
    "lat": 49.299,
    "lon": 19.95,
-   "link": "https://www.openstreetmap.org/?mlat=49.299&mlon=19.95#map=14/49.299/19.95"
+   "link": "https://www.openstreetmap.org/?mlat=49.299&mlon=19.95#map=14/49.299/19.95",
+   "country": "Poland"
   },
   {
    "id": "vychodna",
@@ -335,7 +346,8 @@
    "lat": 49.06123,
    "lon": 19.89461,
    "wikipedia": "Východná",
-   "link": "https://en.wikipedia.org/wiki/V%C3%BDchodn%C3%A1"
+   "link": "https://en.wikipedia.org/wiki/V%C3%BDchodn%C3%A1",
+   "country": "Slovakia"
   },
   {
    "id": "vlkolinec",
@@ -350,7 +362,8 @@
    "lat": 49.04167,
    "lon": 19.275,
    "wikipedia": "Vlkolínec",
-   "link": "https://en.wikipedia.org/wiki/Vlkol%C3%ADnec"
+   "link": "https://en.wikipedia.org/wiki/Vlkol%C3%ADnec",
+   "country": "Slovakia"
   },
   {
    "id": "orava-castle",
@@ -365,7 +378,8 @@
    "lat": 49.26167,
    "lon": 19.35806,
    "wikipedia": "Orava Castle",
-   "link": "https://en.wikipedia.org/wiki/Orava_Castle"
+   "link": "https://en.wikipedia.org/wiki/Orava_Castle",
+   "country": "Slovakia"
   },
   {
    "id": "trencin",
@@ -377,7 +391,8 @@
    "leg": "central",
    "lat": 48.894,
    "lon": 18.044,
-   "link": "https://www.openstreetmap.org/?mlat=48.894&mlon=18.044#map=14/48.894/18.044"
+   "link": "https://www.openstreetmap.org/?mlat=48.894&mlon=18.044#map=14/48.894/18.044",
+   "country": "Slovakia"
   },
   {
    "id": "banska-stiavnica",
@@ -392,7 +407,8 @@
    "lat": 48.45806,
    "lon": 18.89639,
    "wikipedia": "Banská Štiavnica",
-   "link": "https://en.wikipedia.org/wiki/Bansk%C3%A1_%C5%A0tiavnica"
+   "link": "https://en.wikipedia.org/wiki/Bansk%C3%A1_%C5%A0tiavnica",
+   "country": "Slovakia"
   },
   {
    "id": "esztergom-basilica",
@@ -407,7 +423,8 @@
    "lat": 47.79889,
    "lon": 18.73639,
    "wikipedia": "Esztergom Basilica",
-   "link": "https://en.wikipedia.org/wiki/Esztergom_Basilica"
+   "link": "https://en.wikipedia.org/wiki/Esztergom_Basilica",
+   "country": "Hungary"
   },
   {
    "id": "pannonhalma-archabbey",
@@ -422,7 +439,8 @@
    "lat": 47.55278,
    "lon": 17.76111,
    "wikipedia": "Pannonhalma Archabbey",
-   "link": "https://en.wikipedia.org/wiki/Pannonhalma_Archabbey"
+   "link": "https://en.wikipedia.org/wiki/Pannonhalma_Archabbey",
+   "country": "Hungary"
   },
   {
    "id": "balaton",
@@ -434,7 +452,8 @@
    "leg": "central",
    "lat": 46.958,
    "lon": 17.889,
-   "link": "https://www.openstreetmap.org/?mlat=46.958&mlon=17.889#map=14/46.958/17.889"
+   "link": "https://www.openstreetmap.org/?mlat=46.958&mlon=17.889#map=14/46.958/17.889",
+   "country": "Hungary"
   },
   {
    "id": "tihany-abbey",
@@ -449,7 +468,8 @@
    "lat": 46.91389,
    "lon": 17.88944,
    "wikipedia": "Tihany Abbey",
-   "link": "https://en.wikipedia.org/wiki/Tihany_Abbey"
+   "link": "https://en.wikipedia.org/wiki/Tihany_Abbey",
+   "country": "Hungary"
   },
   {
    "id": "lake-heviz",
@@ -464,7 +484,8 @@
    "lat": 46.78722,
    "lon": 17.19306,
    "wikipedia": "Lake Hévíz",
-   "link": "https://en.wikipedia.org/wiki/Lake_H%C3%A9v%C3%ADz"
+   "link": "https://en.wikipedia.org/wiki/Lake_H%C3%A9v%C3%ADz",
+   "country": "Hungary"
   },
   {
    "id": "lake-bled",
@@ -479,7 +500,8 @@
    "lat": 46.36444,
    "lon": 14.09472,
    "wikipedia": "Lake Bled",
-   "link": "https://en.wikipedia.org/wiki/Lake_Bled"
+   "link": "https://en.wikipedia.org/wiki/Lake_Bled",
+   "country": "Slovenia"
   },
   {
    "id": "lake-bohinj",
@@ -494,7 +516,8 @@
    "lat": 46.28231,
    "lon": 13.85822,
    "wikipedia": "Lake Bohinj",
-   "link": "https://en.wikipedia.org/wiki/Lake_Bohinj"
+   "link": "https://en.wikipedia.org/wiki/Lake_Bohinj",
+   "country": "Slovenia"
   },
   {
    "id": "soca",
@@ -506,7 +529,8 @@
    "leg": "central",
    "lat": 46.248,
    "lon": 13.578,
-   "link": "https://www.openstreetmap.org/?mlat=46.248&mlon=13.578#map=14/46.248/13.578"
+   "link": "https://www.openstreetmap.org/?mlat=46.248&mlon=13.578#map=14/46.248/13.578",
+   "country": "Slovenia"
   },
   {
    "id": "skocjan-caves",
@@ -521,7 +545,8 @@
    "lat": 45.66667,
    "lon": 14,
    "wikipedia": "Škocjan Caves",
-   "link": "https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves"
+   "link": "https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves",
+   "country": "Slovenia"
   },
   {
    "id": "piran",
@@ -536,7 +561,8 @@
    "lat": 45.52833,
    "lon": 13.56833,
    "wikipedia": "Piran",
-   "link": "https://en.wikipedia.org/wiki/Piran"
+   "link": "https://en.wikipedia.org/wiki/Piran",
+   "country": "Slovenia"
   },
   {
    "id": "motovun",
@@ -551,7 +577,8 @@
    "lat": 45.33333,
    "lon": 13.83333,
    "wikipedia": "Motovun",
-   "link": "https://en.wikipedia.org/wiki/Motovun"
+   "link": "https://en.wikipedia.org/wiki/Motovun",
+   "country": "Croatia"
   },
   {
    "id": "rovinj",
@@ -566,7 +593,8 @@
    "lat": 45.08333,
    "lon": 13.63333,
    "wikipedia": "Rovinj",
-   "link": "https://en.wikipedia.org/wiki/Rovinj"
+   "link": "https://en.wikipedia.org/wiki/Rovinj",
+   "country": "Croatia"
   },
   {
    "id": "opatija",
@@ -581,7 +609,8 @@
    "lat": 45.33333,
    "lon": 14.3,
    "wikipedia": "Opatija",
-   "link": "https://en.wikipedia.org/wiki/Opatija"
+   "link": "https://en.wikipedia.org/wiki/Opatija",
+   "country": "Croatia"
   },
   {
    "id": "plitvice",
@@ -593,7 +622,8 @@
    "leg": "dinaric",
    "lat": 44.865,
    "lon": 15.582,
-   "link": "https://www.openstreetmap.org/?mlat=44.865&mlon=15.582#map=14/44.865/15.582"
+   "link": "https://www.openstreetmap.org/?mlat=44.865&mlon=15.582#map=14/44.865/15.582",
+   "country": "Croatia"
   },
   {
    "id": "krka-national-park",
@@ -608,7 +638,8 @@
    "lat": 43.80194,
    "lon": 15.97278,
    "wikipedia": "Krka National Park",
-   "link": "https://en.wikipedia.org/wiki/Krka_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Krka_National_Park",
+   "country": "Croatia"
   },
   {
    "id": "kravica-waterfall",
@@ -622,7 +653,8 @@
    "leg": "dinaric",
    "lat": 43.15412,
    "lon": 17.60367,
-   "link": "https://www.openstreetmap.org/?mlat=43.15412&mlon=17.60367#map=14/43.15412/17.60367"
+   "link": "https://www.openstreetmap.org/?mlat=43.15412&mlon=17.60367#map=14/43.15412/17.60367",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "stari-most",
@@ -637,7 +669,8 @@
    "lat": 43.33726,
    "lon": 17.81504,
    "wikipedia": "Stari Most",
-   "link": "https://en.wikipedia.org/wiki/Stari_Most"
+   "link": "https://en.wikipedia.org/wiki/Stari_Most",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "sarajevo",
@@ -649,7 +682,8 @@
    "leg": "dinaric",
    "lat": 43.856,
    "lon": 18.413,
-   "link": "https://www.openstreetmap.org/?mlat=43.856&mlon=18.413#map=14/43.856/18.413"
+   "link": "https://www.openstreetmap.org/?mlat=43.856&mlon=18.413#map=14/43.856/18.413",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "lukomir",
@@ -664,7 +698,8 @@
    "lat": 43.63333,
    "lon": 18.18333,
    "wikipedia": "Lukomir",
-   "link": "https://en.wikipedia.org/wiki/Lukomir"
+   "link": "https://en.wikipedia.org/wiki/Lukomir",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "mehmed-pasa-sokolovic-bridge",
@@ -679,7 +714,8 @@
    "lat": 43.78263,
    "lon": 19.28754,
    "wikipedia": "Mehmed Paša Sokolović Bridge",
-   "link": "https://en.wikipedia.org/wiki/Mehmed_Pa%C5%A1a_Sokolovi%C4%87_Bridge"
+   "link": "https://en.wikipedia.org/wiki/Mehmed_Pa%C5%A1a_Sokolovi%C4%87_Bridge",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "perucica",
@@ -694,7 +730,8 @@
    "lat": 43.31402,
    "lon": 18.69678,
    "wikipedia": "Perućica",
-   "link": "https://en.wikipedia.org/wiki/Peru%C4%87ica"
+   "link": "https://en.wikipedia.org/wiki/Peru%C4%87ica",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "sutjeska",
@@ -706,7 +743,8 @@
    "leg": "dinaric",
    "lat": 43.343,
    "lon": 18.688,
-   "link": "https://www.openstreetmap.org/?mlat=43.343&mlon=18.688#map=14/43.343/18.688"
+   "link": "https://www.openstreetmap.org/?mlat=43.343&mlon=18.688#map=14/43.343/18.688",
+   "country": "Bosnia and Herzegovina"
   },
   {
    "id": "piva-lake",
@@ -721,7 +759,8 @@
    "lat": 43.164,
    "lon": 18.862,
    "wikipedia": "Lake Piva",
-   "link": "https://en.wikipedia.org/wiki/Lake_Piva"
+   "link": "https://en.wikipedia.org/wiki/Lake_Piva",
+   "country": "Montenegro"
   },
   {
    "id": "durdevica-tara-bridge",
@@ -736,7 +775,8 @@
    "lat": 43.14971,
    "lon": 19.29447,
    "wikipedia": "Đurđevića Tara Bridge",
-   "link": "https://en.wikipedia.org/wiki/%C4%90ur%C4%91evi%C4%87a_Tara_Bridge"
+   "link": "https://en.wikipedia.org/wiki/%C4%90ur%C4%91evi%C4%87a_Tara_Bridge",
+   "country": "Montenegro"
   },
   {
    "id": "durmitor",
@@ -748,7 +788,8 @@
    "leg": "aegean",
    "lat": 43.154,
    "lon": 19.123,
-   "link": "https://www.openstreetmap.org/?mlat=43.154&mlon=19.123#map=14/43.154/19.123"
+   "link": "https://www.openstreetmap.org/?mlat=43.154&mlon=19.123#map=14/43.154/19.123",
+   "country": "Montenegro"
   },
   {
    "id": "dubrovnik",
@@ -763,7 +804,8 @@
    "lat": 42.64173,
    "lon": 18.10684,
    "wikipedia": "Dubrovnik",
-   "link": "https://en.wikipedia.org/wiki/Dubrovnik"
+   "link": "https://en.wikipedia.org/wiki/Dubrovnik",
+   "country": "Croatia"
   },
   {
    "id": "perast",
@@ -778,7 +820,8 @@
    "lat": 42.48694,
    "lon": 18.69917,
    "wikipedia": "Perast",
-   "link": "https://en.wikipedia.org/wiki/Perast"
+   "link": "https://en.wikipedia.org/wiki/Perast",
+   "country": "Montenegro"
   },
   {
    "id": "kotor",
@@ -790,7 +833,8 @@
    "leg": "aegean",
    "lat": 42.425,
    "lon": 18.771,
-   "link": "https://www.openstreetmap.org/?mlat=42.425&mlon=18.771#map=14/42.425/18.771"
+   "link": "https://www.openstreetmap.org/?mlat=42.425&mlon=18.771#map=14/42.425/18.771",
+   "country": "Montenegro"
   },
   {
    "id": "sveti-stefan",
@@ -805,7 +849,8 @@
    "lat": 42.25583,
    "lon": 18.89111,
    "wikipedia": "Sveti Stefan",
-   "link": "https://en.wikipedia.org/wiki/Sveti_Stefan"
+   "link": "https://en.wikipedia.org/wiki/Sveti_Stefan",
+   "country": "Montenegro"
   },
   {
    "id": "stari-bar",
@@ -820,7 +865,8 @@
    "lat": 42.09394,
    "lon": 19.13384,
    "wikipedia": "Stari Bar",
-   "link": "https://en.wikipedia.org/wiki/Stari_Bar"
+   "link": "https://en.wikipedia.org/wiki/Stari_Bar",
+   "country": "Montenegro"
   },
   {
    "id": "ostrog-monastery",
@@ -835,7 +881,8 @@
    "lat": 42.675,
    "lon": 19.02917,
    "wikipedia": "Ostrog Monastery",
-   "link": "https://en.wikipedia.org/wiki/Ostrog_Monastery"
+   "link": "https://en.wikipedia.org/wiki/Ostrog_Monastery",
+   "country": "Montenegro"
   },
   {
    "id": "shkodra",
@@ -847,7 +894,8 @@
    "leg": "aegean",
    "lat": 42.05,
    "lon": 19.5,
-   "link": "https://www.openstreetmap.org/?mlat=42.05&mlon=19.5#map=14/42.05/19.5"
+   "link": "https://www.openstreetmap.org/?mlat=42.05&mlon=19.5#map=14/42.05/19.5",
+   "country": "Albania"
   },
   {
    "id": "theth",
@@ -862,7 +910,8 @@
    "lat": 42.4,
    "lon": 19.76667,
    "wikipedia": "Theth",
-   "link": "https://en.wikipedia.org/wiki/Theth"
+   "link": "https://en.wikipedia.org/wiki/Theth",
+   "country": "Albania"
   },
   {
    "id": "kruje-castle",
@@ -877,7 +926,8 @@
    "lat": 41.50694,
    "lon": 19.79389,
    "wikipedia": "Fortress of Krujë",
-   "link": "https://en.wikipedia.org/wiki/Fortress_of_Kruj%C3%AB"
+   "link": "https://en.wikipedia.org/wiki/Fortress_of_Kruj%C3%AB",
+   "country": "Albania"
   },
   {
    "id": "berat",
@@ -892,7 +942,8 @@
    "lat": 40.70222,
    "lon": 19.95833,
    "wikipedia": "Berat",
-   "link": "https://en.wikipedia.org/wiki/Berat"
+   "link": "https://en.wikipedia.org/wiki/Berat",
+   "country": "Albania"
   },
   {
    "id": "riviera",
@@ -904,7 +955,8 @@
    "leg": "aegean",
    "lat": 40.101,
    "lon": 19.744,
-   "link": "https://www.openstreetmap.org/?mlat=40.101&mlon=19.744#map=14/40.101/19.744"
+   "link": "https://www.openstreetmap.org/?mlat=40.101&mlon=19.744#map=14/40.101/19.744",
+   "country": "Albania"
   },
   {
    "id": "ksamil",
@@ -919,7 +971,8 @@
    "lat": 39.76667,
    "lon": 20,
    "wikipedia": "Ksamil",
-   "link": "https://en.wikipedia.org/wiki/Ksamil"
+   "link": "https://en.wikipedia.org/wiki/Ksamil",
+   "country": "Albania"
   },
   {
    "id": "butrint",
@@ -934,7 +987,8 @@
    "lat": 39.74556,
    "lon": 20.02056,
    "wikipedia": "Butrint",
-   "link": "https://en.wikipedia.org/wiki/Butrint"
+   "link": "https://en.wikipedia.org/wiki/Butrint",
+   "country": "Albania"
   },
   {
    "id": "gjirokaster",
@@ -949,7 +1003,8 @@
    "lat": 40.06667,
    "lon": 20.13333,
    "wikipedia": "Gjirokastër",
-   "link": "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr"
+   "link": "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr",
+   "country": "Albania"
   },
   {
    "id": "zagori",
@@ -961,7 +1016,8 @@
    "leg": "aegean",
    "lat": 39.877,
    "lon": 20.744,
-   "link": "https://www.openstreetmap.org/?mlat=39.877&mlon=20.744#map=14/39.877/20.744"
+   "link": "https://www.openstreetmap.org/?mlat=39.877&mlon=20.744#map=14/39.877/20.744",
+   "country": "Greece"
   },
   {
    "id": "papingo",
@@ -976,7 +1032,8 @@
    "lat": 39.96667,
    "lon": 20.73333,
    "wikipedia": "Papingo",
-   "link": "https://en.wikipedia.org/wiki/Papingo"
+   "link": "https://en.wikipedia.org/wiki/Papingo",
+   "country": "Greece"
   },
   {
    "id": "ioannina",
@@ -991,7 +1048,8 @@
    "lat": 39.66361,
    "lon": 20.85222,
    "wikipedia": "Ioannina",
-   "link": "https://en.wikipedia.org/wiki/Ioannina"
+   "link": "https://en.wikipedia.org/wiki/Ioannina",
+   "country": "Greece"
   },
   {
    "id": "metsovo",
@@ -1006,7 +1064,8 @@
    "lat": 39.77028,
    "lon": 21.18389,
    "wikipedia": "Metsovo",
-   "link": "https://en.wikipedia.org/wiki/Metsovo"
+   "link": "https://en.wikipedia.org/wiki/Metsovo",
+   "country": "Greece"
   },
   {
    "id": "meteora",
@@ -1018,7 +1077,8 @@
    "leg": "aegean",
    "lat": 39.708,
    "lon": 21.63,
-   "link": "https://www.openstreetmap.org/?mlat=39.708&mlon=21.63#map=14/39.708/21.63"
+   "link": "https://www.openstreetmap.org/?mlat=39.708&mlon=21.63#map=14/39.708/21.63",
+   "country": "Greece"
   },
   {
    "id": "dodona",
@@ -1033,7 +1093,8 @@
    "lat": 39.54639,
    "lon": 20.78778,
    "wikipedia": "Dodona",
-   "link": "https://en.wikipedia.org/wiki/Dodona"
+   "link": "https://en.wikipedia.org/wiki/Dodona",
+   "country": "Greece"
   },
   {
    "id": "parga",
@@ -1048,7 +1109,8 @@
    "lat": 39.28333,
    "lon": 20.4,
    "wikipedia": "Parga",
-   "link": "https://en.wikipedia.org/wiki/Parga"
+   "link": "https://en.wikipedia.org/wiki/Parga",
+   "country": "Greece"
   },
   {
    "id": "syvota",
@@ -1063,7 +1125,8 @@
    "lat": 39.4,
    "lon": 20.25,
    "wikipedia": "Syvota",
-   "link": "https://en.wikipedia.org/wiki/Syvota"
+   "link": "https://en.wikipedia.org/wiki/Syvota",
+   "country": "Greece"
   },
   {
    "id": "igoumenitsa",
@@ -1075,7 +1138,8 @@
    "leg": "italy",
    "lat": 39.503,
    "lon": 20.266,
-   "link": "https://www.openstreetmap.org/?mlat=39.503&mlon=20.266#map=14/39.503/20.266"
+   "link": "https://www.openstreetmap.org/?mlat=39.503&mlon=20.266#map=14/39.503/20.266",
+   "country": "Greece"
   },
   {
    "id": "alberobello",
@@ -1090,7 +1154,8 @@
    "lat": 40.78412,
    "lon": 17.2377,
    "wikipedia": "Alberobello",
-   "link": "https://en.wikipedia.org/wiki/Alberobello"
+   "link": "https://en.wikipedia.org/wiki/Alberobello",
+   "country": "Italy"
   },
   {
    "id": "matera",
@@ -1102,7 +1167,8 @@
    "leg": "italy",
    "lat": 40.666,
    "lon": 16.61,
-   "link": "https://www.openstreetmap.org/?mlat=40.666&mlon=16.61#map=14/40.666/16.61"
+   "link": "https://www.openstreetmap.org/?mlat=40.666&mlon=16.61#map=14/40.666/16.61",
+   "country": "Italy"
   },
   {
    "id": "amalfi-coast",
@@ -1117,7 +1183,8 @@
    "lat": 40.65,
    "lon": 14.6,
    "wikipedia": "Amalfi Coast",
-   "link": "https://en.wikipedia.org/wiki/Amalfi_Coast"
+   "link": "https://en.wikipedia.org/wiki/Amalfi_Coast",
+   "country": "Italy"
   },
   {
    "id": "pompeii",
@@ -1132,7 +1199,8 @@
    "lat": 40.75,
    "lon": 14.48611,
    "wikipedia": "Pompeii",
-   "link": "https://en.wikipedia.org/wiki/Pompeii"
+   "link": "https://en.wikipedia.org/wiki/Pompeii",
+   "country": "Italy"
   },
   {
    "id": "colosseum",
@@ -1147,7 +1215,8 @@
    "lat": 41.89094,
    "lon": 12.4919,
    "wikipedia": "Colosseum",
-   "link": "https://en.wikipedia.org/wiki/Colosseum"
+   "link": "https://en.wikipedia.org/wiki/Colosseum",
+   "country": "Italy"
   },
   {
    "id": "pantheon-rome",
@@ -1162,7 +1231,8 @@
    "lat": 41.89862,
    "lon": 12.47683,
    "wikipedia": "Pantheon, Rome",
-   "link": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+   "link": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
+   "country": "Italy"
   },
   {
    "id": "st-peter-s-basilica",
@@ -1177,7 +1247,8 @@
    "lat": 41.90216,
    "lon": 12.45371,
    "wikipedia": "St. Peter's Basilica",
-   "link": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+   "link": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+   "country": "Vatican City"
   },
   {
    "id": "civita-di-bagnoregio",
@@ -1192,7 +1263,8 @@
    "lat": 42.62778,
    "lon": 12.11389,
    "wikipedia": "Civita di Bagnoregio",
-   "link": "https://en.wikipedia.org/wiki/Civita_di_Bagnoregio"
+   "link": "https://en.wikipedia.org/wiki/Civita_di_Bagnoregio",
+   "country": "Italy"
   },
   {
    "id": "montserrat",
@@ -1207,7 +1279,8 @@
    "lat": 41.59167,
    "lon": 1.83778,
    "wikipedia": "Montserrat (mountain)",
-   "link": "https://en.wikipedia.org/wiki/Montserrat_%28mountain%29"
+   "link": "https://en.wikipedia.org/wiki/Montserrat_%28mountain%29",
+   "country": "Spain"
   },
   {
    "id": "aiguestortes-i-estany-de-sant-maurici-national-park",
@@ -1222,7 +1295,8 @@
    "lat": 42.57629,
    "lon": 1.08848,
    "wikipedia": "Aigüestortes i Estany de Sant Maurici National Park",
-   "link": "https://en.wikipedia.org/wiki/Aig%C3%BCestortes_i_Estany_de_Sant_Maurici_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Aig%C3%BCestortes_i_Estany_de_Sant_Maurici_National_Park",
+   "country": "Spain"
   },
   {
    "id": "ordesa-y-monte-perdido-national-park",
@@ -1237,7 +1311,8 @@
    "lat": 42.64923,
    "lon": -0.05973,
    "wikipedia": "Ordesa y Monte Perdido National Park",
-   "link": "https://en.wikipedia.org/wiki/Ordesa_y_Monte_Perdido_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Ordesa_y_Monte_Perdido_National_Park",
+   "country": "Spain"
   },
   {
    "id": "castle-of-loarre",
@@ -1252,7 +1327,8 @@
    "lat": 42.32545,
    "lon": -0.61271,
    "wikipedia": "Castle of Loarre",
-   "link": "https://en.wikipedia.org/wiki/Castle_of_Loarre"
+   "link": "https://en.wikipedia.org/wiki/Castle_of_Loarre",
+   "country": "Spain"
   },
   {
    "id": "bardenas-reales",
@@ -1267,7 +1343,8 @@
    "lat": 42.16117,
    "lon": -1.46625,
    "wikipedia": "Bardenas Reales",
-   "link": "https://en.wikipedia.org/wiki/Bardenas_Reales"
+   "link": "https://en.wikipedia.org/wiki/Bardenas_Reales",
+   "country": "Spain"
   },
   {
    "id": "san-sebastian",
@@ -1282,7 +1359,8 @@
    "lat": 43.32242,
    "lon": -1.98389,
    "wikipedia": "San Sebastián",
-   "link": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n"
+   "link": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n",
+   "country": "Spain"
   },
   {
    "id": "logrono",
@@ -1294,7 +1372,8 @@
    "leg": "spain",
    "lat": 42.466,
    "lon": -2.449,
-   "link": "https://www.openstreetmap.org/?mlat=42.466&mlon=-2.449#map=14/42.466/-2.449"
+   "link": "https://www.openstreetmap.org/?mlat=42.466&mlon=-2.449#map=14/42.466/-2.449",
+   "country": "Spain"
   },
   {
    "id": "laguardia",
@@ -1309,7 +1388,8 @@
    "lat": 42.54298,
    "lon": -2.58054,
    "wikipedia": "La Guardia",
-   "link": "https://en.wikipedia.org/wiki/La_Guardia"
+   "link": "https://en.wikipedia.org/wiki/La_Guardia",
+   "country": "Spain"
   },
   {
    "id": "san-millan-de-la-cogolla",
@@ -1324,7 +1404,8 @@
    "lat": 42.32588,
    "lon": -2.86567,
    "wikipedia": "San Millán de la Cogolla",
-   "link": "https://en.wikipedia.org/wiki/San_Mill%C3%A1n_de_la_Cogolla"
+   "link": "https://en.wikipedia.org/wiki/San_Mill%C3%A1n_de_la_Cogolla",
+   "country": "Spain"
   },
   {
    "id": "burgos-cathedral",
@@ -1339,7 +1420,8 @@
    "lat": 42.34081,
    "lon": -3.70447,
    "wikipedia": "Burgos Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Burgos_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Burgos_Cathedral",
+   "country": "Spain"
   },
   {
    "id": "guggenheim-museum-bilbao",
@@ -1354,7 +1436,8 @@
    "lat": 43.26861,
    "lon": -2.93389,
    "wikipedia": "Guggenheim Museum Bilbao",
-   "link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+   "link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+   "country": "Spain"
   },
   {
    "id": "san-juan-de-gaztelugatxe",
@@ -1369,7 +1452,8 @@
    "lat": 43.447,
    "lon": -2.785,
    "wikipedia": "Gaztelugatxe",
-   "link": "https://en.wikipedia.org/wiki/Gaztelugatxe"
+   "link": "https://en.wikipedia.org/wiki/Gaztelugatxe",
+   "country": "Spain"
   },
   {
    "id": "santillana-del-mar",
@@ -1384,7 +1468,8 @@
    "lat": 43.39333,
    "lon": -4.10472,
    "wikipedia": "Santillana del Mar",
-   "link": "https://en.wikipedia.org/wiki/Santillana_del_Mar"
+   "link": "https://en.wikipedia.org/wiki/Santillana_del_Mar",
+   "country": "Spain"
   },
   {
    "id": "fuente-de",
@@ -1398,7 +1483,8 @@
    "leg": "spain",
    "lat": 43.1456,
    "lon": -4.8102,
-   "link": "https://www.openstreetmap.org/?mlat=43.1456&mlon=-4.8102#map=14/43.1456/-4.8102"
+   "link": "https://www.openstreetmap.org/?mlat=43.1456&mlon=-4.8102#map=14/43.1456/-4.8102",
+   "country": "Spain"
   },
   {
    "id": "picos",
@@ -1410,7 +1496,8 @@
    "leg": "spain",
    "lat": 43.193,
    "lon": -4.851,
-   "link": "https://www.openstreetmap.org/?mlat=43.193&mlon=-4.851#map=14/43.193/-4.851"
+   "link": "https://www.openstreetmap.org/?mlat=43.193&mlon=-4.851#map=14/43.193/-4.851",
+   "country": "Spain"
   },
   {
    "id": "lakes-of-covadonga",
@@ -1425,7 +1512,8 @@
    "lat": 43.27528,
    "lon": -4.98528,
    "wikipedia": "Lakes of Covadonga",
-   "link": "https://en.wikipedia.org/wiki/Lakes_of_Covadonga"
+   "link": "https://en.wikipedia.org/wiki/Lakes_of_Covadonga",
+   "country": "Spain"
   },
   {
    "id": "villaviciosa",
@@ -1440,7 +1528,8 @@
    "lat": 43.48138,
    "lon": -5.4345,
    "wikipedia": "Villaviciosa",
-   "link": "https://en.wikipedia.org/wiki/Villaviciosa"
+   "link": "https://en.wikipedia.org/wiki/Villaviciosa",
+   "country": "Spain"
   },
   {
    "id": "cudillero",
@@ -1455,7 +1544,8 @@
    "lat": 43.56,
    "lon": -6.15,
    "wikipedia": "Cudillero",
-   "link": "https://en.wikipedia.org/wiki/Cudillero"
+   "link": "https://en.wikipedia.org/wiki/Cudillero",
+   "country": "Spain"
   },
   {
    "id": "as-catedrais-beach",
@@ -1470,7 +1560,8 @@
    "lat": 43.55389,
    "lon": -7.15722,
    "wikipedia": "As Catedrais beach",
-   "link": "https://en.wikipedia.org/wiki/As_Catedrais_beach"
+   "link": "https://en.wikipedia.org/wiki/As_Catedrais_beach",
+   "country": "Spain"
   },
   {
    "id": "roman-walls-of-lugo",
@@ -1485,7 +1576,8 @@
    "lat": 43.0111,
    "lon": -7.5533,
    "wikipedia": "Roman walls of Lugo",
-   "link": "https://en.wikipedia.org/wiki/Roman_walls_of_Lugo"
+   "link": "https://en.wikipedia.org/wiki/Roman_walls_of_Lugo",
+   "country": "Spain"
   },
   {
    "id": "ribeira-sacra",
@@ -1500,7 +1592,8 @@
    "lat": 42.51639,
    "lon": -7.51611,
    "wikipedia": "Ribeira Sacra (DO)",
-   "link": "https://en.wikipedia.org/wiki/Ribeira_Sacra_%28DO%29"
+   "link": "https://en.wikipedia.org/wiki/Ribeira_Sacra_%28DO%29",
+   "country": "Spain"
   },
   {
    "id": "santiago-de-compostela-cathedral",
@@ -1515,7 +1608,8 @@
    "lat": 42.88056,
    "lon": -8.54444,
    "wikipedia": "Santiago de Compostela Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral",
+   "country": "Spain"
   },
   {
    "id": "cape-finisterre",
@@ -1530,7 +1624,8 @@
    "lat": 42.8825,
    "lon": -9.27222,
    "wikipedia": "Cape Finisterre",
-   "link": "https://en.wikipedia.org/wiki/Cape_Finisterre"
+   "link": "https://en.wikipedia.org/wiki/Cape_Finisterre",
+   "country": "Spain"
   },
   {
    "id": "combarro",
@@ -1544,7 +1639,8 @@
    "leg": "spain",
    "lat": 42.4318,
    "lon": -8.7056,
-   "link": "https://www.openstreetmap.org/?mlat=42.4318&mlon=-8.7056#map=14/42.4318/-8.7056"
+   "link": "https://www.openstreetmap.org/?mlat=42.4318&mlon=-8.7056#map=14/42.4318/-8.7056",
+   "country": "Spain"
   },
   {
    "id": "castro-of-santa-trega",
@@ -1559,7 +1655,8 @@
    "lat": 41.8927,
    "lon": -8.8698,
    "wikipedia": "Castro of Santa Trega",
-   "link": "https://en.wikipedia.org/wiki/Castro_of_Santa_Trega"
+   "link": "https://en.wikipedia.org/wiki/Castro_of_Santa_Trega",
+   "country": "Spain"
   },
   {
    "id": "peneda-geres-national-park",
@@ -1574,7 +1671,8 @@
    "lat": 41.72472,
    "lon": -8.16278,
    "wikipedia": "Peneda-Gerês National Park",
-   "link": "https://en.wikipedia.org/wiki/Peneda-Ger%C3%AAs_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Peneda-Ger%C3%AAs_National_Park",
+   "country": "Portugal"
   },
   {
    "id": "bom-jesus-do-monte",
@@ -1589,7 +1687,8 @@
    "lat": 41.55494,
    "lon": -8.37703,
    "wikipedia": "Sanctuary of Bom Jesus do Monte",
-   "link": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Monte"
+   "link": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Monte",
+   "country": "Portugal"
   },
   {
    "id": "guimaraes-castle",
@@ -1604,7 +1703,8 @@
    "lat": 41.44791,
    "lon": -8.29036,
    "wikipedia": "Castle of Guimarães",
-   "link": "https://en.wikipedia.org/wiki/Castle_of_Guimar%C3%A3es"
+   "link": "https://en.wikipedia.org/wiki/Castle_of_Guimar%C3%A3es",
+   "country": "Portugal"
   },
   {
    "id": "dom-luis-i-bridge",
@@ -1619,7 +1719,8 @@
    "lat": 41.13986,
    "lon": -8.60934,
    "wikipedia": "Dom Luís I Bridge",
-   "link": "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+   "link": "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge",
+   "country": "Portugal"
   },
   {
    "id": "amarante-portugal",
@@ -1634,7 +1735,8 @@
    "lat": 41.27028,
    "lon": -8.08083,
    "wikipedia": "Amarante, Portugal",
-   "link": "https://en.wikipedia.org/wiki/Amarante%2C_Portugal"
+   "link": "https://en.wikipedia.org/wiki/Amarante%2C_Portugal",
+   "country": "Portugal"
   },
   {
    "id": "douro",
@@ -1646,7 +1748,8 @@
    "leg": "portugal",
    "lat": 41.16,
    "lon": -7.79,
-   "link": "https://www.openstreetmap.org/?mlat=41.16&mlon=-7.79#map=14/41.16/-7.79"
+   "link": "https://www.openstreetmap.org/?mlat=41.16&mlon=-7.79#map=14/41.16/-7.79",
+   "country": "Portugal"
   },
   {
    "id": "mateus-palace",
@@ -1661,7 +1764,8 @@
    "lat": 41.29694,
    "lon": -7.7125,
    "wikipedia": "Mateus Palace",
-   "link": "https://en.wikipedia.org/wiki/Mateus_Palace"
+   "link": "https://en.wikipedia.org/wiki/Mateus_Palace",
+   "country": "Portugal"
   },
   {
    "id": "pinhao",
@@ -1676,7 +1780,8 @@
    "lat": 41.19105,
    "lon": -7.546,
    "wikipedia": "Pinhão",
-   "link": "https://en.wikipedia.org/wiki/Pinh%C3%A3o"
+   "link": "https://en.wikipedia.org/wiki/Pinh%C3%A3o",
+   "country": "Portugal"
   },
   {
    "id": "vila-nova-de-foz-coa",
@@ -1691,7 +1796,8 @@
    "lat": 41.08,
    "lon": -7.14,
    "wikipedia": "Vila Nova de Foz Côa",
-   "link": "https://en.wikipedia.org/wiki/Vila_Nova_de_Foz_C%C3%B4a"
+   "link": "https://en.wikipedia.org/wiki/Vila_Nova_de_Foz_C%C3%B4a",
+   "country": "Portugal"
   },
   {
    "id": "lamego",
@@ -1706,7 +1812,8 @@
    "lat": 41.10083,
    "lon": -7.81,
    "wikipedia": "Lamego",
-   "link": "https://en.wikipedia.org/wiki/Lamego"
+   "link": "https://en.wikipedia.org/wiki/Lamego",
+   "country": "Portugal"
   },
   {
    "id": "serra-da-estrela",
@@ -1721,7 +1828,8 @@
    "lat": 40.32187,
    "lon": -7.61297,
    "wikipedia": "Serra da Estrela",
-   "link": "https://en.wikipedia.org/wiki/Serra_da_Estrela"
+   "link": "https://en.wikipedia.org/wiki/Serra_da_Estrela",
+   "country": "Portugal"
   },
   {
    "id": "piodao",
@@ -1735,7 +1843,8 @@
    "leg": "portugal",
    "lat": 40.22955,
    "lon": -7.82476,
-   "link": "https://www.openstreetmap.org/?mlat=40.22955&mlon=-7.82476#map=14/40.22955/-7.82476"
+   "link": "https://www.openstreetmap.org/?mlat=40.22955&mlon=-7.82476#map=14/40.22955/-7.82476",
+   "country": "Portugal"
   },
   {
    "id": "bucaco-palace",
@@ -1750,7 +1859,8 @@
    "lat": 40.37604,
    "lon": -8.36545,
    "wikipedia": "Buçaco Palace",
-   "link": "https://en.wikipedia.org/wiki/Bu%C3%A7aco_Palace"
+   "link": "https://en.wikipedia.org/wiki/Bu%C3%A7aco_Palace",
+   "country": "Portugal"
   },
   {
    "id": "sanctuary-of-fatima",
@@ -1765,7 +1875,8 @@
    "lat": 39.63001,
    "lon": -8.6747,
    "wikipedia": "Sanctuary of Fátima",
-   "link": "https://en.wikipedia.org/wiki/Sanctuary_of_F%C3%A1tima"
+   "link": "https://en.wikipedia.org/wiki/Sanctuary_of_F%C3%A1tima",
+   "country": "Portugal"
   },
   {
    "id": "university-of-coimbra",
@@ -1780,7 +1891,8 @@
    "lat": 40.2074,
    "lon": -8.4265,
    "wikipedia": "University of Coimbra",
-   "link": "https://en.wikipedia.org/wiki/University_of_Coimbra"
+   "link": "https://en.wikipedia.org/wiki/University_of_Coimbra",
+   "country": "Portugal"
   },
   {
    "id": "aveiro-portugal",
@@ -1795,7 +1907,8 @@
    "lat": 40.63333,
    "lon": -8.65,
    "wikipedia": "Aveiro, Portugal",
-   "link": "https://en.wikipedia.org/wiki/Aveiro%2C_Portugal"
+   "link": "https://en.wikipedia.org/wiki/Aveiro%2C_Portugal",
+   "country": "Portugal"
   },
   {
    "id": "costa-nova-do-prado",
@@ -1809,7 +1922,8 @@
    "leg": "portugal",
    "lat": 40.61258,
    "lon": -8.74954,
-   "link": "https://www.openstreetmap.org/?mlat=40.61258&mlon=-8.74954#map=14/40.61258/-8.74954"
+   "link": "https://www.openstreetmap.org/?mlat=40.61258&mlon=-8.74954#map=14/40.61258/-8.74954",
+   "country": "Portugal"
   },
   {
    "id": "conimbriga",
@@ -1824,7 +1938,8 @@
    "lat": 40.09944,
    "lon": -8.49056,
    "wikipedia": "Conímbriga",
-   "link": "https://en.wikipedia.org/wiki/Con%C3%ADmbriga"
+   "link": "https://en.wikipedia.org/wiki/Con%C3%ADmbriga",
+   "country": "Portugal"
   },
   {
    "id": "batalha-monastery",
@@ -1839,7 +1954,8 @@
    "lat": 39.65917,
    "lon": -8.82611,
    "wikipedia": "Batalha Monastery",
-   "link": "https://en.wikipedia.org/wiki/Batalha_Monastery"
+   "link": "https://en.wikipedia.org/wiki/Batalha_Monastery",
+   "country": "Portugal"
   },
   {
    "id": "nazare-portugal",
@@ -1854,7 +1970,8 @@
    "lat": 39.60111,
    "lon": -9.07056,
    "wikipedia": "Nazaré, Portugal",
-   "link": "https://en.wikipedia.org/wiki/Nazar%C3%A9%2C_Portugal"
+   "link": "https://en.wikipedia.org/wiki/Nazar%C3%A9%2C_Portugal",
+   "country": "Portugal"
   },
   {
    "id": "obidos-portugal",
@@ -1869,7 +1986,8 @@
    "lat": 39.35806,
    "lon": -9.15778,
    "wikipedia": "Óbidos, Portugal",
-   "link": "https://en.wikipedia.org/wiki/%C3%93bidos%2C_Portugal"
+   "link": "https://en.wikipedia.org/wiki/%C3%93bidos%2C_Portugal",
+   "country": "Portugal"
   },
   {
    "id": "peniche-portugal",
@@ -1884,7 +2002,8 @@
    "lat": 39.35,
    "lon": -9.36667,
    "wikipedia": "Peniche, Portugal",
-   "link": "https://en.wikipedia.org/wiki/Peniche%2C_Portugal"
+   "link": "https://en.wikipedia.org/wiki/Peniche%2C_Portugal",
+   "country": "Portugal"
   },
   {
    "id": "ericeira",
@@ -1899,7 +2018,8 @@
    "lat": 38.962,
    "lon": -9.418,
    "wikipedia": "Ericeira",
-   "link": "https://en.wikipedia.org/wiki/Ericeira"
+   "link": "https://en.wikipedia.org/wiki/Ericeira",
+   "country": "Portugal"
   },
   {
    "id": "pena-palace",
@@ -1914,7 +2034,8 @@
    "lat": 38.78778,
    "lon": -9.39056,
    "wikipedia": "Pena Palace",
-   "link": "https://en.wikipedia.org/wiki/Pena_Palace"
+   "link": "https://en.wikipedia.org/wiki/Pena_Palace",
+   "country": "Portugal"
   },
   {
    "id": "cabo-da-roca",
@@ -1929,7 +2050,8 @@
    "lat": 38.78083,
    "lon": -9.50056,
    "wikipedia": "Cabo da Roca",
-   "link": "https://en.wikipedia.org/wiki/Cabo_da_Roca"
+   "link": "https://en.wikipedia.org/wiki/Cabo_da_Roca",
+   "country": "Portugal"
   },
   {
    "id": "belem-tower",
@@ -1944,7 +2066,8 @@
    "lat": 38.69167,
    "lon": -9.21611,
    "wikipedia": "Belém Tower",
-   "link": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+   "link": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+   "country": "Portugal"
   },
   {
    "id": "alfama",
@@ -1959,7 +2082,8 @@
    "lat": 38.71222,
    "lon": -9.13,
    "wikipedia": "Alfama",
-   "link": "https://en.wikipedia.org/wiki/Alfama"
+   "link": "https://en.wikipedia.org/wiki/Alfama",
+   "country": "Portugal"
   },
   {
    "id": "arrabida-natural-park",
@@ -1974,7 +2098,8 @@
    "lat": 38.48139,
    "lon": -8.98917,
    "wikipedia": "Arrábida Natural Park",
-   "link": "https://en.wikipedia.org/wiki/Arr%C3%A1bida_Natural_Park"
+   "link": "https://en.wikipedia.org/wiki/Arr%C3%A1bida_Natural_Park",
+   "country": "Portugal"
   },
   {
    "id": "comporta",
@@ -1989,7 +2114,8 @@
    "lat": 38.38038,
    "lon": -8.786,
    "wikipedia": "Comporta",
-   "link": "https://en.wikipedia.org/wiki/Comporta"
+   "link": "https://en.wikipedia.org/wiki/Comporta",
+   "country": "Portugal"
   },
   {
    "id": "roman-temple-of-evora",
@@ -2004,7 +2130,8 @@
    "lat": 38.57306,
    "lon": -7.90778,
    "wikipedia": "Roman Temple of Évora",
-   "link": "https://en.wikipedia.org/wiki/Roman_Temple_of_%C3%89vora"
+   "link": "https://en.wikipedia.org/wiki/Roman_Temple_of_%C3%89vora",
+   "country": "Portugal"
   },
   {
    "id": "monsaraz",
@@ -2019,7 +2146,8 @@
    "lat": 38.444,
    "lon": -7.381,
    "wikipedia": "Monsaraz",
-   "link": "https://en.wikipedia.org/wiki/Monsaraz"
+   "link": "https://en.wikipedia.org/wiki/Monsaraz",
+   "country": "Portugal"
   },
   {
    "id": "convent-of-christ",
@@ -2034,7 +2162,8 @@
    "lat": 39.60472,
    "lon": -8.4175,
    "wikipedia": "Convent of Christ (Tomar)",
-   "link": "https://en.wikipedia.org/wiki/Convent_of_Christ_%28Tomar%29"
+   "link": "https://en.wikipedia.org/wiki/Convent_of_Christ_%28Tomar%29",
+   "country": "Portugal"
   },
   {
    "id": "almourol-castle",
@@ -2049,7 +2178,8 @@
    "lat": 39.46194,
    "lon": -8.38383,
    "wikipedia": "Castle of Almourol",
-   "link": "https://en.wikipedia.org/wiki/Castle_of_Almourol"
+   "link": "https://en.wikipedia.org/wiki/Castle_of_Almourol",
+   "country": "Portugal"
   },
   {
    "id": "golega",
@@ -2061,7 +2191,8 @@
    "leg": "portugal",
    "lat": 39.404,
    "lon": -8.486,
-   "link": "https://www.openstreetmap.org/?mlat=39.404&mlon=-8.486#map=14/39.404/-8.486"
+   "link": "https://www.openstreetmap.org/?mlat=39.404&mlon=-8.486#map=14/39.404/-8.486",
+   "country": "Portugal"
   },
   {
    "id": "marvao",
@@ -2076,7 +2207,8 @@
    "lat": 39.39417,
    "lon": -7.37667,
    "wikipedia": "Marvão",
-   "link": "https://en.wikipedia.org/wiki/Marv%C3%A3o"
+   "link": "https://en.wikipedia.org/wiki/Marv%C3%A3o",
+   "country": "Portugal"
   },
   {
    "id": "castelo-de-vide",
@@ -2091,7 +2223,8 @@
    "lat": 39.33333,
    "lon": -7.51667,
    "wikipedia": "Castelo de Vide",
-   "link": "https://en.wikipedia.org/wiki/Castelo_de_Vide"
+   "link": "https://en.wikipedia.org/wiki/Castelo_de_Vide",
+   "country": "Portugal"
   },
   {
    "id": "alcobaca-monastery",
@@ -2106,7 +2239,8 @@
    "lat": 39.54833,
    "lon": -8.98,
    "wikipedia": "Alcobaça Monastery",
-   "link": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery"
+   "link": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery",
+   "country": "Portugal"
   },
   {
    "id": "ponta-da-piedade",
@@ -2121,7 +2255,8 @@
    "lat": 37.081,
    "lon": -8.67,
    "wikipedia": "Ponta da Piedade",
-   "link": "https://en.wikipedia.org/wiki/Ponta_da_Piedade"
+   "link": "https://en.wikipedia.org/wiki/Ponta_da_Piedade",
+   "country": "Portugal"
   },
   {
    "id": "benagil-cave",
@@ -2135,7 +2270,8 @@
    "leg": "portugal",
    "lat": 37.0872,
    "lon": -8.42372,
-   "link": "https://www.openstreetmap.org/?mlat=37.0872&mlon=-8.42372#map=14/37.0872/-8.42372"
+   "link": "https://www.openstreetmap.org/?mlat=37.0872&mlon=-8.42372#map=14/37.0872/-8.42372",
+   "country": "Portugal"
   },
   {
    "id": "vejer-de-la-frontera",
@@ -2150,7 +2286,8 @@
    "lat": 36.25,
    "lon": -5.96667,
    "wikipedia": "Vejer de la Frontera",
-   "link": "https://en.wikipedia.org/wiki/Vejer_de_la_Frontera"
+   "link": "https://en.wikipedia.org/wiki/Vejer_de_la_Frontera",
+   "country": "Spain"
   },
   {
    "id": "algeciras",
@@ -2162,7 +2299,8 @@
    "leg": "portugal",
    "lat": 36.127,
    "lon": -5.454,
-   "link": "https://www.openstreetmap.org/?mlat=36.127&mlon=-5.454#map=14/36.127/-5.454"
+   "link": "https://www.openstreetmap.org/?mlat=36.127&mlon=-5.454#map=14/36.127/-5.454",
+   "country": "Spain"
   },
   {
    "id": "chefchaouen",
@@ -2177,7 +2315,8 @@
    "lat": 35.17139,
    "lon": -5.26972,
    "wikipedia": "Chefchaouen",
-   "link": "https://en.wikipedia.org/wiki/Chefchaouen"
+   "link": "https://en.wikipedia.org/wiki/Chefchaouen",
+   "country": "Morocco"
   },
   {
    "id": "volubilis",
@@ -2192,7 +2331,8 @@
    "lat": 34.07111,
    "lon": -5.55361,
    "wikipedia": "Volubilis",
-   "link": "https://en.wikipedia.org/wiki/Volubilis"
+   "link": "https://en.wikipedia.org/wiki/Volubilis",
+   "country": "Morocco"
   },
   {
    "id": "fes-el-bali",
@@ -2207,7 +2347,8 @@
    "lat": 34.0625,
    "lon": -4.9725,
    "wikipedia": "Fes el Bali",
-   "link": "https://en.wikipedia.org/wiki/Fes_el_Bali"
+   "link": "https://en.wikipedia.org/wiki/Fes_el_Bali",
+   "country": "Morocco"
   },
   {
    "id": "ifrane-national-park",
@@ -2222,7 +2363,8 @@
    "lat": 33.43176,
    "lon": -5.13016,
    "wikipedia": "Ifrane National Park",
-   "link": "https://en.wikipedia.org/wiki/Ifrane_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Ifrane_National_Park",
+   "country": "Morocco"
   },
   {
    "id": "ouzoud-falls",
@@ -2237,7 +2379,8 @@
    "lat": 32.0152,
    "lon": -6.7189,
    "wikipedia": "Ouzoud Falls",
-   "link": "https://en.wikipedia.org/wiki/Ouzoud_Falls"
+   "link": "https://en.wikipedia.org/wiki/Ouzoud_Falls",
+   "country": "Morocco"
   },
   {
    "id": "telouet-kasbah",
@@ -2252,7 +2395,8 @@
    "lat": 31.28833,
    "lon": -7.24111,
    "wikipedia": "Telouet Kasbah",
-   "link": "https://en.wikipedia.org/wiki/Telouet_Kasbah"
+   "link": "https://en.wikipedia.org/wiki/Telouet_Kasbah",
+   "country": "Morocco"
   },
   {
    "id": "ait-benhaddou",
@@ -2267,7 +2411,8 @@
    "lat": 31.04722,
    "lon": -7.12889,
    "wikipedia": "Aït Benhaddou",
-   "link": "https://en.wikipedia.org/wiki/A%C3%AFt_Benhaddou"
+   "link": "https://en.wikipedia.org/wiki/A%C3%AFt_Benhaddou",
+   "country": "Morocco"
   },
   {
    "id": "taourirt-kasbah",
@@ -2282,7 +2427,8 @@
    "lat": 30.92,
    "lon": -6.89933,
    "wikipedia": "Kasbah Taourirt",
-   "link": "https://en.wikipedia.org/wiki/Kasbah_Taourirt"
+   "link": "https://en.wikipedia.org/wiki/Kasbah_Taourirt",
+   "country": "Morocco"
   },
   {
    "id": "agdz",
@@ -2297,7 +2443,8 @@
    "lat": 30.69778,
    "lon": -6.44972,
    "wikipedia": "Agdz",
-   "link": "https://en.wikipedia.org/wiki/Agdz"
+   "link": "https://en.wikipedia.org/wiki/Agdz",
+   "country": "Morocco"
   },
   {
    "id": "tamegroute",
@@ -2312,7 +2459,8 @@
    "lat": 30.26667,
    "lon": -5.66667,
    "wikipedia": "Tamegroute",
-   "link": "https://en.wikipedia.org/wiki/Tamegroute"
+   "link": "https://en.wikipedia.org/wiki/Tamegroute",
+   "country": "Morocco"
   },
   {
    "id": "n-kob",
@@ -2327,7 +2475,8 @@
    "lat": 30.87056,
    "lon": -5.8625,
    "wikipedia": "N'Kob",
-   "link": "https://en.wikipedia.org/wiki/N%27Kob"
+   "link": "https://en.wikipedia.org/wiki/N%27Kob",
+   "country": "Morocco"
   },
   {
    "id": "rissani",
@@ -2342,7 +2491,8 @@
    "lat": 31.28595,
    "lon": -4.27509,
    "wikipedia": "Rissani",
-   "link": "https://en.wikipedia.org/wiki/Rissani"
+   "link": "https://en.wikipedia.org/wiki/Rissani",
+   "country": "Morocco"
   },
   {
    "id": "merzouga",
@@ -2354,7 +2504,8 @@
    "leg": "morocco",
    "lat": 31.08,
    "lon": -4.011,
-   "link": "https://www.openstreetmap.org/?mlat=31.08&mlon=-4.011#map=14/31.08/-4.011"
+   "link": "https://www.openstreetmap.org/?mlat=31.08&mlon=-4.011#map=14/31.08/-4.011",
+   "country": "Morocco"
   },
   {
    "id": "todgha-gorge",
@@ -2369,7 +2520,8 @@
    "lat": 31.59,
    "lon": -5.59,
    "wikipedia": "Todgha Gorge",
-   "link": "https://en.wikipedia.org/wiki/Todgha_Gorge"
+   "link": "https://en.wikipedia.org/wiki/Todgha_Gorge",
+   "country": "Morocco"
   },
   {
    "id": "dades-gorges",
@@ -2384,7 +2536,8 @@
    "lat": 31.482,
    "lon": -5.956,
    "wikipedia": "Dadès Gorges",
-   "link": "https://en.wikipedia.org/wiki/Dad%C3%A8s_Gorges"
+   "link": "https://en.wikipedia.org/wiki/Dad%C3%A8s_Gorges",
+   "country": "Morocco"
   },
   {
    "id": "kalaat-m-gouna",
@@ -2399,7 +2552,8 @@
    "lat": 31.24139,
    "lon": -6.12833,
    "wikipedia": "Kalaat M'Gouna",
-   "link": "https://en.wikipedia.org/wiki/Kalaat_M%27Gouna"
+   "link": "https://en.wikipedia.org/wiki/Kalaat_M%27Gouna",
+   "country": "Morocco"
   },
   {
    "id": "skoura",
@@ -2414,7 +2568,8 @@
    "lat": 31.06056,
    "lon": -6.55556,
    "wikipedia": "Skoura",
-   "link": "https://en.wikipedia.org/wiki/Skoura"
+   "link": "https://en.wikipedia.org/wiki/Skoura",
+   "country": "Morocco"
   },
   {
    "id": "taliouine",
@@ -2429,7 +2584,8 @@
    "lat": 30.53278,
    "lon": -7.92556,
    "wikipedia": "Taliouine",
-   "link": "https://en.wikipedia.org/wiki/Taliouine"
+   "link": "https://en.wikipedia.org/wiki/Taliouine",
+   "country": "Morocco"
   },
   {
    "id": "taroudant",
@@ -2444,7 +2600,8 @@
    "lat": 30.471,
    "lon": -8.8806,
    "wikipedia": "Taroudant",
-   "link": "https://en.wikipedia.org/wiki/Taroudant"
+   "link": "https://en.wikipedia.org/wiki/Taroudant",
+   "country": "Morocco"
   },
   {
    "id": "taghazout",
@@ -2459,7 +2616,8 @@
    "lat": 30.58467,
    "lon": -9.6785,
    "wikipedia": "Taghazout",
-   "link": "https://en.wikipedia.org/wiki/Taghazout"
+   "link": "https://en.wikipedia.org/wiki/Taghazout",
+   "country": "Morocco"
   },
   {
    "id": "agadir-oufella",
@@ -2474,7 +2632,8 @@
    "lat": 30.43028,
    "lon": -9.62472,
    "wikipedia": "Agadir Oufla",
-   "link": "https://en.wikipedia.org/wiki/Agadir_Oufla"
+   "link": "https://en.wikipedia.org/wiki/Agadir_Oufla",
+   "country": "Morocco"
   },
   {
    "id": "souss-massa-national-park",
@@ -2489,7 +2648,8 @@
    "lat": 30.075,
    "lon": -9.67,
    "wikipedia": "Souss-Massa National Park",
-   "link": "https://en.wikipedia.org/wiki/Souss-Massa_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Souss-Massa_National_Park",
+   "country": "Morocco"
   },
   {
    "id": "aglou",
@@ -2504,7 +2664,8 @@
    "lat": 29.78889,
    "lon": -9.81261,
    "wikipedia": "Tnine Aglou",
-   "link": "https://en.wikipedia.org/wiki/Tnine_Aglou"
+   "link": "https://en.wikipedia.org/wiki/Tnine_Aglou",
+   "country": "Morocco"
   },
   {
    "id": "tiznit",
@@ -2516,7 +2677,8 @@
    "leg": "morocco",
    "lat": 29.697,
    "lon": -9.732,
-   "link": "https://www.openstreetmap.org/?mlat=29.697&mlon=-9.732#map=14/29.697/-9.732"
+   "link": "https://www.openstreetmap.org/?mlat=29.697&mlon=-9.732#map=14/29.697/-9.732",
+   "country": "Morocco"
   },
   {
    "id": "mirleft",
@@ -2531,7 +2693,8 @@
    "lat": 29.6081,
    "lon": -9.9698,
    "wikipedia": "Mirleft",
-   "link": "https://en.wikipedia.org/wiki/Mirleft"
+   "link": "https://en.wikipedia.org/wiki/Mirleft",
+   "country": "Morocco"
   },
   {
    "id": "legzira",
@@ -2545,7 +2708,8 @@
    "leg": "morocco",
    "lat": 29.44646,
    "lon": -10.11562,
-   "link": "https://www.openstreetmap.org/?mlat=29.44646&mlon=-10.11562#map=14/29.44646/-10.11562"
+   "link": "https://www.openstreetmap.org/?mlat=29.44646&mlon=-10.11562#map=14/29.44646/-10.11562",
+   "country": "Morocco"
   },
   {
    "id": "sidi-ifni",
@@ -2560,7 +2724,8 @@
    "lat": 29.38333,
    "lon": -10.16667,
    "wikipedia": "Sidi Ifni",
-   "link": "https://en.wikipedia.org/wiki/Sidi_Ifni"
+   "link": "https://en.wikipedia.org/wiki/Sidi_Ifni",
+   "country": "Morocco"
   },
   {
    "id": "guelmim",
@@ -2575,7 +2740,8 @@
    "lat": 28.98333,
    "lon": -10.06667,
    "wikipedia": "Guelmim",
-   "link": "https://en.wikipedia.org/wiki/Guelmim"
+   "link": "https://en.wikipedia.org/wiki/Guelmim",
+   "country": "Morocco"
   },
   {
    "id": "tan-tan",
@@ -2590,7 +2756,8 @@
    "lat": 28.43333,
    "lon": -11.1,
    "wikipedia": "Tan-Tan",
-   "link": "https://en.wikipedia.org/wiki/Tan-Tan"
+   "link": "https://en.wikipedia.org/wiki/Tan-Tan",
+   "country": "Morocco"
   },
   {
    "id": "khenifiss-national-park",
@@ -2605,7 +2772,8 @@
    "lat": 27.93333,
    "lon": -12.33333,
    "wikipedia": "Khenifiss National Park",
-   "link": "https://en.wikipedia.org/wiki/Khenifiss_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Khenifiss_National_Park",
+   "country": "Morocco"
   },
   {
    "id": "tarfaya",
@@ -2620,7 +2788,8 @@
    "lat": 27.93944,
    "lon": -12.92611,
    "wikipedia": "Tarfaya",
-   "link": "https://en.wikipedia.org/wiki/Tarfaya"
+   "link": "https://en.wikipedia.org/wiki/Tarfaya",
+   "country": "Morocco"
   },
   {
    "id": "amtoudi",
@@ -2635,7 +2804,8 @@
    "lat": 29.24278,
    "lon": -9.18667,
    "wikipedia": "Amtoudi",
-   "link": "https://en.wikipedia.org/wiki/Amtoudi"
+   "link": "https://en.wikipedia.org/wiki/Amtoudi",
+   "country": "Morocco"
   },
   {
    "id": "akka",
@@ -2650,7 +2820,8 @@
    "lat": 29.39186,
    "lon": -8.25676,
    "wikipedia": "Akka",
-   "link": "https://en.wikipedia.org/wiki/Akka"
+   "link": "https://en.wikipedia.org/wiki/Akka",
+   "country": "Morocco"
   },
   {
    "id": "tata-morocco",
@@ -2665,7 +2836,8 @@
    "lat": 29.74278,
    "lon": -7.9725,
    "wikipedia": "Tata, Morocco",
-   "link": "https://en.wikipedia.org/wiki/Tata%2C_Morocco"
+   "link": "https://en.wikipedia.org/wiki/Tata%2C_Morocco",
+   "country": "Morocco"
   },
   {
    "id": "tafraoute",
@@ -2680,7 +2852,8 @@
    "lat": 29.71667,
    "lon": -8.96667,
    "wikipedia": "Tafraout",
-   "link": "https://en.wikipedia.org/wiki/Tafraout"
+   "link": "https://en.wikipedia.org/wiki/Tafraout",
+   "country": "Morocco"
   },
   {
    "id": "imsouane",
@@ -2695,7 +2868,8 @@
    "lat": 30.84333,
    "lon": -9.81861,
    "wikipedia": "Imsouane",
-   "link": "https://en.wikipedia.org/wiki/Imsouane"
+   "link": "https://en.wikipedia.org/wiki/Imsouane",
+   "country": "Morocco"
   },
   {
    "id": "toubkal",
@@ -2710,7 +2884,8 @@
    "lat": 31.137,
    "lon": -7.919,
    "wikipedia": "Toubkal",
-   "link": "https://en.wikipedia.org/wiki/Toubkal"
+   "link": "https://en.wikipedia.org/wiki/Toubkal",
+   "country": "Morocco"
   },
   {
    "id": "essaouira",
@@ -2725,7 +2900,8 @@
    "lat": 31.51306,
    "lon": -9.76972,
    "wikipedia": "Essaouira",
-   "link": "https://en.wikipedia.org/wiki/Essaouira"
+   "link": "https://en.wikipedia.org/wiki/Essaouira",
+   "country": "Morocco"
   },
   {
    "id": "oualidia",
@@ -2740,7 +2916,8 @@
    "lat": 32.73333,
    "lon": -9.01667,
    "wikipedia": "Oualidia",
-   "link": "https://en.wikipedia.org/wiki/Oualidia"
+   "link": "https://en.wikipedia.org/wiki/Oualidia",
+   "country": "Morocco"
   },
   {
    "id": "portuguese-city-of-mazagan",
@@ -2754,7 +2931,8 @@
    "leg": "morocco",
    "lat": 33.2568,
    "lon": -8.50233,
-   "link": "https://www.openstreetmap.org/?mlat=33.2568&mlon=-8.50233#map=14/33.2568/-8.50233"
+   "link": "https://www.openstreetmap.org/?mlat=33.2568&mlon=-8.50233#map=14/33.2568/-8.50233",
+   "country": "Morocco"
   },
   {
    "id": "hassan-ii-mosque",
@@ -2769,7 +2947,8 @@
    "lat": 33.6085,
    "lon": -7.6327,
    "wikipedia": "Hassan II Mosque",
-   "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque"
+   "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+   "country": "Morocco"
   },
   {
    "id": "kasbah-of-the-udayas",
@@ -2784,7 +2963,8 @@
    "lat": 34.03056,
    "lon": -6.83556,
    "wikipedia": "Kasbah of the Udayas",
-   "link": "https://en.wikipedia.org/wiki/Kasbah_of_the_Udayas"
+   "link": "https://en.wikipedia.org/wiki/Kasbah_of_the_Udayas",
+   "country": "Morocco"
   },
   {
    "id": "asilah",
@@ -2799,7 +2979,8 @@
    "lat": 35.46667,
    "lon": -6.03333,
    "wikipedia": "Asilah",
-   "link": "https://en.wikipedia.org/wiki/Asilah"
+   "link": "https://en.wikipedia.org/wiki/Asilah",
+   "country": "Morocco"
   },
   {
    "id": "rock-of-gibraltar",
@@ -2814,7 +2995,8 @@
    "lat": 36.12447,
    "lon": -5.34311,
    "wikipedia": "Rock of Gibraltar",
-   "link": "https://en.wikipedia.org/wiki/Rock_of_Gibraltar"
+   "link": "https://en.wikipedia.org/wiki/Rock_of_Gibraltar",
+   "country": "Gibraltar"
   },
   {
    "id": "baelo-claudia",
@@ -2829,7 +3011,8 @@
    "lat": 36.08972,
    "lon": -5.77472,
    "wikipedia": "Baelo Claudia",
-   "link": "https://en.wikipedia.org/wiki/Baelo_Claudia"
+   "link": "https://en.wikipedia.org/wiki/Baelo_Claudia",
+   "country": "Spain"
   },
   {
    "id": "cadiz",
@@ -2844,7 +3027,8 @@
    "lat": 36.535,
    "lon": -6.2975,
    "wikipedia": "Cádiz",
-   "link": "https://en.wikipedia.org/wiki/C%C3%A1diz"
+   "link": "https://en.wikipedia.org/wiki/C%C3%A1diz",
+   "country": "Spain"
   },
   {
    "id": "donana-national-park",
@@ -2859,7 +3043,8 @@
    "lat": 37,
    "lon": -6.5,
    "wikipedia": "Doñana National Park",
-   "link": "https://en.wikipedia.org/wiki/Do%C3%B1ana_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Do%C3%B1ana_National_Park",
+   "country": "Spain"
   },
   {
    "id": "alcazar-of-seville",
@@ -2874,7 +3059,8 @@
    "lat": 37.38321,
    "lon": -5.99018,
    "wikipedia": "Alcázar of Seville",
-   "link": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville"
+   "link": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville",
+   "country": "Spain"
   },
   {
    "id": "mosquecathedral-of-cordoba",
@@ -2889,7 +3075,8 @@
    "lat": 37.87917,
    "lon": -4.77972,
    "wikipedia": "Mosque–Cathedral of Córdoba",
-   "link": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+   "link": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+   "country": "Spain"
   },
   {
    "id": "setenil-de-las-bodegas",
@@ -2904,7 +3091,8 @@
    "lat": 36.8625,
    "lon": -5.18139,
    "wikipedia": "Setenil de las Bodegas",
-   "link": "https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas"
+   "link": "https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas",
+   "country": "Spain"
   },
   {
    "id": "ronda",
@@ -2919,7 +3107,8 @@
    "lat": 36.73722,
    "lon": -5.16472,
    "wikipedia": "Ronda",
-   "link": "https://en.wikipedia.org/wiki/Ronda"
+   "link": "https://en.wikipedia.org/wiki/Ronda",
+   "country": "Spain"
   },
   {
    "id": "caminito-del-rey",
@@ -2934,7 +3123,8 @@
    "lat": 36.91583,
    "lon": -4.77278,
    "wikipedia": "Caminito del Rey",
-   "link": "https://en.wikipedia.org/wiki/Caminito_del_Rey"
+   "link": "https://en.wikipedia.org/wiki/Caminito_del_Rey",
+   "country": "Spain"
   },
   {
    "id": "cave-of-nerja",
@@ -2948,7 +3138,8 @@
    "leg": "morocco",
    "lat": 36.76175,
    "lon": -3.84484,
-   "link": "https://www.openstreetmap.org/?mlat=36.76175&mlon=-3.84484#map=14/36.76175/-3.84484"
+   "link": "https://www.openstreetmap.org/?mlat=36.76175&mlon=-3.84484#map=14/36.76175/-3.84484",
+   "country": "Spain"
   },
   {
    "id": "alhambra",
@@ -2963,7 +3154,8 @@
    "lat": 37.1775,
    "lon": -3.59,
    "wikipedia": "Alhambra",
-   "link": "https://en.wikipedia.org/wiki/Alhambra"
+   "link": "https://en.wikipedia.org/wiki/Alhambra",
+   "country": "Spain"
   },
   {
    "id": "guadix",
@@ -2978,7 +3170,8 @@
    "lat": 37.3006,
    "lon": -3.135,
    "wikipedia": "Guadix",
-   "link": "https://en.wikipedia.org/wiki/Guadix"
+   "link": "https://en.wikipedia.org/wiki/Guadix",
+   "country": "Spain"
   },
   {
    "id": "cabo-de-gata-nijar-natural-park",
@@ -2993,7 +3186,8 @@
    "lat": 36.78333,
    "lon": -2.1,
    "wikipedia": "Cabo de Gata-Níjar Natural Park",
-   "link": "https://en.wikipedia.org/wiki/Cabo_de_Gata-N%C3%ADjar_Natural_Park"
+   "link": "https://en.wikipedia.org/wiki/Cabo_de_Gata-N%C3%ADjar_Natural_Park",
+   "country": "Spain"
   },
   {
    "id": "mojacar",
@@ -3008,7 +3202,8 @@
    "lat": 37.14028,
    "lon": -1.85139,
    "wikipedia": "Mojácar",
-   "link": "https://en.wikipedia.org/wiki/Moj%C3%A1car"
+   "link": "https://en.wikipedia.org/wiki/Moj%C3%A1car",
+   "country": "Spain"
   },
   {
    "id": "roman-theatre-of-cartagena",
@@ -3023,7 +3218,8 @@
    "lat": 37.5995,
    "lon": -0.9841,
    "wikipedia": "Roman Theatre (Cartagena)",
-   "link": "https://en.wikipedia.org/wiki/Roman_Theatre_%28Cartagena%29"
+   "link": "https://en.wikipedia.org/wiki/Roman_Theatre_%28Cartagena%29",
+   "country": "Spain"
   },
   {
    "id": "guadalest",
@@ -3038,7 +3234,8 @@
    "lat": 38.67694,
    "lon": -0.19778,
    "wikipedia": "El Castell de Guadalest",
-   "link": "https://en.wikipedia.org/wiki/El_Castell_de_Guadalest"
+   "link": "https://en.wikipedia.org/wiki/El_Castell_de_Guadalest",
+   "country": "Spain"
   },
   {
    "id": "city-of-arts-and-sciences",
@@ -3053,7 +3250,8 @@
    "lat": 39.45417,
    "lon": -0.35,
    "wikipedia": "City of Arts and Sciences",
-   "link": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences"
+   "link": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
+   "country": "Spain"
   },
   {
    "id": "albufera",
@@ -3067,7 +3265,8 @@
    "leg": "morocco",
    "lat": 39.33445,
    "lon": -0.35815,
-   "link": "https://www.openstreetmap.org/?mlat=39.33445&mlon=-0.35815#map=14/39.33445/-0.35815"
+   "link": "https://www.openstreetmap.org/?mlat=39.33445&mlon=-0.35815#map=14/39.33445/-0.35815",
+   "country": "Spain"
   },
   {
    "id": "peniscola",
@@ -3082,7 +3281,8 @@
    "lat": 40.35917,
    "lon": 0.4075,
    "wikipedia": "Peniscola",
-   "link": "https://en.wikipedia.org/wiki/Peniscola"
+   "link": "https://en.wikipedia.org/wiki/Peniscola",
+   "country": "Spain"
   },
   {
    "id": "morella-castellon",
@@ -3097,7 +3297,8 @@
    "lat": 40.61961,
    "lon": -0.10172,
    "wikipedia": "Morella, Spain",
-   "link": "https://en.wikipedia.org/wiki/Morella%2C_Spain"
+   "link": "https://en.wikipedia.org/wiki/Morella%2C_Spain",
+   "country": "Spain"
   },
   {
    "id": "ebro-delta",
@@ -3112,7 +3313,8 @@
    "lat": 40.57222,
    "lon": 0.64302,
    "wikipedia": "Ebro Delta",
-   "link": "https://en.wikipedia.org/wiki/Ebro_Delta"
+   "link": "https://en.wikipedia.org/wiki/Ebro_Delta",
+   "country": "Spain"
   },
   {
    "id": "amphitheatre-of-tarragona",
@@ -3126,7 +3328,8 @@
    "leg": "morocco",
    "lat": 41.11444,
    "lon": 1.25881,
-   "link": "https://www.openstreetmap.org/?mlat=41.11444&mlon=1.25881#map=14/41.11444/1.25881"
+   "link": "https://www.openstreetmap.org/?mlat=41.11444&mlon=1.25881#map=14/41.11444/1.25881",
+   "country": "Spain"
   },
   {
    "id": "sitges",
@@ -3141,7 +3344,8 @@
    "lat": 41.237,
    "lon": 1.823,
    "wikipedia": "Sitges",
-   "link": "https://en.wikipedia.org/wiki/Sitges"
+   "link": "https://en.wikipedia.org/wiki/Sitges",
+   "country": "Spain"
   },
   {
    "id": "girona-cathedral",
@@ -3156,7 +3360,8 @@
    "lat": 41.9875,
    "lon": 2.82639,
    "wikipedia": "Girona Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Girona_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Girona_Cathedral",
+   "country": "Spain"
   },
   {
    "id": "besalu",
@@ -3171,7 +3376,8 @@
    "lat": 42.19864,
    "lon": 2.69596,
    "wikipedia": "Besalú",
-   "link": "https://en.wikipedia.org/wiki/Besal%C3%BA"
+   "link": "https://en.wikipedia.org/wiki/Besal%C3%BA",
+   "country": "Spain"
   },
   {
    "id": "cadaques",
@@ -3186,7 +3392,8 @@
    "lat": 42.28935,
    "lon": 3.27522,
    "wikipedia": "Cadaqués",
-   "link": "https://en.wikipedia.org/wiki/Cadaqu%C3%A9s"
+   "link": "https://en.wikipedia.org/wiki/Cadaqu%C3%A9s",
+   "country": "Spain"
   },
   {
    "id": "cap-de-creus",
@@ -3201,7 +3408,8 @@
    "lat": 42.31917,
    "lon": 3.32194,
    "wikipedia": "Cap de Creus",
-   "link": "https://en.wikipedia.org/wiki/Cap_de_Creus"
+   "link": "https://en.wikipedia.org/wiki/Cap_de_Creus",
+   "country": "Spain"
   },
   {
    "id": "collioure",
@@ -3216,7 +3424,8 @@
    "lat": 42.5267,
    "lon": 3.0814,
    "wikipedia": "Collioure",
-   "link": "https://en.wikipedia.org/wiki/Collioure"
+   "link": "https://en.wikipedia.org/wiki/Collioure",
+   "country": "France"
   },
   {
    "id": "cite-de-carcassonne",
@@ -3231,7 +3440,8 @@
    "lat": 43.20662,
    "lon": 2.36398,
    "wikipedia": "Cité de Carcassonne",
-   "link": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne"
+   "link": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
+   "country": "France"
   },
   {
    "id": "aigues-mortes",
@@ -3246,7 +3456,8 @@
    "lat": 43.5675,
    "lon": 4.1933,
    "wikipedia": "Aigues-Mortes",
-   "link": "https://en.wikipedia.org/wiki/Aigues-Mortes"
+   "link": "https://en.wikipedia.org/wiki/Aigues-Mortes",
+   "country": "France"
   },
   {
    "id": "camargue",
@@ -3258,7 +3469,8 @@
    "leg": "return",
    "lat": 43.45,
    "lon": 4.43,
-   "link": "https://www.openstreetmap.org/?mlat=43.45&mlon=4.43#map=14/43.45/4.43"
+   "link": "https://www.openstreetmap.org/?mlat=43.45&mlon=4.43#map=14/43.45/4.43",
+   "country": "France"
   },
   {
    "id": "maison-carree",
@@ -3272,7 +3484,8 @@
    "leg": "return",
    "lat": 43.83847,
    "lon": 4.35533,
-   "link": "https://www.openstreetmap.org/?mlat=43.83847&mlon=4.35533#map=14/43.83847/4.35533"
+   "link": "https://www.openstreetmap.org/?mlat=43.83847&mlon=4.35533#map=14/43.83847/4.35533",
+   "country": "France"
   },
   {
    "id": "arles-amphitheatre",
@@ -3287,7 +3500,8 @@
    "lat": 43.67778,
    "lon": 4.63111,
    "wikipedia": "Arles Amphitheatre",
-   "link": "https://en.wikipedia.org/wiki/Arles_Amphitheatre"
+   "link": "https://en.wikipedia.org/wiki/Arles_Amphitheatre",
+   "country": "France"
   },
   {
    "id": "glanum",
@@ -3301,7 +3515,8 @@
    "leg": "return",
    "lat": 43.64114,
    "lon": 5.0829,
-   "link": "https://www.openstreetmap.org/?mlat=43.64114&mlon=5.0829#map=14/43.64114/5.0829"
+   "link": "https://www.openstreetmap.org/?mlat=43.64114&mlon=5.0829#map=14/43.64114/5.0829",
+   "country": "France"
   },
   {
    "id": "les-baux-de-provence",
@@ -3316,7 +3531,8 @@
    "lat": 43.7439,
    "lon": 4.7953,
    "wikipedia": "Les Baux-de-Provence",
-   "link": "https://en.wikipedia.org/wiki/Les_Baux-de-Provence"
+   "link": "https://en.wikipedia.org/wiki/Les_Baux-de-Provence",
+   "country": "France"
   },
   {
    "id": "cours-mirabeau",
@@ -3330,7 +3546,8 @@
    "leg": "return",
    "lat": 43.52694,
    "lon": 5.45026,
-   "link": "https://www.openstreetmap.org/?mlat=43.52694&mlon=5.45026#map=14/43.52694/5.45026"
+   "link": "https://www.openstreetmap.org/?mlat=43.52694&mlon=5.45026#map=14/43.52694/5.45026",
+   "country": "France"
   },
   {
    "id": "montagne-sainte-victoire",
@@ -3344,7 +3561,8 @@
    "leg": "return",
    "lat": 43.53685,
    "lon": 5.63601,
-   "link": "https://www.openstreetmap.org/?mlat=43.53685&mlon=5.63601#map=14/43.53685/5.63601"
+   "link": "https://www.openstreetmap.org/?mlat=43.53685&mlon=5.63601#map=14/43.53685/5.63601",
+   "country": "France"
   },
   {
    "id": "calanques-national-park",
@@ -3359,7 +3577,8 @@
    "lat": 43.21667,
    "lon": 5.46667,
    "wikipedia": "Calanques National Park",
-   "link": "https://en.wikipedia.org/wiki/Calanques_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Calanques_National_Park",
+   "country": "France"
   },
   {
    "id": "cassis",
@@ -3374,7 +3593,8 @@
    "lat": 43.2167,
    "lon": 5.5389,
    "wikipedia": "Cassis",
-   "link": "https://en.wikipedia.org/wiki/Cassis"
+   "link": "https://en.wikipedia.org/wiki/Cassis",
+   "country": "France"
   },
   {
    "id": "lac-de-sainte-croix",
@@ -3388,7 +3608,8 @@
    "leg": "return",
    "lat": 43.76732,
    "lon": 6.18393,
-   "link": "https://www.openstreetmap.org/?mlat=43.76732&mlon=6.18393#map=14/43.76732/6.18393"
+   "link": "https://www.openstreetmap.org/?mlat=43.76732&mlon=6.18393#map=14/43.76732/6.18393",
+   "country": "France"
   },
   {
    "id": "gorges-du-verdon",
@@ -3403,7 +3624,8 @@
    "lat": 43.73778,
    "lon": 6.36389,
    "wikipedia": "Verdon Gorge",
-   "link": "https://en.wikipedia.org/wiki/Verdon_Gorge"
+   "link": "https://en.wikipedia.org/wiki/Verdon_Gorge",
+   "country": "France"
   },
   {
    "id": "moustiers-sainte-marie",
@@ -3418,7 +3640,8 @@
    "lat": 43.8483,
    "lon": 6.2219,
    "wikipedia": "Moustiers-Sainte-Marie",
-   "link": "https://en.wikipedia.org/wiki/Moustiers-Sainte-Marie"
+   "link": "https://en.wikipedia.org/wiki/Moustiers-Sainte-Marie",
+   "country": "France"
   },
   {
    "id": "plateau-de-valensole",
@@ -3432,7 +3655,8 @@
    "leg": "return",
    "lat": 43.83793,
    "lon": 5.98399,
-   "link": "https://www.openstreetmap.org/?mlat=43.83793&mlon=5.98399#map=14/43.83793/5.98399"
+   "link": "https://www.openstreetmap.org/?mlat=43.83793&mlon=5.98399#map=14/43.83793/5.98399",
+   "country": "France"
   },
   {
    "id": "gordes",
@@ -3447,7 +3671,8 @@
    "lat": 43.9119,
    "lon": 5.2008,
    "wikipedia": "Gordes",
-   "link": "https://en.wikipedia.org/wiki/Gordes"
+   "link": "https://en.wikipedia.org/wiki/Gordes",
+   "country": "France"
   },
   {
    "id": "senanque-abbey",
@@ -3462,7 +3687,8 @@
    "lat": 43.92833,
    "lon": 5.18694,
    "wikipedia": "Sénanque Abbey",
-   "link": "https://en.wikipedia.org/wiki/S%C3%A9nanque_Abbey"
+   "link": "https://en.wikipedia.org/wiki/S%C3%A9nanque_Abbey",
+   "country": "France"
   },
   {
    "id": "roussillon-vaucluse",
@@ -3477,7 +3703,8 @@
    "lat": 43.9031,
    "lon": 5.2936,
    "wikipedia": "Roussillon, Vaucluse",
-   "link": "https://en.wikipedia.org/wiki/Roussillon%2C_Vaucluse"
+   "link": "https://en.wikipedia.org/wiki/Roussillon%2C_Vaucluse",
+   "country": "France"
   },
   {
    "id": "fontaine-de-vaucluse",
@@ -3491,7 +3718,8 @@
    "leg": "return",
    "lat": 43.92212,
    "lon": 5.12729,
-   "link": "https://www.openstreetmap.org/?mlat=43.92212&mlon=5.12729#map=14/43.92212/5.12729"
+   "link": "https://www.openstreetmap.org/?mlat=43.92212&mlon=5.12729#map=14/43.92212/5.12729",
+   "country": "France"
   },
   {
    "id": "l-isle-sur-la-sorgue",
@@ -3505,7 +3733,8 @@
    "leg": "return",
    "lat": 43.91854,
    "lon": 5.05154,
-   "link": "https://www.openstreetmap.org/?mlat=43.91854&mlon=5.05154#map=14/43.91854/5.05154"
+   "link": "https://www.openstreetmap.org/?mlat=43.91854&mlon=5.05154#map=14/43.91854/5.05154",
+   "country": "France"
   },
   {
    "id": "palais-des-papes",
@@ -3520,7 +3749,8 @@
    "lat": 43.9508,
    "lon": 4.8075,
    "wikipedia": "Palais des Papes",
-   "link": "https://en.wikipedia.org/wiki/Palais_des_Papes"
+   "link": "https://en.wikipedia.org/wiki/Palais_des_Papes",
+   "country": "France"
   },
   {
    "id": "pont-du-gard",
@@ -3535,7 +3765,8 @@
    "lat": 43.94722,
    "lon": 4.53556,
    "wikipedia": "Pont du Gard",
-   "link": "https://en.wikipedia.org/wiki/Pont_du_Gard"
+   "link": "https://en.wikipedia.org/wiki/Pont_du_Gard",
+   "country": "France"
   },
   {
    "id": "roman-theatre-of-orange",
@@ -3549,7 +3780,8 @@
    "leg": "return",
    "lat": 44.13577,
    "lon": 4.80924,
-   "link": "https://www.openstreetmap.org/?mlat=44.13577&mlon=4.80924#map=14/44.13577/4.80924"
+   "link": "https://www.openstreetmap.org/?mlat=44.13577&mlon=4.80924#map=14/44.13577/4.80924",
+   "country": "France"
   },
   {
    "id": "vaison-la-romaine",
@@ -3563,7 +3795,8 @@
    "leg": "return",
    "lat": 44.24076,
    "lon": 5.07574,
-   "link": "https://www.openstreetmap.org/?mlat=44.24076&mlon=5.07574#map=14/44.24076/5.07574"
+   "link": "https://www.openstreetmap.org/?mlat=44.24076&mlon=5.07574#map=14/44.24076/5.07574",
+   "country": "France"
   },
   {
    "id": "dentelles-de-montmirail",
@@ -3577,7 +3810,8 @@
    "leg": "return",
    "lat": 44.15541,
    "lon": 5.02376,
-   "link": "https://www.openstreetmap.org/?mlat=44.15541&mlon=5.02376#map=14/44.15541/5.02376"
+   "link": "https://www.openstreetmap.org/?mlat=44.15541&mlon=5.02376#map=14/44.15541/5.02376",
+   "country": "France"
   },
   {
    "id": "mont-ventoux",
@@ -3592,7 +3826,8 @@
    "lat": 44.17444,
    "lon": 5.27889,
    "wikipedia": "Mont Ventoux",
-   "link": "https://en.wikipedia.org/wiki/Mont_Ventoux"
+   "link": "https://en.wikipedia.org/wiki/Mont_Ventoux",
+   "country": "France"
   },
   {
    "id": "pont-d-arc",
@@ -3607,7 +3842,8 @@
    "lat": 44.38194,
    "lon": 4.41667,
    "wikipedia": "Pont d'Arc",
-   "link": "https://en.wikipedia.org/wiki/Pont_d%27Arc"
+   "link": "https://en.wikipedia.org/wiki/Pont_d%27Arc",
+   "country": "France"
   },
   {
    "id": "chateau-de-grignan",
@@ -3621,7 +3857,8 @@
    "leg": "return",
    "lat": 44.41876,
    "lon": 4.90892,
-   "link": "https://www.openstreetmap.org/?mlat=44.41876&mlon=4.90892#map=14/44.41876/4.90892"
+   "link": "https://www.openstreetmap.org/?mlat=44.41876&mlon=4.90892#map=14/44.41876/4.90892",
+   "country": "France"
   },
   {
    "id": "vercors-massif",
@@ -3636,7 +3873,8 @@
    "lat": 44.96667,
    "lon": 5.41667,
    "wikipedia": "Vercors Massif",
-   "link": "https://en.wikipedia.org/wiki/Vercors_Massif"
+   "link": "https://en.wikipedia.org/wiki/Vercors_Massif",
+   "country": "France"
   },
   {
    "id": "bastille",
@@ -3650,7 +3888,8 @@
    "leg": "return",
    "lat": 45.19895,
    "lon": 5.72527,
-   "link": "https://www.openstreetmap.org/?mlat=45.19895&mlon=5.72527#map=14/45.19895/5.72527"
+   "link": "https://www.openstreetmap.org/?mlat=45.19895&mlon=5.72527#map=14/45.19895/5.72527",
+   "country": "France"
   },
   {
    "id": "grande-chartreuse",
@@ -3664,7 +3903,8 @@
    "leg": "return",
    "lat": 45.36339,
    "lon": 5.7933,
-   "link": "https://www.openstreetmap.org/?mlat=45.36339&mlon=5.7933#map=14/45.36339/5.7933"
+   "link": "https://www.openstreetmap.org/?mlat=45.36339&mlon=5.7933#map=14/45.36339/5.7933",
+   "country": "France"
   },
   {
    "id": "vieux-lyon",
@@ -3679,7 +3919,8 @@
    "lat": 45.76222,
    "lon": 4.82667,
    "wikipedia": "Vieux Lyon",
-   "link": "https://en.wikipedia.org/wiki/Vieux_Lyon"
+   "link": "https://en.wikipedia.org/wiki/Vieux_Lyon",
+   "country": "France"
   },
   {
    "id": "perouges",
@@ -3694,7 +3935,8 @@
    "lat": 45.90735,
    "lon": 5.17273,
    "wikipedia": "Pérouges",
-   "link": "https://en.wikipedia.org/wiki/P%C3%A9rouges"
+   "link": "https://en.wikipedia.org/wiki/P%C3%A9rouges",
+   "country": "France"
   },
   {
    "id": "lake-annecy",
@@ -3709,7 +3951,8 @@
    "lat": 45.85,
    "lon": 6.16667,
    "wikipedia": "Lake Annecy",
-   "link": "https://en.wikipedia.org/wiki/Lake_Annecy"
+   "link": "https://en.wikipedia.org/wiki/Lake_Annecy",
+   "country": "France"
   },
   {
    "id": "palais-de-l-isle",
@@ -3723,7 +3966,8 @@
    "leg": "return",
    "lat": 45.89857,
    "lon": 6.12706,
-   "link": "https://www.openstreetmap.org/?mlat=45.89857&mlon=6.12706#map=14/45.89857/6.12706"
+   "link": "https://www.openstreetmap.org/?mlat=45.89857&mlon=6.12706#map=14/45.89857/6.12706",
+   "country": "France"
   },
   {
    "id": "mer-de-glace",
@@ -3737,7 +3981,8 @@
    "leg": "return",
    "lat": 45.91365,
    "lon": 6.93867,
-   "link": "https://www.openstreetmap.org/?mlat=45.91365&mlon=6.93867#map=14/45.91365/6.93867"
+   "link": "https://www.openstreetmap.org/?mlat=45.91365&mlon=6.93867#map=14/45.91365/6.93867",
+   "country": "France"
   },
   {
    "id": "aiguille-du-midi",
@@ -3752,7 +3997,8 @@
    "lat": 45.87861,
    "lon": 6.88722,
    "wikipedia": "Aiguille du Midi",
-   "link": "https://en.wikipedia.org/wiki/Aiguille_du_Midi"
+   "link": "https://en.wikipedia.org/wiki/Aiguille_du_Midi",
+   "country": "France"
   },
   {
    "id": "yvoire",
@@ -3766,7 +4012,8 @@
    "leg": "return",
    "lat": 46.36933,
    "lon": 6.32545,
-   "link": "https://www.openstreetmap.org/?mlat=46.36933&mlon=6.32545#map=14/46.36933/6.32545"
+   "link": "https://www.openstreetmap.org/?mlat=46.36933&mlon=6.32545#map=14/46.36933/6.32545",
+   "country": "France"
   },
   {
    "id": "lavaux",
@@ -3781,7 +4028,8 @@
    "lat": 46.49194,
    "lon": 6.74611,
    "wikipedia": "Lavaux",
-   "link": "https://en.wikipedia.org/wiki/Lavaux"
+   "link": "https://en.wikipedia.org/wiki/Lavaux",
+   "country": "Switzerland"
   },
   {
    "id": "chillon-castle",
@@ -3796,7 +4044,8 @@
    "lat": 46.41417,
    "lon": 6.9275,
    "wikipedia": "Chillon Castle",
-   "link": "https://en.wikipedia.org/wiki/Chillon_Castle"
+   "link": "https://en.wikipedia.org/wiki/Chillon_Castle",
+   "country": "Switzerland"
   },
   {
    "id": "gruyeres",
@@ -3811,7 +4060,8 @@
    "lat": 46.58333,
    "lon": 7.08333,
    "wikipedia": "Gruyères",
-   "link": "https://en.wikipedia.org/wiki/Gruy%C3%A8res"
+   "link": "https://en.wikipedia.org/wiki/Gruy%C3%A8res",
+   "country": "Switzerland"
   },
   {
    "id": "old-city",
@@ -3826,7 +4076,8 @@
    "lat": 46.94806,
    "lon": 7.45028,
    "wikipedia": "Old City (Bern)",
-   "link": "https://en.wikipedia.org/wiki/Old_City_%28Bern%29"
+   "link": "https://en.wikipedia.org/wiki/Old_City_%28Bern%29",
+   "country": "Switzerland"
   },
   {
    "id": "oeschinen-lake",
@@ -3840,7 +4091,8 @@
    "leg": "return",
    "lat": 46.4985,
    "lon": 7.72684,
-   "link": "https://www.openstreetmap.org/?mlat=46.4985&mlon=7.72684#map=14/46.4985/7.72684"
+   "link": "https://www.openstreetmap.org/?mlat=46.4985&mlon=7.72684#map=14/46.4985/7.72684",
+   "country": "Switzerland"
   },
   {
    "id": "lauterbrunnen",
@@ -3855,7 +4107,8 @@
    "lat": 46.595,
    "lon": 7.90745,
    "wikipedia": "Lauterbrunnen",
-   "link": "https://en.wikipedia.org/wiki/Lauterbrunnen"
+   "link": "https://en.wikipedia.org/wiki/Lauterbrunnen",
+   "country": "Switzerland"
   },
   {
    "id": "chapel-bridge",
@@ -3869,7 +4122,8 @@
    "leg": "return",
    "lat": 47.05183,
    "lon": 8.30771,
-   "link": "https://www.openstreetmap.org/?mlat=47.05183&mlon=8.30771#map=14/47.05183/8.30771"
+   "link": "https://www.openstreetmap.org/?mlat=47.05183&mlon=8.30771#map=14/47.05183/8.30771",
+   "country": "Switzerland"
   },
   {
    "id": "rhine-falls",
@@ -3884,7 +4138,8 @@
    "lat": 47.67722,
    "lon": 8.61583,
    "wikipedia": "Rhine Falls",
-   "link": "https://en.wikipedia.org/wiki/Rhine_Falls"
+   "link": "https://en.wikipedia.org/wiki/Rhine_Falls",
+   "country": "Switzerland"
   },
   {
    "id": "basel-minster",
@@ -3899,7 +4154,8 @@
    "lat": 47.55667,
    "lon": 7.59222,
    "wikipedia": "Basel Minster",
-   "link": "https://en.wikipedia.org/wiki/Basel_Minster"
+   "link": "https://en.wikipedia.org/wiki/Basel_Minster",
+   "country": "Switzerland"
   },
   {
    "id": "colmar",
@@ -3914,7 +4170,8 @@
    "lat": 48.0817,
    "lon": 7.3556,
    "wikipedia": "Colmar",
-   "link": "https://en.wikipedia.org/wiki/Colmar"
+   "link": "https://en.wikipedia.org/wiki/Colmar",
+   "country": "France"
   },
   {
    "id": "eguisheim",
@@ -3929,7 +4186,8 @@
    "lat": 48.0436,
    "lon": 7.3067,
    "wikipedia": "Eguisheim",
-   "link": "https://en.wikipedia.org/wiki/Eguisheim"
+   "link": "https://en.wikipedia.org/wiki/Eguisheim",
+   "country": "France"
   },
   {
    "id": "kaysersberg",
@@ -3944,7 +4202,8 @@
    "lat": 48.14,
    "lon": 7.26,
    "wikipedia": "Kaysersberg",
-   "link": "https://en.wikipedia.org/wiki/Kaysersberg"
+   "link": "https://en.wikipedia.org/wiki/Kaysersberg",
+   "country": "France"
   },
   {
    "id": "haut-koenigsbourg-castle",
@@ -3958,7 +4217,8 @@
    "leg": "return",
    "lat": 48.24938,
    "lon": 7.34394,
-   "link": "https://www.openstreetmap.org/?mlat=48.24938&mlon=7.34394#map=14/48.24938/7.34394"
+   "link": "https://www.openstreetmap.org/?mlat=48.24938&mlon=7.34394#map=14/48.24938/7.34394",
+   "country": "France"
   },
   {
    "id": "alsace",
@@ -3970,7 +4230,8 @@
    "leg": "return",
    "lat": 48.08,
    "lon": 7.36,
-   "link": "https://www.openstreetmap.org/?mlat=48.08&mlon=7.36#map=14/48.08/7.36"
+   "link": "https://www.openstreetmap.org/?mlat=48.08&mlon=7.36#map=14/48.08/7.36",
+   "country": "France"
   },
   {
    "id": "strasbourg-cathedral",
@@ -3985,7 +4246,8 @@
    "lat": 48.58167,
    "lon": 7.75083,
    "wikipedia": "Strasbourg Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral",
+   "country": "France"
   },
   {
    "id": "saarschleife",
@@ -3999,7 +4261,8 @@
    "leg": "return",
    "lat": 49.50139,
    "lon": 6.54545,
-   "link": "https://www.openstreetmap.org/?mlat=49.50139&mlon=6.54545#map=14/49.50139/6.54545"
+   "link": "https://www.openstreetmap.org/?mlat=49.50139&mlon=6.54545#map=14/49.50139/6.54545",
+   "country": "Germany"
   },
   {
    "id": "porta-nigra",
@@ -4014,7 +4277,8 @@
    "lat": 49.75972,
    "lon": 6.64389,
    "wikipedia": "Porta Nigra",
-   "link": "https://en.wikipedia.org/wiki/Porta_Nigra"
+   "link": "https://en.wikipedia.org/wiki/Porta_Nigra",
+   "country": "Germany"
   },
   {
    "id": "bernkastel-kues",
@@ -4028,7 +4292,8 @@
    "leg": "return",
    "lat": 49.91574,
    "lon": 7.07082,
-   "link": "https://www.openstreetmap.org/?mlat=49.91574&mlon=7.07082#map=14/49.91574/7.07082"
+   "link": "https://www.openstreetmap.org/?mlat=49.91574&mlon=7.07082#map=14/49.91574/7.07082",
+   "country": "Germany"
   },
   {
    "id": "reichsburg-cochem",
@@ -4042,7 +4307,8 @@
    "leg": "return",
    "lat": 50.14223,
    "lon": 7.16709,
-   "link": "https://www.openstreetmap.org/?mlat=50.14223&mlon=7.16709#map=14/50.14223/7.16709"
+   "link": "https://www.openstreetmap.org/?mlat=50.14223&mlon=7.16709#map=14/50.14223/7.16709",
+   "country": "Germany"
   },
   {
    "id": "burg-eltz",
@@ -4057,7 +4323,8 @@
    "lat": 50.20506,
    "lon": 7.3366,
    "wikipedia": "Eltz Castle",
-   "link": "https://en.wikipedia.org/wiki/Eltz_Castle"
+   "link": "https://en.wikipedia.org/wiki/Eltz_Castle",
+   "country": "Germany"
   },
   {
    "id": "marksburg",
@@ -4071,7 +4338,8 @@
    "leg": "return",
    "lat": 50.27195,
    "lon": 7.64916,
-   "link": "https://www.openstreetmap.org/?mlat=50.27195&mlon=7.64916#map=14/50.27195/7.64916"
+   "link": "https://www.openstreetmap.org/?mlat=50.27195&mlon=7.64916#map=14/50.27195/7.64916",
+   "country": "Germany"
   },
   {
    "id": "loreley",
@@ -4086,7 +4354,8 @@
    "lat": 50.13944,
    "lon": 7.72889,
    "wikipedia": "Lorelei",
-   "link": "https://en.wikipedia.org/wiki/Lorelei"
+   "link": "https://en.wikipedia.org/wiki/Lorelei",
+   "country": "Germany"
   },
   {
    "id": "bacharach",
@@ -4100,7 +4369,8 @@
    "leg": "return",
    "lat": 50.05979,
    "lon": 7.7684,
-   "link": "https://www.openstreetmap.org/?mlat=50.05979&mlon=7.7684#map=14/50.05979/7.7684"
+   "link": "https://www.openstreetmap.org/?mlat=50.05979&mlon=7.7684#map=14/50.05979/7.7684",
+   "country": "Germany"
   },
   {
    "id": "rudesheim-am-rhein",
@@ -4115,7 +4385,8 @@
    "lat": 49.98333,
    "lon": 7.93056,
    "wikipedia": "Rüdesheim am Rhein",
-   "link": "https://en.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein"
+   "link": "https://en.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein",
+   "country": "Germany"
   },
   {
    "id": "speyer-cathedral",
@@ -4129,7 +4400,8 @@
    "leg": "return",
    "lat": 49.31719,
    "lon": 8.4424,
-   "link": "https://www.openstreetmap.org/?mlat=49.31719&mlon=8.4424#map=14/49.31719/8.4424"
+   "link": "https://www.openstreetmap.org/?mlat=49.31719&mlon=8.4424#map=14/49.31719/8.4424",
+   "country": "Germany"
   },
   {
    "id": "heidelberg-castle",
@@ -4144,7 +4416,8 @@
    "lat": 49.41047,
    "lon": 8.7152,
    "wikipedia": "Heidelberg Castle",
-   "link": "https://en.wikipedia.org/wiki/Heidelberg_Castle"
+   "link": "https://en.wikipedia.org/wiki/Heidelberg_Castle",
+   "country": "Germany"
   },
   {
    "id": "dinkelsbuhl",
@@ -4158,7 +4431,8 @@
    "leg": "return",
    "lat": 49.06917,
    "lon": 10.3194,
-   "link": "https://www.openstreetmap.org/?mlat=49.06917&mlon=10.3194#map=14/49.06917/10.3194"
+   "link": "https://www.openstreetmap.org/?mlat=49.06917&mlon=10.3194#map=14/49.06917/10.3194",
+   "country": "Germany"
   },
   {
    "id": "rothenburg-ob-der-tauber",
@@ -4173,7 +4447,8 @@
    "lat": 49.38333,
    "lon": 10.18333,
    "wikipedia": "Rothenburg ob der Tauber",
-   "link": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber"
+   "link": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber",
+   "country": "Germany"
   },
   {
    "id": "wurzburg-residence",
@@ -4188,7 +4463,8 @@
    "lat": 49.79278,
    "lon": 9.93861,
    "wikipedia": "Würzburg Residence",
-   "link": "https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence"
+   "link": "https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence",
+   "country": "Germany"
   },
   {
    "id": "bamberg",
@@ -4203,7 +4479,8 @@
    "lat": 49.89139,
    "lon": 10.88694,
    "wikipedia": "Bamberg",
-   "link": "https://en.wikipedia.org/wiki/Bamberg"
+   "link": "https://en.wikipedia.org/wiki/Bamberg",
+   "country": "Germany"
   },
   {
    "id": "veste-coburg",
@@ -4217,7 +4494,8 @@
    "leg": "return",
    "lat": 50.26379,
    "lon": 10.98106,
-   "link": "https://www.openstreetmap.org/?mlat=50.26379&mlon=10.98106#map=14/50.26379/10.98106"
+   "link": "https://www.openstreetmap.org/?mlat=50.26379&mlon=10.98106#map=14/50.26379/10.98106",
+   "country": "Germany"
   },
   {
    "id": "wartburg",
@@ -4232,7 +4510,8 @@
    "lat": 50.96611,
    "lon": 10.30639,
    "wikipedia": "Wartburg",
-   "link": "https://en.wikipedia.org/wiki/Wartburg"
+   "link": "https://en.wikipedia.org/wiki/Wartburg",
+   "country": "Germany"
   },
   {
    "id": "erfurt-cathedral",
@@ -4246,7 +4525,8 @@
    "leg": "return",
    "lat": 50.97571,
    "lon": 11.02291,
-   "link": "https://www.openstreetmap.org/?mlat=50.97571&mlon=11.02291#map=14/50.97571/11.02291"
+   "link": "https://www.openstreetmap.org/?mlat=50.97571&mlon=11.02291#map=14/50.97571/11.02291",
+   "country": "Germany"
   },
   {
    "id": "weimar",
@@ -4261,7 +4541,8 @@
    "lat": 50.98111,
    "lon": 11.32944,
    "wikipedia": "Weimar",
-   "link": "https://en.wikipedia.org/wiki/Weimar"
+   "link": "https://en.wikipedia.org/wiki/Weimar",
+   "country": "Germany"
   },
   {
    "id": "st-thomas-church-leipzig",
@@ -4275,7 +4556,8 @@
    "leg": "return",
    "lat": 51.33933,
    "lon": 12.3726,
-   "link": "https://www.openstreetmap.org/?mlat=51.33933&mlon=12.3726#map=14/51.33933/12.3726"
+   "link": "https://www.openstreetmap.org/?mlat=51.33933&mlon=12.3726#map=14/51.33933/12.3726",
+   "country": "Germany"
   },
   {
    "id": "konigstein-fortress",
@@ -4290,7 +4572,8 @@
    "lat": 50.91889,
    "lon": 14.05667,
    "wikipedia": "Königstein Fortress",
-   "link": "https://en.wikipedia.org/wiki/K%C3%B6nigstein_Fortress"
+   "link": "https://en.wikipedia.org/wiki/K%C3%B6nigstein_Fortress",
+   "country": "Germany"
   },
   {
    "id": "bastei",
@@ -4305,7 +4588,8 @@
    "lat": 50.96222,
    "lon": 14.07139,
    "wikipedia": "Bastei",
-   "link": "https://en.wikipedia.org/wiki/Bastei"
+   "link": "https://en.wikipedia.org/wiki/Bastei",
+   "country": "Germany"
   },
   {
    "id": "zwinger",
@@ -4319,7 +4603,8 @@
    "leg": "return",
    "lat": 51.05303,
    "lon": 13.73498,
-   "link": "https://www.openstreetmap.org/?mlat=51.05303&mlon=13.73498#map=14/51.05303/13.73498"
+   "link": "https://www.openstreetmap.org/?mlat=51.05303&mlon=13.73498#map=14/51.05303/13.73498",
+   "country": "Germany"
   },
   {
    "id": "frauenkirche-dresden",
@@ -4334,7 +4619,8 @@
    "lat": 51.05194,
    "lon": 13.74167,
    "wikipedia": "Frauenkirche, Dresden",
-   "link": "https://en.wikipedia.org/wiki/Frauenkirche%2C_Dresden"
+   "link": "https://en.wikipedia.org/wiki/Frauenkirche%2C_Dresden",
+   "country": "Germany"
   },
   {
    "id": "moritzburg-castle",
@@ -4348,7 +4634,8 @@
    "leg": "return",
    "lat": 51.16756,
    "lon": 13.67949,
-   "link": "https://www.openstreetmap.org/?mlat=51.16756&mlon=13.67949#map=14/51.16756/13.67949"
+   "link": "https://www.openstreetmap.org/?mlat=51.16756&mlon=13.67949#map=14/51.16756/13.67949",
+   "country": "Germany"
   },
   {
    "id": "gorlitz",
@@ -4362,7 +4649,8 @@
    "leg": "return",
    "lat": 51.15632,
    "lon": 14.99102,
-   "link": "https://www.openstreetmap.org/?mlat=51.15632&mlon=14.99102#map=14/51.15632/14.99102"
+   "link": "https://www.openstreetmap.org/?mlat=51.15632&mlon=14.99102#map=14/51.15632/14.99102",
+   "country": "Germany"
   },
   {
    "id": "muskau-park",
@@ -4377,7 +4665,8 @@
    "lat": 51.55028,
    "lon": 14.72667,
    "wikipedia": "Muskau Park",
-   "link": "https://en.wikipedia.org/wiki/Muskau_Park"
+   "link": "https://en.wikipedia.org/wiki/Muskau_Park",
+   "country": "Germany"
   },
   {
    "id": "spreewald",
@@ -4392,7 +4681,8 @@
    "lat": 51.91389,
    "lon": 13.92639,
    "wikipedia": "Spree Forest",
-   "link": "https://en.wikipedia.org/wiki/Spree_Forest"
+   "link": "https://en.wikipedia.org/wiki/Spree_Forest",
+   "country": "Germany"
   },
   {
    "id": "all-saints-church-wittenberg",
@@ -4406,7 +4696,8 @@
    "leg": "return",
    "lat": 51.86638,
    "lon": 12.63803,
-   "link": "https://www.openstreetmap.org/?mlat=51.86638&mlon=12.63803#map=14/51.86638/12.63803"
+   "link": "https://www.openstreetmap.org/?mlat=51.86638&mlon=12.63803#map=14/51.86638/12.63803",
+   "country": "Germany"
   },
   {
    "id": "sanssouci",
@@ -4421,7 +4712,8 @@
    "lat": 52.40326,
    "lon": 13.03863,
    "wikipedia": "Sanssouci",
-   "link": "https://en.wikipedia.org/wiki/Sanssouci"
+   "link": "https://en.wikipedia.org/wiki/Sanssouci",
+   "country": "Germany"
   },
   {
    "id": "berlin",
@@ -4433,7 +4725,8 @@
    "leg": "return",
    "lat": 52.52,
    "lon": 13.4,
-   "link": "https://www.openstreetmap.org/?mlat=52.52&mlon=13.4#map=14/52.52/13.4"
+   "link": "https://www.openstreetmap.org/?mlat=52.52&mlon=13.4#map=14/52.52/13.4",
+   "country": "Germany"
   },
   {
    "id": "chorin-abbey",
@@ -4448,7 +4741,8 @@
    "lat": 52.8928,
    "lon": 13.8836,
    "wikipedia": "Chorin Abbey",
-   "link": "https://en.wikipedia.org/wiki/Chorin_Abbey"
+   "link": "https://en.wikipedia.org/wiki/Chorin_Abbey",
+   "country": "Germany"
   },
   {
    "id": "pomeranian-dukes-castle",
@@ -4462,7 +4756,8 @@
    "leg": "return",
    "lat": 53.42619,
    "lon": 14.56103,
-   "link": "https://www.openstreetmap.org/?mlat=53.42619&mlon=14.56103#map=14/53.42619/14.56103"
+   "link": "https://www.openstreetmap.org/?mlat=53.42619&mlon=14.56103#map=14/53.42619/14.56103",
+   "country": "Poland"
   },
   {
    "id": "trzesacz",
@@ -4476,7 +4771,8 @@
    "leg": "return",
    "lat": 54.07574,
    "lon": 14.99276,
-   "link": "https://www.openstreetmap.org/?mlat=54.07574&mlon=14.99276#map=14/54.07574/14.99276"
+   "link": "https://www.openstreetmap.org/?mlat=54.07574&mlon=14.99276#map=14/54.07574/14.99276",
+   "country": "Poland"
   },
   {
    "id": "wolin-national-park",
@@ -4491,7 +4787,8 @@
    "lat": 53.93333,
    "lon": 14.45,
    "wikipedia": "Wolin National Park",
-   "link": "https://en.wikipedia.org/wiki/Wolin_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Wolin_National_Park",
+   "country": "Poland"
   },
   {
    "id": "slowinski-national-park",
@@ -4506,7 +4803,8 @@
    "lat": 54.70333,
    "lon": 17.30694,
    "wikipedia": "Slovincian National Park",
-   "link": "https://en.wikipedia.org/wiki/Slovincian_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Slovincian_National_Park",
+   "country": "Poland"
   },
   {
    "id": "hel-peninsula",
@@ -4521,7 +4819,8 @@
    "lat": 54.64167,
    "lon": 18.78139,
    "wikipedia": "Hel Peninsula",
-   "link": "https://en.wikipedia.org/wiki/Hel_Peninsula"
+   "link": "https://en.wikipedia.org/wiki/Hel_Peninsula",
+   "country": "Poland"
   },
   {
    "id": "sopot",
@@ -4535,7 +4834,8 @@
    "leg": "return",
    "lat": 54.44304,
    "lon": 18.56131,
-   "link": "https://www.openstreetmap.org/?mlat=54.44304&mlon=18.56131#map=14/54.44304/18.56131"
+   "link": "https://www.openstreetmap.org/?mlat=54.44304&mlon=18.56131#map=14/54.44304/18.56131",
+   "country": "Poland"
   },
   {
    "id": "oliwa-cathedral",
@@ -4549,7 +4849,8 @@
    "leg": "return",
    "lat": 54.41076,
    "lon": 18.557,
-   "link": "https://www.openstreetmap.org/?mlat=54.41076&mlon=18.557#map=14/54.41076/18.557"
+   "link": "https://www.openstreetmap.org/?mlat=54.41076&mlon=18.557#map=14/54.41076/18.557",
+   "country": "Poland"
   },
   {
    "id": "st-mary-s-church-gdansk",
@@ -4564,7 +4865,8 @@
    "lat": 54.34975,
    "lon": 18.65369,
    "wikipedia": "St. Mary's Church, Gdańsk",
-   "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Church%2C_Gda%C5%84sk"
+   "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Church%2C_Gda%C5%84sk",
+   "country": "Poland"
   },
   {
    "id": "westerplatte",
@@ -4579,7 +4881,8 @@
    "lat": 54.4075,
    "lon": 18.67139,
    "wikipedia": "Westerplatte",
-   "link": "https://en.wikipedia.org/wiki/Westerplatte"
+   "link": "https://en.wikipedia.org/wiki/Westerplatte",
+   "country": "Poland"
   },
   {
    "id": "malbork-castle",
@@ -4594,7 +4897,8 @@
    "lat": 54.03972,
    "lon": 19.02778,
    "wikipedia": "Malbork Castle",
-   "link": "https://en.wikipedia.org/wiki/Malbork_Castle"
+   "link": "https://en.wikipedia.org/wiki/Malbork_Castle",
+   "country": "Poland"
   },
   {
    "id": "elblag-canal",
@@ -4609,7 +4913,8 @@
    "lat": 54.02444,
    "lon": 19.59778,
    "wikipedia": "Elbląg Canal",
-   "link": "https://en.wikipedia.org/wiki/Elbl%C4%85g_Canal"
+   "link": "https://en.wikipedia.org/wiki/Elbl%C4%85g_Canal",
+   "country": "Poland"
   },
   {
    "id": "frombork",
@@ -4624,7 +4929,8 @@
    "lat": 54.35,
    "lon": 19.68333,
    "wikipedia": "Frombork",
-   "link": "https://en.wikipedia.org/wiki/Frombork"
+   "link": "https://en.wikipedia.org/wiki/Frombork",
+   "country": "Poland"
   },
   {
    "id": "lidzbark-warminski-castle",
@@ -4638,7 +4944,8 @@
    "leg": "return",
    "lat": 54.12571,
    "lon": 20.58306,
-   "link": "https://www.openstreetmap.org/?mlat=54.12571&mlon=20.58306#map=14/54.12571/20.58306"
+   "link": "https://www.openstreetmap.org/?mlat=54.12571&mlon=20.58306#map=14/54.12571/20.58306",
+   "country": "Poland"
   },
   {
    "id": "swieta-lipka",
@@ -4653,7 +4960,8 @@
    "lat": 54.03333,
    "lon": 21.21667,
    "wikipedia": "Święta Lipka",
-   "link": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Lipka"
+   "link": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Lipka",
+   "country": "Poland"
   },
   {
    "id": "wolf-s-lair",
@@ -4668,7 +4976,8 @@
    "lat": 54.0804,
    "lon": 21.4941,
    "wikipedia": "Wolf's Lair",
-   "link": "https://en.wikipedia.org/wiki/Wolf%27s_Lair"
+   "link": "https://en.wikipedia.org/wiki/Wolf%27s_Lair",
+   "country": "Poland"
   },
   {
    "id": "krutynia",
@@ -4682,7 +4991,8 @@
    "leg": "return",
    "lat": 53.68715,
    "lon": 21.43022,
-   "link": "https://www.openstreetmap.org/?mlat=53.68715&mlon=21.43022#map=14/53.68715/21.43022"
+   "link": "https://www.openstreetmap.org/?mlat=53.68715&mlon=21.43022#map=14/53.68715/21.43022",
+   "country": "Poland"
   },
   {
    "id": "mikolajki",
@@ -4697,7 +5007,8 @@
    "lat": 53.8,
    "lon": 21.58333,
    "wikipedia": "Mikołajki",
-   "link": "https://en.wikipedia.org/wiki/Miko%C5%82ajki"
+   "link": "https://en.wikipedia.org/wiki/Miko%C5%82ajki",
+   "country": "Poland"
   },
   {
    "id": "tykocin",
@@ -4711,7 +5022,8 @@
    "leg": "return",
    "lat": 53.20765,
    "lon": 22.77302,
-   "link": "https://www.openstreetmap.org/?mlat=53.20765&mlon=22.77302#map=14/53.20765/22.77302"
+   "link": "https://www.openstreetmap.org/?mlat=53.20765&mlon=22.77302#map=14/53.20765/22.77302",
+   "country": "Poland"
   },
   {
    "id": "bialowieza-forest",
@@ -4726,7 +5038,8 @@
    "lat": 52.7009,
    "lon": 23.8436,
    "wikipedia": "Białowieża Forest",
-   "link": "https://en.wikipedia.org/wiki/Bia%C5%82owie%C5%BCa_Forest"
+   "link": "https://en.wikipedia.org/wiki/Bia%C5%82owie%C5%BCa_Forest",
+   "country": "Poland"
   },
   {
    "id": "druskininkai",
@@ -4741,7 +5054,8 @@
    "lat": 54.01667,
    "lon": 23.96667,
    "wikipedia": "Druskininkai",
-   "link": "https://en.wikipedia.org/wiki/Druskininkai"
+   "link": "https://en.wikipedia.org/wiki/Druskininkai",
+   "country": "Lithuania"
   },
   {
    "id": "grutas-park",
@@ -4756,7 +5070,8 @@
    "lat": 54.022,
    "lon": 24.079,
    "wikipedia": "Grūtas Park",
-   "link": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+   "link": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park",
+   "country": "Lithuania"
   },
   {
    "id": "trakai-island-castle",
@@ -4771,7 +5086,8 @@
    "lat": 54.6525,
    "lon": 24.93306,
    "wikipedia": "Trakai Island Castle",
-   "link": "https://en.wikipedia.org/wiki/Trakai_Island_Castle"
+   "link": "https://en.wikipedia.org/wiki/Trakai_Island_Castle",
+   "country": "Lithuania"
   },
   {
    "id": "vilnius-old-town",
@@ -4786,7 +5102,8 @@
    "lat": 54.68667,
    "lon": 25.29306,
    "wikipedia": "Vilnius Old Town",
-   "link": "https://en.wikipedia.org/wiki/Vilnius_Old_Town"
+   "link": "https://en.wikipedia.org/wiki/Vilnius_Old_Town",
+   "country": "Lithuania"
   },
   {
    "id": "kernave",
@@ -4801,7 +5118,8 @@
    "lat": 54.88333,
    "lon": 24.85,
    "wikipedia": "Kernavė",
-   "link": "https://en.wikipedia.org/wiki/Kernav%C4%97"
+   "link": "https://en.wikipedia.org/wiki/Kernav%C4%97",
+   "country": "Lithuania"
   },
   {
    "id": "kaunas-castle",
@@ -4816,7 +5134,8 @@
    "lat": 54.89889,
    "lon": 23.885,
    "wikipedia": "Kaunas Castle",
-   "link": "https://en.wikipedia.org/wiki/Kaunas_Castle"
+   "link": "https://en.wikipedia.org/wiki/Kaunas_Castle",
+   "country": "Lithuania"
   },
   {
    "id": "hill-of-crosses",
@@ -4831,7 +5150,8 @@
    "lat": 56.01528,
    "lon": 23.41667,
    "wikipedia": "Hill of Crosses",
-   "link": "https://en.wikipedia.org/wiki/Hill_of_Crosses"
+   "link": "https://en.wikipedia.org/wiki/Hill_of_Crosses",
+   "country": "Lithuania"
   },
   {
    "id": "rundale-palace",
@@ -4846,7 +5166,8 @@
    "lat": 56.4138,
    "lon": 24.0248,
    "wikipedia": "Rundāle Palace",
-   "link": "https://en.wikipedia.org/wiki/Rund%C4%81le_Palace"
+   "link": "https://en.wikipedia.org/wiki/Rund%C4%81le_Palace",
+   "country": "Latvia"
   },
   {
    "id": "bauska-castle",
@@ -4861,7 +5182,8 @@
    "lat": 56.40361,
    "lon": 24.17361,
    "wikipedia": "Bauska Castle",
-   "link": "https://en.wikipedia.org/wiki/Bauska_Castle"
+   "link": "https://en.wikipedia.org/wiki/Bauska_Castle",
+   "country": "Latvia"
   },
   {
    "id": "old-riga",
@@ -4876,7 +5198,8 @@
    "lat": 56.94793,
    "lon": 24.10797,
    "wikipedia": "Vecrīga",
-   "link": "https://en.wikipedia.org/wiki/Vecr%C4%ABga"
+   "link": "https://en.wikipedia.org/wiki/Vecr%C4%ABga",
+   "country": "Latvia"
   },
   {
    "id": "kemeri-national-park",
@@ -4891,7 +5214,8 @@
    "lat": 56.95167,
    "lon": 23.5125,
    "wikipedia": "Ķemeri National Park",
-   "link": "https://en.wikipedia.org/wiki/%C4%B6emeri_National_Park"
+   "link": "https://en.wikipedia.org/wiki/%C4%B6emeri_National_Park",
+   "country": "Latvia"
   },
   {
    "id": "cape-kolka",
@@ -4906,7 +5230,8 @@
    "lat": 57.75894,
    "lon": 22.60475,
    "wikipedia": "Cape Kolka",
-   "link": "https://en.wikipedia.org/wiki/Cape_Kolka"
+   "link": "https://en.wikipedia.org/wiki/Cape_Kolka",
+   "country": "Latvia"
   },
   {
    "id": "turaida-castle",
@@ -4921,7 +5246,8 @@
    "lat": 57.18222,
    "lon": 24.85028,
    "wikipedia": "Turaida Castle",
-   "link": "https://en.wikipedia.org/wiki/Turaida_Castle"
+   "link": "https://en.wikipedia.org/wiki/Turaida_Castle",
+   "country": "Latvia"
   },
   {
    "id": "gauja-national-park",
@@ -4936,7 +5262,8 @@
    "lat": 57.41667,
    "lon": 25.41667,
    "wikipedia": "Gauja National Park",
-   "link": "https://en.wikipedia.org/wiki/Gauja_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Gauja_National_Park",
+   "country": "Latvia"
   },
   {
    "id": "cesis-castle",
@@ -4951,7 +5278,8 @@
    "lat": 57.31333,
    "lon": 25.27,
    "wikipedia": "Cēsis Castle",
-   "link": "https://en.wikipedia.org/wiki/C%C4%93sis_Castle"
+   "link": "https://en.wikipedia.org/wiki/C%C4%93sis_Castle",
+   "country": "Latvia"
   },
   {
    "id": "araisi-lake-fortress",
@@ -4965,7 +5293,8 @@
    "leg": "return",
    "lat": 57.2519,
    "lon": 25.28269,
-   "link": "https://www.openstreetmap.org/?mlat=57.2519&mlon=25.28269#map=14/57.2519/25.28269"
+   "link": "https://www.openstreetmap.org/?mlat=57.2519&mlon=25.28269#map=14/57.2519/25.28269",
+   "country": "Latvia"
   },
   {
    "id": "rouge",
@@ -4980,7 +5309,8 @@
    "lat": 57.72778,
    "lon": 26.90972,
    "wikipedia": "Rõuge",
-   "link": "https://en.wikipedia.org/wiki/R%C3%B5uge"
+   "link": "https://en.wikipedia.org/wiki/R%C3%B5uge",
+   "country": "Estonia"
   },
   {
    "id": "suur-munamagi",
@@ -4995,7 +5325,8 @@
    "lat": 57.71444,
    "lon": 27.05917,
    "wikipedia": "Suur Munamägi",
-   "link": "https://en.wikipedia.org/wiki/Suur_Munam%C3%A4gi"
+   "link": "https://en.wikipedia.org/wiki/Suur_Munam%C3%A4gi",
+   "country": "Estonia"
   },
   {
    "id": "piusa-caves",
@@ -5010,7 +5341,8 @@
    "lat": 57.84167,
    "lon": 27.46667,
    "wikipedia": "Piusa Caves Nature Reserve",
-   "link": "https://en.wikipedia.org/wiki/Piusa_Caves_Nature_Reserve"
+   "link": "https://en.wikipedia.org/wiki/Piusa_Caves_Nature_Reserve",
+   "country": "Estonia"
   },
   {
    "id": "tartu",
@@ -5025,7 +5357,8 @@
    "lat": 58.38,
    "lon": 26.7225,
    "wikipedia": "Tartu",
-   "link": "https://en.wikipedia.org/wiki/Tartu"
+   "link": "https://en.wikipedia.org/wiki/Tartu",
+   "country": "Estonia"
   },
   {
    "id": "lake-peipus",
@@ -5040,7 +5373,8 @@
    "lat": 58.735,
    "lon": 27.045,
    "wikipedia": "Lake Peipus",
-   "link": "https://en.wikipedia.org/wiki/Lake_Peipus"
+   "link": "https://en.wikipedia.org/wiki/Lake_Peipus",
+   "country": "Estonia"
   },
   {
    "id": "puhtitsa-convent",
@@ -5055,7 +5389,8 @@
    "lat": 59.2025,
    "lon": 27.53639,
    "wikipedia": "Pühtitsa Convent",
-   "link": "https://en.wikipedia.org/wiki/P%C3%BChtitsa_Convent"
+   "link": "https://en.wikipedia.org/wiki/P%C3%BChtitsa_Convent",
+   "country": "Estonia"
   },
   {
    "id": "narva-castle",
@@ -5070,7 +5405,8 @@
    "lat": 59.37583,
    "lon": 28.20139,
    "wikipedia": "Hermann Castle",
-   "link": "https://en.wikipedia.org/wiki/Hermann_Castle"
+   "link": "https://en.wikipedia.org/wiki/Hermann_Castle",
+   "country": "Estonia"
   },
   {
    "id": "valaste-waterfall",
@@ -5085,7 +5421,8 @@
    "lat": 59.44384,
    "lon": 27.3351,
    "wikipedia": "Valaste Falls",
-   "link": "https://en.wikipedia.org/wiki/Valaste_Falls"
+   "link": "https://en.wikipedia.org/wiki/Valaste_Falls",
+   "country": "Estonia"
   },
   {
    "id": "lahemaa-national-park",
@@ -5100,7 +5437,8 @@
    "lat": 59.57111,
    "lon": 25.80028,
    "wikipedia": "Lahemaa National Park",
-   "link": "https://en.wikipedia.org/wiki/Lahemaa_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Lahemaa_National_Park",
+   "country": "Estonia"
   },
   {
    "id": "palmse-manor",
@@ -5115,7 +5453,8 @@
    "lat": 59.51667,
    "lon": 25.95,
    "wikipedia": "Palmse",
-   "link": "https://en.wikipedia.org/wiki/Palmse"
+   "link": "https://en.wikipedia.org/wiki/Palmse",
+   "country": "Estonia"
   },
   {
    "id": "jagala-waterfall",
@@ -5130,7 +5469,8 @@
    "lat": 59.44982,
    "lon": 25.17855,
    "wikipedia": "Jägala Waterfall",
-   "link": "https://en.wikipedia.org/wiki/J%C3%A4gala_Waterfall"
+   "link": "https://en.wikipedia.org/wiki/J%C3%A4gala_Waterfall",
+   "country": "Estonia"
   },
   {
    "id": "keila-falls",
@@ -5145,7 +5485,8 @@
    "lat": 59.396,
    "lon": 24.29472,
    "wikipedia": "Keila Falls",
-   "link": "https://en.wikipedia.org/wiki/Keila_Falls"
+   "link": "https://en.wikipedia.org/wiki/Keila_Falls",
+   "country": "Estonia"
   },
   {
    "id": "haapsalu-castle",
@@ -5160,7 +5501,8 @@
    "lat": 58.94722,
    "lon": 23.53861,
    "wikipedia": "Haapsalu Castle",
-   "link": "https://en.wikipedia.org/wiki/Haapsalu_Castle"
+   "link": "https://en.wikipedia.org/wiki/Haapsalu_Castle",
+   "country": "Estonia"
   },
   {
    "id": "matsalu-national-park",
@@ -5175,7 +5517,8 @@
    "lat": 58.76,
    "lon": 23.59694,
    "wikipedia": "Matsalu National Park",
-   "link": "https://en.wikipedia.org/wiki/Matsalu_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Matsalu_National_Park",
+   "country": "Estonia"
   },
   {
    "id": "viljandi-castle",
@@ -5190,7 +5533,8 @@
    "lat": 58.35917,
    "lon": 25.595,
    "wikipedia": "Viljandi Castle",
-   "link": "https://en.wikipedia.org/wiki/Viljandi_Castle"
+   "link": "https://en.wikipedia.org/wiki/Viljandi_Castle",
+   "country": "Estonia"
   },
   {
    "id": "soomaa-national-park",
@@ -5205,7 +5549,8 @@
    "lat": 58.44083,
    "lon": 25.10556,
    "wikipedia": "Soomaa National Park",
-   "link": "https://en.wikipedia.org/wiki/Soomaa_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Soomaa_National_Park",
+   "country": "Estonia"
   },
   {
    "id": "home1",
@@ -5217,7 +5562,8 @@
    "leg": "return",
    "lat": 58.386,
    "lon": 24.497,
-   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497"
+   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497",
+   "country": "Estonia"
   },
   {
    "id": "helsinki-cathedral",
@@ -5232,7 +5578,8 @@
    "lat": 60.17028,
    "lon": 24.95222,
    "wikipedia": "Helsinki Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Helsinki_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Helsinki_Cathedral",
+   "country": "Finland"
   },
   {
    "id": "hame-castle",
@@ -5247,7 +5594,8 @@
    "lat": 61.00389,
    "lon": 24.45806,
    "wikipedia": "Häme Castle",
-   "link": "https://en.wikipedia.org/wiki/H%C3%A4me_Castle"
+   "link": "https://en.wikipedia.org/wiki/H%C3%A4me_Castle",
+   "country": "Finland"
   },
   {
    "id": "rovaniemi",
@@ -5259,7 +5607,8 @@
    "leg": "arctic",
    "lat": 66.5,
    "lon": 25.73,
-   "link": "https://www.openstreetmap.org/?mlat=66.5&mlon=25.73#map=14/66.5/25.73"
+   "link": "https://www.openstreetmap.org/?mlat=66.5&mlon=25.73#map=14/66.5/25.73",
+   "country": "Finland"
   },
   {
    "id": "santa-claus-village",
@@ -5273,7 +5622,8 @@
    "leg": "arctic",
    "lat": 66.54326,
    "lon": 25.84583,
-   "link": "https://www.openstreetmap.org/?mlat=66.54326&mlon=25.84583#map=14/66.54326/25.84583"
+   "link": "https://www.openstreetmap.org/?mlat=66.54326&mlon=25.84583#map=14/66.54326/25.84583",
+   "country": "Finland"
   },
   {
    "id": "sodankyla-old-church",
@@ -5287,7 +5637,8 @@
    "leg": "arctic",
    "lat": 67.41462,
    "lon": 26.59685,
-   "link": "https://www.openstreetmap.org/?mlat=67.41462&mlon=26.59685#map=14/67.41462/26.59685"
+   "link": "https://www.openstreetmap.org/?mlat=67.41462&mlon=26.59685#map=14/67.41462/26.59685",
+   "country": "Finland"
   },
   {
    "id": "pyha-luosto-national-park",
@@ -5302,7 +5653,8 @@
    "lat": 67.06639,
    "lon": 26.97361,
    "wikipedia": "Pyhä-Luosto National Park",
-   "link": "https://en.wikipedia.org/wiki/Pyh%C3%A4-Luosto_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Pyh%C3%A4-Luosto_National_Park",
+   "country": "Finland"
   },
   {
    "id": "tankavaara",
@@ -5316,7 +5668,8 @@
    "leg": "arctic",
    "lat": 68.18104,
    "lon": 27.09846,
-   "link": "https://www.openstreetmap.org/?mlat=68.18104&mlon=27.09846#map=14/68.18104/27.09846"
+   "link": "https://www.openstreetmap.org/?mlat=68.18104&mlon=27.09846#map=14/68.18104/27.09846",
+   "country": "Finland"
   },
   {
    "id": "urho-kekkonen-national-park",
@@ -5331,7 +5684,8 @@
    "lat": 68.33333,
    "lon": 28,
    "wikipedia": "Urho Kekkonen National Park",
-   "link": "https://en.wikipedia.org/wiki/Urho_Kekkonen_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Urho_Kekkonen_National_Park",
+   "country": "Finland"
   },
   {
    "id": "siida",
@@ -5346,7 +5700,8 @@
    "lat": 68.91088,
    "lon": 27.0134,
    "wikipedia": "Siida",
-   "link": "https://en.wikipedia.org/wiki/Siida"
+   "link": "https://en.wikipedia.org/wiki/Siida",
+   "country": "Finland"
   },
   {
    "id": "sajos",
@@ -5360,7 +5715,8 @@
    "leg": "arctic",
    "lat": 68.90773,
    "lon": 27.01275,
-   "link": "https://www.openstreetmap.org/?mlat=68.90773&mlon=27.01275#map=14/68.90773/27.01275"
+   "link": "https://www.openstreetmap.org/?mlat=68.90773&mlon=27.01275#map=14/68.90773/27.01275",
+   "country": "Finland"
   },
   {
    "id": "lake-inari",
@@ -5375,7 +5731,8 @@
    "lat": 69,
    "lon": 28,
    "wikipedia": "Lake Inari",
-   "link": "https://en.wikipedia.org/wiki/Lake_Inari"
+   "link": "https://en.wikipedia.org/wiki/Lake_Inari",
+   "country": "Finland"
   },
   {
    "id": "kevo-strict-nature-reserve",
@@ -5390,7 +5747,8 @@
    "lat": 69.58083,
    "lon": 26.71556,
    "wikipedia": "Kevo Strict Nature Reserve",
-   "link": "https://en.wikipedia.org/wiki/Kevo_Strict_Nature_Reserve"
+   "link": "https://en.wikipedia.org/wiki/Kevo_Strict_Nature_Reserve",
+   "country": "Finland"
   },
   {
    "id": "tana",
@@ -5404,7 +5762,8 @@
    "leg": "arctic",
    "lat": 70.19827,
    "lon": 28.19868,
-   "link": "https://www.openstreetmap.org/?mlat=70.19827&mlon=28.19868#map=14/70.19827/28.19868"
+   "link": "https://www.openstreetmap.org/?mlat=70.19827&mlon=28.19868#map=14/70.19827/28.19868",
+   "country": "Norway"
   },
   {
    "id": "nordkapp",
@@ -5416,7 +5775,8 @@
    "leg": "arctic",
    "lat": 71.17,
    "lon": 25.78,
-   "link": "https://www.openstreetmap.org/?mlat=71.17&mlon=25.78#map=14/71.17/25.78"
+   "link": "https://www.openstreetmap.org/?mlat=71.17&mlon=25.78#map=14/71.17/25.78",
+   "country": "Norway"
   },
   {
    "id": "alta-museum",
@@ -5431,7 +5791,8 @@
    "lat": 69.94747,
    "lon": 23.18656,
    "wikipedia": "World Heritage Rock Art Centre - Alta Museum",
-   "link": "https://en.wikipedia.org/wiki/World_Heritage_Rock_Art_Centre_-_Alta_Museum"
+   "link": "https://en.wikipedia.org/wiki/World_Heritage_Rock_Art_Centre_-_Alta_Museum",
+   "country": "Norway"
   },
   {
    "id": "alta-canyon",
@@ -5445,7 +5806,8 @@
    "leg": "arctic",
    "lat": 69.77987,
    "lon": 23.55742,
-   "link": "https://www.openstreetmap.org/?mlat=69.77987&mlon=23.55742#map=14/69.77987/23.55742"
+   "link": "https://www.openstreetmap.org/?mlat=69.77987&mlon=23.55742#map=14/69.77987/23.55742",
+   "country": "Norway"
   },
   {
    "id": "lyngen-alps",
@@ -5460,7 +5822,8 @@
    "lat": 69.7903,
    "lon": 20.1695,
    "wikipedia": "Lyngen Alps",
-   "link": "https://en.wikipedia.org/wiki/Lyngen_Alps"
+   "link": "https://en.wikipedia.org/wiki/Lyngen_Alps",
+   "country": "Norway"
   },
   {
    "id": "fjellheisen",
@@ -5474,7 +5837,8 @@
    "leg": "arctic",
    "lat": 69.63852,
    "lon": 18.99084,
-   "link": "https://www.openstreetmap.org/?mlat=69.63852&mlon=18.99084#map=14/69.63852/18.99084"
+   "link": "https://www.openstreetmap.org/?mlat=69.63852&mlon=18.99084#map=14/69.63852/18.99084",
+   "country": "Norway"
   },
   {
    "id": "arctic-cathedral",
@@ -5489,7 +5853,8 @@
    "lat": 69.6482,
    "lon": 18.9871,
    "wikipedia": "Arctic Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Arctic_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Arctic_Cathedral",
+   "country": "Norway"
   },
   {
    "id": "segla",
@@ -5503,7 +5868,8 @@
    "leg": "arctic",
    "lat": 69.50737,
    "lon": 17.59572,
-   "link": "https://www.openstreetmap.org/?mlat=69.50737&mlon=17.59572#map=14/69.50737/17.59572"
+   "link": "https://www.openstreetmap.org/?mlat=69.50737&mlon=17.59572#map=14/69.50737/17.59572",
+   "country": "Norway"
   },
   {
    "id": "senja",
@@ -5518,7 +5884,8 @@
    "lat": 69.0806,
    "lon": 16.8031,
    "wikipedia": "Senja",
-   "link": "https://en.wikipedia.org/wiki/Senja"
+   "link": "https://en.wikipedia.org/wiki/Senja",
+   "country": "Norway"
   },
   {
    "id": "bleik",
@@ -5532,7 +5899,8 @@
    "leg": "arctic",
    "lat": 69.27188,
    "lon": 15.95846,
-   "link": "https://www.openstreetmap.org/?mlat=69.27188&mlon=15.95846#map=14/69.27188/15.95846"
+   "link": "https://www.openstreetmap.org/?mlat=69.27188&mlon=15.95846#map=14/69.27188/15.95846",
+   "country": "Norway"
   },
   {
    "id": "andenes",
@@ -5547,7 +5915,8 @@
    "lat": 69.3144,
    "lon": 16.1194,
    "wikipedia": "Andenes",
-   "link": "https://en.wikipedia.org/wiki/Andenes"
+   "link": "https://en.wikipedia.org/wiki/Andenes",
+   "country": "Norway"
   },
   {
    "id": "svolvaer",
@@ -5561,7 +5930,8 @@
    "leg": "arctic",
    "lat": 68.23217,
    "lon": 14.5646,
-   "link": "https://www.openstreetmap.org/?mlat=68.23217&mlon=14.5646#map=14/68.23217/14.5646"
+   "link": "https://www.openstreetmap.org/?mlat=68.23217&mlon=14.5646#map=14/68.23217/14.5646",
+   "country": "Norway"
   },
   {
    "id": "vagan-church",
@@ -5575,7 +5945,8 @@
    "leg": "arctic",
    "lat": 68.21565,
    "lon": 14.48373,
-   "link": "https://www.openstreetmap.org/?mlat=68.21565&mlon=14.48373#map=14/68.21565/14.48373"
+   "link": "https://www.openstreetmap.org/?mlat=68.21565&mlon=14.48373#map=14/68.21565/14.48373",
+   "country": "Norway"
   },
   {
    "id": "henningsvaer",
@@ -5590,7 +5961,8 @@
    "lat": 68.1529,
    "lon": 14.2008,
    "wikipedia": "Henningsvær",
-   "link": "https://en.wikipedia.org/wiki/Henningsv%C3%A6r"
+   "link": "https://en.wikipedia.org/wiki/Henningsv%C3%A6r",
+   "country": "Norway"
   },
   {
    "id": "haukland-beach",
@@ -5604,7 +5976,8 @@
    "leg": "arctic",
    "lat": 68.19799,
    "lon": 13.52919,
-   "link": "https://www.openstreetmap.org/?mlat=68.19799&mlon=13.52919#map=14/68.19799/13.52919"
+   "link": "https://www.openstreetmap.org/?mlat=68.19799&mlon=13.52919#map=14/68.19799/13.52919",
+   "country": "Norway"
   },
   {
    "id": "nusfjord",
@@ -5619,7 +5992,8 @@
    "lat": 68.0353,
    "lon": 13.3478,
    "wikipedia": "Nusfjord",
-   "link": "https://en.wikipedia.org/wiki/Nusfjord"
+   "link": "https://en.wikipedia.org/wiki/Nusfjord",
+   "country": "Norway"
   },
   {
    "id": "hamnoy",
@@ -5633,7 +6007,8 @@
    "leg": "arctic",
    "lat": 67.9469,
    "lon": 13.1194,
-   "link": "https://www.openstreetmap.org/?mlat=67.9469&mlon=13.1194#map=14/67.9469/13.1194"
+   "link": "https://www.openstreetmap.org/?mlat=67.9469&mlon=13.1194#map=14/67.9469/13.1194",
+   "country": "Norway"
   },
   {
    "id": "lofoten",
@@ -5645,7 +6020,8 @@
    "leg": "arctic",
    "lat": 67.93,
    "lon": 13.09,
-   "link": "https://www.openstreetmap.org/?mlat=67.93&mlon=13.09#map=14/67.93/13.09"
+   "link": "https://www.openstreetmap.org/?mlat=67.93&mlon=13.09#map=14/67.93/13.09",
+   "country": "Norway"
   },
   {
    "id": "lofotr-viking-museum",
@@ -5660,7 +6036,8 @@
    "lat": 68.24,
    "lon": 13.7531,
    "wikipedia": "Lofotr Viking Museum",
-   "link": "https://en.wikipedia.org/wiki/Lofotr_Viking_Museum"
+   "link": "https://en.wikipedia.org/wiki/Lofotr_Viking_Museum",
+   "country": "Norway"
   },
   {
    "id": "kjerringoy",
@@ -5675,7 +6052,8 @@
    "lat": 67.5195,
    "lon": 14.7643,
    "wikipedia": "Kjerringøy",
-   "link": "https://en.wikipedia.org/wiki/Kjerring%C3%B8y"
+   "link": "https://en.wikipedia.org/wiki/Kjerring%C3%B8y",
+   "country": "Norway"
   },
   {
    "id": "saltstraumen",
@@ -5690,7 +6068,8 @@
    "lat": 67.22805,
    "lon": 14.61635,
    "wikipedia": "Saltstraumen",
-   "link": "https://en.wikipedia.org/wiki/Saltstraumen"
+   "link": "https://en.wikipedia.org/wiki/Saltstraumen",
+   "country": "Norway"
   },
   {
    "id": "saltfjelletsvartisen-national-park",
@@ -5705,7 +6084,8 @@
    "lat": 66.6,
    "lon": 14.18333,
    "wikipedia": "Saltfjellet–Svartisen National Park",
-   "link": "https://en.wikipedia.org/wiki/Saltfjellet%E2%80%93Svartisen_National_Park"
+   "link": "https://en.wikipedia.org/wiki/Saltfjellet%E2%80%93Svartisen_National_Park",
+   "country": "Norway"
   },
   {
    "id": "seven-sisters",
@@ -5719,7 +6099,8 @@
    "leg": "arctic",
    "lat": 65.97,
    "lon": 12.655,
-   "link": "https://www.openstreetmap.org/?mlat=65.97&mlon=12.655#map=14/65.97/12.655"
+   "link": "https://www.openstreetmap.org/?mlat=65.97&mlon=12.655#map=14/65.97/12.655",
+   "country": "Norway"
   },
   {
    "id": "petter-dass-museum",
@@ -5733,7 +6114,8 @@
    "leg": "arctic",
    "lat": 65.89425,
    "lon": 12.39682,
-   "link": "https://www.openstreetmap.org/?mlat=65.89425&mlon=12.39682#map=14/65.89425/12.39682"
+   "link": "https://www.openstreetmap.org/?mlat=65.89425&mlon=12.39682#map=14/65.89425/12.39682",
+   "country": "Norway"
   },
   {
    "id": "torghatten",
@@ -5748,7 +6130,8 @@
    "lat": 65.39833,
    "lon": 12.08972,
    "wikipedia": "Torghatten",
-   "link": "https://en.wikipedia.org/wiki/Torghatten"
+   "link": "https://en.wikipedia.org/wiki/Torghatten",
+   "country": "Norway"
   },
   {
    "id": "nidaros-cathedral",
@@ -5763,7 +6146,8 @@
    "lat": 63.4267,
    "lon": 10.3962,
    "wikipedia": "Nidaros Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Nidaros_Cathedral"
+   "link": "https://en.wikipedia.org/wiki/Nidaros_Cathedral",
+   "country": "Norway"
   },
   {
    "id": "munkholmen",
@@ -5777,7 +6161,8 @@
    "leg": "arctic",
    "lat": 63.45231,
    "lon": 10.38378,
-   "link": "https://www.openstreetmap.org/?mlat=63.45231&mlon=10.38378#map=14/63.45231/10.38378"
+   "link": "https://www.openstreetmap.org/?mlat=63.45231&mlon=10.38378#map=14/63.45231/10.38378",
+   "country": "Norway"
   },
   {
    "id": "atlantic-ocean-road",
@@ -5792,7 +6177,8 @@
    "lat": 63.0167,
    "lon": 7.3545,
    "wikipedia": "Atlantic Ocean Road",
-   "link": "https://en.wikipedia.org/wiki/Atlantic_Ocean_Road"
+   "link": "https://en.wikipedia.org/wiki/Atlantic_Ocean_Road",
+   "country": "Norway"
   },
   {
    "id": "alesund",
@@ -5807,7 +6193,8 @@
    "lat": 62.47226,
    "lon": 6.1549,
    "wikipedia": "Ålesund",
-   "link": "https://en.wikipedia.org/wiki/%C3%85lesund"
+   "link": "https://en.wikipedia.org/wiki/%C3%85lesund",
+   "country": "Norway"
   },
   {
    "id": "rampestreken",
@@ -5821,7 +6208,8 @@
    "leg": "arctic",
    "lat": 62.56077,
    "lon": 7.7126,
-   "link": "https://www.openstreetmap.org/?mlat=62.56077&mlon=7.7126#map=14/62.56077/7.7126"
+   "link": "https://www.openstreetmap.org/?mlat=62.56077&mlon=7.7126#map=14/62.56077/7.7126",
+   "country": "Norway"
   },
   {
    "id": "trollveggen",
@@ -5836,7 +6224,8 @@
    "lat": 62.4824,
    "lon": 7.7288,
    "wikipedia": "Troll Wall",
-   "link": "https://en.wikipedia.org/wiki/Troll_Wall"
+   "link": "https://en.wikipedia.org/wiki/Troll_Wall",
+   "country": "Norway"
   },
   {
    "id": "trollstigen",
@@ -5851,7 +6240,8 @@
    "lat": 62.46667,
    "lon": 7.66667,
    "wikipedia": "Trollstigen",
-   "link": "https://en.wikipedia.org/wiki/Trollstigen"
+   "link": "https://en.wikipedia.org/wiki/Trollstigen",
+   "country": "Norway"
   },
   {
    "id": "geiranger",
@@ -5863,7 +6253,8 @@
    "leg": "arctic",
    "lat": 62.1,
    "lon": 7.2,
-   "link": "https://www.openstreetmap.org/?mlat=62.1&mlon=7.2#map=14/62.1/7.2"
+   "link": "https://www.openstreetmap.org/?mlat=62.1&mlon=7.2#map=14/62.1/7.2",
+   "country": "Norway"
   },
   {
    "id": "dalsnibba",
@@ -5877,7 +6268,8 @@
    "leg": "arctic",
    "lat": 62.04785,
    "lon": 7.27131,
-   "link": "https://www.openstreetmap.org/?mlat=62.04785&mlon=7.27131#map=14/62.04785/7.27131"
+   "link": "https://www.openstreetmap.org/?mlat=62.04785&mlon=7.27131#map=14/62.04785/7.27131",
+   "country": "Norway"
   },
   {
    "id": "loen-skylift",
@@ -5891,7 +6283,8 @@
    "leg": "arctic",
    "lat": 61.88015,
    "lon": 6.83662,
-   "link": "https://www.openstreetmap.org/?mlat=61.88015&mlon=6.83662#map=14/61.88015/6.83662"
+   "link": "https://www.openstreetmap.org/?mlat=61.88015&mlon=6.83662#map=14/61.88015/6.83662",
+   "country": "Norway"
   },
   {
    "id": "briksdalsbreen",
@@ -5906,7 +6299,8 @@
    "lat": 61.66583,
    "lon": 6.89,
    "wikipedia": "Briksdalsbreen",
-   "link": "https://en.wikipedia.org/wiki/Briksdalsbreen"
+   "link": "https://en.wikipedia.org/wiki/Briksdalsbreen",
+   "country": "Norway"
   },
   {
    "id": "urnes-stave-church",
@@ -5921,7 +6315,8 @@
    "lat": 61.29811,
    "lon": 7.32259,
    "wikipedia": "Urnes Stave Church",
-   "link": "https://en.wikipedia.org/wiki/Urnes_Stave_Church"
+   "link": "https://en.wikipedia.org/wiki/Urnes_Stave_Church",
+   "country": "Norway"
   },
   {
    "id": "borgund-stave-church",
@@ -5936,7 +6331,8 @@
    "lat": 61.0472,
    "lon": 7.8122,
    "wikipedia": "Borgund Stave Church",
-   "link": "https://en.wikipedia.org/wiki/Borgund_Stave_Church"
+   "link": "https://en.wikipedia.org/wiki/Borgund_Stave_Church",
+   "country": "Norway"
   },
   {
    "id": "stegastein",
@@ -5950,7 +6346,8 @@
    "leg": "arctic",
    "lat": 60.90863,
    "lon": 7.21177,
-   "link": "https://www.openstreetmap.org/?mlat=60.90863&mlon=7.21177#map=14/60.90863/7.21177"
+   "link": "https://www.openstreetmap.org/?mlat=60.90863&mlon=7.21177#map=14/60.90863/7.21177",
+   "country": "Norway"
   },
   {
    "id": "flam-line",
@@ -5964,7 +6361,8 @@
    "leg": "arctic",
    "lat": 60.86295,
    "lon": 7.11318,
-   "link": "https://www.openstreetmap.org/?mlat=60.86295&mlon=7.11318#map=14/60.86295/7.11318"
+   "link": "https://www.openstreetmap.org/?mlat=60.86295&mlon=7.11318#map=14/60.86295/7.11318",
+   "country": "Norway"
   },
   {
    "id": "naeroyfjord",
@@ -5979,7 +6377,8 @@
    "lat": 60.94361,
    "lon": 6.93139,
    "wikipedia": "Nærøyfjord",
-   "link": "https://en.wikipedia.org/wiki/N%C3%A6r%C3%B8yfjord"
+   "link": "https://en.wikipedia.org/wiki/N%C3%A6r%C3%B8yfjord",
+   "country": "Norway"
   },
   {
    "id": "bryggen",
@@ -5994,7 +6393,8 @@
    "lat": 60.39722,
    "lon": 5.32306,
    "wikipedia": "Bryggen",
-   "link": "https://en.wikipedia.org/wiki/Bryggen"
+   "link": "https://en.wikipedia.org/wiki/Bryggen",
+   "country": "Norway"
   },
   {
    "id": "voringsfossen",
@@ -6009,7 +6409,8 @@
    "lat": 60.42689,
    "lon": 7.25114,
    "wikipedia": "Vøringsfossen",
-   "link": "https://en.wikipedia.org/wiki/V%C3%B8ringsfossen"
+   "link": "https://en.wikipedia.org/wiki/V%C3%B8ringsfossen",
+   "country": "Norway"
   },
   {
    "id": "hardangervidda",
@@ -6023,7 +6424,8 @@
    "leg": "arctic",
    "lat": 60.13305,
    "lon": 7.5311,
-   "link": "https://www.openstreetmap.org/?mlat=60.13305&mlon=7.5311#map=14/60.13305/7.5311"
+   "link": "https://www.openstreetmap.org/?mlat=60.13305&mlon=7.5311#map=14/60.13305/7.5311",
+   "country": "Norway"
   },
   {
    "id": "heddal-stave-church",
@@ -6038,7 +6440,8 @@
    "lat": 59.57957,
    "lon": 9.17623,
    "wikipedia": "Heddal Stave Church",
-   "link": "https://en.wikipedia.org/wiki/Heddal_Stave_Church"
+   "link": "https://en.wikipedia.org/wiki/Heddal_Stave_Church",
+   "country": "Norway"
   },
   {
    "id": "vemork",
@@ -6052,7 +6455,8 @@
    "leg": "arctic",
    "lat": 59.87103,
    "lon": 8.49372,
-   "link": "https://www.openstreetmap.org/?mlat=59.87103&mlon=8.49372#map=14/59.87103/8.49372"
+   "link": "https://www.openstreetmap.org/?mlat=59.87103&mlon=8.49372#map=14/59.87103/8.49372",
+   "country": "Norway"
   },
   {
    "id": "oslo-opera-house",
@@ -6067,7 +6471,8 @@
    "lat": 59.90694,
    "lon": 10.75361,
    "wikipedia": "Oslo Opera House",
-   "link": "https://en.wikipedia.org/wiki/Oslo_Opera_House"
+   "link": "https://en.wikipedia.org/wiki/Oslo_Opera_House",
+   "country": "Norway"
   },
   {
    "id": "orebro-castle",
@@ -6082,7 +6487,8 @@
    "lat": 59.27389,
    "lon": 15.21528,
    "wikipedia": "Örebro Castle",
-   "link": "https://en.wikipedia.org/wiki/%C3%96rebro_Castle"
+   "link": "https://en.wikipedia.org/wiki/%C3%96rebro_Castle",
+   "country": "Sweden"
   },
   {
    "id": "stockholm",
@@ -6094,7 +6500,8 @@
    "leg": "arctic",
    "lat": 59.33,
    "lon": 18.07,
-   "link": "https://www.openstreetmap.org/?mlat=59.33&mlon=18.07#map=14/59.33/18.07"
+   "link": "https://www.openstreetmap.org/?mlat=59.33&mlon=18.07#map=14/59.33/18.07",
+   "country": "Sweden"
   },
   {
    "id": "kadriorg-palace",
@@ -6109,7 +6516,8 @@
    "lat": 59.43851,
    "lon": 24.79084,
    "wikipedia": "Kadriorg Palace",
-   "link": "https://en.wikipedia.org/wiki/Kadriorg_Palace"
+   "link": "https://en.wikipedia.org/wiki/Kadriorg_Palace",
+   "country": "Estonia"
   },
   {
    "id": "rummu",
@@ -6124,7 +6532,8 @@
    "lat": 59.23083,
    "lon": 24.20972,
    "wikipedia": "Rummu",
-   "link": "https://en.wikipedia.org/wiki/Rummu"
+   "link": "https://en.wikipedia.org/wiki/Rummu",
+   "country": "Estonia"
   },
   {
    "id": "padise-abbey",
@@ -6139,7 +6548,8 @@
    "lat": 59.22417,
    "lon": 24.14485,
    "wikipedia": "Padise Abbey",
-   "link": "https://en.wikipedia.org/wiki/Padise_Abbey"
+   "link": "https://en.wikipedia.org/wiki/Padise_Abbey",
+   "country": "Estonia"
   },
   {
    "id": "home2",
@@ -6151,7 +6561,8 @@
    "leg": "arctic",
    "lat": 58.386,
    "lon": 24.497,
-   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497"
+   "link": "https://www.openstreetmap.org/?mlat=58.386&mlon=24.497#map=14/58.386/24.497",
+   "country": "Estonia"
   }
  ],
  "ferries": {

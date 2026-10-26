@@ -9,6 +9,8 @@ export interface PanelOptions {
   photos: Record<string, string[]>;
   route: GeoJSON.FeatureCollection;
   typeLabel: (p: Point) => string;
+  siblings: (p: Point) => Point[]; // the places listed with it, for previous / next
+  backLabel: () => string;
   onClose: () => void;
   onMove: (id: string) => void; // previous / next place
 }
@@ -42,19 +44,18 @@ export class Panel {
     this.point = p;
     if (first) this.slide = 0;
     const { trip } = this.o;
-    const list = trip.points.filter((x) => x.chapter === p.chapter);
+    const list = this.o.siblings(p);
     const i = list.indexOf(p);
     const d = dateOf(trip.start_date, p.day);
-    const chapter = trip.chapters.find((c) => c.id === p.chapter)!;
     document.body.classList.add("panel-open");
     this.el.hidden = false;
     this.el.innerHTML = `
       <div class="panel-bar">
-        <button class="close" data-act="close" aria-label="Back to the chapter">← ${esc(chapter.name)}</button>
+        <button class="close" data-act="close" aria-label="Back to the list">← ${esc(this.o.backLabel())}</button>
         <span class="nav">
-          <button data-act="prev" ${i === 0 ? "disabled" : ""} aria-label="Previous place">‹</button>
-          <span>${i + 1} / ${list.length}</span>
-          <button data-act="next" ${i === list.length - 1 ? "disabled" : ""} aria-label="Next place">›</button>
+          <button data-act="prev" ${i <= 0 ? "disabled" : ""} aria-label="Previous place">‹</button>
+          <span>${i >= 0 ? `${i + 1} / ${list.length}` : ""}</span>
+          <button data-act="next" ${i < 0 || i === list.length - 1 ? "disabled" : ""} aria-label="Next place">›</button>
         </span>
       </div>
       <div class="slides"></div>
@@ -131,7 +132,7 @@ export class Panel {
     if (act === "photo-next") this.go(1);
     if (act === "photo") { this.slide = Number(b.dataset.i); this.renderSlides(this.creditsCache); }
     if (act === "prev" || act === "next") {
-      const list = this.o.trip.points.filter((x) => x.chapter === this.point!.chapter);
+      const list = this.o.siblings(this.point);
       const q = list[list.indexOf(this.point) + (act === "next" ? 1 : -1)];
       if (q) this.o.onMove(q.id);
     }

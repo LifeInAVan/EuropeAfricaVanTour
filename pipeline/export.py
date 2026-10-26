@@ -52,6 +52,9 @@ for seg in plan:
                  link="https://en.wikipedia.org/wiki/" + urllib.parse.quote(h["name"].replace(" ", "_")) if page
                       else osm(round(h["lat"], 5), round(h["lon"], 5))))
 add_stop(stops[plan[-1]["to"]])
+cp = os.path.join(HERE, "cache", "countries.json")                  # from fetch_countries.py
+countries = json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {}
+for p in points: p["country"] = countries.get(p["id"]) or None
 points = [{k: v for k, v in p.items() if v is not None} for p in points]
 
 trip = dict(title=route["title"], subtitle=route["subtitle"], start_date=START.isoformat(),

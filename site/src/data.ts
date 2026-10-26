@@ -4,7 +4,7 @@ export interface Chapter { id: number; part: string; name: string; start_day: nu
 export interface Point {
   id: string; kind: "stop" | "highlight"; name: string; title?: string; caption: string;
   type?: "beach" | "nature" | "culture" | "history" | "peaceful";
-  day: number; chapter: number; leg: string; lat: number; lon: number; wikipedia?: string; link: string;
+  day: number; chapter: number; leg: string; lat: number; lon: number; wikipedia?: string; link: string; country?: string;
 }
 export interface Trip { title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[] }
 export type Photos = Record<string, string[]>;
