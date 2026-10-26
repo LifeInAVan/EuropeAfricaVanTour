@@ -46,3 +46,16 @@ Films and `music.wav` are not committed.
 - `assets/<stop>/` – our photos; they drift across the top while the van travels
 - `assets/_van_profile.png` – cut-out of the van, points along the road
 - `assets/_title/`, `assets/_end/` – title and end card backgrounds
+
+## Changing the route
+Edit `data/route.json` (stops, dates, ferries) and/or `highlights_src.py` (places between stops), then
+run from the repository root, in this order:
+1. `python pipeline/plan.py` – plan and film road geometry (`cache/plan.json`)
+2. `python pipeline/make_doc.py` – `docs/daily-highlights.md`
+3. `python pipeline/export.py` – `data/trip.json` (new place IDs appear here)
+4. `python pipeline/fetch_roads.py` then `python pipeline/export.py` again – real roads, km and times
+5. `python pipeline/fetch_countries.py`, `fetch_weather.py`, `fetch_descriptions.py` – new places only (cached)
+6. `python pipeline/fetch_slides.py`, review on `review_photos.py`, then `make_web_photos.py --suggested`
+   and `build_credits.py` – photos for new places
+7. Update the festival "our pass" results in `build_festivals.py` and run it (until phase 6 works these out)
+8. `python pipeline/export.py` once more, check the site in the preview, commit, push when Peter says
