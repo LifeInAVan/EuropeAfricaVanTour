@@ -19,3 +19,10 @@ review/
 
 # Photo candidates and previews (downloaded, not committed)
 pipeline/cache/slides/
+
+# Raw weather downloads (not committed)
+pipeline/cache/weather/
+
+# Website build
+site/node_modules/
+site/dist/

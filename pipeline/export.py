@@ -58,5 +58,29 @@ trip = dict(title=route["title"], subtitle=route["subtitle"], start_date=START.i
             days=max(c["end_day"] for c in chapters), chapters=chapters,
             legs=list(legs.values()), points=points, ferries=route["ferries"], festivals=festivals)
 json.dump(trip, open(os.path.join(ROOT, "data", "trip.json"), "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
-count = {c["id"]: sum(1 for p in points if p["chapter"] == c["id"]) for c in chapters}
+
+# route line for the map: road and sea parts, split where the chapter changes. Each vertex takes the
+# chapter of the nearest place on its leg (the route is drawn through those places in order).
+feats = []
+for seg in plan:
+    a, b = stops[seg["from"]], stops[seg["to"]]
+    marks = [(a["lon"], a["lat"], day(a["date"]))] + [(h["lon"], h["lat"], day(h["date"])) for h in seg["highlights"]] \
+            + [(b["lon"], b["lat"], day(b["date"]) - 1)]
+    near = lambda x, y: chapter(min(marks, key=lambda m: (m[0] - x) ** 2 + (m[1] - y) ** 2)[2])
+    for part in seg["parts"]:
+        run, cur = [], None
+        for x, y in part["geom"]:
+            c = near(x, y)
+            if cur is not None and c != cur:
+                run.append([x, y])
+                feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur, leg=a["leg"]),
+                                  geometry=dict(type="LineString", coordinates=run)))
+                run = []
+            run.append([x, y]); cur = c
+        if len(run) > 1:
+            feats.append(dict(type="Feature", properties=dict(mode=part["mode"], chapter=cur, leg=a["leg"]),
+                              geometry=dict(type="LineString", coordinates=run)))
+json.dump(dict(type="FeatureCollection", features=feats),
+          open(os.path.join(ROOT, "data", "route-line.json"), "w", encoding="utf-8", newline="\n"), separators=(",", ":"))
+count = {c["id"]:sum(1 for p in points if p["chapter"] == c["id"]) for c in chapters}
 print("written data/trip.json:", len(points), "points;", "per chapter:", count)
