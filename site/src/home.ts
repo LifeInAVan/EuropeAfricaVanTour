@@ -45,6 +45,8 @@ export function renderHome(el: HTMLElement, trip: Trip, photos: Photos, site: Si
   el.innerHTML = `
   <section class="hero" style="background-image:url('${site.hero.image}')">
     <div class="hero-in">
+      <img class="hero-badge" src="./logo-badge.png" width="320" height="320"
+        alt="Kalev's Grand Tour badge: our VW LT31 camper and Kalev the Samoyed on orange dunes, with the words Pärnu, Sahara, Arctic">
       <p class="hero-kicker">${esc(site.hero.kicker)}</p>
       <h1>Kalev's<br>Grand Tour</h1>
       <p class="hero-line">${esc(site.hero.line)}</p>

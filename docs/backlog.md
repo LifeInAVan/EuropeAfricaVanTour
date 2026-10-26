@@ -39,7 +39,7 @@ a closer zoom.
 in "The van" section and Kalev has one card under "The crew", both well down the page. Ways to give
 them more room, to choose from:
 - Kalev and the van in the hero: our own photo of them instead of (or in turn with) the Merzouga dunes.
-- The round logo badge (van and Kalev) beside the title in the hero.
+- The round logo badge (van and Kalev) beside the title in the hero. Done 27 Oct 2026.
 - A small gallery in "The van" and "The crew": several of our photos of the van and of Kalev
   (spare Kalev photo already in the handoff: `kalev-beach.jpg`), plates blurred, no metadata.
 - Needs: which photos Peter wants used.
