@@ -137,30 +137,38 @@ function renderHeader() {
 }
 
 // ---------- the left-hand list ----------
+/** The places grouped by day, with round photos (as on the chapter page). In the temperature view the
+ *  badge shows the typical daytime high in its colour; otherwise the place's number in this list. */
 function rows(pts: Point[]) {
-  // drive lines between places only where the list follows the route: a chapter or a calendar month or day
-  const withDrives = !state.types.size && (state.view === "chapter" || state.view === "calendar");
-  return `<ol class="points">${pts.map((p, i) => {
-    const drive = withDrives && i > 0 ? driveRow(pts[i - 1], p) : "";
-    const thumb = photos[p.id]?.[0], k = kindOf(p), t = state.view === "temp" ? hiOf(p) : undefined;
-    const mark = t !== undefined ? `${t}°` : String(i + 1);
-    const colour = t !== undefined ? tempColour(t) : TYPE_COLOUR[k];
-    return `${drive}<li class="pt ${p.kind}${p.id === selected ? " selected" : ""}" data-p="${p.id}" tabindex="0">
-      <span class="num${t !== undefined ? " temp" : ""}" style="--c:${colour}">${mark}</span>
-      ${thumb ? `<img src="${thumb.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">` : `<span class="noimg"></span>`}
-      <span class="txt"><span class="name">${esc(p.name)}</span>
-        <span class="meta">${fmtDay(dateOfPoint(p))} · ${TYPE_LABEL[k]}${state.view !== "country" && p.country ? ` · ${esc(p.country)}` : ""}</span>
-        <span class="cap">${esc(p.caption)}</span></span>
-    </li>`;
-  }).join("")}</ol>` + (pts.length ? "" : `<p class="empty-list">No places match. ${state.types.size ? "Try showing all types." : ""}</p>`);
+  // drive lines between places only where the list follows the route: a calendar month or day
+  const withDrives = !state.types.size && state.view === "calendar";
+  const byDay = new Map<number, Point[]>();
+  for (const p of pts) byDay.set(p.day, [...(byDay.get(p.day) ?? []), p]);
+  let prev: Point | null = null;
+  const days = [...byDay.entries()].map(([day, list]) => `<li class="day">
+    <p class="day-h">Day ${day + 1} · ${fmtDay(dateOf(trip.start_date, day))}</p>
+    <ol class="day-items">${list.map((p) => {
+      const drive = withDrives && prev ? driveRow(prev, p) : "";
+      prev = p;
+      const thumb = photos[p.id]?.[0], k = kindOf(p), t = state.view === "temp" ? hiOf(p) : undefined;
+      const badge = t !== undefined
+        ? `<span class="n" style="background:#fff;color:#1B2430;border:3px solid ${tempColour(t)}">${t}°</span>`
+        : `<span class="n" style="background:#1B2430">${pts.indexOf(p) + 1}</span>`;
+      return `${drive}<li class="pt ${p.kind}${p.id === selected ? " selected" : ""}" data-p="${p.id}" tabindex="0">
+        <span class="ph-round">${thumb ? `<img src="${thumb.replace(/\.jpg$/, "-s.jpg")}" alt="" loading="lazy">` : ""}${badge}</span>
+        <span class="txt"><span class="name">${esc(p.name)}</span>
+          <span class="meta">${TYPE_LABEL[k]}${state.view !== "country" && p.country ? ` · ${esc(p.country)}` : ""}</span>
+          <span class="cap">${esc(p.caption)}</span></span></li>`;
+    }).join("")}</ol></li>`).join("");
+  return `<ol class="days">${days}</ol>` + (pts.length ? "" : `<p class="empty-list">No places match. ${state.types.size ? "Try showing all types." : ""}</p>`);
 }
 
-/** Runs of consecutive trip days, e.g. two separate visits to Spain. */
+/** Separate visits, e.g. three to Spain: runs of trip days with no gap of more than two weeks. */
 function spans(days: number[]) {
   const out: [number, number][] = [];
   for (const d of [...new Set(days)].sort((a, b) => a - b)) {
     const last = out[out.length - 1];
-    if (last && d - last[1] <= 3) last[1] = d; else out.push([d, d]);
+    if (last && d - last[1] <= 14) last[1] = d; else out.push([d, d]); // a new visit after more than two weeks away
   }
   return out.map(([a, b]) => a === b ? fmtYear(dateOf(trip.start_date, a)) : `${fmtYear(dateOf(trip.start_date, a))} – ${fmtYear(dateOf(trip.start_date, b))}`);
 }
@@ -176,16 +184,18 @@ function renderList() {
     return;
   }
   if (state.view === "calendar") {
-    head = calendarGrid() + `<h2 class="day-h">${state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month)}</h2>
-      <p class="muted">${count(pts)}${state.day !== null ? ` · <button class="link" data-act="month">whole month</button>` : " · choose a day to see just that day"}</p>`;
+    const t = totals(trip.drives.filter((d) => pts.some((p) => p.id === d.from)));
+    head = `<p class="kicker">Calendar</p><h1>${state.day !== null ? fmtYear(dateOf(trip.start_date, state.day)) : monthName(state.month)}</h1>
+      <p class="ch-facts">${count(pts)}${t ? ` · ${t}` : ""}${state.day !== null ? ` · <button class="link" data-act="month">whole month</button>` : ""}</p>
+      ${calendarGrid()}${state.day === null ? `<p class="muted">Choose a day to see just that day.</p>` : ""}`;
   } else if (state.view === "country") {
-    head = `<p class="eyebrow">Country</p><h2>${esc(state.country)}</h2>
-      <p class="muted">${count(pts)} · ${spans(trip.points.filter((p) => p.country === state.country).map((p) => p.day)).join("; ")}</p>`;
+    head = `<p class="kicker">Country</p><h1>${esc(state.country)}</h1>
+      <p class="ch-facts">${count(pts)}<br><span class="muted">${spans(trip.points.filter((p) => p.country === state.country).map((p) => p.day)).join("; ")}</span></p>`;
   } else {
-    head = `<p class="eyebrow">Typical daytime high on the day we are there</p><h2>${state.lo}°C to ${state.hi}°C</h2>
-      <p class="muted">${weather ? `${count(pts)} in this range; the rest are grey on the map` : "Loading typical weather…"}</p>`;
+    head = `<p class="kicker">Typical daytime high on the day we are there</p><h1>${state.lo}°C to ${state.hi}°C</h1>
+      <p class="ch-facts">${weather ? `${count(pts)} in this range; the rest are grey on the map` : "Loading typical weather…"}</p>`;
   }
-  $("#list").innerHTML = `<div class="chapter-head">${head}</div>` + rows(pts);
+  $("#list").innerHTML = `<div class="ch-head">${head}</div>` + rows(pts);
   $("#list").scrollTop = 0;
 }
 const count = (pts: Point[]) => `${pts.length} place${pts.length === 1 ? "" : "s"}`;
@@ -269,7 +279,7 @@ function shownFeatures(): GeoJSON.FeatureCollection {
       return {
         type: "Feature",
         properties: { id: p.id, n: i + 1, label: t !== undefined ? `${t}` : `${i + 1}`, colour: t !== undefined ? tempColour(t) : TYPE_COLOUR[kindOf(p)],
-          text: t !== undefined && t < 26 && t > 4 ? "#1c1f21" : "#ffffff" },
+          text: t !== undefined ? "#1B2430" : "#ffffff", halo: t !== undefined ? "#ffffff" : "rgba(0,0,0,0)" },
         geometry: { type: "Point", coordinates: [p.lon, p.lat] },
       };
     }),
@@ -318,7 +328,8 @@ async function initMap(route: GeoJSON.FeatureCollection) {
       } });
     map.addLayer({ id: "points-num", type: "symbol", source: "points",
       layout: { "text-field": ["get", "label"], "text-font": ["Noto Sans Bold"], "text-size": 10, "text-allow-overlap": true, "symbol-sort-key": ["get", "n"] },
-      paint: { "text-color": ["get", "text"], "text-opacity": ["step", ["zoom"], 0, 4.5, 1] } });
+      paint: { "text-color": ["get", "text"], "text-halo-color": ["get", "halo"], "text-halo-width": 1.5,
+        "text-opacity": ["step", ["zoom"], 0, 4.5, 1] } });
     map.on("mousemove", "points", (e: MapLayerMouseEvent) => {
       const id = e.features?.[0]?.properties?.id as string | undefined;
       if (id) setHover(id, "map");
@@ -361,11 +372,12 @@ function updateMap(animate = true) {
   if (!mapReady) return; // the load handler calls this again
   (map.getSource("points") as GeoJSONSource).setData(shownFeatures());
   // the chapter view uses round photo markers; the other views the numbered circles
-  const photoView = state.view === "chapter";
+  const photoView = state.view === "chapter" || state.view === "calendar" || state.view === "country";
   for (const id of ["points", "points-num"]) map.setLayoutProperty(id, "visibility", photoView ? "none" : "visible");
   if (photoView) {
-    const all = trip.points.filter((p) => p.chapter === state.chapter);
-    markers!.show(shown(), new Map(all.map((p, i) => [p.id, i + 1])));
+    // chapter: numbers within the whole chapter (as in its list); other views: numbers in the list shown
+    const numbered = state.view === "chapter" ? trip.points.filter((p) => p.chapter === state.chapter) : shown();
+    markers!.show(shown(), new Map(numbered.map((p, i) => [p.id, i + 1])));
     markers!.mark(selected, "sel");
   } else markers?.clear();
   map.setFilter("route-chapter", routeFilter());

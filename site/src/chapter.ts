@@ -1,7 +1,6 @@
 // The chapter page (design handoff): chapter bar, side panel with the places grouped by day, and round
 // photo markers on the map that group when they overlap on screen.
 import { Marker, LngLatBounds, type Map as MapLibre } from "maplibre-gl";
-import { MAP } from "./mapstyle";
 import { dateOf, fmtDay, type Chapter, type Photos, type Point, type Site, type Trip, type Weather } from "./data";
 import { countriesInOrder, coverOf, partName } from "./home";
 
@@ -94,7 +93,11 @@ export function chapterPanel(a: PanelArgs) {
         ${temps.length ? `<span class="chip-info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9A4F14" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>Typically ${Math.min(...temps)}–${Math.max(...temps)}°C by day</span>` : ""}
         <span class="chip-info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D3B53" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>${fest.length} festival${fest.length === 1 ? "" : "s"} on our dates</span>
       </div>
-      ${fest.length ? `<ul class="fest">${fest.map((f) => `<li><strong>${esc(f.event)}, ${esc(f.place)}</strong><span>${esc(f.our_pass)}</span></li>`).join("")}</ul>` : ""}
+      ${fest.length ? (() => { // the first three; any more behind "N more"
+        const li = (f: (typeof fest)[number]) => `<li><strong>${esc(f.event)}, ${esc(f.place)}</strong><span>${esc(f.our_pass)}</span></li>`;
+        return `<ul class="fest">${fest.slice(0, 3).map(li).join("")}${fest.length > 3
+          ? `<li class="more-fest"><details><summary>${fest.length - 3} more</summary><ul>${fest.slice(3).map(li).join("")}</ul></details></li>` : ""}</ul>`;
+      })() : ""}
       <div class="pills" role="group" aria-label="Show">
         <button type="button" class="pill" data-t="" aria-pressed="${!a.types.size}">All ${all.length}</button>
         ${present.map((t) => `<button type="button" class="pill" data-t="${t}" aria-pressed="${a.types.has(t)}">${LABEL[t]}</button>`).join("")}
@@ -143,7 +146,7 @@ export class PhotoMarkers {
       wrap.className = "pm-wrap"; wrap.dataset.ids = g.map((q) => q.id).join(","); wrap.appendChild(el);
       el.type = "button"; el.className = `pm${g.length > 1 ? " group" : ""}`;
       const t = this.photos[p.id]?.[0]?.replace(/\.jpg$/, "-s.jpg");
-      el.innerHTML = `${t ? `<img src="${t}" alt="">` : ""}<span class="n" style="background:${g.length > 1 ? MAP.ochre : "#1B2430"}">${g.length > 1 ? g.length : this.numbers.get(p.id)}</span>`;
+      el.innerHTML = `${t ? `<img src="${t}" alt="">` : ""}<span class="n" style="background:${g.length > 1 ? "#A85A1E" : "#1B2430"}">${g.length > 1 ? g.length : this.numbers.get(p.id)}</span>`;
       el.setAttribute("aria-label", g.length > 1 ? `${g.length} places close together: ${g.map((q) => q.name).join(", ")}` : p.name);
       el.title = g.map((q) => q.name).join(", ");
       el.addEventListener("click", (e) => {

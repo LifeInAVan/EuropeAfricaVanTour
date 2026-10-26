@@ -472,3 +472,5 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
   .van-in { padding-top: 56px; padding-bottom: 40px; gap: 24px; }
   #views-cards { padding-top: 56px; padding-bottom: 56px; }
 }
+.more-fest summary { cursor: pointer; font-weight: 600; color: var(--blue); min-height: 28px; }
+.more-fest ul { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
