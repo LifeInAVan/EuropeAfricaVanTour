@@ -44,6 +44,22 @@ them more room, to choose from:
   (spare Kalev photo already in the handoff: `kalev-beach.jpg`), plates blurred, no metadata.
 - Needs: which photos Peter wants used.
 
+**E. Comments from friends on each chapter and each place.** (Peter, 27 Oct 2026.) On a chapter:
+thoughts on the route. On a place: what else to see there. The site has no server or database, so
+comments need an outside service, embedded in the chapter panel and the place page, one thread per
+chapter (`#c=4`) and per place (`#p=kotor`). Options to compare before choosing (free tiers and terms
+to be checked at the time; CLAUDE.md asks before any paid service or key):
+- *giscus* (comments stored as GitHub Discussions in this repository): free, no ads, no server; but
+  each friend needs a GitHub account to comment. Needs Discussions switched on and the giscus app
+  added to the repository (Peter's GitHub settings).
+- *A hosted comment service that needs no account* (for example Cusdis): friends just type a name
+  and comment; Peter approves each comment before it shows. Check that it is free, has no ads or
+  tracking, and where the comments are stored.
+- *Self-hosted* (Remark42, Isso): full control, but needs a small server, which this site avoids.
+- Either way: moderation before comments appear (public site, no addresses or phone numbers), a
+  short note that comments are public, and loading the comments only when someone opens them, so the
+  pages stay fast. Decide first: must friends be able to comment without signing up?
+
 ## Not chosen for now
 - The van as the site's logo and browser-tab icon.
 - "Play the trip": the van driving the route on the whole-trip map, like the film.
