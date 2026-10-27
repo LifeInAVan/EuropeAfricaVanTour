@@ -142,7 +142,15 @@ export function judgeFestivals(trip: Trip, bases: Base[], list: Festival[]): Jud
             if (!best || score < (best.gap ? 1000 : 0) + best.gap * 10 + best.dist / 10) best = { gap, dist, day: d, spot: s, range };
           }
       }
-    if (!best) return { ...f, status: "missed", our_pass: f.rule === "none" || !f.rule ? "Not on fixed dates" : "Not near our route on its dates", sure };
+    if (!best) { // missed: its first dates during the trip, and where we are then
+      const inTrip = places.flatMap((p) => p.ranges.map((r) => ({ p, r }))).filter(({ r }) => r[1] >= 0 && r[0] <= trip.days)
+        .sort((x, y) => x.r[0] - y.r[0])[0];
+      if (!inTrip) return { ...f, status: "missed", our_pass: f.rule === "none" || !f.rule ? "Not on fixed dates" : "Not held during our trip", sure };
+      const [a, b] = inTrip.r, d = Math.max(0, a), s = spots[d][0];
+      const dates = a === b ? when(a) : `${when(a)} – ${when(b)}`;
+      const where = !s ? "we are away (winter break)" : f.country ? `we are at ${s.name}` : `we are at ${s.name}, ${Math.round(km(s, inTrip.p)).toLocaleString("en-GB")} km away`;
+      return { ...f, status: "missed", our_pass: `${dates}${sure === "estimate" ? " (dates estimated)" : ""}: ${where}`, first: a, last: b, sure };
+    }
     const on = !best.gap && best.dist <= SETTINGS.onKm;
     const [a, b] = best.range;
     const dates = a === b ? when(a) : `${when(a)} – ${when(b)}`;

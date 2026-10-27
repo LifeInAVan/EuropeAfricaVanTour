@@ -80,8 +80,8 @@
   },
   {
    "name": "Festivals",
-   "view": "",
-   "text": "{festivals} festivals near the route, and which ones our dates catch. Coming with the start-date control."
+   "view": "festivals",
+   "text": "{festivals} festivals near the route, and which ones our dates catch. Change the start date to see others."
   }
  ],
  "footer": [

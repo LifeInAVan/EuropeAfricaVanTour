@@ -16,6 +16,7 @@ import { renderVan } from "./van";
 import { chapterBar, chapterPanel, PhotoMarkers, barShare, dayLabel, vanElement } from "./chapter";
 import { addBaseLayers, showBases, layerSwitch, vanPlace, dayOfDate } from "./bases";
 import { judgeFestivals } from "./festivals";
+import { FestivalLayer, festivalChips, festivalList } from "./festview";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
@@ -24,8 +25,8 @@ const TYPE_LABEL: Record<string, string> = {
 const TYPE_COLOUR: Record<string, string> = {
   stop: "#1D3B53", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
 };
-type View = "home" | "chapter" | "calendar" | "country" | "temp" | "van";
-const VIEWS: [View, string][] = [["home", "Front page"], ["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"], ["van", "The van"]];
+type View = "home" | "chapter" | "calendar" | "country" | "temp" | "van" | "festivals";
+const VIEWS: [View, string][] = [["home", "Front page"], ["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"], ["van", "The van"], ["festivals", "Festivals"]];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
@@ -34,7 +35,16 @@ let trip: Trip, photos: Photos, map: MapLibre, mapReady = false, panel: Panel, w
 let hovered: string | null = null, selected: string | null = null, section: string | null = null;
 let site: Site, route: GeoJSON.FeatureCollection, markers: PhotoMarkers | null = null, bases: Base[] = [];
 let layerBox: HTMLElement | null = null; // the Photos / Base camps switch on the chapter map
-let festivalList: Trip["festivals"] = []; // as loaded; judged again for each start date
+let festivalsLoaded: Trip["festivals"] = []; // as loaded; judged again for each start date
+let festLayer: FestivalLayer | null = null;
+/** A festival chosen in the list or on the map: its popup, and its row marked in the list. */
+function pickFestival(i: number, from: "map" | "list") {
+  festLayer?.open(i);
+  document.querySelectorAll(".fest-item.selected").forEach((r) => r.classList.remove("selected"));
+  const row = document.querySelector<HTMLElement>(`.fest-item[data-i="${i}"]`);
+  row?.classList.add("selected");
+  if (from === "map") row?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
 
 // Everything shown is worked out from this state, which is also kept in the page address.
 const state = {
@@ -47,6 +57,7 @@ const state = {
   lo: 18, hi: 28, // temperature range, °C
   types: new Set<string>(), // empty = all types
   layer: "photos" as "photos" | "bases", // what the chapter map shows besides the van's route
+  fest: "", // festivals view: "", "on", "near" or "missed"
 };
 
 const kindOf = (p: Point) => (p.kind === "stop" ? "stop" : p.type ?? "culture");
@@ -68,7 +79,7 @@ function basePoints(): Point[] {
     case "chapter": return all.filter((p) => p.chapter === state.chapter);
     case "calendar": return all.filter((p) => (state.day !== null ? p.day === state.day : monthKey(dateOfPoint(p)) === state.month));
     case "country": return all.filter((p) => p.country === state.country);
-    case "home": case "van": return [];
+    case "home": case "van": case "festivals": return [];
     case "temp": return weather ? all.filter((p) => { const t = hiOf(p); return t !== undefined && t >= state.lo && t <= state.hi; }) : [];
   }
 }
@@ -98,6 +109,7 @@ function readHash(): string | null {
   if (r.length === 2 && r.every(Number.isFinite)) [state.lo, state.hi] = r;
   state.types = new Set((h.get("t") ?? "").split(",").filter((t) => (TYPES as readonly string[]).includes(t)));
   state.layer = h.get("l") === "bases" ? "bases" : "photos";
+  state.fest = ["on", "near", "missed"].includes(h.get("f") ?? "") ? h.get("f")! : "";
   if (p && state.view === "chapter") state.chapter = p.chapter; // a link to a place opens its chapter
   const ch = trip.chapters.find((x) => x.id === state.chapter)!, at = Number(h.get("at"));
   state.at = h.has("at") && at >= ch.start_day && at <= ch.end_day ? at : p?.day ?? ch.start_day;
@@ -112,6 +124,7 @@ function writeHash() {
   if (state.view === "calendar") { h.set("m", state.month); if (state.day !== null) h.set("d", String(state.day)); }
   if (state.view === "country") h.set("k", state.country);
   if (state.view === "temp") h.set("r", `${state.lo}-${state.hi}`);
+  if (state.view === "festivals" && state.fest) h.set("f", state.fest);
   if (state.types.size) h.set("t", [...state.types].join(","));
   if (state.view === "chapter" && state.layer === "bases") h.set("l", "bases");
   if (trip.start_date !== trip.plan_start) h.set("sd", trip.start_date);
@@ -126,6 +139,7 @@ function renderHeader() {
     [`#c=${state.chapter}`, "Chapters", state.view === "chapter"],
     [`#v=calendar&m=${state.month}`, "Calendar", state.view === "calendar"],
     [`#v=country&k=${encodeURIComponent(state.country)}`, "Countries", state.view === "country"],
+    ["#v=festivals", "Festivals", state.view === "festivals"],
     ["#v=van", "The van", state.view === "van"],
   ];
   $("#views").innerHTML = nav.map(([href, label, on]) => `<a class="nav-link" href="${href}" ${on ? 'aria-current="page"' : ""}>${label}</a>`).join("");
@@ -135,6 +149,10 @@ function renderHeader() {
   } else if (state.view === "chapter") {
     sub.innerHTML = chapterBar(trip, site, state.chapter, state.at, bases);
     $("#filters").innerHTML = ""; // the type pills are in the chapter panel
+    return;
+  } else if (state.view === "festivals") {
+    sub.innerHTML = festivalChips(trip, state.fest);
+    $("#filters").innerHTML = "";
     return;
   } else if (state.view === "calendar") {
     sub.innerHTML = months.map((m, i) => (i === 0 || tripYear(m) !== tripYear(months[i - 1]) ? `<span class="part">Year ${tripYear(m)}</span>` : "")
@@ -200,6 +218,11 @@ function renderList() {
     const chapter = trip.chapters.find((x) => x.id === state.chapter)!;
     $("#list").innerHTML = chapterPanel({ trip, photos, chapter, shown: pts, types: state.types, weather, selected, at: state.at, kindOf, hiOf, driveRow,
       drive: totals(trip.drives.filter((d) => d.chapter === chapter.id)), restNote: restNote(chapter.start_day) });
+    $("#list").scrollTop = 0;
+    return;
+  }
+  if (state.view === "festivals") {
+    $("#list").innerHTML = festivalList(trip, state.fest);
     $("#list").scrollTop = 0;
     return;
   }
@@ -367,6 +390,7 @@ async function initMap(route: GeoJSON.FeatureCollection) {
       if (id) openPoint(id);
     });
     markers = new PhotoMarkers(map, photos, openPoint, (id) => setHover(id, "map"));
+    festLayer = new FestivalLayer(map, () => trip, (i) => pickFestival(i, "map"));
     addBaseLayers(map, trip, bases, new Map(trip.points.filter((p) => p.title).map((p) => [p.title!, p.name])));
     layerBox = document.createElement("div");
     layerBox.className = "maplibregl-ctrl layer-box";
@@ -409,6 +433,7 @@ function updateMap(animate = true) {
   const photoView = state.view === "chapter" || state.view === "calendar" || state.view === "country";
   for (const id of ["points", "points-num"]) map.setLayoutProperty(id, "visibility", photoView ? "none" : "visible");
   const baseView = state.view === "chapter" && state.layer === "bases" && bases.length > 0;
+  festLayer?.show(state.view === "festivals", state.fest);
   showBases(map, baseView ? state.chapter : null);
   if (layerBox) {
     layerBox.hidden = state.view !== "chapter" || !bases.length;
@@ -426,6 +451,10 @@ function updateMap(animate = true) {
   if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
   const sel = trip.points.find((x) => x.id === selected), pts = shown();
   if (sel) map.easeTo({ center: [sel.lon, sel.lat], duration: animate ? 600 : 0 });
+  else if (state.view === "festivals") {
+    const b = new LngLatBounds(); festLayer?.bounds(state.fest).forEach((c) => b.extend(c));
+    if (!b.isEmpty()) map.fitBounds(b, { padding: mapPadding(), maxZoom: 9, duration: animate ? 800 : 0 });
+  }
   else if (pts.length || baseView) map.fitBounds(boundsOf([...pts, ...(baseView ? chapterBases() : [])]), { padding: mapPadding(), maxZoom: 11, duration: animate ? 800 : 0 });
   else if (state.view === "chapter") { const v = vanPlace(trip, bases, state.at); map.easeTo({ center: [v.lon, v.lat], zoom: 8, duration: animate ? 800 : 0 }); }
 }
@@ -604,7 +633,7 @@ function backLabel() {
 // ---------- the start date: every date, the weather and the festival results follow it ----------
 function setStart(sd: string) {
   trip.start_date = sd;
-  trip.festivals = judgeFestivals(trip, bases, festivalList ?? []);
+  trip.festivals = judgeFestivals(trip, bases, festivalsLoaded ?? []);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   if (!months.includes(state.month)) state.month = months[0];
   $("#home").dataset.page = ""; // the front page shows dates: draw it again
@@ -671,8 +700,8 @@ async function start() {
   const data = await loadAll();
   ({ trip, photos, site, route, bases } = data);
   trip.plan_start = trip.start_date;
-  festivalList = trip.festivals ?? [];
-  trip.festivals = judgeFestivals(trip, bases, festivalList); // on route / near miss / missed for these dates
+  festivalsLoaded = trip.festivals ?? [];
+  trip.festivals = judgeFestivals(trip, bases, festivalsLoaded); // on route / near miss / missed for these dates
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
   $("#start-label").textContent = startLabel();
@@ -704,6 +733,7 @@ async function start() {
     if (b?.dataset.c) change({ chapter: Number(b.dataset.c) });
     if (b?.dataset.m) change({ month: b.dataset.m, day: null });
     if (b?.dataset.k) change({ country: b.dataset.k });
+    if (b && b.dataset.f !== undefined) change({ fest: b.dataset.f });
   });
   $("#subnav").addEventListener("input", (e) => { // temperature sliders: update the labels while dragging
     const t = e.target as HTMLInputElement;
@@ -737,12 +767,16 @@ async function start() {
     const cell = el.closest<HTMLElement>(".cell.has");
     if (cell) { const d = Number(cell.dataset.day); change({ day: state.day === d ? null : d }); return; }
     if (el.closest("[data-act=month]")) { change({ day: null }); return; }
+    const fest = el.closest<HTMLElement>(".fest-item");
+    if (fest && !el.closest("a")) { pickFestival(Number(fest.dataset.i), "list"); return; }
     const row = el.closest<HTMLElement>(".pt");
     if (row?.dataset.p) openPoint(row.dataset.p);
   });
   list.addEventListener("keydown", (e) => {
     const row = (e.target as HTMLElement).closest<HTMLElement>(".pt");
     if (row?.dataset.p && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openPoint(row.dataset.p); }
+    const fest = (e.target as HTMLElement).closest<HTMLElement>(".fest-item");
+    if (fest && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); pickFestival(Number(fest.dataset.i), "list"); }
   });
   window.addEventListener("hashchange", () => {
     const p = readHash();

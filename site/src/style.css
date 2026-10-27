@@ -583,3 +583,16 @@ body.panel-open #subnav, body.panel-open #filters { display: none; }
   .kalev { padding-top: 56px; }
   .kalev-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
 }
+
+/* ---------- festivals view ---------- */
+.fest-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+.fest-list { list-style: none; margin: 0; padding: 0 0 24px; }
+.fest-month { font-family: var(--head); font-weight: 700; font-size: 18px; letter-spacing: 1px; text-transform: uppercase; color: var(--ochre-text);
+  padding: 14px 20px 4px; }
+.fest-item { display: grid; gap: 2px; padding: 10px 20px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.fest-item:hover, .fest-item.selected { background: #F6F3EC; }
+.fest-item.selected { box-shadow: inset 3px 0 0 var(--blue); }
+.fest-badge { justify-self: start; font-size: 12px; font-weight: 600; color: #fff; padding: 2px 9px; border-radius: 10px; margin-bottom: 2px; }
+.fest-place { font-size: 14px; color: var(--muted); }
+.fest-pass { font-size: 14px; }
+.fest-item a { font-size: 13px; justify-self: start; }
