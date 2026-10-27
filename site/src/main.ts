@@ -15,6 +15,7 @@ import { renderHome } from "./home";
 import { renderVan } from "./van";
 import { chapterBar, chapterPanel, PhotoMarkers, barShare, dayLabel, vanElement } from "./chapter";
 import { addBaseLayers, showBases, layerSwitch, vanPlace, dayOfDate } from "./bases";
+import { judgeFestivals } from "./festivals";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
@@ -635,6 +636,7 @@ async function needWeather() {
 async function start() {
   const data = await loadAll();
   ({ trip, photos, site, route, bases } = data);
+  trip.festivals = judgeFestivals(trip, bases, trip.festivals ?? []); // on route / near miss / missed for these dates
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
   $("#start-label").textContent = `Start date: ${fmtDate(dateOf(trip.start_date, 0))}`;

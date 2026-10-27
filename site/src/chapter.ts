@@ -67,9 +67,8 @@ export interface PanelArgs {
   restNote?: string; // for a chapter with no new places: where the van stays
 }
 
-// Festival results (on route / near miss, "our pass") are hand-written for the route before change list 2
-// (27 Oct 2026), so they are hidden until phase 6 works them out from the dates.
-const SHOW_FESTIVALS = false;
+// Festival results (on route / near miss, "our pass") are worked out from the dates by festivals.ts (phase 6).
+const SHOW_FESTIVALS = true;
 
 /** Cover, title, facts, festivals on our dates, filter pills, then the places grouped by day. */
 export function chapterPanel(a: PanelArgs) {

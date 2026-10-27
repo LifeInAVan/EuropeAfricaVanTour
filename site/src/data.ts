@@ -19,7 +19,10 @@ export interface Base {
   drive_in_km?: number; drive_days?: number; places: BasePlace[]; on_the_way: BasePlace[];
 }
 export interface Ferry { name: string }
-export interface Festival { chapter: number; event: string; place: string; timing: string; dates: string; status: "on" | "near" | "missed"; our_pass: string; source: string; url: string }
+export interface Festival {
+  chapter: number; event: string; place: string; timing: string; dates: string; status: "on" | "near" | "missed"; our_pass: string; source: string; url: string;
+  rule?: string; places?: { lat: number; lon: number; days?: string }[]; country?: string; // phase 6: see pipeline/festival_rules.py
+}
 export interface Trip {
   festivals?: Festival[];
   title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
