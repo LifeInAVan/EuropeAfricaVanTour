@@ -146,7 +146,20 @@ F = [
 (8,"Mawlid, and the summer moussems (Moulay Idriss, Sidi Hmad Ou Moussa)","Nationwide; Moulay Idriss; Tazeroualt","August – September","About 15 Aug 2027 (Mawlid)","missed","All in summer","timeanddate","https://www.timeanddate.com/holidays/morocco/prophet-birthday"),
 ]
 LBL = {"on": "**On route**", "near": "Near miss", "missed": "Missed"}
-json.dump([dict(chapter=c, event=e, place=p, timing=t, dates=d, status=s, our_pass=ps, source=sn, url=u)
+# Phase 6: each festival's date rule (festival_rules.py) and map position (fetch_festival_places.py), so the
+# website can work out the dates for any start date. "status" and "our_pass" are the old hand-written results.
+from festival_rules import R
+_pos = json.load(open(os.path.join(HERE, "cache", "festival_places.json"), encoding="utf-8"))
+def where(place):
+    if place.startswith("country:"): return dict(country=place[8:])
+    out = []
+    for q in place.split(" / "):
+        q, _, days = q.partition("@")
+        lat, lon = _pos[q.strip()]
+        out.append(dict(lat=lat, lon=lon, **(dict(days=days.strip()) if days else {})))
+    return dict(places=out)
+json.dump([dict(chapter=c, event=e, place=p, timing=t, dates=d, status=s, our_pass=ps, source=sn, url=u,
+                rule=R[(c, e)][0], **where(R[(c, e)][1]))
            for c, e, p, t, d, s, ps, sn, u in F], open(os.path.join(ROOT, "data", "festivals.json"), "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
 n = {k: sum(1 for f in F if f[5] == k) for k in LBL}
 md = ["# Festivals on or near the route", "",

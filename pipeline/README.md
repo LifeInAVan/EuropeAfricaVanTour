@@ -18,6 +18,8 @@ Films and `music.wav` are not committed.
 - `make_doc.py` – day-by-day highlights list
 - `render3.py`, `music.py` – the film and its music
 - `build_festivals.py` – `data/festivals.json` and `docs/festivals.md`
+- `festival_rules.py` – the date rule and place of each festival; `festival_dates.py` works out the dates for any
+  year and, run on its own, lists every rule's 2027 and 2028 dates; `fetch_festival_places.py` – map positions
 - `osrm_dist.py` – true road distances and driving times -> `cache/osrm_dist.json`
 - `fetch_all.py`, `fetch_hl_images.py`, `add_new.py` – fetch highlight and stop photos and their credits
 - `strip_metadata.py` – removes GPS, camera and other metadata from every photo in `assets/`, without

@@ -1,0 +1,490 @@
+{
+ "Agadir, Morocco": [
+  30.4205,
+  -9.5839
+ ],
+ "Alcobaça, Portugal": [
+  39.5519,
+  -8.9763
+ ],
+ "Aljezur, Portugal": [
+  37.3152,
+  -8.8041
+ ],
+ "Amalfi, Italy": [
+  40.6337,
+  14.6026
+ ],
+ "Arles, France": [
+  43.6776,
+  4.631
+ ],
+ "Asni, Morocco": [
+  31.2496,
+  -7.98
+ ],
+ "Barcelona, Spain": [
+  41.3826,
+  2.1771
+ ],
+ "Barcelos, Portugal": [
+  41.5314,
+  -8.6192
+ ],
+ "Bari, Italy": [
+  41.1258,
+  16.862
+ ],
+ "Baščaršija, Sarajevo": [
+  43.8591,
+  18.431
+ ],
+ "Bled, Slovenia": [
+  46.3684,
+  14.1101
+ ],
+ "Bosa, Italy": [
+  40.297,
+  8.4986
+ ],
+ "Budapest, Hungary": [
+  47.4979,
+  19.0402
+ ],
+ "Budva, Montenegro": [
+  42.2886,
+  18.842
+ ],
+ "Cabras, Italy": [
+  39.9279,
+  8.4819
+ ],
+ "Campo de Santa Clara, Lisbon": [
+  38.7154,
+  -9.1263
+ ],
+ "Cangas de Onís, Spain": [
+  43.3136,
+  -5.0659
+ ],
+ "Castellón de la Plana, Spain": [
+  39.986,
+  -0.0377
+ ],
+ "Chaves, Portugal": [
+  41.7399,
+  -7.4715
+ ],
+ "Civita di Bagnoregio, Italy": [
+  42.6277,
+  12.1137
+ ],
+ "Colmar, France": [
+  48.0778,
+  7.358
+ ],
+ "Comares, Spain": [
+  36.8494,
+  -4.2481
+ ],
+ "Cádiz, Spain": [
+  36.5297,
+  -6.2929
+ ],
+ "Domplatz, Erfurt": [
+  50.978,
+  11.0242
+ ],
+ "Dresden, Germany": [
+  51.0493,
+  13.7381
+ ],
+ "Dubrovnik, Croatia": [
+  42.6491,
+  18.094
+ ],
+ "Ebermannstadt, Germany": [
+  49.7802,
+  11.1875
+ ],
+ "Erfoud, Morocco": [
+  31.435,
+  -4.2328
+ ],
+ "Essaouira, Morocco": [
+  31.5118,
+  -9.7621
+ ],
+ "Estoril, Portugal": [
+  38.7096,
+  -9.3901
+ ],
+ "Fátima, Portugal": [
+  39.6255,
+  -8.6659
+ ],
+ "Gjirokastër, Albania": [
+  40.0771,
+  20.1393
+ ],
+ "Golegã, Portugal": [
+  39.4018,
+  -8.4867
+ ],
+ "Guelmim, Morocco": [
+  28.9864,
+  -10.0574
+ ],
+ "Guimarães, Portugal": [
+  41.4418,
+  -8.2956
+ ],
+ "Heidelberg, Germany": [
+  49.4094,
+  8.6947
+ ],
+ "Herceg Novi, Montenegro": [
+  42.4518,
+  18.5368
+ ],
+ "Inari, Finland": [
+  69.0635,
+  27.3187
+ ],
+ "Jerez de la Frontera, Spain": [
+  36.6817,
+  -6.1377
+ ],
+ "Kanal ob Soči, Slovenia": [
+  46.0859,
+  13.6339
+ ],
+ "Kapolcs, Hungary": [
+  46.9559,
+  17.6089
+ ],
+ "Kazimierz, Kraków": [
+  50.0519,
+  19.9449
+ ],
+ "Kernavė, Lithuania": [
+  54.8863,
+  24.854
+ ],
+ "Koblenz, Germany": [
+  50.3533,
+  7.5944
+ ],
+ "Kotor, Montenegro": [
+  42.4249,
+  18.7713
+ ],
+ "Kraków, Poland": [
+  50.0619,
+  19.9369
+ ],
+ "Krujë, Albania": [
+  41.5113,
+  19.7929
+ ],
+ "Lisbon, Portugal": [
+  38.7078,
+  -9.1366
+ ],
+ "Ljubljana, Slovenia": [
+  46.05,
+  14.5069
+ ],
+ "Ljubuški, Bosnia and Herzegovina": [
+  43.1963,
+  17.5448
+ ],
+ "Logroño, Spain": [
+  42.4661,
+  -2.4397
+ ],
+ "Lugo, Spain": [
+  43.0395,
+  -7.4568
+ ],
+ "M'Hamid El Ghizlane, Morocco": [
+  29.8273,
+  -5.7239
+ ],
+ "Makrino, Ioannina": [
+  39.8659,
+  20.9657
+ ],
+ "Manndalen, Norway": [
+  69.5309,
+  20.5481
+ ],
+ "Marino, Italy": [
+  41.7698,
+  12.6586
+ ],
+ "Marrakech, Morocco": [
+  31.6258,
+  -7.9892
+ ],
+ "Marvão, Portugal": [
+  39.3948,
+  -7.3775
+ ],
+ "Melpignano, Italy": [
+  40.1571,
+  18.2931
+ ],
+ "Međugorje, Bosnia and Herzegovina": [
+  43.1909,
+  17.6783
+ ],
+ "Molde, Norway": [
+  62.6016,
+  8.1386
+ ],
+ "Morges, Switzerland": [
+  46.5093,
+  6.4983
+ ],
+ "Motovun, Croatia": [
+  45.3367,
+  13.8283
+ ],
+ "Naples Cathedral": [
+  40.8527,
+  14.2599
+ ],
+ "Nuoro, Italy": [
+  40.2641,
+  9.1272
+ ],
+ "O Grove, Spain": [
+  42.4701,
+  -8.8962
+ ],
+ "Obinitsa, Estonia": [
+  57.8117,
+  27.4418
+ ],
+ "Oslo, Norway": [
+  59.9133,
+  10.739
+ ],
+ "Papingo, Greece": [
+  39.9682,
+  20.719
+ ],
+ "Pinhão, Portugal": [
+  41.191,
+  -7.546
+ ],
+ "Positano, Italy": [
+  40.6287,
+  14.4855
+ ],
+ "Praia do Norte, Nazaré": [
+  39.6228,
+  -9.0834
+ ],
+ "Pula Arena, Croatia": [
+  44.8732,
+  13.8501
+ ],
+ "Pärnu, Estonia": [
+  58.3871,
+  24.5026
+ ],
+ "Rabat, Morocco": [
+  34.0218,
+  -6.8409
+ ],
+ "Rissani, Morocco": [
+  31.2817,
+  -4.2641
+ ],
+ "Rome, Italy": [
+  41.8933,
+  12.4829
+ ],
+ "Saintes-Maries-de-la-Mer, France": [
+  43.4516,
+  4.4277
+ ],
+ "San Sebastián, Spain": [
+  43.3224,
+  -1.9839
+ ],
+ "Santarém, Portugal": [
+  39.2364,
+  -8.6867
+ ],
+ "Santiago de Compostela, Spain": [
+  42.9065,
+  -8.5193
+ ],
+ "Sarajevo, Bosnia and Herzegovina": [
+  43.8571,
+  18.4126
+ ],
+ "Schierke, Germany": [
+  51.7647,
+  10.6597
+ ],
+ "Shkodër, Albania": [
+  42.0681,
+  19.5121
+ ],
+ "Sidi Ifni, Morocco": [
+  29.3791,
+  -10.1716
+ ],
+ "Sinj, Croatia": [
+  43.7017,
+  16.6373
+ ],
+ "Sopot, Poland": [
+  54.4448,
+  18.5685
+ ],
+ "Stari Most, Mostar": [
+  43.3373,
+  17.815
+ ],
+ "Stockholm, Sweden": [
+  59.3251,
+  18.0711
+ ],
+ "Tafraout, Morocco": [
+  29.7226,
+  -8.9752
+ ],
+ "Taghazout, Morocco": [
+  30.5847,
+  -9.6785
+ ],
+ "Taliouine, Morocco": [
+  30.531,
+  -7.923
+ ],
+ "Tallinn Old Town": [
+  59.4366,
+  24.7445
+ ],
+ "Tallinn Song Festival Grounds": [
+  59.4451,
+  24.8061
+ ],
+ "Tallinn, Estonia": [
+  59.4372,
+  24.7573
+ ],
+ "Tan-Tan, Morocco": [
+  28.4376,
+  -11.0987
+ ],
+ "Taroudant, Morocco": [
+  30.4707,
+  -8.8779
+ ],
+ "Terchová, Slovakia": [
+  49.258,
+  19.0305
+ ],
+ "Thale, Germany": [
+  51.7528,
+  11.0377
+ ],
+ "Tiznit, Morocco": [
+  29.6986,
+  -9.7313
+ ],
+ "Tomar, Portugal": [
+  39.6037,
+  -8.415
+ ],
+ "Tomorr, Albania": [
+  40.6959,
+  20.1043
+ ],
+ "Trenčín, Slovakia": [
+  48.8923,
+  18.0387
+ ],
+ "Trondheim, Norway": [
+  63.4304,
+  10.3952
+ ],
+ "Valencia, Spain": [
+  39.4697,
+  -0.3763
+ ],
+ "Viljandi, Estonia": [
+  58.3645,
+  25.5878
+ ],
+ "Villaviciosa, Asturias": [
+  43.4814,
+  -5.4345
+ ],
+ "Vilnius, Lithuania": [
+  54.687,
+  25.2829
+ ],
+ "Višegrad, Bosnia and Herzegovina": [
+  43.7864,
+  19.2941
+ ],
+ "Vlkolínec, Slovakia": [
+  49.0393,
+  19.2784
+ ],
+ "Vradeto, Greece": [
+  39.897,
+  20.7773
+ ],
+ "Východná, Slovakia": [
+  49.0612,
+  19.8946
+ ],
+ "Warsaw, Poland": [
+  52.232,
+  21.0067
+ ],
+ "Werder (Havel), Germany": [
+  52.3716,
+  12.9329
+ ],
+ "Wernigerode, Germany": [
+  51.8344,
+  10.7863
+ ],
+ "Zagora, Morocco": [
+  30.3279,
+  -5.837
+ ],
+ "Zaragoza, Spain": [
+  41.6916,
+  -0.9101
+ ],
+ "Zuberec, Slovakia": [
+  49.2601,
+  19.6143
+ ],
+ "Zürich, Switzerland": [
+  47.3744,
+  8.541
+ ],
+ "Évora, Portugal": [
+  38.5708,
+  -7.9093
+ ],
+ "Óbidos, Portugal": [
+  39.362,
+  -9.1572
+ ],
+ "Óbudai-sziget, Budapest": [
+  47.5491,
+  19.0534
+ ]
+}

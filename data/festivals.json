@@ -8,7 +8,9 @@
   "status": "missed",
   "our_pass": "About 4 weeks before we leave (19 Jul)",
   "source": "Visit Estonia",
-  "url": "https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev"
+  "url": "https://visitestonia.com/en/midsummers-eve-when-dusk-meets-dawn-jaanipaev",
+  "rule": "fixed 06-23 06-24",
+  "country": "Estonia"
  },
  {
   "chapter": 1,
@@ -19,7 +21,9 @@
   "status": "missed",
   "our_pass": "About 4 weeks before we pass",
   "source": "Live Riga",
-  "url": "https://www.liveriga.com/en/2711-ligo-and-summer-solstice-festival"
+  "url": "https://www.liveriga.com/en/2711-ligo-and-summer-solstice-festival",
+  "rule": "fixed 06-23 06-24",
+  "country": "Latvia"
  },
  {
   "chapter": 1,
@@ -30,7 +34,14 @@
   "status": "missed",
   "our_pass": "Kraków 23 Jul, about 3 weeks late",
   "source": "jewishfestival.pl",
-  "url": "https://jewishfestival.pl/en/dates-of-the-35th-jcf-in-the-year-2026/"
+  "url": "https://jewishfestival.pl/en/dates-of-the-35th-jcf-in-the-year-2026/",
+  "rule": "about 07-01 07-05",
+  "places": [
+   {
+    "lat": 50.0519,
+    "lon": 19.9449
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -41,7 +52,14 @@
   "status": "missed",
   "our_pass": "Východná 26 Jul, about 3 weeks late",
   "source": "Visit Liptov",
-  "url": "https://www.visitliptov.sk/en/event/folklore-festival-vychodna-2026/"
+  "url": "https://www.visitliptov.sk/en/event/folklore-festival-vychodna-2026/",
+  "rule": "weekday 1 Sat 07 3 -1",
+  "places": [
+   {
+    "lat": 49.0612,
+    "lon": 19.8946
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -52,7 +70,14 @@
   "status": "missed",
   "our_pass": "Before we leave; Trenčín 30 Jul",
   "source": "Pohoda",
-  "url": "https://www.pohodafestival.sk/en/news/pohoda-in-london-we-re-starting-to-put-together-the-pohoda-2027-line-up"
+  "url": "https://www.pohodafestival.sk/en/news/pohoda-in-london-we-re-starting-to-put-together-the-pohoda-2027-line-up",
+  "rule": "dated 2027-07-08 2027-07-10 | weekday 2 Sat 07 3 -2",
+  "places": [
+   {
+    "lat": 48.8923,
+    "lon": 18.0387
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -63,7 +88,14 @@
   "status": "near",
   "our_pass": "Balaton 4 Aug, 3 days late",
   "source": "programturizmus.hu",
-  "url": "https://www.programturizmus.hu/ajanlat-muveszetek-volgye-fesztival-kapolcson.html"
+  "url": "https://www.programturizmus.hu/ajanlat-muveszetek-volgye-fesztival-kapolcson.html",
+  "rule": "dated 2027-07-23 2027-08-01 | about 07-23 08-01",
+  "places": [
+   {
+    "lat": 46.9559,
+    "lon": 17.6089
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -74,7 +106,14 @@
   "status": "on",
   "our_pass": "Bled 6 Aug, 55 km",
   "source": "Ljubljana Festival",
-  "url": "https://www.ljubljanafestival.si/en/press-releases/16251-summer-of-art-at-the-highest-level-the-74th-ljubljana-festival"
+  "url": "https://www.ljubljanafestival.si/en/press-releases/16251-summer-of-art-at-the-highest-level-the-74th-ljubljana-festival",
+  "rule": "about 06-21 09-08",
+  "places": [
+   {
+    "lat": 46.05,
+    "lon": 14.5069
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -85,7 +124,14 @@
   "status": "missed",
   "our_pass": "Bled 6 Aug, 13 days late",
   "source": "bled.si",
-  "url": "https://www.bled.si/en/events/"
+  "url": "https://www.bled.si/en/events/",
+  "rule": "weekday -2 Sat 07 1",
+  "places": [
+   {
+    "lat": 46.3684,
+    "lon": 14.1101
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -96,7 +142,14 @@
   "status": "missed",
   "our_pass": "Motovun 10 Aug, about 2 weeks late",
   "source": "HAVC",
-  "url": "https://havc.hr/eng/croatian-film/film-festivals-in-croatia/festival-list/cinehill-motovun-film-festival"
+  "url": "https://havc.hr/eng/croatian-film/film-festivals-in-croatia/festival-list/cinehill-motovun-film-festival",
+  "rule": "about 07-21 07-26",
+  "places": [
+   {
+    "lat": 45.3367,
+    "lon": 13.8283
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -107,7 +160,14 @@
   "status": "missed",
   "our_pass": "About 4 weeks late",
   "source": "istra.hr",
-  "url": "https://www.istra.hr/en/destinations/pula/events/22515"
+  "url": "https://www.istra.hr/en/destinations/pula/events/22515",
+  "rule": "about 07-09 07-16",
+  "places": [
+   {
+    "lat": 44.8732,
+    "lon": 13.8501
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -118,7 +178,14 @@
   "status": "missed",
   "our_pass": "Mostar 16 Aug, 3 weeks late",
   "source": "FENA",
-  "url": "https://fena.ba/article/1636506/traditional-459th-old-bridge-diving-competition-to-be-held-on-sunday"
+  "url": "https://fena.ba/article/1636506/traditional-459th-old-bridge-diving-competition-to-be-held-on-sunday",
+  "rule": "weekday -1 Sun 07 1",
+  "places": [
+   {
+    "lat": 43.3373,
+    "lon": 17.815
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -129,7 +196,14 @@
   "status": "near",
   "our_pass": "Krka 14 Aug (Sinj 60 km), about 6 days late",
   "source": "Croatia Week",
-  "url": "https://www.croatiaweek.com/milanovic-sinj-alka-311-preparations-2026/"
+  "url": "https://www.croatiaweek.com/milanovic-sinj-alka-311-preparations-2026/",
+  "rule": "about 08-02 08-09",
+  "places": [
+   {
+    "lat": 43.7017,
+    "lon": 16.6373
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -140,7 +214,14 @@
   "status": "missed",
   "our_pass": "Sarajevo 17 Aug, after it ends",
   "source": "Visit Sarajevo",
-  "url": "https://www.visitsarajevo.ba/event/bascarsija-nights-festival/"
+  "url": "https://www.visitsarajevo.ba/event/bascarsija-nights-festival/",
+  "rule": "about 07-01 07-31",
+  "places": [
+   {
+    "lat": 43.8591,
+    "lon": 18.431
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -151,7 +232,14 @@
   "status": "on",
   "our_pass": "Sarajevo 17 Aug",
   "source": "SFF",
-  "url": "https://www.sff.ba/en/news/12803/film-submissions-for-the-32nd-sarajevo-film-festival-programmes"
+  "url": "https://www.sff.ba/en/news/12803/film-submissions-for-the-32nd-sarajevo-film-festival-programmes",
+  "rule": "about 08-13 08-20",
+  "places": [
+   {
+    "lat": 43.8571,
+    "lon": 18.4126
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -162,7 +250,14 @@
   "status": "on",
   "our_pass": "Dubrovnik 25 Aug, last night",
   "source": "Croatia Week",
-  "url": "https://www.croatiaweek.com/77th-dubrovnik-summer-festival-opens-2026/"
+  "url": "https://www.croatiaweek.com/77th-dubrovnik-summer-festival-opens-2026/",
+  "rule": "fixed 07-10 08-25",
+  "places": [
+   {
+    "lat": 42.6491,
+    "lon": 18.094
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -173,7 +268,14 @@
   "status": "missed",
   "our_pass": "Kotor 26 Aug, 11 days after it ends",
   "source": "kotor.me programme",
-  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf"
+  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf",
+  "rule": "about 07-13 08-15",
+  "places": [
+   {
+    "lat": 42.4249,
+    "lon": 18.7713
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -184,7 +286,14 @@
   "status": "missed",
   "our_pass": "About 4 weeks late",
   "source": "kotor.me programme",
-  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf"
+  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf",
+  "rule": "about 07-31 08-02",
+  "places": [
+   {
+    "lat": 42.4249,
+    "lon": 18.7713
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -195,7 +304,14 @@
   "status": "near",
   "our_pass": "Kotor 26 Aug: 2 days early if it is Sat 28 Aug",
   "source": "kotor.me programme",
-  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf"
+  "url": "https://www.kotor.me/files/documents/1747984961-PROGRAM%20MANIFESTACIJA%20ZA%202025.%20GODINU.pdf",
+  "rule": "weekday -2 Sat 08 1 ~",
+  "places": [
+   {
+    "lat": 42.4249,
+    "lon": 18.7713
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -206,7 +322,14 @@
   "status": "missed",
   "our_pass": "Zagori 5–6 Sep, 3 weeks late",
   "source": "Zagori View",
-  "url": "https://zagoriview.com/panegyria/"
+  "url": "https://zagoriview.com/panegyria/",
+  "rule": "fixed 08-14 08-16",
+  "places": [
+   {
+    "lat": 39.9682,
+    "lon": 20.719
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -217,7 +340,14 @@
   "status": "missed",
   "our_pass": "We are in Greece",
   "source": "Sorrisi",
-  "url": "https://www.sorrisi.com/tv/news-e-anticipazioni/la-notte-della-taranta-2026-in-diretta-su-rai-3-e-nel-circuito-eurovisione/"
+  "url": "https://www.sorrisi.com/tv/news-e-anticipazioni/la-notte-della-taranta-2026-in-diretta-su-rai-3-e-nel-circuito-eurovisione/",
+  "rule": "weekday 4 Sat 08 1 ~",
+  "places": [
+   {
+    "lat": 40.1571,
+    "lon": 18.2931
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -228,7 +358,14 @@
   "status": "missed",
   "our_pass": "Amalfi 16 Sep",
   "source": "SiViaggia",
-  "url": "https://siviaggia.it/notizie/capodanno-bizantino-amalfi/411801/"
+  "url": "https://siviaggia.it/notizie/capodanno-bizantino-amalfi/411801/",
+  "rule": "fixed 08-31 09-01",
+  "places": [
+   {
+    "lat": 40.6337,
+    "lon": 14.6026
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -239,7 +376,14 @@
   "status": "missed",
   "our_pass": "Sardinia is no longer on the route",
   "source": "Blu Alghero",
-  "url": "https://www.blualghero-sardinia.com/it/redentore-di-nuoro-programma/"
+  "url": "https://www.blualghero-sardinia.com/it/redentore-di-nuoro-programma/",
+  "rule": "about 08-22 08-29",
+  "places": [
+   {
+    "lat": 40.2641,
+    "lon": 9.1272
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -250,7 +394,14 @@
   "status": "missed",
   "our_pass": "Sardinia is no longer on the route",
   "source": "Unione Sarda",
-  "url": "https://www.unionesarda.it/en/sardinia/cabras-900-barefoot-runners-countdown-to-the-corsa-degli-scalzi-barefoot-race-sppyy1vb"
+  "url": "https://www.unionesarda.it/en/sardinia/cabras-900-barefoot-runners-countdown-to-the-corsa-degli-scalzi-barefoot-race-sppyy1vb",
+  "rule": "weekday 1 Sun 09 2 -1 ~",
+  "places": [
+   {
+    "lat": 39.9279,
+    "lon": 8.4819
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -261,7 +412,14 @@
   "status": "missed",
   "our_pass": "Sardinia is no longer on the route",
   "source": "Unione Sarda",
-  "url": "https://www.unionesarda.it/en/sardinia/from-september-to-december-autumn-in-barbagia-stops-in-33-towns-rpxpdk90"
+  "url": "https://www.unionesarda.it/en/sardinia/from-september-to-december-autumn-in-barbagia-stops-in-33-towns-rpxpdk90",
+  "rule": "about 09-05 12-15",
+  "places": [
+   {
+    "lat": 40.2641,
+    "lon": 9.1272
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -272,7 +430,14 @@
   "status": "missed",
   "our_pass": "Sardinia is no longer on the route",
   "source": "Sardegna Turismo",
-  "url": "https://www.sardegnaturismo.it/en/node/287011"
+  "url": "https://www.sardegnaturismo.it/en/node/287011",
+  "rule": "weekday 2 Sun 09 2 -1 ~",
+  "places": [
+   {
+    "lat": 40.297,
+    "lon": 8.4986
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -283,7 +448,14 @@
   "status": "missed",
   "our_pass": "Loarre 25 Sep, 2 weeks early",
   "source": "Soy de Zaragoza",
-  "url": "https://soydezaragoza.es/fechas-de-las-fiestas-del-pilar/"
+  "url": "https://soydezaragoza.es/fechas-de-las-fiestas-del-pilar/",
+  "rule": "about 10-09 10-18",
+  "places": [
+   {
+    "lat": 41.6916,
+    "lon": -0.9101
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -294,7 +466,14 @@
   "status": "missed",
   "our_pass": "We land at Barcelona 21 Sep and drive straight on",
   "source": "barcelona.cat",
-  "url": "https://barcelona.cat/en/living-in-bcn/diada"
+  "url": "https://barcelona.cat/en/living-in-bcn/diada",
+  "rule": "fixed 09-11",
+  "places": [
+   {
+    "lat": 41.3826,
+    "lon": 2.1771
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -305,7 +484,9 @@
   "status": "on",
   "our_pass": "Last week, 22–26 Sep, including the Madrid finish; stage towns to follow once the route is announced",
   "source": "Cyclingnews",
-  "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-espana-grand-depart-returns-to-home-soil-with-start-in-galicia-in-2027/"
+  "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-espana-grand-depart-returns-to-home-soil-with-start-in-galicia-in-2027/",
+  "rule": "dated 2027-09-04 2027-09-26 | about 08-22 09-13",
+  "country": "Spain"
  },
  {
   "chapter": 6,
@@ -316,7 +497,14 @@
   "status": "near",
   "our_pass": "San Sebastián 27 Sep, about 2 days late",
   "source": "SSIFF",
-  "url": "https://www.sansebastianfestival.com/press/dates_and_forecasts/1/22440/in/t_22441"
+  "url": "https://www.sansebastianfestival.com/press/dates_and_forecasts/1/22440/in/t_22441",
+  "rule": "about 09-18 09-26",
+  "places": [
+   {
+    "lat": 43.3224,
+    "lon": -1.9839
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -327,7 +515,14 @@
   "status": "near",
   "our_pass": "Logroño 29 Sep, about 5 days late",
   "source": "Nuevecuatrouno",
-  "url": "https://nuevecuatrouno.com/2026/03/11/logrono-celia-sanz-logica-adelanto-cohete-fiestas-san-mateo/"
+  "url": "https://nuevecuatrouno.com/2026/03/11/logrono-celia-sanz-logica-adelanto-cohete-fiestas-san-mateo/",
+  "rule": "about 09-18 09-24",
+  "places": [
+   {
+    "lat": 42.4661,
+    "lon": -2.4397
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -338,7 +533,14 @@
   "status": "on",
   "our_pass": "Combarro 12 Oct, last day (O Grove 15 km)",
   "source": "Festivales de España",
-  "url": "https://www.festivalesdeespana.com/festival/festa-de-exaltacion-do-marisco-de-o-grove"
+  "url": "https://www.festivalesdeespana.com/festival/festa-de-exaltacion-do-marisco-de-o-grove",
+  "rule": "fixed 10-01 10-12 ~",
+  "places": [
+   {
+    "lat": 42.4701,
+    "lon": -8.8962
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -349,7 +551,14 @@
   "status": "near",
   "our_pass": "Douro 18–21 Oct, around the end of harvest",
   "source": "e-konomista",
-  "url": "https://www.e-konomista.pt/vindimas-no-douro/"
+  "url": "https://www.e-konomista.pt/vindimas-no-douro/",
+  "rule": "none",
+  "places": [
+   {
+    "lat": 41.191,
+    "lon": -7.546
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -360,7 +569,14 @@
   "status": "near",
   "our_pass": "Fátima 23 Oct, 10 days late",
   "source": "Africanews",
-  "url": "https://www.africanews.com/amp/2025/10/13/thousands-gather-at-fatima-shrine-for-final-pilgrimage-of-the-year/"
+  "url": "https://www.africanews.com/amp/2025/10/13/thousands-gather-at-fatima-shrine-for-final-pilgrimage-of-the-year/",
+  "rule": "fixed 10-12 10-13",
+  "places": [
+   {
+    "lat": 39.6255,
+    "lon": -8.6659
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -371,7 +587,14 @@
   "status": "near",
   "our_pass": "Óbidos 27 Oct, about 10 days late",
   "source": "NiT",
-  "url": "https://www.nit.pt/cultura/livros/folio-revela-as-datas-da-proxima-edicao-e-confirma-presenca-de-jon-fosse-e-leila-slimani"
+  "url": "https://www.nit.pt/cultura/livros/folio-revela-as-datas-da-proxima-edicao-e-confirma-presenca-de-jon-fosse-e-leila-slimani",
+  "rule": "about 10-07 10-17",
+  "places": [
+   {
+    "lat": 39.362,
+    "lon": -9.1572
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -382,7 +605,14 @@
   "status": "near",
   "our_pass": "Nazaré 26 Oct, 6 days before the window opens",
   "source": "The Inertia",
-  "url": "https://www.theinertia.com/surf/nazare-big-wave-challenge-returns-winter-new-format/"
+  "url": "https://www.theinertia.com/surf/nazare-big-wave-challenge-returns-winter-new-format/",
+  "rule": "none",
+  "places": [
+   {
+    "lat": 39.6228,
+    "lon": -9.0834
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -393,7 +623,14 @@
   "status": "on",
   "our_pass": "Golegã 10–12 Nov",
   "source": "Observador",
-  "url": "https://observador.pt/2025/11/07/golega-investe-600-mil-euros-na-feira-do-cavalo-e-quer-torna-la-patrimonio-imaterial/"
+  "url": "https://observador.pt/2025/11/07/golega-investe-600-mil-euros-na-feira-do-cavalo-e-quer-torna-la-patrimonio-imaterial/",
+  "rule": "about 11-05 11-14",
+  "places": [
+   {
+    "lat": 39.4018,
+    "lon": -8.4867
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -404,7 +641,9 @@
   "status": "on",
   "our_pass": "11 Nov at the Golegã fair",
   "source": "Radical Storage",
-  "url": "https://radicalstorage.com/travel/pt-pt/magusto-porto-sao-martinho/"
+  "url": "https://radicalstorage.com/travel/pt-pt/magusto-porto-sao-martinho/",
+  "rule": "fixed 11-11",
+  "country": "Portugal"
  },
  {
   "chapter": 8,
@@ -415,7 +654,14 @@
   "status": "missed",
   "our_pass": "Not visiting Marrakech",
   "source": "ACC",
-  "url": "https://acc.film/cannes100/2026/marrakech-international-film-festival.php"
+  "url": "https://acc.film/cannes100/2026/marrakech-international-film-festival.php",
+  "rule": "about 11-19 11-27",
+  "places": [
+   {
+    "lat": 31.6258,
+    "lon": -7.9892
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -426,7 +672,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Infomédiaire",
-  "url": "https://www.infomediaire.net/?p=184020"
+  "url": "https://www.infomediaire.net/?p=184020",
+  "rule": "about 10-29 11-02",
+  "places": [
+   {
+    "lat": 31.435,
+    "lon": -4.2328
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -437,7 +690,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "L'ODJ",
-  "url": "https://lodj.ma/file/242092"
+  "url": "https://lodj.ma/file/242092",
+  "rule": "about 11-01 11-03",
+  "places": [
+   {
+    "lat": 29.8273,
+    "lon": -5.7239
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -448,7 +708,14 @@
   "status": "missed",
   "our_pass": "Taliouine 15 Dec",
   "source": "TelQuel",
-  "url": "https://telquel.ma/instant-t/2025/11/17/taliouine-accueille-le-16e-festival-international-du-safran_1961256/"
+  "url": "https://telquel.ma/instant-t/2025/11/17/taliouine-accueille-le-16e-festival-international-du-safran_1961256/",
+  "rule": "about 11-20 11-23",
+  "places": [
+   {
+    "lat": 30.531,
+    "lon": -7.923
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -459,7 +726,14 @@
   "status": "on",
   "our_pass": "Trip from the Tiznit base (from 19 Dec)",
   "source": "AllAfrica",
-  "url": "https://fr.allafrica.com/stories/202512250130.html"
+  "url": "https://fr.allafrica.com/stories/202512250130.html",
+  "rule": "about 12-27 12-29",
+  "places": [
+   {
+    "lat": 31.5118,
+    "lon": -9.7621
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -470,7 +744,9 @@
   "status": "on",
   "our_pass": "Tiznit base",
   "source": "Hespress",
-  "url": "https://fr.hespress.com/404879-404879.html"
+  "url": "https://fr.hespress.com/404879-404879.html",
+  "rule": "fixed 01-13 01-14",
+  "country": "Morocco"
  },
  {
   "chapter": 8,
@@ -481,7 +757,14 @@
   "status": "on",
   "our_pass": "Saturday trip from Tiznit",
   "source": "Médias24",
-  "url": "https://medias24.com/2023/12/18/guelmim-les-portes-ouvertes-vers-la-magie-du-desert/"
+  "url": "https://medias24.com/2023/12/18/guelmim-les-portes-ouvertes-vers-la-magie-du-desert/",
+  "rule": "weekly Sat",
+  "places": [
+   {
+    "lat": 28.9864,
+    "lon": -10.0574
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -492,7 +775,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Le Matin",
-  "url": "https://lematin.ma/culture/moussem-de-tan-tan-la-19e-edition-se-tiendra-du-30-octobre-au-3-novembre/366795"
+  "url": "https://lematin.ma/culture/moussem-de-tan-tan-la-19e-edition-se-tiendra-du-30-octobre-au-3-novembre/366795",
+  "rule": "about 10-30 11-03 ~",
+  "places": [
+   {
+    "lat": 28.4376,
+    "lon": -11.0987
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -503,7 +793,14 @@
   "status": "missed",
   "our_pass": "Probably; the blossom itself (late Jan – Feb) is on route",
   "source": "AllAfrica",
-  "url": "https://fr.allafrica.com/stories/202604080673.html"
+  "url": "https://fr.allafrica.com/stories/202604080673.html",
+  "rule": "none",
+  "places": [
+   {
+    "lat": 29.7226,
+    "lon": -8.9752
+   }
+  ]
  },
  {
   "chapter": 9,
@@ -514,7 +811,14 @@
   "status": "missed",
   "our_pass": "Peak missed by about 3 weeks",
   "source": "El Debate",
-  "url": "https://www.eldebate.com/espana/andalucia/malaga/20260301/campo-malagueno-viste-gala-ruta-floracion-almendro-ocho-pueblos-provincia_389703.html"
+  "url": "https://www.eldebate.com/espana/andalucia/malaga/20260301/campo-malagueno-viste-gala-ruta-floracion-almendro-ocho-pueblos-provincia_389703.html",
+  "rule": "none",
+  "places": [
+   {
+    "lat": 36.8494,
+    "lon": -4.2481
+   }
+  ]
  },
  {
   "chapter": 9,
@@ -525,7 +829,14 @@
   "status": "on",
   "our_pass": "24–26 Feb, opening days",
   "source": "Festivales de España",
-  "url": "https://www.festivalesdeespana.com/festival/carnaval-de-cadiz"
+  "url": "https://www.festivalesdeespana.com/festival/carnaval-de-cadiz",
+  "rule": "easter -52 -42",
+  "places": [
+   {
+    "lat": 36.5297,
+    "lon": -6.2929
+   }
+  ]
  },
  {
   "chapter": 9,
@@ -536,7 +847,14 @@
   "status": "on",
   "our_pass": "From Cádiz 24–26 Feb, 35 km",
   "source": "Vida Flamenca",
-  "url": "https://vidaflamenca.org/31a-festival-de-jerez-2027-programa-de-cursos-y-talleres-las-inscripciones-se-abriran-14-de-septiembre/"
+  "url": "https://vidaflamenca.org/31a-festival-de-jerez-2027-programa-de-cursos-y-talleres-las-inscripciones-se-abriran-14-de-septiembre/",
+  "rule": "dated 2027-02-19 2027-03-06 | about 02-23 03-08",
+  "places": [
+   {
+    "lat": 36.6817,
+    "lon": -6.1377
+   }
+  ]
  },
  {
   "chapter": 9,
@@ -547,7 +865,14 @@
   "status": "on",
   "our_pass": "15–19 Mar, main days and the Cremà",
   "source": "Visit Valencia",
-  "url": "https://www.visitvalencia.com/agenda-valencia/mascletas-de-las-fallas"
+  "url": "https://www.visitvalencia.com/agenda-valencia/mascletas-de-las-fallas",
+  "rule": "fixed 03-01 03-19",
+  "places": [
+   {
+    "lat": 39.4697,
+    "lon": -0.3763
+   }
+  ]
  },
  {
   "chapter": 9,
@@ -558,7 +883,14 @@
   "status": "on",
   "our_pass": "Castellón 20 Mar",
   "source": "iCalendario",
-  "url": "https://icalendario.net/fiestas-religiosas/catolicas-locales/fiestas-de-la-magdalena"
+  "url": "https://icalendario.net/fiestas-religiosas/catolicas-locales/fiestas-de-la-magdalena",
+  "rule": "easter -29 -21",
+  "places": [
+   {
+    "lat": 39.986,
+    "lon": -0.0377
+   }
+  ]
  },
  {
   "chapter": 10,
@@ -569,7 +901,14 @@
   "status": "missed",
   "our_pass": "About 2 months",
   "source": "Festival en France",
-  "url": "https://festivalenfrance.com/festival/pelerinage-des-gitans-aux-saintes-maries-de-la-mer"
+  "url": "https://festivalenfrance.com/festival/pelerinage-des-gitans-aux-saintes-maries-de-la-mer",
+  "rule": "fixed 05-24 05-25",
+  "places": [
+   {
+    "lat": 43.4516,
+    "lon": 4.4277
+   }
+  ]
  },
  {
   "chapter": 10,
@@ -580,7 +919,14 @@
   "status": "missed",
   "our_pass": "Arles 27 Mar",
   "source": "Provence tourism",
-  "url": "https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/la-feria-de-paques-arles-fr-4565560/"
+  "url": "https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/la-feria-de-paques-arles-fr-4565560/",
+  "rule": "easter -2 1",
+  "places": [
+   {
+    "lat": 43.6776,
+    "lon": 4.631
+   }
+  ]
  },
  {
   "chapter": 11,
@@ -591,7 +937,14 @@
   "status": "on",
   "our_pass": "Lavaux 12 Apr",
   "source": "Morges Tourisme",
-  "url": "https://www.morges-tourisme.ch/en/P91876"
+  "url": "https://www.morges-tourisme.ch/en/P91876",
+  "rule": "about 03-25 05-09",
+  "places": [
+   {
+    "lat": 46.5093,
+    "lon": 6.4983
+   }
+  ]
  },
  {
   "chapter": 11,
@@ -602,7 +955,14 @@
   "status": "near",
   "our_pass": "Rhine Falls 16 Apr, 8 days early",
   "source": "La Télé",
-  "url": "https://latele.ch/articles/neuchatel-et-le-jura-hotes-d-honneur-du-sechselaeuten-en-2028"
+  "url": "https://latele.ch/articles/neuchatel-et-le-jura-hotes-d-honneur-du-sechselaeuten-en-2028",
+  "rule": "dated 2028-04-21 2028-04-24 | weekday 3 Mon 04 4 -3",
+  "places": [
+   {
+    "lat": 47.3744,
+    "lon": 8.541
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -613,7 +973,14 @@
   "status": "on",
   "our_pass": "Colmar 17 Apr",
   "source": "info.fr",
-  "url": "https://info.fr/colmar-fete-printemps-marches-paques-animations-2026/"
+  "url": "https://info.fr/colmar-fete-printemps-marches-paques-animations-2026/",
+  "rule": "easter -21 21 ~",
+  "places": [
+   {
+    "lat": 48.0778,
+    "lon": 7.358
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -624,7 +991,14 @@
   "status": "near",
   "our_pass": "Heidelberg 25 Apr, about 10 days late",
   "source": "Festival report",
-  "url": "https://www.heidelberger-fruehling.de/wp-content/uploads/2026/04/26-04-19_PI_Bilanz_Heidelberger_Fruehling_Musikfestival_2026_.pdf"
+  "url": "https://www.heidelberger-fruehling.de/wp-content/uploads/2026/04/26-04-19_PI_Bilanz_Heidelberger_Fruehling_Musikfestival_2026_.pdf",
+  "rule": "about 03-15 04-15",
+  "places": [
+   {
+    "lat": 49.4094,
+    "lon": 8.6947
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -635,7 +1009,14 @@
   "status": "on",
   "our_pass": "Bamberg 28 Apr",
   "source": "Pegnitz flyer",
-  "url": "https://www.pegnitz.de/_Resources/Persistent/c/5/4/6/c546402e5437469f817fb36f66d9a2b92acd2cd2/Osterbrunnen_Flyer_2026.pdf"
+  "url": "https://www.pegnitz.de/_Resources/Persistent/c/5/4/6/c546402e5437469f817fb36f66d9a2b92acd2cd2/Osterbrunnen_Flyer_2026.pdf",
+  "rule": "easter -7 14",
+  "places": [
+   {
+    "lat": 49.7802,
+    "lon": 11.1875
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -646,7 +1027,22 @@
   "status": "near",
   "our_pass": "Same night, but we are in Erfurt, 150 km away",
   "source": "Volksstimme",
-  "url": "https://www.volksstimme.de/lokal/wernigerode/walpurgis-2026-harz-schierke-thale-hexentanzplatz-wernigerode-quedlinburg-programm-anreise-tickets-parken-3595569"
+  "url": "https://www.volksstimme.de/lokal/wernigerode/walpurgis-2026-harz-schierke-thale-hexentanzplatz-wernigerode-quedlinburg-programm-anreise-tickets-parken-3595569",
+  "rule": "fixed 04-30",
+  "places": [
+   {
+    "lat": 51.7528,
+    "lon": 11.0377
+   },
+   {
+    "lat": 51.7647,
+    "lon": 10.6597
+   },
+   {
+    "lat": 51.8344,
+    "lon": 10.7863
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -657,7 +1053,14 @@
   "status": "on",
   "our_pass": "Erfurt 30 Apr",
   "source": "Festivals in Deutschland",
-  "url": "https://www.festivalsindeutschland.de/festival/walpurgisnacht-domplatz-erfurt"
+  "url": "https://www.festivalsindeutschland.de/festival/walpurgisnacht-domplatz-erfurt",
+  "rule": "fixed 04-29 04-30 ~",
+  "places": [
+   {
+    "lat": 50.978,
+    "lon": 11.0242
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -668,7 +1071,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/Rhein_in_Flammen"
+  "url": "https://en.wikipedia.org/wiki/Rhein_in_Flammen",
+  "rule": "none",
+  "places": [
+   {
+    "lat": 50.3533,
+    "lon": 7.5944
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -679,7 +1089,14 @@
   "status": "near",
   "our_pass": "Potsdam 9 May, about 6 days late",
   "source": "Festivals in Deutschland",
-  "url": "https://www.festivalsindeutschland.de/festival/baumbluetenfest-werder-havel"
+  "url": "https://www.festivalsindeutschland.de/festival/baumbluetenfest-werder-havel",
+  "rule": "about 04-25 05-03",
+  "places": [
+   {
+    "lat": 52.3716,
+    "lon": 12.9329
+   }
+  ]
  },
  {
   "chapter": 12,
@@ -690,7 +1107,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Festival",
-  "url": "https://www.dixielandfestival-dresden.com/en/program.html"
+  "url": "https://www.dixielandfestival-dresden.com/en/program.html",
+  "rule": "easter 44 50 ~",
+  "places": [
+   {
+    "lat": 51.0493,
+    "lon": 13.7381
+   }
+  ]
  },
  {
   "chapter": 13,
@@ -701,7 +1125,14 @@
   "status": "missed",
   "our_pass": "Sopot 16 May, about 12 days early",
   "source": "Visit Sopot",
-  "url": "https://visit.sopot.pl/en/news/see-you-at-the-resort-days-in-sopot-32120076"
+  "url": "https://visit.sopot.pl/en/news/see-you-at-the-resort-days-in-sopot-32120076",
+  "rule": "weekday -1 Sun 05 2 -1 ~",
+  "places": [
+   {
+    "lat": 54.4448,
+    "lon": 18.5685
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -712,7 +1143,14 @@
   "status": "on",
   "our_pass": "Home 25 Jun – 11 Jul",
   "source": "ERR",
-  "url": "https://news.err.ee/1609548682/youth-festivals-to-be-merged-with-estonia-s-song-and-dance-festival-in-2028"
+  "url": "https://news.err.ee/1609548682/youth-festivals-to-be-merged-with-estonia-s-song-and-dance-festival-in-2028",
+  "rule": "dated 2028-06-30 2028-07-09 | about 07-01 07-06 ; every 5 2028",
+  "places": [
+   {
+    "lat": 59.4451,
+    "lon": 24.8061
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -723,7 +1161,9 @@
   "status": "on",
   "our_pass": "Viljandi and Soomaa",
   "source": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/Jaanip%C3%A4ev"
+  "url": "https://en.wikipedia.org/wiki/Jaanip%C3%A4ev",
+  "rule": "fixed 06-23 06-24",
+  "country": "Estonia"
  },
  {
   "chapter": 14,
@@ -734,7 +1174,9 @@
   "status": "missed",
   "our_pass": "We are in Estonia",
   "source": "Latvia Travel",
-  "url": "https://www.latvia.travel/en/summer-solstice-celebrations"
+  "url": "https://www.latvia.travel/en/summer-solstice-celebrations",
+  "rule": "fixed 06-23 06-24",
+  "country": "Latvia"
  },
  {
   "chapter": 14,
@@ -745,7 +1187,14 @@
   "status": "on",
   "our_pass": "Home",
   "source": "Baltic Guide",
-  "url": "https://balticguide.ee/en/?p=159667"
+  "url": "https://balticguide.ee/en/?p=159667",
+  "rule": "weekday 1 Sat 07 3 -1 ~",
+  "places": [
+   {
+    "lat": 58.3871,
+    "lon": 24.5026
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -756,7 +1205,14 @@
   "status": "on",
   "our_pass": "Partly; we leave 11 Jul",
   "source": "paavojarvi.com",
-  "url": "https://paavojarvi.com/parnu-music-festival-2026-8-18-july/"
+  "url": "https://paavojarvi.com/parnu-music-festival-2026-8-18-july/",
+  "rule": "about 07-08 07-18",
+  "places": [
+   {
+    "lat": 58.3871,
+    "lon": 24.5026
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -767,7 +1223,14 @@
   "status": "on",
   "our_pass": "Probably; Tallinn 11–12 Jul for the Helsinki ferry",
   "source": "Visit Estonia",
-  "url": "https://visitestonia.com/en/tallinn-maritime-days"
+  "url": "https://visitestonia.com/en/tallinn-maritime-days",
+  "rule": "about 07-11 07-13",
+  "places": [
+   {
+    "lat": 59.4372,
+    "lon": 24.7573
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -778,7 +1241,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Baltic Guide",
-  "url": "https://balticguide.ee/en/tallinns-old-town-days-start-next-week/?l"
+  "url": "https://balticguide.ee/en/tallinns-old-town-days-start-next-week/?l",
+  "rule": "about 06-05 06-07",
+  "places": [
+   {
+    "lat": 59.4366,
+    "lon": 24.7445
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -789,7 +1259,14 @@
   "status": "missed",
   "our_pass": "About 2 weeks",
   "source": "LRT",
-  "url": "https://www.lrt.lt/en/news-in-english/19/2554154/summer-festivals-in-vilnius-key-dates"
+  "url": "https://www.lrt.lt/en/news-in-english/19/2554154/summer-festivals-in-vilnius-key-dates",
+  "rule": "weekday 3 Sat 05 1 ~",
+  "places": [
+   {
+    "lat": 54.687,
+    "lon": 25.2829
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -800,7 +1277,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "bilietai.lt",
-  "url": "https://www.bilietai.lt/en/series/IAPNXONZS7/gyvosios-archeologijos-dienos-kernaveje-xxvi"
+  "url": "https://www.bilietai.lt/en/series/IAPNXONZS7/gyvosios-archeologijos-dienos-kernaveje-xxvi",
+  "rule": "about 07-04 07-06",
+  "places": [
+   {
+    "lat": 54.8863,
+    "lon": 24.854
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -811,7 +1295,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Baltic Guide",
-  "url": "https://balticguide.ee/en/setomaas-summer-is-full-of-events/"
+  "url": "https://balticguide.ee/en/setomaas-summer-is-full-of-events/",
+  "rule": "weekday 1 Sat 08 1 ~",
+  "places": [
+   {
+    "lat": 57.8117,
+    "lon": 27.4418
+   }
+  ]
  },
  {
   "chapter": 14,
@@ -822,7 +1313,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Visit Estonia",
-  "url": "https://www.visitestonia.com/en/viljandi-folk-music-festival"
+  "url": "https://www.visitestonia.com/en/viljandi-folk-music-festival",
+  "rule": "weekday -1 Sun 07 4 -3 ~",
+  "places": [
+   {
+    "lat": 58.3645,
+    "lon": 25.5878
+   }
+  ]
  },
  {
   "chapter": 15,
@@ -833,7 +1331,14 @@
   "status": "near",
   "our_pass": "Lyngen 21 Jul, about 10 days late",
   "source": "riddu.no",
-  "url": "https://riddu.no/en/nyheter/ministry-culture-opening-riddu-riddu-2026"
+  "url": "https://riddu.no/en/nyheter/ministry-culture-opening-riddu-riddu-2026",
+  "rule": "about 07-08 07-12",
+  "places": [
+   {
+    "lat": 69.5309,
+    "lon": 20.5481
+   }
+  ]
  },
  {
   "chapter": 15,
@@ -844,7 +1349,14 @@
   "status": "missed",
   "our_pass": "",
   "source": "Lapland North",
-  "url": "https://laplandnorth.fi/en/events/ijahis-idja/"
+  "url": "https://laplandnorth.fi/en/events/ijahis-idja/",
+  "rule": "about 08-14 08-15",
+  "places": [
+   {
+    "lat": 69.0635,
+    "lon": 27.3187
+   }
+  ]
  },
  {
   "chapter": 16,
@@ -855,7 +1367,14 @@
   "status": "on",
   "our_pass": "Trondheim 3 Aug, probably the last day",
   "source": "Life in Norway",
-  "url": "https://www.lifeinnorway.net/major-events-in-trondheim"
+  "url": "https://www.lifeinnorway.net/major-events-in-trondheim",
+  "rule": "about 07-28 08-03",
+  "places": [
+   {
+    "lat": 63.4304,
+    "lon": 10.3952
+   }
+  ]
  },
  {
   "chapter": 16,
@@ -866,7 +1385,14 @@
   "status": "near",
   "our_pass": "3 days early",
   "source": "Life in Norway",
-  "url": "https://www.lifeinnorway.net/major-events-in-trondheim"
+  "url": "https://www.lifeinnorway.net/major-events-in-trondheim",
+  "rule": "about 08-06 08-08",
+  "places": [
+   {
+    "lat": 63.4304,
+    "lon": 10.3952
+   }
+  ]
  },
  {
   "chapter": 16,
@@ -877,7 +1403,14 @@
   "status": "missed",
   "our_pass": "About 2.5 weeks",
   "source": "Fjord Norway",
-  "url": "https://www.fjordnorway.com/en/events/moldejazz"
+  "url": "https://www.fjordnorway.com/en/events/moldejazz",
+  "rule": "isoweek 29 Mon 6 ~",
+  "places": [
+   {
+    "lat": 62.6016,
+    "lon": 8.1386
+   }
+  ]
  },
  {
   "chapter": 16,
@@ -888,7 +1421,14 @@
   "status": "near",
   "our_pass": "Oslo 16 Aug: on route if 2028 is week 33, else 1 day late",
   "source": "GIITTV",
-  "url": "https://www.godisinthetvzine.co.uk/2026/05/19/news-oslos-oya-festival-announces-final-artists-for-2026-line-up/"
+  "url": "https://www.godisinthetvzine.co.uk/2026/05/19/news-oslos-oya-festival-announces-final-artists-for-2026-line-up/",
+  "rule": "isoweek 33 Wed 4 ~",
+  "places": [
+   {
+    "lat": 59.9133,
+    "lon": 10.739
+   }
+  ]
  },
  {
   "chapter": 16,
@@ -899,7 +1439,14 @@
   "status": "near",
   "our_pass": "Stockholm 18 Aug: on route if 2028 is week 33, else 2 days late",
   "source": "TT",
-  "url": "https://via.tt.se/pressmeddelande/4486528/en-vecka-kvar-till-kulturfestivalen?lang=sv"
+  "url": "https://via.tt.se/pressmeddelande/4486528/en-vecka-kvar-till-kulturfestivalen?lang=sv",
+  "rule": "isoweek 33 Wed 5 ~",
+  "places": [
+   {
+    "lat": 59.3251,
+    "lon": 18.0711
+   }
+  ]
  },
  {
   "chapter": 1,
@@ -910,7 +1457,14 @@
   "status": "on",
   "our_pass": "Kraków 23 Jul",
   "source": "Visit Kraków",
-  "url": "https://visitkrakow.com/summer-jazz-festival-krakow-guide/"
+  "url": "https://visitkrakow.com/summer-jazz-festival-krakow-guide/",
+  "rule": "about 06-27 08-31",
+  "places": [
+   {
+    "lat": 50.0619,
+    "lon": 19.9369
+   }
+  ]
  },
  {
   "chapter": 1,
@@ -921,7 +1475,14 @@
   "status": "missed",
   "our_pass": "Warsaw 20 Jul, 12 days early",
   "source": "Wprost",
-  "url": "https://www.wprost.pl/12403947"
+  "url": "https://www.wprost.pl/12403947",
+  "rule": "fixed 08-01",
+  "places": [
+   {
+    "lat": 52.232,
+    "lon": 21.0067
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -932,7 +1493,14 @@
   "status": "on",
   "our_pass": "Vlkolínec 27 Jul (small)",
   "source": "Visit Liptov",
-  "url": "https://www.visitliptov.sk/en/?p=722165"
+  "url": "https://www.visitliptov.sk/en/?p=722165",
+  "rule": "about 07-04 08-30",
+  "places": [
+   {
+    "lat": 49.0393,
+    "lon": 19.2784
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -943,7 +1511,14 @@
   "status": "on",
   "our_pass": "29 Jul, free day between Orava and Trenčín",
   "source": "TASR",
-  "url": "https://www.teraz.sk/regiony/v-stredu-sa-zacina-64-rocnik-folkl/981310-clanok.html"
+  "url": "https://www.teraz.sk/regiony/v-stredu-sa-zacina-64-rocnik-folkl/981310-clanok.html",
+  "rule": "about 07-28 08-01",
+  "places": [
+   {
+    "lat": 49.258,
+    "lon": 19.0305
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -954,7 +1529,14 @@
   "status": "near",
   "our_pass": "Orava 28 Jul, about 7 days early",
   "source": "TASR",
-  "url": "https://www.teraz.sk/regiony/podrohacske-folklorne-slavnosti-osl/982879-clanok.html"
+  "url": "https://www.teraz.sk/regiony/podrohacske-folklorne-slavnosti-osl/982879-clanok.html",
+  "rule": "about 08-04 08-08",
+  "places": [
+   {
+    "lat": 49.2601,
+    "lon": 19.6143
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -965,7 +1547,14 @@
   "status": "near",
   "our_pass": "Bled 6 Aug, about 3 days late; may no longer run",
   "source": "RTV Slovenija",
-  "url": "https://www.rtvslo.si/kultura/glasba/s-festivalom-okarina-znova-zvoki-etna-in-dzeza-na-bledu/495185"
+  "url": "https://www.rtvslo.si/kultura/glasba/s-festivalom-okarina-znova-zvoki-etna-in-dzeza-na-bledu/495185",
+  "rule": "about 07-23 08-03 ~",
+  "places": [
+   {
+    "lat": 46.3684,
+    "lon": 14.1101
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -976,7 +1565,14 @@
   "status": "near",
   "our_pass": "Balaton 4–5 Aug, 5 days early; 130 km off route",
   "source": "festivalinfo.nl",
-  "url": "https://www.festivalinfo.nl/news/59200/Sziget-maakt-datum-locatie-en-ticketverkoop-bekend-voor-2027-en-blikt-terug-op-2026/"
+  "url": "https://www.festivalinfo.nl/news/59200/Sziget-maakt-datum-locatie-en-ticketverkoop-bekend-voor-2027-en-blikt-terug-op-2026/",
+  "rule": "dated 2027-08-10 2027-08-14 | about 08-10 08-15",
+  "places": [
+   {
+    "lat": 47.5491,
+    "lon": 19.0534
+   }
+  ]
  },
  {
   "chapter": 2,
@@ -987,7 +1583,14 @@
   "status": "missed",
   "our_pass": "15 days after Balaton",
   "source": "Xpatloop",
-  "url": "https://xpatloop.com/channels/2026/08/budapests-august-20-celebrations-will-feature-fireworks-free-programmes.html"
+  "url": "https://xpatloop.com/channels/2026/08/budapests-august-20-celebrations-will-feature-fireworks-free-programmes.html",
+  "rule": "fixed 08-20",
+  "places": [
+   {
+    "lat": 47.4979,
+    "lon": 19.0402
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -998,7 +1601,14 @@
   "status": "on",
   "our_pass": "Soča 8 Aug, if the pattern holds",
   "source": "Slovenia Times",
-  "url": "https://sloveniatimes.com/event/270/spectacular-dives-from-kanal-bridge"
+  "url": "https://sloveniatimes.com/event/270/spectacular-dives-from-kanal-bridge",
+  "rule": "weekday 2 Sun 08 1 ~",
+  "places": [
+   {
+    "lat": 46.0859,
+    "lon": 13.6339
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -1009,7 +1619,18 @@
   "status": "on",
   "our_pass": "Kravica 15 Aug: crowds and closures",
   "source": "Croatia Week",
-  "url": "https://www.croatiaweek.com/velika-gospa-croatia-pilgrims-marian-shrines/"
+  "url": "https://www.croatiaweek.com/velika-gospa-croatia-pilgrims-marian-shrines/",
+  "rule": "fixed 08-15",
+  "places": [
+   {
+    "lat": 43.1909,
+    "lon": 17.6783
+   },
+   {
+    "lat": 43.1963,
+    "lon": 17.5448
+   }
+  ]
  },
  {
   "chapter": 3,
@@ -1020,7 +1641,14 @@
   "status": "near",
   "our_pass": "Višegrad 19 Aug, 2 or 9 days early",
   "source": "SeeSrpska",
-  "url": "https://seesrpska.com/en/zivot/sta-donosi-avgust-u-visegradu-10-8-2025"
+  "url": "https://seesrpska.com/en/zivot/sta-donosi-avgust-u-visegradu-10-8-2025",
+  "rule": "weekday -2 Sat 08 1 ~",
+  "places": [
+   {
+    "lat": 43.7864,
+    "lon": 19.2941
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1031,7 +1659,14 @@
   "status": "on",
   "our_pass": "25 Aug between Dubrovnik and Perast, if the late-August slot stays",
   "source": "Cineuropa",
-  "url": "https://cineuropa.org/en/newsdetail/494367"
+  "url": "https://cineuropa.org/en/newsdetail/494367",
+  "rule": "about 08-22 08-28",
+  "places": [
+   {
+    "lat": 42.4518,
+    "lon": 18.5368
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1042,7 +1677,14 @@
   "status": "near",
   "our_pass": "Sveti Stefan 27 Aug, about 4 days late",
   "source": "Festival Finder",
-  "url": "https://www.festivalfinder.eu/festivals/xxxix-festival-theatre-city"
+  "url": "https://www.festivalfinder.eu/festivals/xxxix-festival-theatre-city",
+  "rule": "about 07-01 08-23",
+  "places": [
+   {
+    "lat": 42.2886,
+    "lon": 18.842
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1053,7 +1695,14 @@
   "status": "on",
   "our_pass": "Shkodra 29 Aug, likely",
   "source": "Shqiptarja",
-  "url": "https://shqiptarja.com/lajm/aktivitetet-kulturore-vijon-edicioni-i-16te-i-festivalit-te-xhazit-ne-shkoder-microfolie-tirana-muze-digjital-te-parku-europa"
+  "url": "https://shqiptarja.com/lajm/aktivitetet-kulturore-vijon-edicioni-i-16te-i-festivalit-te-xhazit-ne-shkoder-microfolie-tirana-muze-digjital-te-parku-europa",
+  "rule": "about 08-12 08-31",
+  "places": [
+   {
+    "lat": 42.0681,
+    "lon": 19.5121
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1064,7 +1713,14 @@
   "status": "on",
   "our_pass": "Krujë 31 Aug, unverified",
   "source": "Sara Kuehn",
-  "url": "https://www.sarakuehn.com/kruja-pilgrimage-albania"
+  "url": "https://www.sarakuehn.com/kruja-pilgrimage-albania",
+  "rule": "about 08-14 09-14 ~",
+  "places": [
+   {
+    "lat": 41.5113,
+    "lon": 19.7929
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1075,7 +1731,14 @@
   "status": "near",
   "our_pass": "Berat 1 Sep, 7 days after it ends",
   "source": "BalkanWeb",
-  "url": "https://www.balkanweb.com/nis-pelegrinazhi-7-ditor-ne-malin-e-tomorrit-pritet-te-marrin-pjese-rreth-600-mije-pelegrine-policia-vendos-kufizime-ne-qarkullim/"
+  "url": "https://www.balkanweb.com/nis-pelegrinazhi-7-ditor-ne-malin-e-tomorrit-pritet-te-marrin-pjese-rreth-600-mije-pelegrine-policia-vendos-kufizime-ne-qarkullim/",
+  "rule": "about 08-20 08-25",
+  "places": [
+   {
+    "lat": 40.6959,
+    "lon": 20.1043
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1086,7 +1749,14 @@
   "status": "missed",
   "our_pass": "No 2027 edition",
   "source": "Albania Visit",
-  "url": "https://albaniavisit.com/gjirokaster-folklore-festival/"
+  "url": "https://albaniavisit.com/gjirokaster-folklore-festival/",
+  "rule": "none ; only 2028",
+  "places": [
+   {
+    "lat": 40.0771,
+    "lon": 20.1393
+   }
+  ]
  },
  {
   "chapter": 4,
@@ -1097,7 +1767,18 @@
   "status": "on",
   "our_pass": "Zagori 6–8 Sep",
   "source": "Music of our Desire",
-  "url": "https://www.musicofourdesire.com/el/blog/panigyria-ioanninon"
+  "url": "https://www.musicofourdesire.com/el/blog/panigyria-ioanninon",
+  "rule": "fixed 09-07 09-08",
+  "places": [
+   {
+    "lat": 39.897,
+    "lon": 20.7773
+   },
+   {
+    "lat": 39.8659,
+    "lon": 20.9657
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1108,7 +1789,14 @@
   "status": "on",
   "our_pass": "Bari 14 Sep, probably; 4 days early if it starts on the 18th",
   "source": "nTradeshows",
-  "url": "https://www.ntradeshows.com/campionaria-generale-internazionale-fiera-del-levante/"
+  "url": "https://www.ntradeshows.com/campionaria-generale-internazionale-fiera-del-levante/",
+  "rule": "about 09-15 09-23",
+  "places": [
+   {
+    "lat": 41.1258,
+    "lon": 16.862
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1119,7 +1807,14 @@
   "status": "near",
   "our_pass": "Pompeii 17 Sep, 2 days early",
   "source": "Napolike",
-  "url": "https://www.napolike.it/festa-san-gennaro-2026-programma"
+  "url": "https://www.napolike.it/festa-san-gennaro-2026-programma",
+  "rule": "fixed 09-19",
+  "places": [
+   {
+    "lat": 40.8527,
+    "lon": 14.2599
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1130,7 +1825,14 @@
   "status": "on",
   "our_pass": "Rome 18–19 Sep",
   "source": "Turismo Roma",
-  "url": "https://www.turismoroma.it/en/events/romaeuropa-festival-ref2026"
+  "url": "https://www.turismoroma.it/en/events/romaeuropa-festival-ref2026",
+  "rule": "about 09-08 11-15",
+  "places": [
+   {
+    "lat": 41.8933,
+    "lon": 12.4829
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1141,7 +1843,14 @@
   "status": "near",
   "our_pass": "Civita 20 Sep, 8 days late",
   "source": "Eventi e Sagre",
-  "url": "https://www.eventiesagre.it/Eventi_Storici/8250_Palio+della+Tonna.html"
+  "url": "https://www.eventiesagre.it/Eventi_Storici/8250_Palio+della+Tonna.html",
+  "rule": "weekday 1 Sun 06 1 + weekday 2 Sun 09 1",
+  "places": [
+   {
+    "lat": 42.6277,
+    "lon": 12.1137
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1152,7 +1861,14 @@
   "status": "near",
   "our_pass": "Amalfi coast 16 Sep, 9 days early",
   "source": "Napolike",
-  "url": "https://www.napolike.it/festa-pesce-2026-positano"
+  "url": "https://www.napolike.it/festa-pesce-2026-positano",
+  "rule": "weekday -1 Sat 09 1 ~",
+  "places": [
+   {
+    "lat": 40.6287,
+    "lon": 14.4855
+   }
+  ]
  },
  {
   "chapter": 5,
@@ -1163,7 +1879,14 @@
   "status": "missed",
   "our_pass": "Rome 18–19 Sep, 2 weeks early",
   "source": "Voloscontato",
-  "url": "https://www.voloscontato.it/sagre-ed-eventi/centenario-sagra-delluva-di-marino-2026-dove-quando-e-info.php"
+  "url": "https://www.voloscontato.it/sagre-ed-eventi/centenario-sagra-delluva-di-marino-2026-dove-quando-e-info.php",
+  "rule": "weekday 1 Sun 10 2 -1",
+  "places": [
+   {
+    "lat": 41.7698,
+    "lon": 12.6586
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -1174,7 +1897,14 @@
   "status": "near",
   "our_pass": "We land 21 Sep, 2 days early",
   "source": "idealista",
-  "url": "https://www.idealista.com/en/news/lifestyle-in-spain/2026/09/18/913352-merce-festival-2026-dates-programme-and-concert-highlights"
+  "url": "https://www.idealista.com/en/news/lifestyle-in-spain/2026/09/18/913352-merce-festival-2026-dates-programme-and-concert-highlights",
+  "rule": "about 09-23 09-26",
+  "places": [
+   {
+    "lat": 41.3826,
+    "lon": 2.1771
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -1185,7 +1915,14 @@
   "status": "on",
   "our_pass": "Lugo 9 Oct",
   "source": "Festivales de España",
-  "url": "https://www.festivalesdeespana.com/festival/san-froilan-lugo"
+  "url": "https://www.festivalesdeespana.com/festival/san-froilan-lugo",
+  "rule": "fixed 10-04 10-12",
+  "places": [
+   {
+    "lat": 43.0395,
+    "lon": -7.4568
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -1196,7 +1933,14 @@
   "status": "on",
   "our_pass": "Villaviciosa 8 Oct; held in odd years only",
   "source": "Asturias.com",
-  "url": "https://asturias.com/festival-de-la-manzana/"
+  "url": "https://asturias.com/festival-de-la-manzana/",
+  "rule": "about 10-08 10-12 ; odd",
+  "places": [
+   {
+    "lat": 43.4814,
+    "lon": -5.4345
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -1207,7 +1951,14 @@
   "status": "near",
   "our_pass": "Covadonga 7 Oct, 5 days early",
   "source": "Festivales de España",
-  "url": "https://www.festivalesdeespana.com/festival/concurso-exposicion-quesos-picos-europa-cangas-de-onis"
+  "url": "https://www.festivalesdeespana.com/festival/concurso-exposicion-quesos-picos-europa-cangas-de-onis",
+  "rule": "about 10-12 10-12",
+  "places": [
+   {
+    "lat": 43.3136,
+    "lon": -5.0659
+   }
+  ]
  },
  {
   "chapter": 6,
@@ -1218,7 +1969,14 @@
   "status": "on",
   "our_pass": "Santiago 10 Oct; expect crowds",
   "source": "Correos",
-  "url": "https://www.elcaminoconcorreos.com/es/xacobeo-2027"
+  "url": "https://www.elcaminoconcorreos.com/es/xacobeo-2027",
+  "rule": "fixed 01-01 12-31 ; jul25sun",
+  "places": [
+   {
+    "lat": 42.9065,
+    "lon": -8.5193
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1229,7 +1987,14 @@
   "status": "on",
   "our_pass": "Thu 14 Oct",
   "source": "Vagamundos",
-  "url": "https://www.vagamundos.pt/visitar-barcelos-num-dia/"
+  "url": "https://www.vagamundos.pt/visitar-barcelos-num-dia/",
+  "rule": "weekly Thu",
+  "places": [
+   {
+    "lat": 41.5314,
+    "lon": -8.6192
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1240,7 +2005,14 @@
   "status": "on",
   "our_pass": "Detour of about 1 h from Fátima or Batalha, 23–26 Oct",
   "source": "Sábado",
-  "url": "https://www.sabado.pt/comunicados-imprensa/detalhe/festival-nacional-de-gastronomia-recupera-sabores-e-tradicoes-de-antigamente-e-celebra-45-anos"
+  "url": "https://www.sabado.pt/comunicados-imprensa/detalhe/festival-nacional-de-gastronomia-recupera-sabores-e-tradicoes-de-antigamente-e-celebra-45-anos",
+  "rule": "about 10-22 11-01",
+  "places": [
+   {
+    "lat": 39.2364,
+    "lon": -8.6867
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1251,7 +2023,14 @@
   "status": "missed",
   "our_pass": "We are 400 km south",
   "source": "Termas de Chaves",
-  "url": "https://termasdechaves.com/en/news/termas-de-chaves-with-exclusive-discounts-during-feira-dos-santos"
+  "url": "https://termasdechaves.com/en/news/termas-de-chaves-with-exclusive-discounts-during-feira-dos-santos",
+  "rule": "about 10-29 11-01",
+  "places": [
+   {
+    "lat": 41.7399,
+    "lon": -7.4715
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1262,7 +2041,9 @@
   "status": "on",
   "our_pass": "Lisbon area; public holiday, expect closures",
   "source": "RFM",
-  "url": "https://rfm.pt/content/3600/o-que-e-o-pao-por-deus-no-dia-de-todos-os-santos"
+  "url": "https://rfm.pt/content/3600/o-que-e-o-pao-por-deus-no-dia-de-todos-os-santos",
+  "rule": "fixed 11-01",
+  "country": "Portugal"
  },
  {
   "chapter": 7,
@@ -1273,7 +2054,14 @@
   "status": "on",
   "our_pass": "Tue 2 Nov",
   "source": "Visit Lisboa",
-  "url": "https://www.visitlisboa.com/pt-pt/locais/feira-da-ladra"
+  "url": "https://www.visitlisboa.com/pt-pt/locais/feira-da-ladra",
+  "rule": "weekly Tue,Sat",
+  "places": [
+   {
+    "lat": 38.7154,
+    "lon": -9.1263
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1284,7 +2072,18 @@
   "status": "near",
   "our_pass": "We leave Lisbon 3 Nov, 2 days early",
   "source": "Time Out",
-  "url": "https://www.timeout.pt/lisboa/pt/filmes/leffest"
+  "url": "https://www.timeout.pt/lisboa/pt/filmes/leffest",
+  "rule": "about 11-05 11-14",
+  "places": [
+   {
+    "lat": 38.7078,
+    "lon": -9.1366
+   },
+   {
+    "lat": 38.7096,
+    "lon": -9.3901
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1295,7 +2094,14 @@
   "status": "on",
   "our_pass": "Évora 5 Nov",
   "source": "RTP",
-  "url": "https://www.rtp.pt/noticias/cultura/programacao-de-evora-2027-arranca-em-fevereiro-desse-ano-e-sera-anunciada-no-fim-de-2026_n1665360"
+  "url": "https://www.rtp.pt/noticias/cultura/programacao-de-evora-2027-arranca-em-fevereiro-desse-ano-e-sera-anunciada-no-fim-de-2026_n1665360",
+  "rule": "fixed 01-01 12-31 ; only 2027",
+  "places": [
+   {
+    "lat": 38.5708,
+    "lon": -7.9093
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1306,7 +2112,14 @@
   "status": "on",
   "our_pass": "Marvão 13 Nov",
   "source": "Marvão agenda 2026",
-  "url": "https://www.cm-marvao.pt/wp-content/uploads/2026/01/Agenda-Cultural-Marvao-2026.pdf"
+  "url": "https://www.cm-marvao.pt/wp-content/uploads/2026/01/Agenda-Cultural-Marvao-2026.pdf",
+  "rule": "about 11-13 11-15",
+  "places": [
+   {
+    "lat": 39.3948,
+    "lon": -7.3775
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1317,7 +2130,14 @@
   "status": "on",
   "our_pass": "Alcobaça 18 Nov",
   "source": "Viral Agenda",
-  "url": "https://www.viralagenda.com/pt/events/1828888/28-mostra-internacional-de-doces-licores-conventuais"
+  "url": "https://www.viralagenda.com/pt/events/1828888/28-mostra-internacional-de-doces-licores-conventuais",
+  "rule": "about 11-18 11-21",
+  "places": [
+   {
+    "lat": 39.5519,
+    "lon": -8.9763
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1328,7 +2148,14 @@
   "status": "near",
   "our_pass": "Spare days 16–17 Nov, but 3 h north",
   "source": "CCVF",
-  "url": "https://www.ccvf.pt/en/detail-eventos/20261112-guimaraes-jazz-2026-geral/"
+  "url": "https://www.ccvf.pt/en/detail-eventos/20261112-guimaraes-jazz-2026-geral/",
+  "rule": "about 11-11 11-20",
+  "places": [
+   {
+    "lat": 41.4418,
+    "lon": -8.2956
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1339,7 +2166,14 @@
   "status": "near",
   "our_pass": "Algarve 20–22 Nov, about 4 days early",
   "source": "Postal",
-  "url": "https://postal.pt/vida-lazer/gastronomia/aljezur-transforma-se-na-capital-da-batata-doce-com-tres-dias-de-festa-sabores-e-tradicao/"
+  "url": "https://postal.pt/vida-lazer/gastronomia/aljezur-transforma-se-na-capital-da-batata-doce-com-tres-dias-de-festa-sabores-e-tradicao/",
+  "rule": "weekday -1 Sun 11 3 -2 ~",
+  "places": [
+   {
+    "lat": 37.3152,
+    "lon": -8.8041
+   }
+  ]
  },
  {
   "chapter": 7,
@@ -1350,7 +2184,14 @@
   "status": "missed",
   "our_pass": "Before we leave",
   "source": "Notícias ao Minuto",
-  "url": "https://www.noticiasaominuto.com/pais/2975363/populacao-de-tomar-vota-pela-realizacao-da-festa-dos-tabuleiros-em-2027"
+  "url": "https://www.noticiasaominuto.com/pais/2975363/populacao-de-tomar-vota-pela-realizacao-da-festa-dos-tabuleiros-em-2027",
+  "rule": "about 07-01 07-12 ; every 4 2027",
+  "places": [
+   {
+    "lat": 39.6037,
+    "lon": -8.415
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1361,7 +2202,14 @@
   "status": "on",
   "our_pass": "Zagora 4 Dec, if early December",
   "source": "le360",
-  "url": "https://fr.le360.ma/culture/zamane-a-mhamid-el-ghizlane-le-festival-qui-fait-battre-le-coeur-musical-du-desert_OE72SEJM3VGPXJBWD62Z32MTM4/"
+  "url": "https://fr.le360.ma/culture/zamane-a-mhamid-el-ghizlane-le-festival-qui-fait-battre-le-coeur-musical-du-desert_OE72SEJM3VGPXJBWD62Z32MTM4/",
+  "rule": "about 12-03 12-06 ~",
+  "places": [
+   {
+    "lat": 29.8273,
+    "lon": -5.7239
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1372,7 +2220,14 @@
   "status": "near",
   "our_pass": "Agadir 16 Dec, about 3 days late if like 2025",
   "source": "Le Matin",
-  "url": "https://lematin.ma/culture/festival-cinema-et-migrations-la-21e-edition-du-8-au-13-decembre/316127"
+  "url": "https://lematin.ma/culture/festival-cinema-et-migrations-la-21e-edition-du-8-au-13-decembre/316127",
+  "rule": "about 12-08 12-13",
+  "places": [
+   {
+    "lat": 30.4205,
+    "lon": -9.5839
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1383,7 +2238,14 @@
   "status": "near",
   "our_pass": "Before we arrive; Rabat not on the way out",
   "source": "Hespress",
-  "url": "https://fr.hespress.com/492398-visa-for-music-2026-rabat-devoile-la-programmation-de-sa-13e-edition.html"
+  "url": "https://fr.hespress.com/492398-visa-for-music-2026-rabat-devoile-la-programmation-de-sa-13e-edition.html",
+  "rule": "about 11-17 11-20",
+  "places": [
+   {
+    "lat": 34.0218,
+    "lon": -6.8409
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1394,7 +2256,45 @@
   "status": "on",
   "our_pass": "Tiznit, Tafraoute and Sidi Ifni from the base; Asni Sat 12 Feb; Zagora Sun 5 Dec; Rissani Tue 7 Dec; Taroudant a day off",
   "source": "Away with the Steiners",
-  "url": "https://awaywiththesteiners.com/things-to-do-in-tiznit-morocco/"
+  "url": "https://awaywiththesteiners.com/things-to-do-in-tiznit-morocco/",
+  "rule": "weekly *",
+  "places": [
+   {
+    "lat": 29.6986,
+    "lon": -9.7313,
+    "days": "Thu"
+   },
+   {
+    "lat": 29.7226,
+    "lon": -8.9752,
+    "days": "Wed"
+   },
+   {
+    "lat": 29.3791,
+    "lon": -10.1716,
+    "days": "Sun"
+   },
+   {
+    "lat": 30.3279,
+    "lon": -5.837,
+    "days": "Wed,Sun"
+   },
+   {
+    "lat": 31.2817,
+    "lon": -4.2641,
+    "days": "Sun,Tue,Thu"
+   },
+   {
+    "lat": 30.4707,
+    "lon": -8.8779,
+    "days": "Sun"
+   },
+   {
+    "lat": 31.2496,
+    "lon": -7.98,
+    "days": "Sat"
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1405,7 +2305,14 @@
   "status": "on",
   "our_pass": "1.5 h from the Tiznit base",
   "source": "maroc.ma",
-  "url": "https://www.maroc.ma/fr/actualites/agadir-un-riche-programme-pour-la-celebration-du-nouvel-amazigh-2976"
+  "url": "https://www.maroc.ma/fr/actualites/agadir-un-riche-programme-pour-la-celebration-du-nouvel-amazigh-2976",
+  "rule": "about 01-11 01-14",
+  "places": [
+   {
+    "lat": 30.4205,
+    "lon": -9.5839
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1416,7 +2323,14 @@
   "status": "on",
   "our_pass": "Southern stages about 25–29 Jan, from the Tiznit base",
   "source": "Morocco World News",
-  "url": "https://www.moroccoworldnews.com/2026/10/343203/tangier-to-launch-2027-africa-eco-race-across-three-countries/"
+  "url": "https://www.moroccoworldnews.com/2026/10/343203/tangier-to-launch-2027-africa-eco-race-across-three-countries/",
+  "rule": "about 01-24 01-30 ~",
+  "places": [
+   {
+    "lat": 28.9864,
+    "lon": -10.0574
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1427,7 +2341,14 @@
   "status": "near",
   "our_pass": "Imlil 9 Feb, about 1 day; 1.5 h from Marrakech",
   "source": "TelQuel",
-  "url": "https://telquel.ma/instant-t/2026/01/15/marrakech-la-foire-dart-contemporain-africain-1-54-revient-du-5-au-8-fevrier_1970418/"
+  "url": "https://telquel.ma/instant-t/2026/01/15/marrakech-la-foire-dart-contemporain-africain-1-54-revient-du-5-au-8-fevrier_1970418/",
+  "rule": "about 02-05 02-08",
+  "places": [
+   {
+    "lat": 31.6258,
+    "lon": -7.9892
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1438,7 +2359,14 @@
   "status": "missed",
   "our_pass": "Probably March, after we leave",
   "source": "Hespress",
-  "url": "https://fr.hespress.com/462699-le-pro-taghazout-bay-accueillera-lelite-du-surf-europeen-et-africain-en-mars-2026.html"
+  "url": "https://fr.hespress.com/462699-le-pro-taghazout-bay-accueillera-lelite-du-surf-europeen-et-africain-en-mars-2026.html",
+  "rule": "about 03-22 03-29 ~",
+  "places": [
+   {
+    "lat": 30.5847,
+    "lon": -9.6785
+   }
+  ]
  },
  {
   "chapter": 8,
@@ -1449,6 +2377,8 @@
   "status": "missed",
   "our_pass": "All in summer",
   "source": "timeanddate",
-  "url": "https://www.timeanddate.com/holidays/morocco/prophet-birthday"
+  "url": "https://www.timeanddate.com/holidays/morocco/prophet-birthday",
+  "rule": "hijri 03-12 1",
+  "country": "Morocco"
  }
 ]
