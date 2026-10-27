@@ -26,6 +26,7 @@ export interface Festival {
 export interface Trip {
   festivals?: Festival[];
   title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
+  plan_start?: string; // the start date the plan was made for (start_date is the one chosen on the site)
   drives: Drive[]; ferries: Record<string, Ferry>; breaks?: Break[];
 }
 export type Photos = Record<string, string[]>;

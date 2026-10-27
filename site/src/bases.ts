@@ -11,9 +11,9 @@ export const HOW_COLOUR: Record<string, string> = { bike: "#3d8a4a", train: "#2f
 const HOW_LABEL: Record<string, string> = { bike: "bike", train: "train", walk: "on foot" };
 const BASE_LAYERS = ["base-trips", "base-trip-ends", "base-otw", "base-circles", "base-labels"];
 
-/** Trip day of a date in the bases file. */
+/** Trip day of a date in the bases file (whose dates are for the planned start, whatever start is chosen). */
 export const dayOfDate = (trip: Trip, s: string) =>
-  Math.round((new Date(s + "T12:00:00").getTime() - new Date(trip.start_date + "T12:00:00").getTime()) / 864e5);
+  Math.round((new Date(s + "T12:00:00").getTime() - new Date((trip.plan_start ?? trip.start_date) + "T12:00:00").getTime()) / 864e5);
 
 /** Where the van is on a trip day: at a base from arrival to the morning it leaves; on a moving day at the
  *  last on-the-way place reached, or still at the base it left. */

@@ -34,6 +34,7 @@ let trip: Trip, photos: Photos, map: MapLibre, mapReady = false, panel: Panel, w
 let hovered: string | null = null, selected: string | null = null, section: string | null = null;
 let site: Site, route: GeoJSON.FeatureCollection, markers: PhotoMarkers | null = null, bases: Base[] = [];
 let layerBox: HTMLElement | null = null; // the Photos / Base camps switch on the chapter map
+let festivalList: Trip["festivals"] = []; // as loaded; judged again for each start date
 
 // Everything shown is worked out from this state, which is also kept in the page address.
 const state = {
@@ -79,6 +80,9 @@ function shown(): Point[] {
 // ---------- page address: #v=calendar&m=2027-09&t=beach,nature&p=point-id ----------
 function readHash(): string | null {
   const h = new URLSearchParams(location.hash.slice(1));
+  const sd = h.get("sd"); // a chosen start date, e.g. 2028-07-19
+  const want = sd && /^\d{4}-\d{2}-\d{2}$/.test(sd) && !Number.isNaN(Date.parse(sd)) ? sd : trip.plan_start!;
+  if (want !== trip.start_date) setStart(want);
   const p = trip.points.find((x) => x.id === h.get("p"));
   const v = h.get("v") as View | null;
   // an empty address opens the front page; old links with only a chapter or place still open the chapter
@@ -110,6 +114,7 @@ function writeHash() {
   if (state.view === "temp") h.set("r", `${state.lo}-${state.hi}`);
   if (state.types.size) h.set("t", [...state.types].join(","));
   if (state.view === "chapter" && state.layer === "bases") h.set("l", "bases");
+  if (trip.start_date !== trip.plan_start) h.set("sd", trip.start_date);
   if (selected) h.set("p", selected);
   history.replaceState(null, "", "#" + h.toString().replace(/%2C/g, ","));
 }
@@ -596,6 +601,35 @@ function backLabel() {
   return `${state.lo}–${state.hi}°C`;
 }
 
+// ---------- the start date: every date, the weather and the festival results follow it ----------
+function setStart(sd: string) {
+  trip.start_date = sd;
+  trip.festivals = judgeFestivals(trip, bases, festivalList ?? []);
+  months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
+  if (!months.includes(state.month)) state.month = months[0];
+  $("#home").dataset.page = ""; // the front page shows dates: draw it again
+  $("#start-label").textContent = startLabel();
+}
+const startLabel = () => {
+  const d = dateOf(trip.start_date, 0), planned = trip.start_date === trip.plan_start;
+  return `Start date: ${planned ? fmtDate(d) : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
+};
+function setupStartPicker() {
+  const btn = $("#start-date"), pop = $("#start-pop"), input = $<HTMLInputElement>("#start-input");
+  const planned = dateOf(trip.plan_start!, 0).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  $("#start-reset").textContent = `Back to the plan: ${planned}`;
+  const close = () => { pop.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+  btn.addEventListener("click", () => {
+    pop.hidden = !pop.hidden; btn.setAttribute("aria-expanded", String(!pop.hidden));
+    if (!pop.hidden) { input.value = trip.start_date; input.focus(); }
+  });
+  const apply = (sd: string) => { close(); if (sd && sd !== trip.start_date) { setStart(sd); change({}); } };
+  $("#start-apply").addEventListener("click", () => apply(input.value));
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") apply(input.value); if (e.key === "Escape") close(); });
+  $("#start-reset").addEventListener("click", () => apply(trip.plan_start!));
+  document.addEventListener("click", (e) => { if (!pop.hidden && !(e.target as HTMLElement).closest("#start-pop, #start-date")) close(); });
+}
+
 // ---------- changing what is shown ----------
 function render() {
   setHover(null, "list");
@@ -636,10 +670,13 @@ async function needWeather() {
 async function start() {
   const data = await loadAll();
   ({ trip, photos, site, route, bases } = data);
-  trip.festivals = judgeFestivals(trip, bases, trip.festivals ?? []); // on route / near miss / missed for these dates
+  trip.plan_start = trip.start_date;
+  festivalList = trip.festivals ?? [];
+  trip.festivals = judgeFestivals(trip, bases, festivalList); // on route / near miss / missed for these dates
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
-  $("#start-label").textContent = `Start date: ${fmtDate(dateOf(trip.start_date, 0))}`;
+  $("#start-label").textContent = startLabel();
+  setupStartPicker();
   const first = readHash();
   panel = new Panel({
     trip, photos, route: data.route, typeLabel: (p) => TYPE_LABEL[kindOf(p)],
