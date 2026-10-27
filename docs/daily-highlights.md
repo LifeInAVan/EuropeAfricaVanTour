@@ -66,7 +66,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 |---|---|---|---|
 | **Tue 24 Aug 2027** | **Durmitor** | Main stop | Bobotov Kuk |
 | Wed 25 Aug 2027 | [Dubrovnik](https://en.wikipedia.org/wiki/Dubrovnik) | History | Walled old town; Summer Festival on its last night (to 25 Aug) |
-| Wed 25 Aug 2027 | [Perast](https://en.wikipedia.org/wiki/Perast) | History | Baroque village and island churches |
+| Thu 26 Aug 2027 | [Perast](https://en.wikipedia.org/wiki/Perast) | History | Baroque village and island churches |
 | **Thu 26 Aug 2027** | **Kotor** | Main stop | The bay |
 | Fri 27 Aug 2027 | [Sveti Stefan](https://en.wikipedia.org/wiki/Sveti_Stefan) | Beach | Island village and pink beaches |
 | Sat 28 Aug 2027 | [Stari Bar](https://en.wikipedia.org/wiki/Stari_Bar) | History | Ruined hill town |
@@ -193,17 +193,17 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 | Sat 19 Feb 2028 | [Rock of Gibraltar](https://en.wikipedia.org/wiki/Rock_of_Gibraltar) | Nature | Barbary macaques on the Rock |
 | Mon 21 Feb 2028 | [Baelo Claudia](https://en.wikipedia.org/wiki/Baelo_Claudia) | Beach | Roman town on a dune beach |
 | Thu 24 Feb 2028 | [Cádiz](https://en.wikipedia.org/wiki/C%C3%A1diz) | Culture | Old port city on a peninsula; Carnival opens; Festival de Jerez flamenco nearby |
-| Fri 25 Feb 2028 | [Alcázar of Seville](https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville) | History | Royal palace and gardens |
-| Sun 27 Feb 2028 | [Mosque–Cathedral of Córdoba](https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba) | History | Forest of striped arches |
-| Mon 28 Feb 2028 | [Setenil de las Bodegas](https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas) | Peaceful | Houses under the rock |
-| Wed 01 Mar 2028 | [Ronda](https://en.wikipedia.org/wiki/Ronda) | History | Bridge over the gorge |
-| Thu 02 Mar 2028 | [Caminito del Rey](https://en.wikipedia.org/wiki/Caminito_del_Rey) | Nature | Cliff walkway through a gorge |
-| Sat 04 Mar 2028 | [Cave of Nerja](https://www.openstreetmap.org/?mlat=36.7617499&mlon=-3.8448432#map=14/36.7617499/-3.8448432) | Nature | Giant caverns by the sea |
-| Sun 05 Mar 2028 | [Alhambra](https://en.wikipedia.org/wiki/Alhambra) | History | Nasrid palaces, Granada |
+| Sun 27 Feb 2028 | [Alcázar of Seville](https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville) | History | Royal palace and gardens |
+| Mon 28 Feb 2028 | [Mosque–Cathedral of Córdoba](https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba) | History | Forest of striped arches |
+| Tue 29 Feb 2028 | [Setenil de las Bodegas](https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas) | Peaceful | Houses under the rock |
+| Thu 02 Mar 2028 | [Ronda](https://en.wikipedia.org/wiki/Ronda) | History | Bridge over the gorge |
+| Fri 03 Mar 2028 | [Caminito del Rey](https://en.wikipedia.org/wiki/Caminito_del_Rey) | Nature | Cliff walkway through a gorge |
+| Sun 05 Mar 2028 | [Cave of Nerja](https://www.openstreetmap.org/?mlat=36.7617499&mlon=-3.8448432#map=14/36.7617499/-3.8448432) | Nature | Giant caverns by the sea |
+| Mon 06 Mar 2028 | [Alhambra](https://en.wikipedia.org/wiki/Alhambra) | History | Nasrid palaces, Granada |
 | Tue 07 Mar 2028 | [Guadix](https://en.wikipedia.org/wiki/Guadix) | Culture | Cave houses |
-| Wed 08 Mar 2028 | [Cabo de Gata-Níjar Natural Park](https://en.wikipedia.org/wiki/Cabo_de_Gata-N%C3%ADjar_Natural_Park) | Beach | Volcanic coast and empty coves |
+| Thu 09 Mar 2028 | [Cabo de Gata-Níjar Natural Park](https://en.wikipedia.org/wiki/Cabo_de_Gata-N%C3%ADjar_Natural_Park) | Beach | Volcanic coast and empty coves |
 | Fri 10 Mar 2028 | [Mojácar](https://en.wikipedia.org/wiki/Moj%C3%A1car) | Beach | White village above the sea |
-| Sat 11 Mar 2028 | [Roman Theatre of Cartagena](https://en.wikipedia.org/wiki/Roman_Theatre_%28Cartagena%29) | History | Theatre found under the city |
+| Sun 12 Mar 2028 | [Roman Theatre of Cartagena](https://en.wikipedia.org/wiki/Roman_Theatre_%28Cartagena%29) | History | Theatre found under the city |
 | Mon 13 Mar 2028 | [Guadalest](https://en.wikipedia.org/wiki/El_Castell_de_Guadalest) | Peaceful | Castle village on a rock |
 | Wed 15 Mar 2028 | [City of Arts and Sciences](https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences) | Culture | Valencia; Fallas main days 15-19 Mar |
 | Fri 17 Mar 2028 | [Albufera](https://www.openstreetmap.org/?mlat=39.3344485&mlon=-0.3581495#map=14/39.3344485/-0.3581495) | Peaceful | Lagoon, rice fields and paella |
@@ -238,7 +238,7 @@ Not daily: Morocco winter base (3 Jan–7 Feb 2028, excursions roughly weekly, r
 | Tue 04 Apr 2028 | [L'Isle-sur-la-Sorgue](https://www.openstreetmap.org/?mlat=43.9185354&mlon=5.0515385#map=14/43.9185354/5.0515385) | Culture | Water wheels and antiques |
 | Tue 04 Apr 2028 | [Palais des Papes](https://en.wikipedia.org/wiki/Palais_des_Papes) | History | Popes' palace, Avignon |
 | Wed 05 Apr 2028 | [Pont du Gard](https://en.wikipedia.org/wiki/Pont_du_Gard) | History | Roman aqueduct |
-| Wed 05 Apr 2028 | [Roman Theatre of Orange](https://www.openstreetmap.org/?mlat=44.1357744&mlon=4.8092415#map=14/44.1357744/4.8092415) | History | Roman stage wall still standing |
+| Thu 06 Apr 2028 | [Roman Theatre of Orange](https://www.openstreetmap.org/?mlat=44.1357744&mlon=4.8092415#map=14/44.1357744/4.8092415) | History | Roman stage wall still standing |
 | Thu 06 Apr 2028 | [Vaison-la-Romaine](https://www.openstreetmap.org/?mlat=44.2407641&mlon=5.075737#map=14/44.2407641/5.075737) | History | Roman town and medieval upper town |
 | Thu 06 Apr 2028 | [Dentelles de Montmirail](https://www.openstreetmap.org/?mlat=44.1554146&mlon=5.023763#map=14/44.1554146/5.023763) | Nature | Lace-like limestone ridges |
 | Fri 07 Apr 2028 | [Mont Ventoux](https://en.wikipedia.org/wiki/Mont_Ventoux) | Nature | Giant of Provence |

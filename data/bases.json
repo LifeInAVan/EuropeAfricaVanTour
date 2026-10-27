@@ -741,8 +741,8 @@
     }
    ],
    "on_the_way": [],
-   "leave": "2027-08-25",
-   "nights": 0,
+   "leave": "2027-08-26",
+   "nights": 1,
    "drive_in_km": 188,
    "drive_days": 2
   },
@@ -753,7 +753,7 @@
    "station": null,
    "lon": 18.771,
    "lat": 42.425,
-   "arrive": "2027-08-25",
+   "arrive": "2027-08-26",
    "chapter": 4,
    "ferry_in": null,
    "campsites": [
@@ -775,7 +775,7 @@
      "km": 9.1,
      "lon": 18.69916667,
      "lat": 42.48694444,
-     "date": "2027-08-25"
+     "date": "2027-08-26"
     },
     {
      "title": "Kotor",
@@ -796,7 +796,7 @@
    ],
    "on_the_way": [],
    "leave": "2027-08-28",
-   "nights": 3,
+   "nights": 2,
    "drive_in_km": 79,
    "drive_days": 1
   },
@@ -2452,8 +2452,8 @@
     }
    ],
    "on_the_way": [],
-   "leave": "2028-02-25",
-   "nights": 1,
+   "leave": "2028-02-27",
+   "nights": 3,
    "drive_in_km": 99,
    "drive_days": 1
   },
@@ -2464,7 +2464,7 @@
    "station": "Córdoba Julio Anguita",
    "lon": -4.7797,
    "lat": 37.8792,
-   "arrive": "2028-02-27",
+   "arrive": "2028-02-28",
    "chapter": 9,
    "ferry_in": null,
    "campsites": [],
@@ -2475,7 +2475,7 @@
      "km": 0,
      "lon": -4.77972222,
      "lat": 37.87916667,
-     "date": "2028-02-27"
+     "date": "2028-02-28"
     }
    ],
    "on_the_way": [
@@ -2485,10 +2485,10 @@
      "km": 0,
      "lon": -5.9901835,
      "lat": 37.3832105,
-     "date": "2028-02-25"
+     "date": "2028-02-27"
     }
    ],
-   "leave": "2028-02-28",
+   "leave": "2028-02-29",
    "nights": 1,
    "drive_in_km": 264,
    "drive_days": 3
@@ -2500,7 +2500,7 @@
    "station": "Ronda",
    "lon": -5.1647,
    "lat": 36.7372,
-   "arrive": "2028-02-28",
+   "arrive": "2028-02-29",
    "chapter": 9,
    "ferry_in": null,
    "campsites": [],
@@ -2511,7 +2511,7 @@
      "km": 14.0,
      "lon": -5.18138889,
      "lat": 36.8625,
-     "date": "2028-02-28"
+     "date": "2028-02-29"
     },
     {
      "title": "Ronda",
@@ -2519,7 +2519,7 @@
      "km": 0,
      "lon": -5.16472222,
      "lat": 36.73722222,
-     "date": "2028-03-01"
+     "date": "2028-03-02"
     },
     {
      "title": "Caminito del Rey",
@@ -2527,11 +2527,11 @@
      "km": 40.1,
      "lon": -4.77277778,
      "lat": 36.91583333,
-     "date": "2028-03-02"
+     "date": "2028-03-03"
     }
    ],
    "on_the_way": [],
-   "leave": "2028-03-04",
+   "leave": "2028-03-05",
    "nights": 5,
    "drive_in_km": 195,
    "drive_days": 2
@@ -2543,7 +2543,7 @@
    "station": "Nuevo Los Cármenes",
    "lon": -3.59,
    "lat": 37.1775,
-   "arrive": "2028-03-05",
+   "arrive": "2028-03-06",
    "chapter": 9,
    "ferry_in": null,
    "campsites": [],
@@ -2554,7 +2554,7 @@
      "km": 0,
      "lon": -3.59,
      "lat": 37.1775,
-     "date": "2028-03-05"
+     "date": "2028-03-06"
     },
     {
      "title": "Guadix",
@@ -2572,10 +2572,10 @@
      "km": 0,
      "lon": -3.8448432,
      "lat": 36.7617499,
-     "date": "2028-03-04"
+     "date": "2028-03-05"
     }
    ],
-   "leave": "2028-03-08",
+   "leave": "2028-03-09",
    "nights": 3,
    "drive_in_km": 261,
    "drive_days": 3
@@ -2587,7 +2587,7 @@
    "station": null,
    "lon": -2.1,
    "lat": 36.7833,
-   "arrive": "2028-03-08",
+   "arrive": "2028-03-09",
    "chapter": 9,
    "ferry_in": null,
    "campsites": [],
@@ -2598,12 +2598,12 @@
      "km": 0,
      "lon": -2.1,
      "lat": 36.78333333,
-     "date": "2028-03-08"
+     "date": "2028-03-09"
     }
    ],
    "on_the_way": [],
    "leave": "2028-03-10",
-   "nights": 2,
+   "nights": 1,
    "drive_in_km": 190,
    "drive_days": 2
   },
@@ -2651,7 +2651,7 @@
      "km": 0,
      "lon": -0.9841,
      "lat": 37.5995,
-     "date": "2028-03-11"
+     "date": "2028-03-12"
     },
     {
      "title": "Guadalest",
@@ -3100,8 +3100,8 @@
     }
    ],
    "on_the_way": [],
-   "leave": "2028-04-05",
-   "nights": 0,
+   "leave": "2028-04-06",
+   "nights": 1,
    "drive_in_km": 57,
    "drive_days": 1
   },
@@ -3112,7 +3112,7 @@
    "station": null,
    "lon": 5.0757,
    "lat": 44.2408,
-   "arrive": "2028-04-05",
+   "arrive": "2028-04-06",
    "chapter": 10,
    "ferry_in": null,
    "campsites": [],
@@ -3123,7 +3123,7 @@
      "km": 24.2,
      "lon": 4.8092415,
      "lat": 44.1357744,
-     "date": "2028-04-05"
+     "date": "2028-04-06"
     },
     {
      "title": "Vaison-la-Romaine",
@@ -3160,7 +3160,7 @@
    ],
    "on_the_way": [],
    "leave": "2028-04-08",
-   "nights": 3,
+   "nights": 2,
    "drive_in_km": 76,
    "drive_days": 1
   },

@@ -62,6 +62,7 @@ H = {
 "durmitor>kotor": [
  DATE("2027-08-25"),
  ("Dubrovnik", "Walled old town; Summer Festival on its last night (to 25 Aug)", "H"),
+ DATE("2027-08-26"),
  ("Perast", "Baroque village and island churches", "H"),
 ],
 "kotor>shkodra": [
@@ -211,6 +212,7 @@ H = {
  ("Baelo Claudia", "Roman town on a dune beach", "B"),
  DATE("2028-02-24"),
  ("Cádiz", "Old port city on a peninsula; Carnival opens; Festival de Jerez flamenco nearby", "C"),
+ DATE("2028-02-27"),
  ("Alcázar of Seville", "Royal palace and gardens", "H"),
  ("Mosque–Cathedral of Córdoba", "Forest of striped arches", "H"),
  ("Setenil de las Bodegas", "Houses under the rock", "P"),
@@ -259,6 +261,7 @@ H = {
  ("L'Isle-sur-la-Sorgue", "Water wheels and antiques", "C"),
  ("Palais des Papes", "Popes' palace, Avignon", "H"),
  ("Pont du Gard", "Roman aqueduct", "H"),
+ DATE("2028-04-06"),
  ("Roman Theatre of Orange", "Roman stage wall still standing", "H"),
  ("Vaison-la-Romaine", "Roman town and medieval upper town", "H"),
  ("Dentelles de Montmirail", "Lace-like limestone ridges", "N"),
