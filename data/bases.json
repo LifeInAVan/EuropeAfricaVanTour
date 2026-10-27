@@ -1,0 +1,5139 @@
+{
+ "chapters": [
+  {
+   "n": 1,
+   "name": "Baltic departure",
+   "from": "2027-07-19",
+   "to": "2027-07-25"
+  },
+  {
+   "n": 2,
+   "name": "Heart of Europe",
+   "from": "2027-07-26",
+   "to": "2027-08-07"
+  },
+  {
+   "n": 3,
+   "name": "Dinaric wilds",
+   "from": "2027-08-08",
+   "to": "2027-08-23"
+  },
+  {
+   "n": 4,
+   "name": "Adriatic and Ionian",
+   "from": "2027-08-24",
+   "to": "2027-09-13"
+  },
+  {
+   "n": 5,
+   "name": "Puglia to Rome",
+   "from": "2027-09-14",
+   "to": "2027-09-20"
+  },
+  {
+   "n": 6,
+   "name": "Pyrenees, Vuelta, Green Spain",
+   "from": "2027-09-21",
+   "to": "2027-10-17"
+  },
+  {
+   "n": 7,
+   "name": "Portugal",
+   "from": "2027-10-18",
+   "to": "2027-11-17"
+  },
+  {
+   "n": 8,
+   "name": "Morocco",
+   "from": "2027-11-18",
+   "to": "2027-12-20"
+  },
+  {
+   "n": 9,
+   "name": "Al-Andalus and the Med",
+   "from": "2028-02-19",
+   "to": "2028-03-25"
+  },
+  {
+   "n": 10,
+   "name": "Provence",
+   "from": "2028-03-26",
+   "to": "2028-04-09"
+  },
+  {
+   "n": 11,
+   "name": "The Alps",
+   "from": "2028-04-10",
+   "to": "2028-04-18"
+  },
+  {
+   "n": 12,
+   "name": "Rhine to the Oder",
+   "from": "2028-04-19",
+   "to": "2028-05-10"
+  },
+  {
+   "n": 13,
+   "name": "Lithuania and Latvia",
+   "from": "2028-05-11",
+   "to": "2028-06-04"
+  },
+  {
+   "n": 15,
+   "name": "Lapland and Arctic Norway",
+   "from": "2028-07-12",
+   "to": "2028-08-02"
+  },
+  {
+   "n": 16,
+   "name": "Fjords and home",
+   "from": "2028-08-03",
+   "to": "2028-09-26"
+  }
+ ],
+ "bases": [
+  {
+   "id": "b000",
+   "name": "Pärnu",
+   "center_place": "Pärnu",
+   "station": null,
+   "lon": 24.497,
+   "lat": 58.386,
+   "arrive": "2027-07-19",
+   "chapter": 1,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Pärnu",
+     "how": "base",
+     "km": 0,
+     "lon": 24.497,
+     "lat": 58.386,
+     "date": "2027-07-19"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-07-20",
+   "nights": 1
+  },
+  {
+   "id": "b001",
+   "name": "Krakow",
+   "center_place": "Kraków",
+   "station": "Kraków Główny",
+   "lon": 19.945,
+   "lat": 50.065,
+   "arrive": "2027-07-22",
+   "chapter": 1,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Clepardia",
+     "src": "https://www.campercontact.com/en/md/15583",
+     "km": 3.3
+    },
+    {
+     "name": "Camping Smok",
+     "src": "https://www.campercontact.com/en/md/9834",
+     "km": 5.0
+    }
+   ],
+   "places": [
+    {
+     "title": "Ojców National Park",
+     "how": "bike",
+     "km": 18.9,
+     "lon": 19.8085675,
+     "lat": 50.2107146,
+     "date": "2027-07-22"
+    },
+    {
+     "title": "Kraków",
+     "how": "base",
+     "km": 0,
+     "lon": 19.945,
+     "lat": 50.065,
+     "date": "2027-07-23"
+    },
+    {
+     "title": "Wieliczka Salt Mine",
+     "how": "bike",
+     "km": 12.8,
+     "lon": 20.06388889,
+     "lat": 49.97916667,
+     "date": "2027-07-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Pažaislis Monastery",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.022,
+     "lat": 54.876,
+     "date": "2027-07-20"
+    },
+    {
+     "title": "Warsaw Old Town",
+     "how": "on the way",
+     "km": 0,
+     "lon": 21.0122,
+     "lat": 52.2497,
+     "date": "2027-07-21"
+    },
+    {
+     "title": "Łazienki Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": 21.0339496,
+     "lat": 52.2126209,
+     "date": "2027-07-21"
+    }
+   ],
+   "leave": "2027-07-24",
+   "nights": 2,
+   "drive_in_km": 1157,
+   "drive_days": 11
+  },
+  {
+   "id": "b002",
+   "name": "Zakopane",
+   "center_place": "Tatras",
+   "station": "Zakopane",
+   "lon": 19.95,
+   "lat": 49.299,
+   "arrive": "2027-07-25",
+   "chapter": 1,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camp Harenda",
+     "src": "https://camping.info/en/campsite/camping-harenda-nr-160",
+     "km": 2.9
+    },
+    {
+     "name": "Camping Ustup",
+     "src": "https://www.campercontact.com/en/md/47946",
+     "km": 3.7
+    }
+   ],
+   "places": [
+    {
+     "title": "Chochołów",
+     "how": "bike",
+     "km": 12.6,
+     "lon": 19.8163026,
+     "lat": 49.3717987,
+     "date": "2027-07-25"
+    },
+    {
+     "title": "Tatras",
+     "how": "base",
+     "km": 0,
+     "lon": 19.95,
+     "lat": 49.299,
+     "date": "2027-07-26"
+    },
+    {
+     "title": "Východná",
+     "how": "train",
+     "km": 26.7,
+     "lon": 19.8946117,
+     "lat": 49.0612289,
+     "date": "2027-07-26"
+    },
+    {
+     "title": "Vlkolínec",
+     "how": "train",
+     "km": 56.8,
+     "lon": 19.275,
+     "lat": 49.04166667,
+     "date": "2027-07-27"
+    },
+    {
+     "title": "Orava Castle",
+     "how": "train",
+     "km": 43.1,
+     "lon": 19.35805556,
+     "lat": 49.26166667,
+     "date": "2027-07-28"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Niedzica Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.3196,
+     "lat": 49.4234,
+     "date": "2027-07-24"
+    },
+    {
+     "title": "Pieniny National Park (Poland)",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.36666667,
+     "lat": 49.41666667,
+     "date": "2027-07-25"
+    }
+   ],
+   "leave": "2027-07-30",
+   "nights": 5,
+   "drive_in_km": 170,
+   "drive_days": 2
+  },
+  {
+   "id": "b003",
+   "name": "Trenčín",
+   "center_place": "Trenčín",
+   "station": "Trenčín",
+   "lon": 18.044,
+   "lat": 48.894,
+   "arrive": "2027-07-30",
+   "chapter": 2,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Autocamping na Ostrove",
+     "src": "https://stellplatz.info/en/rv-park/autocamping-na-ostrove-trencin",
+     "km": 0.7
+    }
+   ],
+   "places": [
+    {
+     "title": "Trenčín",
+     "how": "base",
+     "km": 0,
+     "lon": 18.044,
+     "lat": 48.894,
+     "date": "2027-07-30"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-08-02",
+   "nights": 3,
+   "drive_in_km": 202,
+   "drive_days": 2
+  },
+  {
+   "id": "b004",
+   "name": "Balatonfüred",
+   "center_place": "Lake Balaton",
+   "station": "Balatonfüred",
+   "lon": 17.889,
+   "lat": 46.958,
+   "arrive": "2027-08-04",
+   "chapter": 2,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Balatontourist Camping Strand-Holiday",
+     "src": "https://www.eurocampings.co.uk/hungary/veszprem/balatonakali/balatontourist-camping-strand-holiday-124373",
+     "km": 13.2
+    }
+   ],
+   "places": [
+    {
+     "title": "Lake Balaton",
+     "how": "base",
+     "km": 0,
+     "lon": 17.889,
+     "lat": 46.958,
+     "date": "2027-08-04"
+    },
+    {
+     "title": "Tihany Abbey",
+     "how": "bike",
+     "km": 4.9,
+     "lon": 17.88944444,
+     "lat": 46.91388889,
+     "date": "2027-08-05"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Banská Štiavnica",
+     "how": "on the way",
+     "km": 0,
+     "lon": 18.89638889,
+     "lat": 48.45805556,
+     "date": "2027-08-02"
+    },
+    {
+     "title": "Esztergom Basilica",
+     "how": "on the way",
+     "km": 0,
+     "lon": 18.73638889,
+     "lat": 47.79888889,
+     "date": "2027-08-02"
+    },
+    {
+     "title": "Pannonhalma Archabbey",
+     "how": "on the way",
+     "km": 0,
+     "lon": 17.76111111,
+     "lat": 47.55277778,
+     "date": "2027-08-03"
+    }
+   ],
+   "leave": "2027-08-05",
+   "nights": 1,
+   "drive_in_km": 412,
+   "drive_days": 4
+  },
+  {
+   "id": "b005",
+   "name": "Bohinj",
+   "center_place": "Lake Bohinj",
+   "station": null,
+   "lon": 13.8582,
+   "lat": 46.2823,
+   "arrive": "2027-08-06",
+   "chapter": 2,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Kamp Koren",
+     "src": "https://avtokampi.si/campsites/camping-koren",
+     "km": 21.1
+    },
+    {
+     "name": "Kamp Polovnik",
+     "src": "https://avtokampi.si/campsites/camping-polovnik",
+     "km": 23.9
+    }
+   ],
+   "places": [
+    {
+     "title": "Lake Bled",
+     "how": "bike",
+     "km": 20.3,
+     "lon": 14.09472222,
+     "lat": 46.36444444,
+     "date": "2027-08-06"
+    },
+    {
+     "title": "Lake Bohinj",
+     "how": "base",
+     "km": 0,
+     "lon": 13.85822222,
+     "lat": 46.28230833,
+     "date": "2027-08-07"
+    },
+    {
+     "title": "Soča Valley",
+     "how": "bike",
+     "km": 21.9,
+     "lon": 13.578,
+     "lat": 46.248,
+     "date": "2027-08-08"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Lake Hévíz",
+     "how": "on the way",
+     "km": 0,
+     "lon": 17.19305556,
+     "lat": 46.78722222,
+     "date": "2027-08-05"
+    }
+   ],
+   "leave": "2027-08-09",
+   "nights": 3,
+   "drive_in_km": 446,
+   "drive_days": 4
+  },
+  {
+   "id": "b006",
+   "name": "Piran / Pirano",
+   "center_place": "Piran",
+   "station": null,
+   "lon": 13.5683,
+   "lat": 45.5283,
+   "arrive": "2027-08-10",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Piran",
+     "how": "base",
+     "km": 0,
+     "lon": 13.56833333,
+     "lat": 45.52833333,
+     "date": "2027-08-10"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Škocjan Caves",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14,
+     "lat": 45.66666667,
+     "date": "2027-08-09"
+    }
+   ],
+   "leave": "2027-08-11",
+   "nights": 1,
+   "drive_in_km": 209,
+   "drive_days": 2
+  },
+  {
+   "id": "b007",
+   "name": "Plitvički Ljeskovac",
+   "center_place": "Plitvice",
+   "station": null,
+   "lon": 15.582,
+   "lat": 44.865,
+   "arrive": "2027-08-13",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Plitvice",
+     "src": "https://www.avtokampi.si/campsites/camping-plitvice",
+     "km": 8.5
+    },
+    {
+     "name": "Camping Korana",
+     "src": "https://www.campercontact.com/en/md/11434",
+     "km": 10.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Plitvice",
+     "how": "base",
+     "km": 0,
+     "lon": 15.582,
+     "lat": 44.865,
+     "date": "2027-08-13"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Motovun",
+     "how": "on the way",
+     "km": 0,
+     "lon": 13.83333333,
+     "lat": 45.33333333,
+     "date": "2027-08-11"
+    },
+    {
+     "title": "Opatija",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14.3,
+     "lat": 45.33333333,
+     "date": "2027-08-12"
+    }
+   ],
+   "leave": "2027-08-14",
+   "nights": 1,
+   "drive_in_km": 292,
+   "drive_days": 3
+  },
+  {
+   "id": "b008",
+   "name": "Ljubuški",
+   "center_place": "Kravica Waterfall",
+   "station": null,
+   "lon": 17.6037,
+   "lat": 43.1541,
+   "arrive": "2027-08-15",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Kravica Waterfall",
+     "how": "base",
+     "km": 0,
+     "lon": 17.603672,
+     "lat": 43.154121,
+     "date": "2027-08-15"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Krka National Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": 15.97277778,
+     "lat": 43.80194444,
+     "date": "2027-08-14"
+    }
+   ],
+   "leave": "2027-08-16",
+   "nights": 1,
+   "drive_in_km": 386,
+   "drive_days": 4
+  },
+  {
+   "id": "b009",
+   "name": "Sarajevo",
+   "center_place": "Sarajevo",
+   "station": null,
+   "lon": 18.413,
+   "lat": 43.856,
+   "arrive": "2027-08-17",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Autocamp Oaza",
+     "src": "https://www.campercontact.com/en/bosnia-and-herzegovina/federation-of-bosnia-and-herzegovina/ilidza/23035/autocamp-oaza.md",
+     "km": 8.9
+    },
+    {
+     "name": "Camping Sarajevo",
+     "src": "https://www.campercontact.com/en/md/49765",
+     "km": 12.0
+    }
+   ],
+   "places": [
+    {
+     "title": "Sarajevo",
+     "how": "base",
+     "km": 0,
+     "lon": 18.413,
+     "lat": 43.856,
+     "date": "2027-08-17"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Stari Most",
+     "how": "on the way",
+     "km": 0,
+     "lon": 17.8150367,
+     "lat": 43.3372636,
+     "date": "2027-08-16"
+    }
+   ],
+   "leave": "2027-08-18",
+   "nights": 1,
+   "drive_in_km": 178,
+   "drive_days": 2
+  },
+  {
+   "id": "b010",
+   "name": "Perućica",
+   "center_place": "Perućica",
+   "station": null,
+   "lon": 18.6968,
+   "lat": 43.314,
+   "arrive": "2027-08-18",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Restoran Tentorium",
+     "src": "https://park4night.com/en/place/54379",
+     "km": 6.1
+    },
+    {
+     "name": "Kamp Sutjeska",
+     "src": "https://www.campercontact.com/en/md/78543",
+     "km": 6.2
+    }
+   ],
+   "places": [
+    {
+     "title": "Perućica",
+     "how": "base",
+     "km": 0,
+     "lon": 18.69677749,
+     "lat": 43.31401862,
+     "date": "2027-08-18"
+    },
+    {
+     "title": "Sutjeska",
+     "how": "bike",
+     "km": 3.3,
+     "lon": 18.688,
+     "lat": 43.343,
+     "date": "2027-08-21"
+    },
+    {
+     "title": "Piva Lake",
+     "how": "bike",
+     "km": 21.4,
+     "lon": 18.862,
+     "lat": 43.164,
+     "date": "2027-08-22"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-08-23",
+   "nights": 5,
+   "drive_in_km": 121,
+   "drive_days": 2
+  },
+  {
+   "id": "b011",
+   "name": "Đurđevića Tara Bridge",
+   "center_place": "Đurđevića Tara Bridge",
+   "station": null,
+   "lon": 19.2945,
+   "lat": 43.1497,
+   "arrive": "2027-08-23",
+   "chapter": 3,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Autocamp Razvršje",
+     "src": "https://avtokampi.si/campsites/camping-razvrsje",
+     "km": 14.8
+    },
+    {
+     "name": "Auto camp Mlinski Potok",
+     "src": "https://www.campercontact.com/es/montenegro/municipio-de-zabljak/pitomine/24531/auto-camp-mlinski-potok.md",
+     "km": 15.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Đurđevića Tara Bridge",
+     "how": "base",
+     "km": 0,
+     "lon": 19.2944699,
+     "lat": 43.1497109,
+     "date": "2027-08-23"
+    },
+    {
+     "title": "Durmitor",
+     "how": "bike",
+     "km": 13.9,
+     "lon": 19.123,
+     "lat": 43.154,
+     "date": "2027-08-24"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-08-25",
+   "nights": 2,
+   "drive_in_km": 171,
+   "drive_days": 2
+  },
+  {
+   "id": "b012",
+   "name": "Dubrovnik",
+   "center_place": "Dubrovnik",
+   "station": null,
+   "lon": 18.1068,
+   "lat": 42.6417,
+   "arrive": "2027-08-25",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Dubrovnik",
+     "how": "base",
+     "km": 0,
+     "lon": 18.1068385,
+     "lat": 42.6417295,
+     "date": "2027-08-25"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-08-25",
+   "nights": 0,
+   "drive_in_km": 188,
+   "drive_days": 2
+  },
+  {
+   "id": "b013",
+   "name": "Kotor",
+   "center_place": "Kotor",
+   "station": null,
+   "lon": 18.771,
+   "lat": 42.425,
+   "arrive": "2027-08-25",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Verige",
+     "src": "https://stellplatz.info/en/rv-park/camping-verige",
+     "km": 8.2
+    },
+    {
+     "name": "Autocamp Naluka",
+     "src": "https://www.campercontact.com/en/md/27133",
+     "km": 11.9
+    }
+   ],
+   "places": [
+    {
+     "title": "Perast",
+     "how": "bike",
+     "km": 9.1,
+     "lon": 18.69916667,
+     "lat": 42.48694444,
+     "date": "2027-08-25"
+    },
+    {
+     "title": "Kotor",
+     "how": "base",
+     "km": 0,
+     "lon": 18.771,
+     "lat": 42.425,
+     "date": "2027-08-26"
+    },
+    {
+     "title": "Sveti Stefan",
+     "how": "bike",
+     "km": 21.2,
+     "lon": 18.89111111,
+     "lat": 42.25583333,
+     "date": "2027-08-27"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-08-28",
+   "nights": 3,
+   "drive_in_km": 79,
+   "drive_days": 1
+  },
+  {
+   "id": "b014",
+   "name": "Shkoder",
+   "center_place": "Lake Shkodra",
+   "station": null,
+   "lon": 19.5,
+   "lat": 42.05,
+   "arrive": "2027-08-29",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Legjenda",
+     "src": "https://www.pitchup.com/en-au/campsites/albania/north/shkoder/shkoder/camping-legjenda/?facet=tent",
+     "km": 1.2
+    },
+    {
+     "name": "Lake Shkodra Resort",
+     "src": "https://www.pitchup.com/en-nz/campsites/albania/north/shkoder/grile/lake_shkodra_resort",
+     "km": 10.2
+    }
+   ],
+   "places": [
+    {
+     "title": "Lake Shkodra",
+     "how": "base",
+     "km": 0,
+     "lon": 19.5,
+     "lat": 42.05,
+     "date": "2027-08-29"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Stari Bar",
+     "how": "on the way",
+     "km": 0,
+     "lon": 19.1338353,
+     "lat": 42.093943,
+     "date": "2027-08-28"
+    }
+   ],
+   "leave": "2027-08-30",
+   "nights": 1,
+   "drive_in_km": 108,
+   "drive_days": 1
+  },
+  {
+   "id": "b015",
+   "name": "Albanian Riviera",
+   "center_place": "Albanian Riviera",
+   "station": null,
+   "lon": 19.744,
+   "lat": 40.101,
+   "arrive": "2027-09-02",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Kranea",
+     "src": "https://www.campercontact.com/en/md/30190",
+     "km": 1.6
+    },
+    {
+     "name": "Kamping Himara",
+     "src": "https://www.campercontact.com/en/md/102854",
+     "km": 12.5
+    }
+   ],
+   "places": [
+    {
+     "title": "Albanian Riviera",
+     "how": "base",
+     "km": 0,
+     "lon": 19.744,
+     "lat": 40.101,
+     "date": "2027-09-02"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Krujë Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 19.79388889,
+     "lat": 41.50694444,
+     "date": "2027-08-30"
+    }
+   ],
+   "leave": "2027-09-03",
+   "nights": 1,
+   "drive_in_km": 310,
+   "drive_days": 3
+  },
+  {
+   "id": "b016",
+   "name": "Zagori",
+   "center_place": "Zagori",
+   "station": null,
+   "lon": 20.744,
+   "lat": 39.877,
+   "arrive": "2027-09-05",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping RV Parking Via Natura",
+     "src": "https://www.campercontact.com/nl/griekenland/epirus-west-macedonie/konitsa-municipality/78358/camping-rv-parking-via-natura.md",
+     "km": 19.1
+    },
+    {
+     "name": "Camping Limnopoula",
+     "src": "https://www.campercontact.com/en/md/24170",
+     "km": 23.8
+    }
+   ],
+   "places": [
+    {
+     "title": "Zagori",
+     "how": "base",
+     "km": 0,
+     "lon": 20.744,
+     "lat": 39.877,
+     "date": "2027-09-05"
+    },
+    {
+     "title": "Papingo",
+     "how": "bike",
+     "km": 10.0,
+     "lon": 20.73333333,
+     "lat": 39.96666667,
+     "date": "2027-09-06"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ksamil",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20,
+     "lat": 39.76666667,
+     "date": "2027-09-03"
+    },
+    {
+     "title": "Butrint",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.02055556,
+     "lat": 39.74555556,
+     "date": "2027-09-03"
+    },
+    {
+     "title": "Gjirokastër",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.13333333,
+     "lat": 40.06666667,
+     "date": "2027-09-04"
+    }
+   ],
+   "leave": "2027-09-09",
+   "nights": 4,
+   "drive_in_km": 212,
+   "drive_days": 2
+  },
+  {
+   "id": "b017",
+   "name": "Kalambaka",
+   "center_place": "Meteora",
+   "station": null,
+   "lon": 21.63,
+   "lat": 39.708,
+   "arrive": "2027-09-10",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Vrachos Kastraki",
+     "src": "https://www.campercontact.com/en/md/42142",
+     "km": 1.3
+    },
+    {
+     "name": "Camping Meteora Garden",
+     "src": "https://www.campercontact.com/en/greece/trikala/kalabaka/82958/camping-meteora-garden",
+     "km": 1.8
+    }
+   ],
+   "places": [
+    {
+     "title": "Meteora",
+     "how": "base",
+     "km": 0,
+     "lon": 21.63,
+     "lat": 39.708,
+     "date": "2027-09-10"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ioannina",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.85222222,
+     "lat": 39.66361111,
+     "date": "2027-09-09"
+    },
+    {
+     "title": "Metsovo",
+     "how": "on the way",
+     "km": 0,
+     "lon": 21.18388889,
+     "lat": 39.77027778,
+     "date": "2027-09-09"
+    }
+   ],
+   "leave": "2027-09-11",
+   "nights": 1,
+   "drive_in_km": 176,
+   "drive_days": 2
+  },
+  {
+   "id": "b018",
+   "name": "Syvota",
+   "center_place": "Syvota",
+   "station": null,
+   "lon": 20.25,
+   "lat": 39.4,
+   "arrive": "2027-09-11",
+   "chapter": 4,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Parga",
+     "how": "bike",
+     "km": 18.3,
+     "lon": 20.4,
+     "lat": 39.28333333,
+     "date": "2027-09-11"
+    },
+    {
+     "title": "Syvota",
+     "how": "base",
+     "km": 0,
+     "lon": 20.25,
+     "lat": 39.4,
+     "date": "2027-09-12"
+    },
+    {
+     "title": "Igoumenitsa",
+     "how": "bike",
+     "km": 11.5,
+     "lon": 20.266,
+     "lat": 39.503,
+     "date": "2027-09-13"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Dodona",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.78777778,
+     "lat": 39.54638889,
+     "date": "2027-09-11"
+    }
+   ],
+   "leave": "2027-09-15",
+   "nights": 4,
+   "drive_in_km": 218,
+   "drive_days": 2
+  },
+  {
+   "id": "b019",
+   "name": "Matera",
+   "center_place": "Matera",
+   "station": "Matera Centrale",
+   "lon": 16.61,
+   "lat": 40.666,
+   "arrive": "2027-09-15",
+   "chapter": 5,
+   "ferry_in": "Igoumenitsa → Bari",
+   "campsites": [
+    {
+     "name": "Area Camper Matera",
+     "src": null,
+     "km": 1.8
+    }
+   ],
+   "places": [
+    {
+     "title": "Matera",
+     "how": "base",
+     "km": 0,
+     "lon": 16.61,
+     "lat": 40.666,
+     "date": "2027-09-15"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-09-16",
+   "nights": 1,
+   "drive_in_km": 91,
+   "drive_days": 1
+  },
+  {
+   "id": "b020",
+   "name": "Rome",
+   "center_place": "Pantheon, Rome",
+   "station": "Roma Trastevere",
+   "lon": 12.4768,
+   "lat": 41.8986,
+   "arrive": "2027-09-18",
+   "chapter": 5,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Village Flaminio Camping",
+     "src": null,
+     "km": 6.8
+    },
+    {
+     "name": "Camping Village Tiber",
+     "src": null,
+     "km": 12.6
+    }
+   ],
+   "places": [
+    {
+     "title": "Colosseum",
+     "how": "walk",
+     "km": 1.5,
+     "lon": 12.491903,
+     "lat": 41.8909421,
+     "date": "2027-09-18"
+    },
+    {
+     "title": "Pantheon, Rome",
+     "how": "base",
+     "km": 0,
+     "lon": 12.4768334,
+     "lat": 41.898616,
+     "date": "2027-09-18"
+    },
+    {
+     "title": "St. Peter's Basilica",
+     "how": "walk",
+     "km": 2.0,
+     "lon": 12.4537105,
+     "lat": 41.9021569,
+     "date": "2027-09-19"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Amalfi Coast",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14.6,
+     "lat": 40.65,
+     "date": "2027-09-16"
+    },
+    {
+     "title": "Pompeii",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14.48611111,
+     "lat": 40.75,
+     "date": "2027-09-17"
+    }
+   ],
+   "leave": "2027-09-20",
+   "nights": 2,
+   "drive_in_km": 494,
+   "drive_days": 5
+  },
+  {
+   "id": "b021",
+   "name": "Bagnoregio",
+   "center_place": "Civita di Bagnoregio",
+   "station": null,
+   "lon": 12.1139,
+   "lat": 42.6278,
+   "arrive": "2027-09-20",
+   "chapter": 5,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Civita di Bagnoregio",
+     "how": "base",
+     "km": 0,
+     "lon": 12.11388889,
+     "lat": 42.62777778,
+     "date": "2027-09-20"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-09-22",
+   "nights": 2,
+   "drive_in_km": 119,
+   "drive_days": 2
+  },
+  {
+   "id": "b022",
+   "name": "Collbató",
+   "center_place": "Montserrat (mountain)",
+   "station": "Aeri de Montserrat",
+   "lon": 1.8378,
+   "lat": 41.5917,
+   "arrive": "2027-09-22",
+   "chapter": 6,
+   "ferry_in": "Civitavecchia → Barcelona",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Montserrat (mountain)",
+     "how": "base",
+     "km": 0,
+     "lon": 1.83777778,
+     "lat": 41.59166667,
+     "date": "2027-09-22"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-09-23",
+   "nights": 1,
+   "drive_in_km": 151,
+   "drive_days": 2
+  },
+  {
+   "id": "b023",
+   "name": "Loarre",
+   "center_place": "Castle of Loarre",
+   "station": null,
+   "lon": -0.6127,
+   "lat": 42.3254,
+   "arrive": "2027-09-25",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Castle of Loarre",
+     "how": "base",
+     "km": 0,
+     "lon": -0.6127069,
+     "lat": 42.3254468,
+     "date": "2027-09-25"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ordesa y Monte Perdido National Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": -0.0597318,
+     "lat": 42.6492328,
+     "date": "2027-09-23"
+    }
+   ],
+   "leave": "2027-09-27",
+   "nights": 2,
+   "drive_in_km": 454,
+   "drive_days": 5
+  },
+  {
+   "id": "b024",
+   "name": "San Sebastián",
+   "center_place": "San Sebastián",
+   "station": "Donostia / San Sebastián",
+   "lon": -1.9839,
+   "lat": 43.3224,
+   "arrive": "2027-09-27",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "San Sebastián",
+     "how": "base",
+     "km": 0,
+     "lon": -1.9838889,
+     "lat": 43.3224219,
+     "date": "2027-09-27"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-09-29",
+   "nights": 2,
+   "drive_in_km": 227,
+   "drive_days": 3
+  },
+  {
+   "id": "b025",
+   "name": "Logroño",
+   "center_place": "Logroño",
+   "station": "Logroño",
+   "lon": -2.449,
+   "lat": 42.466,
+   "arrive": "2027-09-29",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping La Playa",
+     "src": null,
+     "km": 0.8
+    },
+    {
+     "name": "Área de autocaravanas de Logroño",
+     "src": null,
+     "km": 2.6
+    }
+   ],
+   "places": [
+    {
+     "title": "Logroño",
+     "how": "base",
+     "km": 0,
+     "lon": -2.449,
+     "lat": 42.466,
+     "date": "2027-09-29"
+    },
+    {
+     "title": "Laguardia",
+     "how": "bike",
+     "km": 13.8,
+     "lon": -2.5805373,
+     "lat": 42.5429844,
+     "date": "2027-09-30"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-10-01",
+   "nights": 2,
+   "drive_in_km": 170,
+   "drive_days": 2
+  },
+  {
+   "id": "b026",
+   "name": "San Millán de la Cogolla",
+   "center_place": "San Millán de la Cogolla",
+   "station": null,
+   "lon": -2.8657,
+   "lat": 42.3259,
+   "arrive": "2027-10-01",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "San Millán de la Cogolla",
+     "how": "base",
+     "km": 0,
+     "lon": -2.8656733,
+     "lat": 42.3258783,
+     "date": "2027-10-01"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-10-02",
+   "nights": 1,
+   "drive_in_km": 44,
+   "drive_days": 1
+  },
+  {
+   "id": "b027",
+   "name": "Bilbao",
+   "center_place": "Guggenheim Museum Bilbao",
+   "station": "Zazpikaleak / Casco Viejo",
+   "lon": -2.9339,
+   "lat": 43.2686,
+   "arrive": "2027-10-02",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Guggenheim Museum Bilbao",
+     "how": "base",
+     "km": 0,
+     "lon": -2.93388889,
+     "lat": 43.26861111,
+     "date": "2027-10-02"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-10-03",
+   "nights": 1,
+   "drive_in_km": 129,
+   "drive_days": 2
+  },
+  {
+   "id": "b028",
+   "name": "Posada de Valdeón",
+   "center_place": "Picos de Europa",
+   "station": null,
+   "lon": -4.851,
+   "lat": 43.193,
+   "arrive": "2027-10-04",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping La Viorna",
+     "src": null,
+     "km": 17.3
+    },
+    {
+     "name": "Vanventure Camperpark Potes",
+     "src": null,
+     "km": 18.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Fuente Dé",
+     "how": "bike",
+     "km": 6.2,
+     "lon": -4.8102,
+     "lat": 43.1456,
+     "date": "2027-10-04"
+    },
+    {
+     "title": "Picos de Europa",
+     "how": "base",
+     "km": 0,
+     "lon": -4.851,
+     "lat": 43.193,
+     "date": "2027-10-06"
+    },
+    {
+     "title": "Lakes of Covadonga",
+     "how": "bike",
+     "km": 14.2,
+     "lon": -4.98527778,
+     "lat": 43.27527778,
+     "date": "2027-10-07"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Santillana del Mar",
+     "how": "on the way",
+     "km": 0,
+     "lon": -4.10472222,
+     "lat": 43.39333333,
+     "date": "2027-10-03"
+    }
+   ],
+   "leave": "2027-10-08",
+   "nights": 4,
+   "drive_in_km": 270,
+   "drive_days": 3
+  },
+  {
+   "id": "b029",
+   "name": "Santiago de Compostela",
+   "center_place": "Santiago de Compostela Cathedral",
+   "station": "Santiago de Compostela - Daniel Castelao",
+   "lon": -8.5444,
+   "lat": 42.8806,
+   "arrive": "2027-10-11",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping As Cancelas",
+     "src": null,
+     "km": 2.0
+    },
+    {
+     "name": "Los Olmos Park Camper",
+     "src": null,
+     "km": 3.5
+    }
+   ],
+   "places": [
+    {
+     "title": "Santiago de Compostela Cathedral",
+     "how": "base",
+     "km": 0,
+     "lon": -8.54444444,
+     "lat": 42.88055556,
+     "date": "2027-10-11"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Villaviciosa",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.4344978,
+     "lat": 43.4813776,
+     "date": "2027-10-08"
+    },
+    {
+     "title": "Cudillero",
+     "how": "on the way",
+     "km": 0,
+     "lon": -6.15,
+     "lat": 43.56,
+     "date": "2027-10-08"
+    },
+    {
+     "title": "As Catedrais beach",
+     "how": "on the way",
+     "km": 0,
+     "lon": -7.15722222,
+     "lat": 43.55388889,
+     "date": "2027-10-09"
+    },
+    {
+     "title": "Roman walls of Lugo",
+     "how": "on the way",
+     "km": 0,
+     "lon": -7.5533,
+     "lat": 43.0111,
+     "date": "2027-10-10"
+    }
+   ],
+   "leave": "2027-10-12",
+   "nights": 1,
+   "drive_in_km": 463,
+   "drive_days": 5
+  },
+  {
+   "id": "b030",
+   "name": "Guimarães",
+   "center_place": "Guimarães Castle",
+   "station": "Guimarães",
+   "lon": -8.2904,
+   "lat": 41.4479,
+   "arrive": "2027-10-14",
+   "chapter": 6,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Bom Jesus do Monte",
+     "how": "bike",
+     "km": 13.9,
+     "lon": -8.37702778,
+     "lat": 41.55494444,
+     "date": "2027-10-14"
+    },
+    {
+     "title": "Guimarães Castle",
+     "how": "base",
+     "km": 0,
+     "lon": -8.29035833,
+     "lat": 41.44790833,
+     "date": "2027-10-15"
+    },
+    {
+     "title": "Dom Luís I Bridge",
+     "how": "train",
+     "km": 43.4,
+     "lon": -8.609336,
+     "lat": 41.139863,
+     "date": "2027-10-16"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Combarro",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.7056,
+     "lat": 42.4318,
+     "date": "2027-10-12"
+    },
+    {
+     "title": "Castro of Santa Trega",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.8698,
+     "lat": 41.8927,
+     "date": "2027-10-13"
+    }
+   ],
+   "leave": "2027-10-17",
+   "nights": 3,
+   "drive_in_km": 265,
+   "drive_days": 3
+  },
+  {
+   "id": "b031",
+   "name": "Peso da Régua",
+   "center_place": "Douro",
+   "station": "Régua",
+   "lon": -7.79,
+   "lat": 41.16,
+   "arrive": "2027-10-18",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Douro",
+     "how": "base",
+     "km": 0,
+     "lon": -7.79,
+     "lat": 41.16,
+     "date": "2027-10-18"
+    },
+    {
+     "title": "Mateus Palace",
+     "how": "bike",
+     "km": 16.5,
+     "lon": -7.7125,
+     "lat": 41.29694444,
+     "date": "2027-10-19"
+    },
+    {
+     "title": "Pinhão",
+     "how": "bike",
+     "km": 20.7,
+     "lon": -7.5459983,
+     "lat": 41.19105,
+     "date": "2027-10-19"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Amarante, Portugal",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.08083333,
+     "lat": 41.27027778,
+     "date": "2027-10-17"
+    }
+   ],
+   "leave": "2027-10-20",
+   "nights": 2,
+   "drive_in_km": 74,
+   "drive_days": 1
+  },
+  {
+   "id": "b032",
+   "name": "Seia",
+   "center_place": "Serra da Estrela",
+   "station": null,
+   "lon": -7.613,
+   "lat": 40.3219,
+   "arrive": "2027-10-20",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Serra da Estrela",
+     "how": "base",
+     "km": 0,
+     "lon": -7.61296667,
+     "lat": 40.32186667,
+     "date": "2027-10-20"
+    },
+    {
+     "title": "Piódão",
+     "how": "bike",
+     "km": 20.7,
+     "lon": -7.824757,
+     "lat": 40.2295511,
+     "date": "2027-10-21"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-10-22",
+   "nights": 2,
+   "drive_in_km": 143,
+   "drive_days": 2
+  },
+  {
+   "id": "b033",
+   "name": "Coimbra",
+   "center_place": "University of Coimbra",
+   "station": "Coimbra-B",
+   "lon": -8.4265,
+   "lat": 40.2074,
+   "arrive": "2027-10-22",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Buçaco Palace",
+     "how": "bike",
+     "km": 19.5,
+     "lon": -8.36545,
+     "lat": 40.37603889,
+     "date": "2027-10-22"
+    },
+    {
+     "title": "University of Coimbra",
+     "how": "base",
+     "km": 0,
+     "lon": -8.4265,
+     "lat": 40.2074,
+     "date": "2027-10-23"
+    },
+    {
+     "title": "Aveiro, Portugal",
+     "how": "train",
+     "km": 51.0,
+     "lon": -8.65,
+     "lat": 40.63333333,
+     "date": "2027-10-23"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-10-24",
+   "nights": 2,
+   "drive_in_km": 116,
+   "drive_days": 2
+  },
+  {
+   "id": "b034",
+   "name": "Alcobaça",
+   "center_place": "Alcobaça Monastery",
+   "station": null,
+   "lon": -8.98,
+   "lat": 39.5483,
+   "arrive": "2027-10-25",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Batalha Monastery",
+     "how": "bike",
+     "km": 18.0,
+     "lon": -8.82611111,
+     "lat": 39.65916667,
+     "date": "2027-10-25"
+    },
+    {
+     "title": "Alcobaça Monastery",
+     "how": "base",
+     "km": 0,
+     "lon": -8.98,
+     "lat": 39.54833333,
+     "date": "2027-10-25"
+    },
+    {
+     "title": "Nazaré, Portugal",
+     "how": "bike",
+     "km": 9.7,
+     "lon": -9.07055556,
+     "lat": 39.60111111,
+     "date": "2027-10-26"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Costa Nova do Prado",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.7495432,
+     "lat": 40.6125817,
+     "date": "2027-10-24"
+    },
+    {
+     "title": "Conímbriga",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.49055556,
+     "lat": 40.09944444,
+     "date": "2027-10-24"
+    }
+   ],
+   "leave": "2027-10-27",
+   "nights": 2,
+   "drive_in_km": 258,
+   "drive_days": 3
+  },
+  {
+   "id": "b035",
+   "name": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+   "center_place": "Pena Palace",
+   "station": "Sintra",
+   "lon": -9.3906,
+   "lat": 38.7878,
+   "arrive": "2027-10-29",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Lisboa Camping",
+     "src": null,
+     "km": 17.6
+    },
+    {
+     "name": "Orbitur Costa da Caparica",
+     "src": null,
+     "km": 20.0
+    }
+   ],
+   "places": [
+    {
+     "title": "Ericeira",
+     "how": "bike",
+     "km": 19.5,
+     "lon": -9.418,
+     "lat": 38.962,
+     "date": "2027-10-29"
+    },
+    {
+     "title": "Pena Palace",
+     "how": "base",
+     "km": 0,
+     "lon": -9.39055556,
+     "lat": 38.78777778,
+     "date": "2027-10-30"
+    },
+    {
+     "title": "Cabo da Roca",
+     "how": "bike",
+     "km": 9.6,
+     "lon": -9.50055556,
+     "lat": 38.78083333,
+     "date": "2027-11-01"
+    },
+    {
+     "title": "Belém Tower",
+     "how": "bike",
+     "km": 18.5,
+     "lon": -9.21611111,
+     "lat": 38.69166667,
+     "date": "2027-11-02"
+    },
+    {
+     "title": "Alfama",
+     "how": "bike",
+     "km": 24.1,
+     "lon": -9.13,
+     "lat": 38.71222222,
+     "date": "2027-11-03"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Óbidos, Portugal",
+     "how": "on the way",
+     "km": 0,
+     "lon": -9.15777778,
+     "lat": 39.35805556,
+     "date": "2027-10-27"
+    },
+    {
+     "title": "Peniche, Portugal",
+     "how": "on the way",
+     "km": 0,
+     "lon": -9.36666667,
+     "lat": 39.35,
+     "date": "2027-10-28"
+    }
+   ],
+   "leave": "2027-11-04",
+   "nights": 6,
+   "drive_in_km": 167,
+   "drive_days": 2
+  },
+  {
+   "id": "b036",
+   "name": "Évora",
+   "center_place": "Roman Temple of Évora",
+   "station": "Évora",
+   "lon": -7.9078,
+   "lat": 38.5731,
+   "arrive": "2027-11-06",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Roman Temple of Évora",
+     "how": "base",
+     "km": 0,
+     "lon": -7.90778472,
+     "lat": 38.57306,
+     "date": "2027-11-06"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Arrábida Natural Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": -8.98916667,
+     "lat": 38.48138889,
+     "date": "2027-11-04"
+    }
+   ],
+   "leave": "2027-11-07",
+   "nights": 1,
+   "drive_in_km": 182,
+   "drive_days": 2
+  },
+  {
+   "id": "b037",
+   "name": "Praia do Ribatejo",
+   "center_place": "Almourol Castle",
+   "station": "Almourol",
+   "lon": -8.3838,
+   "lat": 39.4619,
+   "arrive": "2027-11-07",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Quinta Monteiro de Matos",
+     "src": null,
+     "km": 11.1
+    },
+    {
+     "name": "Parque de Campismo Municipal da Golegã",
+     "src": null,
+     "km": 11.2
+    }
+   ],
+   "places": [
+    {
+     "title": "Convent of Christ (Tomar)",
+     "how": "bike",
+     "km": 16.1,
+     "lon": -8.4175,
+     "lat": 39.60472222,
+     "date": "2027-11-07"
+    },
+    {
+     "title": "Almourol Castle",
+     "how": "base",
+     "km": 0,
+     "lon": -8.38383056,
+     "lat": 39.46194444,
+     "date": "2027-11-08"
+    },
+    {
+     "title": "Golegã",
+     "how": "bike",
+     "km": 10.9,
+     "lon": -8.486,
+     "lat": 39.404,
+     "date": "2027-11-10"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-11-13",
+   "nights": 6,
+   "drive_in_km": 150,
+   "drive_days": 2
+  },
+  {
+   "id": "b038",
+   "name": "Marvão",
+   "center_place": "Marvão",
+   "station": null,
+   "lon": -7.3767,
+   "lat": 39.3942,
+   "arrive": "2027-11-13",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Marvão",
+     "how": "base",
+     "km": 0,
+     "lon": -7.37666667,
+     "lat": 39.39416667,
+     "date": "2027-11-13"
+    },
+    {
+     "title": "Castelo de Vide",
+     "how": "bike",
+     "km": 13.8,
+     "lon": -7.51666667,
+     "lat": 39.33333333,
+     "date": "2027-11-14"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-11-15",
+   "nights": 2,
+   "drive_in_km": 113,
+   "drive_days": 2
+  },
+  {
+   "id": "b039",
+   "name": "Lagos",
+   "center_place": "Ponta da Piedade",
+   "station": null,
+   "lon": -8.67,
+   "lat": 37.081,
+   "arrive": "2027-11-15",
+   "chapter": 7,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Orbitur Valverde",
+     "src": null,
+     "km": 4.9
+    }
+   ],
+   "places": [
+    {
+     "title": "Ponta da Piedade",
+     "how": "base",
+     "km": 0,
+     "lon": -8.67,
+     "lat": 37.081,
+     "date": "2027-11-15"
+    },
+    {
+     "title": "Benagil Cave",
+     "how": "bike",
+     "km": 21.9,
+     "lon": -8.4237179,
+     "lat": 37.087203,
+     "date": "2027-11-16"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-11-17",
+   "nights": 2,
+   "drive_in_km": 368,
+   "drive_days": 4
+  },
+  {
+   "id": "b040",
+   "name": "Algeciras",
+   "center_place": "Algeciras",
+   "station": "Algeciras",
+   "lon": -5.454,
+   "lat": 36.127,
+   "arrive": "2027-11-18",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Torre de la Peña",
+     "src": null,
+     "km": 20.0
+    },
+    {
+     "name": "Camping Paloma",
+     "src": null,
+     "km": 22.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Algeciras",
+     "how": "base",
+     "km": 0,
+     "lon": -5.454,
+     "lat": 36.127,
+     "date": "2027-11-18"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Vejer de la Frontera",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.96666667,
+     "lat": 36.25,
+     "date": "2027-11-17"
+    }
+   ],
+   "leave": "2027-11-20",
+   "nights": 2,
+   "drive_in_km": 506,
+   "drive_days": 5
+  },
+  {
+   "id": "b041",
+   "name": "Volubilis",
+   "center_place": "Volubilis",
+   "station": null,
+   "lon": -5.5536,
+   "lat": 34.0711,
+   "arrive": "2027-11-20",
+   "chapter": 8,
+   "ferry_in": "Algeciras → Tanger Med",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Volubilis",
+     "how": "base",
+     "km": 0,
+     "lon": -5.55361111,
+     "lat": 34.07111111,
+     "date": "2027-11-20"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-11-22",
+   "nights": 2,
+   "drive_in_km": 288,
+   "drive_days": 3
+  },
+  {
+   "id": "b042",
+   "name": "Ben Smim",
+   "center_place": "Ifrane National Park",
+   "station": null,
+   "lon": -5.1302,
+   "lat": 33.4318,
+   "arrive": "2027-11-22",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping de l'Atlas",
+     "src": "https://www.campercontact.com/en/morocco/draa-tafilalet/tinghir/19656/camping-de-latlas",
+     "km": 23.5
+    }
+   ],
+   "places": [
+    {
+     "title": "Ifrane National Park",
+     "how": "base",
+     "km": 0,
+     "lon": -5.13016111,
+     "lat": 33.43175556,
+     "date": "2027-11-22"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-11-23",
+   "nights": 1,
+   "drive_in_km": 104,
+   "drive_days": 1
+  },
+  {
+   "id": "b043",
+   "name": "Imlil",
+   "center_place": "Toubkal",
+   "station": null,
+   "lon": -7.919,
+   "lat": 31.137,
+   "arrive": "2027-11-24",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Toubkal",
+     "how": "base",
+     "km": 0,
+     "lon": -7.919,
+     "lat": 31.137,
+     "date": "2027-11-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ouzoud Falls",
+     "how": "on the way",
+     "km": 0,
+     "lon": -6.7189,
+     "lat": 32.0152,
+     "date": "2027-11-23"
+    }
+   ],
+   "leave": "2027-11-27",
+   "nights": 3,
+   "drive_in_km": 532,
+   "drive_days": 5
+  },
+  {
+   "id": "b044",
+   "name": "Merzouga",
+   "center_place": "Merzouga",
+   "station": null,
+   "lon": -4.011,
+   "lat": 31.08,
+   "arrive": "2027-12-03",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Haven La Chance",
+     "src": "https://www.campercontact.com/en/md/30530",
+     "km": 6.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Merzouga",
+     "how": "base",
+     "km": 0,
+     "lon": -4.011,
+     "lat": 31.08,
+     "date": "2027-12-03"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Telouet Kasbah",
+     "how": "on the way",
+     "km": 0,
+     "lon": -7.24111111,
+     "lat": 31.28833333,
+     "date": "2027-11-27"
+    },
+    {
+     "title": "Aït Benhaddou",
+     "how": "on the way",
+     "km": 0,
+     "lon": -7.12888889,
+     "lat": 31.04722222,
+     "date": "2027-11-28"
+    },
+    {
+     "title": "Taourirt Kasbah",
+     "how": "on the way",
+     "km": 0,
+     "lon": -6.89933333,
+     "lat": 30.92,
+     "date": "2027-11-28"
+    },
+    {
+     "title": "Skoura",
+     "how": "on the way",
+     "km": 0,
+     "lon": -6.55555556,
+     "lat": 31.06055556,
+     "date": "2027-11-29"
+    },
+    {
+     "title": "Kalaat M'Gouna",
+     "how": "on the way",
+     "km": 0,
+     "lon": -6.12833333,
+     "lat": 31.24138889,
+     "date": "2027-11-29"
+    },
+    {
+     "title": "Dadès Gorges",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.956,
+     "lat": 31.482,
+     "date": "2027-11-30"
+    },
+    {
+     "title": "Todgha Gorge",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.59,
+     "lat": 31.59,
+     "date": "2027-12-01"
+    },
+    {
+     "title": "Rissani",
+     "how": "on the way",
+     "km": 0,
+     "lon": -4.275093,
+     "lat": 31.285948,
+     "date": "2027-12-02"
+    }
+   ],
+   "leave": "2027-12-06",
+   "nights": 3,
+   "drive_in_km": 690,
+   "drive_days": 7
+  },
+  {
+   "id": "b045",
+   "name": "Rabat",
+   "center_place": "Kasbah of the Udayas",
+   "station": null,
+   "lon": -6.8356,
+   "lat": 34.0306,
+   "arrive": "2027-12-14",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Kasbah of the Udayas",
+     "how": "base",
+     "km": 0,
+     "lon": -6.83555556,
+     "lat": 34.03055556,
+     "date": "2027-12-14"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ziz River",
+     "how": "on the way",
+     "km": 0,
+     "lon": -4.43,
+     "lat": 32.15,
+     "date": "2027-12-06"
+    },
+    {
+     "title": "Midelt",
+     "how": "on the way",
+     "km": 0,
+     "lon": -4.74,
+     "lat": 32.68,
+     "date": "2027-12-08"
+    },
+    {
+     "title": "Azrou",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.22,
+     "lat": 33.43,
+     "date": "2027-12-11"
+    }
+   ],
+   "leave": "2027-12-17",
+   "nights": 3,
+   "drive_in_km": 588,
+   "drive_days": 6
+  },
+  {
+   "id": "b046",
+   "name": "Asilah",
+   "center_place": "Asilah",
+   "station": null,
+   "lon": -6.0333,
+   "lat": 35.4667,
+   "arrive": "2027-12-17",
+   "chapter": 8,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Asilah",
+     "how": "base",
+     "km": 0,
+     "lon": -6.03333333,
+     "lat": 35.46666667,
+     "date": "2027-12-17"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2027-12-20",
+   "nights": 3,
+   "drive_in_km": 207,
+   "drive_days": 2
+  },
+  {
+   "id": "b047",
+   "name": "Málaga",
+   "center_place": "Málaga",
+   "station": "Aeropuerto",
+   "lon": -4.499,
+   "lat": 36.674,
+   "arrive": "2027-12-20",
+   "chapter": 8,
+   "ferry_in": "Tanger Med → Algeciras",
+   "campsites": [
+    {
+     "name": "Autocaravanas Seyla",
+     "src": null,
+     "km": 4.3
+    }
+   ],
+   "places": [
+    {
+     "title": "Málaga",
+     "how": "base",
+     "km": 0,
+     "lon": -4.499,
+     "lat": 36.674,
+     "date": "2027-12-20"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-02-19",
+   "nights": 61,
+   "drive_in_km": 224,
+   "drive_days": 2
+  },
+  {
+   "id": "b048",
+   "name": "Tarifa",
+   "center_place": "Baelo Claudia",
+   "station": null,
+   "lon": -5.7747,
+   "lat": 36.0897,
+   "arrive": "2028-02-21",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Paloma",
+     "src": null,
+     "km": 7.3
+    },
+    {
+     "name": "Camping Torre de la Peña",
+     "src": null,
+     "km": 11.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Baelo Claudia",
+     "how": "base",
+     "km": 0,
+     "lon": -5.77472222,
+     "lat": 36.08972222,
+     "date": "2028-02-21"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Rock of Gibraltar",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.34311111,
+     "lat": 36.12447222,
+     "date": "2028-02-19"
+    }
+   ],
+   "leave": "2028-02-24",
+   "nights": 3,
+   "drive_in_km": 209,
+   "drive_days": 2
+  },
+  {
+   "id": "b049",
+   "name": "Cádiz",
+   "center_place": "Cádiz",
+   "station": "Cádiz",
+   "lon": -6.2975,
+   "lat": 36.535,
+   "arrive": "2028-02-24",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Cádiz",
+     "how": "base",
+     "km": 0,
+     "lon": -6.2975,
+     "lat": 36.535,
+     "date": "2028-02-24"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-02-25",
+   "nights": 1,
+   "drive_in_km": 99,
+   "drive_days": 1
+  },
+  {
+   "id": "b050",
+   "name": "Córdoba",
+   "center_place": "Mosque–Cathedral of Córdoba",
+   "station": "Córdoba Julio Anguita",
+   "lon": -4.7797,
+   "lat": 37.8792,
+   "arrive": "2028-02-27",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Mosque–Cathedral of Córdoba",
+     "how": "base",
+     "km": 0,
+     "lon": -4.77972222,
+     "lat": 37.87916667,
+     "date": "2028-02-27"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Alcázar of Seville",
+     "how": "on the way",
+     "km": 0,
+     "lon": -5.9901835,
+     "lat": 37.3832105,
+     "date": "2028-02-25"
+    }
+   ],
+   "leave": "2028-02-28",
+   "nights": 1,
+   "drive_in_km": 264,
+   "drive_days": 3
+  },
+  {
+   "id": "b051",
+   "name": "Ronda",
+   "center_place": "Ronda",
+   "station": "Ronda",
+   "lon": -5.1647,
+   "lat": 36.7372,
+   "arrive": "2028-02-28",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Setenil de las Bodegas",
+     "how": "bike",
+     "km": 14.0,
+     "lon": -5.18138889,
+     "lat": 36.8625,
+     "date": "2028-02-28"
+    },
+    {
+     "title": "Ronda",
+     "how": "base",
+     "km": 0,
+     "lon": -5.16472222,
+     "lat": 36.73722222,
+     "date": "2028-03-01"
+    },
+    {
+     "title": "Caminito del Rey",
+     "how": "train",
+     "km": 40.1,
+     "lon": -4.77277778,
+     "lat": 36.91583333,
+     "date": "2028-03-02"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-03-04",
+   "nights": 5,
+   "drive_in_km": 195,
+   "drive_days": 2
+  },
+  {
+   "id": "b052",
+   "name": "Granada",
+   "center_place": "Alhambra",
+   "station": "Nuevo Los Cármenes",
+   "lon": -3.59,
+   "lat": 37.1775,
+   "arrive": "2028-03-05",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Alhambra",
+     "how": "base",
+     "km": 0,
+     "lon": -3.59,
+     "lat": 37.1775,
+     "date": "2028-03-05"
+    },
+    {
+     "title": "Guadix",
+     "how": "train",
+     "km": 42.5,
+     "lon": -3.135,
+     "lat": 37.3006,
+     "date": "2028-03-07"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Cave of Nerja",
+     "how": "on the way",
+     "km": 0,
+     "lon": -3.8448432,
+     "lat": 36.7617499,
+     "date": "2028-03-04"
+    }
+   ],
+   "leave": "2028-03-08",
+   "nights": 3,
+   "drive_in_km": 261,
+   "drive_days": 3
+  },
+  {
+   "id": "b053",
+   "name": "Níjar",
+   "center_place": "Cabo de Gata-Níjar Natural Park",
+   "station": null,
+   "lon": -2.1,
+   "lat": 36.7833,
+   "arrive": "2028-03-08",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Cabo de Gata-Níjar Natural Park",
+     "how": "base",
+     "km": 0,
+     "lon": -2.1,
+     "lat": 36.78333333,
+     "date": "2028-03-08"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-03-10",
+   "nights": 2,
+   "drive_in_km": 190,
+   "drive_days": 2
+  },
+  {
+   "id": "b054",
+   "name": "Valencia",
+   "center_place": "City of Arts and Sciences",
+   "station": "València Joaquín Sorolla",
+   "lon": -0.35,
+   "lat": 39.4542,
+   "arrive": "2028-03-15",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "City of Arts and Sciences",
+     "how": "base",
+     "km": 0,
+     "lon": -0.35,
+     "lat": 39.45416667,
+     "date": "2028-03-15"
+    },
+    {
+     "title": "Albufera (Valencia)",
+     "how": "bike",
+     "km": 13.3,
+     "lon": -0.3581495,
+     "lat": 39.3344485,
+     "date": "2028-03-17"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Mojácar",
+     "how": "on the way",
+     "km": 0,
+     "lon": -1.85138889,
+     "lat": 37.14027778,
+     "date": "2028-03-10"
+    },
+    {
+     "title": "Roman Theatre of Cartagena",
+     "how": "on the way",
+     "km": 0,
+     "lon": -0.9841,
+     "lat": 37.5995,
+     "date": "2028-03-11"
+    },
+    {
+     "title": "Guadalest",
+     "how": "on the way",
+     "km": 0,
+     "lon": -0.19777778,
+     "lat": 38.67694444,
+     "date": "2028-03-13"
+    }
+   ],
+   "leave": "2028-03-20",
+   "nights": 5,
+   "drive_in_km": 518,
+   "drive_days": 5
+  },
+  {
+   "id": "b055",
+   "name": "Cadaqués",
+   "center_place": "Cadaqués",
+   "station": null,
+   "lon": 3.2752,
+   "lat": 42.2893,
+   "arrive": "2028-03-23",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Cadaqués",
+     "how": "base",
+     "km": 0,
+     "lon": 3.2752159,
+     "lat": 42.2893484,
+     "date": "2028-03-23"
+    },
+    {
+     "title": "Cap de Creus",
+     "how": "bike",
+     "km": 5.1,
+     "lon": 3.32194444,
+     "lat": 42.31916667,
+     "date": "2028-03-23"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Peñíscola",
+     "how": "on the way",
+     "km": 0,
+     "lon": 0.4075,
+     "lat": 40.35916667,
+     "date": "2028-03-20"
+    },
+    {
+     "title": "Ebro Delta",
+     "how": "on the way",
+     "km": 0,
+     "lon": 0.6430156,
+     "lat": 40.5722171,
+     "date": "2028-03-20"
+    },
+    {
+     "title": "Amphitheatre of Tarragona",
+     "how": "on the way",
+     "km": 0,
+     "lon": 1.2588068,
+     "lat": 41.1144377,
+     "date": "2028-03-21"
+    },
+    {
+     "title": "Sitges",
+     "how": "on the way",
+     "km": 0,
+     "lon": 1.823,
+     "lat": 41.237,
+     "date": "2028-03-21"
+    },
+    {
+     "title": "Girona Cathedral",
+     "how": "on the way",
+     "km": 0,
+     "lon": 2.82638889,
+     "lat": 41.9875,
+     "date": "2028-03-22"
+    },
+    {
+     "title": "Besalú",
+     "how": "on the way",
+     "km": 0,
+     "lon": 2.6959559,
+     "lat": 42.1986443,
+     "date": "2028-03-22"
+    }
+   ],
+   "leave": "2028-03-24",
+   "nights": 1,
+   "drive_in_km": 583,
+   "drive_days": 6
+  },
+  {
+   "id": "b056",
+   "name": "Carcassonne",
+   "center_place": "Cité de Carcassonne",
+   "station": "Carcassonne",
+   "lon": 2.364,
+   "lat": 43.2066,
+   "arrive": "2028-03-24",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Cité de Carcassonne",
+     "how": "base",
+     "km": 0,
+     "lon": 2.36398,
+     "lat": 43.20662,
+     "date": "2028-03-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Collioure",
+     "how": "on the way",
+     "km": 0,
+     "lon": 3.0814,
+     "lat": 42.5267,
+     "date": "2028-03-24"
+    }
+   ],
+   "leave": "2028-03-25",
+   "nights": 1,
+   "drive_in_km": 203,
+   "drive_days": 2
+  },
+  {
+   "id": "b057",
+   "name": "Aigues-Mortes",
+   "center_place": "Aigues-Mortes",
+   "station": "Aigues-Mortes",
+   "lon": 4.1933,
+   "lat": 43.5675,
+   "arrive": "2028-03-25",
+   "chapter": 9,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Aigues-Mortes",
+     "how": "base",
+     "km": 0,
+     "lon": 4.1933,
+     "lat": 43.5675,
+     "date": "2028-03-25"
+    },
+    {
+     "title": "Camargue",
+     "how": "bike",
+     "km": 23.1,
+     "lon": 4.43,
+     "lat": 43.45,
+     "date": "2028-03-26"
+    },
+    {
+     "title": "Maison Carrée",
+     "how": "train",
+     "km": 32.8,
+     "lon": 4.3553335,
+     "lat": 43.8384744,
+     "date": "2028-03-27"
+    },
+    {
+     "title": "Arles Amphitheatre",
+     "how": "train",
+     "km": 37.3,
+     "lon": 4.63111111,
+     "lat": 43.67777778,
+     "date": "2028-03-27"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-03-28",
+   "nights": 3,
+   "drive_in_km": 177,
+   "drive_days": 2
+  },
+  {
+   "id": "b058",
+   "name": "Les Baux-de-Provence",
+   "center_place": "Les Baux-de-Provence",
+   "station": null,
+   "lon": 4.7953,
+   "lat": 43.7439,
+   "arrive": "2028-03-28",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Bagatelle",
+     "src": "https://www.eurocampings.co.uk/france/provence-alpes-cote-dazur/vaucluse/avignon/camping-bagatelle-112006",
+     "km": 23.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Les Baux-de-Provence",
+     "how": "base",
+     "km": 0,
+     "lon": 4.7953,
+     "lat": 43.7439,
+     "date": "2028-03-28"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Glanum",
+     "how": "on the way",
+     "km": 0,
+     "lon": 5.0829006,
+     "lat": 43.6411386,
+     "date": "2028-03-28"
+    }
+   ],
+   "leave": "2028-03-29",
+   "nights": 1,
+   "drive_in_km": 130,
+   "drive_days": 2
+  },
+  {
+   "id": "b059",
+   "name": "Cassis",
+   "center_place": "Cassis",
+   "station": "Cassis",
+   "lon": 5.5389,
+   "lat": 43.2167,
+   "arrive": "2028-03-30",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Calanques National Park",
+     "how": "bike",
+     "km": 5.9,
+     "lon": 5.46666667,
+     "lat": 43.21666667,
+     "date": "2028-03-30"
+    },
+    {
+     "title": "Cassis",
+     "how": "base",
+     "km": 0,
+     "lon": 5.5389,
+     "lat": 43.2167,
+     "date": "2028-03-30"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Cours Mirabeau",
+     "how": "on the way",
+     "km": 0,
+     "lon": 5.4502554,
+     "lat": 43.5269404,
+     "date": "2028-03-29"
+    },
+    {
+     "title": "Montagne Sainte-Victoire",
+     "how": "on the way",
+     "km": 0,
+     "lon": 5.6360074,
+     "lat": 43.5368498,
+     "date": "2028-03-29"
+    }
+   ],
+   "leave": "2028-03-31",
+   "nights": 1,
+   "drive_in_km": 147,
+   "drive_days": 2
+  },
+  {
+   "id": "b060",
+   "name": "Sainte-Croix-du-Verdon",
+   "center_place": "Lac de Sainte-Croix",
+   "station": null,
+   "lon": 6.1839,
+   "lat": 43.7673,
+   "arrive": "2028-03-31",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping-car Park Moustiers",
+     "src": "https://www.moustiers.fr/en/fiche/motorhome-parking/",
+     "km": 8.9
+    },
+    {
+     "name": "Camping Manaysse",
+     "src": "https://www.moustiers.fr/en/fiche/manaysse-3/",
+     "km": 9.0
+    }
+   ],
+   "places": [
+    {
+     "title": "Lac de Sainte-Croix",
+     "how": "base",
+     "km": 0,
+     "lon": 6.183931,
+     "lat": 43.7673241,
+     "date": "2028-03-31"
+    },
+    {
+     "title": "Gorges du Verdon",
+     "how": "bike",
+     "km": 14.8,
+     "lon": 6.36388889,
+     "lat": 43.73777778,
+     "date": "2028-03-31"
+    },
+    {
+     "title": "Moustiers-Sainte-Marie",
+     "how": "bike",
+     "km": 9.5,
+     "lon": 6.2219,
+     "lat": 43.8483,
+     "date": "2028-04-01"
+    },
+    {
+     "title": "Plateau de Valensole",
+     "how": "bike",
+     "km": 17.9,
+     "lon": 5.9839867,
+     "lat": 43.8379283,
+     "date": "2028-04-01"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-02",
+   "nights": 2,
+   "drive_in_km": 129,
+   "drive_days": 2
+  },
+  {
+   "id": "b061",
+   "name": "L'Isle-sur-la-Sorgue",
+   "center_place": "L'Isle-sur-la-Sorgue",
+   "station": "L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse",
+   "lon": 5.0515,
+   "lat": 43.9185,
+   "arrive": "2028-04-02",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Airotel La Sorguette",
+     "src": "https://provence-alpes-cotedazur.com/sejourner/hebergements/tous-les-hebergements/campings/camping-la-sorguette-l-isle-sur-la-sorgue-fr-2867353/",
+     "km": 1.6
+    },
+    {
+     "name": "Camping Bagatelle",
+     "src": "https://www.eurocampings.co.uk/france/provence-alpes-cote-dazur/vaucluse/avignon/camping-bagatelle-112006",
+     "km": 20.6
+    }
+   ],
+   "places": [
+    {
+     "title": "Gordes",
+     "how": "bike",
+     "km": 12.0,
+     "lon": 5.2008,
+     "lat": 43.9119,
+     "date": "2028-04-02"
+    },
+    {
+     "title": "Sénanque Abbey",
+     "how": "bike",
+     "km": 10.9,
+     "lon": 5.18694444,
+     "lat": 43.92833333,
+     "date": "2028-04-02"
+    },
+    {
+     "title": "Roussillon, Vaucluse",
+     "how": "bike",
+     "km": 19.5,
+     "lon": 5.2936,
+     "lat": 43.9031,
+     "date": "2028-04-03"
+    },
+    {
+     "title": "Fontaine-de-Vaucluse",
+     "how": "bike",
+     "km": 6.1,
+     "lon": 5.1272914,
+     "lat": 43.9221229,
+     "date": "2028-04-03"
+    },
+    {
+     "title": "L'Isle-sur-la-Sorgue",
+     "how": "base",
+     "km": 0,
+     "lon": 5.0515385,
+     "lat": 43.9185354,
+     "date": "2028-04-04"
+    },
+    {
+     "title": "Palais des Papes",
+     "how": "bike",
+     "km": 19.9,
+     "lon": 4.8075,
+     "lat": 43.9508,
+     "date": "2028-04-04"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-05",
+   "nights": 3,
+   "drive_in_km": 133,
+   "drive_days": 2
+  },
+  {
+   "id": "b062",
+   "name": "Vers-Pont-du-Gard",
+   "center_place": "Pont du Gard",
+   "station": null,
+   "lon": 4.5356,
+   "lat": 43.9472,
+   "arrive": "2028-04-05",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Bagatelle",
+     "src": "https://www.eurocampings.co.uk/france/provence-alpes-cote-dazur/vaucluse/avignon/camping-bagatelle-112006",
+     "km": 21.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Pont du Gard",
+     "how": "base",
+     "km": 0,
+     "lon": 4.53555556,
+     "lat": 43.94722222,
+     "date": "2028-04-05"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-05",
+   "nights": 0,
+   "drive_in_km": 57,
+   "drive_days": 1
+  },
+  {
+   "id": "b063",
+   "name": "Vaison-la-Romaine",
+   "center_place": "Vaison-la-Romaine",
+   "station": null,
+   "lon": 5.0757,
+   "lat": 44.2408,
+   "arrive": "2028-04-05",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Roman Theatre of Orange",
+     "how": "bike",
+     "km": 24.2,
+     "lon": 4.8092415,
+     "lat": 44.1357744,
+     "date": "2028-04-05"
+    },
+    {
+     "title": "Vaison-la-Romaine",
+     "how": "base",
+     "km": 0,
+     "lon": 5.075737,
+     "lat": 44.2407641,
+     "date": "2028-04-06"
+    },
+    {
+     "title": "Dentelles de Montmirail",
+     "how": "bike",
+     "km": 10.4,
+     "lon": 5.023763,
+     "lat": 44.1554146,
+     "date": "2028-04-06"
+    },
+    {
+     "title": "Mont Ventoux",
+     "how": "bike",
+     "km": 17.8,
+     "lon": 5.27888889,
+     "lat": 44.17444444,
+     "date": "2028-04-07"
+    },
+    {
+     "title": "Château de Grignan",
+     "how": "bike",
+     "km": 23.8,
+     "lon": 4.9089196,
+     "lat": 44.4187586,
+     "date": "2028-04-07"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-08",
+   "nights": 3,
+   "drive_in_km": 76,
+   "drive_days": 1
+  },
+  {
+   "id": "b064",
+   "name": "Grenoble",
+   "center_place": "Bastille (Grenoble)",
+   "station": "Grenoble",
+   "lon": 5.7253,
+   "lat": 45.199,
+   "arrive": "2028-04-08",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Bastille (Grenoble)",
+     "how": "base",
+     "km": 0,
+     "lon": 5.7252736,
+     "lat": 45.1989532,
+     "date": "2028-04-08"
+    },
+    {
+     "title": "Grande Chartreuse",
+     "how": "bike",
+     "km": 19.0,
+     "lon": 5.7933027,
+     "lat": 45.3633932,
+     "date": "2028-04-09"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Vercors Massif",
+     "how": "on the way",
+     "km": 0,
+     "lon": 5.41666667,
+     "lat": 44.96666667,
+     "date": "2028-04-08"
+    }
+   ],
+   "leave": "2028-04-09",
+   "nights": 1,
+   "drive_in_km": 200,
+   "drive_days": 2
+  },
+  {
+   "id": "b065",
+   "name": "Lyon",
+   "center_place": "Vieux Lyon",
+   "station": "Vieux Lyon - Cathédrale Saint-Jean",
+   "lon": 4.8267,
+   "lat": 45.7622,
+   "arrive": "2028-04-09",
+   "chapter": 10,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Vieux Lyon",
+     "how": "base",
+     "km": 0,
+     "lon": 4.82666667,
+     "lat": 45.76222222,
+     "date": "2028-04-09"
+    },
+    {
+     "title": "Pérouges",
+     "how": "train",
+     "km": 31.3,
+     "lon": 5.172731,
+     "lat": 45.907347,
+     "date": "2028-04-10"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-10",
+   "nights": 1,
+   "drive_in_km": 108,
+   "drive_days": 1
+  },
+  {
+   "id": "b066",
+   "name": "Chamonix-Mont-Blanc",
+   "center_place": "Mer de Glace",
+   "station": "Montenvers - Mer de Glace",
+   "lon": 6.9387,
+   "lat": 45.9137,
+   "arrive": "2028-04-11",
+   "chapter": 11,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Les Deux Glaciers",
+     "src": "https://en.chamonix.com/hebergements-handicap/camping-les-deux-glaciers",
+     "km": 5.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Mer de Glace",
+     "how": "base",
+     "km": 0,
+     "lon": 6.9386736,
+     "lat": 45.9136531,
+     "date": "2028-04-11"
+    },
+    {
+     "title": "Aiguille du Midi",
+     "how": "bike",
+     "km": 5.6,
+     "lon": 6.88722222,
+     "lat": 45.87861111,
+     "date": "2028-04-12"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Lake Annecy",
+     "how": "on the way",
+     "km": 0,
+     "lon": 6.16666667,
+     "lat": 45.85,
+     "date": "2028-04-10"
+    },
+    {
+     "title": "Palais de l'Isle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 6.1270556,
+     "lat": 45.8985664,
+     "date": "2028-04-11"
+    }
+   ],
+   "leave": "2028-04-12",
+   "nights": 1,
+   "drive_in_km": 259,
+   "drive_days": 3
+  },
+  {
+   "id": "b067",
+   "name": "Yvoire",
+   "center_place": "Yvoire",
+   "station": null,
+   "lon": 6.3255,
+   "lat": 46.3693,
+   "arrive": "2028-04-12",
+   "chapter": 11,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Yvoire",
+     "how": "base",
+     "km": 0,
+     "lon": 6.3254513,
+     "lat": 46.3693298,
+     "date": "2028-04-12"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-13",
+   "nights": 1,
+   "drive_in_km": 99,
+   "drive_days": 1
+  },
+  {
+   "id": "b068",
+   "name": "Gruyères",
+   "center_place": "Gruyères",
+   "station": "Gruyères",
+   "lon": 7.0833,
+   "lat": 46.5833,
+   "arrive": "2028-04-13",
+   "chapter": 11,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Lavaux",
+     "how": "train",
+     "km": 27.7,
+     "lon": 6.74611111,
+     "lat": 46.49194444,
+     "date": "2028-04-13"
+    },
+    {
+     "title": "Chillon Castle",
+     "how": "bike",
+     "km": 22.3,
+     "lon": 6.9275,
+     "lat": 46.41416667,
+     "date": "2028-04-13"
+    },
+    {
+     "title": "Gruyères",
+     "how": "base",
+     "km": 0,
+     "lon": 7.08333333,
+     "lat": 46.58333333,
+     "date": "2028-04-14"
+    },
+    {
+     "title": "Old City (Bern)",
+     "how": "train",
+     "km": 49.3,
+     "lon": 7.45027778,
+     "lat": 46.94805556,
+     "date": "2028-04-14"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-15",
+   "nights": 2,
+   "drive_in_km": 105,
+   "drive_days": 1
+  },
+  {
+   "id": "b069",
+   "name": "Lauterbrunnen",
+   "center_place": "Lauterbrunnen",
+   "station": "Wengen",
+   "lon": 7.9074,
+   "lat": 46.595,
+   "arrive": "2028-04-15",
+   "chapter": 11,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Jungfrau",
+     "src": "https://www.campercontact.com/en/md/63552",
+     "km": 11.5
+    }
+   ],
+   "places": [
+    {
+     "title": "Oeschinen Lake",
+     "how": "bike",
+     "km": 17.5,
+     "lon": 7.7268429,
+     "lat": 46.4984951,
+     "date": "2028-04-15"
+    },
+    {
+     "title": "Lauterbrunnen",
+     "how": "base",
+     "km": 0,
+     "lon": 7.90745,
+     "lat": 46.595,
+     "date": "2028-04-15"
+    },
+    {
+     "title": "Chapel Bridge",
+     "how": "train",
+     "km": 59.2,
+     "lon": 8.307713,
+     "lat": 47.0518334,
+     "date": "2028-04-16"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-04-16",
+   "nights": 1,
+   "drive_in_km": 92,
+   "drive_days": 1
+  },
+  {
+   "id": "b070",
+   "name": "Colmar",
+   "center_place": "Colmar",
+   "station": "Colmar",
+   "lon": 7.3556,
+   "lat": 48.0817,
+   "arrive": "2028-04-17",
+   "chapter": 11,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping de l'Ill",
+     "src": "https://www.tourisme-colmar.com/en/visit/tips-and-suggestions/children-families/parks-with-playground/F235000715_camping-de-lill-colmar-horbourg-wihr",
+     "km": 2.4
+    },
+    {
+     "name": "Aire camping-car Eguisheim",
+     "src": "https://www.campercontact.com/fr/md/73894",
+     "km": 5.6
+    }
+   ],
+   "places": [
+    {
+     "title": "Colmar",
+     "how": "base",
+     "km": 0,
+     "lon": 7.3556,
+     "lat": 48.0817,
+     "date": "2028-04-17"
+    },
+    {
+     "title": "Eguisheim",
+     "how": "bike",
+     "km": 5.6,
+     "lon": 7.3067,
+     "lat": 48.0436,
+     "date": "2028-04-17"
+    },
+    {
+     "title": "Kaysersberg",
+     "how": "bike",
+     "km": 9.6,
+     "lon": 7.26,
+     "lat": 48.14,
+     "date": "2028-04-18"
+    },
+    {
+     "title": "Haut-Kœnigsbourg Castle",
+     "how": "bike",
+     "km": 18.7,
+     "lon": 7.3439412,
+     "lat": 48.249382,
+     "date": "2028-04-18"
+    },
+    {
+     "title": "Alsace",
+     "how": "walk",
+     "km": 0.4,
+     "lon": 7.36,
+     "lat": 48.08,
+     "date": "2028-04-19"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Basel Minster",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.59222222,
+     "lat": 47.55666667,
+     "date": "2028-04-16"
+    }
+   ],
+   "leave": "2028-04-20",
+   "nights": 3,
+   "drive_in_km": 226,
+   "drive_days": 2
+  },
+  {
+   "id": "b071",
+   "name": "Mettlach",
+   "center_place": "Saarschleife",
+   "station": null,
+   "lon": 6.5455,
+   "lat": 49.5014,
+   "arrive": "2028-04-20",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Saarschleife",
+     "how": "base",
+     "km": 0,
+     "lon": 6.5454511,
+     "lat": 49.5013947,
+     "date": "2028-04-20"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Strasbourg Cathedral",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.75083333,
+     "lat": 48.58166667,
+     "date": "2028-04-20"
+    }
+   ],
+   "leave": "2028-04-21",
+   "nights": 1,
+   "drive_in_km": 259,
+   "drive_days": 3
+  },
+  {
+   "id": "b072",
+   "name": "Bornich",
+   "center_place": "Loreley",
+   "station": "St. Goar",
+   "lon": 7.7289,
+   "lat": 50.1394,
+   "arrive": "2028-04-22",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Reichsburg Cochem",
+     "how": "train",
+     "km": 40.0,
+     "lon": 7.167087,
+     "lat": 50.1422279,
+     "date": "2028-04-22"
+    },
+    {
+     "title": "Burg Eltz",
+     "how": "train",
+     "km": 28.9,
+     "lon": 7.3365971,
+     "lat": 50.2050554,
+     "date": "2028-04-22"
+    },
+    {
+     "title": "Marksburg",
+     "how": "bike",
+     "km": 15.8,
+     "lon": 7.6491644,
+     "lat": 50.2719467,
+     "date": "2028-04-23"
+    },
+    {
+     "title": "Loreley",
+     "how": "base",
+     "km": 0,
+     "lon": 7.72888889,
+     "lat": 50.13944444,
+     "date": "2028-04-23"
+    },
+    {
+     "title": "Bacharach",
+     "how": "bike",
+     "km": 9.3,
+     "lon": 7.7683997,
+     "lat": 50.0597943,
+     "date": "2028-04-24"
+    },
+    {
+     "title": "Rüdesheim am Rhein",
+     "how": "bike",
+     "km": 22.6,
+     "lon": 7.93055556,
+     "lat": 49.98333333,
+     "date": "2028-04-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Porta Nigra",
+     "how": "on the way",
+     "km": 0,
+     "lon": 6.64388889,
+     "lat": 49.75972222,
+     "date": "2028-04-21"
+    },
+    {
+     "title": "Bernkastel-Kues",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.0708181,
+     "lat": 49.9157398,
+     "date": "2028-04-21"
+    }
+   ],
+   "leave": "2028-04-25",
+   "nights": 3,
+   "drive_in_km": 168,
+   "drive_days": 2
+  },
+  {
+   "id": "b073",
+   "name": "Rothenburg ob der Tauber",
+   "center_place": "Rothenburg ob der Tauber",
+   "station": "Rothenburg ob der Tauber",
+   "lon": 10.1833,
+   "lat": 49.3833,
+   "arrive": "2028-04-26",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Dinkelsbühl",
+     "how": "train",
+     "km": 36.3,
+     "lon": 10.3194022,
+     "lat": 49.0691672,
+     "date": "2028-04-26"
+    },
+    {
+     "title": "Rothenburg ob der Tauber",
+     "how": "base",
+     "km": 0,
+     "lon": 10.18333333,
+     "lat": 49.38333333,
+     "date": "2028-04-26"
+    },
+    {
+     "title": "Würzburg Residence",
+     "how": "train",
+     "km": 48.8,
+     "lon": 9.93861111,
+     "lat": 49.79277778,
+     "date": "2028-04-27"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Speyer Cathedral",
+     "how": "on the way",
+     "km": 0,
+     "lon": 8.442403,
+     "lat": 49.3171893,
+     "date": "2028-04-25"
+    },
+    {
+     "title": "Heidelberg Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 8.7151965,
+     "lat": 49.4104729,
+     "date": "2028-04-25"
+    }
+   ],
+   "leave": "2028-04-28",
+   "nights": 2,
+   "drive_in_km": 333,
+   "drive_days": 3
+  },
+  {
+   "id": "b074",
+   "name": "Erfurt",
+   "center_place": "Erfurt Cathedral",
+   "station": "Erfurt Hauptbahnhof",
+   "lon": 11.0229,
+   "lat": 50.9757,
+   "arrive": "2028-04-29",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Wartburg",
+     "how": "train",
+     "km": 50.2,
+     "lon": 10.30638889,
+     "lat": 50.96611111,
+     "date": "2028-04-29"
+    },
+    {
+     "title": "Erfurt Cathedral",
+     "how": "base",
+     "km": 0,
+     "lon": 11.0229055,
+     "lat": 50.975711,
+     "date": "2028-04-30"
+    },
+    {
+     "title": "Weimar",
+     "how": "bike",
+     "km": 21.5,
+     "lon": 11.32944444,
+     "lat": 50.98111111,
+     "date": "2028-05-01"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Bamberg",
+     "how": "on the way",
+     "km": 0,
+     "lon": 10.88694444,
+     "lat": 49.89138889,
+     "date": "2028-04-28"
+    },
+    {
+     "title": "Veste Coburg",
+     "how": "on the way",
+     "km": 0,
+     "lon": 10.9810592,
+     "lat": 50.2637944,
+     "date": "2028-04-28"
+    }
+   ],
+   "leave": "2028-05-01",
+   "nights": 2,
+   "drive_in_km": 304,
+   "drive_days": 3
+  },
+  {
+   "id": "b075",
+   "name": "Lohmen",
+   "center_place": "Bastei",
+   "station": "Kurort Rathen",
+   "lon": 14.0714,
+   "lat": 50.9622,
+   "arrive": "2028-05-02",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Camping Königstein, Königstein",
+     "src": null,
+     "km": 4.5
+    },
+    {
+     "name": "Campingplatz Dresden-Mockritz",
+     "src": null,
+     "km": 23.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Königstein Fortress",
+     "how": "bike",
+     "km": 4.9,
+     "lon": 14.05666667,
+     "lat": 50.91888889,
+     "date": "2028-05-02"
+    },
+    {
+     "title": "Bastei",
+     "how": "base",
+     "km": 0,
+     "lon": 14.07138889,
+     "lat": 50.96222222,
+     "date": "2028-05-03"
+    },
+    {
+     "title": "Zwinger",
+     "how": "train",
+     "km": 25.6,
+     "lon": 13.7349775,
+     "lat": 51.0530296,
+     "date": "2028-05-04"
+    },
+    {
+     "title": "Frauenkirche, Dresden",
+     "how": "train",
+     "km": 25.1,
+     "lon": 13.74166667,
+     "lat": 51.05194444,
+     "date": "2028-05-05"
+    },
+    {
+     "title": "Moritzburg Castle (Saxony)",
+     "how": "train",
+     "km": 35.7,
+     "lon": 13.679487,
+     "lat": 51.1675579,
+     "date": "2028-05-06"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "St. Thomas Church, Leipzig",
+     "how": "on the way",
+     "km": 0,
+     "lon": 12.3725965,
+     "lat": 51.3393315,
+     "date": "2028-05-01"
+    }
+   ],
+   "leave": "2028-05-07",
+   "nights": 5,
+   "drive_in_km": 295,
+   "drive_days": 3
+  },
+  {
+   "id": "b076",
+   "name": "Görlitz",
+   "center_place": "Görlitz",
+   "station": "Görlitz",
+   "lon": 14.991,
+   "lat": 51.1563,
+   "arrive": "2028-05-07",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Görlitz",
+     "how": "base",
+     "km": 0,
+     "lon": 14.991018,
+     "lat": 51.1563185,
+     "date": "2028-05-07"
+    },
+    {
+     "title": "Muskau Park",
+     "how": "train",
+     "km": 47.5,
+     "lon": 14.72666667,
+     "lat": 51.55027778,
+     "date": "2028-05-08"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-09",
+   "nights": 2,
+   "drive_in_km": 106,
+   "drive_days": 1
+  },
+  {
+   "id": "b077",
+   "name": "Potsdam",
+   "center_place": "Sanssouci",
+   "station": "Potsdam Park Sanssouci",
+   "lon": 13.0386,
+   "lat": 52.4033,
+   "arrive": "2028-05-09",
+   "chapter": 12,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "DCC Campingplatz Gatow",
+     "src": null,
+     "km": 18.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Sanssouci",
+     "how": "base",
+     "km": 0,
+     "lon": 13.03863,
+     "lat": 52.40326,
+     "date": "2028-05-09"
+    },
+    {
+     "title": "Berlin",
+     "how": "train",
+     "km": 27.7,
+     "lon": 13.4,
+     "lat": 52.52,
+     "date": "2028-05-10"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-16",
+   "nights": 7,
+   "drive_in_km": 230,
+   "drive_days": 3
+  },
+  {
+   "id": "b078",
+   "name": "Neringa",
+   "center_place": "Curonian Spit",
+   "station": null,
+   "lon": 21.005,
+   "lat": 55.304,
+   "arrive": "2028-05-16",
+   "chapter": 13,
+   "ferry_in": "Kiel → Klaipėda",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Curonian Spit",
+     "how": "base",
+     "km": 0,
+     "lon": 21.005,
+     "lat": 55.304,
+     "date": "2028-05-16"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-17",
+   "nights": 1,
+   "drive_in_km": 399,
+   "drive_days": 4
+  },
+  {
+   "id": "b079",
+   "name": "Kaunas",
+   "center_place": "Kaunas Castle",
+   "station": "Kaunas",
+   "lon": 23.885,
+   "lat": 54.8989,
+   "arrive": "2028-05-17",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Kaunas Castle",
+     "how": "base",
+     "km": 0,
+     "lon": 23.885,
+     "lat": 54.89888889,
+     "date": "2028-05-17"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-18",
+   "nights": 1,
+   "drive_in_km": 261,
+   "drive_days": 3
+  },
+  {
+   "id": "b080",
+   "name": "Druskininkai",
+   "center_place": "Druskininkai",
+   "station": null,
+   "lon": 23.9667,
+   "lat": 54.0167,
+   "arrive": "2028-05-18",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Druskininkai",
+     "how": "base",
+     "km": 0,
+     "lon": 23.96666667,
+     "lat": 54.01666667,
+     "date": "2028-05-18"
+    },
+    {
+     "title": "Grūtas Park",
+     "how": "bike",
+     "km": 7.4,
+     "lon": 24.079,
+     "lat": 54.022,
+     "date": "2028-05-19"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-20",
+   "nights": 2,
+   "drive_in_km": 122,
+   "drive_days": 2
+  },
+  {
+   "id": "b081",
+   "name": "Trakai",
+   "center_place": "Trakai Island Castle",
+   "station": "Trakai",
+   "lon": 24.9331,
+   "lat": 54.6525,
+   "arrive": "2028-05-20",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Kempingas Slėnyje , Trakai",
+     "src": null,
+     "km": 14.9
+    },
+    {
+     "name": "Vilnius City Camping, Vilnius",
+     "src": null,
+     "km": 19.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Trakai Island Castle",
+     "how": "base",
+     "km": 0,
+     "lon": 24.93305556,
+     "lat": 54.6525,
+     "date": "2028-05-20"
+    },
+    {
+     "title": "Vilnius Old Town",
+     "how": "bike",
+     "km": 23.5,
+     "lon": 25.29305556,
+     "lat": 54.68666667,
+     "date": "2028-05-21"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-05-23",
+   "nights": 3,
+   "drive_in_km": 108,
+   "drive_days": 1
+  },
+  {
+   "id": "b082",
+   "name": "Pilsrundāle",
+   "center_place": "Rundāle Palace",
+   "station": null,
+   "lon": 24.0248,
+   "lat": 56.4138,
+   "arrive": "2028-05-25",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Rundāle Palace",
+     "how": "base",
+     "km": 0,
+     "lon": 24.0248,
+     "lat": 56.4138,
+     "date": "2028-05-25"
+    },
+    {
+     "title": "Bauska Castle",
+     "how": "bike",
+     "km": 9.2,
+     "lon": 24.17361111,
+     "lat": 56.40361111,
+     "date": "2028-05-26"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Kernavė",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.85,
+     "lat": 54.88333333,
+     "date": "2028-05-23"
+    },
+    {
+     "title": "Hill of Crosses",
+     "how": "on the way",
+     "km": 0,
+     "lon": 23.41666667,
+     "lat": 56.01527778,
+     "date": "2028-05-24"
+    }
+   ],
+   "leave": "2028-05-27",
+   "nights": 2,
+   "drive_in_km": 304,
+   "drive_days": 3
+  },
+  {
+   "id": "b083",
+   "name": "Cape Kolka",
+   "center_place": "Cape Kolka",
+   "station": null,
+   "lon": 22.6047,
+   "lat": 57.7589,
+   "arrive": "2028-05-29",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Cape Kolka",
+     "how": "base",
+     "km": 0,
+     "lon": 22.60475,
+     "lat": 57.75894444,
+     "date": "2028-05-29"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Ķemeri National Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": 23.5125,
+     "lat": 56.95166667,
+     "date": "2028-05-27"
+    }
+   ],
+   "leave": "2028-05-30",
+   "nights": 1,
+   "drive_in_km": 202,
+   "drive_days": 2
+  },
+  {
+   "id": "b084",
+   "name": "Cēsis",
+   "center_place": "Cēsis Castle",
+   "station": "Cēsis",
+   "lon": 25.27,
+   "lat": 57.3133,
+   "arrive": "2028-05-31",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Gauja National Park",
+     "how": "bike",
+     "km": 14.5,
+     "lon": 25.41666667,
+     "lat": 57.41666667,
+     "date": "2028-05-31"
+    },
+    {
+     "title": "Cēsis Castle",
+     "how": "base",
+     "km": 0,
+     "lon": 25.27,
+     "lat": 57.31333333,
+     "date": "2028-06-01"
+    },
+    {
+     "title": "Āraiši Lake Fortress",
+     "how": "bike",
+     "km": 6.9,
+     "lon": 25.2826875,
+     "lat": 57.2518976,
+     "date": "2028-06-02"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Turaida Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.85027778,
+     "lat": 57.18222222,
+     "date": "2028-05-30"
+    }
+   ],
+   "leave": "2028-06-04",
+   "nights": 4,
+   "drive_in_km": 259,
+   "drive_days": 3
+  },
+  {
+   "id": "b085",
+   "name": "Pärnu",
+   "center_place": "Pärnu",
+   "station": null,
+   "lon": 24.497,
+   "lat": 58.386,
+   "arrive": "2028-06-04",
+   "chapter": 13,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Pärnu",
+     "how": "base",
+     "km": 0,
+     "lon": 24.497,
+     "lat": 58.386,
+     "date": "2028-06-04"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-07-12",
+   "nights": 38,
+   "drive_in_km": 156,
+   "drive_days": 2
+  },
+  {
+   "id": "b086",
+   "name": "Helsinki",
+   "center_place": "Helsinki Cathedral",
+   "station": "Helsinki",
+   "lon": 24.9522,
+   "lat": 60.1703,
+   "arrive": "2028-07-12",
+   "chapter": 15,
+   "ferry_in": "Tallinn → Helsinki",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Helsinki Cathedral",
+     "how": "base",
+     "km": 0,
+     "lon": 24.95222222,
+     "lat": 60.17027778,
+     "date": "2028-07-12"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-07-12",
+   "nights": 0,
+   "drive_in_km": 135,
+   "drive_days": 2
+  },
+  {
+   "id": "b087",
+   "name": "Rovaniemi",
+   "center_place": "Rovaniemi",
+   "station": "Rovaniemi",
+   "lon": 25.73,
+   "lat": 66.5,
+   "arrive": "2028-07-15",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "SF-Caravan Ounaskoski Camping",
+     "src": null,
+     "km": 0.3
+    }
+   ],
+   "places": [
+    {
+     "title": "Rovaniemi",
+     "how": "base",
+     "km": 0,
+     "lon": 25.73,
+     "lat": 66.5,
+     "date": "2028-07-15"
+    },
+    {
+     "title": "Santa Claus Village",
+     "how": "bike",
+     "km": 7.0,
+     "lon": 25.8458339,
+     "lat": 66.5432629,
+     "date": "2028-07-16"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Häme Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.45805556,
+     "lat": 61.00388889,
+     "date": "2028-07-12"
+    },
+    {
+     "title": "Petäjävesi Old Church",
+     "how": "on the way",
+     "km": 0,
+     "lon": 25.1839335,
+     "lat": 62.250139,
+     "date": "2028-07-13"
+    },
+    {
+     "title": "Oulu",
+     "how": "on the way",
+     "km": 0,
+     "lon": 25.4648682,
+     "lat": 65.013869,
+     "date": "2028-07-14"
+    }
+   ],
+   "leave": "2028-07-17",
+   "nights": 2,
+   "drive_in_km": 896,
+   "drive_days": 8
+  },
+  {
+   "id": "b088",
+   "name": "Lyngen",
+   "center_place": "Lyngen Alps",
+   "station": null,
+   "lon": 20.1695,
+   "lat": 69.7903,
+   "arrive": "2028-07-19",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Lyngen Alps",
+     "how": "base",
+     "km": 0,
+     "lon": 20.1695,
+     "lat": 69.7903,
+     "date": "2028-07-19"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Pallas-Yllästunturi National Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.06,
+     "lat": 68.06,
+     "date": "2028-07-17"
+    },
+    {
+     "title": "Saana",
+     "how": "on the way",
+     "km": 0,
+     "lon": 20.85,
+     "lat": 69.04,
+     "date": "2028-07-18"
+    }
+   ],
+   "leave": "2028-07-21",
+   "nights": 2,
+   "drive_in_km": 609,
+   "drive_days": 6
+  },
+  {
+   "id": "b089",
+   "name": "Tromsø",
+   "center_place": "Arctic Cathedral",
+   "station": null,
+   "lon": 18.9871,
+   "lat": 69.6482,
+   "arrive": "2028-07-21",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Tromsø Lodge & Camping",
+     "src": null,
+     "km": 1.1
+    }
+   ],
+   "places": [
+    {
+     "title": "Tromsø",
+     "how": "walk",
+     "km": 1.4,
+     "lon": 18.95,
+     "lat": 69.65,
+     "date": "2028-07-21"
+    },
+    {
+     "title": "Fjellheisen",
+     "how": "walk",
+     "km": 1.1,
+     "lon": 18.990838,
+     "lat": 69.6385231,
+     "date": "2028-07-22"
+    },
+    {
+     "title": "Arctic Cathedral",
+     "how": "base",
+     "km": 0,
+     "lon": 18.9871,
+     "lat": 69.6482,
+     "date": "2028-07-22"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-07-23",
+   "nights": 2,
+   "drive_in_km": 74,
+   "drive_days": 1
+  },
+  {
+   "id": "b090",
+   "name": "Senja",
+   "center_place": "Senja",
+   "station": null,
+   "lon": 16.8031,
+   "lat": 69.0806,
+   "arrive": "2028-07-24",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Senja",
+     "how": "base",
+     "km": 0,
+     "lon": 16.8031,
+     "lat": 69.0806,
+     "date": "2028-07-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Segla",
+     "how": "on the way",
+     "km": 0,
+     "lon": 17.5957204,
+     "lat": 69.5073661,
+     "date": "2028-07-23"
+    }
+   ],
+   "leave": "2028-07-25",
+   "nights": 1,
+   "drive_in_km": 325,
+   "drive_days": 3
+  },
+  {
+   "id": "b091",
+   "name": "Andøy",
+   "center_place": "Bleik",
+   "station": null,
+   "lon": 15.9585,
+   "lat": 69.2719,
+   "arrive": "2028-07-25",
+   "chapter": 15,
+   "ferry_in": "Gryllefjord → Andenes",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Bleik",
+     "how": "base",
+     "km": 0,
+     "lon": 15.958459,
+     "lat": 69.2718776,
+     "date": "2028-07-25"
+    },
+    {
+     "title": "Andenes",
+     "how": "bike",
+     "km": 7.9,
+     "lon": 16.1194,
+     "lat": 69.3144,
+     "date": "2028-07-26"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-07-27",
+   "nights": 2,
+   "drive_in_km": 106,
+   "drive_days": 1
+  },
+  {
+   "id": "b092",
+   "name": "Vågan",
+   "center_place": "Henningsvær",
+   "station": null,
+   "lon": 14.2008,
+   "lat": 68.1529,
+   "arrive": "2028-07-27",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Svolvær",
+     "how": "bike",
+     "km": 17.4,
+     "lon": 14.5646019,
+     "lat": 68.2321709,
+     "date": "2028-07-27"
+    },
+    {
+     "title": "Vågan Church",
+     "how": "bike",
+     "km": 13.6,
+     "lon": 14.4837328,
+     "lat": 68.2156494,
+     "date": "2028-07-27"
+    },
+    {
+     "title": "Henningsvær",
+     "how": "base",
+     "km": 0,
+     "lon": 14.2008,
+     "lat": 68.1529,
+     "date": "2028-07-28"
+    },
+    {
+     "title": "Lofotr Viking Museum",
+     "how": "bike",
+     "km": 20.9,
+     "lon": 13.7531,
+     "lat": 68.24,
+     "date": "2028-07-29"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-07-30",
+   "nights": 3,
+   "drive_in_km": 233,
+   "drive_days": 3
+  },
+  {
+   "id": "b093",
+   "name": "Flakstad",
+   "center_place": "Nusfjord",
+   "station": null,
+   "lon": 13.3478,
+   "lat": 68.0353,
+   "arrive": "2028-07-30",
+   "chapter": 15,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Moskenes Camping, Moskenes",
+     "src": null,
+     "km": 19.4
+    }
+   ],
+   "places": [
+    {
+     "title": "Haukland Beach",
+     "how": "bike",
+     "km": 19.6,
+     "lon": 13.529191,
+     "lat": 68.1979894,
+     "date": "2028-07-30"
+    },
+    {
+     "title": "Nusfjord",
+     "how": "base",
+     "km": 0,
+     "lon": 13.3478,
+     "lat": 68.0353,
+     "date": "2028-07-31"
+    },
+    {
+     "title": "Hamnøy",
+     "how": "bike",
+     "km": 13.7,
+     "lon": 13.1194,
+     "lat": 67.9469,
+     "date": "2028-08-01"
+    },
+    {
+     "title": "Lofoten",
+     "how": "bike",
+     "km": 15.9,
+     "lon": 13.09,
+     "lat": 67.93,
+     "date": "2028-08-02"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-08-03",
+   "nights": 4,
+   "drive_in_km": 84,
+   "drive_days": 1
+  },
+  {
+   "id": "b094",
+   "name": "Bodø",
+   "center_place": "Kjerringøy",
+   "station": null,
+   "lon": 14.7643,
+   "lat": 67.5195,
+   "arrive": "2028-08-03",
+   "chapter": 16,
+   "ferry_in": "Moskenes → Bodø",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Kjerringøy",
+     "how": "base",
+     "km": 0,
+     "lon": 14.7643,
+     "lat": 67.5195,
+     "date": "2028-08-03"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-08-04",
+   "nights": 1,
+   "drive_in_km": 87,
+   "drive_days": 1
+  },
+  {
+   "id": "b095",
+   "name": "Verdalsøra",
+   "center_place": "Stiklestad",
+   "station": null,
+   "lon": 11.5602,
+   "lat": 63.7955,
+   "arrive": "2028-08-14",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Stiklestad",
+     "how": "base",
+     "km": 0,
+     "lon": 11.5602202,
+     "lat": 63.7954578,
+     "date": "2028-08-14"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Saltstraumen",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14.61635,
+     "lat": 67.22805,
+     "date": "2028-08-04"
+    },
+    {
+     "title": "Saltfjellet–Svartisen National Park",
+     "how": "on the way",
+     "km": 0,
+     "lon": 14.18333333,
+     "lat": 66.6,
+     "date": "2028-08-06"
+    },
+    {
+     "title": "Seven Sisters (mountains)",
+     "how": "on the way",
+     "km": 0,
+     "lon": 12.655,
+     "lat": 65.97,
+     "date": "2028-08-08"
+    },
+    {
+     "title": "Petter Dass Museum",
+     "how": "on the way",
+     "km": 0,
+     "lon": 12.3968211,
+     "lat": 65.8942505,
+     "date": "2028-08-10"
+    },
+    {
+     "title": "Torghatten",
+     "how": "on the way",
+     "km": 0,
+     "lon": 12.08972222,
+     "lat": 65.39833333,
+     "date": "2028-08-12"
+    }
+   ],
+   "leave": "2028-08-16",
+   "nights": 2,
+   "drive_in_km": 1059,
+   "drive_days": 10
+  },
+  {
+   "id": "b096",
+   "name": "Ålesund",
+   "center_place": "Ålesund",
+   "station": null,
+   "lon": 6.1549,
+   "lat": 62.4723,
+   "arrive": "2028-08-21",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Ålesund",
+     "how": "base",
+     "km": 0,
+     "lon": 6.1549,
+     "lat": 62.47226,
+     "date": "2028-08-21"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Nidaros Cathedral",
+     "how": "on the way",
+     "km": 0,
+     "lon": 10.3962,
+     "lat": 63.4267,
+     "date": "2028-08-16"
+    },
+    {
+     "title": "Munkholmen",
+     "how": "on the way",
+     "km": 0,
+     "lon": 10.3837812,
+     "lat": 63.4523067,
+     "date": "2028-08-17"
+    },
+    {
+     "title": "Atlantic Ocean Road",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.3545,
+     "lat": 63.0167,
+     "date": "2028-08-19"
+    }
+   ],
+   "leave": "2028-08-23",
+   "nights": 2,
+   "drive_in_km": 520,
+   "drive_days": 5
+  },
+  {
+   "id": "b097",
+   "name": "Rauma",
+   "center_place": "Trollveggen",
+   "station": null,
+   "lon": 7.7288,
+   "lat": 62.4824,
+   "arrive": "2028-08-23",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Rampestreken",
+     "how": "bike",
+     "km": 8.8,
+     "lon": 7.7125988,
+     "lat": 62.5607687,
+     "date": "2028-08-23"
+    },
+    {
+     "title": "Trollveggen",
+     "how": "base",
+     "km": 0,
+     "lon": 7.7288,
+     "lat": 62.4824,
+     "date": "2028-08-25"
+    },
+    {
+     "title": "Trollstigen",
+     "how": "bike",
+     "km": 3.6,
+     "lon": 7.66666667,
+     "lat": 62.46666667,
+     "date": "2028-08-27"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-08-29",
+   "nights": 6,
+   "drive_in_km": 118,
+   "drive_days": 2
+  },
+  {
+   "id": "b098",
+   "name": "Stranda",
+   "center_place": "Geiranger",
+   "station": null,
+   "lon": 7.2,
+   "lat": 62.1,
+   "arrive": "2028-08-29",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Geiranger Camping, Geiranger",
+     "src": null,
+     "km": 0.2
+    },
+    {
+     "name": "Geirangerfjorden Feriesenter, Geiranger",
+     "src": null,
+     "km": 1.9
+    }
+   ],
+   "places": [
+    {
+     "title": "Geiranger",
+     "how": "base",
+     "km": 0,
+     "lon": 7.2,
+     "lat": 62.1,
+     "date": "2028-08-29"
+    },
+    {
+     "title": "Dalsnibba",
+     "how": "bike",
+     "km": 6.9,
+     "lon": 7.271308,
+     "lat": 62.0478519,
+     "date": "2028-08-30"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-08-31",
+   "nights": 2,
+   "drive_in_km": 90,
+   "drive_days": 1
+  },
+  {
+   "id": "b099",
+   "name": "Lærdal",
+   "center_place": "Borgund Stave Church",
+   "station": null,
+   "lon": 7.8122,
+   "lat": 61.0472,
+   "arrive": "2028-09-05",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Borgund Stave Church",
+     "how": "base",
+     "km": 0,
+     "lon": 7.8122,
+     "lat": 61.0472,
+     "date": "2028-09-05"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Loen Skylift",
+     "how": "on the way",
+     "km": 0,
+     "lon": 6.8366239,
+     "lat": 61.8801507,
+     "date": "2028-08-31"
+    },
+    {
+     "title": "Briksdalsbreen",
+     "how": "on the way",
+     "km": 0,
+     "lon": 6.89,
+     "lat": 61.66583333,
+     "date": "2028-09-02"
+    },
+    {
+     "title": "Urnes Stave Church",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.32259181,
+     "lat": 61.29811144,
+     "date": "2028-09-04"
+    }
+   ],
+   "leave": "2028-09-07",
+   "nights": 2,
+   "drive_in_km": 362,
+   "drive_days": 4
+  },
+  {
+   "id": "b100",
+   "name": "Aurland",
+   "center_place": "Flåm Line",
+   "station": null,
+   "lon": 7.1132,
+   "lat": 60.863,
+   "arrive": "2028-09-07",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Stegastein",
+     "how": "bike",
+     "km": 7.4,
+     "lon": 7.2117732,
+     "lat": 60.9086345,
+     "date": "2028-09-07"
+    },
+    {
+     "title": "Flåm Line",
+     "how": "base",
+     "km": 0,
+     "lon": 7.1131783,
+     "lat": 60.8629525,
+     "date": "2028-09-09"
+    },
+    {
+     "title": "Nærøyfjord",
+     "how": "bike",
+     "km": 13.3,
+     "lon": 6.93138889,
+     "lat": 60.94361111,
+     "date": "2028-09-10"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-09-12",
+   "nights": 5,
+   "drive_in_km": 56,
+   "drive_days": 1
+  },
+  {
+   "id": "b101",
+   "name": "Bergen",
+   "center_place": "Bryggen",
+   "station": null,
+   "lon": 5.3231,
+   "lat": 60.3972,
+   "arrive": "2028-09-12",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Lone Camping, Haukeland",
+     "src": null,
+     "km": 7.9
+    },
+    {
+     "name": "Lyngvær Lofoten Bobilcamping, Kleppstad",
+     "src": null,
+     "km": 17.3
+    }
+   ],
+   "places": [
+    {
+     "title": "Bryggen",
+     "how": "base",
+     "km": 0,
+     "lon": 5.32305556,
+     "lat": 60.39722222,
+     "date": "2028-09-12"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-09-14",
+   "nights": 2,
+   "drive_in_km": 164,
+   "drive_days": 2
+  },
+  {
+   "id": "b102",
+   "name": "Notodden",
+   "center_place": "Heddal Stave Church",
+   "station": null,
+   "lon": 9.1762,
+   "lat": 59.5796,
+   "arrive": "2028-09-17",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Heddal Stave Church",
+     "how": "base",
+     "km": 0,
+     "lon": 9.1762321,
+     "lat": 59.579568,
+     "date": "2028-09-17"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Vøringsfossen",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.25113889,
+     "lat": 60.42688889,
+     "date": "2028-09-14"
+    },
+    {
+     "title": "Hardangervidda",
+     "how": "on the way",
+     "km": 0,
+     "lon": 7.5311028,
+     "lat": 60.1330539,
+     "date": "2028-09-15"
+    }
+   ],
+   "leave": "2028-09-19",
+   "nights": 2,
+   "drive_in_km": 435,
+   "drive_days": 4
+  },
+  {
+   "id": "b103",
+   "name": "Tinn",
+   "center_place": "Vemork",
+   "station": null,
+   "lon": 8.4937,
+   "lat": 59.871,
+   "arrive": "2028-09-19",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Vemork",
+     "how": "base",
+     "km": 0,
+     "lon": 8.4937199,
+     "lat": 59.8710318,
+     "date": "2028-09-19"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-09-20",
+   "nights": 1,
+   "drive_in_km": 74,
+   "drive_days": 1
+  },
+  {
+   "id": "b104",
+   "name": "Stockholm",
+   "center_place": "Stockholm",
+   "station": "Hötorget",
+   "lon": 18.07,
+   "lat": 59.33,
+   "arrive": "2028-09-24",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [
+    {
+     "name": "Bredäng Camping, Stockholm",
+     "src": null,
+     "km": 9.1
+    },
+    {
+     "name": "Ängby Camping, Stockholm",
+     "src": null,
+     "km": 9.5
+    }
+   ],
+   "places": [
+    {
+     "title": "Stockholm",
+     "how": "base",
+     "km": 0,
+     "lon": 18.07,
+     "lat": 59.33,
+     "date": "2028-09-24"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Oslo Opera House",
+     "how": "on the way",
+     "km": 0,
+     "lon": 10.75361111,
+     "lat": 59.90694444,
+     "date": "2028-09-20"
+    },
+    {
+     "title": "Örebro Castle",
+     "how": "on the way",
+     "km": 0,
+     "lon": 15.21527778,
+     "lat": 59.27388889,
+     "date": "2028-09-22"
+    }
+   ],
+   "leave": "2028-09-25",
+   "nights": 1,
+   "drive_in_km": 715,
+   "drive_days": 7
+  },
+  {
+   "id": "b105",
+   "name": "Tallinn",
+   "center_place": "Kadriorg Palace",
+   "station": "Ülemiste",
+   "lon": 24.7908,
+   "lat": 59.4385,
+   "arrive": "2028-09-25",
+   "chapter": 16,
+   "ferry_in": "Stockholm → Tallinn",
+   "campsites": [],
+   "places": [
+    {
+     "title": "Kadriorg Palace",
+     "how": "base",
+     "km": 0,
+     "lon": 24.79084,
+     "lat": 59.43851,
+     "date": "2028-09-25"
+    }
+   ],
+   "on_the_way": [],
+   "leave": "2028-09-25",
+   "nights": 0,
+   "drive_in_km": 6,
+   "drive_days": 1
+  },
+  {
+   "id": "b106",
+   "name": "Pärnu",
+   "center_place": "Pärnu",
+   "station": null,
+   "lon": 24.497,
+   "lat": 58.386,
+   "arrive": "2028-09-26",
+   "chapter": 16,
+   "ferry_in": null,
+   "campsites": [],
+   "places": [
+    {
+     "title": "Pärnu",
+     "how": "base",
+     "km": 0,
+     "lon": 24.497,
+     "lat": 58.386,
+     "date": "2028-09-26"
+    }
+   ],
+   "on_the_way": [
+    {
+     "title": "Rummu",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.20972222,
+     "lat": 59.23083333,
+     "date": "2028-09-25"
+    },
+    {
+     "title": "Padise Abbey",
+     "how": "on the way",
+     "km": 0,
+     "lon": 24.14485,
+     "lat": 59.22416944,
+     "date": "2028-09-25"
+    }
+   ],
+   "leave": "2028-09-26",
+   "nights": 0,
+   "drive_in_km": 166,
+   "drive_days": 2
+  }
+ ]
+}

@@ -8,11 +8,13 @@ import "@fontsource/inter/700.css";
 import "@fontsource/barlow-condensed/600.css";
 import "@fontsource/barlow-condensed/700.css";
 import "./style.css";
-import { loadAll, loadExtras, dateOf, fmtDate, weatherIndex, type Drive, type Point, type Trip, type Photos, type Site, type Weather } from "./data";
+import { loadAll, loadExtras, dateOf, fmtDate, weatherIndex, type Base, type Drive, type Point, type Trip, type Photos, type Site, type Weather } from "./data";
 import { Panel } from "./panel";
 import { siteStyle, MAP } from "./mapstyle";
 import { renderHome } from "./home";
+import { renderVan } from "./van";
 import { chapterBar, chapterPanel, PhotoMarkers, barShare, dayLabel, vanElement } from "./chapter";
+import { addBaseLayers, showBases, layerSwitch, vanPlace, dayOfDate } from "./bases";
 
 const TYPES = ["stop", "beach", "nature", "culture", "history", "peaceful"] as const;
 const TYPE_LABEL: Record<string, string> = {
@@ -21,15 +23,16 @@ const TYPE_LABEL: Record<string, string> = {
 const TYPE_COLOUR: Record<string, string> = {
   stop: "#1D3B53", beach: "#2a8fbd", nature: "#3d8a4a", culture: "#9b4fa8", history: "#b5652b", peaceful: "#5f7f8f",
 };
-type View = "home" | "chapter" | "calendar" | "country" | "temp";
-const VIEWS: [View, string][] = [["home", "Front page"], ["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"]];
+type View = "home" | "chapter" | "calendar" | "country" | "temp" | "van";
+const VIEWS: [View, string][] = [["home", "Front page"], ["chapter", "Chapters"], ["calendar", "Calendar"], ["country", "Countries"], ["temp", "Temperature"], ["van", "The van"]];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 let trip: Trip, photos: Photos, map: MapLibre, mapReady = false, panel: Panel, weather: Weather | null = null;
 let hovered: string | null = null, selected: string | null = null, section: string | null = null;
-let site: Site, route: GeoJSON.FeatureCollection, markers: PhotoMarkers | null = null;
+let site: Site, route: GeoJSON.FeatureCollection, markers: PhotoMarkers | null = null, bases: Base[] = [];
+let layerBox: HTMLElement | null = null; // the Photos / Base camps switch on the chapter map
 
 // Everything shown is worked out from this state, which is also kept in the page address.
 const state = {
@@ -41,6 +44,7 @@ const state = {
   country: "",
   lo: 18, hi: 28, // temperature range, °C
   types: new Set<string>(), // empty = all types
+  layer: "photos" as "photos" | "bases", // what the chapter map shows besides the van's route
 };
 
 const kindOf = (p: Point) => (p.kind === "stop" ? "stop" : p.type ?? "culture");
@@ -62,7 +66,7 @@ function basePoints(): Point[] {
     case "chapter": return all.filter((p) => p.chapter === state.chapter);
     case "calendar": return all.filter((p) => (state.day !== null ? p.day === state.day : monthKey(dateOfPoint(p)) === state.month));
     case "country": return all.filter((p) => p.country === state.country);
-    case "home": return [];
+    case "home": case "van": return [];
     case "temp": return weather ? all.filter((p) => { const t = hiOf(p); return t !== undefined && t >= state.lo && t <= state.hi; }) : [];
   }
 }
@@ -88,6 +92,7 @@ function readHash(): string | null {
   const r = (h.get("r") ?? "").split("-").map(Number);
   if (r.length === 2 && r.every(Number.isFinite)) [state.lo, state.hi] = r;
   state.types = new Set((h.get("t") ?? "").split(",").filter((t) => (TYPES as readonly string[]).includes(t)));
+  state.layer = h.get("l") === "bases" ? "bases" : "photos";
   if (p && state.view === "chapter") state.chapter = p.chapter; // a link to a place opens its chapter
   const ch = trip.chapters.find((x) => x.id === state.chapter)!, at = Number(h.get("at"));
   state.at = h.has("at") && at >= ch.start_day && at <= ch.end_day ? at : p?.day ?? ch.start_day;
@@ -103,6 +108,7 @@ function writeHash() {
   if (state.view === "country") h.set("k", state.country);
   if (state.view === "temp") h.set("r", `${state.lo}-${state.hi}`);
   if (state.types.size) h.set("t", [...state.types].join(","));
+  if (state.view === "chapter" && state.layer === "bases") h.set("l", "bases");
   if (selected) h.set("p", selected);
   history.replaceState(null, "", "#" + h.toString().replace(/%2C/g, ","));
 }
@@ -110,18 +116,18 @@ function writeHash() {
 // ---------- header: views, the row for the current view, type filters ----------
 function renderHeader() {
   const nav: [string, string, boolean][] = [
-    ["#v=home&s=route", "Route", state.view === "home" && section !== "van"],
+    ["#v=home&s=route", "Route", state.view === "home"],
     [`#c=${state.chapter}`, "Chapters", state.view === "chapter"],
     [`#v=calendar&m=${state.month}`, "Calendar", state.view === "calendar"],
     [`#v=country&k=${encodeURIComponent(state.country)}`, "Countries", state.view === "country"],
-    ["#v=home&s=van", "The van", state.view === "home" && section === "van"],
+    ["#v=van", "The van", state.view === "van"],
   ];
   $("#views").innerHTML = nav.map(([href, label, on]) => `<a class="nav-link" href="${href}" ${on ? 'aria-current="page"' : ""}>${label}</a>`).join("");
   const sub = $("#subnav");
-  if (state.view === "home") {
+  if (state.view === "home" || state.view === "van") {
     sub.innerHTML = ""; $("#filters").innerHTML = ""; return;
   } else if (state.view === "chapter") {
-    sub.innerHTML = chapterBar(trip, site, state.chapter, state.at);
+    sub.innerHTML = chapterBar(trip, site, state.chapter, state.at, bases);
     $("#filters").innerHTML = ""; // the type pills are in the chapter panel
     return;
   } else if (state.view === "calendar") {
@@ -187,7 +193,7 @@ function renderList() {
   if (state.view === "chapter") {
     const chapter = trip.chapters.find((x) => x.id === state.chapter)!;
     $("#list").innerHTML = chapterPanel({ trip, photos, chapter, shown: pts, types: state.types, weather, selected, at: state.at, kindOf, hiOf, driveRow,
-      drive: totals(trip.drives.filter((d) => d.chapter === chapter.id)) });
+      drive: totals(trip.drives.filter((d) => d.chapter === chapter.id)), restNote: restNote(chapter.start_day) });
     $("#list").scrollTop = 0;
     return;
   }
@@ -205,6 +211,13 @@ function renderList() {
   }
   $("#list").innerHTML = `<div class="ch-head">${head}</div>` + rows(pts);
   $("#list").scrollTop = 0;
+}
+/** For a chapter with no new places: where the van stays. */
+function restNote(day: number) {
+  const b = bases.findLast((x) => dayOfDate(trip, x.arrive) <= day);
+  if (!b) return "";
+  const d = (s: string) => fmtDate(dateOf(trip.start_date, dayOfDate(trip, s)));
+  return `The van stays at ${esc(b.name)}, ${d(b.arrive)} – ${d(b.leave)}.`;
 }
 const count = (pts: Point[]) => `${pts.length} place${pts.length === 1 ? "" : "s"}`;
 
@@ -348,6 +361,14 @@ async function initMap(route: GeoJSON.FeatureCollection) {
       if (id) openPoint(id);
     });
     markers = new PhotoMarkers(map, photos, openPoint, (id) => setHover(id, "map"));
+    addBaseLayers(map, trip, bases, new Map(trip.points.filter((p) => p.title).map((p) => [p.title!, p.name])));
+    layerBox = document.createElement("div");
+    layerBox.className = "maplibregl-ctrl layer-box";
+    map.addControl({ onAdd: () => layerBox!, onRemove: () => layerBox!.remove() }, "top-left");
+    layerBox.addEventListener("click", (e) => {
+      const l = (e.target as HTMLElement).closest<HTMLElement>("[data-layer]")?.dataset.layer as "photos" | "bases" | undefined;
+      if (l && l !== state.layer) { state.layer = l; writeHash(); updateMap(false); }
+    });
     mapReady = true;
     updateMap(false); // the view may have changed while the map was loading
   });
@@ -381,7 +402,13 @@ function updateMap(animate = true) {
   // the chapter view uses round photo markers; the other views the numbered circles
   const photoView = state.view === "chapter" || state.view === "calendar" || state.view === "country";
   for (const id of ["points", "points-num"]) map.setLayoutProperty(id, "visibility", photoView ? "none" : "visible");
-  if (photoView) {
+  const baseView = state.view === "chapter" && state.layer === "bases" && bases.length > 0;
+  showBases(map, baseView ? state.chapter : null);
+  if (layerBox) {
+    layerBox.hidden = state.view !== "chapter" || !bases.length;
+    layerBox.innerHTML = layerSwitch(state.layer);
+  }
+  if (photoView && !baseView) {
     // chapter: numbers within the whole chapter (as in its list); other views: numbers in the list shown
     const numbered = state.view === "chapter" ? trip.points.filter((p) => p.chapter === state.chapter) : shown();
     markers!.show(shown(), new Map(numbered.map((p, i) => [p.id, i + 1])));
@@ -393,8 +420,13 @@ function updateMap(animate = true) {
   if (selected) map.setFeatureState({ source: "points", id: selected }, { selected: true });
   const sel = trip.points.find((x) => x.id === selected), pts = shown();
   if (sel) map.easeTo({ center: [sel.lon, sel.lat], duration: animate ? 600 : 0 });
-  else if (pts.length) map.fitBounds(boundsOf(pts), { padding: mapPadding(), maxZoom: 11, duration: animate ? 800 : 0 });
+  else if (pts.length || baseView) map.fitBounds(boundsOf([...pts, ...(baseView ? chapterBases() : [])]), { padding: mapPadding(), maxZoom: 11, duration: animate ? 800 : 0 });
+  else if (state.view === "chapter") { const v = vanPlace(trip, bases, state.at); map.easeTo({ center: [v.lon, v.lat], zoom: 8, duration: animate ? 800 : 0 }); }
 }
+
+/** The chapter's bases and their day-trip places, as map positions. */
+const chapterBases = () => bases.filter((b) => b.chapter === state.chapter)
+  .flatMap((b) => [b, ...b.places, ...b.on_the_way]).map((x) => ({ lon: x.lon, lat: x.lat }) as Point);
 
 /** On a phone the chapter list is a sheet over the bottom of the map: keep the places above it. */
 function mapPadding() {
@@ -447,14 +479,21 @@ function placeVan() {
   if (!mapReady) return;
   vanMarker?.remove(); vanMarker = null;
   if (state.view !== "chapter") return;
-  const { here, next } = placeOnDay(state.at);
-  vanMarker = new Marker({ element: vanElement(!!next && next.lon > here.lon), anchor: "bottom", offset: [0, -26] })
-    .setLngLat([here.lon, here.lat]).addTo(map);
+  const v = bases.length ? vanPlace(trip, bases, state.at) : (() => { const { here, next } = placeOnDay(state.at);
+    return { lon: here.lon, lat: here.lat, eastward: !!next && next.lon > here.lon }; })();
+  vanMarker = new Marker({ element: vanElement(v.eastward), anchor: "bottom", offset: [0, -26] })
+    .setLngLat([v.lon, v.lat]).addTo(map);
   vanMarker.getElement().style.zIndex = "4";
 }
 /** Move the van to a day: the bar handle, the map and the list. Changes chapter if the day is in another. */
 function setVanDay(day: number, commit = true) {
   day = Math.max(0, Math.min(trip.days, day));
+  // the winter break is in no chapter: a step jumps across it; a drag goes to the nearer side
+  const br = trip.breaks?.find((b) => day >= b.start_day && day <= b.end_day);
+  if (br) {
+    const step = Math.abs(day - state.at) <= 7 ? Math.sign(day - state.at) : 0;
+    day = step > 0 || (!step && br.end_day - day < day - br.start_day) ? br.end_day + 1 : br.start_day - 1;
+  }
   const handle = document.querySelector<HTMLElement>(".van-handle");
   if (handle) {
     handle.style.left = `${barShare(trip, day)}%`;
@@ -469,7 +508,10 @@ function setVanDay(day: number, commit = true) {
   else { renderList(); placeVan(); writeHash(); }
   const row = document.querySelector<HTMLElement>(".day.at");
   row?.scrollIntoView({ block: "start", behavior: "smooth" });
-  if (mapReady) { const { here } = placeOnDay(day); map.easeTo({ center: [here.lon, here.lat], duration: 600 }); }
+  if (mapReady) {
+    const v = bases.length ? vanPlace(trip, bases, day) : placeOnDay(day).here;
+    map.easeTo({ center: [v.lon, v.lat], duration: 600 });
+  }
 }
 function setupTimeline() {
   const sub = $("#subnav");
@@ -556,15 +598,18 @@ function backLabel() {
 // ---------- changing what is shown ----------
 function render() {
   setHover(null, "list");
-  const home = state.view === "home";
+  const home = state.view === "home" || state.view === "van"; // full pages, without the map
   document.body.classList.toggle("home", home);
   document.body.dataset.view = state.view;
   document.body.classList.remove("menu-open"); $("#menu-btn").setAttribute("aria-expanded", "false");
   $("#home").hidden = !home;
   renderHeader();
   if (home) {
-    if (!$("#home").childElementCount) renderHome($("#home"), trip, photos, site, route);
-    const target = section ? document.getElementById(section) : null;
+    if ($("#home").dataset.page !== state.view) {
+      $("#home").dataset.page = state.view;
+      if (state.view === "van") void renderVan($("#home"), site); else renderHome($("#home"), trip, photos, site, route);
+    }
+    const target = section && state.view === "home" ? document.getElementById(section) : null;
     if (target) target.scrollIntoView({ behavior: "smooth" }); else window.scrollTo(0, 0);
   } else {
     renderList();
@@ -589,7 +634,7 @@ async function needWeather() {
 // ---------- start ----------
 async function start() {
   const data = await loadAll();
-  ({ trip, photos, site, route } = data);
+  ({ trip, photos, site, route, bases } = data);
   months = [...new Set(trip.points.map((p) => monthKey(dateOfPoint(p))))];
   countries = [...new Set(trip.points.map((p) => p.country).filter((k): k is string => !!k))];
   $("#start-label").textContent = `Start date: ${fmtDate(dateOf(trip.start_date, 0))}`;

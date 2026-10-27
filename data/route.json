@@ -87,7 +87,7 @@
    "lat": 48.894,
    "lon": 18.044,
    "name": "Trenčín",
-   "caption": "Pohoda festival",
+   "caption": "Castle town on the Váh",
    "date": "2027-07-30"
   },
   {
@@ -250,7 +250,7 @@
    "lon": -5.454,
    "name": "Algeciras",
    "caption": "Crossing to Africa",
-   "date": "2027-11-24"
+   "date": "2027-11-18"
   },
   {
    "id": "merzouga",
@@ -259,16 +259,16 @@
    "lon": -4.011,
    "name": "Merzouga",
    "caption": "Erg Chebbi dunes",
-   "date": "2027-12-08"
+   "date": "2027-12-03"
   },
   {
-   "id": "tiznit",
-   "leg": "morocco",
-   "lat": 29.697,
-   "lon": -9.732,
-   "name": "Tiznit",
-   "caption": "Winter under the sun",
-   "date": "2027-12-19"
+   "id": "malaga",
+   "leg": "return",
+   "lat": 36.674,
+   "lon": -4.499,
+   "name": "Málaga",
+   "caption": "Van in storage; home for the winter",
+   "date": "2027-12-20"
   },
   {
    "id": "camargue",
@@ -304,7 +304,7 @@
    "lon": 24.497,
    "name": "Pärnu",
    "caption": "Home for the Song Festival (Laulupidu)",
-   "date": "2028-06-25"
+   "date": "2028-06-04"
   },
   {
    "id": "rovaniemi",
@@ -313,16 +313,16 @@
    "lon": 25.73,
    "name": "Rovaniemi",
    "caption": "Across the Arctic Circle",
-   "date": "2028-07-14"
+   "date": "2028-07-15"
   },
   {
-   "id": "nordkapp",
+   "id": "tromso",
    "leg": "arctic",
-   "lat": 71.17,
-   "lon": 25.78,
-   "name": "Nordkapp",
-   "caption": "Midnight sun",
-   "date": "2028-07-20"
+   "lat": 69.65,
+   "lon": 18.95,
+   "name": "Tromsø",
+   "caption": "Arctic city; midnight sun to 25 Jul",
+   "date": "2028-07-21"
   },
   {
    "id": "lofoten",
@@ -331,7 +331,7 @@
    "lon": 13.09,
    "name": "Lofoten",
    "caption": "Reine",
-   "date": "2028-07-28"
+   "date": "2028-08-02"
   },
   {
    "id": "geiranger",
@@ -340,7 +340,7 @@
    "lon": 7.2,
    "name": "Geiranger",
    "caption": "The fjords",
-   "date": "2028-08-08"
+   "date": "2028-08-29"
   },
   {
    "id": "stockholm",
@@ -349,7 +349,7 @@
    "lon": 18.07,
    "name": "Stockholm",
    "caption": "Ferry home",
-   "date": "2028-08-18"
+   "date": "2028-09-24"
   },
   {
    "id": "home2",
@@ -357,8 +357,8 @@
    "lat": 58.386,
    "lon": 24.497,
    "name": "Pärnu",
-   "caption": "Home — 14 months, 21,000 km",
-   "date": "2028-08-22"
+   "caption": "Home after 14 months",
+   "date": "2028-09-26"
   }
  ],
  "ferries": {
@@ -384,23 +384,6 @@
     [
      17.6,
      41.0
-    ]
-   ]
-  },
-  "tiznit>camargue": {
-   "name": "Tanger Med → Algeciras",
-   "from": [
-    -5.5,
-    35.89
-   ],
-   "to": [
-    -5.44,
-    36.13
-   ],
-   "via": [
-    [
-     -5.4,
-     36.02
     ]
    ]
   },
@@ -499,6 +482,84 @@
      36.02
     ]
    ]
+  },
+  "merzouga>malaga": {
+   "name": "Tanger Med → Algeciras",
+   "from": [
+    -5.5,
+    35.89
+   ],
+   "to": [
+    -5.44,
+    36.13
+   ],
+   "via": [
+    [
+     -5.4,
+     36.02
+    ]
+   ]
+  },
+  "berlin>home1": {
+   "name": "Kiel → Klaipėda",
+   "from": [
+    10.17,
+    54.35
+   ],
+   "to": [
+    21.11,
+    55.68
+   ],
+   "via": [
+    [
+     10.3,
+     54.5
+    ],
+    [
+     11.2,
+     54.55
+    ],
+    [
+     12.6,
+     54.55
+    ],
+    [
+     14.6,
+     54.85
+    ],
+    [
+     17.5,
+     55.3
+    ],
+    [
+     20.6,
+     55.65
+    ]
+   ]
+  },
+  "tromso>lofoten": {
+   "name": "Gryllefjord → Andenes",
+   "from": [
+    17.059,
+    69.364
+   ],
+   "to": [
+    16.121,
+    69.32
+   ],
+   "via": []
+  },
+  "lofoten>geiranger": {
+   "name": "Moskenes → Bodø",
+   "from": [
+    13.059,
+    67.899
+   ],
+   "to": [
+    14.38,
+    67.287
+   ],
+   "via": []
   }
  }
 }

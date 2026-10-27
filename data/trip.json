@@ -2,7 +2,7 @@
  "title": "Pärnu → Sahara → Nordkapp",
  "subtitle": "Peter · Dianne · Kalev · the LT31",
  "start_date": "2027-07-19",
- "days": 400,
+ "days": 435,
  "chapters": [
   {
    "id": 1,
@@ -57,15 +57,15 @@
    "part": "One: south",
    "name": "Portugal",
    "start_day": 91,
-   "end_day": 127,
+   "end_day": 121,
    "cover": "douro"
   },
   {
    "id": 8,
    "part": "One: south",
    "name": "Morocco: Atlas, Sahara, winter and Toubkal",
-   "start_day": 128,
-   "end_day": 208,
+   "start_day": 122,
+   "end_day": 154,
    "cover": "merzouga",
    "cover_photo": 1
   },
@@ -73,9 +73,9 @@
    "id": 9,
    "part": "Two: home the long way",
    "name": "Al-Andalus and the Mediterranean",
-   "start_day": 209,
+   "start_day": 215,
    "end_day": 250,
-   "cover": "essaouira"
+   "cover": "alhambra"
   },
   {
    "id": 10,
@@ -104,34 +104,41 @@
   {
    "id": 13,
    "part": "Two: home the long way",
-   "name": "Poland's coast and lakes",
+   "name": "Lithuania and Latvia",
    "start_day": 297,
-   "end_day": 314,
-   "cover": "trzesacz"
+   "end_day": 321,
+   "cover": "trakai-island-castle"
   },
   {
    "id": 14,
    "part": "Two: home the long way",
-   "name": "Baltic states and Laulupidu",
-   "start_day": 315,
+   "name": "Home for Laulupidu",
+   "start_day": 322,
    "end_day": 358,
-   "cover": "trakai-island-castle"
+   "cover": "home1"
   },
   {
    "id": 15,
    "part": "Two: home the long way",
    "name": "Lapland and Arctic Norway",
    "start_day": 359,
-   "end_day": 376,
-   "cover": "nordkapp"
+   "end_day": 380,
+   "cover": "senja"
   },
   {
    "id": 16,
    "part": "Two: home the long way",
    "name": "Fjords and home",
-   "start_day": 377,
-   "end_day": 400,
+   "start_day": 381,
+   "end_day": 435,
    "cover": "geiranger"
+  }
+ ],
+ "breaks": [
+  {
+   "name": "Winter break, van stored at Málaga",
+   "start_day": 155,
+   "end_day": 214
   }
  ],
  "legs": [
@@ -201,13 +208,29 @@
    "country": "Estonia"
   },
   {
+   "id": "pazaislis-monastery",
+   "kind": "highlight",
+   "name": "Pažaislis Monastery",
+   "title": "Pažaislis Monastery",
+   "caption": "Baroque monastery by Kaunas lagoon",
+   "type": "culture",
+   "day": 1,
+   "chapter": 1,
+   "leg": "baltics",
+   "lat": 54.876,
+   "lon": 24.022,
+   "wikipedia": "Pažaislis Monastery",
+   "link": "https://en.wikipedia.org/wiki/Pa%C5%BEaislis_Monastery",
+   "country": "Lithuania"
+  },
+  {
    "id": "warsaw-old-town",
    "kind": "highlight",
    "name": "Old Town, Warsaw",
    "title": "Warsaw Old Town",
    "caption": "Rebuilt brick by brick after 1944",
    "type": "history",
-   "day": 1,
+   "day": 2,
    "chapter": 1,
    "leg": "baltics",
    "lat": 52.2497,
@@ -223,28 +246,12 @@
    "title": "Łazienki Park",
    "caption": "Palace on the water, Warsaw",
    "type": "peaceful",
-   "day": 1,
+   "day": 2,
    "chapter": 1,
    "leg": "baltics",
    "lat": 52.21262,
    "lon": 21.03395,
    "link": "https://www.openstreetmap.org/?mlat=52.21262&mlon=21.03395#map=14/52.21262/21.03395",
-   "country": "Poland"
-  },
-  {
-   "id": "jasna-gora-monastery",
-   "kind": "highlight",
-   "name": "Jasna Góra Monastery",
-   "title": "Jasna Góra Monastery",
-   "caption": "Black Madonna of Częstochowa",
-   "type": "culture",
-   "day": 2,
-   "chapter": 1,
-   "leg": "baltics",
-   "lat": 50.8125,
-   "lon": 19.09722,
-   "wikipedia": "Jasna Góra Monastery",
-   "link": "https://en.wikipedia.org/wiki/Jasna_G%C3%B3ra_Monastery",
    "country": "Poland"
   },
   {
@@ -402,7 +409,7 @@
    "id": "trencin",
    "kind": "stop",
    "name": "Trenčín",
-   "caption": "Pohoda festival",
+   "caption": "Castle town on the Váh",
    "day": 11,
    "chapter": 2,
    "leg": "central",
@@ -572,7 +579,7 @@
    "title": "Piran",
    "caption": "Venetian harbour town",
    "type": "beach",
-   "day": 21,
+   "day": 22,
    "chapter": 3,
    "leg": "central",
    "lat": 45.52833,
@@ -588,29 +595,13 @@
    "title": "Motovun",
    "caption": "Hilltop town above truffle forests",
    "type": "culture",
-   "day": 22,
+   "day": 23,
    "chapter": 3,
    "leg": "central",
    "lat": 45.33333,
    "lon": 13.83333,
    "wikipedia": "Motovun",
    "link": "https://en.wikipedia.org/wiki/Motovun",
-   "country": "Croatia"
-  },
-  {
-   "id": "rovinj",
-   "kind": "highlight",
-   "name": "Rovinj",
-   "title": "Rovinj",
-   "caption": "Old town on the Istrian coast",
-   "type": "beach",
-   "day": 23,
-   "chapter": 3,
-   "leg": "central",
-   "lat": 45.08333,
-   "lon": 13.63333,
-   "wikipedia": "Rovinj",
-   "link": "https://en.wikipedia.org/wiki/Rovinj",
    "country": "Croatia"
   },
   {
@@ -703,45 +694,13 @@
    "country": "Bosnia and Herzegovina"
   },
   {
-   "id": "lukomir",
-   "kind": "highlight",
-   "name": "Lukomir",
-   "title": "Lukomir",
-   "caption": "Bosnia's highest mountain village",
-   "type": "peaceful",
-   "day": 30,
-   "chapter": 3,
-   "leg": "dinaric",
-   "lat": 43.63333,
-   "lon": 18.18333,
-   "wikipedia": "Lukomir",
-   "link": "https://en.wikipedia.org/wiki/Lukomir",
-   "country": "Bosnia and Herzegovina"
-  },
-  {
-   "id": "mehmed-pasa-sokolovic-bridge",
-   "kind": "highlight",
-   "name": "Mehmed Paša Sokolović Bridge",
-   "title": "Mehmed Paša Sokolović Bridge",
-   "caption": "Ottoman bridge on the Drina",
-   "type": "history",
-   "day": 31,
-   "chapter": 3,
-   "leg": "dinaric",
-   "lat": 43.78263,
-   "lon": 19.28754,
-   "wikipedia": "Mehmed Paša Sokolović Bridge",
-   "link": "https://en.wikipedia.org/wiki/Mehmed_Pa%C5%A1a_Sokolovi%C4%87_Bridge",
-   "country": "Bosnia and Herzegovina"
-  },
-  {
    "id": "perucica",
    "kind": "highlight",
    "name": "Perućica",
    "title": "Perućica",
    "caption": "One of Europe's last primeval forests",
    "type": "nature",
-   "day": 32,
+   "day": 30,
    "chapter": 3,
    "leg": "dinaric",
    "lat": 43.31402,
@@ -876,29 +835,13 @@
    "title": "Stari Bar",
    "caption": "Ruined hill town",
    "type": "history",
-   "day": 39,
+   "day": 40,
    "chapter": 4,
    "leg": "aegean",
    "lat": 42.09394,
    "lon": 19.13384,
    "wikipedia": "Stari Bar",
    "link": "https://en.wikipedia.org/wiki/Stari_Bar",
-   "country": "Montenegro"
-  },
-  {
-   "id": "ostrog-monastery",
-   "kind": "highlight",
-   "name": "Ostrog Monastery",
-   "title": "Ostrog Monastery",
-   "caption": "Monastery built into a cliff",
-   "type": "culture",
-   "day": 40,
-   "chapter": 4,
-   "leg": "aegean",
-   "lat": 42.675,
-   "lon": 19.02917,
-   "wikipedia": "Ostrog Monastery",
-   "link": "https://en.wikipedia.org/wiki/Ostrog_Monastery",
    "country": "Montenegro"
   },
   {
@@ -915,51 +858,19 @@
    "country": "Albania"
   },
   {
-   "id": "theth",
-   "kind": "highlight",
-   "name": "Theth",
-   "title": "Theth",
-   "caption": "Valley in the Accursed Mountains",
-   "type": "nature",
-   "day": 42,
-   "chapter": 4,
-   "leg": "aegean",
-   "lat": 42.4,
-   "lon": 19.76667,
-   "wikipedia": "Theth",
-   "link": "https://en.wikipedia.org/wiki/Theth",
-   "country": "Albania"
-  },
-  {
    "id": "kruje-castle",
    "kind": "highlight",
    "name": "Fortress of Krujë",
    "title": "Krujë Castle",
    "caption": "Skanderbeg's stronghold",
    "type": "history",
-   "day": 43,
+   "day": 42,
    "chapter": 4,
    "leg": "aegean",
    "lat": 41.50694,
    "lon": 19.79389,
    "wikipedia": "Fortress of Krujë",
    "link": "https://en.wikipedia.org/wiki/Fortress_of_Kruj%C3%AB",
-   "country": "Albania"
-  },
-  {
-   "id": "berat",
-   "kind": "highlight",
-   "name": "Berat",
-   "title": "Berat",
-   "caption": "Town of a thousand windows",
-   "type": "history",
-   "day": 44,
-   "chapter": 4,
-   "leg": "aegean",
-   "lat": 40.70222,
-   "lon": 19.95833,
-   "wikipedia": "Berat",
-   "link": "https://en.wikipedia.org/wiki/Berat",
    "country": "Albania"
   },
   {
@@ -1159,22 +1070,6 @@
    "country": "Greece"
   },
   {
-   "id": "alberobello",
-   "kind": "highlight",
-   "name": "Alberobello",
-   "title": "Alberobello",
-   "caption": "Trulli houses",
-   "type": "culture",
-   "day": 57,
-   "chapter": 5,
-   "leg": "italy",
-   "lat": 40.78412,
-   "lon": 17.2377,
-   "wikipedia": "Alberobello",
-   "link": "https://en.wikipedia.org/wiki/Alberobello",
-   "country": "Italy"
-  },
-  {
    "id": "matera",
    "kind": "stop",
    "name": "Matera",
@@ -1300,29 +1195,13 @@
    "country": "Spain"
   },
   {
-   "id": "aiguestortes-i-estany-de-sant-maurici-national-park",
-   "kind": "highlight",
-   "name": "Aigüestortes i Estany de Sant Maurici National Park",
-   "title": "Aigüestortes i Estany de Sant Maurici National Park",
-   "caption": "Granite peaks and 200 lakes",
-   "type": "nature",
-   "day": 66,
-   "chapter": 6,
-   "leg": "italy",
-   "lat": 42.57629,
-   "lon": 1.08848,
-   "wikipedia": "Aigüestortes i Estany de Sant Maurici National Park",
-   "link": "https://en.wikipedia.org/wiki/Aig%C3%BCestortes_i_Estany_de_Sant_Maurici_National_Park",
-   "country": "Spain"
-  },
-  {
    "id": "ordesa-y-monte-perdido-national-park",
    "kind": "highlight",
    "name": "Ordesa y Monte Perdido National Park",
    "title": "Ordesa y Monte Perdido National Park",
    "caption": "Canyon walk to the Cola de Caballo falls",
    "type": "nature",
-   "day": 67,
+   "day": 66,
    "chapter": 6,
    "leg": "italy",
    "lat": 42.64923,
@@ -1345,22 +1224,6 @@
    "lon": -0.61271,
    "wikipedia": "Castle of Loarre",
    "link": "https://en.wikipedia.org/wiki/Castle_of_Loarre",
-   "country": "Spain"
-  },
-  {
-   "id": "bardenas-reales",
-   "kind": "highlight",
-   "name": "Bardenas Reales",
-   "title": "Bardenas Reales",
-   "caption": "Badlands desert in Navarre",
-   "type": "nature",
-   "day": 69,
-   "chapter": 6,
-   "leg": "italy",
-   "lat": 42.16117,
-   "lon": -1.46625,
-   "wikipedia": "Bardenas Reales",
-   "link": "https://en.wikipedia.org/wiki/Bardenas_Reales",
    "country": "Spain"
   },
   {
@@ -1415,29 +1278,13 @@
    "title": "San Millán de la Cogolla",
    "caption": "Yuso and Suso monasteries",
    "type": "history",
-   "day": 73,
+   "day": 74,
    "chapter": 6,
    "leg": "spain",
    "lat": 42.32588,
    "lon": -2.86567,
    "wikipedia": "San Millán de la Cogolla",
    "link": "https://en.wikipedia.org/wiki/San_Mill%C3%A1n_de_la_Cogolla",
-   "country": "Spain"
-  },
-  {
-   "id": "burgos-cathedral",
-   "kind": "highlight",
-   "name": "Burgos Cathedral",
-   "title": "Burgos Cathedral",
-   "caption": "Gothic cathedral",
-   "type": "culture",
-   "day": 74,
-   "chapter": 6,
-   "leg": "spain",
-   "lat": 42.34081,
-   "lon": -3.70447,
-   "wikipedia": "Burgos Cathedral",
-   "link": "https://en.wikipedia.org/wiki/Burgos_Cathedral",
    "country": "Spain"
   },
   {
@@ -1457,29 +1304,13 @@
    "country": "Spain"
   },
   {
-   "id": "san-juan-de-gaztelugatxe",
-   "kind": "highlight",
-   "name": "Gaztelugatxe",
-   "title": "San Juan de Gaztelugatxe",
-   "caption": "Islet chapel and stone stair",
-   "type": "nature",
-   "day": 76,
-   "chapter": 6,
-   "leg": "spain",
-   "lat": 43.447,
-   "lon": -2.785,
-   "wikipedia": "Gaztelugatxe",
-   "link": "https://en.wikipedia.org/wiki/Gaztelugatxe",
-   "country": "Spain"
-  },
-  {
    "id": "santillana-del-mar",
    "kind": "highlight",
    "name": "Santillana del Mar",
    "title": "Santillana del Mar",
    "caption": "Medieval village",
    "type": "history",
-   "day": 77,
+   "day": 76,
    "chapter": 6,
    "leg": "spain",
    "lat": 43.39333,
@@ -1495,7 +1326,7 @@
    "title": "Fuente Dé",
    "caption": "Cable car into the Picos",
    "type": "nature",
-   "day": 78,
+   "day": 77,
    "chapter": 6,
    "leg": "spain",
    "lat": 43.1456,
@@ -1587,7 +1418,7 @@
    "title": "Roman walls of Lugo",
    "caption": "Complete Roman city walls; San Froilán fair (4–12 Oct)",
    "type": "history",
-   "day": 82,
+   "day": 83,
    "chapter": 6,
    "leg": "spain",
    "lat": 43.0111,
@@ -1597,51 +1428,19 @@
    "country": "Spain"
   },
   {
-   "id": "ribeira-sacra",
-   "kind": "highlight",
-   "name": "Ribeira Sacra (DO)",
-   "title": "Ribeira Sacra",
-   "caption": "Terraced vineyards in the Sil canyon",
-   "type": "nature",
-   "day": 83,
-   "chapter": 6,
-   "leg": "spain",
-   "lat": 42.51639,
-   "lon": -7.51611,
-   "wikipedia": "Ribeira Sacra (DO)",
-   "link": "https://en.wikipedia.org/wiki/Ribeira_Sacra_%28DO%29",
-   "country": "Spain"
-  },
-  {
    "id": "santiago-de-compostela-cathedral",
    "kind": "highlight",
    "name": "Santiago de Compostela Cathedral",
    "title": "Santiago de Compostela Cathedral",
    "caption": "End of the Camino",
    "type": "culture",
-   "day": 83,
+   "day": 84,
    "chapter": 6,
    "leg": "spain",
    "lat": 42.88056,
    "lon": -8.54444,
    "wikipedia": "Santiago de Compostela Cathedral",
    "link": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral",
-   "country": "Spain"
-  },
-  {
-   "id": "cape-finisterre",
-   "kind": "highlight",
-   "name": "Cape Finisterre",
-   "title": "Cape Finisterre",
-   "caption": "The end of the world",
-   "type": "nature",
-   "day": 84,
-   "chapter": 6,
-   "leg": "spain",
-   "lat": 42.8825,
-   "lon": -9.27222,
-   "wikipedia": "Cape Finisterre",
-   "link": "https://en.wikipedia.org/wiki/Cape_Finisterre",
    "country": "Spain"
   },
   {
@@ -1666,7 +1465,7 @@
    "title": "Castro of Santa Trega",
    "caption": "Celtic hill fort over the Miño",
    "type": "history",
-   "day": 85,
+   "day": 86,
    "chapter": 6,
    "leg": "spain",
    "lat": 41.8927,
@@ -1674,22 +1473,6 @@
    "wikipedia": "Castro of Santa Trega",
    "link": "https://en.wikipedia.org/wiki/Castro_of_Santa_Trega",
    "country": "Spain"
-  },
-  {
-   "id": "peneda-geres-national-park",
-   "kind": "highlight",
-   "name": "Peneda-Gerês National Park",
-   "title": "Peneda-Gerês National Park",
-   "caption": "Portugal's only national park",
-   "type": "nature",
-   "day": 86,
-   "chapter": 6,
-   "leg": "spain",
-   "lat": 41.72472,
-   "lon": -8.16278,
-   "wikipedia": "Peneda-Gerês National Park",
-   "link": "https://en.wikipedia.org/wiki/Peneda-Ger%C3%AAs_National_Park",
-   "country": "Portugal"
   },
   {
    "id": "bom-jesus-do-monte",
@@ -1801,45 +1584,13 @@
    "country": "Portugal"
   },
   {
-   "id": "vila-nova-de-foz-coa",
-   "kind": "highlight",
-   "name": "Vila Nova de Foz Côa",
-   "title": "Vila Nova de Foz Côa",
-   "caption": "Côa Valley rock art",
-   "type": "history",
-   "day": 93,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 41.08,
-   "lon": -7.14,
-   "wikipedia": "Vila Nova de Foz Côa",
-   "link": "https://en.wikipedia.org/wiki/Vila_Nova_de_Foz_C%C3%B4a",
-   "country": "Portugal"
-  },
-  {
-   "id": "lamego",
-   "kind": "highlight",
-   "name": "Lamego",
-   "title": "Lamego",
-   "caption": "Shrine stairway of 686 steps",
-   "type": "culture",
-   "day": 93,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 41.10083,
-   "lon": -7.81,
-   "wikipedia": "Lamego",
-   "link": "https://en.wikipedia.org/wiki/Lamego",
-   "country": "Portugal"
-  },
-  {
    "id": "serra-da-estrela",
    "kind": "highlight",
    "name": "Serra da Estrela",
    "title": "Serra da Estrela",
    "caption": "Portugal's highest mountains",
    "type": "nature",
-   "day": 94,
+   "day": 93,
    "chapter": 7,
    "leg": "portugal",
    "lat": 40.32187,
@@ -1880,22 +1631,6 @@
    "country": "Portugal"
   },
   {
-   "id": "sanctuary-of-fatima",
-   "kind": "highlight",
-   "name": "Sanctuary of Fátima",
-   "title": "Sanctuary of Fátima",
-   "caption": "Pilgrimage shrine and basilica",
-   "type": "culture",
-   "day": 96,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 39.63001,
-   "lon": -8.6747,
-   "wikipedia": "Sanctuary of Fátima",
-   "link": "https://en.wikipedia.org/wiki/Sanctuary_of_F%C3%A1tima",
-   "country": "Portugal"
-  },
-  {
    "id": "university-of-coimbra",
    "kind": "highlight",
    "name": "University of Coimbra",
@@ -1918,7 +1653,7 @@
    "title": "Aveiro, Portugal",
    "caption": "Canals and moliceiro boats",
    "type": "culture",
-   "day": 97,
+   "day": 96,
    "chapter": 7,
    "leg": "portugal",
    "lat": 40.63333,
@@ -1949,7 +1684,7 @@
    "title": "Conímbriga",
    "caption": "Roman mosaics",
    "type": "history",
-   "day": 98,
+   "day": 97,
    "chapter": 7,
    "leg": "portugal",
    "lat": 40.09944,
@@ -1972,6 +1707,22 @@
    "lon": -8.82611,
    "wikipedia": "Batalha Monastery",
    "link": "https://en.wikipedia.org/wiki/Batalha_Monastery",
+   "country": "Portugal"
+  },
+  {
+   "id": "alcobaca-monastery",
+   "kind": "highlight",
+   "name": "Alcobaça Monastery",
+   "title": "Alcobaça Monastery",
+   "caption": "Cistercian abbey",
+   "type": "history",
+   "day": 98,
+   "chapter": 7,
+   "leg": "portugal",
+   "lat": 39.54833,
+   "lon": -8.98,
+   "wikipedia": "Alcobaça Monastery",
+   "link": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery",
    "country": "Portugal"
   },
   {
@@ -2061,7 +1812,7 @@
    "title": "Cabo da Roca",
    "caption": "Westernmost point of mainland Europe",
    "type": "nature",
-   "day": 104,
+   "day": 105,
    "chapter": 7,
    "leg": "portugal",
    "lat": 38.78083,
@@ -2077,7 +1828,7 @@
    "title": "Belém Tower",
    "caption": "Age of Discovery",
    "type": "history",
-   "day": 105,
+   "day": 106,
    "chapter": 7,
    "leg": "portugal",
    "lat": 38.69167,
@@ -2093,7 +1844,7 @@
    "title": "Alfama",
    "caption": "Lisbon's oldest quarter and fado",
    "type": "culture",
-   "day": 106,
+   "day": 107,
    "chapter": 7,
    "leg": "portugal",
    "lat": 38.71222,
@@ -2109,7 +1860,7 @@
    "title": "Arrábida Natural Park",
    "caption": "Hills dropping into clear sea",
    "type": "beach",
-   "day": 107,
+   "day": 108,
    "chapter": 7,
    "leg": "portugal",
    "lat": 38.48139,
@@ -2119,51 +1870,19 @@
    "country": "Portugal"
   },
   {
-   "id": "comporta",
-   "kind": "highlight",
-   "name": "Comporta",
-   "title": "Comporta",
-   "caption": "Rice fields and empty beaches",
-   "type": "beach",
-   "day": 108,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 38.38038,
-   "lon": -8.786,
-   "wikipedia": "Comporta",
-   "link": "https://en.wikipedia.org/wiki/Comporta",
-   "country": "Portugal"
-  },
-  {
    "id": "roman-temple-of-evora",
    "kind": "highlight",
    "name": "Roman Temple of Évora",
    "title": "Roman Temple of Évora",
    "caption": "Roman temple in a walled city",
    "type": "history",
-   "day": 109,
+   "day": 110,
    "chapter": 7,
    "leg": "portugal",
    "lat": 38.57306,
    "lon": -7.90778,
    "wikipedia": "Roman Temple of Évora",
    "link": "https://en.wikipedia.org/wiki/Roman_Temple_of_%C3%89vora",
-   "country": "Portugal"
-  },
-  {
-   "id": "monsaraz",
-   "kind": "highlight",
-   "name": "Monsaraz",
-   "title": "Monsaraz",
-   "caption": "Hilltop village over the lake",
-   "type": "peaceful",
-   "day": 110,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 38.444,
-   "lon": -7.381,
-   "wikipedia": "Monsaraz",
-   "link": "https://en.wikipedia.org/wiki/Monsaraz",
    "country": "Portugal"
   },
   {
@@ -2234,7 +1953,7 @@
    "title": "Castelo de Vide",
    "caption": "Jewish quarter and springs",
    "type": "history",
-   "day": 119,
+   "day": 118,
    "chapter": 7,
    "leg": "portugal",
    "lat": 39.33333,
@@ -2244,29 +1963,13 @@
    "country": "Portugal"
   },
   {
-   "id": "alcobaca-monastery",
-   "kind": "highlight",
-   "name": "Alcobaça Monastery",
-   "title": "Alcobaça Monastery",
-   "caption": "Cistercian abbey; convent sweets and liqueurs fair",
-   "type": "history",
-   "day": 122,
-   "chapter": 7,
-   "leg": "portugal",
-   "lat": 39.54833,
-   "lon": -8.98,
-   "wikipedia": "Alcobaça Monastery",
-   "link": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery",
-   "country": "Portugal"
-  },
-  {
    "id": "ponta-da-piedade",
    "kind": "highlight",
    "name": "Ponta da Piedade",
    "title": "Ponta da Piedade",
    "caption": "Sea stacks at Lagos",
    "type": "beach",
-   "day": 124,
+   "day": 119,
    "chapter": 7,
    "leg": "portugal",
    "lat": 37.081,
@@ -2282,7 +1985,7 @@
    "title": "Benagil Cave",
    "caption": "Sea cave with a skylight",
    "type": "beach",
-   "day": 125,
+   "day": 120,
    "chapter": 7,
    "leg": "portugal",
    "lat": 37.0872,
@@ -2297,7 +2000,7 @@
    "title": "Vejer de la Frontera",
    "caption": "White hill town",
    "type": "peaceful",
-   "day": 127,
+   "day": 121,
    "chapter": 7,
    "leg": "portugal",
    "lat": 36.25,
@@ -2311,7 +2014,7 @@
    "kind": "stop",
    "name": "Algeciras",
    "caption": "Crossing to Africa",
-   "day": 128,
+   "day": 122,
    "chapter": 8,
    "leg": "portugal",
    "lat": 36.127,
@@ -2320,29 +2023,13 @@
    "country": "Spain"
   },
   {
-   "id": "chefchaouen",
-   "kind": "highlight",
-   "name": "Chefchaouen",
-   "title": "Chefchaouen",
-   "caption": "The blue town",
-   "type": "culture",
-   "day": 129,
-   "chapter": 8,
-   "leg": "portugal",
-   "lat": 35.17139,
-   "lon": -5.26972,
-   "wikipedia": "Chefchaouen",
-   "link": "https://en.wikipedia.org/wiki/Chefchaouen",
-   "country": "Morocco"
-  },
-  {
    "id": "volubilis",
    "kind": "highlight",
    "name": "Volubilis",
    "title": "Volubilis",
    "caption": "Roman city in Morocco",
    "type": "history",
-   "day": 130,
+   "day": 124,
    "chapter": 8,
    "leg": "portugal",
    "lat": 34.07111,
@@ -2352,29 +2039,13 @@
    "country": "Morocco"
   },
   {
-   "id": "fes-el-bali",
-   "kind": "highlight",
-   "name": "Fes el Bali",
-   "title": "Fes el Bali",
-   "caption": "Medieval medina",
-   "type": "history",
-   "day": 131,
-   "chapter": 8,
-   "leg": "portugal",
-   "lat": 34.0625,
-   "lon": -4.9725,
-   "wikipedia": "Fes el Bali",
-   "link": "https://en.wikipedia.org/wiki/Fes_el_Bali",
-   "country": "Morocco"
-  },
-  {
    "id": "ifrane-national-park",
    "kind": "highlight",
    "name": "Ifrane National Park",
    "title": "Ifrane National Park",
    "caption": "Cedar forests and macaques",
    "type": "nature",
-   "day": 132,
+   "day": 126,
    "chapter": 8,
    "leg": "portugal",
    "lat": 33.43176,
@@ -2390,7 +2061,7 @@
    "title": "Ouzoud Falls",
    "caption": "110 m waterfall",
    "type": "nature",
-   "day": 133,
+   "day": 127,
    "chapter": 8,
    "leg": "portugal",
    "lat": 32.0152,
@@ -2400,13 +2071,29 @@
    "country": "Morocco"
   },
   {
+   "id": "toubkal",
+   "kind": "highlight",
+   "name": "Toubkal",
+   "title": "Toubkal",
+   "caption": "Guided ascent of North Africa's highest peak, 4,167 m, from Imlil",
+   "type": "nature",
+   "day": 128,
+   "chapter": 8,
+   "leg": "portugal",
+   "lat": 31.137,
+   "lon": -7.919,
+   "wikipedia": "Toubkal",
+   "link": "https://en.wikipedia.org/wiki/Toubkal",
+   "country": "Morocco"
+  },
+  {
    "id": "telouet-kasbah",
    "kind": "highlight",
    "name": "Telouet Kasbah",
    "title": "Telouet Kasbah",
    "caption": "Glaoui palace on the old caravan road",
    "type": "history",
-   "day": 134,
+   "day": 131,
    "chapter": 8,
    "leg": "portugal",
    "lat": 31.28833,
@@ -2422,7 +2109,7 @@
    "title": "Aït Benhaddou",
    "caption": "Earthen ksar",
    "type": "history",
-   "day": 135,
+   "day": 132,
    "chapter": 8,
    "leg": "portugal",
    "lat": 31.04722,
@@ -2438,7 +2125,7 @@
    "title": "Taourirt Kasbah",
    "caption": "Ouarzazate kasbah",
    "type": "history",
-   "day": 136,
+   "day": 132,
    "chapter": 8,
    "leg": "portugal",
    "lat": 30.92,
@@ -2448,51 +2135,67 @@
    "country": "Morocco"
   },
   {
-   "id": "agdz",
+   "id": "skoura",
    "kind": "highlight",
-   "name": "Agdz",
-   "title": "Agdz",
-   "caption": "Draa valley palm groves",
+   "name": "Skoura",
+   "title": "Skoura",
+   "caption": "Palm oasis and kasbahs",
    "type": "peaceful",
-   "day": 137,
+   "day": 133,
    "chapter": 8,
    "leg": "portugal",
-   "lat": 30.69778,
-   "lon": -6.44972,
-   "wikipedia": "Agdz",
-   "link": "https://en.wikipedia.org/wiki/Agdz",
+   "lat": 31.06056,
+   "lon": -6.55556,
+   "wikipedia": "Skoura",
+   "link": "https://en.wikipedia.org/wiki/Skoura",
    "country": "Morocco"
   },
   {
-   "id": "tamegroute",
+   "id": "kalaat-m-gouna",
    "kind": "highlight",
-   "name": "Tamegroute",
-   "title": "Tamegroute",
-   "caption": "Green pottery and old library; Zagora Sunday souk",
-   "type": "culture",
-   "day": 139,
+   "name": "Kalaat M'Gouna",
+   "title": "Kalaat M'Gouna",
+   "caption": "Valley of roses",
+   "type": "peaceful",
+   "day": 133,
    "chapter": 8,
    "leg": "portugal",
-   "lat": 30.26667,
-   "lon": -5.66667,
-   "wikipedia": "Tamegroute",
-   "link": "https://en.wikipedia.org/wiki/Tamegroute",
+   "lat": 31.24139,
+   "lon": -6.12833,
+   "wikipedia": "Kalaat M'Gouna",
+   "link": "https://en.wikipedia.org/wiki/Kalaat_M%27Gouna",
    "country": "Morocco"
   },
   {
-   "id": "n-kob",
+   "id": "dades-gorges",
    "kind": "highlight",
-   "name": "N'Kob",
-   "title": "N'Kob",
-   "caption": "Village of kasbahs",
-   "type": "history",
-   "day": 140,
+   "name": "Dadès Gorges",
+   "title": "Dadès Gorges",
+   "caption": "Hairpin road through red rock",
+   "type": "nature",
+   "day": 134,
    "chapter": 8,
    "leg": "portugal",
-   "lat": 30.87056,
-   "lon": -5.8625,
-   "wikipedia": "N'Kob",
-   "link": "https://en.wikipedia.org/wiki/N%27Kob",
+   "lat": 31.482,
+   "lon": -5.956,
+   "wikipedia": "Dadès Gorges",
+   "link": "https://en.wikipedia.org/wiki/Dad%C3%A8s_Gorges",
+   "country": "Morocco"
+  },
+  {
+   "id": "todgha-gorge",
+   "kind": "highlight",
+   "name": "Todgha Gorge",
+   "title": "Todgha Gorge",
+   "caption": "300 m canyon walls",
+   "type": "nature",
+   "day": 135,
+   "chapter": 8,
+   "leg": "portugal",
+   "lat": 31.59,
+   "lon": -5.59,
+   "wikipedia": "Todgha Gorge",
+   "link": "https://en.wikipedia.org/wiki/Todgha_Gorge",
    "country": "Morocco"
   },
   {
@@ -2500,9 +2203,9 @@
    "kind": "highlight",
    "name": "Rissani",
    "title": "Rissani",
-   "caption": "Market town of the Tafilalt; Tuesday souk",
+   "caption": "Market town of the Tafilalt; Thursday souk",
    "type": "culture",
-   "day": 141,
+   "day": 136,
    "chapter": 8,
    "leg": "portugal",
    "lat": 31.28595,
@@ -2516,7 +2219,7 @@
    "kind": "stop",
    "name": "Merzouga",
    "caption": "Erg Chebbi dunes",
-   "day": 142,
+   "day": 137,
    "chapter": 8,
    "leg": "morocco",
    "lat": 31.08,
@@ -2525,446 +2228,51 @@
    "country": "Morocco"
   },
   {
-   "id": "todgha-gorge",
+   "id": "ziz-river",
    "kind": "highlight",
-   "name": "Todgha Gorge",
-   "title": "Todgha Gorge",
-   "caption": "300 m canyon walls",
+   "name": "Ziz River",
+   "title": "Ziz River",
+   "caption": "Ziz gorges and palm valley",
    "type": "nature",
-   "day": 143,
+   "day": 140,
    "chapter": 8,
    "leg": "morocco",
-   "lat": 31.59,
-   "lon": -5.59,
-   "wikipedia": "Todgha Gorge",
-   "link": "https://en.wikipedia.org/wiki/Todgha_Gorge",
+   "lat": 32.15,
+   "lon": -4.43,
+   "wikipedia": "Ziz River",
+   "link": "https://en.wikipedia.org/wiki/Ziz_River",
    "country": "Morocco"
   },
   {
-   "id": "dades-gorges",
+   "id": "midelt",
    "kind": "highlight",
-   "name": "Dadès Gorges",
-   "title": "Dadès Gorges",
-   "caption": "Hairpin road through red rock",
-   "type": "nature",
-   "day": 144,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 31.482,
-   "lon": -5.956,
-   "wikipedia": "Dadès Gorges",
-   "link": "https://en.wikipedia.org/wiki/Dad%C3%A8s_Gorges",
-   "country": "Morocco"
-  },
-  {
-   "id": "kalaat-m-gouna",
-   "kind": "highlight",
-   "name": "Kalaat M'Gouna",
-   "title": "Kalaat M'Gouna",
-   "caption": "Valley of roses",
+   "name": "Midelt",
+   "title": "Midelt",
+   "caption": "Apple town under Jbel Ayachi",
    "type": "peaceful",
+   "day": 142,
+   "chapter": 8,
+   "leg": "morocco",
+   "lat": 32.68,
+   "lon": -4.74,
+   "wikipedia": "Midelt",
+   "link": "https://en.wikipedia.org/wiki/Midelt",
+   "country": "Morocco"
+  },
+  {
+   "id": "azrou",
+   "kind": "highlight",
+   "name": "Azrou",
+   "title": "Azrou",
+   "caption": "Middle Atlas market town",
+   "type": "culture",
    "day": 145,
    "chapter": 8,
    "leg": "morocco",
-   "lat": 31.24139,
-   "lon": -6.12833,
-   "wikipedia": "Kalaat M'Gouna",
-   "link": "https://en.wikipedia.org/wiki/Kalaat_M%27Gouna",
-   "country": "Morocco"
-  },
-  {
-   "id": "skoura",
-   "kind": "highlight",
-   "name": "Skoura",
-   "title": "Skoura",
-   "caption": "Palm oasis and kasbahs",
-   "type": "peaceful",
-   "day": 146,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 31.06056,
-   "lon": -6.55556,
-   "wikipedia": "Skoura",
-   "link": "https://en.wikipedia.org/wiki/Skoura",
-   "country": "Morocco"
-  },
-  {
-   "id": "taliouine",
-   "kind": "highlight",
-   "name": "Taliouine",
-   "title": "Taliouine",
-   "caption": "Saffron country",
-   "type": "culture",
-   "day": 147,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.53278,
-   "lon": -7.92556,
-   "wikipedia": "Taliouine",
-   "link": "https://en.wikipedia.org/wiki/Taliouine",
-   "country": "Morocco"
-  },
-  {
-   "id": "taroudant",
-   "kind": "highlight",
-   "name": "Taroudant",
-   "title": "Taroudant",
-   "caption": "Walled market town",
-   "type": "history",
-   "day": 148,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.471,
-   "lon": -8.8806,
-   "wikipedia": "Taroudant",
-   "link": "https://en.wikipedia.org/wiki/Taroudant",
-   "country": "Morocco"
-  },
-  {
-   "id": "taghazout",
-   "kind": "highlight",
-   "name": "Taghazout",
-   "title": "Taghazout",
-   "caption": "Surf village",
-   "type": "beach",
-   "day": 149,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.58467,
-   "lon": -9.6785,
-   "wikipedia": "Taghazout",
-   "link": "https://en.wikipedia.org/wiki/Taghazout",
-   "country": "Morocco"
-  },
-  {
-   "id": "agadir-oufella",
-   "kind": "highlight",
-   "name": "Agadir Oufla",
-   "title": "Agadir Oufella",
-   "caption": "Kasbah ruins over the bay",
-   "type": "history",
-   "day": 150,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.43028,
-   "lon": -9.62472,
-   "wikipedia": "Agadir Oufla",
-   "link": "https://en.wikipedia.org/wiki/Agadir_Oufla",
-   "country": "Morocco"
-  },
-  {
-   "id": "souss-massa-national-park",
-   "kind": "highlight",
-   "name": "Souss-Massa National Park",
-   "title": "Souss-Massa National Park",
-   "caption": "Bald ibis and estuary",
-   "type": "nature",
-   "day": 151,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.075,
-   "lon": -9.67,
-   "wikipedia": "Souss-Massa National Park",
-   "link": "https://en.wikipedia.org/wiki/Souss-Massa_National_Park",
-   "country": "Morocco"
-  },
-  {
-   "id": "aglou",
-   "kind": "highlight",
-   "name": "Tnine Aglou",
-   "title": "Aglou",
-   "caption": "Long Atlantic beach",
-   "type": "beach",
-   "day": 152,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.78889,
-   "lon": -9.81261,
-   "wikipedia": "Tnine Aglou",
-   "link": "https://en.wikipedia.org/wiki/Tnine_Aglou",
-   "country": "Morocco"
-  },
-  {
-   "id": "tiznit",
-   "kind": "stop",
-   "name": "Tiznit",
-   "caption": "Winter under the sun",
-   "day": 153,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.697,
-   "lon": -9.732,
-   "link": "https://www.openstreetmap.org/?mlat=29.697&mlon=-9.732#map=14/29.697/-9.732",
-   "country": "Morocco"
-  },
-  {
-   "id": "mirleft",
-   "kind": "highlight",
-   "name": "Mirleft",
-   "title": "Mirleft",
-   "caption": "Cliff coves",
-   "type": "beach",
-   "day": 154,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.6081,
-   "lon": -9.9698,
-   "wikipedia": "Mirleft",
-   "link": "https://en.wikipedia.org/wiki/Mirleft",
-   "country": "Morocco"
-  },
-  {
-   "id": "legzira",
-   "kind": "highlight",
-   "name": "Legzira",
-   "title": "Legzira",
-   "caption": "Red sea arches",
-   "type": "beach",
-   "day": 158,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.44646,
-   "lon": -10.11562,
-   "link": "https://www.openstreetmap.org/?mlat=29.44646&mlon=-10.11562#map=14/29.44646/-10.11562",
-   "country": "Morocco"
-  },
-  {
-   "id": "sidi-ifni",
-   "kind": "highlight",
-   "name": "Sidi Ifni",
-   "title": "Sidi Ifni",
-   "caption": "Art-deco Spanish town",
-   "type": "history",
-   "day": 162,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.38333,
-   "lon": -10.16667,
-   "wikipedia": "Sidi Ifni",
-   "link": "https://en.wikipedia.org/wiki/Sidi_Ifni",
-   "country": "Morocco"
-  },
-  {
-   "id": "guelmim",
-   "kind": "highlight",
-   "name": "Guelmim",
-   "title": "Guelmim",
-   "caption": "Camel market, gateway to the Sahara",
-   "type": "culture",
-   "day": 167,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 28.98333,
-   "lon": -10.06667,
-   "wikipedia": "Guelmim",
-   "link": "https://en.wikipedia.org/wiki/Guelmim",
-   "country": "Morocco"
-  },
-  {
-   "id": "tan-tan",
-   "kind": "highlight",
-   "name": "Tan-Tan",
-   "title": "Tan-Tan",
-   "caption": "Saharan town",
-   "type": "culture",
-   "day": 171,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 28.43333,
-   "lon": -11.1,
-   "wikipedia": "Tan-Tan",
-   "link": "https://en.wikipedia.org/wiki/Tan-Tan",
-   "country": "Morocco"
-  },
-  {
-   "id": "khenifiss-national-park",
-   "kind": "highlight",
-   "name": "Khenifiss National Park",
-   "title": "Khenifiss National Park",
-   "caption": "Lagoon and flamingos",
-   "type": "nature",
-   "day": 176,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 27.93333,
-   "lon": -12.33333,
-   "wikipedia": "Khenifiss National Park",
-   "link": "https://en.wikipedia.org/wiki/Khenifiss_National_Park",
-   "country": "Morocco"
-  },
-  {
-   "id": "tarfaya",
-   "kind": "highlight",
-   "name": "Tarfaya",
-   "title": "Tarfaya",
-   "caption": "Saint-Exupéry's airmail post",
-   "type": "history",
-   "day": 180,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 27.93944,
-   "lon": -12.92611,
-   "wikipedia": "Tarfaya",
-   "link": "https://en.wikipedia.org/wiki/Tarfaya",
-   "country": "Morocco"
-  },
-  {
-   "id": "amtoudi",
-   "kind": "highlight",
-   "name": "Amtoudi",
-   "title": "Amtoudi",
-   "caption": "Fortified granary on a crag",
-   "type": "history",
-   "day": 185,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.24278,
-   "lon": -9.18667,
-   "wikipedia": "Amtoudi",
-   "link": "https://en.wikipedia.org/wiki/Amtoudi",
-   "country": "Morocco"
-  },
-  {
-   "id": "akka",
-   "kind": "highlight",
-   "name": "Akka",
-   "title": "Akka",
-   "caption": "Oasis and rock art",
-   "type": "history",
-   "day": 189,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.39186,
-   "lon": -8.25676,
-   "wikipedia": "Akka",
-   "link": "https://en.wikipedia.org/wiki/Akka",
-   "country": "Morocco"
-  },
-  {
-   "id": "tata-morocco",
-   "kind": "highlight",
-   "name": "Tata, Morocco",
-   "title": "Tata, Morocco",
-   "caption": "Desert oasis town",
-   "type": "peaceful",
-   "day": 194,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.74278,
-   "lon": -7.9725,
-   "wikipedia": "Tata, Morocco",
-   "link": "https://en.wikipedia.org/wiki/Tata%2C_Morocco",
-   "country": "Morocco"
-  },
-  {
-   "id": "tafraoute",
-   "kind": "highlight",
-   "name": "Tafraout",
-   "title": "Tafraoute",
-   "caption": "Granite valley of almond blossom",
-   "type": "peaceful",
-   "day": 198,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 29.71667,
-   "lon": -8.96667,
-   "wikipedia": "Tafraout",
-   "link": "https://en.wikipedia.org/wiki/Tafraout",
-   "country": "Morocco"
-  },
-  {
-   "id": "imsouane",
-   "kind": "highlight",
-   "name": "Imsouane",
-   "title": "Imsouane",
-   "caption": "Long right-hand wave",
-   "type": "beach",
-   "day": 203,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 30.84333,
-   "lon": -9.81861,
-   "wikipedia": "Imsouane",
-   "link": "https://en.wikipedia.org/wiki/Imsouane",
-   "country": "Morocco"
-  },
-  {
-   "id": "toubkal",
-   "kind": "highlight",
-   "name": "Toubkal",
-   "title": "Toubkal",
-   "caption": "Winter ascent of North Africa's highest peak, 4,167 m, from Imlil; Asni Saturday souk on the way out (12 Feb)",
-   "type": "nature",
-   "day": 205,
-   "chapter": 8,
-   "leg": "morocco",
-   "lat": 31.137,
-   "lon": -7.919,
-   "wikipedia": "Toubkal",
-   "link": "https://en.wikipedia.org/wiki/Toubkal",
-   "country": "Morocco"
-  },
-  {
-   "id": "essaouira",
-   "kind": "highlight",
-   "name": "Essaouira",
-   "title": "Essaouira",
-   "caption": "Ramparts and fishing port",
-   "type": "culture",
-   "day": 209,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 31.51306,
-   "lon": -9.76972,
-   "wikipedia": "Essaouira",
-   "link": "https://en.wikipedia.org/wiki/Essaouira",
-   "country": "Morocco"
-  },
-  {
-   "id": "oualidia",
-   "kind": "highlight",
-   "name": "Oualidia",
-   "title": "Oualidia",
-   "caption": "Lagoon and oysters",
-   "type": "peaceful",
-   "day": 210,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 32.73333,
-   "lon": -9.01667,
-   "wikipedia": "Oualidia",
-   "link": "https://en.wikipedia.org/wiki/Oualidia",
-   "country": "Morocco"
-  },
-  {
-   "id": "portuguese-city-of-mazagan",
-   "kind": "highlight",
-   "name": "Portuguese City of Mazagan",
-   "title": "Portuguese City of Mazagan",
-   "caption": "Portuguese cistern, El Jadida",
-   "type": "history",
-   "day": 211,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 33.2568,
-   "lon": -8.50233,
-   "link": "https://www.openstreetmap.org/?mlat=33.2568&mlon=-8.50233#map=14/33.2568/-8.50233",
-   "country": "Morocco"
-  },
-  {
-   "id": "hassan-ii-mosque",
-   "kind": "highlight",
-   "name": "Hassan II Mosque",
-   "title": "Hassan II Mosque",
-   "caption": "Mosque over the Atlantic",
-   "type": "culture",
-   "day": 212,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 33.6085,
-   "lon": -7.6327,
-   "wikipedia": "Hassan II Mosque",
-   "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+   "lat": 33.43,
+   "lon": -5.22,
+   "wikipedia": "Azrou",
+   "link": "https://en.wikipedia.org/wiki/Azrou",
    "country": "Morocco"
   },
   {
@@ -2974,8 +2282,8 @@
    "title": "Kasbah of the Udayas",
    "caption": "Blue-and-white kasbah, Rabat",
    "type": "history",
-   "day": 213,
-   "chapter": 9,
+   "day": 148,
+   "chapter": 8,
    "leg": "morocco",
    "lat": 34.03056,
    "lon": -6.83556,
@@ -2990,14 +2298,27 @@
    "title": "Asilah",
    "caption": "Whitewashed walls and murals",
    "type": "culture",
-   "day": 214,
-   "chapter": 9,
+   "day": 151,
+   "chapter": 8,
    "leg": "morocco",
    "lat": 35.46667,
    "lon": -6.03333,
    "wikipedia": "Asilah",
    "link": "https://en.wikipedia.org/wiki/Asilah",
    "country": "Morocco"
+  },
+  {
+   "id": "malaga",
+   "kind": "stop",
+   "name": "Málaga",
+   "caption": "Van in storage; home for the winter",
+   "day": 154,
+   "chapter": 8,
+   "leg": "return",
+   "lat": 36.674,
+   "lon": -4.499,
+   "link": "https://www.openstreetmap.org/?mlat=36.674&mlon=-4.499#map=14/36.674/-4.499",
+   "country": "Spain"
   },
   {
    "id": "rock-of-gibraltar",
@@ -3008,7 +2329,7 @@
    "type": "nature",
    "day": 215,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.12447,
    "lon": -5.34311,
    "wikipedia": "Rock of Gibraltar",
@@ -3024,7 +2345,7 @@
    "type": "beach",
    "day": 217,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.08972,
    "lon": -5.77472,
    "wikipedia": "Baelo Claudia",
@@ -3040,27 +2361,11 @@
    "type": "culture",
    "day": 220,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.535,
    "lon": -6.2975,
    "wikipedia": "Cádiz",
    "link": "https://en.wikipedia.org/wiki/C%C3%A1diz",
-   "country": "Spain"
-  },
-  {
-   "id": "donana-national-park",
-   "kind": "highlight",
-   "name": "Doñana National Park",
-   "title": "Doñana National Park",
-   "caption": "Marshes, lynx and flamingos",
-   "type": "nature",
-   "day": 223,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 37,
-   "lon": -6.5,
-   "wikipedia": "Doñana National Park",
-   "link": "https://en.wikipedia.org/wiki/Do%C3%B1ana_National_Park",
    "country": "Spain"
   },
   {
@@ -3070,9 +2375,9 @@
    "title": "Alcázar of Seville",
    "caption": "Royal palace and gardens",
    "type": "history",
-   "day": 224,
+   "day": 221,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.38321,
    "lon": -5.99018,
    "wikipedia": "Alcázar of Seville",
@@ -3086,9 +2391,9 @@
    "title": "Mosque–Cathedral of Córdoba",
    "caption": "Forest of striped arches",
    "type": "history",
-   "day": 225,
+   "day": 223,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.87917,
    "lon": -4.77972,
    "wikipedia": "Mosque–Cathedral of Córdoba",
@@ -3102,9 +2407,9 @@
    "title": "Setenil de las Bodegas",
    "caption": "Houses under the rock",
    "type": "peaceful",
-   "day": 226,
+   "day": 224,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.8625,
    "lon": -5.18139,
    "wikipedia": "Setenil de las Bodegas",
@@ -3118,9 +2423,9 @@
    "title": "Ronda",
    "caption": "Bridge over the gorge",
    "type": "history",
-   "day": 228,
+   "day": 226,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.73722,
    "lon": -5.16472,
    "wikipedia": "Ronda",
@@ -3134,9 +2439,9 @@
    "title": "Caminito del Rey",
    "caption": "Cliff walkway through a gorge",
    "type": "nature",
-   "day": 229,
+   "day": 227,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.91583,
    "lon": -4.77278,
    "wikipedia": "Caminito del Rey",
@@ -3150,9 +2455,9 @@
    "title": "Cave of Nerja",
    "caption": "Giant caverns by the sea",
    "type": "nature",
-   "day": 230,
+   "day": 229,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.76175,
    "lon": -3.84484,
    "link": "https://www.openstreetmap.org/?mlat=36.76175&mlon=-3.84484#map=14/36.76175/-3.84484",
@@ -3165,9 +2470,9 @@
    "title": "Alhambra",
    "caption": "Nasrid palaces, Granada",
    "type": "history",
-   "day": 232,
+   "day": 230,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.1775,
    "lon": -3.59,
    "wikipedia": "Alhambra",
@@ -3181,9 +2486,9 @@
    "title": "Guadix",
    "caption": "Cave houses",
    "type": "culture",
-   "day": 233,
+   "day": 232,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.3006,
    "lon": -3.135,
    "wikipedia": "Guadix",
@@ -3197,9 +2502,9 @@
    "title": "Cabo de Gata-Níjar Natural Park",
    "caption": "Volcanic coast and empty coves",
    "type": "beach",
-   "day": 234,
+   "day": 233,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 36.78333,
    "lon": -2.1,
    "wikipedia": "Cabo de Gata-Níjar Natural Park",
@@ -3213,9 +2518,9 @@
    "title": "Mojácar",
    "caption": "White village above the sea",
    "type": "beach",
-   "day": 236,
+   "day": 235,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.14028,
    "lon": -1.85139,
    "wikipedia": "Mojácar",
@@ -3229,9 +2534,9 @@
    "title": "Roman Theatre of Cartagena",
    "caption": "Theatre found under the city",
    "type": "history",
-   "day": 237,
+   "day": 236,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 37.5995,
    "lon": -0.9841,
    "wikipedia": "Roman Theatre (Cartagena)",
@@ -3247,7 +2552,7 @@
    "type": "peaceful",
    "day": 238,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 38.67694,
    "lon": -0.19778,
    "wikipedia": "El Castell de Guadalest",
@@ -3263,7 +2568,7 @@
    "type": "culture",
    "day": 240,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 39.45417,
    "lon": -0.35,
    "wikipedia": "City of Arts and Sciences",
@@ -3279,7 +2584,7 @@
    "type": "peaceful",
    "day": 242,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 39.33445,
    "lon": -0.35815,
    "link": "https://www.openstreetmap.org/?mlat=39.33445&mlon=-0.35815#map=14/39.33445/-0.35815",
@@ -3294,27 +2599,11 @@
    "type": "history",
    "day": 245,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 40.35917,
    "lon": 0.4075,
    "wikipedia": "Peniscola",
    "link": "https://en.wikipedia.org/wiki/Peniscola",
-   "country": "Spain"
-  },
-  {
-   "id": "morella-castellon",
-   "kind": "highlight",
-   "name": "Morella, Spain",
-   "title": "Morella, Castellón",
-   "caption": "Walled hill town",
-   "type": "history",
-   "day": 245,
-   "chapter": 9,
-   "leg": "morocco",
-   "lat": 40.61961,
-   "lon": -0.10172,
-   "wikipedia": "Morella, Spain",
-   "link": "https://en.wikipedia.org/wiki/Morella%2C_Spain",
    "country": "Spain"
   },
   {
@@ -3324,9 +2613,9 @@
    "title": "Ebro Delta",
    "caption": "Rice fields and flamingos",
    "type": "nature",
-   "day": 246,
+   "day": 245,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 40.57222,
    "lon": 0.64302,
    "wikipedia": "Ebro Delta",
@@ -3342,7 +2631,7 @@
    "type": "history",
    "day": 246,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 41.11444,
    "lon": 1.25881,
    "link": "https://www.openstreetmap.org/?mlat=41.11444&mlon=1.25881#map=14/41.11444/1.25881",
@@ -3355,9 +2644,9 @@
    "title": "Sitges",
    "caption": "Beaches and old town",
    "type": "beach",
-   "day": 247,
+   "day": 246,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 41.237,
    "lon": 1.823,
    "wikipedia": "Sitges",
@@ -3373,7 +2662,7 @@
    "type": "history",
    "day": 247,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 41.9875,
    "lon": 2.82639,
    "wikipedia": "Girona Cathedral",
@@ -3387,9 +2676,9 @@
    "title": "Besalú",
    "caption": "Medieval bridge",
    "type": "history",
-   "day": 248,
+   "day": 247,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 42.19864,
    "lon": 2.69596,
    "wikipedia": "Besalú",
@@ -3405,7 +2694,7 @@
    "type": "beach",
    "day": 248,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 42.28935,
    "lon": 3.27522,
    "wikipedia": "Cadaqués",
@@ -3419,9 +2708,9 @@
    "title": "Cap de Creus",
    "caption": "Wind-carved headland",
    "type": "nature",
-   "day": 249,
+   "day": 248,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 42.31917,
    "lon": 3.32194,
    "wikipedia": "Cap de Creus",
@@ -3437,7 +2726,7 @@
    "type": "beach",
    "day": 249,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 42.5267,
    "lon": 3.0814,
    "wikipedia": "Collioure",
@@ -3451,9 +2740,9 @@
    "title": "Cité de Carcassonne",
    "caption": "Walled medieval city",
    "type": "history",
-   "day": 250,
+   "day": 249,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 43.20662,
    "lon": 2.36398,
    "wikipedia": "Cité de Carcassonne",
@@ -3469,7 +2758,7 @@
    "type": "history",
    "day": 250,
    "chapter": 9,
-   "leg": "morocco",
+   "leg": "return",
    "lat": 43.5675,
    "lon": 4.1933,
    "wikipedia": "Aigues-Mortes",
@@ -3527,7 +2816,7 @@
    "title": "Glanum",
    "caption": "Roman town under the Alpilles",
    "type": "history",
-   "day": 252,
+   "day": 253,
    "chapter": 10,
    "leg": "return",
    "lat": 43.64114,
@@ -3558,7 +2847,7 @@
    "title": "Cours Mirabeau",
    "caption": "Fountains and plane trees, Aix",
    "type": "culture",
-   "day": 253,
+   "day": 254,
    "chapter": 10,
    "leg": "return",
    "lat": 43.52694,
@@ -3588,7 +2877,7 @@
    "title": "Calanques National Park",
    "caption": "Limestone inlets",
    "type": "beach",
-   "day": 254,
+   "day": 255,
    "chapter": 10,
    "leg": "return",
    "lat": 43.21667,
@@ -3620,7 +2909,7 @@
    "title": "Lac de Sainte-Croix",
    "caption": "Turquoise lake for a swim",
    "type": "beach",
-   "day": 255,
+   "day": 256,
    "chapter": 10,
    "leg": "return",
    "lat": 43.76732,
@@ -3651,7 +2940,7 @@
    "title": "Moustiers-Sainte-Marie",
    "caption": "Village with a star on a chain",
    "type": "peaceful",
-   "day": 256,
+   "day": 257,
    "chapter": 10,
    "leg": "return",
    "lat": 43.8483,
@@ -3682,7 +2971,7 @@
    "title": "Gordes",
    "caption": "Stone village on a hill",
    "type": "peaceful",
-   "day": 257,
+   "day": 258,
    "chapter": 10,
    "leg": "return",
    "lat": 43.9119,
@@ -3714,7 +3003,7 @@
    "title": "Roussillon, Vaucluse",
    "caption": "Ochre cliffs",
    "type": "nature",
-   "day": 258,
+   "day": 259,
    "chapter": 10,
    "leg": "return",
    "lat": 43.9031,
@@ -3745,7 +3034,7 @@
    "title": "L'Isle-sur-la-Sorgue",
    "caption": "Water wheels and antiques",
    "type": "culture",
-   "day": 259,
+   "day": 260,
    "chapter": 10,
    "leg": "return",
    "lat": 43.91854,
@@ -3776,7 +3065,7 @@
    "title": "Pont du Gard",
    "caption": "Roman aqueduct",
    "type": "history",
-   "day": 260,
+   "day": 261,
    "chapter": 10,
    "leg": "return",
    "lat": 43.94722,
@@ -3807,7 +3096,7 @@
    "title": "Vaison-la-Romaine",
    "caption": "Roman town and medieval upper town",
    "type": "history",
-   "day": 261,
+   "day": 262,
    "chapter": 10,
    "leg": "return",
    "lat": 44.24076,
@@ -3837,29 +3126,13 @@
    "title": "Mont Ventoux",
    "caption": "Giant of Provence",
    "type": "nature",
-   "day": 262,
+   "day": 263,
    "chapter": 10,
    "leg": "return",
    "lat": 44.17444,
    "lon": 5.27889,
    "wikipedia": "Mont Ventoux",
    "link": "https://en.wikipedia.org/wiki/Mont_Ventoux",
-   "country": "France"
-  },
-  {
-   "id": "pont-d-arc",
-   "kind": "highlight",
-   "name": "Pont d'Arc",
-   "title": "Pont d'Arc",
-   "caption": "Natural arch over the Ardèche",
-   "type": "nature",
-   "day": 263,
-   "chapter": 10,
-   "leg": "return",
-   "lat": 44.38194,
-   "lon": 4.41667,
-   "wikipedia": "Pont d'Arc",
-   "link": "https://en.wikipedia.org/wiki/Pont_d%27Arc",
    "country": "France"
   },
   {
@@ -3884,7 +3157,7 @@
    "title": "Vercors Massif",
    "caption": "Limestone plateau",
    "type": "nature",
-   "day": 263,
+   "day": 264,
    "chapter": 10,
    "leg": "return",
    "lat": 44.96667,
@@ -3915,7 +3188,7 @@
    "title": "Grande Chartreuse",
    "caption": "Monastery in the mountains",
    "type": "peaceful",
-   "day": 264,
+   "day": 265,
    "chapter": 10,
    "leg": "return",
    "lat": 45.36339,
@@ -3946,8 +3219,8 @@
    "title": "Pérouges",
    "caption": "Medieval village",
    "type": "history",
-   "day": 265,
-   "chapter": 10,
+   "day": 266,
+   "chapter": 11,
    "leg": "return",
    "lat": 45.90735,
    "lon": 5.17273,
@@ -3978,7 +3251,7 @@
    "title": "Palais de l'Isle",
    "caption": "Prison on the canal, Annecy",
    "type": "history",
-   "day": 266,
+   "day": 267,
    "chapter": 11,
    "leg": "return",
    "lat": 45.89857,
@@ -4008,7 +3281,7 @@
    "title": "Aiguille du Midi",
    "caption": "Cable car to Mont Blanc's face",
    "type": "nature",
-   "day": 267,
+   "day": 268,
    "chapter": 11,
    "leg": "return",
    "lat": 45.87861,
@@ -4039,7 +3312,7 @@
    "title": "Lavaux",
    "caption": "Vineyard terraces over Lake Geneva",
    "type": "culture",
-   "day": 268,
+   "day": 269,
    "chapter": 11,
    "leg": "return",
    "lat": 46.49194,
@@ -4071,7 +3344,7 @@
    "title": "Gruyères",
    "caption": "Cheese town and castle",
    "type": "culture",
-   "day": 269,
+   "day": 270,
    "chapter": 11,
    "leg": "return",
    "lat": 46.58333,
@@ -4103,7 +3376,7 @@
    "title": "Oeschinen Lake",
    "caption": "Lake under the cliffs",
    "type": "nature",
-   "day": 270,
+   "day": 271,
    "chapter": 11,
    "leg": "return",
    "lat": 46.4985,
@@ -4134,28 +3407,12 @@
    "title": "Chapel Bridge",
    "caption": "Wooden bridge, Lucerne",
    "type": "history",
-   "day": 271,
+   "day": 272,
    "chapter": 11,
    "leg": "return",
    "lat": 47.05183,
    "lon": 8.30771,
    "link": "https://www.openstreetmap.org/?mlat=47.05183&mlon=8.30771#map=14/47.05183/8.30771",
-   "country": "Switzerland"
-  },
-  {
-   "id": "rhine-falls",
-   "kind": "highlight",
-   "name": "Rhine Falls",
-   "title": "Rhine Falls",
-   "caption": "Europe's largest waterfall by volume",
-   "type": "nature",
-   "day": 272,
-   "chapter": 11,
-   "leg": "return",
-   "lat": 47.67722,
-   "lon": 8.61583,
-   "wikipedia": "Rhine Falls",
-   "link": "https://en.wikipedia.org/wiki/Rhine_Falls",
    "country": "Switzerland"
   },
   {
@@ -4630,7 +3887,7 @@
    "title": "Frauenkirche, Dresden",
    "caption": "Rebuilt baroque church",
    "type": "culture",
-   "day": 290,
+   "day": 291,
    "chapter": 12,
    "leg": "return",
    "lat": 51.05194,
@@ -4646,7 +3903,7 @@
    "title": "Moritzburg Castle (Saxony)",
    "caption": "Moated hunting lodge",
    "type": "history",
-   "day": 291,
+   "day": 292,
    "chapter": 12,
    "leg": "return",
    "lat": 51.16756,
@@ -4661,7 +3918,7 @@
    "title": "Görlitz",
    "caption": "Untouched old town on the Neisse",
    "type": "history",
-   "day": 292,
+   "day": 293,
    "chapter": 12,
    "leg": "return",
    "lat": 51.15632,
@@ -4676,44 +3933,13 @@
    "title": "Muskau Park",
    "caption": "Landscape park across the border",
    "type": "peaceful",
-   "day": 293,
+   "day": 294,
    "chapter": 12,
    "leg": "return",
    "lat": 51.55028,
    "lon": 14.72667,
    "wikipedia": "Muskau Park",
    "link": "https://en.wikipedia.org/wiki/Muskau_Park",
-   "country": "Germany"
-  },
-  {
-   "id": "spreewald",
-   "kind": "highlight",
-   "name": "Spree Forest",
-   "title": "Spreewald",
-   "caption": "Paddle the forest canals",
-   "type": "peaceful",
-   "day": 293,
-   "chapter": 12,
-   "leg": "return",
-   "lat": 51.91389,
-   "lon": 13.92639,
-   "wikipedia": "Spree Forest",
-   "link": "https://en.wikipedia.org/wiki/Spree_Forest",
-   "country": "Germany"
-  },
-  {
-   "id": "all-saints-church-wittenberg",
-   "kind": "highlight",
-   "name": "All Saints' Church, Wittenberg",
-   "title": "All Saints' Church, Wittenberg",
-   "caption": "Luther's theses door",
-   "type": "history",
-   "day": 294,
-   "chapter": 12,
-   "leg": "return",
-   "lat": 51.86638,
-   "lon": 12.63803,
-   "link": "https://www.openstreetmap.org/?mlat=51.86638&mlon=12.63803#map=14/51.86638/12.63803",
    "country": "Germany"
   },
   {
@@ -4746,317 +3972,36 @@
    "country": "Germany"
   },
   {
-   "id": "chorin-abbey",
+   "id": "curonian-spit",
    "kind": "highlight",
-   "name": "Chorin Abbey",
-   "title": "Chorin Abbey",
-   "caption": "Brick Gothic abbey ruin",
-   "type": "history",
-   "day": 297,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 52.8928,
-   "lon": 13.8836,
-   "wikipedia": "Chorin Abbey",
-   "link": "https://en.wikipedia.org/wiki/Chorin_Abbey",
-   "country": "Germany"
-  },
-  {
-   "id": "pomeranian-dukes-castle",
-   "kind": "highlight",
-   "name": "Pomeranian Dukes' Castle",
-   "title": "Pomeranian Dukes' Castle",
-   "caption": "Renaissance castle, Szczecin",
-   "type": "history",
-   "day": 297,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 53.42619,
-   "lon": 14.56103,
-   "link": "https://www.openstreetmap.org/?mlat=53.42619&mlon=14.56103#map=14/53.42619/14.56103",
-   "country": "Poland"
-  },
-  {
-   "id": "trzesacz",
-   "kind": "highlight",
-   "name": "Trzęsacz",
-   "title": "Trzęsacz",
-   "caption": "Church ruin on the cliff edge",
-   "type": "peaceful",
-   "day": 298,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.07574,
-   "lon": 14.99276,
-   "link": "https://www.openstreetmap.org/?mlat=54.07574&mlon=14.99276#map=14/54.07574/14.99276",
-   "country": "Poland"
-  },
-  {
-   "id": "wolin-national-park",
-   "kind": "highlight",
-   "name": "Wolin National Park",
-   "title": "Wolin National Park",
-   "caption": "Cliffs and bison",
+   "name": "Curonian Spit",
+   "title": "Curonian Spit",
+   "caption": "Dunes and pine forest; UNESCO",
    "type": "nature",
-   "day": 299,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 53.93333,
-   "lon": 14.45,
-   "wikipedia": "Wolin National Park",
-   "link": "https://en.wikipedia.org/wiki/Wolin_National_Park",
-   "country": "Poland"
-  },
-  {
-   "id": "slowinski-national-park",
-   "kind": "highlight",
-   "name": "Slovincian National Park",
-   "title": "Słowiński National Park",
-   "caption": "Moving sand dunes",
-   "type": "nature",
-   "day": 300,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.70333,
-   "lon": 17.30694,
-   "wikipedia": "Slovincian National Park",
-   "link": "https://en.wikipedia.org/wiki/Slovincian_National_Park",
-   "country": "Poland"
-  },
-  {
-   "id": "hel-peninsula",
-   "kind": "highlight",
-   "name": "Hel Peninsula",
-   "title": "Hel Peninsula",
-   "caption": "Sand spit into the Baltic",
-   "type": "beach",
-   "day": 301,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.64167,
-   "lon": 18.78139,
-   "wikipedia": "Hel Peninsula",
-   "link": "https://en.wikipedia.org/wiki/Hel_Peninsula",
-   "country": "Poland"
-  },
-  {
-   "id": "sopot",
-   "kind": "highlight",
-   "name": "Sopot",
-   "title": "Sopot",
-   "caption": "Longest wooden pier in Europe",
-   "type": "beach",
    "day": 302,
    "chapter": 13,
    "leg": "return",
-   "lat": 54.44304,
-   "lon": 18.56131,
-   "link": "https://www.openstreetmap.org/?mlat=54.44304&mlon=18.56131#map=14/54.44304/18.56131",
-   "country": "Poland"
+   "lat": 55.304,
+   "lon": 21.005,
+   "wikipedia": "Curonian Spit",
+   "link": "https://en.wikipedia.org/wiki/Curonian_Spit",
+   "country": "Lithuania"
   },
   {
-   "id": "oliwa-cathedral",
+   "id": "kaunas-castle",
    "kind": "highlight",
-   "name": "Oliwa Cathedral",
-   "title": "Oliwa Cathedral",
-   "caption": "Organ and park",
-   "type": "culture",
+   "name": "Kaunas Castle",
+   "title": "Kaunas Castle",
+   "caption": "Castle at the river fork",
+   "type": "history",
    "day": 303,
    "chapter": 13,
    "leg": "return",
-   "lat": 54.41076,
-   "lon": 18.557,
-   "link": "https://www.openstreetmap.org/?mlat=54.41076&mlon=18.557#map=14/54.41076/18.557",
-   "country": "Poland"
-  },
-  {
-   "id": "st-mary-s-church-gdansk",
-   "kind": "highlight",
-   "name": "St. Mary's Church, Gdańsk",
-   "title": "St. Mary's Church, Gdańsk",
-   "caption": "Largest brick church",
-   "type": "culture",
-   "day": 303,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.34975,
-   "lon": 18.65369,
-   "wikipedia": "St. Mary's Church, Gdańsk",
-   "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Church%2C_Gda%C5%84sk",
-   "country": "Poland"
-  },
-  {
-   "id": "westerplatte",
-   "kind": "highlight",
-   "name": "Westerplatte",
-   "title": "Westerplatte",
-   "caption": "Where WWII began",
-   "type": "history",
-   "day": 304,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.4075,
-   "lon": 18.67139,
-   "wikipedia": "Westerplatte",
-   "link": "https://en.wikipedia.org/wiki/Westerplatte",
-   "country": "Poland"
-  },
-  {
-   "id": "malbork-castle",
-   "kind": "highlight",
-   "name": "Malbork Castle",
-   "title": "Malbork Castle",
-   "caption": "Teutonic Knights' castle",
-   "type": "history",
-   "day": 305,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.03972,
-   "lon": 19.02778,
-   "wikipedia": "Malbork Castle",
-   "link": "https://en.wikipedia.org/wiki/Malbork_Castle",
-   "country": "Poland"
-  },
-  {
-   "id": "elblag-canal",
-   "kind": "highlight",
-   "name": "Elbląg Canal",
-   "title": "Elbląg Canal",
-   "caption": "Boats hauled over hills",
-   "type": "history",
-   "day": 306,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.02444,
-   "lon": 19.59778,
-   "wikipedia": "Elbląg Canal",
-   "link": "https://en.wikipedia.org/wiki/Elbl%C4%85g_Canal",
-   "country": "Poland"
-  },
-  {
-   "id": "frombork",
-   "kind": "highlight",
-   "name": "Frombork",
-   "title": "Frombork",
-   "caption": "Copernicus's cathedral",
-   "type": "history",
-   "day": 307,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.35,
-   "lon": 19.68333,
-   "wikipedia": "Frombork",
-   "link": "https://en.wikipedia.org/wiki/Frombork",
-   "country": "Poland"
-  },
-  {
-   "id": "lidzbark-warminski-castle",
-   "kind": "highlight",
-   "name": "Lidzbark Warmiński Castle",
-   "title": "Lidzbark Warmiński Castle",
-   "caption": "Bishops' castle of Warmia",
-   "type": "history",
-   "day": 308,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.12571,
-   "lon": 20.58306,
-   "link": "https://www.openstreetmap.org/?mlat=54.12571&mlon=20.58306#map=14/54.12571/20.58306",
-   "country": "Poland"
-  },
-  {
-   "id": "swieta-lipka",
-   "kind": "highlight",
-   "name": "Święta Lipka",
-   "title": "Święta Lipka",
-   "caption": "Baroque pilgrimage church",
-   "type": "culture",
-   "day": 309,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.03333,
-   "lon": 21.21667,
-   "wikipedia": "Święta Lipka",
-   "link": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Lipka",
-   "country": "Poland"
-  },
-  {
-   "id": "wolf-s-lair",
-   "kind": "highlight",
-   "name": "Wolf's Lair",
-   "title": "Wolf's Lair",
-   "caption": "Hitler's forest bunkers",
-   "type": "history",
-   "day": 309,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 54.0804,
-   "lon": 21.4941,
-   "wikipedia": "Wolf's Lair",
-   "link": "https://en.wikipedia.org/wiki/Wolf%27s_Lair",
-   "country": "Poland"
-  },
-  {
-   "id": "krutynia",
-   "kind": "highlight",
-   "name": "Krutynia",
-   "title": "Krutynia",
-   "caption": "Canoe the lake-forest river",
-   "type": "peaceful",
-   "day": 310,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 53.68715,
-   "lon": 21.43022,
-   "link": "https://www.openstreetmap.org/?mlat=53.68715&mlon=21.43022#map=14/53.68715/21.43022",
-   "country": "Poland"
-  },
-  {
-   "id": "mikolajki",
-   "kind": "highlight",
-   "name": "Mikołajki",
-   "title": "Mikołajki",
-   "caption": "Masurian lakes",
-   "type": "peaceful",
-   "day": 311,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 53.8,
-   "lon": 21.58333,
-   "wikipedia": "Mikołajki",
-   "link": "https://en.wikipedia.org/wiki/Miko%C5%82ajki",
-   "country": "Poland"
-  },
-  {
-   "id": "tykocin",
-   "kind": "highlight",
-   "name": "Tykocin",
-   "title": "Tykocin",
-   "caption": "Baroque synagogue in a quiet town",
-   "type": "history",
-   "day": 312,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 53.20765,
-   "lon": 22.77302,
-   "link": "https://www.openstreetmap.org/?mlat=53.20765&mlon=22.77302#map=14/53.20765/22.77302",
-   "country": "Poland"
-  },
-  {
-   "id": "bialowieza-forest",
-   "kind": "highlight",
-   "name": "Białowieża Forest",
-   "title": "Białowieża Forest",
-   "caption": "Primeval forest and bison",
-   "type": "nature",
-   "day": 313,
-   "chapter": 13,
-   "leg": "return",
-   "lat": 52.7009,
-   "lon": 23.8436,
-   "wikipedia": "Białowieża Forest",
-   "link": "https://en.wikipedia.org/wiki/Bia%C5%82owie%C5%BCa_Forest",
-   "country": "Poland"
+   "lat": 54.89889,
+   "lon": 23.885,
+   "wikipedia": "Kaunas Castle",
+   "link": "https://en.wikipedia.org/wiki/Kaunas_Castle",
+   "country": "Lithuania"
   },
   {
    "id": "druskininkai",
@@ -5065,7 +4010,7 @@
    "title": "Druskininkai",
    "caption": "Spa town on the Neman",
    "type": "peaceful",
-   "day": 314,
+   "day": 304,
    "chapter": 13,
    "leg": "return",
    "lat": 54.01667,
@@ -5081,8 +4026,8 @@
    "title": "Grūtas Park",
    "caption": "Soviet statue park",
    "type": "history",
-   "day": 315,
-   "chapter": 14,
+   "day": 305,
+   "chapter": 13,
    "leg": "return",
    "lat": 54.022,
    "lon": 24.079,
@@ -5097,8 +4042,8 @@
    "title": "Trakai Island Castle",
    "caption": "Castle in the lake",
    "type": "history",
-   "day": 316,
-   "chapter": 14,
+   "day": 306,
+   "chapter": 13,
    "leg": "return",
    "lat": 54.6525,
    "lon": 24.93306,
@@ -5113,8 +4058,8 @@
    "title": "Vilnius Old Town",
    "caption": "Baroque old town",
    "type": "culture",
-   "day": 316,
-   "chapter": 14,
+   "day": 307,
+   "chapter": 13,
    "leg": "return",
    "lat": 54.68667,
    "lon": 25.29306,
@@ -5129,29 +4074,13 @@
    "title": "Kernavė",
    "caption": "Hill forts of the first capital",
    "type": "history",
-   "day": 317,
-   "chapter": 14,
+   "day": 309,
+   "chapter": 13,
    "leg": "return",
    "lat": 54.88333,
    "lon": 24.85,
    "wikipedia": "Kernavė",
    "link": "https://en.wikipedia.org/wiki/Kernav%C4%97",
-   "country": "Lithuania"
-  },
-  {
-   "id": "kaunas-castle",
-   "kind": "highlight",
-   "name": "Kaunas Castle",
-   "title": "Kaunas Castle",
-   "caption": "Castle at the river fork",
-   "type": "history",
-   "day": 318,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 54.89889,
-   "lon": 23.885,
-   "wikipedia": "Kaunas Castle",
-   "link": "https://en.wikipedia.org/wiki/Kaunas_Castle",
    "country": "Lithuania"
   },
   {
@@ -5161,8 +4090,8 @@
    "title": "Hill of Crosses",
    "caption": "Thousands of crosses",
    "type": "culture",
-   "day": 319,
-   "chapter": 14,
+   "day": 310,
+   "chapter": 13,
    "leg": "return",
    "lat": 56.01528,
    "lon": 23.41667,
@@ -5177,8 +4106,8 @@
    "title": "Rundāle Palace",
    "caption": "Rastrelli's baroque palace",
    "type": "culture",
-   "day": 320,
-   "chapter": 14,
+   "day": 311,
+   "chapter": 13,
    "leg": "return",
    "lat": 56.4138,
    "lon": 24.0248,
@@ -5193,29 +4122,13 @@
    "title": "Bauska Castle",
    "caption": "Castle on two rivers",
    "type": "history",
-   "day": 321,
-   "chapter": 14,
+   "day": 312,
+   "chapter": 13,
    "leg": "return",
    "lat": 56.40361,
    "lon": 24.17361,
    "wikipedia": "Bauska Castle",
    "link": "https://en.wikipedia.org/wiki/Bauska_Castle",
-   "country": "Latvia"
-  },
-  {
-   "id": "old-riga",
-   "kind": "highlight",
-   "name": "Vecrīga",
-   "title": "Old Riga",
-   "caption": "Art Nouveau and the old town",
-   "type": "culture",
-   "day": 322,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 56.94793,
-   "lon": 24.10797,
-   "wikipedia": "Vecrīga",
-   "link": "https://en.wikipedia.org/wiki/Vecr%C4%ABga",
    "country": "Latvia"
   },
   {
@@ -5225,8 +4138,8 @@
    "title": "Ķemeri National Park",
    "caption": "Boardwalk over the bog",
    "type": "peaceful",
-   "day": 322,
-   "chapter": 14,
+   "day": 313,
+   "chapter": 13,
    "leg": "return",
    "lat": 56.95167,
    "lon": 23.5125,
@@ -5241,8 +4154,8 @@
    "title": "Cape Kolka",
    "caption": "Where the gulf meets the sea",
    "type": "nature",
-   "day": 323,
-   "chapter": 14,
+   "day": 315,
+   "chapter": 13,
    "leg": "return",
    "lat": 57.75894,
    "lon": 22.60475,
@@ -5257,8 +4170,8 @@
    "title": "Turaida Castle",
    "caption": "Red castle in the Gauja valley",
    "type": "history",
-   "day": 324,
-   "chapter": 14,
+   "day": 316,
+   "chapter": 13,
    "leg": "return",
    "lat": 57.18222,
    "lon": 24.85028,
@@ -5273,8 +4186,8 @@
    "title": "Gauja National Park",
    "caption": "Sandstone cliffs and canoeing",
    "type": "nature",
-   "day": 325,
-   "chapter": 14,
+   "day": 317,
+   "chapter": 13,
    "leg": "return",
    "lat": 57.41667,
    "lon": 25.41667,
@@ -5289,8 +4202,8 @@
    "title": "Cēsis Castle",
    "caption": "Livonian Order castle",
    "type": "history",
-   "day": 326,
-   "chapter": 14,
+   "day": 318,
+   "chapter": 13,
    "leg": "return",
    "lat": 57.31333,
    "lon": 25.27,
@@ -5305,8 +4218,8 @@
    "title": "Āraiši Lake Fortress",
    "caption": "Reconstructed lake dwelling",
    "type": "history",
-   "day": 327,
-   "chapter": 14,
+   "day": 319,
+   "chapter": 13,
    "leg": "return",
    "lat": 57.2519,
    "lon": 25.28269,
@@ -5314,268 +4227,12 @@
    "country": "Latvia"
   },
   {
-   "id": "rouge",
-   "kind": "highlight",
-   "name": "Rõuge",
-   "title": "Rõuge",
-   "caption": "Valley of seven lakes",
-   "type": "peaceful",
-   "day": 328,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 57.72778,
-   "lon": 26.90972,
-   "wikipedia": "Rõuge",
-   "link": "https://en.wikipedia.org/wiki/R%C3%B5uge",
-   "country": "Estonia"
-  },
-  {
-   "id": "suur-munamagi",
-   "kind": "highlight",
-   "name": "Suur Munamägi",
-   "title": "Suur Munamägi",
-   "caption": "Highest point in the Baltics",
-   "type": "nature",
-   "day": 329,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 57.71444,
-   "lon": 27.05917,
-   "wikipedia": "Suur Munamägi",
-   "link": "https://en.wikipedia.org/wiki/Suur_Munam%C3%A4gi",
-   "country": "Estonia"
-  },
-  {
-   "id": "piusa-caves",
-   "kind": "highlight",
-   "name": "Piusa Caves Nature Reserve",
-   "title": "Piusa Caves",
-   "caption": "Sandstone caves and bats",
-   "type": "nature",
-   "day": 329,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 57.84167,
-   "lon": 27.46667,
-   "wikipedia": "Piusa Caves Nature Reserve",
-   "link": "https://en.wikipedia.org/wiki/Piusa_Caves_Nature_Reserve",
-   "country": "Estonia"
-  },
-  {
-   "id": "tartu",
-   "kind": "highlight",
-   "name": "Tartu",
-   "title": "Tartu",
-   "caption": "University town",
-   "type": "culture",
-   "day": 330,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.38,
-   "lon": 26.7225,
-   "wikipedia": "Tartu",
-   "link": "https://en.wikipedia.org/wiki/Tartu",
-   "country": "Estonia"
-  },
-  {
-   "id": "lake-peipus",
-   "kind": "highlight",
-   "name": "Lake Peipus",
-   "title": "Lake Peipus",
-   "caption": "Old Believer villages",
-   "type": "peaceful",
-   "day": 331,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.735,
-   "lon": 27.045,
-   "wikipedia": "Lake Peipus",
-   "link": "https://en.wikipedia.org/wiki/Lake_Peipus",
-   "country": "Estonia"
-  },
-  {
-   "id": "puhtitsa-convent",
-   "kind": "highlight",
-   "name": "Pühtitsa Convent",
-   "title": "Pühtitsa Convent",
-   "caption": "Orthodox convent at Kuremäe",
-   "type": "culture",
-   "day": 332,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.2025,
-   "lon": 27.53639,
-   "wikipedia": "Pühtitsa Convent",
-   "link": "https://en.wikipedia.org/wiki/P%C3%BChtitsa_Convent",
-   "country": "Estonia"
-  },
-  {
-   "id": "narva-castle",
-   "kind": "highlight",
-   "name": "Hermann Castle",
-   "title": "Narva Castle",
-   "caption": "Castle facing Russia",
-   "type": "history",
-   "day": 333,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.37583,
-   "lon": 28.20139,
-   "wikipedia": "Hermann Castle",
-   "link": "https://en.wikipedia.org/wiki/Hermann_Castle",
-   "country": "Estonia"
-  },
-  {
-   "id": "valaste-waterfall",
-   "kind": "highlight",
-   "name": "Valaste Falls",
-   "title": "Valaste waterfall",
-   "caption": "Waterfall over the cliff",
-   "type": "nature",
-   "day": 334,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.44384,
-   "lon": 27.3351,
-   "wikipedia": "Valaste Falls",
-   "link": "https://en.wikipedia.org/wiki/Valaste_Falls",
-   "country": "Estonia"
-  },
-  {
-   "id": "lahemaa-national-park",
-   "kind": "highlight",
-   "name": "Lahemaa National Park",
-   "title": "Lahemaa National Park",
-   "caption": "Manors, bogs and coast",
-   "type": "nature",
-   "day": 335,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.57111,
-   "lon": 25.80028,
-   "wikipedia": "Lahemaa National Park",
-   "link": "https://en.wikipedia.org/wiki/Lahemaa_National_Park",
-   "country": "Estonia"
-  },
-  {
-   "id": "palmse-manor",
-   "kind": "highlight",
-   "name": "Palmse",
-   "title": "Palmse Manor",
-   "caption": "Baltic German manor",
-   "type": "history",
-   "day": 335,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.51667,
-   "lon": 25.95,
-   "wikipedia": "Palmse",
-   "link": "https://en.wikipedia.org/wiki/Palmse",
-   "country": "Estonia"
-  },
-  {
-   "id": "jagala-waterfall",
-   "kind": "highlight",
-   "name": "Jägala Waterfall",
-   "title": "Jägala waterfall",
-   "caption": "Estonia's widest waterfall",
-   "type": "nature",
-   "day": 336,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.44982,
-   "lon": 25.17855,
-   "wikipedia": "Jägala Waterfall",
-   "link": "https://en.wikipedia.org/wiki/J%C3%A4gala_Waterfall",
-   "country": "Estonia"
-  },
-  {
-   "id": "keila-falls",
-   "kind": "highlight",
-   "name": "Keila Falls",
-   "title": "Keila Falls",
-   "caption": "Waterfall and manor park",
-   "type": "peaceful",
-   "day": 337,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 59.396,
-   "lon": 24.29472,
-   "wikipedia": "Keila Falls",
-   "link": "https://en.wikipedia.org/wiki/Keila_Falls",
-   "country": "Estonia"
-  },
-  {
-   "id": "haapsalu-castle",
-   "kind": "highlight",
-   "name": "Haapsalu Castle",
-   "title": "Haapsalu Castle",
-   "caption": "Bishop's castle by the sea",
-   "type": "history",
-   "day": 338,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.94722,
-   "lon": 23.53861,
-   "wikipedia": "Haapsalu Castle",
-   "link": "https://en.wikipedia.org/wiki/Haapsalu_Castle",
-   "country": "Estonia"
-  },
-  {
-   "id": "matsalu-national-park",
-   "kind": "highlight",
-   "name": "Matsalu National Park",
-   "title": "Matsalu National Park",
-   "caption": "Bird migration reserve",
-   "type": "nature",
-   "day": 339,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.76,
-   "lon": 23.59694,
-   "wikipedia": "Matsalu National Park",
-   "link": "https://en.wikipedia.org/wiki/Matsalu_National_Park",
-   "country": "Estonia"
-  },
-  {
-   "id": "viljandi-castle",
-   "kind": "highlight",
-   "name": "Viljandi Castle",
-   "title": "Viljandi Castle",
-   "caption": "Castle ruins over the lake",
-   "type": "history",
-   "day": 340,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.35917,
-   "lon": 25.595,
-   "wikipedia": "Viljandi Castle",
-   "link": "https://en.wikipedia.org/wiki/Viljandi_Castle",
-   "country": "Estonia"
-  },
-  {
-   "id": "soomaa-national-park",
-   "kind": "highlight",
-   "name": "Soomaa National Park",
-   "title": "Soomaa National Park",
-   "caption": "Bog land and canoe trips",
-   "type": "peaceful",
-   "day": 341,
-   "chapter": 14,
-   "leg": "return",
-   "lat": 58.44083,
-   "lon": 25.10556,
-   "wikipedia": "Soomaa National Park",
-   "link": "https://en.wikipedia.org/wiki/Soomaa_National_Park",
-   "country": "Estonia"
-  },
-  {
    "id": "home1",
    "kind": "stop",
    "name": "Pärnu",
    "caption": "Home for the Song Festival (Laulupidu)",
-   "day": 342,
-   "chapter": 14,
+   "day": 321,
+   "chapter": 13,
    "leg": "return",
    "lat": 58.386,
    "lon": 24.497,
@@ -5605,7 +4262,7 @@
    "title": "Häme Castle",
    "caption": "Brick castle by the lake",
    "type": "history",
-   "day": 360,
+   "day": 359,
    "chapter": 15,
    "leg": "return",
    "lat": 61.00389,
@@ -5615,11 +4272,43 @@
    "country": "Finland"
   },
   {
+   "id": "petajavesi-old-church",
+   "kind": "highlight",
+   "name": "Petäjävesi Old Church",
+   "title": "Petäjävesi Old Church",
+   "caption": "UNESCO log church, 1764",
+   "type": "history",
+   "day": 360,
+   "chapter": 15,
+   "leg": "return",
+   "lat": 62.2501,
+   "lon": 25.1839,
+   "wikipedia": "Petäjävesi Old Church",
+   "link": "https://en.wikipedia.org/wiki/Pet%C3%A4j%C3%A4vesi_Old_Church",
+   "country": "Finland"
+  },
+  {
+   "id": "oulu",
+   "kind": "highlight",
+   "name": "Oulu",
+   "title": "Oulu",
+   "caption": "Market square on the Gulf of Bothnia",
+   "type": "culture",
+   "day": 361,
+   "chapter": 15,
+   "leg": "return",
+   "lat": 65.0139,
+   "lon": 25.4649,
+   "wikipedia": "Oulu",
+   "link": "https://en.wikipedia.org/wiki/Oulu",
+   "country": "Finland"
+  },
+  {
    "id": "rovaniemi",
    "kind": "stop",
    "name": "Rovaniemi",
    "caption": "Across the Arctic Circle",
-   "day": 361,
+   "day": 362,
    "chapter": 15,
    "leg": "arctic",
    "lat": 66.5,
@@ -5634,7 +4323,7 @@
    "title": "Santa Claus Village",
    "caption": "On the Arctic Circle",
    "type": "culture",
-   "day": 362,
+   "day": 363,
    "chapter": 15,
    "leg": "arctic",
    "lat": 66.54326,
@@ -5643,188 +4332,36 @@
    "country": "Finland"
   },
   {
-   "id": "sodankyla-old-church",
+   "id": "pallas-yllastunturi-national-park",
    "kind": "highlight",
-   "name": "Sodankylä Old Church",
-   "title": "Sodankylä Old Church",
-   "caption": "Log church from 1689",
-   "type": "history",
-   "day": 362,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 67.41462,
-   "lon": 26.59685,
-   "link": "https://www.openstreetmap.org/?mlat=67.41462&mlon=26.59685#map=14/67.41462/26.59685",
-   "country": "Finland"
-  },
-  {
-   "id": "pyha-luosto-national-park",
-   "kind": "highlight",
-   "name": "Pyhä-Luosto National Park",
-   "title": "Pyhä-Luosto National Park",
-   "caption": "Fell ridges and old forest",
-   "type": "nature",
-   "day": 363,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 67.06639,
-   "lon": 26.97361,
-   "wikipedia": "Pyhä-Luosto National Park",
-   "link": "https://en.wikipedia.org/wiki/Pyh%C3%A4-Luosto_National_Park",
-   "country": "Finland"
-  },
-  {
-   "id": "tankavaara",
-   "kind": "highlight",
-   "name": "Tankavaara",
-   "title": "Tankavaara",
-   "caption": "Gold-panning village",
-   "type": "culture",
-   "day": 363,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 68.18104,
-   "lon": 27.09846,
-   "link": "https://www.openstreetmap.org/?mlat=68.18104&mlon=27.09846#map=14/68.18104/27.09846",
-   "country": "Finland"
-  },
-  {
-   "id": "urho-kekkonen-national-park",
-   "kind": "highlight",
-   "name": "Urho Kekkonen National Park",
-   "title": "Urho Kekkonen National Park",
-   "caption": "Fells of Lapland",
+   "name": "Pallas-Yllästunturi National Park",
+   "title": "Pallas-Yllästunturi National Park",
+   "caption": "Fell national park",
    "type": "nature",
    "day": 364,
    "chapter": 15,
    "leg": "arctic",
-   "lat": 68.33333,
-   "lon": 28,
-   "wikipedia": "Urho Kekkonen National Park",
-   "link": "https://en.wikipedia.org/wiki/Urho_Kekkonen_National_Park",
+   "lat": 68.06,
+   "lon": 24.06,
+   "wikipedia": "Pallas-Yllästunturi National Park",
+   "link": "https://en.wikipedia.org/wiki/Pallas-Yll%C3%A4stunturi_National_Park",
    "country": "Finland"
   },
   {
-   "id": "siida",
+   "id": "saana",
    "kind": "highlight",
-   "name": "Siida",
-   "title": "Siida",
-   "caption": "Sámi museum, Inari",
-   "type": "culture",
-   "day": 364,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 68.91088,
-   "lon": 27.0134,
-   "wikipedia": "Siida",
-   "link": "https://en.wikipedia.org/wiki/Siida",
-   "country": "Finland"
-  },
-  {
-   "id": "sajos",
-   "kind": "highlight",
-   "name": "Sajos",
-   "title": "Sajos",
-   "caption": "Sámi parliament building",
-   "type": "culture",
+   "name": "Saana",
+   "title": "Saana",
+   "caption": "Sacred Sámi fell above Kilpisjärvi",
+   "type": "nature",
    "day": 365,
    "chapter": 15,
    "leg": "arctic",
-   "lat": 68.90773,
-   "lon": 27.01275,
-   "link": "https://www.openstreetmap.org/?mlat=68.90773&mlon=27.01275#map=14/68.90773/27.01275",
+   "lat": 69.04,
+   "lon": 20.85,
+   "wikipedia": "Saana",
+   "link": "https://en.wikipedia.org/wiki/Saana",
    "country": "Finland"
-  },
-  {
-   "id": "lake-inari",
-   "kind": "highlight",
-   "name": "Lake Inari",
-   "title": "Lake Inari",
-   "caption": "Lake of 3,000 islands",
-   "type": "peaceful",
-   "day": 365,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 69,
-   "lon": 28,
-   "wikipedia": "Lake Inari",
-   "link": "https://en.wikipedia.org/wiki/Lake_Inari",
-   "country": "Finland"
-  },
-  {
-   "id": "kevo-strict-nature-reserve",
-   "kind": "highlight",
-   "name": "Kevo Strict Nature Reserve",
-   "title": "Kevo Strict Nature Reserve",
-   "caption": "Canyon in the tundra",
-   "type": "nature",
-   "day": 366,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 69.58083,
-   "lon": 26.71556,
-   "wikipedia": "Kevo Strict Nature Reserve",
-   "link": "https://en.wikipedia.org/wiki/Kevo_Strict_Nature_Reserve",
-   "country": "Finland"
-  },
-  {
-   "id": "tana",
-   "kind": "highlight",
-   "name": "Tana (river)",
-   "title": "Tana (river)",
-   "caption": "Salmon river on the border",
-   "type": "peaceful",
-   "day": 366,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 70.19827,
-   "lon": 28.19868,
-   "link": "https://www.openstreetmap.org/?mlat=70.19827&mlon=28.19868#map=14/70.19827/28.19868",
-   "country": "Norway"
-  },
-  {
-   "id": "nordkapp",
-   "kind": "stop",
-   "name": "Nordkapp",
-   "caption": "Midnight sun",
-   "day": 367,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 71.17,
-   "lon": 25.78,
-   "link": "https://www.openstreetmap.org/?mlat=71.17&mlon=25.78#map=14/71.17/25.78",
-   "country": "Norway"
-  },
-  {
-   "id": "alta-museum",
-   "kind": "highlight",
-   "name": "World Heritage Rock Art Centre - Alta Museum",
-   "title": "Alta Museum",
-   "caption": "Rock carvings",
-   "type": "history",
-   "day": 368,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 69.94747,
-   "lon": 23.18656,
-   "wikipedia": "World Heritage Rock Art Centre - Alta Museum",
-   "link": "https://en.wikipedia.org/wiki/World_Heritage_Rock_Art_Centre_-_Alta_Museum",
-   "country": "Norway"
-  },
-  {
-   "id": "alta-canyon",
-   "kind": "highlight",
-   "name": "Alta Canyon",
-   "title": "Alta Canyon",
-   "caption": "Northern Europe's largest canyon",
-   "type": "nature",
-   "day": 368,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 69.77987,
-   "lon": 23.55742,
-   "link": "https://www.openstreetmap.org/?mlat=69.77987&mlon=23.55742#map=14/69.77987/23.55742",
-   "country": "Norway"
   },
   {
    "id": "lyngen-alps",
@@ -5833,13 +4370,26 @@
    "title": "Lyngen Alps",
    "caption": "Peaks rising from the fjord",
    "type": "nature",
-   "day": 368,
+   "day": 366,
    "chapter": 15,
    "leg": "arctic",
    "lat": 69.7903,
    "lon": 20.1695,
    "wikipedia": "Lyngen Alps",
    "link": "https://en.wikipedia.org/wiki/Lyngen_Alps",
+   "country": "Norway"
+  },
+  {
+   "id": "tromso",
+   "kind": "stop",
+   "name": "Tromsø",
+   "caption": "Arctic city; midnight sun to 25 Jul",
+   "day": 368,
+   "chapter": 15,
+   "leg": "arctic",
+   "lat": 69.65,
+   "lon": 18.95,
+   "link": "https://www.openstreetmap.org/?mlat=69.65&mlon=18.95#map=14/69.65/18.95",
    "country": "Norway"
   },
   {
@@ -5895,7 +4445,7 @@
    "title": "Senja",
    "caption": "Peaks and white beaches",
    "type": "beach",
-   "day": 370,
+   "day": 371,
    "chapter": 15,
    "leg": "arctic",
    "lat": 69.0806,
@@ -5911,7 +4461,7 @@
    "title": "Bleik",
    "caption": "Long white beach",
    "type": "beach",
-   "day": 371,
+   "day": 372,
    "chapter": 15,
    "leg": "arctic",
    "lat": 69.27188,
@@ -5926,7 +4476,7 @@
    "title": "Andenes",
    "caption": "Whale safaris",
    "type": "nature",
-   "day": 371,
+   "day": 373,
    "chapter": 15,
    "leg": "arctic",
    "lat": 69.3144,
@@ -5942,7 +4492,7 @@
    "title": "Svolvær",
    "caption": "Lofoten's harbour town",
    "type": "culture",
-   "day": 372,
+   "day": 374,
    "chapter": 15,
    "leg": "arctic",
    "lat": 68.23217,
@@ -5957,7 +4507,7 @@
    "title": "Vågan Church",
    "caption": "Lofoten Cathedral",
    "type": "history",
-   "day": 372,
+   "day": 374,
    "chapter": 15,
    "leg": "arctic",
    "lat": 68.21565,
@@ -5972,72 +4522,13 @@
    "title": "Henningsvær",
    "caption": "Fishing village on skerries",
    "type": "peaceful",
-   "day": 373,
+   "day": 375,
    "chapter": 15,
    "leg": "arctic",
    "lat": 68.1529,
    "lon": 14.2008,
    "wikipedia": "Henningsvær",
    "link": "https://en.wikipedia.org/wiki/Henningsv%C3%A6r",
-   "country": "Norway"
-  },
-  {
-   "id": "haukland-beach",
-   "kind": "highlight",
-   "name": "Haukland Beach",
-   "title": "Haukland Beach",
-   "caption": "White sand under the peaks",
-   "type": "beach",
-   "day": 373,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 68.19799,
-   "lon": 13.52919,
-   "link": "https://www.openstreetmap.org/?mlat=68.19799&mlon=13.52919#map=14/68.19799/13.52919",
-   "country": "Norway"
-  },
-  {
-   "id": "nusfjord",
-   "kind": "highlight",
-   "name": "Nusfjord",
-   "title": "Nusfjord",
-   "caption": "Old fishing village",
-   "type": "history",
-   "day": 374,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 68.0353,
-   "lon": 13.3478,
-   "wikipedia": "Nusfjord",
-   "link": "https://en.wikipedia.org/wiki/Nusfjord",
-   "country": "Norway"
-  },
-  {
-   "id": "hamnoy",
-   "kind": "highlight",
-   "name": "Hamnøy",
-   "title": "Hamnøy",
-   "caption": "Red cabins under the peaks",
-   "type": "peaceful",
-   "day": 374,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 67.9469,
-   "lon": 13.1194,
-   "link": "https://www.openstreetmap.org/?mlat=67.9469&mlon=13.1194#map=14/67.9469/13.1194",
-   "country": "Norway"
-  },
-  {
-   "id": "lofoten",
-   "kind": "stop",
-   "name": "Lofoten",
-   "caption": "Reine",
-   "day": 375,
-   "chapter": 15,
-   "leg": "arctic",
-   "lat": 67.93,
-   "lon": 13.09,
-   "link": "https://www.openstreetmap.org/?mlat=67.93&mlon=13.09#map=14/67.93/13.09",
    "country": "Norway"
   },
   {
@@ -6057,14 +4548,73 @@
    "country": "Norway"
   },
   {
+   "id": "haukland-beach",
+   "kind": "highlight",
+   "name": "Haukland Beach",
+   "title": "Haukland Beach",
+   "caption": "White sand under the peaks",
+   "type": "beach",
+   "day": 377,
+   "chapter": 15,
+   "leg": "arctic",
+   "lat": 68.19799,
+   "lon": 13.52919,
+   "link": "https://www.openstreetmap.org/?mlat=68.19799&mlon=13.52919#map=14/68.19799/13.52919",
+   "country": "Norway"
+  },
+  {
+   "id": "nusfjord",
+   "kind": "highlight",
+   "name": "Nusfjord",
+   "title": "Nusfjord",
+   "caption": "Old fishing village",
+   "type": "history",
+   "day": 378,
+   "chapter": 15,
+   "leg": "arctic",
+   "lat": 68.0353,
+   "lon": 13.3478,
+   "wikipedia": "Nusfjord",
+   "link": "https://en.wikipedia.org/wiki/Nusfjord",
+   "country": "Norway"
+  },
+  {
+   "id": "hamnoy",
+   "kind": "highlight",
+   "name": "Hamnøy",
+   "title": "Hamnøy",
+   "caption": "Red cabins under the peaks",
+   "type": "peaceful",
+   "day": 379,
+   "chapter": 15,
+   "leg": "arctic",
+   "lat": 67.9469,
+   "lon": 13.1194,
+   "link": "https://www.openstreetmap.org/?mlat=67.9469&mlon=13.1194#map=14/67.9469/13.1194",
+   "country": "Norway"
+  },
+  {
+   "id": "lofoten",
+   "kind": "stop",
+   "name": "Lofoten",
+   "caption": "Reine",
+   "day": 380,
+   "chapter": 15,
+   "leg": "arctic",
+   "lat": 67.93,
+   "lon": 13.09,
+   "link": "https://www.openstreetmap.org/?mlat=67.93&mlon=13.09#map=14/67.93/13.09",
+   "country": "Norway"
+  },
+  {
    "id": "kjerringoy",
    "kind": "highlight",
    "name": "Kjerringøy",
    "title": "Kjerringøy",
    "caption": "Old trading post",
    "type": "history",
-   "day": 376,
-   "chapter": 15,
+   "day": 381,
+   "chapter": 16,
    "leg": "arctic",
    "lat": 67.5195,
    "lon": 14.7643,
@@ -6079,7 +4629,7 @@
    "title": "Saltstraumen",
    "caption": "World's strongest tidal current",
    "type": "nature",
-   "day": 377,
+   "day": 382,
    "chapter": 16,
    "leg": "arctic",
    "lat": 67.22805,
@@ -6095,7 +4645,7 @@
    "title": "Saltfjellet–Svartisen National Park",
    "caption": "Glacier and the Arctic Circle",
    "type": "nature",
-   "day": 378,
+   "day": 384,
    "chapter": 16,
    "leg": "arctic",
    "lat": 66.6,
@@ -6111,7 +4661,7 @@
    "title": "Seven Sisters (mountains)",
    "caption": "Seven peaks above the coast",
    "type": "nature",
-   "day": 378,
+   "day": 386,
    "chapter": 16,
    "leg": "arctic",
    "lat": 65.97,
@@ -6126,7 +4676,7 @@
    "title": "Petter Dass Museum",
    "caption": "Poet-priest's museum",
    "type": "culture",
-   "day": 379,
+   "day": 388,
    "chapter": 16,
    "leg": "arctic",
    "lat": 65.89425,
@@ -6141,7 +4691,7 @@
    "title": "Torghatten",
    "caption": "Mountain with a hole",
    "type": "nature",
-   "day": 380,
+   "day": 390,
    "chapter": 16,
    "leg": "arctic",
    "lat": 65.39833,
@@ -6151,13 +4701,29 @@
    "country": "Norway"
   },
   {
+   "id": "stiklestad",
+   "kind": "highlight",
+   "name": "Stiklestad",
+   "title": "Stiklestad",
+   "caption": "Battle site of St Olav, 1030",
+   "type": "history",
+   "day": 392,
+   "chapter": 16,
+   "leg": "arctic",
+   "lat": 63.7955,
+   "lon": 11.5602,
+   "wikipedia": "Stiklestad",
+   "link": "https://en.wikipedia.org/wiki/Stiklestad",
+   "country": "Norway"
+  },
+  {
    "id": "nidaros-cathedral",
    "kind": "highlight",
    "name": "Nidaros Cathedral",
    "title": "Nidaros Cathedral",
    "caption": "Trondheim cathedral",
    "type": "culture",
-   "day": 381,
+   "day": 394,
    "chapter": 16,
    "leg": "arctic",
    "lat": 63.4267,
@@ -6173,7 +4739,7 @@
    "title": "Munkholmen",
    "caption": "Monastery-fortress island",
    "type": "history",
-   "day": 381,
+   "day": 395,
    "chapter": 16,
    "leg": "arctic",
    "lat": 63.45231,
@@ -6188,7 +4754,7 @@
    "title": "Atlantic Ocean Road",
    "caption": "Road over the skerries",
    "type": "nature",
-   "day": 382,
+   "day": 397,
    "chapter": 16,
    "leg": "arctic",
    "lat": 63.0167,
@@ -6204,7 +4770,7 @@
    "title": "Ålesund",
    "caption": "Art Nouveau town",
    "type": "culture",
-   "day": 383,
+   "day": 399,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.47226,
@@ -6220,7 +4786,7 @@
    "title": "Rampestreken",
    "caption": "Viewing platform over Åndalsnes",
    "type": "nature",
-   "day": 383,
+   "day": 401,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.56077,
@@ -6235,7 +4801,7 @@
    "title": "Trollveggen",
    "caption": "Europe's tallest rock face",
    "type": "nature",
-   "day": 384,
+   "day": 403,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.4824,
@@ -6251,7 +4817,7 @@
    "title": "Trollstigen",
    "caption": "Hairpins up the mountain",
    "type": "nature",
-   "day": 385,
+   "day": 405,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.46667,
@@ -6265,7 +4831,7 @@
    "kind": "stop",
    "name": "Geiranger",
    "caption": "The fjords",
-   "day": 386,
+   "day": 407,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.1,
@@ -6280,7 +4846,7 @@
    "title": "Dalsnibba",
    "caption": "Skywalk 1,500 m above Geiranger",
    "type": "nature",
-   "day": 387,
+   "day": 408,
    "chapter": 16,
    "leg": "arctic",
    "lat": 62.04785,
@@ -6295,7 +4861,7 @@
    "title": "Loen Skylift",
    "caption": "Cable car up from the fjord",
    "type": "nature",
-   "day": 387,
+   "day": 409,
    "chapter": 16,
    "leg": "arctic",
    "lat": 61.88015,
@@ -6310,7 +4876,7 @@
    "title": "Briksdalsbreen",
    "caption": "Glacier arm",
    "type": "nature",
-   "day": 388,
+   "day": 411,
    "chapter": 16,
    "leg": "arctic",
    "lat": 61.66583,
@@ -6326,7 +4892,7 @@
    "title": "Urnes Stave Church",
    "caption": "Oldest stave church",
    "type": "history",
-   "day": 388,
+   "day": 413,
    "chapter": 16,
    "leg": "arctic",
    "lat": 61.29811,
@@ -6342,7 +4908,7 @@
    "title": "Borgund Stave Church",
    "caption": "Best-kept stave church",
    "type": "history",
-   "day": 389,
+   "day": 414,
    "chapter": 16,
    "leg": "arctic",
    "lat": 61.0472,
@@ -6358,7 +4924,7 @@
    "title": "Stegastein",
    "caption": "Platform over the Aurlandsfjord",
    "type": "nature",
-   "day": 390,
+   "day": 416,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.90863,
@@ -6373,7 +4939,7 @@
    "title": "Flåm Line",
    "caption": "Railway down the valley",
    "type": "culture",
-   "day": 390,
+   "day": 418,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.86295,
@@ -6388,7 +4954,7 @@
    "title": "Nærøyfjord",
    "caption": "Narrowest fjord",
    "type": "nature",
-   "day": 391,
+   "day": 419,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.94361,
@@ -6404,7 +4970,7 @@
    "title": "Bryggen",
    "caption": "Hanseatic wharf, Bergen",
    "type": "history",
-   "day": 391,
+   "day": 421,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.39722,
@@ -6420,7 +4986,7 @@
    "title": "Vøringsfossen",
    "caption": "182 m waterfall",
    "type": "nature",
-   "day": 392,
+   "day": 423,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.42689,
@@ -6436,7 +5002,7 @@
    "title": "Hardangervidda",
    "caption": "Europe's largest mountain plateau",
    "type": "nature",
-   "day": 393,
+   "day": 424,
    "chapter": 16,
    "leg": "arctic",
    "lat": 60.13305,
@@ -6451,7 +5017,7 @@
    "title": "Heddal Stave Church",
    "caption": "Largest stave church",
    "type": "history",
-   "day": 393,
+   "day": 426,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.57957,
@@ -6467,7 +5033,7 @@
    "title": "Vemork",
    "caption": "Heavy-water saboteurs' plant",
    "type": "history",
-   "day": 394,
+   "day": 428,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.87103,
@@ -6482,7 +5048,7 @@
    "title": "Oslo Opera House",
    "caption": "Walk on the roof",
    "type": "culture",
-   "day": 394,
+   "day": 429,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.90694,
@@ -6498,7 +5064,7 @@
    "title": "Örebro Castle",
    "caption": "Castle in the river",
    "type": "history",
-   "day": 395,
+   "day": 431,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.27389,
@@ -6512,7 +5078,7 @@
    "kind": "stop",
    "name": "Stockholm",
    "caption": "Ferry home",
-   "day": 396,
+   "day": 433,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.33,
@@ -6527,7 +5093,7 @@
    "title": "Kadriorg Palace",
    "caption": "Peter the Great's palace",
    "type": "history",
-   "day": 397,
+   "day": 434,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.43851,
@@ -6543,7 +5109,7 @@
    "title": "Rummu",
    "caption": "Flooded quarry lake",
    "type": "peaceful",
-   "day": 398,
+   "day": 434,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.23083,
@@ -6559,7 +5125,7 @@
    "title": "Padise Abbey",
    "caption": "Cistercian monastery ruin",
    "type": "history",
-   "day": 399,
+   "day": 434,
    "chapter": 16,
    "leg": "arctic",
    "lat": 59.22417,
@@ -6572,8 +5138,8 @@
    "id": "home2",
    "kind": "stop",
    "name": "Pärnu",
-   "caption": "Home — 14 months, 21,000 km",
-   "day": 400,
+   "caption": "Home after 14 months",
+   "day": 435,
    "chapter": 16,
    "leg": "arctic",
    "lat": 58.386,
@@ -6586,11 +5152,22 @@
   {
    "mode": "road",
    "from": "parnu",
+   "to": "pazaislis-monastery",
+   "km": 449.2,
+   "min": 406,
+   "day": 1,
+   "chapter": 1,
+   "base": "b001"
+  },
+  {
+   "mode": "road",
+   "from": "pazaislis-monastery",
    "to": "warsaw-old-town",
-   "km": 841.8,
-   "min": 647,
-   "day": 0,
-   "chapter": 1
+   "km": 404.9,
+   "min": 266,
+   "day": 2,
+   "chapter": 1,
+   "base": "b001"
   },
   {
    "mode": "road",
@@ -6598,53 +5175,29 @@
    "to": "lazienki-park",
    "km": 7.5,
    "min": 12,
-   "day": 1,
-   "chapter": 1
+   "day": 2,
+   "chapter": 1,
+   "base": "b001"
   },
   {
    "mode": "road",
    "from": "lazienki-park",
-   "to": "jasna-gora-monastery",
-   "km": 246.8,
-   "min": 153,
-   "day": 1,
-   "chapter": 1
-  },
-  {
-   "mode": "road",
-   "from": "jasna-gora-monastery",
-   "to": "ojcow-national-park",
-   "km": 118.8,
-   "min": 107,
-   "day": 2,
-   "chapter": 1
-  },
-  {
-   "mode": "road",
-   "from": "ojcow-national-park",
    "to": "krakow",
-   "km": 32.7,
-   "min": 49,
+   "km": 295.6,
+   "min": 202,
    "day": 3,
-   "chapter": 1
+   "chapter": 1,
+   "base": "b001"
   },
   {
    "mode": "road",
    "from": "krakow",
-   "to": "wieliczka-salt-mine",
-   "km": 13.8,
-   "min": 20,
-   "day": 4,
-   "chapter": 1
-  },
-  {
-   "mode": "road",
-   "from": "wieliczka-salt-mine",
    "to": "niedzica-castle",
-   "km": 103.0,
-   "min": 103,
+   "km": 113.4,
+   "min": 104,
    "day": 5,
-   "chapter": 1
+   "chapter": 1,
+   "base": "b002"
   },
   {
    "mode": "road",
@@ -6652,62 +5205,29 @@
    "to": "pieniny-national-park",
    "km": 5.7,
    "min": 15,
-   "day": 5,
-   "chapter": 1
+   "day": 6,
+   "chapter": 1,
+   "base": "b002"
   },
   {
    "mode": "road",
    "from": "pieniny-national-park",
-   "to": "chocholow",
-   "km": 55.0,
-   "min": 72,
-   "day": 6,
-   "chapter": 1
-  },
-  {
-   "mode": "road",
-   "from": "chocholow",
    "to": "tatras",
-   "km": 19.2,
-   "min": 27,
+   "km": 51.1,
+   "min": 70,
    "day": 6,
-   "chapter": 1
+   "chapter": 1,
+   "base": "b002"
   },
   {
    "mode": "road",
    "from": "tatras",
-   "to": "vychodna",
-   "km": 99.2,
-   "min": 97,
-   "day": 7,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "vychodna",
-   "to": "vlkolinec",
-   "km": 54.6,
-   "min": 49,
-   "day": 7,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "vlkolinec",
-   "to": "orava-castle",
-   "km": 36.8,
-   "min": 47,
-   "day": 8,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "orava-castle",
    "to": "trencin",
-   "km": 140.2,
-   "min": 121,
-   "day": 9,
-   "chapter": 2
+   "km": 202.3,
+   "min": 194,
+   "day": 11,
+   "chapter": 2,
+   "base": "b003"
   },
   {
    "mode": "road",
@@ -6715,8 +5235,9 @@
    "to": "banska-stiavnica",
    "km": 112.8,
    "min": 135,
-   "day": 11,
-   "chapter": 2
+   "day": 14,
+   "chapter": 2,
+   "base": "b004"
   },
   {
    "mode": "road",
@@ -6725,7 +5246,8 @@
    "km": 98.8,
    "min": 107,
    "day": 14,
-   "chapter": 2
+   "chapter": 2,
+   "base": "b004"
   },
   {
    "mode": "road",
@@ -6733,8 +5255,9 @@
    "to": "pannonhalma-archabbey",
    "km": 121.2,
    "min": 101,
-   "day": 14,
-   "chapter": 2
+   "day": 15,
+   "chapter": 2,
+   "base": "b004"
   },
   {
    "mode": "road",
@@ -6742,62 +5265,39 @@
    "to": "balaton",
    "km": 79.4,
    "min": 80,
-   "day": 15,
-   "chapter": 2
+   "day": 16,
+   "chapter": 2,
+   "base": "b004"
   },
   {
    "mode": "road",
    "from": "balaton",
-   "to": "tihany-abbey",
-   "km": 8.0,
-   "min": 10,
-   "day": 16,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "tihany-abbey",
    "to": "lake-heviz",
-   "km": 66.1,
-   "min": 70,
+   "km": 68.5,
+   "min": 72,
    "day": 17,
-   "chapter": 2
+   "chapter": 2,
+   "base": "b005"
   },
   {
    "mode": "road",
    "from": "lake-heviz",
-   "to": "lake-bled",
-   "km": 349.5,
-   "min": 235,
-   "day": 17,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "lake-bled",
    "to": "lake-bohinj",
-   "km": 27.6,
-   "min": 29,
+   "km": 377.1,
+   "min": 264,
    "day": 18,
-   "chapter": 2
+   "chapter": 2,
+   "base": "b005"
   },
   {
    "mode": "road",
    "from": "lake-bohinj",
-   "to": "soca",
-   "km": 78.8,
-   "min": 79,
-   "day": 19,
-   "chapter": 2
-  },
-  {
-   "mode": "road",
-   "from": "soca",
    "to": "skocjan-caves",
-   "km": 113.6,
-   "min": 105,
-   "day": 20,
-   "chapter": 3
+   "km": 157.3,
+   "min": 117,
+   "day": 21,
+   "chapter": 3,
+   "base": "b006"
   },
   {
    "mode": "road",
@@ -6805,8 +5305,9 @@
    "to": "piran",
    "km": 51.8,
    "min": 50,
-   "day": 21,
-   "chapter": 3
+   "day": 22,
+   "chapter": 3,
+   "base": "b006"
   },
   {
    "mode": "road",
@@ -6814,26 +5315,19 @@
    "to": "motovun",
    "km": 47.5,
    "min": 57,
-   "day": 21,
-   "chapter": 3
+   "day": 23,
+   "chapter": 3,
+   "base": "b007"
   },
   {
    "mode": "road",
    "from": "motovun",
-   "to": "rovinj",
-   "km": 52.6,
-   "min": 63,
-   "day": 22,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "rovinj",
    "to": "opatija",
-   "km": 84.1,
-   "min": 78,
-   "day": 23,
-   "chapter": 3
+   "km": 62.4,
+   "min": 74,
+   "day": 24,
+   "chapter": 3,
+   "base": "b007"
   },
   {
    "mode": "road",
@@ -6841,8 +5335,9 @@
    "to": "plitvice",
    "km": 181.7,
    "min": 185,
-   "day": 24,
-   "chapter": 3
+   "day": 25,
+   "chapter": 3,
+   "base": "b007"
   },
   {
    "mode": "road",
@@ -6850,8 +5345,9 @@
    "to": "krka-national-park",
    "km": 201.3,
    "min": 178,
-   "day": 25,
-   "chapter": 3
+   "day": 26,
+   "chapter": 3,
+   "base": "b008"
   },
   {
    "mode": "road",
@@ -6859,8 +5355,9 @@
    "to": "kravica-waterfall",
    "km": 183.2,
    "min": 142,
-   "day": 26,
-   "chapter": 3
+   "day": 27,
+   "chapter": 3,
+   "base": "b008"
   },
   {
    "mode": "road",
@@ -6868,8 +5365,9 @@
    "to": "stari-most",
    "km": 52.5,
    "min": 64,
-   "day": 27,
-   "chapter": 3
+   "day": 28,
+   "chapter": 3,
+   "base": "b009"
   },
   {
    "mode": "road",
@@ -6877,170 +5375,89 @@
    "to": "sarajevo",
    "km": 125.1,
    "min": 131,
-   "day": 28,
-   "chapter": 3
+   "day": 29,
+   "chapter": 3,
+   "base": "b009"
   },
   {
    "mode": "road",
    "from": "sarajevo",
-   "to": "lukomir",
-   "km": 45.9,
-   "min": 80,
-   "day": 29,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "lukomir",
-   "to": "mehmed-pasa-sokolovic-bridge",
-   "km": 149.0,
-   "min": 178,
-   "day": 30,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "mehmed-pasa-sokolovic-bridge",
    "to": "perucica",
-   "km": 105.4,
-   "min": 131,
-   "day": 31,
-   "chapter": 3
+   "km": 121.4,
+   "min": 157,
+   "day": 30,
+   "chapter": 3,
+   "base": "b010"
   },
   {
    "mode": "road",
    "from": "perucica",
-   "to": "sutjeska",
-   "km": 9.0,
-   "min": 35,
-   "day": 32,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "sutjeska",
-   "to": "piva-lake",
-   "km": 69.8,
-   "min": 104,
-   "day": 33,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "piva-lake",
    "to": "durdevica-tara-bridge",
-   "km": 68.3,
-   "min": 84,
-   "day": 34,
-   "chapter": 3
+   "km": 171.1,
+   "min": 212,
+   "day": 35,
+   "chapter": 3,
+   "base": "b011"
   },
   {
    "mode": "road",
    "from": "durdevica-tara-bridge",
-   "to": "durmitor",
-   "km": 22.9,
-   "min": 32,
-   "day": 35,
-   "chapter": 3
-  },
-  {
-   "mode": "road",
-   "from": "durmitor",
    "to": "dubrovnik",
-   "km": 166.8,
-   "min": 213,
-   "day": 36,
-   "chapter": 4
+   "km": 188.4,
+   "min": 243,
+   "day": 37,
+   "chapter": 4,
+   "base": "b012"
   },
   {
    "mode": "road",
    "from": "dubrovnik",
-   "to": "perast",
-   "km": 78.0,
-   "min": 110,
-   "day": 37,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "perast",
    "to": "kotor",
-   "km": 13.8,
-   "min": 22,
+   "km": 79.4,
+   "min": 111,
    "day": 37,
-   "chapter": 4
+   "chapter": 4,
+   "base": "b013"
   },
   {
    "mode": "road",
    "from": "kotor",
-   "to": "sveti-stefan",
-   "km": 31.3,
-   "min": 46,
-   "day": 38,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "sveti-stefan",
    "to": "stari-bar",
-   "km": 34.7,
-   "min": 53,
-   "day": 39,
-   "chapter": 4
+   "km": 63.2,
+   "min": 91,
+   "day": 40,
+   "chapter": 4,
+   "base": "b014"
   },
   {
    "mode": "road",
    "from": "stari-bar",
-   "to": "ostrog-monastery",
-   "km": 96.9,
-   "min": 130,
-   "day": 39,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "ostrog-monastery",
    "to": "shkodra",
-   "km": 107.8,
-   "min": 157,
-   "day": 40,
-   "chapter": 4
+   "km": 44.3,
+   "min": 71,
+   "day": 41,
+   "chapter": 4,
+   "base": "b014"
   },
   {
    "mode": "road",
    "from": "shkodra",
-   "to": "theth",
-   "km": 76.0,
-   "min": 137,
-   "day": 41,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "theth",
    "to": "kruje-castle",
-   "km": 158.8,
-   "min": 235,
+   "km": 85.9,
+   "min": 107,
    "day": 42,
-   "chapter": 4
+   "chapter": 4,
+   "base": "b015"
   },
   {
    "mode": "road",
    "from": "kruje-castle",
-   "to": "berat",
-   "km": 131.1,
-   "min": 133,
-   "day": 43,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "berat",
    "to": "riviera",
-   "km": 164.2,
-   "min": 188,
-   "day": 44,
-   "chapter": 4
+   "km": 223.8,
+   "min": 236,
+   "day": 45,
+   "chapter": 4,
+   "base": "b015"
   },
   {
    "mode": "road",
@@ -7048,8 +5465,9 @@
    "to": "ksamil",
    "km": 64.8,
    "min": 93,
-   "day": 45,
-   "chapter": 4
+   "day": 46,
+   "chapter": 4,
+   "base": "b016"
   },
   {
    "mode": "road",
@@ -7058,7 +5476,8 @@
    "km": 3.7,
    "min": 5,
    "day": 46,
-   "chapter": 4
+   "chapter": 4,
+   "base": "b016"
   },
   {
    "mode": "road",
@@ -7066,8 +5485,9 @@
    "to": "gjirokaster",
    "km": 69.1,
    "min": 90,
-   "day": 46,
-   "chapter": 4
+   "day": 47,
+   "chapter": 4,
+   "base": "b016"
   },
   {
    "mode": "road",
@@ -7075,26 +5495,19 @@
    "to": "zagori",
    "km": 73.3,
    "min": 98,
-   "day": 47,
-   "chapter": 4
+   "day": 48,
+   "chapter": 4,
+   "base": "b016"
   },
   {
    "mode": "road",
    "from": "zagori",
-   "to": "papingo",
-   "km": 32.1,
-   "min": 58,
-   "day": 48,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "papingo",
    "to": "ioannina",
-   "km": 63.1,
-   "min": 80,
-   "day": 49,
-   "chapter": 4
+   "km": 37.3,
+   "min": 52,
+   "day": 52,
+   "chapter": 4,
+   "base": "b017"
   },
   {
    "mode": "road",
@@ -7103,7 +5516,8 @@
    "km": 51.4,
    "min": 45,
    "day": 52,
-   "chapter": 4
+   "chapter": 4,
+   "base": "b017"
   },
   {
    "mode": "road",
@@ -7111,8 +5525,9 @@
    "to": "meteora",
    "km": 87.5,
    "min": 73,
-   "day": 52,
-   "chapter": 4
+   "day": 53,
+   "chapter": 4,
+   "base": "b017"
   },
   {
    "mode": "road",
@@ -7120,60 +5535,44 @@
    "to": "dodona",
    "km": 136.0,
    "min": 109,
-   "day": 53,
-   "chapter": 4
+   "day": 54,
+   "chapter": 4,
+   "base": "b018"
   },
   {
    "mode": "road",
    "from": "dodona",
-   "to": "parga",
-   "km": 85.1,
-   "min": 76,
-   "day": 54,
-   "chapter": 4
-  },
-  {
-   "mode": "road",
-   "from": "parga",
    "to": "syvota",
-   "km": 26.1,
-   "min": 30,
+   "km": 82.4,
+   "min": 69,
    "day": 54,
-   "chapter": 4
+   "chapter": 4,
+   "base": "b018"
   },
   {
    "mode": "road",
    "from": "syvota",
-   "to": "igoumenitsa",
    "km": 24.4,
    "min": 29,
-   "day": 55,
-   "chapter": 4
+   "day": 58,
+   "chapter": 5,
+   "base": "b019"
   },
   {
    "mode": "sea",
-   "from": "igoumenitsa",
-   "day": 56,
-   "chapter": 4,
+   "day": 58,
+   "chapter": 5,
+   "base": "b019",
    "ferry": "Igoumenitsa → Bari"
   },
   {
    "mode": "road",
-   "from": "igoumenitsa",
-   "to": "alberobello",
-   "km": 56.9,
-   "min": 61,
-   "day": 57,
-   "chapter": 5
-  },
-  {
-   "mode": "road",
-   "from": "alberobello",
    "to": "matera",
-   "km": 68.9,
-   "min": 87,
-   "day": 57,
-   "chapter": 5
+   "km": 66.5,
+   "min": 68,
+   "day": 58,
+   "chapter": 5,
+   "base": "b019"
   },
   {
    "mode": "road",
@@ -7181,8 +5580,9 @@
    "to": "amalfi-coast",
    "km": 221.5,
    "min": 190,
-   "day": 58,
-   "chapter": 5
+   "day": 59,
+   "chapter": 5,
+   "base": "b020"
   },
   {
    "mode": "road",
@@ -7190,86 +5590,64 @@
    "to": "pompeii",
    "km": 36.6,
    "min": 53,
-   "day": 59,
-   "chapter": 5
+   "day": 60,
+   "chapter": 5,
+   "base": "b020"
   },
   {
    "mode": "road",
    "from": "pompeii",
-   "to": "colosseum",
-   "km": 233.6,
-   "min": 163,
-   "day": 60,
-   "chapter": 5
-  },
-  {
-   "mode": "road",
-   "from": "colosseum",
    "to": "pantheon-rome",
-   "km": 4.0,
-   "min": 8,
+   "km": 236.0,
+   "min": 168,
    "day": 61,
-   "chapter": 5
+   "chapter": 5,
+   "base": "b020"
   },
   {
    "mode": "road",
    "from": "pantheon-rome",
-   "to": "st-peter-s-basilica",
-   "km": 4.5,
-   "min": 11,
-   "day": 61,
-   "chapter": 5
-  },
-  {
-   "mode": "road",
-   "from": "st-peter-s-basilica",
    "to": "civita-di-bagnoregio",
-   "km": 119.6,
-   "min": 106,
-   "day": 62,
-   "chapter": 5
+   "km": 119.0,
+   "min": 107,
+   "day": 63,
+   "chapter": 5,
+   "base": "b021"
   },
   {
    "mode": "road",
    "from": "civita-di-bagnoregio",
    "km": 90.3,
    "min": 95,
-   "day": 63,
-   "chapter": 5
+   "day": 65,
+   "chapter": 6,
+   "base": "b022"
   },
   {
    "mode": "sea",
-   "from": "matera",
-   "day": 58,
-   "chapter": 5,
+   "day": 65,
+   "chapter": 6,
+   "base": "b022",
    "ferry": "Civitavecchia → Barcelona"
   },
   {
    "mode": "road",
-   "from": "matera",
    "to": "montserrat",
    "km": 61.1,
    "min": 64,
    "day": 65,
-   "chapter": 6
+   "chapter": 6,
+   "base": "b022"
   },
   {
    "mode": "road",
    "from": "montserrat",
-   "to": "aiguestortes-i-estany-de-sant-maurici-national-park",
-   "km": 226.5,
-   "min": 200,
-   "day": 65,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "aiguestortes-i-estany-de-sant-maurici-national-park",
    "to": "ordesa-y-monte-perdido-national-park",
-   "km": 211.6,
-   "min": 327,
+   "km": 324.9,
+   "min": 370,
    "day": 66,
-   "chapter": 6
+   "chapter": 6,
+   "base": "b023"
   },
   {
    "mode": "road",
@@ -7277,26 +5655,19 @@
    "to": "castle-of-loarre",
    "km": 129.1,
    "min": 244,
-   "day": 67,
-   "chapter": 6
+   "day": 68,
+   "chapter": 6,
+   "base": "b023"
   },
   {
    "mode": "road",
    "from": "castle-of-loarre",
-   "to": "bardenas-reales",
-   "km": 124.8,
-   "min": 142,
-   "day": 68,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "bardenas-reales",
    "to": "san-sebastian",
-   "km": 185.9,
-   "min": 158,
-   "day": 69,
-   "chapter": 6
+   "km": 227.3,
+   "min": 179,
+   "day": 70,
+   "chapter": 6,
+   "base": "b024"
   },
   {
    "mode": "road",
@@ -7304,98 +5675,59 @@
    "to": "logrono",
    "km": 169.5,
    "min": 128,
-   "day": 70,
-   "chapter": 6
+   "day": 72,
+   "chapter": 6,
+   "base": "b025"
   },
   {
    "mode": "road",
    "from": "logrono",
-   "to": "laguardia",
-   "km": 17.5,
-   "min": 21,
-   "day": 72,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "laguardia",
    "to": "san-millan-de-la-cogolla",
-   "km": 44.7,
-   "min": 46,
-   "day": 73,
-   "chapter": 6
+   "km": 43.6,
+   "min": 41,
+   "day": 74,
+   "chapter": 6,
+   "base": "b026"
   },
   {
    "mode": "road",
    "from": "san-millan-de-la-cogolla",
-   "to": "burgos-cathedral",
-   "km": 91.6,
-   "min": 91,
-   "day": 73,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "burgos-cathedral",
    "to": "guggenheim-museum-bilbao",
-   "km": 161.2,
-   "min": 117,
-   "day": 74,
-   "chapter": 6
+   "km": 129.0,
+   "min": 102,
+   "day": 75,
+   "chapter": 6,
+   "base": "b027"
   },
   {
    "mode": "road",
    "from": "guggenheim-museum-bilbao",
-   "to": "san-juan-de-gaztelugatxe",
-   "km": 33.9,
-   "min": 44,
-   "day": 75,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "san-juan-de-gaztelugatxe",
    "to": "santillana-del-mar",
-   "km": 155.2,
-   "min": 129,
+   "km": 126.2,
+   "min": 97,
    "day": 76,
-   "chapter": 6
+   "chapter": 6,
+   "base": "b028"
   },
   {
    "mode": "road",
    "from": "santillana-del-mar",
-   "to": "fuente-de",
-   "km": 108.3,
-   "min": 94,
-   "day": 77,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "fuente-de",
    "to": "picos",
-   "km": 0.3,
-   "min": 1,
-   "day": 78,
-   "chapter": 6
+   "km": 146.5,
+   "min": 139,
+   "day": 77,
+   "chapter": 6,
+   "base": "b028"
   },
   {
    "mode": "road",
    "from": "picos",
-   "to": "lakes-of-covadonga",
-   "km": 118.3,
-   "min": 126,
-   "day": 79,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "lakes-of-covadonga",
    "to": "villaviciosa",
-   "km": 68.3,
-   "min": 72,
-   "day": 80,
-   "chapter": 6
+   "km": 111.6,
+   "min": 135,
+   "day": 81,
+   "chapter": 6,
+   "base": "b029"
   },
   {
    "mode": "road",
@@ -7404,7 +5736,8 @@
    "km": 75.1,
    "min": 55,
    "day": 81,
-   "chapter": 6
+   "chapter": 6,
+   "base": "b029"
   },
   {
    "mode": "road",
@@ -7412,8 +5745,9 @@
    "to": "as-catedrais-beach",
    "km": 89.4,
    "min": 62,
-   "day": 81,
-   "chapter": 6
+   "day": 82,
+   "chapter": 6,
+   "base": "b029"
   },
   {
    "mode": "road",
@@ -7421,44 +5755,29 @@
    "to": "roman-walls-of-lugo",
    "km": 85.3,
    "min": 74,
-   "day": 82,
-   "chapter": 6
+   "day": 83,
+   "chapter": 6,
+   "base": "b029"
   },
   {
    "mode": "road",
    "from": "roman-walls-of-lugo",
-   "to": "ribeira-sacra",
-   "km": 66.0,
-   "min": 59,
-   "day": 82,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "ribeira-sacra",
    "to": "santiago-de-compostela-cathedral",
-   "km": 118.6,
-   "min": 106,
-   "day": 83,
-   "chapter": 6
+   "km": 101.0,
+   "min": 84,
+   "day": 84,
+   "chapter": 6,
+   "base": "b029"
   },
   {
    "mode": "road",
    "from": "santiago-de-compostela-cathedral",
-   "to": "cape-finisterre",
-   "km": 85.8,
-   "min": 91,
-   "day": 83,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "cape-finisterre",
    "to": "combarro",
-   "km": 143.6,
-   "min": 124,
-   "day": 84,
-   "chapter": 6
+   "km": 71.5,
+   "min": 58,
+   "day": 85,
+   "chapter": 6,
+   "base": "b030"
   },
   {
    "mode": "road",
@@ -7466,53 +5785,29 @@
    "to": "castro-of-santa-trega",
    "km": 88.2,
    "min": 75,
-   "day": 85,
-   "chapter": 6
+   "day": 86,
+   "chapter": 6,
+   "base": "b030"
   },
   {
    "mode": "road",
    "from": "castro-of-santa-trega",
-   "to": "peneda-geres-national-park",
-   "km": 116.7,
-   "min": 107,
-   "day": 85,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "peneda-geres-national-park",
-   "to": "bom-jesus-do-monte",
-   "km": 38.8,
-   "min": 41,
-   "day": 86,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "bom-jesus-do-monte",
    "to": "guimaraes-castle",
-   "km": 20.1,
-   "min": 30,
+   "km": 104.8,
+   "min": 86,
    "day": 87,
-   "chapter": 6
+   "chapter": 6,
+   "base": "b030"
   },
   {
    "mode": "road",
    "from": "guimaraes-castle",
-   "to": "dom-luis-i-bridge",
-   "km": 61.0,
-   "min": 48,
-   "day": 88,
-   "chapter": 6
-  },
-  {
-   "mode": "road",
-   "from": "dom-luis-i-bridge",
    "to": "amarante-portugal",
-   "km": 62.7,
-   "min": 48,
-   "day": 89,
-   "chapter": 6
+   "km": 35.6,
+   "min": 41,
+   "day": 90,
+   "chapter": 6,
+   "base": "b031"
   },
   {
    "mode": "road",
@@ -7520,107 +5815,39 @@
    "to": "douro",
    "km": 38.1,
    "min": 38,
-   "day": 90,
-   "chapter": 6
+   "day": 91,
+   "chapter": 7,
+   "base": "b031"
   },
   {
    "mode": "road",
    "from": "douro",
-   "to": "mateus-palace",
-   "km": 23.8,
-   "min": 22,
-   "day": 91,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "mateus-palace",
-   "to": "pinhao",
-   "km": 30.5,
-   "min": 33,
-   "day": 92,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "pinhao",
-   "to": "vila-nova-de-foz-coa",
-   "km": 62.0,
-   "min": 60,
-   "day": 92,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "vila-nova-de-foz-coa",
-   "to": "lamego",
-   "km": 90.8,
-   "min": 87,
-   "day": 93,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "lamego",
    "to": "serra-da-estrela",
-   "km": 136.7,
-   "min": 113,
+   "km": 143.3,
+   "min": 117,
    "day": 93,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b032"
   },
   {
    "mode": "road",
    "from": "serra-da-estrela",
-   "to": "piodao",
-   "km": 46.4,
-   "min": 56,
-   "day": 94,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "piodao",
-   "to": "bucaco-palace",
-   "km": 79.5,
-   "min": 89,
-   "day": 94,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "bucaco-palace",
-   "to": "sanctuary-of-fatima",
-   "km": 113.4,
-   "min": 84,
-   "day": 95,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "sanctuary-of-fatima",
    "to": "university-of-coimbra",
-   "km": 86.8,
-   "min": 63,
-   "day": 96,
-   "chapter": 7
+   "km": 116.0,
+   "min": 109,
+   "day": 95,
+   "chapter": 7,
+   "base": "b033"
   },
   {
    "mode": "road",
    "from": "university-of-coimbra",
-   "to": "aveiro-portugal",
-   "km": 60.8,
-   "min": 49,
-   "day": 96,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "aveiro-portugal",
    "to": "costa-nova-do-prado",
-   "km": 12.4,
-   "min": 13,
+   "km": 77.6,
+   "min": 61,
    "day": 97,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b034"
   },
   {
    "mode": "road",
@@ -7629,34 +5856,28 @@
    "km": 84.8,
    "min": 62,
    "day": 97,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b034"
   },
   {
    "mode": "road",
    "from": "conimbriga",
-   "to": "batalha-monastery",
-   "km": 72.6,
-   "min": 55,
+   "to": "alcobaca-monastery",
+   "km": 95.8,
+   "min": 74,
    "day": 98,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b034"
   },
   {
    "mode": "road",
-   "from": "batalha-monastery",
-   "to": "nazare-portugal",
-   "km": 32.8,
-   "min": 31,
-   "day": 98,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "nazare-portugal",
+   "from": "alcobaca-monastery",
    "to": "obidos-portugal",
-   "km": 40.5,
-   "min": 32,
-   "day": 99,
-   "chapter": 7
+   "km": 35.9,
+   "min": 36,
+   "day": 100,
+   "chapter": 7,
+   "base": "b035"
   },
   {
    "mode": "road",
@@ -7664,170 +5885,79 @@
    "to": "peniche-portugal",
    "km": 22.7,
    "min": 20,
-   "day": 100,
-   "chapter": 7
+   "day": 101,
+   "chapter": 7,
+   "base": "b035"
   },
   {
    "mode": "road",
    "from": "peniche-portugal",
-   "to": "ericeira",
-   "km": 93.7,
-   "min": 66,
-   "day": 101,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "ericeira",
    "to": "pena-palace",
-   "km": 30.5,
-   "min": 41,
+   "km": 107.8,
+   "min": 88,
    "day": 102,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b035"
   },
   {
    "mode": "road",
    "from": "pena-palace",
-   "to": "cabo-da-roca",
-   "km": 20.4,
-   "min": 26,
-   "day": 103,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "cabo-da-roca",
-   "to": "belem-tower",
-   "km": 35.0,
-   "min": 32,
-   "day": 104,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "belem-tower",
-   "to": "alfama",
-   "km": 9.4,
-   "min": 13,
-   "day": 105,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "alfama",
    "to": "arrabida-natural-park",
-   "km": 49.1,
-   "min": 58,
-   "day": 106,
-   "chapter": 7
+   "km": 67.2,
+   "min": 74,
+   "day": 108,
+   "chapter": 7,
+   "base": "b036"
   },
   {
    "mode": "road",
    "from": "arrabida-natural-park",
-   "to": "comporta",
-   "km": 100.3,
-   "min": 95,
-   "day": 107,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "comporta",
    "to": "roman-temple-of-evora",
-   "km": 97.9,
+   "km": 114.5,
    "min": 96,
-   "day": 108,
-   "chapter": 7
+   "day": 110,
+   "chapter": 7,
+   "base": "b036"
   },
   {
    "mode": "road",
    "from": "roman-temple-of-evora",
-   "to": "monsaraz",
-   "km": 55.4,
-   "min": 56,
-   "day": 109,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "monsaraz",
-   "to": "convent-of-christ",
-   "km": 196.1,
-   "min": 188,
-   "day": 110,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "convent-of-christ",
    "to": "almourol-castle",
-   "km": 26.9,
-   "min": 27,
+   "km": 150.3,
+   "min": 139,
    "day": 111,
-   "chapter": 7
+   "chapter": 7,
+   "base": "b037"
   },
   {
    "mode": "road",
    "from": "almourol-castle",
-   "to": "golega",
-   "km": 15.0,
-   "min": 17,
-   "day": 112,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "golega",
    "to": "marvao",
-   "km": 125.6,
-   "min": 99,
-   "day": 114,
-   "chapter": 7
+   "km": 113.3,
+   "min": 92,
+   "day": 117,
+   "chapter": 7,
+   "base": "b038"
   },
   {
    "mode": "road",
    "from": "marvao",
-   "to": "castelo-de-vide",
-   "km": 29.5,
-   "min": 31,
-   "day": 117,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "castelo-de-vide",
-   "to": "alcobaca-monastery",
-   "km": 196.0,
-   "min": 136,
-   "day": 119,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "alcobaca-monastery",
    "to": "ponta-da-piedade",
-   "km": 375.0,
-   "min": 263,
-   "day": 122,
-   "chapter": 7
+   "km": 368.3,
+   "min": 281,
+   "day": 119,
+   "chapter": 7,
+   "base": "b039"
   },
   {
    "mode": "road",
    "from": "ponta-da-piedade",
-   "to": "benagil-cave",
-   "km": 44.4,
-   "min": 44,
-   "day": 124,
-   "chapter": 7
-  },
-  {
-   "mode": "road",
-   "from": "benagil-cave",
    "to": "vejer-de-la-frontera",
-   "km": 401.6,
-   "min": 277,
-   "day": 125,
-   "chapter": 7
+   "km": 434.9,
+   "min": 294,
+   "day": 121,
+   "chapter": 7,
+   "base": "b040"
   },
   {
    "mode": "road",
@@ -7835,51 +5965,44 @@
    "to": "algeciras",
    "km": 70.4,
    "min": 64,
-   "day": 127,
-   "chapter": 7
+   "day": 122,
+   "chapter": 8,
+   "base": "b040"
+  },
+  {
+   "mode": "road",
+   "from": "algeciras",
+   "km": 3.1,
+   "min": 5,
+   "day": 124,
+   "chapter": 8,
+   "base": "b041"
   },
   {
    "mode": "sea",
-   "from": "algeciras",
-   "day": 128,
+   "day": 124,
    "chapter": 8,
+   "base": "b041",
    "ferry": "Algeciras → Tanger Med"
   },
   {
    "mode": "road",
-   "from": "algeciras",
-   "to": "chefchaouen",
-   "km": 120.7,
-   "min": 129,
-   "day": 129,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "chefchaouen",
    "to": "volubilis",
-   "km": 164.8,
-   "min": 197,
-   "day": 129,
-   "chapter": 8
+   "km": 284.4,
+   "min": 251,
+   "day": 124,
+   "chapter": 8,
+   "base": "b041"
   },
   {
    "mode": "road",
    "from": "volubilis",
-   "to": "fes-el-bali",
-   "km": 99.6,
-   "min": 91,
-   "day": 130,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "fes-el-bali",
    "to": "ifrane-national-park",
-   "km": 89.6,
-   "min": 114,
-   "day": 131,
-   "chapter": 8
+   "km": 104.2,
+   "min": 135,
+   "day": 126,
+   "chapter": 8,
+   "base": "b042"
   },
   {
    "mode": "road",
@@ -7887,17 +6010,29 @@
    "to": "ouzoud-falls",
    "km": 309.5,
    "min": 338,
-   "day": 132,
-   "chapter": 8
+   "day": 127,
+   "chapter": 8,
+   "base": "b043"
   },
   {
    "mode": "road",
    "from": "ouzoud-falls",
+   "to": "toubkal",
+   "km": 222.0,
+   "min": 259,
+   "day": 128,
+   "chapter": 8,
+   "base": "b043"
+  },
+  {
+   "mode": "road",
+   "from": "toubkal",
    "to": "telouet-kasbah",
-   "km": 196.3,
-   "min": 249,
-   "day": 133,
-   "chapter": 8
+   "km": 170.2,
+   "min": 206,
+   "day": 131,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
@@ -7905,8 +6040,9 @@
    "to": "ait-benhaddou",
    "km": 47.7,
    "min": 76,
-   "day": 134,
-   "chapter": 8
+   "day": 132,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
@@ -7914,44 +6050,59 @@
    "to": "taourirt-kasbah",
    "km": 32.7,
    "min": 47,
-   "day": 135,
-   "chapter": 8
+   "day": 132,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
    "from": "taourirt-kasbah",
-   "to": "agdz",
-   "km": 65.7,
-   "min": 74,
-   "day": 136,
-   "chapter": 8
+   "to": "skoura",
+   "km": 40.1,
+   "min": 40,
+   "day": 133,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
-   "from": "agdz",
-   "to": "tamegroute",
-   "km": 111.9,
-   "min": 132,
-   "day": 137,
-   "chapter": 8
+   "from": "skoura",
+   "to": "kalaat-m-gouna",
+   "km": 49.9,
+   "min": 52,
+   "day": 133,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
-   "from": "tamegroute",
-   "to": "n-kob",
-   "km": 122.3,
-   "min": 141,
-   "day": 139,
-   "chapter": 8
+   "from": "kalaat-m-gouna",
+   "to": "dades-gorges",
+   "km": 43.6,
+   "min": 56,
+   "day": 134,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
-   "from": "n-kob",
+   "from": "dades-gorges",
+   "to": "todgha-gorge",
+   "km": 89.4,
+   "min": 109,
+   "day": 135,
+   "chapter": 8,
+   "base": "b044"
+  },
+  {
+   "mode": "road",
+   "from": "todgha-gorge",
    "to": "rissani",
-   "km": 190.1,
-   "min": 234,
-   "day": 140,
-   "chapter": 8
+   "km": 175.1,
+   "min": 196,
+   "day": 136,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
@@ -7959,269 +6110,49 @@
    "to": "merzouga",
    "km": 39.4,
    "min": 47,
-   "day": 141,
-   "chapter": 8
+   "day": 137,
+   "chapter": 8,
+   "base": "b044"
   },
   {
    "mode": "road",
    "from": "merzouga",
-   "to": "todgha-gorge",
-   "km": 206.7,
-   "min": 222,
+   "to": "ziz-river",
+   "km": 164.6,
+   "min": 175,
+   "day": 140,
+   "chapter": 8,
+   "base": "b045"
+  },
+  {
+   "mode": "road",
+   "from": "ziz-river",
+   "to": "midelt",
+   "km": 98.4,
+   "min": 98,
    "day": 142,
-   "chapter": 8
+   "chapter": 8,
+   "base": "b045"
   },
   {
    "mode": "road",
-   "from": "todgha-gorge",
-   "to": "dades-gorges",
-   "km": 89.4,
-   "min": 109,
-   "day": 143,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "dades-gorges",
-   "to": "kalaat-m-gouna",
-   "km": 43.5,
-   "min": 56,
-   "day": 144,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "kalaat-m-gouna",
-   "to": "skoura",
-   "km": 49.9,
-   "min": 52,
+   "from": "midelt",
+   "to": "azrou",
+   "km": 122.5,
+   "min": 139,
    "day": 145,
-   "chapter": 8
+   "chapter": 8,
+   "base": "b045"
   },
   {
    "mode": "road",
-   "from": "skoura",
-   "to": "taliouine",
-   "km": 194.9,
-   "min": 227,
-   "day": 146,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "taliouine",
-   "to": "taroudant",
-   "km": 104.3,
-   "min": 96,
-   "day": 147,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "taroudant",
-   "to": "taghazout",
-   "km": 109.0,
-   "min": 105,
-   "day": 148,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "taghazout",
-   "to": "agadir-oufella",
-   "km": 30.3,
-   "min": 36,
-   "day": 149,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "agadir-oufella",
-   "to": "souss-massa-national-park",
-   "km": 69.7,
-   "min": 79,
-   "day": 150,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "souss-massa-national-park",
-   "to": "aglou",
-   "km": 61.2,
-   "min": 64,
-   "day": 151,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "aglou",
-   "to": "tiznit",
-   "km": 14.1,
-   "min": 15,
-   "day": 152,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "tiznit",
-   "to": "mirleft",
-   "km": 32.9,
-   "min": 43,
-   "day": 153,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "mirleft",
-   "to": "legzira",
-   "km": 34.6,
-   "min": 54,
-   "day": 154,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "legzira",
-   "to": "sidi-ifni",
-   "km": 11.0,
-   "min": 15,
-   "day": 158,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "sidi-ifni",
-   "to": "guelmim",
-   "km": 55.7,
-   "min": 64,
-   "day": 162,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "guelmim",
-   "to": "tan-tan",
-   "km": 127.7,
-   "min": 100,
-   "day": 167,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "tan-tan",
-   "to": "khenifiss-national-park",
-   "km": 152.2,
-   "min": 120,
-   "day": 171,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "khenifiss-national-park",
-   "to": "tarfaya",
-   "km": 64.3,
-   "min": 54,
-   "day": 176,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "tarfaya",
-   "to": "amtoudi",
-   "km": 455.2,
-   "min": 368,
-   "day": 180,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "amtoudi",
-   "to": "akka",
-   "km": 152.4,
-   "min": 160,
-   "day": 185,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "akka",
-   "to": "tata-morocco",
-   "km": 62.2,
-   "min": 64,
-   "day": 189,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "tata-morocco",
-   "to": "tafraoute",
-   "km": 160.5,
-   "min": 178,
-   "day": 194,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "tafraoute",
-   "to": "imsouane",
-   "km": 250.8,
-   "min": 278,
-   "day": 198,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "imsouane",
-   "to": "toubkal",
-   "km": 321.3,
-   "min": 314,
-   "day": 203,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "toubkal",
-   "to": "essaouira",
-   "km": 231.7,
-   "min": 233,
-   "day": 205,
-   "chapter": 8
-  },
-  {
-   "mode": "road",
-   "from": "essaouira",
-   "to": "oualidia",
-   "km": 190.2,
-   "min": 177,
-   "day": 209,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "oualidia",
-   "to": "portuguese-city-of-mazagan",
-   "km": 109.8,
-   "min": 89,
-   "day": 210,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "portuguese-city-of-mazagan",
-   "to": "hassan-ii-mosque",
-   "km": 104.4,
-   "min": 79,
-   "day": 211,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "hassan-ii-mosque",
+   "from": "azrou",
    "to": "kasbah-of-the-udayas",
-   "km": 97.4,
-   "min": 77,
-   "day": 212,
-   "chapter": 9
+   "km": 202.6,
+   "min": 165,
+   "day": 148,
+   "chapter": 8,
+   "base": "b045"
   },
   {
    "mode": "road",
@@ -8229,32 +6160,44 @@
    "to": "asilah",
    "km": 206.7,
    "min": 140,
-   "day": 213,
-   "chapter": 9
+   "day": 151,
+   "chapter": 8,
+   "base": "b046"
   },
   {
    "mode": "road",
    "from": "asilah",
    "km": 88.1,
    "min": 66,
-   "day": 214,
-   "chapter": 9
+   "day": 154,
+   "chapter": 8,
+   "base": "b047"
   },
   {
    "mode": "sea",
-   "from": "tiznit",
-   "day": 153,
+   "day": 154,
    "chapter": 8,
+   "base": "b047",
    "ferry": "Tanger Med → Algeciras"
   },
   {
    "mode": "road",
-   "from": "tiznit",
+   "to": "malaga",
+   "km": 136.3,
+   "min": 110,
+   "day": 154,
+   "chapter": 8,
+   "base": "b047"
+  },
+  {
+   "mode": "road",
+   "from": "malaga",
    "to": "rock-of-gibraltar",
-   "km": 30.8,
-   "min": 42,
+   "km": 136.0,
+   "min": 119,
    "day": 215,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b048"
   },
   {
    "mode": "road",
@@ -8262,8 +6205,9 @@
    "to": "baelo-claudia",
    "km": 72.5,
    "min": 91,
-   "day": 215,
-   "chapter": 9
+   "day": 217,
+   "chapter": 9,
+   "base": "b048"
   },
   {
    "mode": "road",
@@ -8271,26 +6215,19 @@
    "to": "cadiz",
    "km": 99.0,
    "min": 91,
-   "day": 217,
-   "chapter": 9
+   "day": 220,
+   "chapter": 9,
+   "base": "b049"
   },
   {
    "mode": "road",
    "from": "cadiz",
-   "to": "donana-national-park",
-   "km": 220.2,
-   "min": 171,
-   "day": 220,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "donana-national-park",
    "to": "alcazar-of-seville",
-   "km": 101.5,
-   "min": 90,
-   "day": 223,
-   "chapter": 9
+   "km": 124.2,
+   "min": 94,
+   "day": 221,
+   "chapter": 9,
+   "base": "b050"
   },
   {
    "mode": "road",
@@ -8298,44 +6235,29 @@
    "to": "mosquecathedral-of-cordoba",
    "km": 140.1,
    "min": 102,
-   "day": 224,
-   "chapter": 9
+   "day": 223,
+   "chapter": 9,
+   "base": "b050"
   },
   {
    "mode": "road",
    "from": "mosquecathedral-of-cordoba",
-   "to": "setenil-de-las-bodegas",
-   "km": 147.5,
-   "min": 145,
-   "day": 225,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "setenil-de-las-bodegas",
    "to": "ronda",
-   "km": 21.9,
-   "min": 32,
-   "day": 226,
-   "chapter": 9
+   "km": 194.5,
+   "min": 164,
+   "day": 224,
+   "chapter": 9,
+   "base": "b051"
   },
   {
    "mode": "road",
    "from": "ronda",
-   "to": "caminito-del-rey",
-   "km": 64.1,
-   "min": 77,
-   "day": 228,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "caminito-del-rey",
    "to": "cave-of-nerja",
-   "km": 117.6,
-   "min": 106,
+   "km": 166.6,
+   "min": 147,
    "day": 229,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b052"
   },
   {
    "mode": "road",
@@ -8344,25 +6266,18 @@
    "km": 94.5,
    "min": 76,
    "day": 230,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b052"
   },
   {
    "mode": "road",
    "from": "alhambra",
-   "to": "guadix",
-   "km": 55.8,
-   "min": 56,
-   "day": 232,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "guadix",
    "to": "cabo-de-gata-nijar-natural-park",
-   "km": 133.0,
-   "min": 113,
+   "km": 189.8,
+   "min": 161,
    "day": 233,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b053"
   },
   {
    "mode": "road",
@@ -8370,8 +6285,9 @@
    "to": "mojacar",
    "km": 75.0,
    "min": 79,
-   "day": 234,
-   "chapter": 9
+   "day": 235,
+   "chapter": 9,
+   "base": "b054"
   },
   {
    "mode": "road",
@@ -8380,7 +6296,8 @@
    "km": 127.1,
    "min": 97,
    "day": 236,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b054"
   },
   {
    "mode": "road",
@@ -8388,8 +6305,9 @@
    "to": "guadalest",
    "km": 183.8,
    "min": 136,
-   "day": 237,
-   "chapter": 9
+   "day": 238,
+   "chapter": 9,
+   "base": "b054"
   },
   {
    "mode": "road",
@@ -8397,44 +6315,29 @@
    "to": "city-of-arts-and-sciences",
    "km": 131.7,
    "min": 102,
-   "day": 238,
-   "chapter": 9
+   "day": 240,
+   "chapter": 9,
+   "base": "b054"
   },
   {
    "mode": "road",
    "from": "city-of-arts-and-sciences",
-   "to": "albufera",
-   "km": 26.0,
-   "min": 55,
-   "day": 240,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "albufera",
    "to": "peniscola",
-   "km": 170.3,
-   "min": 157,
-   "day": 242,
-   "chapter": 9
+   "km": 145.8,
+   "min": 106,
+   "day": 245,
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
    "from": "peniscola",
-   "to": "morella-castellon",
-   "km": 77.1,
-   "min": 72,
-   "day": 245,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "morella-castellon",
    "to": "ebro-delta",
-   "km": 85.9,
-   "min": 84,
+   "km": 47.2,
+   "min": 51,
    "day": 245,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
@@ -8443,7 +6346,8 @@
    "km": 100.2,
    "min": 79,
    "day": 246,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
@@ -8452,7 +6356,8 @@
    "km": 60.0,
    "min": 44,
    "day": 246,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
@@ -8461,7 +6366,8 @@
    "km": 138.7,
    "min": 112,
    "day": 247,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
@@ -8470,7 +6376,8 @@
    "km": 33.5,
    "min": 40,
    "day": 247,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
@@ -8479,25 +6386,18 @@
    "km": 61.6,
    "min": 63,
    "day": 248,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b055"
   },
   {
    "mode": "road",
    "from": "cadaques",
-   "to": "cap-de-creus",
-   "km": 2.4,
-   "min": 6,
-   "day": 248,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "cap-de-creus",
    "to": "collioure",
-   "km": 60.0,
-   "min": 85,
+   "km": 57.9,
+   "min": 79,
    "day": 249,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b056"
   },
   {
    "mode": "road",
@@ -8506,7 +6406,8 @@
    "km": 145.6,
    "min": 100,
    "day": 249,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b056"
   },
   {
    "mode": "road",
@@ -8515,43 +6416,18 @@
    "km": 177.1,
    "min": 120,
    "day": 250,
-   "chapter": 9
+   "chapter": 9,
+   "base": "b057"
   },
   {
    "mode": "road",
    "from": "aigues-mortes",
-   "to": "camargue",
-   "km": 29.6,
-   "min": 32,
-   "day": 250,
-   "chapter": 9
-  },
-  {
-   "mode": "road",
-   "from": "camargue",
-   "to": "maison-carree",
-   "km": 66.0,
-   "min": 60,
-   "day": 251,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "maison-carree",
-   "to": "arles-amphitheatre",
-   "km": 35.2,
-   "min": 31,
-   "day": 252,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "arles-amphitheatre",
    "to": "glanum",
-   "km": 43.6,
-   "min": 33,
-   "day": 252,
-   "chapter": 10
+   "km": 88.2,
+   "min": 74,
+   "day": 253,
+   "chapter": 10,
+   "base": "b058"
   },
   {
    "mode": "road",
@@ -8559,8 +6435,9 @@
    "to": "les-baux-de-provence",
    "km": 40.8,
    "min": 41,
-   "day": 252,
-   "chapter": 10
+   "day": 253,
+   "chapter": 10,
+   "base": "b058"
   },
   {
    "mode": "road",
@@ -8568,8 +6445,9 @@
    "to": "cours-mirabeau",
    "km": 74.3,
    "min": 65,
-   "day": 253,
-   "chapter": 10
+   "day": 254,
+   "chapter": 10,
+   "base": "b059"
   },
   {
    "mode": "road",
@@ -8577,26 +6455,19 @@
    "to": "montagne-sainte-victoire",
    "km": 18.2,
    "min": 29,
-   "day": 253,
-   "chapter": 10
+   "day": 254,
+   "chapter": 10,
+   "base": "b059"
   },
   {
    "mode": "road",
    "from": "montagne-sainte-victoire",
-   "to": "calanques-national-park",
-   "km": 64.0,
-   "min": 76,
-   "day": 254,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "calanques-national-park",
    "to": "cassis",
-   "km": 18.1,
-   "min": 33,
-   "day": 254,
-   "chapter": 10
+   "km": 54.6,
+   "min": 50,
+   "day": 255,
+   "chapter": 10,
+   "base": "b059"
   },
   {
    "mode": "road",
@@ -8604,161 +6475,49 @@
    "to": "lac-de-sainte-croix",
    "km": 128.8,
    "min": 118,
-   "day": 255,
-   "chapter": 10
+   "day": 256,
+   "chapter": 10,
+   "base": "b060"
   },
   {
    "mode": "road",
    "from": "lac-de-sainte-croix",
-   "to": "gorges-du-verdon",
-   "km": 49.6,
-   "min": 58,
-   "day": 255,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "gorges-du-verdon",
-   "to": "moustiers-sainte-marie",
-   "km": 34.1,
-   "min": 38,
-   "day": 256,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "moustiers-sainte-marie",
-   "to": "plateau-de-valensole",
-   "km": 27.9,
-   "min": 30,
-   "day": 256,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "plateau-de-valensole",
-   "to": "gordes",
-   "km": 80.9,
-   "min": 87,
-   "day": 257,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "gordes",
-   "to": "senanque-abbey",
-   "km": 9.6,
-   "min": 15,
-   "day": 257,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "senanque-abbey",
-   "to": "roussillon-vaucluse",
-   "km": 21.4,
-   "min": 27,
-   "day": 258,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "roussillon-vaucluse",
-   "to": "fontaine-de-vaucluse",
-   "km": 22.1,
-   "min": 28,
-   "day": 258,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "fontaine-de-vaucluse",
    "to": "l-isle-sur-la-sorgue",
-   "km": 8.5,
-   "min": 16,
-   "day": 259,
-   "chapter": 10
+   "km": 133.2,
+   "min": 128,
+   "day": 258,
+   "chapter": 10,
+   "base": "b061"
   },
   {
    "mode": "road",
    "from": "l-isle-sur-la-sorgue",
-   "to": "palais-des-papes",
-   "km": 30.0,
-   "min": 39,
-   "day": 259,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "palais-des-papes",
    "to": "pont-du-gard",
-   "km": 30.5,
-   "min": 41,
-   "day": 260,
-   "chapter": 10
+   "km": 57.5,
+   "min": 70,
+   "day": 261,
+   "chapter": 10,
+   "base": "b062"
   },
   {
    "mode": "road",
    "from": "pont-du-gard",
-   "to": "roman-theatre-of-orange",
-   "km": 40.8,
-   "min": 36,
-   "day": 260,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "roman-theatre-of-orange",
    "to": "vaison-la-romaine",
-   "km": 28.9,
-   "min": 35,
+   "km": 76.2,
+   "min": 70,
    "day": 261,
-   "chapter": 10
+   "chapter": 10,
+   "base": "b063"
   },
   {
    "mode": "road",
    "from": "vaison-la-romaine",
-   "to": "dentelles-de-montmirail",
-   "km": 16.1,
-   "min": 22,
-   "day": 261,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "dentelles-de-montmirail",
-   "to": "mont-ventoux",
-   "km": 45.6,
-   "min": 52,
-   "day": 262,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "mont-ventoux",
-   "to": "pont-d-arc",
-   "km": 104.0,
-   "min": 113,
-   "day": 262,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "pont-d-arc",
-   "to": "chateau-de-grignan",
-   "km": 53.4,
-   "min": 62,
-   "day": 263,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "chateau-de-grignan",
    "to": "vercors-massif",
-   "km": 140.9,
-   "min": 113,
-   "day": 263,
-   "chapter": 10
+   "km": 131.6,
+   "min": 141,
+   "day": 264,
+   "chapter": 10,
+   "base": "b064"
   },
   {
    "mode": "road",
@@ -8766,44 +6525,29 @@
    "to": "bastille",
    "km": 67.9,
    "min": 84,
-   "day": 263,
-   "chapter": 10
+   "day": 264,
+   "chapter": 10,
+   "base": "b064"
   },
   {
    "mode": "road",
    "from": "bastille",
-   "to": "grande-chartreuse",
-   "km": 29.6,
-   "min": 44,
-   "day": 264,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "grande-chartreuse",
    "to": "vieux-lyon",
-   "km": 114.9,
-   "min": 98,
-   "day": 264,
-   "chapter": 10
+   "km": 108.5,
+   "min": 92,
+   "day": 265,
+   "chapter": 10,
+   "base": "b065"
   },
   {
    "mode": "road",
    "from": "vieux-lyon",
-   "to": "perouges",
-   "km": 42.1,
-   "min": 43,
-   "day": 265,
-   "chapter": 10
-  },
-  {
-   "mode": "road",
-   "from": "perouges",
    "to": "lake-annecy",
-   "km": 134.6,
-   "min": 117,
-   "day": 265,
-   "chapter": 10
+   "km": 147.5,
+   "min": 115,
+   "day": 266,
+   "chapter": 11,
+   "base": "b066"
   },
   {
    "mode": "road",
@@ -8811,8 +6555,9 @@
    "to": "palais-de-l-isle",
    "km": 9.1,
    "min": 17,
-   "day": 266,
-   "chapter": 11
+   "day": 267,
+   "chapter": 11,
+   "base": "b066"
   },
   {
    "mode": "road",
@@ -8820,107 +6565,49 @@
    "to": "mer-de-glace",
    "km": 102.4,
    "min": 82,
-   "day": 266,
-   "chapter": 11
+   "day": 267,
+   "chapter": 11,
+   "base": "b066"
   },
   {
    "mode": "road",
    "from": "mer-de-glace",
-   "to": "aiguille-du-midi",
-   "km": 12.7,
-   "min": 17,
-   "day": 267,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "aiguille-du-midi",
    "to": "yvoire",
-   "km": 99.7,
-   "min": 79,
-   "day": 267,
-   "chapter": 11
+   "km": 98.6,
+   "min": 81,
+   "day": 268,
+   "chapter": 11,
+   "base": "b067"
   },
   {
    "mode": "road",
    "from": "yvoire",
-   "to": "lavaux",
-   "km": 82.5,
-   "min": 88,
-   "day": 268,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "lavaux",
-   "to": "chillon-castle",
-   "km": 21.3,
-   "min": 22,
-   "day": 268,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "chillon-castle",
    "to": "gruyeres",
-   "km": 44.8,
-   "min": 41,
+   "km": 105.4,
+   "min": 107,
    "day": 269,
-   "chapter": 11
+   "chapter": 11,
+   "base": "b068"
   },
   {
    "mode": "road",
    "from": "gruyeres",
-   "to": "old-city",
-   "km": 64.8,
-   "min": 54,
-   "day": 269,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "old-city",
-   "to": "oeschinen-lake",
-   "km": 63.5,
-   "min": 60,
-   "day": 270,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "oeschinen-lake",
    "to": "lauterbrunnen",
-   "km": 48.1,
-   "min": 58,
-   "day": 270,
-   "chapter": 11
+   "km": 92.4,
+   "min": 100,
+   "day": 271,
+   "chapter": 11,
+   "base": "b069"
   },
   {
    "mode": "road",
    "from": "lauterbrunnen",
-   "to": "chapel-bridge",
-   "km": 79.5,
-   "min": 78,
-   "day": 271,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "chapel-bridge",
-   "to": "rhine-falls",
-   "km": 101.2,
-   "min": 85,
-   "day": 271,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "rhine-falls",
    "to": "basel-minster",
-   "km": 94.0,
-   "min": 91,
+   "km": 158.9,
+   "min": 119,
    "day": 272,
-   "chapter": 11
+   "chapter": 11,
+   "base": "b070"
   },
   {
    "mode": "road",
@@ -8928,53 +6615,19 @@
    "to": "colmar",
    "km": 66.7,
    "min": 51,
-   "day": 272,
-   "chapter": 11
+   "day": 273,
+   "chapter": 11,
+   "base": "b070"
   },
   {
    "mode": "road",
    "from": "colmar",
-   "to": "eguisheim",
-   "km": 7.4,
-   "min": 13,
-   "day": 273,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "eguisheim",
-   "to": "kaysersberg",
-   "km": 13.7,
-   "min": 18,
-   "day": 273,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "kaysersberg",
-   "to": "haut-koenigsbourg-castle",
-   "km": 25.4,
-   "min": 33,
-   "day": 274,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "haut-koenigsbourg-castle",
-   "to": "alsace",
-   "km": 27.3,
-   "min": 27,
-   "day": 274,
-   "chapter": 11
-  },
-  {
-   "mode": "road",
-   "from": "alsace",
    "to": "strasbourg-cathedral",
-   "km": 76.1,
-   "min": 61,
-   "day": 275,
-   "chapter": 12
+   "km": 75.6,
+   "min": 60,
+   "day": 276,
+   "chapter": 12,
+   "base": "b071"
   },
   {
    "mode": "road",
@@ -8983,7 +6636,8 @@
    "km": 183.1,
    "min": 132,
    "day": 276,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b071"
   },
   {
    "mode": "road",
@@ -8991,8 +6645,9 @@
    "to": "porta-nigra",
    "km": 41.0,
    "min": 50,
-   "day": 276,
-   "chapter": 12
+   "day": 277,
+   "chapter": 12,
+   "base": "b072"
   },
   {
    "mode": "road",
@@ -9001,70 +6656,28 @@
    "km": 44.5,
    "min": 37,
    "day": 277,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b072"
   },
   {
    "mode": "road",
    "from": "bernkastel-kues",
-   "to": "reichsburg-cochem",
-   "km": 51.8,
-   "min": 52,
-   "day": 277,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "reichsburg-cochem",
-   "to": "burg-eltz",
-   "km": 33.5,
-   "min": 52,
-   "day": 278,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "burg-eltz",
-   "to": "marksburg",
-   "km": 50.7,
-   "min": 68,
-   "day": 278,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "marksburg",
    "to": "loreley",
-   "km": 23.8,
-   "min": 28,
-   "day": 279,
-   "chapter": 12
+   "km": 82.7,
+   "min": 75,
+   "day": 278,
+   "chapter": 12,
+   "base": "b072"
   },
   {
    "mode": "road",
    "from": "loreley",
-   "to": "bacharach",
-   "km": 11.5,
-   "min": 16,
-   "day": 279,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "bacharach",
-   "to": "rudesheim-am-rhein",
-   "km": 23.6,
-   "min": 31,
-   "day": 280,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "rudesheim-am-rhein",
    "to": "speyer-cathedral",
-   "km": 101.0,
-   "min": 74,
-   "day": 280,
-   "chapter": 12
+   "km": 123.7,
+   "min": 94,
+   "day": 281,
+   "chapter": 12,
+   "base": "b073"
   },
   {
    "mode": "road",
@@ -9073,43 +6686,28 @@
    "km": 37.9,
    "min": 36,
    "day": 281,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b073"
   },
   {
    "mode": "road",
    "from": "heidelberg-castle",
-   "to": "dinkelsbuhl",
-   "km": 167.4,
-   "min": 115,
-   "day": 281,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "dinkelsbuhl",
    "to": "rothenburg-ob-der-tauber",
-   "km": 46.5,
-   "min": 37,
+   "km": 171.0,
+   "min": 115,
    "day": 282,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b073"
   },
   {
    "mode": "road",
    "from": "rothenburg-ob-der-tauber",
-   "to": "wurzburg-residence",
-   "km": 64.1,
-   "min": 47,
-   "day": 282,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "wurzburg-residence",
    "to": "bamberg",
-   "km": 96.9,
-   "min": 67,
-   "day": 283,
-   "chapter": 12
+   "km": 125.0,
+   "min": 90,
+   "day": 284,
+   "chapter": 12,
+   "base": "b074"
   },
   {
    "mode": "road",
@@ -9118,385 +6716,133 @@
    "km": 57.2,
    "min": 50,
    "day": 284,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b074"
   },
   {
    "mode": "road",
    "from": "veste-coburg",
-   "to": "wartburg",
-   "km": 127.4,
-   "min": 104,
-   "day": 284,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "wartburg",
    "to": "erfurt-cathedral",
-   "km": 72.3,
-   "min": 59,
+   "km": 121.2,
+   "min": 90,
    "day": 285,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b074"
   },
   {
    "mode": "road",
    "from": "erfurt-cathedral",
-   "to": "weimar",
-   "km": 25.8,
-   "min": 34,
-   "day": 286,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "weimar",
    "to": "st-thomas-church-leipzig",
-   "km": 130.4,
-   "min": 91,
+   "km": 147.8,
+   "min": 103,
    "day": 287,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b075"
   },
   {
    "mode": "road",
    "from": "st-thomas-church-leipzig",
-   "to": "konigstein-fortress",
-   "km": 145.3,
-   "min": 104,
-   "day": 287,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "konigstein-fortress",
    "to": "bastei",
-   "km": 24.1,
-   "min": 33,
+   "km": 147.1,
+   "min": 106,
    "day": 288,
-   "chapter": 12
+   "chapter": 12,
+   "base": "b075"
   },
   {
    "mode": "road",
    "from": "bastei",
-   "to": "zwinger",
-   "km": 39.0,
-   "min": 43,
-   "day": 289,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "zwinger",
-   "to": "frauenkirche-dresden",
-   "km": 0.9,
-   "min": 3,
-   "day": 290,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "frauenkirche-dresden",
-   "to": "moritzburg-castle",
-   "km": 19.1,
-   "min": 34,
-   "day": 290,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "moritzburg-castle",
    "to": "gorlitz",
-   "km": 110.7,
-   "min": 88,
-   "day": 291,
-   "chapter": 12
+   "km": 106.1,
+   "min": 85,
+   "day": 293,
+   "chapter": 12,
+   "base": "b076"
   },
   {
    "mode": "road",
    "from": "gorlitz",
-   "to": "muskau-park",
-   "km": 54.8,
-   "min": 60,
-   "day": 292,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "muskau-park",
-   "to": "spreewald",
-   "km": 101.4,
-   "min": 110,
-   "day": 293,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "spreewald",
-   "to": "all-saints-church-wittenberg",
-   "km": 173.1,
-   "min": 147,
-   "day": 293,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "all-saints-church-wittenberg",
    "to": "sanssouci",
-   "km": 83.9,
-   "min": 71,
-   "day": 294,
-   "chapter": 12
+   "km": 230.2,
+   "min": 183,
+   "day": 295,
+   "chapter": 12,
+   "base": "b077"
   },
   {
    "mode": "road",
    "from": "sanssouci",
-   "to": "berlin",
-   "km": 38.4,
-   "min": 44,
-   "day": 295,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "berlin",
-   "to": "chorin-abbey",
-   "km": 82.1,
-   "min": 67,
-   "day": 296,
-   "chapter": 12
-  },
-  {
-   "mode": "road",
-   "from": "chorin-abbey",
-   "to": "pomeranian-dukes-castle",
-   "km": 99.2,
-   "min": 75,
-   "day": 297,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "pomeranian-dukes-castle",
-   "to": "trzesacz",
-   "km": 107.6,
-   "min": 96,
-   "day": 297,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "trzesacz",
-   "to": "wolin-national-park",
-   "km": 43.8,
-   "min": 47,
-   "day": 298,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "wolin-national-park",
-   "to": "slowinski-national-park",
-   "km": 258.4,
-   "min": 225,
-   "day": 299,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "slowinski-national-park",
-   "to": "hel-peninsula",
-   "km": 139.1,
-   "min": 180,
-   "day": 300,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "hel-peninsula",
-   "to": "sopot",
-   "km": 79.0,
-   "min": 102,
-   "day": 301,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "sopot",
-   "to": "oliwa-cathedral",
-   "km": 4.3,
-   "min": 8,
+   "km": 353.6,
+   "min": 227,
    "day": 302,
-   "chapter": 13
+   "chapter": 13,
+   "base": "b078"
+  },
+  {
+   "mode": "sea",
+   "day": 302,
+   "chapter": 13,
+   "base": "b078",
+   "ferry": "Kiel → Klaipėda"
   },
   {
    "mode": "road",
-   "from": "oliwa-cathedral",
-   "to": "st-mary-s-church-gdansk",
-   "km": 10.3,
-   "min": 18,
-   "day": 303,
-   "chapter": 13
+   "to": "curonian-spit",
+   "km": 45.4,
+   "min": 47,
+   "day": 302,
+   "chapter": 13,
+   "base": "b078"
   },
   {
    "mode": "road",
-   "from": "st-mary-s-church-gdansk",
-   "to": "westerplatte",
-   "km": 11.9,
-   "min": 20,
-   "day": 303,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "westerplatte",
-   "to": "malbork-castle",
-   "km": 65.6,
-   "min": 59,
-   "day": 304,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "malbork-castle",
-   "to": "elblag-canal",
-   "km": 61.7,
-   "min": 62,
-   "day": 305,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "elblag-canal",
-   "to": "frombork",
-   "km": 46.6,
-   "min": 57,
-   "day": 306,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "frombork",
-   "to": "lidzbark-warminski-castle",
-   "km": 80.9,
-   "min": 85,
-   "day": 307,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "lidzbark-warminski-castle",
-   "to": "swieta-lipka",
-   "km": 50.1,
-   "min": 57,
-   "day": 308,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "swieta-lipka",
-   "to": "wolf-s-lair",
-   "km": 23.4,
-   "min": 29,
-   "day": 309,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "wolf-s-lair",
-   "to": "krutynia",
-   "km": 62.1,
-   "min": 69,
-   "day": 309,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "krutynia",
-   "to": "mikolajki",
-   "km": 24.2,
-   "min": 29,
-   "day": 310,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "mikolajki",
-   "to": "tykocin",
-   "km": 149.1,
-   "min": 153,
-   "day": 311,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "tykocin",
-   "to": "bialowieza-forest",
-   "km": 108.6,
-   "min": 119,
-   "day": 312,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "bialowieza-forest",
-   "to": "druskininkai",
-   "km": 260.7,
-   "min": 271,
-   "day": 313,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "druskininkai",
-   "to": "grutas-park",
-   "km": 10.3,
-   "min": 14,
-   "day": 314,
-   "chapter": 13
-  },
-  {
-   "mode": "road",
-   "from": "grutas-park",
-   "to": "trakai-island-castle",
-   "km": 100.9,
-   "min": 106,
-   "day": 315,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "trakai-island-castle",
-   "to": "vilnius-old-town",
-   "km": 36.4,
-   "min": 37,
-   "day": 316,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "vilnius-old-town",
-   "to": "kernave",
-   "km": 44.9,
-   "min": 49,
-   "day": 316,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "kernave",
+   "from": "curonian-spit",
    "to": "kaunas-castle",
-   "km": 88.8,
-   "min": 69,
-   "day": 317,
-   "chapter": 14
+   "km": 261.0,
+   "min": 191,
+   "day": 303,
+   "chapter": 13,
+   "base": "b079"
   },
   {
    "mode": "road",
    "from": "kaunas-castle",
+   "to": "druskininkai",
+   "km": 121.8,
+   "min": 118,
+   "day": 304,
+   "chapter": 13,
+   "base": "b080"
+  },
+  {
+   "mode": "road",
+   "from": "druskininkai",
+   "to": "trakai-island-castle",
+   "km": 108.5,
+   "min": 113,
+   "day": 306,
+   "chapter": 13,
+   "base": "b081"
+  },
+  {
+   "mode": "road",
+   "from": "trakai-island-castle",
+   "to": "kernave",
+   "km": 35.9,
+   "min": 38,
+   "day": 309,
+   "chapter": 13,
+   "base": "b082"
+  },
+  {
+   "mode": "road",
+   "from": "kernave",
    "to": "hill-of-crosses",
-   "km": 174.0,
-   "min": 141,
-   "day": 318,
-   "chapter": 14
+   "km": 193.0,
+   "min": 149,
+   "day": 310,
+   "chapter": 13,
+   "base": "b082"
   },
   {
    "mode": "road",
@@ -9504,35 +6850,19 @@
    "to": "rundale-palace",
    "km": 74.3,
    "min": 68,
-   "day": 319,
-   "chapter": 14
+   "day": 311,
+   "chapter": 13,
+   "base": "b082"
   },
   {
    "mode": "road",
    "from": "rundale-palace",
-   "to": "bauska-castle",
-   "km": 13.8,
-   "min": 16,
-   "day": 320,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "bauska-castle",
-   "to": "old-riga",
-   "km": 66.7,
-   "min": 63,
-   "day": 321,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "old-riga",
    "to": "kemeri-national-park",
-   "km": 46.4,
-   "min": 49,
-   "day": 322,
-   "chapter": 14
+   "km": 79.9,
+   "min": 86,
+   "day": 313,
+   "chapter": 13,
+   "base": "b083"
   },
   {
    "mode": "road",
@@ -9540,8 +6870,9 @@
    "to": "cape-kolka",
    "km": 122.4,
    "min": 125,
-   "day": 322,
-   "chapter": 14
+   "day": 315,
+   "chapter": 13,
+   "base": "b083"
   },
   {
    "mode": "road",
@@ -9549,212 +6880,54 @@
    "to": "turaida-castle",
    "km": 216.4,
    "min": 226,
-   "day": 323,
-   "chapter": 14
+   "day": 316,
+   "chapter": 13,
+   "base": "b084"
   },
   {
    "mode": "road",
    "from": "turaida-castle",
-   "to": "gauja-national-park",
-   "km": 56.7,
-   "min": 56,
-   "day": 324,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "gauja-national-park",
    "to": "cesis-castle",
-   "km": 15.5,
-   "min": 17,
-   "day": 325,
-   "chapter": 14
+   "km": 42.2,
+   "min": 42,
+   "day": 317,
+   "chapter": 13,
+   "base": "b084"
   },
   {
    "mode": "road",
    "from": "cesis-castle",
-   "to": "araisi-lake-fortress",
-   "km": 8.7,
-   "min": 12,
-   "day": 326,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "araisi-lake-fortress",
-   "to": "rouge",
-   "km": 135.1,
-   "min": 119,
-   "day": 327,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "rouge",
-   "to": "suur-munamagi",
-   "km": 10.5,
-   "min": 16,
-   "day": 328,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "suur-munamagi",
-   "to": "piusa-caves",
-   "km": 42.9,
-   "min": 48,
-   "day": 329,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "piusa-caves",
-   "to": "tartu",
-   "km": 90.6,
-   "min": 104,
-   "day": 329,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "tartu",
-   "to": "lake-peipus",
-   "km": 61.6,
-   "min": 58,
-   "day": 330,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "lake-peipus",
-   "to": "puhtitsa-convent",
-   "km": 76.6,
-   "min": 67,
-   "day": 331,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "puhtitsa-convent",
-   "to": "narva-castle",
-   "km": 65.1,
-   "min": 61,
-   "day": 332,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "narva-castle",
-   "to": "valaste-waterfall",
-   "km": 63.3,
-   "min": 62,
-   "day": 333,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "valaste-waterfall",
-   "to": "lahemaa-national-park",
-   "km": 105.8,
-   "min": 99,
-   "day": 334,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "lahemaa-national-park",
-   "to": "palmse-manor",
-   "km": 13.4,
-   "min": 18,
-   "day": 335,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "palmse-manor",
-   "to": "jagala-waterfall",
-   "km": 58.1,
-   "min": 48,
-   "day": 335,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "jagala-waterfall",
-   "to": "keila-falls",
-   "km": 71.7,
-   "min": 63,
-   "day": 336,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "keila-falls",
-   "to": "haapsalu-castle",
-   "km": 88.9,
-   "min": 84,
-   "day": 337,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "haapsalu-castle",
-   "to": "matsalu-national-park",
-   "km": 24.3,
-   "min": 28,
-   "day": 338,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "matsalu-national-park",
-   "to": "viljandi-castle",
-   "km": 205.7,
-   "min": 184,
-   "day": 339,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "viljandi-castle",
-   "to": "soomaa-national-park",
-   "km": 37.8,
-   "min": 49,
-   "day": 340,
-   "chapter": 14
-  },
-  {
-   "mode": "road",
-   "from": "soomaa-national-park",
    "to": "home1",
-   "km": 53.5,
-   "min": 64,
-   "day": 341,
-   "chapter": 14
+   "km": 156.2,
+   "min": 157,
+   "day": 321,
+   "chapter": 13,
+   "base": "b085"
   },
   {
    "mode": "road",
    "from": "home1",
    "km": 132.9,
    "min": 122,
-   "day": 342,
-   "chapter": 14
+   "day": 359,
+   "chapter": 15,
+   "base": "b086"
   },
   {
    "mode": "sea",
-   "from": "home1",
-   "day": 342,
-   "chapter": 14,
+   "day": 359,
+   "chapter": 15,
+   "base": "b086",
    "ferry": "Tallinn → Helsinki"
   },
   {
    "mode": "road",
-   "from": "home1",
    "to": "helsinki-cathedral",
    "km": 2.1,
    "min": 6,
    "day": 359,
-   "chapter": 15
+   "chapter": 15,
+   "base": "b086"
   },
   {
    "mode": "road",
@@ -9763,160 +6936,78 @@
    "km": 103.2,
    "min": 81,
    "day": 359,
-   "chapter": 15
+   "chapter": 15,
+   "base": "b087"
   },
   {
    "mode": "road",
    "from": "hame-castle",
-   "to": "rovaniemi",
-   "km": 749.2,
-   "min": 630,
+   "to": "petajavesi-old-church",
+   "km": 210.1,
+   "min": 166,
    "day": 360,
-   "chapter": 15
+   "chapter": 15,
+   "base": "b087"
+  },
+  {
+   "mode": "road",
+   "from": "petajavesi-old-church",
+   "to": "oulu",
+   "km": 361.0,
+   "min": 305,
+   "day": 361,
+   "chapter": 15,
+   "base": "b087"
+  },
+  {
+   "mode": "road",
+   "from": "oulu",
+   "to": "rovaniemi",
+   "km": 221.5,
+   "min": 192,
+   "day": 362,
+   "chapter": 15,
+   "base": "b087"
   },
   {
    "mode": "road",
    "from": "rovaniemi",
-   "to": "santa-claus-village",
-   "km": 8.6,
-   "min": 11,
-   "day": 361,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "santa-claus-village",
-   "to": "sodankyla-old-church",
-   "km": 121.6,
-   "min": 98,
-   "day": 362,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "sodankyla-old-church",
-   "to": "pyha-luosto-national-park",
-   "km": 49.1,
-   "min": 47,
-   "day": 362,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "pyha-luosto-national-park",
-   "to": "tankavaara",
-   "km": 146.1,
-   "min": 124,
-   "day": 363,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "tankavaara",
-   "to": "urho-kekkonen-national-park",
-   "km": 79.0,
-   "min": 73,
-   "day": 363,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "urho-kekkonen-national-park",
-   "to": "siida",
-   "km": 91.0,
-   "min": 92,
+   "to": "pallas-yllastunturi-national-park",
+   "km": 224.3,
+   "min": 189,
    "day": 364,
-   "chapter": 15
+   "chapter": 15,
+   "base": "b088"
   },
   {
    "mode": "road",
-   "from": "siida",
-   "to": "sajos",
-   "km": 0.6,
-   "min": 2,
-   "day": 364,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "sajos",
-   "to": "lake-inari",
-   "km": 106.4,
-   "min": 130,
-   "day": 365,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "lake-inari",
-   "to": "kevo-strict-nature-reserve",
-   "km": 199.0,
+   "from": "pallas-yllastunturi-national-park",
+   "to": "saana",
+   "km": 226.3,
    "min": 203,
    "day": 365,
-   "chapter": 15
+   "chapter": 15,
+   "base": "b088"
   },
   {
    "mode": "road",
-   "from": "kevo-strict-nature-reserve",
-   "to": "tana",
-   "km": 103.2,
-   "min": 95,
-   "day": 366,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "tana",
-   "to": "nordkapp",
-   "km": 401.0,
-   "min": 386,
-   "day": 366,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "nordkapp",
-   "to": "alta-museum",
-   "km": 239.7,
-   "min": 235,
-   "day": 367,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "alta-museum",
-   "to": "alta-canyon",
-   "km": 29.9,
-   "min": 39,
-   "day": 368,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "alta-canyon",
+   "from": "saana",
    "to": "lyngen-alps",
-   "km": 400.9,
-   "min": 415,
-   "day": 368,
-   "chapter": 15
+   "km": 158.5,
+   "min": 164,
+   "day": 366,
+   "chapter": 15,
+   "base": "b088"
   },
   {
    "mode": "road",
    "from": "lyngen-alps",
-   "to": "fjellheisen",
-   "km": 74.9,
-   "min": 147,
-   "day": 368,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "fjellheisen",
    "to": "arctic-cathedral",
-   "km": 1.3,
-   "min": 3,
-   "day": 369,
-   "chapter": 15
+   "km": 73.6,
+   "min": 143,
+   "day": 368,
+   "chapter": 15,
+   "base": "b089"
   },
   {
    "mode": "road",
@@ -9924,8 +7015,9 @@
    "to": "segla",
    "km": 212.1,
    "min": 218,
-   "day": 369,
-   "chapter": 15
+   "day": 370,
+   "chapter": 15,
+   "base": "b090"
   },
   {
    "mode": "road",
@@ -9933,107 +7025,79 @@
    "to": "senja",
    "km": 111.8,
    "min": 124,
-   "day": 370,
-   "chapter": 15
+   "day": 371,
+   "chapter": 15,
+   "base": "b090"
   },
   {
    "mode": "road",
    "from": "senja",
+   "km": 95.6,
+   "min": 102,
+   "day": 372,
+   "chapter": 15,
+   "base": "b091"
+  },
+  {
+   "mode": "sea",
+   "day": 372,
+   "chapter": 15,
+   "base": "b091",
+   "ferry": "Gryllefjord → Andenes"
+  },
+  {
+   "mode": "road",
    "to": "bleik",
-   "km": 452.4,
-   "min": 463,
-   "day": 370,
-   "chapter": 15
+   "km": 10.3,
+   "min": 12,
+   "day": 372,
+   "chapter": 15,
+   "base": "b091"
   },
   {
    "mode": "road",
    "from": "bleik",
-   "to": "andenes",
-   "km": 9.8,
-   "min": 11,
-   "day": 371,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "andenes",
-   "to": "svolvaer",
-   "km": 211.2,
-   "min": 214,
-   "day": 371,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "svolvaer",
-   "to": "vagan-church",
-   "km": 5.1,
-   "min": 7,
-   "day": 372,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "vagan-church",
    "to": "henningsvaer",
-   "km": 18.9,
-   "min": 21,
-   "day": 372,
-   "chapter": 15
+   "km": 232.8,
+   "min": 235,
+   "day": 374,
+   "chapter": 15,
+   "base": "b092"
   },
   {
    "mode": "road",
    "from": "henningsvaer",
-   "to": "haukland-beach",
-   "km": 60.8,
-   "min": 66,
-   "day": 373,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "haukland-beach",
    "to": "nusfjord",
-   "km": 29.1,
-   "min": 29,
-   "day": 373,
-   "chapter": 15
+   "km": 83.9,
+   "min": 88,
+   "day": 377,
+   "chapter": 15,
+   "base": "b093"
   },
   {
    "mode": "road",
    "from": "nusfjord",
-   "to": "hamnoy",
-   "km": 36.6,
-   "min": 37,
-   "day": 374,
-   "chapter": 15
+   "km": 45.3,
+   "min": 49,
+   "day": 381,
+   "chapter": 16,
+   "base": "b094"
+  },
+  {
+   "mode": "sea",
+   "day": 381,
+   "chapter": 16,
+   "base": "b094",
+   "ferry": "Moskenes → Bodø"
   },
   {
    "mode": "road",
-   "from": "hamnoy",
-   "to": "lofoten",
-   "km": 4.4,
-   "min": 7,
-   "day": 374,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "lofoten",
-   "to": "lofotr-viking-museum",
-   "km": 65.4,
-   "min": 71,
-   "day": 375,
-   "chapter": 15
-  },
-  {
-   "mode": "road",
-   "from": "lofotr-viking-museum",
    "to": "kjerringoy",
-   "km": 435.4,
-   "min": 553,
-   "day": 376,
-   "chapter": 15
+   "km": 42.1,
+   "min": 70,
+   "day": 381,
+   "chapter": 16,
+   "base": "b094"
   },
   {
    "mode": "road",
@@ -10041,8 +7105,9 @@
    "to": "saltstraumen",
    "km": 71.0,
    "min": 101,
-   "day": 376,
-   "chapter": 15
+   "day": 382,
+   "chapter": 16,
+   "base": "b095"
   },
   {
    "mode": "road",
@@ -10050,8 +7115,9 @@
    "to": "saltfjelletsvartisen-national-park",
    "km": 221.2,
    "min": 207,
-   "day": 377,
-   "chapter": 16
+   "day": 384,
+   "chapter": 16,
+   "base": "b095"
   },
   {
    "mode": "road",
@@ -10059,8 +7125,9 @@
    "to": "seven-sisters",
    "km": 143.3,
    "min": 148,
-   "day": 378,
-   "chapter": 16
+   "day": 386,
+   "chapter": 16,
+   "base": "b095"
   },
   {
    "mode": "road",
@@ -10068,8 +7135,9 @@
    "to": "petter-dass-museum",
    "km": 22.4,
    "min": 30,
-   "day": 378,
-   "chapter": 16
+   "day": 388,
+   "chapter": 16,
+   "base": "b095"
   },
   {
    "mode": "road",
@@ -10077,17 +7145,29 @@
    "to": "torghatten",
    "km": 249.8,
    "min": 247,
-   "day": 379,
-   "chapter": 16
+   "day": 390,
+   "chapter": 16,
+   "base": "b095"
   },
   {
    "mode": "road",
    "from": "torghatten",
+   "to": "stiklestad",
+   "km": 350.1,
+   "min": 343,
+   "day": 392,
+   "chapter": 16,
+   "base": "b095"
+  },
+  {
+   "mode": "road",
+   "from": "stiklestad",
    "to": "nidaros-cathedral",
-   "km": 439.7,
-   "min": 434,
-   "day": 380,
-   "chapter": 16
+   "km": 96.3,
+   "min": 100,
+   "day": 394,
+   "chapter": 16,
+   "base": "b096"
   },
   {
    "mode": "road",
@@ -10095,8 +7175,9 @@
    "to": "munkholmen",
    "km": 2.4,
    "min": 6,
-   "day": 381,
-   "chapter": 16
+   "day": 395,
+   "chapter": 16,
+   "base": "b096"
   },
   {
    "mode": "road",
@@ -10104,8 +7185,9 @@
    "to": "atlantic-ocean-road",
    "km": 213.6,
    "min": 241,
-   "day": 381,
-   "chapter": 16
+   "day": 397,
+   "chapter": 16,
+   "base": "b096"
   },
   {
    "mode": "road",
@@ -10113,62 +7195,39 @@
    "to": "alesund",
    "km": 206.0,
    "min": 220,
-   "day": 382,
-   "chapter": 16
+   "day": 399,
+   "chapter": 16,
+   "base": "b096"
   },
   {
    "mode": "road",
    "from": "alesund",
-   "to": "rampestreken",
-   "km": 108.2,
-   "min": 110,
-   "day": 383,
-   "chapter": 16
-  },
-  {
-   "mode": "road",
-   "from": "rampestreken",
    "to": "trollveggen",
-   "km": 10.5,
-   "min": 12,
-   "day": 383,
-   "chapter": 16
+   "km": 117.6,
+   "min": 119,
+   "day": 401,
+   "chapter": 16,
+   "base": "b097"
   },
   {
    "mode": "road",
    "from": "trollveggen",
-   "to": "trollstigen",
-   "km": 15.8,
-   "min": 17,
-   "day": 384,
-   "chapter": 16
-  },
-  {
-   "mode": "road",
-   "from": "trollstigen",
    "to": "geiranger",
-   "km": 74.2,
-   "min": 86,
-   "day": 385,
-   "chapter": 16
+   "km": 90.0,
+   "min": 103,
+   "day": 407,
+   "chapter": 16,
+   "base": "b098"
   },
   {
    "mode": "road",
    "from": "geiranger",
-   "to": "dalsnibba",
-   "km": 21.3,
-   "min": 25,
-   "day": 386,
-   "chapter": 16
-  },
-  {
-   "mode": "road",
-   "from": "dalsnibba",
    "to": "loen-skylift",
-   "km": 73.2,
-   "min": 77,
-   "day": 387,
-   "chapter": 16
+   "km": 85.4,
+   "min": 87,
+   "day": 409,
+   "chapter": 16,
+   "base": "b099"
   },
   {
    "mode": "road",
@@ -10176,8 +7235,9 @@
    "to": "briksdalsbreen",
    "km": 31.2,
    "min": 45,
-   "day": 387,
-   "chapter": 16
+   "day": 411,
+   "chapter": 16,
+   "base": "b099"
   },
   {
    "mode": "road",
@@ -10185,8 +7245,9 @@
    "to": "urnes-stave-church",
    "km": 167.9,
    "min": 197,
-   "day": 388,
-   "chapter": 16
+   "day": 413,
+   "chapter": 16,
+   "base": "b099"
   },
   {
    "mode": "road",
@@ -10194,44 +7255,29 @@
    "to": "borgund-stave-church",
    "km": 77.1,
    "min": 107,
-   "day": 388,
-   "chapter": 16
+   "day": 414,
+   "chapter": 16,
+   "base": "b099"
   },
   {
    "mode": "road",
    "from": "borgund-stave-church",
-   "to": "stegastein",
-   "km": 55.4,
-   "min": 56,
-   "day": 389,
-   "chapter": 16
-  },
-  {
-   "mode": "road",
-   "from": "stegastein",
    "to": "flam-line",
-   "km": 17.7,
-   "min": 20,
-   "day": 390,
-   "chapter": 16
+   "km": 56.3,
+   "min": 56,
+   "day": 416,
+   "chapter": 16,
+   "base": "b100"
   },
   {
    "mode": "road",
    "from": "flam-line",
-   "to": "naeroyfjord",
-   "km": 25.3,
-   "min": 27,
-   "day": 390,
-   "chapter": 16
-  },
-  {
-   "mode": "road",
-   "from": "naeroyfjord",
    "to": "bryggen",
-   "km": 150.3,
-   "min": 156,
-   "day": 391,
-   "chapter": 16
+   "km": 163.9,
+   "min": 167,
+   "day": 421,
+   "chapter": 16,
+   "base": "b101"
   },
   {
    "mode": "road",
@@ -10239,8 +7285,9 @@
    "to": "voringsfossen",
    "km": 169.4,
    "min": 173,
-   "day": 391,
-   "chapter": 16
+   "day": 423,
+   "chapter": 16,
+   "base": "b102"
   },
   {
    "mode": "road",
@@ -10248,8 +7295,9 @@
    "to": "hardangervidda",
    "km": 34.8,
    "min": 45,
-   "day": 392,
-   "chapter": 16
+   "day": 424,
+   "chapter": 16,
+   "base": "b102"
   },
   {
    "mode": "road",
@@ -10257,8 +7305,9 @@
    "to": "heddal-stave-church",
    "km": 231.0,
    "min": 247,
-   "day": 393,
-   "chapter": 16
+   "day": 426,
+   "chapter": 16,
+   "base": "b102"
   },
   {
    "mode": "road",
@@ -10266,8 +7315,9 @@
    "to": "vemork",
    "km": 74.5,
    "min": 83,
-   "day": 393,
-   "chapter": 16
+   "day": 428,
+   "chapter": 16,
+   "base": "b103"
   },
   {
    "mode": "road",
@@ -10275,8 +7325,9 @@
    "to": "oslo-opera-house",
    "km": 185.6,
    "min": 188,
-   "day": 394,
-   "chapter": 16
+   "day": 429,
+   "chapter": 16,
+   "base": "b104"
   },
   {
    "mode": "road",
@@ -10284,8 +7335,9 @@
    "to": "orebro-castle",
    "km": 328.6,
    "min": 276,
-   "day": 394,
-   "chapter": 16
+   "day": 431,
+   "chapter": 16,
+   "base": "b104"
   },
   {
    "mode": "road",
@@ -10293,24 +7345,34 @@
    "to": "stockholm",
    "km": 200.5,
    "min": 151,
-   "day": 395,
-   "chapter": 16
-  },
-  {
-   "mode": "sea",
-   "from": "stockholm",
-   "day": 396,
+   "day": 433,
    "chapter": 16,
-   "ferry": "Stockholm → Tallinn"
+   "base": "b104"
   },
   {
    "mode": "road",
    "from": "stockholm",
+   "km": 2.6,
+   "min": 6,
+   "day": 434,
+   "chapter": 16,
+   "base": "b105"
+  },
+  {
+   "mode": "sea",
+   "day": 434,
+   "chapter": 16,
+   "base": "b105",
+   "ferry": "Stockholm → Tallinn"
+  },
+  {
+   "mode": "road",
    "to": "kadriorg-palace",
    "km": 3.8,
    "min": 8,
-   "day": 397,
-   "chapter": 16
+   "day": 434,
+   "chapter": 16,
+   "base": "b105"
   },
   {
    "mode": "road",
@@ -10318,8 +7380,9 @@
    "to": "rummu",
    "km": 49.4,
    "min": 53,
-   "day": 397,
-   "chapter": 16
+   "day": 434,
+   "chapter": 16,
+   "base": "b106"
   },
   {
    "mode": "road",
@@ -10327,8 +7390,9 @@
    "to": "padise-abbey",
    "km": 4.1,
    "min": 5,
-   "day": 398,
-   "chapter": 16
+   "day": 434,
+   "chapter": 16,
+   "base": "b106"
   },
   {
    "mode": "road",
@@ -10336,8 +7400,9 @@
    "to": "home2",
    "km": 111.6,
    "min": 113,
-   "day": 399,
-   "chapter": 16
+   "day": 435,
+   "chapter": 16,
+   "base": "b106"
   }
  ],
  "ferries": {
@@ -10363,23 +7428,6 @@
     [
      17.6,
      41.0
-    ]
-   ]
-  },
-  "tiznit>camargue": {
-   "name": "Tanger Med → Algeciras",
-   "from": [
-    -5.5,
-    35.89
-   ],
-   "to": [
-    -5.44,
-    36.13
-   ],
-   "via": [
-    [
-     -5.4,
-     36.02
     ]
    ]
   },
@@ -10478,6 +7526,84 @@
      36.02
     ]
    ]
+  },
+  "merzouga>malaga": {
+   "name": "Tanger Med → Algeciras",
+   "from": [
+    -5.5,
+    35.89
+   ],
+   "to": [
+    -5.44,
+    36.13
+   ],
+   "via": [
+    [
+     -5.4,
+     36.02
+    ]
+   ]
+  },
+  "berlin>home1": {
+   "name": "Kiel → Klaipėda",
+   "from": [
+    10.17,
+    54.35
+   ],
+   "to": [
+    21.11,
+    55.68
+   ],
+   "via": [
+    [
+     10.3,
+     54.5
+    ],
+    [
+     11.2,
+     54.55
+    ],
+    [
+     12.6,
+     54.55
+    ],
+    [
+     14.6,
+     54.85
+    ],
+    [
+     17.5,
+     55.3
+    ],
+    [
+     20.6,
+     55.65
+    ]
+   ]
+  },
+  "tromso>lofoten": {
+   "name": "Gryllefjord → Andenes",
+   "from": [
+    17.059,
+    69.364
+   ],
+   "to": [
+    16.121,
+    69.32
+   ],
+   "via": []
+  },
+  "lofoten>geiranger": {
+   "name": "Moskenes → Bodø",
+   "from": [
+    13.059,
+    67.899
+   ],
+   "to": [
+    14.38,
+    67.287
+   ],
+   "via": []
   }
  },
  "festivals": [

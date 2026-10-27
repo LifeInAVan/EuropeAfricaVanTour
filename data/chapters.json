@@ -54,15 +54,15 @@
    "part": "One: south",
    "name": "Portugal",
    "start_day": 91,
-   "end_day": 127,
+   "end_day": 121,
    "cover": "douro"
   },
   {
    "id": 8,
    "part": "One: south",
    "name": "Morocco: Atlas, Sahara, winter and Toubkal",
-   "start_day": 128,
-   "end_day": 208,
+   "start_day": 122,
+   "end_day": 154,
    "cover": "merzouga",
    "cover_photo": 1
   },
@@ -70,9 +70,9 @@
    "id": 9,
    "part": "Two: home the long way",
    "name": "Al-Andalus and the Mediterranean",
-   "start_day": 209,
+   "start_day": 215,
    "end_day": 250,
-   "cover": "essaouira"
+   "cover": "alhambra"
   },
   {
    "id": 10,
@@ -101,34 +101,41 @@
   {
    "id": 13,
    "part": "Two: home the long way",
-   "name": "Poland's coast and lakes",
+   "name": "Lithuania and Latvia",
    "start_day": 297,
-   "end_day": 314,
-   "cover": "trzesacz"
+   "end_day": 321,
+   "cover": "trakai-island-castle"
   },
   {
    "id": 14,
    "part": "Two: home the long way",
-   "name": "Baltic states and Laulupidu",
-   "start_day": 315,
+   "name": "Home for Laulupidu",
+   "start_day": 322,
    "end_day": 358,
-   "cover": "trakai-island-castle"
+   "cover": "home1"
   },
   {
    "id": 15,
    "part": "Two: home the long way",
    "name": "Lapland and Arctic Norway",
    "start_day": 359,
-   "end_day": 376,
-   "cover": "nordkapp"
+   "end_day": 380,
+   "cover": "senja"
   },
   {
    "id": 16,
    "part": "Two: home the long way",
    "name": "Fjords and home",
-   "start_day": 377,
-   "end_day": 400,
+   "start_day": 381,
+   "end_day": 435,
    "cover": "geiranger"
+  }
+ ],
+ "breaks": [
+  {
+   "name": "Winter break, van stored at Málaga",
+   "start_day": 155,
+   "end_day": 214
   }
  ]
 }

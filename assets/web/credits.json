@@ -1448,6 +1448,51 @@
   "url": "https://commons.wikimedia.org/wiki/File:Ria_de_Aveiro.jpg",
   "file": "Ria de Aveiro.jpg"
  },
+ "assets/web/azrou/0.jpg": {
+  "place": "Azrou",
+  "artist": "Mounir Neddi",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Qualifying_High_School_Tariq_Ibn_Ziyad_(Berber_High_School).jpg",
+  "file": "Qualifying High School Tariq Ibn Ziyad (Berber High School).jpg"
+ },
+ "assets/web/azrou/1.jpg": {
+  "place": "Azrou",
+  "artist": "Mounir Neddi",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Amazigh_Museum_in_Azrou.jpg",
+  "file": "Amazigh Museum in Azrou.jpg"
+ },
+ "assets/web/azrou/2.jpg": {
+  "place": "Azrou",
+  "artist": "Mounir Neddi",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Euro_Camping_Emirates_Tourist_Center_Azrou_Ifrane_4.jpg",
+  "file": "Euro Camping Emirates Tourist Center Azrou Ifrane 4.jpg"
+ },
+ "assets/web/azrou/3.jpg": {
+  "place": "Azrou",
+  "artist": "Mounir Neddi",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:2_Qualifying_High_School_Tariq_Ibn_Ziyad_(Berber_High_School).jpg",
+  "file": "2 Qualifying High School Tariq Ibn Ziyad (Berber High School).jpg"
+ },
+ "assets/web/azrou/4.jpg": {
+  "place": "Azrou",
+  "artist": "Mounir Neddi",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Azrou_Sports_Complex.jpg",
+  "file": "Azrou Sports Complex.jpg"
+ },
  "assets/web/bacharach/0.jpg": {
   "place": "Bacharach",
   "artist": "Jörg Braukmann",
@@ -4264,6 +4309,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:Casas_trepando_-_panoramio.jpg",
   "file": "Casas trepando - panoramio.jpg"
+ },
+ "assets/web/curonian-spit/0.jpg": {
+  "place": "Curonian Spit",
+  "artist": "A.Savin",
+  "license": "FAL",
+  "license_url": "http://artlibre.org/licence/lal/en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Curonian_Spit_NP_05-2017_img15_Epha_Dune.jpg",
+  "file": "Curonian Spit NP 05-2017 img15 Epha Dune.jpg"
+ },
+ "assets/web/curonian-spit/1.jpg": {
+  "place": "Curonian Spit",
+  "artist": "Kirill.uyutnov",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%D0%94%D1%8E%D0%BD%D0%B0_%D0%AD%D1%84%D0%B0_%D1%81_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%8B.jpg",
+  "file": "Дюна Эфа с высоты.jpg"
+ },
+ "assets/web/curonian-spit/2.jpg": {
+  "place": "Curonian Spit",
+  "artist": "Laima Gūtmane (simka…",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Curonian_Spit_Nida_-_panoramio_(11).jpg",
+  "file": "Curonian Spit Nida - panoramio (11).jpg"
+ },
+ "assets/web/curonian-spit/3.jpg": {
+  "place": "Curonian Spit",
+  "artist": "Veljo Runnel",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:2012_07_11_Neringa_033.JPG",
+  "file": "2012 07 11 Neringa 033.JPG"
+ },
+ "assets/web/curonian-spit/4.jpg": {
+  "place": "Curonian Spit",
+  "artist": "Alexander Grebenkov",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Curonian_Spit_-_View_from_Muller_Height_3.jpg",
+  "file": "Curonian Spit - View from Muller Height 3.jpg"
  },
  "assets/web/dades-gorges/0.jpg": {
   "place": "Dadès Gorges",
@@ -9107,6 +9197,51 @@
   "url": "https://commons.wikimedia.org/wiki/File:Maison_Carree_in_Nimes_(6).jpg",
   "file": "Maison Carree in Nimes (6).jpg"
  },
+ "assets/web/malaga/0.jpg": {
+  "place": "Málaga",
+  "artist": "Ввласенко",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:View_of_Malaga_from_Castillo_Gibralfaro._Spain.jpg",
+  "file": "View of Malaga from Castillo Gibralfaro. Spain.jpg"
+ },
+ "assets/web/malaga/1.jpg": {
+  "place": "Málaga",
+  "artist": "Viktar Palstsiuk",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Malaga_2023.jpg",
+  "file": "Malaga 2023.jpg"
+ },
+ "assets/web/malaga/2.jpg": {
+  "place": "Málaga",
+  "artist": "Berthold Werner",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Spain_Andalusia_Malaga_BW_2015-10-24_15-25-16.jpg",
+  "file": "Spain Andalusia Malaga BW 2015-10-24 15-25-16.jpg"
+ },
+ "assets/web/malaga/3.jpg": {
+  "place": "Málaga",
+  "artist": "Bybbisch94 Christian Gebhardt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:20211118.Malaga.-028.jpg",
+  "file": "20211118.Malaga.-028.jpg"
+ },
+ "assets/web/malaga/4.jpg": {
+  "place": "Málaga",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Malaga_ist_eine_lebendige_Stadt_an_der_Costa_del_Sol%22._03.jpg",
+  "file": "\"Malaga ist eine lebendige Stadt an der Costa del Sol\". 03.jpg"
+ },
  "assets/web/malbork-castle/0.jpg": {
   "place": "Malbork Castle",
   "artist": "Scotch Mist",
@@ -9583,6 +9718,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1_%CE%BA%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE%CF%82_%CF%80%CE%BB%CE%B1%CF%84%CE%B5%CE%AF%CE%B1%CF%82_%CE%9C%CE%B5%CF%84%CF%83%CF%8C%CE%B2%CE%BF%CF%85_21.jpg",
   "file": "Καταστήματα κεντρικής πλατείας Μετσόβου 21.jpg"
+ },
+ "assets/web/midelt/0.jpg": {
+  "place": "Midelt",
+  "artist": "Innocentsabroad at English Wikipedia",
+  "license": "Public domain",
+  "license_url": null,
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Midelt_ayachi.jpg",
+  "file": "Midelt ayachi.jpg"
+ },
+ "assets/web/midelt/1.jpg": {
+  "place": "Midelt",
+  "artist": "TIM97HA",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:BARISTA_SPIRIT.jpg",
+  "file": "BARISTA SPIRIT.jpg"
+ },
+ "assets/web/midelt/2.jpg": {
+  "place": "Midelt",
+  "artist": "TIM97HA",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%AC%D9%87%D9%88%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA_%D8%AF%D8%B1%D8%B9%D8%A9_%D8%AA%D8%A7%D9%81%D9%8A%D9%84%D8%A7%D9%84%D8%AA_%D8%B4.%D9%85_-_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9_%D9%85%D9%8A%D8%AF%D9%84%D8%AA.jpg",
+  "file": "الشركة الجهوية المتعددة الخدمات درعة تافيلالت ش.م - المديرية الإقليمية ميدلت.jpg"
+ },
+ "assets/web/midelt/3.jpg": {
+  "place": "Midelt",
+  "artist": "TIM97HA",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%A3%D9%85%D9%86_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D9%85%D9%8A%D8%AF%D9%84%D8%AA_SECURIT%C3%89_NATIONALE.jpg",
+  "file": "الأمن الوطني ميدلت SECURITÉ NATIONALE.jpg"
+ },
+ "assets/web/midelt/4.jpg": {
+  "place": "Midelt",
+  "artist": "TIM97HA",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:TRESORERIE_GENRALE_DU_ROYAUME_PERCEPTION_MIDELT.jpg",
+  "file": "TRESORERIE GENRALE DU ROYAUME PERCEPTION MIDELT.jpg"
  },
  "assets/web/mikolajki/0.jpg": {
   "place": "Mikołajki",
@@ -11150,6 +11330,51 @@
   "url": "https://commons.wikimedia.org/wiki/File:Oualidia,_Casablanca-Settat_region,_Morocco_Dec_2023_-_Lagoon_-_1.jpg",
   "file": "Oualidia, Casablanca-Settat region, Morocco Dec 2023 - Lagoon - 1.jpg"
  },
+ "assets/web/oulu/0.jpg": {
+  "place": "Oulu",
+  "artist": "Sandro Halank, Wikimedia Commons",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:2026-01-18_FIS_Cross-Country_World_Cup_Oberhof_2026_%E2%80%93_Men%27s_10_km_Interval_Start_Classic_by_Sandro_Halank%E2%80%93276.jpg",
+  "file": "2026-01-18 FIS Cross-Country World Cup Oberhof 2026 – Men's 10 km Interval Start Classic by Sandro Halank–276.jpg"
+ },
+ "assets/web/oulu/1.jpg": {
+  "place": "Oulu",
+  "artist": "Estormiz",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Varsasaari_Oulu_20170307.jpg",
+  "file": "Varsasaari Oulu 20170307.jpg"
+ },
+ "assets/web/oulu/2.jpg": {
+  "place": "Oulu",
+  "artist": "Anastasiya Lvova",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Karjasilta.jpg",
+  "file": "Karjasilta.jpg"
+ },
+ "assets/web/oulu/3.jpg": {
+  "place": "Oulu",
+  "artist": "Estormiz",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%C3%84mm%C3%A4nv%C3%A4yl%C3%A4_Bridge_Oulu_20151211.JPG",
+  "file": "Ämmänväylä Bridge Oulu 20151211.JPG"
+ },
+ "assets/web/oulu/4.jpg": {
+  "place": "Oulu",
+  "artist": "Anastasiya Lvova",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:House_in_Oulu_cathedral_chapter_01.jpg",
+  "file": "House in Oulu cathedral chapter 01.jpg"
+ },
  "assets/web/ouzoud-falls/0.jpg": {
   "place": "Ouzoud Falls",
   "artist": "Jakub Hałun",
@@ -11329,6 +11554,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:Avignon,_Palais_des_Papes_by_JM_Rosier.jpg",
   "file": "Avignon, Palais des Papes by JM Rosier.jpg"
+ },
+ "assets/web/pallas-yllastunturi-national-park/0.jpg": {
+  "place": "Pallas-Yllästunturi National Park",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pallastunturi_and_Hanhij%C3%A4rvi_in_Muonio,_Lapland,_Finland,_2023_September.jpg",
+  "file": "Pallastunturi and Hanhijärvi in Muonio, Lapland, Finland, 2023 September.jpg"
+ },
+ "assets/web/pallas-yllastunturi-national-park/1.jpg": {
+  "place": "Pallas-Yllästunturi National Park",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pallastunturi_and_Hanhij%C3%A4rvi_in_Muonio,_Lapland,_Finland,_2021_June.jpg",
+  "file": "Pallastunturi and Hanhijärvi in Muonio, Lapland, Finland, 2021 June.jpg"
+ },
+ "assets/web/pallas-yllastunturi-national-park/2.jpg": {
+  "place": "Pallas-Yllästunturi National Park",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Palkaskero_in_Pallas-Yll%C3%A4stunturi_National_Park,_Muonio_municipality,_Lapland,_Finland,_2021_September.jpg",
+  "file": "Palkaskero in Pallas-Yllästunturi National Park, Muonio municipality, Lapland, Finland, 2021 September.jpg"
+ },
+ "assets/web/pallas-yllastunturi-national-park/3.jpg": {
+  "place": "Pallas-Yllästunturi National Park",
+  "artist": "Antti Leppänen",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Ker%C3%A4sj%C3%A4rvi_from_Vuontiskero.jpg",
+  "file": "Keräsjärvi from Vuontiskero.jpg"
+ },
+ "assets/web/pallas-yllastunturi-national-park/4.jpg": {
+  "place": "Pallas-Yllästunturi National Park",
+  "artist": "Markus Trienke",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Lunch_Break_(26173685505).jpg",
+  "file": "Lunch Break (26173685505).jpg"
  },
  "assets/web/palmse-manor/0.jpg": {
   "place": "Palmse",
@@ -11617,6 +11887,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:P%C3%A4rnu_muul_3.jpg",
   "file": "Pärnu muul 3.jpg"
+ },
+ "assets/web/pazaislis-monastery/0.jpg": {
+  "place": "Pažaislis Monastery",
+  "artist": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_Monastery_interior_dome,_Kaunas,_Lithuania_-_Diliff.jpg",
+  "file": "Pažaislis Monastery interior dome, Kaunas, Lithuania - Diliff.jpg"
+ },
+ "assets/web/pazaislis-monastery/1.jpg": {
+  "place": "Pažaislis Monastery",
+  "artist": "Augustas Didžgalvis",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pazaislis_by_Augustas_Didzgalvis.jpg",
+  "file": "Pazaislis by Augustas Didzgalvis.jpg"
+ },
+ "assets/web/pazaislis-monastery/2.jpg": {
+  "place": "Pažaislis Monastery",
+  "artist": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_Monastery_interior_2,_Kaunas,_Lithuania_-_Diliff.jpg",
+  "file": "Pažaislis Monastery interior 2, Kaunas, Lithuania - Diliff.jpg"
+ },
+ "assets/web/pazaislis-monastery/3.jpg": {
+  "place": "Pažaislis Monastery",
+  "artist": "Radosław Botev",
+  "license": "CC BY 3.0 pl",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_monastery_museum_(1).jpg",
+  "file": "Pažaislis monastery museum (1).jpg"
+ },
+ "assets/web/pazaislis-monastery/4.jpg": {
+  "place": "Pažaislis Monastery",
+  "artist": "Radosław Botev",
+  "license": "CC BY 3.0 pl",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_monastery_(1).jpg",
+  "file": "Pažaislis monastery (1).jpg"
  },
  "assets/web/pena-palace/0.jpg": {
   "place": "Pena Palace",
@@ -11923,6 +12238,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:Peru%C4%87ica_Forest_(3886656871).jpg",
   "file": "Perućica Forest (3886656871).jpg"
+ },
+ "assets/web/petajavesi-old-church/0.jpg": {
+  "place": "Petäjävesi Old Church",
+  "artist": "Tiia Monto",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4vesi_Old_Church_2018.jpg",
+  "file": "Petäjävesi Old Church 2018.jpg"
+ },
+ "assets/web/petajavesi-old-church/1.jpg": {
+  "place": "Petäjävesi Old Church",
+  "artist": "Teuvo Salmenjoki",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4veden_vanhan_kirkon_maisema.jpg",
+  "file": "Petäjäveden vanhan kirkon maisema.jpg"
+ },
+ "assets/web/petajavesi-old-church/2.jpg": {
+  "place": "Petäjävesi Old Church",
+  "artist": "Tiinaraat",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4vesi.jpg",
+  "file": "Petäjävesi.jpg"
+ },
+ "assets/web/petajavesi-old-church/3.jpg": {
+  "place": "Petäjävesi Old Church",
+  "artist": "Tiia Monto",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4vesi_Old_Church_11.jpg",
+  "file": "Petäjävesi Old Church 11.jpg"
+ },
+ "assets/web/petajavesi-old-church/4.jpg": {
+  "place": "Petäjävesi Old Church",
+  "artist": "Maaritti Siitonen",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4veden_vanha_kirkko_syystunnelmissa.jpg",
+  "file": "Petäjäveden vanha kirkko syystunnelmissa.jpg"
  },
  "assets/web/petter-dass-museum/0.jpg": {
   "place": "Petter Dass Museum",
@@ -13661,6 +14021,51 @@
   "url": "https://commons.wikimedia.org/wiki/File:Le_ch%C3%A2teau_de_Rundal_(Rundal_Pils)_(3).JPG",
   "file": "Le château de Rundal (Rundal Pils) (3).JPG"
  },
+ "assets/web/saana/0.jpg": {
+  "place": "Saana",
+  "artist": "kallerna",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Betula_pubescens_subsp._tortuosa_Saana.jpg",
+  "file": "Betula pubescens subsp. tortuosa Saana.jpg"
+ },
+ "assets/web/saana/1.jpg": {
+  "place": "Saana",
+  "artist": "WikiLucas00",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Aurora_borealis_over_Saana_fell.jpg",
+  "file": "Aurora borealis over Saana fell.jpg"
+ },
+ "assets/web/saana/2.jpg": {
+  "place": "Saana",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Nature_trail_intersection_at_Kilpisj%C3%A4rvi_Nature_Centre,_Lapland,_Finland,_2014_July.jpg",
+  "file": "Nature trail intersection at Kilpisjärvi Nature Centre, Lapland, Finland, 2014 July.jpg"
+ },
+ "assets/web/saana/3.jpg": {
+  "place": "Saana",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Saana_at_Kilpisj%C3%A4rvi,_2012_March.jpg",
+  "file": "Saana at Kilpisjärvi, 2012 March.jpg"
+ },
+ "assets/web/saana/4.jpg": {
+  "place": "Saana",
+  "artist": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Direction_signpost_at_Saana,_Enonteki%C3%B6,_Lapland,_Finland_in_2026_August.jpg",
+  "file": "Direction signpost at Saana, Enontekiö, Lapland, Finland in 2026 August.jpg"
+ },
  "assets/web/saarschleife/0.jpg": {
   "place": "Saarschleife",
   "artist": "Carsten Steger",
@@ -15398,6 +15803,51 @@
   "url": "https://commons.wikimedia.org/wiki/File:Stegastein_viewpoint.jpg",
   "file": "Stegastein viewpoint.jpg"
  },
+ "assets/web/stiklestad/0.jpg": {
+  "place": "Stiklestad",
+  "artist": "H.tjerns",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke_-_vinter.JPG",
+  "file": "Stiklestad kirke - vinter.JPG"
+ },
+ "assets/web/stiklestad/1.jpg": {
+  "place": "Stiklestad",
+  "artist": "rob Stoeltje from loenen, netherlands",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Noorwegen_154_(9303605263).jpg",
+  "file": "Noorwegen 154 (9303605263).jpg"
+ },
+ "assets/web/stiklestad/2.jpg": {
+  "place": "Stiklestad",
+  "artist": "rob Stoeltje from loenen, netherlands",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Noorwegen_173_(9303655855).jpg",
+  "file": "Noorwegen 173 (9303655855).jpg"
+ },
+ "assets/web/stiklestad/3.jpg": {
+  "place": "Stiklestad",
+  "artist": "rob Stoeltje from loenen, netherlands",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Noorwegen_166_(9306428760).jpg",
+  "file": "Noorwegen 166 (9306428760).jpg"
+ },
+ "assets/web/stiklestad/4.jpg": {
+  "place": "Stiklestad",
+  "artist": "rob Stoeltje from loenen, netherlands",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Noorwegen_162_(9303639377).jpg",
+  "file": "Noorwegen 162 (9303639377).jpg"
+ },
  "assets/web/stockholm/0.jpg": {
   "place": "Stockholm",
   "artist": "Arild Vågen",
@@ -16819,6 +17269,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:Trolltindane_and_Romsdalen_from_Litlefjellet,_2013_June.jpg",
   "file": "Trolltindane and Romsdalen from Litlefjellet, 2013 June.jpg"
+ },
+ "assets/web/tromso/0.jpg": {
+  "place": "Tromsø",
+  "artist": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Antiguo_ayuntamiento,_Troms%C3%B8,_Noruega,_2019-09-04,_DD_70.jpg",
+  "file": "Antiguo ayuntamiento, Tromsø, Noruega, 2019-09-04, DD 70.jpg"
+ },
+ "assets/web/tromso/1.jpg": {
+  "place": "Tromsø",
+  "artist": "JoachimKohlerBremen",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg",
+  "file": "Tromsø vom Fjellheisen aus gesehen.jpg"
+ },
+ "assets/web/tromso/2.jpg": {
+  "place": "Tromsø",
+  "artist": "Virtual-Pano",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:0511_Nordlys_approaching_Tromso_Bridge_-_Tromso,_Norway_-_V-P.jpg",
+  "file": "0511 Nordlys approaching Tromso Bridge - Tromso, Norway - V-P.jpg"
+ },
+ "assets/web/tromso/3.jpg": {
+  "place": "Tromsø",
+  "artist": "Alchemist-hp (talk)",
+  "license": "FAL",
+  "license_url": "http://artlibre.org/licence/lal/en",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Aurora_Troms%C3%B8_Norway_HP_L8400_e.jpg",
+  "file": "Aurora Tromsø Norway HP L8400 e.jpg"
+ },
+ "assets/web/tromso/4.jpg": {
+  "place": "Tromsø",
+  "artist": "The Municipality of Tromsø from Tromsø, Norway",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_sentrum_(5835702754).jpg",
+  "file": "Tromsø sentrum (5835702754).jpg"
  },
  "assets/web/trzesacz/0.jpg": {
   "place": "Trzęsacz",
@@ -18277,6 +18772,51 @@
   "source": "Wikimedia Commons",
   "url": "https://commons.wikimedia.org/wiki/File:Gamilla_Peak.jpg",
   "file": "Gamilla Peak.jpg"
+ },
+ "assets/web/ziz-river/0.jpg": {
+  "place": "Ziz River",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Das_gr%C3%B6%C3%9Fte_zusammenh%C3%A4ngende_Oasengebiet_Marokkos%22._12.jpg",
+  "file": "\"Das größte zusammenhängende Oasengebiet Marokkos\". 12.jpg"
+ },
+ "assets/web/ziz-river/1.jpg": {
+  "place": "Ziz River",
+  "artist": "Jerzystrzelecki",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Ziz_river3(js).jpg",
+  "file": "Ziz river3(js).jpg"
+ },
+ "assets/web/ziz-river/2.jpg": {
+  "place": "Ziz River",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Das_gr%C3%B6%C3%9Fte_zusammenh%C3%A4ngende_Oasengebiet_Marokkos%22._13.jpg",
+  "file": "\"Das größte zusammenhängende Oasengebiet Marokkos\". 13.jpg"
+ },
+ "assets/web/ziz-river/3.jpg": {
+  "place": "Ziz River",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Das_gr%C3%B6%C3%9Fte_zusammenh%C3%A4ngende_Oasengebiet_Marokkos%22._18.jpg",
+  "file": "\"Das größte zusammenhängende Oasengebiet Marokkos\". 18.jpg"
+ },
+ "assets/web/ziz-river/4.jpg": {
+  "place": "Ziz River",
+  "artist": "Holger Uwe Schmitt",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:%22Das_gr%C3%B6%C3%9Fte_zusammenh%C3%A4ngende_Oasengebiet_Marokkos%22._05.jpg",
+  "file": "\"Das größte zusammenhängende Oasengebiet Marokkos\". 05.jpg"
  },
  "assets/web/zwinger/0.jpg": {
   "place": "Zwinger",

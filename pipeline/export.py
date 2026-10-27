@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)          # repository root: data/, docs/, assets/
 def load(*p): return json.load(open(os.path.join(*p), encoding="utf-8"))
 route = load(ROOT, "data", "route.json")
-chapters = load(ROOT, "data", "chapters.json")["chapters"]
+chapters_file = load(ROOT, "data", "chapters.json"); chapters = chapters_file["chapters"]
 festivals = load(ROOT, "data", "festivals.json")
 plan = load(HERE, "cache", "plan.json")
 info = load(HERE, "cache", "hl_info.json")
@@ -59,10 +59,19 @@ points = [{k: v for k, v in p.items() if v is not None} for p in points]
 
 # drives between consecutive places, from fetch_roads.py: distance, driving time, road line.
 # Each drive takes the day and chapter of the place it starts from; a drive from an arrival port takes
-# those of the place it leads to.
-lp = os.path.join(HERE, "cache", "legs.json")
+# those of the place it leads to. With base camps (build_bases.py, cache/base_legs.json) the van drives only
+# base to base, and each drive carries its own day.
+lp = os.path.join(HERE, "cache", "base_legs.json")
+if not os.path.exists(lp): lp = os.path.join(HERE, "cache", "legs.json")
 drives, feats = [], []
-if os.path.exists(lp):
+if os.path.exists(lp) and lp.endswith("base_legs.json"):
+    for leg in json.load(open(lp, encoding="utf-8")):
+        d = dict(mode=leg["mode"], **{"from": leg["from"]}, to=leg["to"], km=leg["km"], min=leg["min"],
+                 day=leg["day"], chapter=chapter(leg["day"]), base=leg["base"], ferry=leg.get("ferry"))
+        d = {k: v for k, v in d.items() if v is not None}
+        drives.append(d)
+        feats.append(dict(type="Feature", properties=d, geometry=dict(type="LineString", coordinates=leg["geom"])))
+elif os.path.exists(lp):
     by_id = {p["id"]: p for p in points}
     sea = iter([f"{seg['from']}>{seg['to']}" for seg in plan for part in seg["parts"] if part["mode"] == "sea"])
     last, prev = None, None
@@ -101,7 +110,7 @@ json.dump(dict(type="FeatureCollection", features=feats),
           open(os.path.join(ROOT, "data", "route-line.json"), "w", encoding="utf-8", newline="\n"), separators=(",", ":"))
 
 trip = dict(title=route["title"], subtitle=route["subtitle"], start_date=START.isoformat(),
-            days=max(c["end_day"] for c in chapters), chapters=chapters,
+            days=max(c["end_day"] for c in chapters), chapters=chapters, breaks=chapters_file.get("breaks", []),
             legs=list(legs.values()), points=points, drives=drives, ferries=route["ferries"], festivals=festivals)
 json.dump(trip, open(os.path.join(ROOT, "data", "trip.json"), "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
 count = {c["id"]:sum(1 for p in points if p["chapter"] == c["id"]) for c in chapters}

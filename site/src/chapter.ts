@@ -1,7 +1,8 @@
 // The chapter page (design handoff): chapter bar, side panel with the places grouped by day, and round
 // photo markers on the map that group when they overlap on screen.
 import { Marker, LngLatBounds, type Map as MapLibre } from "maplibre-gl";
-import { dateOf, fmtDate, type Chapter, type Photos, type Point, type Site, type Trip, type Weather } from "./data";
+import { dateOf, fmtDate, type Base, type Chapter, type Photos, type Point, type Site, type Trip, type Weather } from "./data";
+import { baseBars } from "./bases";
 import { countriesInOrder, coverOf, partName, span } from "./home";
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -14,8 +15,11 @@ export const chapterDates = (trip: Trip, c: Chapter) => span(trip.start_date, c.
 export const barShare = (trip: Trip, day: number) => ((day + 0.5) / (trip.days + 1)) * 100;
 export const dayLabel = (trip: Trip, day: number) => `Day ${day + 1} · ${dateOf(trip.start_date, day).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}`;
 
-export function chapterBar(trip: Trip, site: Site, current: number, vanDay: number) {
-  const cs = trip.chapters, total = cs.reduce((a, c) => a + c.end_day - c.start_day + 1, 0);
+export function chapterBar(trip: Trip, site: Site, current: number, vanDay: number, bases: Base[] = []) {
+  const cs = trip.chapters, total = trip.days + 1;
+  // chapters and any break between them (the winter break), in day order, each sized by its days
+  const parts = [...cs.map((c) => ({ c, start_day: c.start_day, end_day: c.end_day, name: "" })),
+    ...(trip.breaks ?? []).map((b) => ({ c: null, ...b }))].sort((a, b) => a.start_day - b.start_day);
   const prev = cs.find((c) => c.id === current - 1), next = cs.find((c) => c.id === current + 1);
   const start = dateOf(trip.start_date, 0), end = dateOf(trip.start_date, trip.days);
   const at = (id: number) => { // middle of a chapter's segment, as a share of the bar
@@ -38,9 +42,11 @@ export function chapterBar(trip: Trip, site: Site, current: number, vanDay: numb
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <div class="chbar-track">
-      <div class="segs" style="grid-template-columns:${cs.map((c) => `${c.end_day - c.start_day + 1}fr`).join(" ")}">
-        ${cs.map((c) => `<a href="#c=${c.id}" class="seg${c.id === current ? " on" : ""}${c.id <= 8 ? " one" : " two"}" title="Chapter ${c.id}: ${esc(c.name)}" aria-label="Chapter ${c.id}: ${esc(c.name)}"${c.id === current ? ' aria-current="page"' : ""}></a>`).join("")}
+      <div class="segs" style="grid-template-columns:${parts.map((x) => `${x.end_day - x.start_day + 1}fr`).join(" ")}">
+        ${parts.map(({ c, name }) => c ? `<a href="#c=${c.id}" class="seg${c.id === current ? " on" : ""}${c.id <= 8 ? " one" : " two"}" title="Chapter ${c.id}: ${esc(c.name)}" aria-label="Chapter ${c.id}: ${esc(c.name)}"${c.id === current ? ' aria-current="page"' : ""}></a>`
+          : `<span class="seg gap" title="${esc(name)}"></span>`).join("")}
       </div>
+      ${bases.length ? baseBars(trip, bases) : ""}
       <div class="seg-labels">${labels.join("")}<span class="drag-hint">Drag the van to move through the trip</span></div>
       <div class="van-handle" role="slider" tabindex="0" aria-label="Day of the trip: drag the van, or use the arrow keys"
         aria-valuemin="1" aria-valuemax="${trip.days + 1}" aria-valuenow="${vanDay + 1}" aria-valuetext="${dayLabel(trip, vanDay)}"
@@ -58,6 +64,7 @@ export interface PanelArgs {
   at: number; // the day the van is on
   kindOf: (p: Point) => string; hiOf: (p: Point) => number | undefined; driveRow: (a: Point, b: Point) => string;
   drive: string; // "1,776 km · 36 h 50 min driving"
+  restNote?: string; // for a chapter with no new places: where the van stays
 }
 
 /** Cover, title, facts, festivals on our dates, filter pills, then the places grouped by day. */
@@ -102,12 +109,12 @@ export function chapterPanel(a: PanelArgs) {
         return `<ul class="fest">${fest.slice(0, 3).map(li).join("")}${fest.length > 3
           ? `<li class="more-fest"><details><summary>${fest.length - 3} more</summary><ul>${fest.slice(3).map(li).join("")}</ul></details></li>` : ""}</ul>`;
       })() : ""}
-      <div class="pills" role="group" aria-label="Show">
+      ${all.length ? `<div class="pills" role="group" aria-label="Show">
         <button type="button" class="pill" data-t="" aria-pressed="${!a.types.size}">All ${all.length}</button>
         ${present.map((t) => `<button type="button" class="pill" data-t="${t}" aria-pressed="${a.types.has(t)}">${LABEL[t]}</button>`).join("")}
-      </div>
+      </div>` : ""}
     </div>
-    <ol class="days">${days || `<li class="empty-list">No places of this type in this chapter.</li>`}</ol>`;
+    <ol class="days">${days || `<li class="empty-list">${all.length ? "No places of this type in this chapter." : `No new places in this chapter. ${a.restNote ?? ""}`}</li>`}</ol>`;
 }
 
 /** Round photo markers; markers that would overlap on screen become one marker with a count. */

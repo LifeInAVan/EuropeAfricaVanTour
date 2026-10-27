@@ -1,0 +1,2004 @@
+[
+ {
+  "leg": "parnu>krakow",
+  "title": "Pažaislis Monastery",
+  "date": "2027-07-20",
+  "lat": 54.876,
+  "lon": 24.022
+ },
+ {
+  "leg": "parnu>krakow",
+  "title": "Warsaw Old Town",
+  "date": "2027-07-21",
+  "lat": 52.2497,
+  "lon": 21.0122
+ },
+ {
+  "leg": "parnu>krakow",
+  "title": "Łazienki Park",
+  "date": "2027-07-21",
+  "lat": 52.2126,
+  "lon": 21.0339
+ },
+ {
+  "leg": "parnu>krakow",
+  "title": "Ojców National Park",
+  "date": "2027-07-22",
+  "lat": 50.2107,
+  "lon": 19.8086
+ },
+ {
+  "leg": "krakow>tatras",
+  "title": "Wieliczka Salt Mine",
+  "date": "2027-07-24",
+  "lat": 49.9792,
+  "lon": 20.0639
+ },
+ {
+  "leg": "krakow>tatras",
+  "title": "Niedzica Castle",
+  "date": "2027-07-24",
+  "lat": 49.4234,
+  "lon": 20.3196
+ },
+ {
+  "leg": "krakow>tatras",
+  "title": "Pieniny National Park (Poland)",
+  "date": "2027-07-25",
+  "lat": 49.4167,
+  "lon": 20.3667
+ },
+ {
+  "leg": "krakow>tatras",
+  "title": "Chochołów",
+  "date": "2027-07-25",
+  "lat": 49.3718,
+  "lon": 19.8163
+ },
+ {
+  "leg": "tatras>trencin",
+  "title": "Východná",
+  "date": "2027-07-26",
+  "lat": 49.0612,
+  "lon": 19.8946
+ },
+ {
+  "leg": "tatras>trencin",
+  "title": "Vlkolínec",
+  "date": "2027-07-27",
+  "lat": 49.0417,
+  "lon": 19.275
+ },
+ {
+  "leg": "tatras>trencin",
+  "title": "Orava Castle",
+  "date": "2027-07-28",
+  "lat": 49.2617,
+  "lon": 19.3581
+ },
+ {
+  "leg": "trencin>balaton",
+  "title": "Banská Štiavnica",
+  "date": "2027-08-02",
+  "lat": 48.4581,
+  "lon": 18.8964
+ },
+ {
+  "leg": "trencin>balaton",
+  "title": "Esztergom Basilica",
+  "date": "2027-08-02",
+  "lat": 47.7989,
+  "lon": 18.7364
+ },
+ {
+  "leg": "trencin>balaton",
+  "title": "Pannonhalma Archabbey",
+  "date": "2027-08-03",
+  "lat": 47.5528,
+  "lon": 17.7611
+ },
+ {
+  "leg": "balaton>soca",
+  "title": "Tihany Abbey",
+  "date": "2027-08-05",
+  "lat": 46.9139,
+  "lon": 17.8894
+ },
+ {
+  "leg": "balaton>soca",
+  "title": "Lake Hévíz",
+  "date": "2027-08-05",
+  "lat": 46.7872,
+  "lon": 17.1931
+ },
+ {
+  "leg": "balaton>soca",
+  "title": "Lake Bled",
+  "date": "2027-08-06",
+  "lat": 46.3644,
+  "lon": 14.0947
+ },
+ {
+  "leg": "balaton>soca",
+  "title": "Lake Bohinj",
+  "date": "2027-08-07",
+  "lat": 46.2823,
+  "lon": 13.8582
+ },
+ {
+  "leg": "soca>plitvice",
+  "title": "Škocjan Caves",
+  "date": "2027-08-09",
+  "lat": 45.6667,
+  "lon": 14
+ },
+ {
+  "leg": "soca>plitvice",
+  "title": "Piran",
+  "date": "2027-08-10",
+  "lat": 45.5283,
+  "lon": 13.5683
+ },
+ {
+  "leg": "soca>plitvice",
+  "title": "Motovun",
+  "date": "2027-08-11",
+  "lat": 45.3333,
+  "lon": 13.8333
+ },
+ {
+  "leg": "soca>plitvice",
+  "title": "Opatija",
+  "date": "2027-08-12",
+  "lat": 45.3333,
+  "lon": 14.3
+ },
+ {
+  "leg": "plitvice>sarajevo",
+  "title": "Krka National Park",
+  "date": "2027-08-14",
+  "lat": 43.8019,
+  "lon": 15.9728
+ },
+ {
+  "leg": "plitvice>sarajevo",
+  "title": "Kravica Waterfall",
+  "date": "2027-08-15",
+  "lat": 43.1541,
+  "lon": 17.6037
+ },
+ {
+  "leg": "plitvice>sarajevo",
+  "title": "Stari Most",
+  "date": "2027-08-16",
+  "lat": 43.3373,
+  "lon": 17.815
+ },
+ {
+  "leg": "sarajevo>sutjeska",
+  "title": "Perućica",
+  "date": "2027-08-18",
+  "lat": 43.314,
+  "lon": 18.6968
+ },
+ {
+  "leg": "sutjeska>durmitor",
+  "title": "Piva Lake",
+  "date": "2027-08-22",
+  "lat": 43.164,
+  "lon": 18.862
+ },
+ {
+  "leg": "sutjeska>durmitor",
+  "title": "Đurđevića Tara Bridge",
+  "date": "2027-08-23",
+  "lat": 43.1497,
+  "lon": 19.2945
+ },
+ {
+  "leg": "durmitor>kotor",
+  "title": "Dubrovnik",
+  "date": "2027-08-25",
+  "lat": 42.6417,
+  "lon": 18.1068
+ },
+ {
+  "leg": "durmitor>kotor",
+  "title": "Perast",
+  "date": "2027-08-25",
+  "lat": 42.4869,
+  "lon": 18.6992
+ },
+ {
+  "leg": "kotor>shkodra",
+  "title": "Sveti Stefan",
+  "date": "2027-08-27",
+  "lat": 42.2558,
+  "lon": 18.8911
+ },
+ {
+  "leg": "kotor>shkodra",
+  "title": "Stari Bar",
+  "date": "2027-08-28",
+  "lat": 42.0939,
+  "lon": 19.1338
+ },
+ {
+  "leg": "shkodra>riviera",
+  "title": "Krujë Castle",
+  "date": "2027-08-30",
+  "lat": 41.5069,
+  "lon": 19.7939
+ },
+ {
+  "leg": "riviera>zagori",
+  "title": "Ksamil",
+  "date": "2027-09-03",
+  "lat": 39.7667,
+  "lon": 20
+ },
+ {
+  "leg": "riviera>zagori",
+  "title": "Butrint",
+  "date": "2027-09-03",
+  "lat": 39.7456,
+  "lon": 20.0206
+ },
+ {
+  "leg": "riviera>zagori",
+  "title": "Gjirokastër",
+  "date": "2027-09-04",
+  "lat": 40.0667,
+  "lon": 20.1333
+ },
+ {
+  "leg": "zagori>meteora",
+  "title": "Papingo",
+  "date": "2027-09-06",
+  "lat": 39.9667,
+  "lon": 20.7333
+ },
+ {
+  "leg": "zagori>meteora",
+  "title": "Ioannina",
+  "date": "2027-09-09",
+  "lat": 39.6636,
+  "lon": 20.8522
+ },
+ {
+  "leg": "zagori>meteora",
+  "title": "Metsovo",
+  "date": "2027-09-09",
+  "lat": 39.7703,
+  "lon": 21.1839
+ },
+ {
+  "leg": "meteora>igoumenitsa",
+  "title": "Dodona",
+  "date": "2027-09-11",
+  "lat": 39.5464,
+  "lon": 20.7878
+ },
+ {
+  "leg": "meteora>igoumenitsa",
+  "title": "Parga",
+  "date": "2027-09-11",
+  "lat": 39.2833,
+  "lon": 20.4
+ },
+ {
+  "leg": "meteora>igoumenitsa",
+  "title": "Syvota",
+  "date": "2027-09-12",
+  "lat": 39.4,
+  "lon": 20.25
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Amalfi Coast",
+  "date": "2027-09-16",
+  "lat": 40.65,
+  "lon": 14.6
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Pompeii",
+  "date": "2027-09-17",
+  "lat": 40.75,
+  "lon": 14.4861
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Colosseum",
+  "date": "2027-09-18",
+  "lat": 41.8909,
+  "lon": 12.4919
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Pantheon, Rome",
+  "date": "2027-09-18",
+  "lat": 41.8986,
+  "lon": 12.4768
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "St. Peter's Basilica",
+  "date": "2027-09-19",
+  "lat": 41.9022,
+  "lon": 12.4537
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Civita di Bagnoregio",
+  "date": "2027-09-20",
+  "lat": 42.6278,
+  "lon": 12.1139
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Montserrat (mountain)",
+  "date": "2027-09-22",
+  "lat": 41.5917,
+  "lon": 1.8378
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Ordesa y Monte Perdido National Park",
+  "date": "2027-09-23",
+  "lat": 42.6492,
+  "lon": -0.0597
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "Castle of Loarre",
+  "date": "2027-09-25",
+  "lat": 42.3254,
+  "lon": -0.6127
+ },
+ {
+  "leg": "matera>logrono",
+  "title": "San Sebastián",
+  "date": "2027-09-27",
+  "lat": 43.3224,
+  "lon": -1.9839
+ },
+ {
+  "leg": "logrono>picos",
+  "title": "Laguardia",
+  "date": "2027-09-30",
+  "lat": 42.543,
+  "lon": -2.5805
+ },
+ {
+  "leg": "logrono>picos",
+  "title": "San Millán de la Cogolla",
+  "date": "2027-10-01",
+  "lat": 42.3259,
+  "lon": -2.8657
+ },
+ {
+  "leg": "logrono>picos",
+  "title": "Guggenheim Museum Bilbao",
+  "date": "2027-10-02",
+  "lat": 43.2686,
+  "lon": -2.9339
+ },
+ {
+  "leg": "logrono>picos",
+  "title": "Santillana del Mar",
+  "date": "2027-10-03",
+  "lat": 43.3933,
+  "lon": -4.1047
+ },
+ {
+  "leg": "logrono>picos",
+  "title": "Fuente Dé",
+  "date": "2027-10-04",
+  "lat": 43.1456,
+  "lon": -4.8102
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Lakes of Covadonga",
+  "date": "2027-10-07",
+  "lat": 43.2753,
+  "lon": -4.9853
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Villaviciosa",
+  "date": "2027-10-08",
+  "lat": 43.4814,
+  "lon": -5.4345
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Cudillero",
+  "date": "2027-10-08",
+  "lat": 43.56,
+  "lon": -6.15
+ },
+ {
+  "leg": "picos>douro",
+  "title": "As Catedrais beach",
+  "date": "2027-10-09",
+  "lat": 43.5539,
+  "lon": -7.1572
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Roman walls of Lugo",
+  "date": "2027-10-10",
+  "lat": 43.0111,
+  "lon": -7.5533
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Santiago de Compostela Cathedral",
+  "date": "2027-10-11",
+  "lat": 42.8806,
+  "lon": -8.5444
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Combarro",
+  "date": "2027-10-12",
+  "lat": 42.4318,
+  "lon": -8.7056
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Castro of Santa Trega",
+  "date": "2027-10-13",
+  "lat": 41.8927,
+  "lon": -8.8698
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Bom Jesus do Monte",
+  "date": "2027-10-14",
+  "lat": 41.5549,
+  "lon": -8.377
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Guimarães Castle",
+  "date": "2027-10-15",
+  "lat": 41.4479,
+  "lon": -8.2904
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Dom Luís I Bridge",
+  "date": "2027-10-16",
+  "lat": 41.1399,
+  "lon": -8.6093
+ },
+ {
+  "leg": "picos>douro",
+  "title": "Amarante, Portugal",
+  "date": "2027-10-17",
+  "lat": 41.2703,
+  "lon": -8.0808
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Mateus Palace",
+  "date": "2027-10-19",
+  "lat": 41.2969,
+  "lon": -7.7125
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Pinhão",
+  "date": "2027-10-19",
+  "lat": 41.191,
+  "lon": -7.546
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Serra da Estrela",
+  "date": "2027-10-20",
+  "lat": 40.3219,
+  "lon": -7.613
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Piódão",
+  "date": "2027-10-21",
+  "lat": 40.2296,
+  "lon": -7.8248
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Buçaco Palace",
+  "date": "2027-10-22",
+  "lat": 40.376,
+  "lon": -8.3654
+ },
+ {
+  "leg": "douro>golega",
+  "title": "University of Coimbra",
+  "date": "2027-10-23",
+  "lat": 40.2074,
+  "lon": -8.4265
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Aveiro, Portugal",
+  "date": "2027-10-23",
+  "lat": 40.6333,
+  "lon": -8.65
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Costa Nova do Prado",
+  "date": "2027-10-24",
+  "lat": 40.6126,
+  "lon": -8.7495
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Conímbriga",
+  "date": "2027-10-24",
+  "lat": 40.0994,
+  "lon": -8.4906
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Batalha Monastery",
+  "date": "2027-10-25",
+  "lat": 39.6592,
+  "lon": -8.8261
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Alcobaça Monastery",
+  "date": "2027-10-25",
+  "lat": 39.5483,
+  "lon": -8.98
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Nazaré, Portugal",
+  "date": "2027-10-26",
+  "lat": 39.6011,
+  "lon": -9.0706
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Óbidos, Portugal",
+  "date": "2027-10-27",
+  "lat": 39.3581,
+  "lon": -9.1578
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Peniche, Portugal",
+  "date": "2027-10-28",
+  "lat": 39.35,
+  "lon": -9.3667
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Ericeira",
+  "date": "2027-10-29",
+  "lat": 38.962,
+  "lon": -9.418
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Pena Palace",
+  "date": "2027-10-30",
+  "lat": 38.7878,
+  "lon": -9.3906
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Cabo da Roca",
+  "date": "2027-11-01",
+  "lat": 38.7808,
+  "lon": -9.5006
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Belém Tower",
+  "date": "2027-11-02",
+  "lat": 38.6917,
+  "lon": -9.2161
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Alfama",
+  "date": "2027-11-03",
+  "lat": 38.7122,
+  "lon": -9.13
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Arrábida Natural Park",
+  "date": "2027-11-04",
+  "lat": 38.4814,
+  "lon": -8.9892
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Roman Temple of Évora",
+  "date": "2027-11-06",
+  "lat": 38.5731,
+  "lon": -7.9078
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Convent of Christ (Tomar)",
+  "date": "2027-11-07",
+  "lat": 39.6047,
+  "lon": -8.4175
+ },
+ {
+  "leg": "douro>golega",
+  "title": "Almourol Castle",
+  "date": "2027-11-08",
+  "lat": 39.4619,
+  "lon": -8.3838
+ },
+ {
+  "leg": "golega>algeciras",
+  "title": "Marvão",
+  "date": "2027-11-13",
+  "lat": 39.3942,
+  "lon": -7.3767
+ },
+ {
+  "leg": "golega>algeciras",
+  "title": "Castelo de Vide",
+  "date": "2027-11-14",
+  "lat": 39.3333,
+  "lon": -7.5167
+ },
+ {
+  "leg": "golega>algeciras",
+  "title": "Ponta da Piedade",
+  "date": "2027-11-15",
+  "lat": 37.081,
+  "lon": -8.67
+ },
+ {
+  "leg": "golega>algeciras",
+  "title": "Benagil Cave",
+  "date": "2027-11-16",
+  "lat": 37.0872,
+  "lon": -8.4237
+ },
+ {
+  "leg": "golega>algeciras",
+  "title": "Vejer de la Frontera",
+  "date": "2027-11-17",
+  "lat": 36.25,
+  "lon": -5.9667
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Volubilis",
+  "date": "2027-11-20",
+  "lat": 34.0711,
+  "lon": -5.5536
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Ifrane National Park",
+  "date": "2027-11-22",
+  "lat": 33.4318,
+  "lon": -5.1302
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Ouzoud Falls",
+  "date": "2027-11-23",
+  "lat": 32.0152,
+  "lon": -6.7189
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Toubkal",
+  "date": "2027-11-24",
+  "lat": 31.137,
+  "lon": -7.919
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Telouet Kasbah",
+  "date": "2027-11-27",
+  "lat": 31.2883,
+  "lon": -7.2411
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Aït Benhaddou",
+  "date": "2027-11-28",
+  "lat": 31.0472,
+  "lon": -7.1289
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Taourirt Kasbah",
+  "date": "2027-11-28",
+  "lat": 30.92,
+  "lon": -6.8993
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Skoura",
+  "date": "2027-11-29",
+  "lat": 31.0606,
+  "lon": -6.5556
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Kalaat M'Gouna",
+  "date": "2027-11-29",
+  "lat": 31.2414,
+  "lon": -6.1283
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Dadès Gorges",
+  "date": "2027-11-30",
+  "lat": 31.482,
+  "lon": -5.956
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Todgha Gorge",
+  "date": "2027-12-01",
+  "lat": 31.59,
+  "lon": -5.59
+ },
+ {
+  "leg": "algeciras>merzouga",
+  "title": "Rissani",
+  "date": "2027-12-02",
+  "lat": 31.2859,
+  "lon": -4.2751
+ },
+ {
+  "leg": "merzouga>malaga",
+  "title": "Ziz River",
+  "date": "2027-12-06",
+  "lat": 32.15,
+  "lon": -4.43
+ },
+ {
+  "leg": "merzouga>malaga",
+  "title": "Midelt",
+  "date": "2027-12-08",
+  "lat": 32.68,
+  "lon": -4.74
+ },
+ {
+  "leg": "merzouga>malaga",
+  "title": "Azrou",
+  "date": "2027-12-11",
+  "lat": 33.43,
+  "lon": -5.22
+ },
+ {
+  "leg": "merzouga>malaga",
+  "title": "Kasbah of the Udayas",
+  "date": "2027-12-14",
+  "lat": 34.0306,
+  "lon": -6.8356
+ },
+ {
+  "leg": "merzouga>malaga",
+  "title": "Asilah",
+  "date": "2027-12-17",
+  "lat": 35.4667,
+  "lon": -6.0333
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Rock of Gibraltar",
+  "date": "2028-02-19",
+  "lat": 36.1245,
+  "lon": -5.3431
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Baelo Claudia",
+  "date": "2028-02-21",
+  "lat": 36.0897,
+  "lon": -5.7747
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cádiz",
+  "date": "2028-02-24",
+  "lat": 36.535,
+  "lon": -6.2975
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Alcázar of Seville",
+  "date": "2028-02-27",
+  "lat": 37.3832,
+  "lon": -5.9902
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Mosque–Cathedral of Córdoba",
+  "date": "2028-02-28",
+  "lat": 37.8792,
+  "lon": -4.7797
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Setenil de las Bodegas",
+  "date": "2028-02-29",
+  "lat": 36.8625,
+  "lon": -5.1814
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Ronda",
+  "date": "2028-03-02",
+  "lat": 36.7372,
+  "lon": -5.1647
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Caminito del Rey",
+  "date": "2028-03-03",
+  "lat": 36.9158,
+  "lon": -4.7728
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cave of Nerja",
+  "date": "2028-03-05",
+  "lat": 36.7617,
+  "lon": -3.8448
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Alhambra",
+  "date": "2028-03-06",
+  "lat": 37.1775,
+  "lon": -3.59
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Guadix",
+  "date": "2028-03-07",
+  "lat": 37.3006,
+  "lon": -3.135
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cabo de Gata-Níjar Natural Park",
+  "date": "2028-03-09",
+  "lat": 36.7833,
+  "lon": -2.1
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Mojácar",
+  "date": "2028-03-10",
+  "lat": 37.1403,
+  "lon": -1.8514
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Roman Theatre of Cartagena",
+  "date": "2028-03-12",
+  "lat": 37.5995,
+  "lon": -0.9841
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Guadalest",
+  "date": "2028-03-13",
+  "lat": 38.6769,
+  "lon": -0.1978
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "City of Arts and Sciences",
+  "date": "2028-03-15",
+  "lat": 39.4542,
+  "lon": -0.35
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Albufera (Valencia)",
+  "date": "2028-03-17",
+  "lat": 39.3344,
+  "lon": -0.3581
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Peñíscola",
+  "date": "2028-03-20",
+  "lat": 40.3592,
+  "lon": 0.4075
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Ebro Delta",
+  "date": "2028-03-20",
+  "lat": 40.5722,
+  "lon": 0.643
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Amphitheatre of Tarragona",
+  "date": "2028-03-21",
+  "lat": 41.1144,
+  "lon": 1.2588
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Sitges",
+  "date": "2028-03-21",
+  "lat": 41.237,
+  "lon": 1.823
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Girona Cathedral",
+  "date": "2028-03-22",
+  "lat": 41.9875,
+  "lon": 2.8264
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Besalú",
+  "date": "2028-03-22",
+  "lat": 42.1986,
+  "lon": 2.696
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cadaqués",
+  "date": "2028-03-23",
+  "lat": 42.2893,
+  "lon": 3.2752
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cap de Creus",
+  "date": "2028-03-23",
+  "lat": 42.3192,
+  "lon": 3.3219
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Collioure",
+  "date": "2028-03-24",
+  "lat": 42.5267,
+  "lon": 3.0814
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Cité de Carcassonne",
+  "date": "2028-03-24",
+  "lat": 43.2066,
+  "lon": 2.364
+ },
+ {
+  "leg": "malaga>camargue",
+  "title": "Aigues-Mortes",
+  "date": "2028-03-25",
+  "lat": 43.5675,
+  "lon": 4.1933
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Maison Carrée",
+  "date": "2028-03-27",
+  "lat": 43.8385,
+  "lon": 4.3553
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Arles Amphitheatre",
+  "date": "2028-03-27",
+  "lat": 43.6778,
+  "lon": 4.6311
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Glanum",
+  "date": "2028-03-28",
+  "lat": 43.6411,
+  "lon": 5.0829
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Les Baux-de-Provence",
+  "date": "2028-03-28",
+  "lat": 43.7439,
+  "lon": 4.7953
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Cours Mirabeau",
+  "date": "2028-03-29",
+  "lat": 43.5269,
+  "lon": 5.4503
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Montagne Sainte-Victoire",
+  "date": "2028-03-29",
+  "lat": 43.5368,
+  "lon": 5.636
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Calanques National Park",
+  "date": "2028-03-30",
+  "lat": 43.2167,
+  "lon": 5.4667
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Cassis",
+  "date": "2028-03-30",
+  "lat": 43.2167,
+  "lon": 5.5389
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Lac de Sainte-Croix",
+  "date": "2028-03-31",
+  "lat": 43.7673,
+  "lon": 6.1839
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Gorges du Verdon",
+  "date": "2028-03-31",
+  "lat": 43.7378,
+  "lon": 6.3639
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Moustiers-Sainte-Marie",
+  "date": "2028-04-01",
+  "lat": 43.8483,
+  "lon": 6.2219
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Plateau de Valensole",
+  "date": "2028-04-01",
+  "lat": 43.8379,
+  "lon": 5.984
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Gordes",
+  "date": "2028-04-02",
+  "lat": 43.9119,
+  "lon": 5.2008
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Sénanque Abbey",
+  "date": "2028-04-02",
+  "lat": 43.9283,
+  "lon": 5.1869
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Roussillon, Vaucluse",
+  "date": "2028-04-03",
+  "lat": 43.9031,
+  "lon": 5.2936
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Fontaine-de-Vaucluse",
+  "date": "2028-04-03",
+  "lat": 43.9221,
+  "lon": 5.1273
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "L'Isle-sur-la-Sorgue",
+  "date": "2028-04-04",
+  "lat": 43.9185,
+  "lon": 5.0515
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Palais des Papes",
+  "date": "2028-04-04",
+  "lat": 43.9508,
+  "lon": 4.8075
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Pont du Gard",
+  "date": "2028-04-05",
+  "lat": 43.9472,
+  "lon": 4.5356
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Roman Theatre of Orange",
+  "date": "2028-04-05",
+  "lat": 44.1358,
+  "lon": 4.8092
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Vaison-la-Romaine",
+  "date": "2028-04-06",
+  "lat": 44.2408,
+  "lon": 5.0757
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Dentelles de Montmirail",
+  "date": "2028-04-06",
+  "lat": 44.1554,
+  "lon": 5.0238
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Mont Ventoux",
+  "date": "2028-04-07",
+  "lat": 44.1744,
+  "lon": 5.2789
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Château de Grignan",
+  "date": "2028-04-07",
+  "lat": 44.4188,
+  "lon": 4.9089
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Vercors Massif",
+  "date": "2028-04-08",
+  "lat": 44.9667,
+  "lon": 5.4167
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Bastille (Grenoble)",
+  "date": "2028-04-08",
+  "lat": 45.199,
+  "lon": 5.7253
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Grande Chartreuse",
+  "date": "2028-04-09",
+  "lat": 45.3634,
+  "lon": 5.7933
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Vieux Lyon",
+  "date": "2028-04-09",
+  "lat": 45.7622,
+  "lon": 4.8267
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Pérouges",
+  "date": "2028-04-10",
+  "lat": 45.9073,
+  "lon": 5.1727
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Lake Annecy",
+  "date": "2028-04-10",
+  "lat": 45.85,
+  "lon": 6.1667
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Palais de l'Isle",
+  "date": "2028-04-11",
+  "lat": 45.8986,
+  "lon": 6.1271
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Mer de Glace",
+  "date": "2028-04-11",
+  "lat": 45.9137,
+  "lon": 6.9387
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Aiguille du Midi",
+  "date": "2028-04-12",
+  "lat": 45.8786,
+  "lon": 6.8872
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Yvoire",
+  "date": "2028-04-12",
+  "lat": 46.3693,
+  "lon": 6.3255
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Lavaux",
+  "date": "2028-04-13",
+  "lat": 46.4919,
+  "lon": 6.7461
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Chillon Castle",
+  "date": "2028-04-13",
+  "lat": 46.4142,
+  "lon": 6.9275
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Gruyères",
+  "date": "2028-04-14",
+  "lat": 46.5833,
+  "lon": 7.0833
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Old City (Bern)",
+  "date": "2028-04-14",
+  "lat": 46.9481,
+  "lon": 7.4503
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Oeschinen Lake",
+  "date": "2028-04-15",
+  "lat": 46.4985,
+  "lon": 7.7268
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Lauterbrunnen",
+  "date": "2028-04-15",
+  "lat": 46.595,
+  "lon": 7.9074
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Chapel Bridge",
+  "date": "2028-04-16",
+  "lat": 47.0518,
+  "lon": 8.3077
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Basel Minster",
+  "date": "2028-04-16",
+  "lat": 47.5567,
+  "lon": 7.5922
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Colmar",
+  "date": "2028-04-17",
+  "lat": 48.0817,
+  "lon": 7.3556
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Eguisheim",
+  "date": "2028-04-17",
+  "lat": 48.0436,
+  "lon": 7.3067
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Kaysersberg",
+  "date": "2028-04-18",
+  "lat": 48.14,
+  "lon": 7.26
+ },
+ {
+  "leg": "camargue>alsace",
+  "title": "Haut-Kœnigsbourg Castle",
+  "date": "2028-04-18",
+  "lat": 48.2494,
+  "lon": 7.3439
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Strasbourg Cathedral",
+  "date": "2028-04-20",
+  "lat": 48.5817,
+  "lon": 7.7508
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Saarschleife",
+  "date": "2028-04-20",
+  "lat": 49.5014,
+  "lon": 6.5455
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Porta Nigra",
+  "date": "2028-04-21",
+  "lat": 49.7597,
+  "lon": 6.6439
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Bernkastel-Kues",
+  "date": "2028-04-21",
+  "lat": 49.9157,
+  "lon": 7.0708
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Reichsburg Cochem",
+  "date": "2028-04-22",
+  "lat": 50.1422,
+  "lon": 7.1671
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Burg Eltz",
+  "date": "2028-04-22",
+  "lat": 50.2051,
+  "lon": 7.3366
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Marksburg",
+  "date": "2028-04-23",
+  "lat": 50.2719,
+  "lon": 7.6492
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Loreley",
+  "date": "2028-04-23",
+  "lat": 50.1394,
+  "lon": 7.7289
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Bacharach",
+  "date": "2028-04-24",
+  "lat": 50.0598,
+  "lon": 7.7684
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Rüdesheim am Rhein",
+  "date": "2028-04-24",
+  "lat": 49.9833,
+  "lon": 7.9306
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Speyer Cathedral",
+  "date": "2028-04-25",
+  "lat": 49.3172,
+  "lon": 8.4424
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Heidelberg Castle",
+  "date": "2028-04-25",
+  "lat": 49.4105,
+  "lon": 8.7152
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Dinkelsbühl",
+  "date": "2028-04-26",
+  "lat": 49.0692,
+  "lon": 10.3194
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Rothenburg ob der Tauber",
+  "date": "2028-04-26",
+  "lat": 49.3833,
+  "lon": 10.1833
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Würzburg Residence",
+  "date": "2028-04-27",
+  "lat": 49.7928,
+  "lon": 9.9386
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Bamberg",
+  "date": "2028-04-28",
+  "lat": 49.8914,
+  "lon": 10.8869
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Veste Coburg",
+  "date": "2028-04-28",
+  "lat": 50.2638,
+  "lon": 10.9811
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Wartburg",
+  "date": "2028-04-29",
+  "lat": 50.9661,
+  "lon": 10.3064
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Erfurt Cathedral",
+  "date": "2028-04-30",
+  "lat": 50.9757,
+  "lon": 11.0229
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Weimar",
+  "date": "2028-05-01",
+  "lat": 50.9811,
+  "lon": 11.3294
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "St. Thomas Church, Leipzig",
+  "date": "2028-05-01",
+  "lat": 51.3393,
+  "lon": 12.3726
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Königstein Fortress",
+  "date": "2028-05-02",
+  "lat": 50.9189,
+  "lon": 14.0567
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Bastei",
+  "date": "2028-05-03",
+  "lat": 50.9622,
+  "lon": 14.0714
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Zwinger",
+  "date": "2028-05-04",
+  "lat": 51.053,
+  "lon": 13.735
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Frauenkirche, Dresden",
+  "date": "2028-05-05",
+  "lat": 51.0519,
+  "lon": 13.7417
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Moritzburg Castle (Saxony)",
+  "date": "2028-05-06",
+  "lat": 51.1676,
+  "lon": 13.6795
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Görlitz",
+  "date": "2028-05-07",
+  "lat": 51.1563,
+  "lon": 14.991
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Muskau Park",
+  "date": "2028-05-08",
+  "lat": 51.5503,
+  "lon": 14.7267
+ },
+ {
+  "leg": "alsace>berlin",
+  "title": "Sanssouci",
+  "date": "2028-05-09",
+  "lat": 52.4033,
+  "lon": 13.0386
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Curonian Spit",
+  "date": "2028-05-16",
+  "lat": 55.304,
+  "lon": 21.005
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Kaunas Castle",
+  "date": "2028-05-17",
+  "lat": 54.8989,
+  "lon": 23.885
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Druskininkai",
+  "date": "2028-05-18",
+  "lat": 54.0167,
+  "lon": 23.9667
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Grūtas Park",
+  "date": "2028-05-19",
+  "lat": 54.022,
+  "lon": 24.079
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Trakai Island Castle",
+  "date": "2028-05-20",
+  "lat": 54.6525,
+  "lon": 24.9331
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Vilnius Old Town",
+  "date": "2028-05-21",
+  "lat": 54.6867,
+  "lon": 25.2931
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Kernavė",
+  "date": "2028-05-23",
+  "lat": 54.8833,
+  "lon": 24.85
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Hill of Crosses",
+  "date": "2028-05-24",
+  "lat": 56.0153,
+  "lon": 23.4167
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Rundāle Palace",
+  "date": "2028-05-25",
+  "lat": 56.4138,
+  "lon": 24.0248
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Bauska Castle",
+  "date": "2028-05-26",
+  "lat": 56.4036,
+  "lon": 24.1736
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Ķemeri National Park",
+  "date": "2028-05-27",
+  "lat": 56.9517,
+  "lon": 23.5125
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Cape Kolka",
+  "date": "2028-05-29",
+  "lat": 57.7589,
+  "lon": 22.6047
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Turaida Castle",
+  "date": "2028-05-30",
+  "lat": 57.1822,
+  "lon": 24.8503
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Gauja National Park",
+  "date": "2028-05-31",
+  "lat": 57.4167,
+  "lon": 25.4167
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Cēsis Castle",
+  "date": "2028-06-01",
+  "lat": 57.3133,
+  "lon": 25.27
+ },
+ {
+  "leg": "berlin>home1",
+  "title": "Āraiši Lake Fortress",
+  "date": "2028-06-02",
+  "lat": 57.2519,
+  "lon": 25.2827
+ },
+ {
+  "leg": "home1>rovaniemi",
+  "title": "Helsinki Cathedral",
+  "date": "2028-07-12",
+  "lat": 60.1703,
+  "lon": 24.9522
+ },
+ {
+  "leg": "home1>rovaniemi",
+  "title": "Häme Castle",
+  "date": "2028-07-12",
+  "lat": 61.0039,
+  "lon": 24.4581
+ },
+ {
+  "leg": "home1>rovaniemi",
+  "title": "Petäjävesi Old Church",
+  "date": "2028-07-13",
+  "lat": 62.2501,
+  "lon": 25.1839
+ },
+ {
+  "leg": "home1>rovaniemi",
+  "title": "Oulu",
+  "date": "2028-07-14",
+  "lat": 65.0139,
+  "lon": 25.4649
+ },
+ {
+  "leg": "rovaniemi>tromso",
+  "title": "Santa Claus Village",
+  "date": "2028-07-16",
+  "lat": 66.5433,
+  "lon": 25.8458
+ },
+ {
+  "leg": "rovaniemi>tromso",
+  "title": "Pallas-Yllästunturi National Park",
+  "date": "2028-07-17",
+  "lat": 68.06,
+  "lon": 24.06
+ },
+ {
+  "leg": "rovaniemi>tromso",
+  "title": "Saana",
+  "date": "2028-07-18",
+  "lat": 69.04,
+  "lon": 20.85
+ },
+ {
+  "leg": "rovaniemi>tromso",
+  "title": "Lyngen Alps",
+  "date": "2028-07-19",
+  "lat": 69.7903,
+  "lon": 20.1695
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Fjellheisen",
+  "date": "2028-07-22",
+  "lat": 69.6385,
+  "lon": 18.9908
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Arctic Cathedral",
+  "date": "2028-07-22",
+  "lat": 69.6482,
+  "lon": 18.9871
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Segla",
+  "date": "2028-07-23",
+  "lat": 69.5074,
+  "lon": 17.5957
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Senja",
+  "date": "2028-07-24",
+  "lat": 69.0806,
+  "lon": 16.8031
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Bleik",
+  "date": "2028-07-25",
+  "lat": 69.2719,
+  "lon": 15.9585
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Andenes",
+  "date": "2028-07-26",
+  "lat": 69.3144,
+  "lon": 16.1194
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Svolvær",
+  "date": "2028-07-27",
+  "lat": 68.2322,
+  "lon": 14.5646
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Vågan Church",
+  "date": "2028-07-27",
+  "lat": 68.2156,
+  "lon": 14.4837
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Henningsvær",
+  "date": "2028-07-28",
+  "lat": 68.1529,
+  "lon": 14.2008
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Lofotr Viking Museum",
+  "date": "2028-07-29",
+  "lat": 68.24,
+  "lon": 13.7531
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Haukland Beach",
+  "date": "2028-07-30",
+  "lat": 68.198,
+  "lon": 13.5292
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Nusfjord",
+  "date": "2028-07-31",
+  "lat": 68.0353,
+  "lon": 13.3478
+ },
+ {
+  "leg": "tromso>lofoten",
+  "title": "Hamnøy",
+  "date": "2028-08-01",
+  "lat": 67.9469,
+  "lon": 13.1194
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Kjerringøy",
+  "date": "2028-08-03",
+  "lat": 67.5195,
+  "lon": 14.7643
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Saltstraumen",
+  "date": "2028-08-04",
+  "lat": 67.228,
+  "lon": 14.6164
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Saltfjellet–Svartisen National Park",
+  "date": "2028-08-06",
+  "lat": 66.6,
+  "lon": 14.1833
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Seven Sisters (mountains)",
+  "date": "2028-08-08",
+  "lat": 65.97,
+  "lon": 12.655
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Petter Dass Museum",
+  "date": "2028-08-10",
+  "lat": 65.8943,
+  "lon": 12.3968
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Torghatten",
+  "date": "2028-08-12",
+  "lat": 65.3983,
+  "lon": 12.0897
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Stiklestad",
+  "date": "2028-08-14",
+  "lat": 63.7955,
+  "lon": 11.5602
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Nidaros Cathedral",
+  "date": "2028-08-16",
+  "lat": 63.4267,
+  "lon": 10.3962
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Munkholmen",
+  "date": "2028-08-17",
+  "lat": 63.4523,
+  "lon": 10.3838
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Atlantic Ocean Road",
+  "date": "2028-08-19",
+  "lat": 63.0167,
+  "lon": 7.3545
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Ålesund",
+  "date": "2028-08-21",
+  "lat": 62.4723,
+  "lon": 6.1549
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Rampestreken",
+  "date": "2028-08-23",
+  "lat": 62.5608,
+  "lon": 7.7126
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Trollveggen",
+  "date": "2028-08-25",
+  "lat": 62.4824,
+  "lon": 7.7288
+ },
+ {
+  "leg": "lofoten>geiranger",
+  "title": "Trollstigen",
+  "date": "2028-08-27",
+  "lat": 62.4667,
+  "lon": 7.6667
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Dalsnibba",
+  "date": "2028-08-30",
+  "lat": 62.0479,
+  "lon": 7.2713
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Loen Skylift",
+  "date": "2028-08-31",
+  "lat": 61.8802,
+  "lon": 6.8366
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Briksdalsbreen",
+  "date": "2028-09-02",
+  "lat": 61.6658,
+  "lon": 6.89
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Urnes Stave Church",
+  "date": "2028-09-04",
+  "lat": 61.2981,
+  "lon": 7.3226
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Borgund Stave Church",
+  "date": "2028-09-05",
+  "lat": 61.0472,
+  "lon": 7.8122
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Stegastein",
+  "date": "2028-09-07",
+  "lat": 60.9086,
+  "lon": 7.2118
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Flåm Line",
+  "date": "2028-09-09",
+  "lat": 60.863,
+  "lon": 7.1132
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Nærøyfjord",
+  "date": "2028-09-10",
+  "lat": 60.9436,
+  "lon": 6.9314
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Bryggen",
+  "date": "2028-09-12",
+  "lat": 60.3972,
+  "lon": 5.3231
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Vøringsfossen",
+  "date": "2028-09-14",
+  "lat": 60.4269,
+  "lon": 7.2511
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Hardangervidda",
+  "date": "2028-09-15",
+  "lat": 60.1331,
+  "lon": 7.5311
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Heddal Stave Church",
+  "date": "2028-09-17",
+  "lat": 59.5796,
+  "lon": 9.1762
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Vemork",
+  "date": "2028-09-19",
+  "lat": 59.871,
+  "lon": 8.4937
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Oslo Opera House",
+  "date": "2028-09-20",
+  "lat": 59.9069,
+  "lon": 10.7536
+ },
+ {
+  "leg": "geiranger>stockholm",
+  "title": "Örebro Castle",
+  "date": "2028-09-22",
+  "lat": 59.2739,
+  "lon": 15.2153
+ },
+ {
+  "leg": "stockholm>home2",
+  "title": "Kadriorg Palace",
+  "date": "2028-09-25",
+  "lat": 59.4385,
+  "lon": 24.7908
+ },
+ {
+  "leg": "stockholm>home2",
+  "title": "Rummu",
+  "date": "2028-09-25",
+  "lat": 59.2308,
+  "lon": 24.2097
+ },
+ {
+  "leg": "stockholm>home2",
+  "title": "Padise Abbey",
+  "date": "2028-09-25",
+  "lat": 59.2242,
+  "lon": 24.1449
+ }
+]

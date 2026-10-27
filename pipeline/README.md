@@ -24,6 +24,8 @@ Films and `music.wav` are not committed.
   re-compressing; `--check` lists any photo that still has some. Run it before committing photos.
 - `build_credits.py` – `data/credits.json`: artist, licence and source for every photo, keyed by path
 - `export.py` – `data/trip.json` for the website: chapters, points with fixed IDs and day numbers, festivals
+- `build_bases.py` – the van's route base to base (`data/bases.json`) -> `cache/base_legs.json`; export.py uses it
+  for the drives and the route line
 
 ## Slideshow photos (website)
 1. `python pipeline/fetch_slides.py` – up to 10 candidates per point from Wikipedia, Commons and Openverse,
@@ -54,6 +56,8 @@ run from the repository root, in this order:
 2. `python pipeline/make_doc.py` – `docs/daily-highlights.md`
 3. `python pipeline/export.py` – `data/trip.json` (new place IDs appear here)
 4. `python pipeline/fetch_roads.py` then `python pipeline/export.py` again – real roads, km and times
+4b. Update `data/bases.json` (bases, nights, day trips), then `python pipeline/build_bases.py` and `export.py` –
+   the van's base-to-base route, which the site shows
 5. `python pipeline/fetch_countries.py`, `fetch_weather.py`, `fetch_descriptions.py` – new places only (cached)
 6. `python pipeline/fetch_slides.py`, review on `review_photos.py`, then `make_web_photos.py --suggested`
    and `build_credits.py` – photos for new places

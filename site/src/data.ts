@@ -7,13 +7,23 @@ export interface Point {
   day: number; chapter: number; leg: string; lat: number; lon: number; wikipedia?: string; link: string; country?: string;
 }
 /** A drive (or ferry) between consecutive places; from/to are missing at a ferry port. */
-export interface Drive { mode: "road" | "sea"; from?: string; to?: string; km?: number; min?: number; day: number; chapter: number; ferry?: string }
+export interface Drive { mode: "road" | "sea"; from?: string; to?: string; km?: number; min?: number; day: number; chapter: number; ferry?: string; base?: string }
+/** A stretch of days not in any chapter (the winter break). */
+export interface Break { name: string; start_day: number; end_day: number }
+/** A base camp (data/bases.json): the van stays here; nearby places are day trips on foot, by bike or by train. */
+export interface BasePlace { title: string; how: "base" | "walk" | "bike" | "train" | "on the way"; km: number; lon: number; lat: number; date: string }
+export interface Base {
+  id: string; name: string; center_place: string; station: string | null; lon: number; lat: number;
+  arrive: string; leave: string; nights: number; chapter: number; ferry_in: string | null;
+  campsites: { name: string; src: string | null; km: number }[];
+  drive_in_km?: number; drive_days?: number; places: BasePlace[]; on_the_way: BasePlace[];
+}
 export interface Ferry { name: string }
 export interface Festival { chapter: number; event: string; place: string; timing: string; dates: string; status: "on" | "near" | "missed"; our_pass: string; source: string; url: string }
 export interface Trip {
   festivals?: Festival[];
   title: string; subtitle: string; start_date: string; days: number; chapters: Chapter[]; points: Point[];
-  drives: Drive[]; ferries: Record<string, Ferry>;
+  drives: Drive[]; ferries: Record<string, Ferry>; breaks?: Break[];
 }
 export type Photos = Record<string, string[]>;
 /** Front-page words and photos (data/site.json). */
@@ -26,6 +36,8 @@ export interface Site {
   views: { name: string; view: string; text: string }[];
   footer: string[];
   bar_labels?: { chapter: number; text: string }[];
+  kalev?: { title: string; text: string; photos: { image: string; alt: string }[] };
+  van_page?: { history: string; photos: { image: string; alt: string }[] };
 }
 
 async function json<T>(path: string): Promise<T> {
@@ -35,13 +47,14 @@ async function json<T>(path: string): Promise<T> {
 }
 
 export async function loadAll() {
-  const [trip, photos, route, site] = await Promise.all([
+  const [trip, photos, route, site, bases] = await Promise.all([
     json<Trip>("data/trip.json"),
     json<Photos>("data/photos.json"),
     json<GeoJSON.FeatureCollection>("data/route-line.json"),
     json<Site>("data/site.json"),
+    json<{ bases: Base[] }>("data/bases.json").then((b) => b.bases).catch(() => [] as Base[]),
   ]);
-  return { trip, photos, route, site };
+  return { trip, photos, route, site, bases };
 }
 
 export interface Credit { place?: string; artist?: string; license?: string; license_url?: string; source?: string; url?: string }

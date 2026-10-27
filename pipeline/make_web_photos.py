@@ -7,6 +7,7 @@ assets/web/credits.json, which build_credits.py adds to data/credits.json.
 python pipeline/make_web_photos.py               saved (reviewed) points only
 python pipeline/make_web_photos.py --suggested   also unreviewed points, using the suggested photos
 python pipeline/make_web_photos.py --chapter 1   one chapter
+python pipeline/make_web_photos.py --points a,b  only these points (e.g. places new to the route)
 """
 import json, os, io, sys, time, hashlib, glob, urllib.parse
 from PIL import Image, ImageOps
@@ -43,7 +44,9 @@ def save(im, path, size):
     im.save(path, "JPEG", quality=80 if size > SMALL else 75, optimize=True, progressive=True)
 
 ch = int(sys.argv[sys.argv.index("--chapter") + 1]) if "--chapter" in sys.argv else None
+only = set(sys.argv[sys.argv.index("--points") + 1].split(",")) if "--points" in sys.argv else None
 for p in trip["points"]:
+    if only is not None and p["id"] not in only: continue
     pick = picks.get(p["id"])
     if not (pick and pick.get("reviewed")):
         pick = suggested(cands[p["id"]]) if "--suggested" in sys.argv and cands.get(p["id"], {}).get("items") else None

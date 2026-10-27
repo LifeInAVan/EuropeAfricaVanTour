@@ -3,7 +3,7 @@
  "hero": {
   "image": "assets/site/hero-merzouga.jpg",
   "kicker": "Peter, Dianne and Kalev",
-  "line": "From Pärnu to the Sahara and home through the Arctic: 400 days in our VW LT31 camper van.",
+  "line": "From Pärnu to the Sahara and home through the Arctic: 14 months in our VW LT31 camper van.",
   "caption": "Merzouga, Morocco",
   "credit_of": "assets/web/merzouga/1.jpg"
  },
@@ -11,14 +11,15 @@
   "title": "A year on the road, out and back from Estonia",
   "paragraphs": [
    "This is a lifetime goal: a long, slow camper tour of Europe and North Africa, starting and finishing at our base in Estonia.",
-   "<strong>Part one</strong> heads south through the Baltics, Central Europe and the Balkans, across Italy to Spain for La Vuelta, then Portugal, and on to Morocco for the winter, with a loop to the Sahara and a climb of Toubkal.",
-   "<strong>Part two</strong> comes home the long way through Spain, France, the Alps and Germany, in time for the Song Festival (Laulupidu) in Tallinn, then north into the Arctic and back down the Norwegian fjords.",
+   "<strong>Part one</strong> heads south through the Baltics, Central Europe and the Balkans, across Italy to Spain for La Vuelta, then Portugal, and a loop through Morocco to the Sahara with a climb of Toubkal. The van then stays in storage at Málaga over the winter while we fly home.",
+   "<strong>Part two</strong> comes home the long way through Spain, France, the Alps and Germany, then by ferry from Kiel to Lithuania and up through Latvia, in time for the Song Festival (Laulupidu) in Tallinn. Then north into the Arctic to Tromsø and back down the Norwegian fjords.",
+   "We travel base to base. The van stays one to five nights at each base, and we see the places nearby on foot, by bike or by train.",
    "This site is our working plan. Change the start date and every date moves with it; festivals are checked again against the new dates."
   ]
  },
  "chapters_intro": "Each chapter runs from one week to three months and ends where the trip changes: a ferry, a border, a season or a stop at home.",
  "van": {
-  "title": "Home for 400 days",
+  "title": "Home for 14 months",
   "image": "assets/site/van-hills.jpg",
   "alt": "The white VW LT31 Westfalia high-top with Martini stripes, parked on a wet road between green hills",
   "specs": [
@@ -96,5 +97,64 @@
    "chapter": 14,
    "text": "Laulupidu"
   }
- ]
+ ],
+ "kalev": {
+  "title": "Kalev",
+  "text": "Kalev is a Samoyed. He comes on every walk and bike ride from the bases, and rides the trains on a dog ticket.",
+  "photos": [
+   {
+    "image": "assets/site/kalev/1345.jpg",
+    "alt": "Kalev standing in shallow water on a beach"
+   },
+   {
+    "image": "assets/site/kalev/4651.jpg",
+    "alt": "Kalev in profile with hills behind"
+   },
+   {
+    "image": "assets/site/kalev/6497.jpg",
+    "alt": "Kalev lying on a sandy beach below the dunes"
+   },
+   {
+    "image": "assets/site/kalev/4319.jpg",
+    "alt": "Kalev sitting inside the van, looking out of the window"
+   },
+   {
+    "image": "assets/site/kalev/2436.jpg",
+    "alt": "Kalev lying in the heather"
+   },
+   {
+    "image": "assets/site/kalev/2814.jpg",
+    "alt": "Peter and Kalev on a hilltop cairn"
+   },
+   {
+    "image": "assets/site/kalev/2909.jpg",
+    "alt": "Kalev in snow in a mountain valley"
+   },
+   {
+    "image": "assets/site/kalev/9223.jpg",
+    "alt": "Kalev sitting on a bench under a cloudy sky"
+   }
+  ]
+ },
+ "van_page": {
+  "history": "data/van-history.md",
+  "photos": [
+   {
+    "image": "assets/site/van/1427.jpg",
+    "alt": "Dianne and Kalev beside the van in a field, with cattle behind"
+   },
+   {
+    "image": "assets/site/van/4351.jpg",
+    "alt": "The van parked outside a stone-built tea room"
+   },
+   {
+    "image": "assets/site/van/5825cdc1.jpg",
+    "alt": "Peter with the van in an underground car park"
+   },
+   {
+    "image": "assets/site/van/4388.jpg",
+    "alt": "Kalev and the crew with the van in the street"
+   }
+  ]
+ }
 }

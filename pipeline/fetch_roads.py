@@ -65,27 +65,31 @@ def simplify(pts, tol=TOL):
             keep[idx] = True; stack += [(i, idx), (idx, j)]
     return [[round(x, 5), round(y, 5)] for (x, y), k in zip((p[:2] for p in pts), keep) if k]
 
-limit = int(sys.argv[sys.argv.index("--segments") + 1]) if "--segments" in sys.argv else len(plan)
-legs, unroutable = [], []
-for n, seg in enumerate(plan[:limit], 1):
-    here = seg["from"]                                                  # id of the last place reached
-    for part in seg["parts"]:
-        if part["mode"] == "sea":
-            legs.append(dict(mode="sea", **{"from": here}, to=None, km=None, min=None,
-                             geom=[[round(x, 4), round(y, 4)] for x, y in part["geom"]]))
-            continue
-        way = [(here, part["geom"][0])] + [(by_title[t]["id"], [by_title[t]["lon"], by_title[t]["lat"]]) for t in part["hl"]]
-        end_id = seg["to"] if part is seg["parts"][-1] else None       # otherwise the road ends at a ferry port
-        way.append((end_id, part["geom"][-1]))
-        for (fa, a), (fb, b) in zip(way, way[1:]):
-            r = osrm(a, b)
-            if r is None:
-                unroutable.append((fa, fb)); r = dict(geom=[a, b], m=None, s=None)
-            legs.append({"mode": "road", "from": fa, "to": fb, "km": round(r["m"] / 1000, 1) if r["m"] is not None else None,
-                         "min": round(r["s"] / 60) if r["s"] is not None else None, "geom": simplify(r["geom"])})
-        here = end_id if end_id else here
-    log(f"{n}/{limit}", seg["from"], ">", seg["to"], "legs so far:", len(legs))
+def main():
+    limit = int(sys.argv[sys.argv.index("--segments") + 1]) if "--segments" in sys.argv else len(plan)
+    legs, unroutable = [], []
+    for n, seg in enumerate(plan[:limit], 1):
+        here = seg["from"]                                                  # id of the last place reached
+        for part in seg["parts"]:
+            if part["mode"] == "sea":
+                legs.append(dict(mode="sea", **{"from": here}, to=None, km=None, min=None,
+                                 geom=[[round(x, 4), round(y, 4)] for x, y in part["geom"]]))
+                continue
+            way = [(here, part["geom"][0])] + [(by_title[t]["id"], [by_title[t]["lon"], by_title[t]["lat"]]) for t in part["hl"]]
+            end_id = seg["to"] if part is seg["parts"][-1] else None       # otherwise the road ends at a ferry port
+            way.append((end_id, part["geom"][-1]))
+            for (fa, a), (fb, b) in zip(way, way[1:]):
+                r = osrm(a, b)
+                if r is None:
+                    unroutable.append((fa, fb)); r = dict(geom=[a, b], m=None, s=None)
+                legs.append({"mode": "road", "from": fa, "to": fb, "km": round(r["m"] / 1000, 1) if r["m"] is not None else None,
+                             "min": round(r["s"] / 60) if r["s"] is not None else None, "geom": simplify(r["geom"])})
+            here = end_id if end_id else here
+        log(f"{n}/{limit}", seg["from"], ">", seg["to"], "legs so far:", len(legs))
 
-json.dump(legs, open(os.path.join(HERE, "cache", "legs.json"), "w", encoding="utf-8", newline="\n"), separators=(",", ":"))
-km = sum(l["km"] or 0 for l in legs); pts = sum(len(l["geom"]) for l in legs)
-log(f"DONE. {len(legs)} legs, {km:,.0f} km by road, {pts:,} map points; no road found for: {unroutable}")
+    json.dump(legs, open(os.path.join(HERE, "cache", "legs.json"), "w", encoding="utf-8", newline="\n"), separators=(",", ":"))
+    km = sum(l["km"] or 0 for l in legs); pts = sum(len(l["geom"]) for l in legs)
+    log(f"DONE. {len(legs)} legs, {km:,.0f} km by road, {pts:,} map points; no road found for: {unroutable}")
+
+if __name__ == "__main__":
+    main()

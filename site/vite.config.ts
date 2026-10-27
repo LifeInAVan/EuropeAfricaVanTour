@@ -6,7 +6,7 @@ import { extname, join, normalize, resolve } from "node:path";
 // developing, copied into the build. There is only ever one copy of the data.
 const ROOT = resolve(import.meta.dirname, "..");
 const SHARED = ["data", "assets/web", "assets/site"];
-const TYPES: Record<string, string> = { ".json": "application/json", ".jpg": "image/jpeg" };
+const TYPES: Record<string, string> = { ".json": "application/json", ".jpg": "image/jpeg", ".md": "text/markdown; charset=utf-8" };
 
 function sharedFiles(): Plugin {
   return {

@@ -4385,5 +4385,113 @@
    43.4813776
   ],
   "wikipedia_unchecked": false
+ },
+ "Ziz River": {
+  "resolved": "Ziz River",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   -4.43,
+   32.15
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "River in the south of Morocco and Algeria"
+ },
+ "Midelt": {
+  "resolved": "Midelt",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   -4.74,
+   32.68
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "City in Drâa-Tafilalet, Morocco"
+ },
+ "Azrou": {
+  "resolved": "Azrou",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   -5.22,
+   33.43
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "City in Fez-Meknes, Morocco"
+ },
+ "Curonian Spit": {
+  "resolved": "Curonian Spit",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   21.005,
+   55.304
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "Sand dune spit on the Baltic"
+ },
+ "Petäjävesi Old Church": {
+  "resolved": "Petäjävesi Old Church",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   25.1839,
+   62.2501
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "UNESCO World Heritage Site in Petäjävesi, Finland"
+ },
+ "Oulu": {
+  "resolved": "Oulu",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   25.4649,
+   65.0139
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "City in North Ostrobothnia, Finland"
+ },
+ "Pallas-Yllästunturi National Park": {
+  "resolved": "Pallas-Yllästunturi National Park",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   24.06,
+   68.06
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "National park in Lapland region, Finland"
+ },
+ "Saana": {
+  "resolved": "Saana",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   20.85,
+   69.04
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "Mountain in Enontekiö municipality, Finland"
+ },
+ "Stiklestad": {
+  "resolved": "Stiklestad",
+  "missing": false,
+  "checked": true,
+  "coord_source": "reference-dates.json",
+  "coords": [
+   11.5602,
+   63.7955
+  ],
+  "wikipedia_unchecked": false,
+  "desc": "Village in Verdal Municipality, Norway"
  }
 }

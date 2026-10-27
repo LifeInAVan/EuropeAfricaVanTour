@@ -226,6 +226,13 @@
   "assets/web/aveiro-portugal/3.jpg",
   "assets/web/aveiro-portugal/4.jpg"
  ],
+ "azrou": [
+  "assets/web/azrou/0.jpg",
+  "assets/web/azrou/1.jpg",
+  "assets/web/azrou/2.jpg",
+  "assets/web/azrou/3.jpg",
+  "assets/web/azrou/4.jpg"
+ ],
  "bacharach": [
   "assets/web/bacharach/0.jpg",
   "assets/web/bacharach/1.jpg",
@@ -662,6 +669,13 @@
   "assets/web/cudillero/3.jpg",
   "assets/web/cudillero/4.jpg",
   "assets/web/cudillero/5.jpg"
+ ],
+ "curonian-spit": [
+  "assets/web/curonian-spit/0.jpg",
+  "assets/web/curonian-spit/1.jpg",
+  "assets/web/curonian-spit/2.jpg",
+  "assets/web/curonian-spit/3.jpg",
+  "assets/web/curonian-spit/4.jpg"
  ],
  "dades-gorges": [
   "assets/web/dades-gorges/0.jpg",
@@ -1419,6 +1433,13 @@
   "assets/web/maison-carree/3.jpg",
   "assets/web/maison-carree/4.jpg"
  ],
+ "malaga": [
+  "assets/web/malaga/0.jpg",
+  "assets/web/malaga/1.jpg",
+  "assets/web/malaga/2.jpg",
+  "assets/web/malaga/3.jpg",
+  "assets/web/malaga/4.jpg"
+ ],
  "malbork-castle": [
   "assets/web/malbork-castle/0.jpg",
   "assets/web/malbork-castle/1.jpg",
@@ -1493,6 +1514,13 @@
   "assets/web/metsovo/2.jpg",
   "assets/web/metsovo/3.jpg",
   "assets/web/metsovo/4.jpg"
+ ],
+ "midelt": [
+  "assets/web/midelt/0.jpg",
+  "assets/web/midelt/1.jpg",
+  "assets/web/midelt/2.jpg",
+  "assets/web/midelt/3.jpg",
+  "assets/web/midelt/4.jpg"
  ],
  "mikolajki": [
   "assets/web/mikolajki/0.jpg",
@@ -1738,6 +1766,13 @@
   "assets/web/oualidia/3.jpg",
   "assets/web/oualidia/4.jpg"
  ],
+ "oulu": [
+  "assets/web/oulu/0.jpg",
+  "assets/web/oulu/1.jpg",
+  "assets/web/oulu/2.jpg",
+  "assets/web/oulu/3.jpg",
+  "assets/web/oulu/4.jpg"
+ ],
  "ouzoud-falls": [
   "assets/web/ouzoud-falls/0.jpg",
   "assets/web/ouzoud-falls/1.jpg",
@@ -1765,6 +1800,13 @@
   "assets/web/palais-des-papes/2.jpg",
   "assets/web/palais-des-papes/3.jpg",
   "assets/web/palais-des-papes/4.jpg"
+ ],
+ "pallas-yllastunturi-national-park": [
+  "assets/web/pallas-yllastunturi-national-park/0.jpg",
+  "assets/web/pallas-yllastunturi-national-park/1.jpg",
+  "assets/web/pallas-yllastunturi-national-park/2.jpg",
+  "assets/web/pallas-yllastunturi-national-park/3.jpg",
+  "assets/web/pallas-yllastunturi-national-park/4.jpg"
  ],
  "palmse-manor": [
   "assets/web/palmse-manor/0.jpg",
@@ -1809,6 +1851,13 @@
   "assets/web/parnu/1.jpg",
   "assets/web/parnu/2.jpg",
   "assets/web/parnu/3.jpg"
+ ],
+ "pazaislis-monastery": [
+  "assets/web/pazaislis-monastery/0.jpg",
+  "assets/web/pazaislis-monastery/1.jpg",
+  "assets/web/pazaislis-monastery/2.jpg",
+  "assets/web/pazaislis-monastery/3.jpg",
+  "assets/web/pazaislis-monastery/4.jpg"
  ],
  "pena-palace": [
   "assets/web/pena-palace/0.jpg",
@@ -1857,6 +1906,13 @@
   "assets/web/perucica/1.jpg",
   "assets/web/perucica/2.jpg",
   "assets/web/perucica/3.jpg"
+ ],
+ "petajavesi-old-church": [
+  "assets/web/petajavesi-old-church/0.jpg",
+  "assets/web/petajavesi-old-church/1.jpg",
+  "assets/web/petajavesi-old-church/2.jpg",
+  "assets/web/petajavesi-old-church/3.jpg",
+  "assets/web/petajavesi-old-church/4.jpg"
  ],
  "petter-dass-museum": [
   "assets/web/petter-dass-museum/0.jpg",
@@ -2129,6 +2185,13 @@
   "assets/web/rundale-palace/3.jpg",
   "assets/web/rundale-palace/4.jpg"
  ],
+ "saana": [
+  "assets/web/saana/0.jpg",
+  "assets/web/saana/1.jpg",
+  "assets/web/saana/2.jpg",
+  "assets/web/saana/3.jpg",
+  "assets/web/saana/4.jpg"
+ ],
  "saarschleife": [
   "assets/web/saarschleife/0.jpg",
   "assets/web/saarschleife/1.jpg",
@@ -2400,6 +2463,13 @@
   "assets/web/stegastein/3.jpg",
   "assets/web/stegastein/4.jpg"
  ],
+ "stiklestad": [
+  "assets/web/stiklestad/0.jpg",
+  "assets/web/stiklestad/1.jpg",
+  "assets/web/stiklestad/2.jpg",
+  "assets/web/stiklestad/3.jpg",
+  "assets/web/stiklestad/4.jpg"
+ ],
  "stockholm": [
   "assets/web/stockholm/0.jpg",
   "assets/web/stockholm/1.jpg",
@@ -2621,6 +2691,13 @@
   "assets/web/trollveggen/2.jpg",
   "assets/web/trollveggen/3.jpg",
   "assets/web/trollveggen/4.jpg"
+ ],
+ "tromso": [
+  "assets/web/tromso/0.jpg",
+  "assets/web/tromso/1.jpg",
+  "assets/web/tromso/2.jpg",
+  "assets/web/tromso/3.jpg",
+  "assets/web/tromso/4.jpg"
  ],
  "trzesacz": [
   "assets/web/trzesacz/0.jpg",
@@ -2847,6 +2924,13 @@
   "assets/web/zagori/2.jpg",
   "assets/web/zagori/3.jpg",
   "assets/web/zagori/4.jpg"
+ ],
+ "ziz-river": [
+  "assets/web/ziz-river/0.jpg",
+  "assets/web/ziz-river/1.jpg",
+  "assets/web/ziz-river/2.jpg",
+  "assets/web/ziz-river/3.jpg",
+  "assets/web/ziz-river/4.jpg"
  ],
  "zwinger": [
   "assets/web/zwinger/0.jpg",
