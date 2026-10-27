@@ -28,8 +28,9 @@ export function renderHome(el: HTMLElement, trip: Trip, photos: Photos, site: Si
   const km = trip.drives.filter((d) => d.mode === "road").reduce((a, d) => a + (d.km ?? 0), 0);
   const countries = countriesInOrder(trip.points);
   const start = dateOf(trip.start_date, 0);
+  const breakDays = (trip.breaks ?? []).reduce((a, b) => a + b.end_day - b.start_day + 1, 0); // e.g. home for the winter
   const stats: [string, string][] = [
-    [String(trip.days), "days on the road"],
+    [String(trip.days + 1 - breakDays), "days on the road"],
     [Math.round(km).toLocaleString("en-GB"), "km of driving"],
     [String(countries.length), "countries"],
     [String(trip.points.length), "places to see"],
@@ -103,6 +104,7 @@ export function renderHome(el: HTMLElement, trip: Trip, photos: Photos, site: Si
         <h2>${esc(site.van.title)}</h2>
         <dl>${site.van.specs.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
         ${site.van.text ? `<p>${esc(site.van.text)}</p>` : ""}
+        <a class="btn" href="#v=van">More about the van</a>
       </div>
     </div>
     <div class="sect crew" id="crew">
@@ -111,6 +113,12 @@ export function renderHome(el: HTMLElement, trip: Trip, photos: Photos, site: Si
         <figcaption><strong>${esc(c.name)}</strong><span>${esc(c.text)}</span></figcaption></figure>`).join("")}</div>
     </div>
   </section>
+  ${site.kalev ? `<section class="sect kalev" id="kalev">
+    <p class="kicker">The crew</p>
+    <h2>${esc(site.kalev.title)}</h2>
+    <p class="intro">${esc(site.kalev.text)}</p>
+    <div class="kalev-grid">${site.kalev.photos.map((p) => `<img src="${p.image}" alt="${esc(p.alt)}" loading="lazy">`).join("")}</div>
+  </section>` : ""}
 
   <section class="sect" id="views-cards">
     <h2>Other ways to look at the trip</h2>
@@ -153,7 +161,8 @@ async function homeMap(trip: Trip, route: GeoJSON.FeatureCollection) {
   // numbered chapter circles at the middle place of each chapter; a dark dot at the start
   for (const c of trip.chapters) {
     const pts = trip.points.filter((p) => p.chapter === c.id);
-    const mid = pts[Math.floor(pts.length / 2)];
+    // a chapter with no new places (home for Laulupidu): where the van is at its start
+    const mid = pts[Math.floor(pts.length / 2)] ?? trip.points.findLast((p) => p.day <= c.start_day);
     if (!mid) continue;
     const a = document.createElement("a");
     a.className = "ch-marker"; a.href = `#c=${c.id}`; a.textContent = String(c.id);
