@@ -67,13 +67,17 @@ export interface PanelArgs {
   restNote?: string; // for a chapter with no new places: where the van stays
 }
 
+// Festival results (on route / near miss, "our pass") are hand-written for the route before change list 2
+// (27 Oct 2026), so they are hidden until phase 6 works them out from the dates.
+const SHOW_FESTIVALS = false;
+
 /** Cover, title, facts, festivals on our dates, filter pills, then the places grouped by day. */
 export function chapterPanel(a: PanelArgs) {
   const { trip, photos, chapter: c, shown } = a;
   const all = trip.points.filter((p) => p.chapter === c.id);
   const cover = coverOf(c, photos);
   const temps = a.weather ? all.map(a.hiOf).filter((t): t is number => t !== undefined) : [];
-  const fest = (trip.festivals ?? []).filter((f) => f.chapter === c.id && f.status === "on");
+  const fest = SHOW_FESTIVALS ? (trip.festivals ?? []).filter((f) => f.chapter === c.id && f.status === "on") : [];
   const present = TYPES.filter((t) => all.some((p) => a.kindOf(p) === t));
   const byDay = new Map<number, Point[]>();
   for (const p of shown) byDay.set(p.day, [...(byDay.get(p.day) ?? []), p]);
@@ -102,7 +106,7 @@ export function chapterPanel(a: PanelArgs) {
         <span class="muted">${countriesInOrder(all).map(esc).join(" → ")}</span></p>
       <div class="ch-chips">
         ${temps.length ? `<span class="chip-info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9A4F14" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>Typically ${Math.min(...temps)}–${Math.max(...temps)}°C by day</span>` : ""}
-        <span class="chip-info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D3B53" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>${fest.length} festival${fest.length === 1 ? "" : "s"} on our dates</span>
+        ${SHOW_FESTIVALS ? `<span class="chip-info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D3B53" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>${fest.length} festival${fest.length === 1 ? "" : "s"} on our dates</span>` : ""}
       </div>
       ${fest.length ? (() => { // the first three; any more behind "N more"
         const li = (f: (typeof fest)[number]) => `<li><strong>${esc(f.event)}, ${esc(f.place)}</strong><span>${esc(f.our_pass)}</span></li>`;
